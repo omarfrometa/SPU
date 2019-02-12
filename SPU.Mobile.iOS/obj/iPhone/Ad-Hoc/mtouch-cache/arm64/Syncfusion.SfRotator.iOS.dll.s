@@ -26701,7 +26701,7 @@ _mono_aot_file_info:
 	.long 256,1600,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 220,77,215,237,28,168,57,189,243,44,44,233,52,64,95,247
+	.byte 126,184,186,67,254,11,48,148,158,161,88,240,66,75,253,135
 	.globl _mono_aot_module_Syncfusion_SfRotator_iOS_info
 	.align 3
 _mono_aot_module_Syncfusion_SfRotator_iOS_info:

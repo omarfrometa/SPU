@@ -1,4 +1,4 @@
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/SPU.Mobile.iOS.exe
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/SPU.Mobile.iOS.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/lib/mono/Xamarin.iOS/mscorlib.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/lib/mono/Xamarin.iOS/../../64bits/Xamarin.iOS.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/lib/mono/Xamarin.iOS/System.dll
@@ -47,11 +47,11 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/lib/mono/Xamarin.iOS/Facades/System.ComponentModel.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/lib/mono/Xamarin.iOS/Facades/System.Xml.ReaderWriter.dll
 /Users/arieldelossantos/.nuget/packages/syncfusion.xamarin.sfrotator/16.4.0.48/lib/Xamarin.iOS10/Syncfusion.SfRotator.iOS.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile/bin/Debug/netstandard2.0/SPU.Mobile.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile/bin/Debug/netstandard2.0/SPU.Mobile.dll
 /Users/arieldelossantos/.nuget/packages/prism.unity.forms/7.0.0.396/lib/netstandard2.0/Prism.Unity.Forms.dll
 /Users/arieldelossantos/.nuget/packages/unity/5.5.5/lib/netstandard2.0/Unity.Abstractions.dll
 /Users/arieldelossantos/.nuget/packages/unity/5.5.5/lib/netstandard2.0/Unity.Container.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Realm.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Realm.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/lib/mono/Xamarin.iOS/Facades/System.IO.FileSystem.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/lib/mono/Xamarin.iOS/Facades/System.Runtime.InteropServices.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/lib/mono/Xamarin.iOS/Facades/System.Dynamic.Runtime.dll

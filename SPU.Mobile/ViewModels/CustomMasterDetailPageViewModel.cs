@@ -51,13 +51,13 @@ namespace SPU.Mobile.ViewModels
 
         async void NavigateToSelectedItem(SideMenuItem menuItemSelected)
         {
-            if (menuItemSelected.Title == "Iniciar Sesion")
+            if (menuItemSelected.Title == "Home")
             {
-                await _navigationService.NavigateAsync(new Uri("/CustomMasterDetailsPage/NavigationPage/LoginPage", UriKind.Absolute));
+                await _navigationService.NavigateAsync(menuItemSelected.Route);
             }
             else
             {
-                await _navigationService.NavigateAsync(menuItemSelected.Route);
+                await _navigationService.NavigateAsync("NavigationPage" + NavigationConstants.LoginPage);
             }
 
         }
@@ -118,15 +118,7 @@ namespace SPU.Mobile.ViewModels
 
             };
 
-            if (!SPUSettings.UserIsLogged)
-            {
-                itemsMenu.Insert(0, new SideMenuItem()
-                {
-                    Title = "Iniciar Sesion",
-                    Route = Helpers.NavigationConstants.LoginPage,
-                    IconSource = "home"
-                });
-            }
+
             MenuItems = new ObservableCollection<SideMenuItem>(itemsMenu);
 
         }

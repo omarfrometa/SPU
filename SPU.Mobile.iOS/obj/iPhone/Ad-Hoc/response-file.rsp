@@ -1,5 +1,5 @@
-"--cache=/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/mtouch-cache"
-"--dev=/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/SPU.Mobile.iOS.app"
+--cache=/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/mtouch-cache
+--dev=/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/SPU.Mobile.iOS.app
 --executable=SPU.Mobile.iOS
 --linksdkonly
 --sdkroot=/Applications/Xcode.app/Contents/Developer
@@ -8,13 +8,13 @@
 --aot-options=-O=-float32
 --http-message-handler=HttpClientHandler
 --abi=arm64
-"--symbollist=/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/mtouch-symbols.list"
+--symbollist=/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/mtouch-symbols.list
 --dsym=no
 --cxx
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Microsoft.CSharp.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/OpenTK-1.0.dll
-"-r=/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile/bin/Debug/netstandard2.0/SPU.Mobile.dll"
+-r=/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile/bin/Debug/netstandard2.0/SPU.Mobile.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Net.Http.dll
@@ -162,8 +162,8 @@
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XDocument.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XmlDocument.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll
-"-r=/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Realm.dll"
-"-r=/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Realm.Sync.dll"
+-r=/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Realm.dll
+-r=/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Realm.Sync.dll
 -r=/Users/arieldelossantos/.nuget/packages/acr.userdialogs/7.0.1/lib/xamarinios10/Acr.UserDialogs.dll
 -r=/Users/arieldelossantos/.nuget/packages/btprogresshud/1.2.0.6/lib/Xamarin.iOS10/BTProgressHUD.dll
 -r=/Users/arieldelossantos/.nuget/packages/newtonsoft.json/10.0.3/lib/netstandard1.3/Newtonsoft.Json.dll
@@ -223,7 +223,7 @@
 -r=/Users/arieldelossantos/.nuget/packages/xamarin.forms/3.3.0.967583/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/arieldelossantos/.nuget/packages/xamarin.forms/3.3.0.967583/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/arieldelossantos/.nuget/packages/xamarin.forms/3.3.0.967583/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
-"-r=/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile/bin/Debug/netstandard2.0/SPU.Mobile.dll"
+-r=/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile/bin/Debug/netstandard2.0/SPU.Mobile.dll
 --target-framework=Xamarin.iOS,v1.0
-"--root-assembly=/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/SPU.Mobile.iOS.exe"
+--root-assembly=/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/SPU.Mobile.iOS.exe
 

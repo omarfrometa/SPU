@@ -933,7 +933,7 @@ _mono_aot_file_info:
 	.long 48,1016,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 69,8,86,138,218,50,45,78,68,135,92,98,202,188,247,149
+	.byte 56,153,224,205,207,198,181,35,193,83,158,47,253,109,110,21
 	.globl _mono_aot_module_Prism_Unity_Forms_info
 	.align 3
 _mono_aot_module_Prism_Unity_Forms_info:

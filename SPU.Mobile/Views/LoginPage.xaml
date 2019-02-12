@@ -52,9 +52,8 @@
                     </Label.GestureRecognizers>
                 </Label>
                
-               
                 <!--      Login Redes Sociales          -->
-                <Grid Grid.Row="4" RowSpacing="5" Padding="{OnIdiom Phone=0,Tablet=15,0,15,0}" VerticalOptions="StartAndExpand">
+                <Grid Grid.Row="4" RowSpacing="5" ColumnSpacing="20" Padding="{OnIdiom Phone=0,Tablet=15,0,15,0}" VerticalOptions="StartAndExpand">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="*"/>
@@ -62,9 +61,9 @@
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
+                       
                     </Grid.ColumnDefinitions>
-                    <Grid Grid.Row="0" Grid.ColumnSpan="3" Opacity="0.6" Padding="{OnIdiom Phone=10,5,Tablet=25,0}">
+                    <Grid Grid.Row="0" Grid.ColumnSpan="2" Opacity="0.6" Padding="{OnIdiom Phone=10,5,Tablet=25,0}">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*"/>
                             <ColumnDefinition Width="Auto"/>
@@ -74,30 +73,30 @@
                         <Label Grid.Column="1" Text="Inicia sesion con tu red social" TextColor="{StaticResource BlueColor}" FontAttributes="Bold" FontSize="15" VerticalTextAlignment="Center"/>
                         <BoxView Grid.Column="2" HeightRequest="0.5" VerticalOptions="CenterAndExpand" BackgroundColor="{StaticResource BlueColor}" />
                     </Grid>
-                    <StackLayout Grid.Row="1" Grid.Column="0" >
+                    <StackLayout Padding="15,0" Grid.Row="1" Grid.Column="0" >
                         <Image Source="facebookicon.png" VerticalOptions="StartAndExpand" 
-                               HorizontalOptions="CenterAndExpand" Aspect="AspectFit" HeightRequest="{OnIdiom Phone=50,Tablet=100}"/>
+                               HorizontalOptions="EndAndExpand" Aspect="AspectFit" HeightRequest="{OnIdiom Phone=50,Tablet=100}"/>
                         
                         <StackLayout.GestureRecognizers>
                             <TapGestureRecognizer NumberOfTapsRequired="1"/>
                         </StackLayout.GestureRecognizers>
                     </StackLayout>
-                    <StackLayout Grid.Row="1" Grid.Column="1" >
+                    <StackLayout Padding="15,0" Grid.Row="1" Grid.Column="1" >
                         <Image Source="twitterIcon.png" VerticalOptions="StartAndExpand" 
-                               HorizontalOptions="CenterAndExpand" Aspect="AspectFit" HeightRequest="{OnIdiom Phone=50,Tablet=100}"/>
+                               HorizontalOptions="StartAndExpand" Aspect="AspectFit" HeightRequest="{OnIdiom Phone=50,Tablet=100}"/>
                         
                         <StackLayout.GestureRecognizers>
                             <TapGestureRecognizer NumberOfTapsRequired="1"/>
                         </StackLayout.GestureRecognizers>
                     </StackLayout>
-                    
+                   <!-- 
                     <StackLayout Grid.Row="1" Grid.Column="2" >
                         <Image Source="googleicon.png" VerticalOptions="StartAndExpand" 
                                HorizontalOptions="CenterAndExpand" Aspect="AspectFit" HeightRequest="{OnIdiom Phone=50,Tablet=100}"/>
                         <StackLayout.GestureRecognizers>
                             <TapGestureRecognizer NumberOfTapsRequired="1"/>
                         </StackLayout.GestureRecognizers>
-                    </StackLayout>
+                    </StackLayout>-->
                 </Grid>
                 <!--    END  Login Redes Sociales          -->
                 

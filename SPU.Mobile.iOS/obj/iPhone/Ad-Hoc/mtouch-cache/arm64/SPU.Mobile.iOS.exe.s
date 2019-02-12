@@ -368,7 +368,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "7D59FC26-F7AF-4D3B-8B01-5EFBCF1CF236"
+	.asciz "F9558C6C-E910-4E0D-9D41-40AA7853EF27"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -453,7 +453,7 @@ _mono_aot_file_info:
 	.long 32,872,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 238,221,64,82,81,184,76,1,128,128,14,18,93,81,4,9
+	.byte 153,32,50,146,251,224,55,25,59,230,188,177,52,6,181,125
 	.globl _mono_aot_module_SPU_Mobile_iOS_info
 	.align 3
 _mono_aot_module_SPU_Mobile_iOS_info:

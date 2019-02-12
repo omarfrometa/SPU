@@ -1,128 +1,129 @@
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/SPU.Mobile.iOS.exe
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Acr.UserDialogs.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/BTProgressHUD.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Newtonsoft.Json.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Prism.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Prism.Forms.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Prism.Unity.Forms.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/PropertyChanged.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Realm.Sync.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Realm.Sync.pdb
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Realm.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Realm.pdb
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Realm.DataBinding.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Realm.DataBinding.pdb
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Remotion.Linq.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Syncfusion.Licensing.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Syncfusion.Core.XForms.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Syncfusion.Core.XForms.iOS.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Syncfusion.SfRotator.XForms.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Syncfusion.SfRotator.XForms.iOS.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Syncfusion.SfRotator.iOS.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/System.Runtime.CompilerServices.Unsafe.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/CommonServiceLocator.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/CommonServiceLocator.pdb
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Unity.Abstractions.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Unity.Abstractions.pdb
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Unity.Container.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Unity.Container.pdb
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Unity.ServiceLocation.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Unity.ServiceLocation.pdb
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Xamarin.Essentials.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Xamarin.Essentials.pdb
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Xamarin.Forms.Core.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Xamarin.Forms.Core.pdb
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Xamarin.Forms.Platform.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Xamarin.Forms.Platform.iOS.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Xamarin.Forms.Platform.iOS.pdb
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Xamarin.Forms.Xaml.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Xamarin.Forms.Xaml.pdb
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/ar/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/ca/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/cs/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/da/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/de/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/el/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/es/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/fi/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/fr/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/he/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/hi/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/hr/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/hu/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/id/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/it/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/ja/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/ko/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/ms/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/nb/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/nl/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/pl/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/pt/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/ro/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/ru/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/sk/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/sv/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/th/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/tr/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/uk/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/vi/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/SPU.Mobile.dll
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/SPU.Mobile.pdb
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/ibtool/_BundleResourceWithLogicalName.items
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/actool/_PartialAppManifest.items
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/actool/_BundleResourceWithLogicalName.items
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/coremlc/_PartialAppManifest.items
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/coremlc/_BundleResourceWithLogicalName.items
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/logoindotel.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/logoindotel@2x.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/logoindotel@3x.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/facebookicon.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/facebookicon@2x.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/facebookicon@3x.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/googleicon.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/googleicon@2x.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/googleicon@3x.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/twitterIcon.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/twitterIcon@2x.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/twitterIcon@3x.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/emptyprofile.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/emptyprofile@2x.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/emptyprofile@3x.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/book.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/book@2x.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/book@3x.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/casee.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/casee@2x.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/casee@3x.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/compare.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/compare@2x.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/compare@3x.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/contactus.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/contactus@2x.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/contactus@3x.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/faq.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/faq@2x.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/faq@3x.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/hands.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/hands@2x.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/hands@3x.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/simulator.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/simulator@2x.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/simulator@3x.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/home.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/home@2x.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/home@3x.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/menu.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/menu@2x.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/menu@3x.png
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/SPU.Mobile.iOS.csproj.CoreCompileInputs.cache
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/XamlC.stamp
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/SPU.Mobile.iOS.csproj.CopyComplete
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/SPU.Mobile.iOS.exe
-/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/SPU.Mobile.iOS.csprojAssemblyReference.cache
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/SPU.Mobile.iOS.exe
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Acr.UserDialogs.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/BTProgressHUD.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Newtonsoft.Json.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Prism.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Prism.Forms.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Prism.Unity.Forms.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/PropertyChanged.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Realm.Sync.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Realm.Sync.pdb
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Realm.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Realm.pdb
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Realm.DataBinding.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Realm.DataBinding.pdb
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Remotion.Linq.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Syncfusion.Licensing.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Syncfusion.Core.XForms.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Syncfusion.Core.XForms.iOS.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Syncfusion.SfRotator.XForms.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Syncfusion.SfRotator.XForms.iOS.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Syncfusion.SfRotator.iOS.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/System.Runtime.CompilerServices.Unsafe.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/CommonServiceLocator.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/CommonServiceLocator.pdb
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Unity.Abstractions.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Unity.Abstractions.pdb
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Unity.Container.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Unity.Container.pdb
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Unity.ServiceLocation.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Unity.ServiceLocation.pdb
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Xamarin.Essentials.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Xamarin.Essentials.pdb
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Xamarin.Forms.Core.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Xamarin.Forms.Core.pdb
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Xamarin.Forms.Platform.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Xamarin.Forms.Platform.iOS.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Xamarin.Forms.Platform.iOS.pdb
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Xamarin.Forms.Xaml.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/Xamarin.Forms.Xaml.pdb
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/ar/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/ca/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/cs/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/da/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/de/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/el/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/es/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/fi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/fr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/he/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/hi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/hr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/hu/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/id/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/it/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/ja/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/ko/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/ms/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/nb/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/nl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/pl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/pt/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/ro/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/ru/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/sk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/sv/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/th/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/tr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/uk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/vi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/SPU.Mobile.dll
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/bin/iPhone/Ad-Hoc/SPU.Mobile.pdb
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/ibtool/_BundleResourceWithLogicalName.items
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/actool/_PartialAppManifest.items
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/actool/_BundleResourceWithLogicalName.items
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/coremlc/_PartialAppManifest.items
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/coremlc/_BundleResourceWithLogicalName.items
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/logoindotel.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/logoindotel@2x.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/logoindotel@3x.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/facebookicon.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/facebookicon@2x.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/facebookicon@3x.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/googleicon.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/googleicon@2x.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/googleicon@3x.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/twitterIcon.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/twitterIcon@2x.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/twitterIcon@3x.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/emptyprofile.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/emptyprofile@2x.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/emptyprofile@3x.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/book.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/book@2x.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/book@3x.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/casee.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/casee@2x.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/casee@3x.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/compare.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/compare@2x.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/compare@3x.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/contactus.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/contactus@2x.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/contactus@3x.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/faq.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/faq@2x.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/faq@3x.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/hands.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/hands@2x.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/hands@3x.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/simulator.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/simulator@2x.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/simulator@3x.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/home.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/home@2x.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/home@3x.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/menu.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/menu@2x.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/menu@3x.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/image2.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/optimized/
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/SPU.Mobile.iOS.csprojAssemblyReference.cache
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/SPU.Mobile.iOS.csproj.CoreCompileInputs.cache
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/XamlC.stamp
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/SPU.Mobile.iOS.csproj.CopyComplete
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/SPU.Mobile.iOS.exe

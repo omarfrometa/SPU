@@ -17,7 +17,7 @@ namespace SPU.Mobile.ViewModels
             var imageList = new List<RotatorImages>()
             {
                 new RotatorImages("image1.jpg"),
-                new RotatorImages("image2.jpg"),
+                new RotatorImages("image2.png"),
                 new RotatorImages("image3.jpg")
             };
             ImageCollection = new ObservableCollection<RotatorImages>(imageList);
