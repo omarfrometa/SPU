@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="SPU.Mobile.Views.ProfilePage"
+             xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+             Title="Mi Perfil"
+             IsBusy="{Binding IsBusy}">
+    <ContentPage.Content>
+        <TableView Intent="Form" HasUnevenRows="true">
+            <TableRoot>
+                <TableSection Title="Configuracion personal">
+                    <ViewCell>
+                        <ViewCell.View>
+                            <Grid Padding="10" ColumnSpacing="5">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="1"/>
+                                    <RowDefinition Height="Auto"/>
+                                   <!-- <RowDefinition Height="1"/>
+                                    <RowDefinition Height="Auto"/>-->
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="40"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid Padding="0,15,0,10" Grid.ColumnSpan="2">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <border:SfBorder BorderColor="{StaticResource RedColor}" CornerRadius="{OnIdiom Phone=200,Tablet=280}" 
+                                                 HorizontalOptions="Center"
+                                                 VerticalOptions="Center" BorderWidth="2">
+                                            <Image Source="emptyprofile.png" HeightRequest="{OnIdiom Phone=100,Tablet=140}" 
+                                                   WidthRequest="{OnIdiom Phone=100,Tablet=140}" Aspect="AspectFit" 
+                                                   HorizontalOptions="CenterAndExpand"/>
+                                    </border:SfBorder>
+                                    
+                                    <Label Text="Actualizar mi Foto" Grid.Row="1" Margin="0,10" TextDecorations="Underline" TextColor="{StaticResource RedColor}"
+                                           FontSize="{OnIdiom Phone=15,Tablet=18}" FontAttributes="Bold"
+                                           VerticalTextAlignment="Center" HorizontalTextAlignment="Center" >
+                                            <Label.GestureRecognizers>
+                                                <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding DoEditProfilePhotoCommand}"/>
+                                            </Label.GestureRecognizers>
+                                    </Label>
+                                </Grid>
+                                <StackLayout Padding="10" Grid.Row="1" Grid.Column="1">
+                                    <Label Text="Actualizar mis datos" StyleClass="ProfileOptionLabel"/>
+                                    <StackLayout.GestureRecognizers>
+                                       <TapGestureRecognizer Command="{Binding GoToEditProfileCommand}"/>
+                                    </StackLayout.GestureRecognizers>
+                                </StackLayout>
+                                <BoxView Grid.Row="2" Grid.ColumnSpan="2" HeightRequest="0.3" Margin="10,0,0,0"
+                                         BackgroundColor="{StaticResource RedColor}" VerticalOptions="CenterAndExpand"/>
+                                <StackLayout Padding="10" Grid.Row="3" Grid.Column="1">
+                                    <Label Text="Cambiar contrasena" StyleClass="ProfileOptionLabel"/>
+                                    <StackLayout.GestureRecognizers>
+                                       <TapGestureRecognizer Command="{Binding GoToChangePasswordCommand}" />
+                                    </StackLayout.GestureRecognizers>
+                                </StackLayout>
+                                <!--<BoxView Grid.Row="3" HeightRequest="0.4" Grid.ColumnSpan="2" BackgroundColor="{StaticResource RedColor}" VerticalOptions="CenterAndExpand"/>
+                                <StackLayout Padding="10" Grid.Row="4" Grid.Column="1">
+                                    <Label Text="Por Familia de producto"/>
+                                    <StackLayout.GestureRecognizers>
+                                       <TapGestureRecognizer Command="{Binding GoToOrdenesReportCommand}" CommandParameter="familia"/>
+                                    </StackLayout.GestureRecognizers>
+                                </StackLayout>-->
+                            </Grid>
+                        </ViewCell.View>
+                    </ViewCell>
+                </TableSection>
+                <TableSection Title="">
+                    <ViewCell>
+                        <ViewCell.View>
+                            <Grid Padding="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="1"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="1"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="40"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                
+                               <StackLayout Padding="10" Grid.Row="0" Grid.Column="1">
+                                    <Label Text="Mis casos" StyleClass="ProfileOptionLabel"/>
+                                    <StackLayout.GestureRecognizers>
+                                       <TapGestureRecognizer Command="{Binding GoToMyCasesCommand}"/>
+                                    </StackLayout.GestureRecognizers>
+                                </StackLayout>
+                                <BoxView Grid.Row="1" Grid.ColumnSpan="2" HeightRequest="0.3" Margin="10,0,0,0"
+                                         BackgroundColor="{StaticResource RedColor}" VerticalOptions="CenterAndExpand"/>
+                                <StackLayout Padding="10" Grid.Row="2" Grid.Column="1">
+                                    <Label Text="Proxima conciliacion" StyleClass="ProfileOptionLabel"/>
+                                    <StackLayout.GestureRecognizers>
+                                       <TapGestureRecognizer Command="{Binding GoToConciliacionesCommand}" CommandParameter="producto"/>
+                                    </StackLayout.GestureRecognizers>
+                                </StackLayout>
+                                <BoxView Grid.Row="3" Grid.ColumnSpan="2" HeightRequest="0.3" Margin="10,0,0,0"
+                                         BackgroundColor="{StaticResource RedColor}" VerticalOptions="CenterAndExpand"/>
+                                <StackLayout Padding="10" Grid.Row="4" Grid.Column="1">
+                                    <Label Text="Repositorio de Documentos" StyleClass="ProfileOptionLabel"/>
+                                    <StackLayout.GestureRecognizers>
+                                       <TapGestureRecognizer Command="{Binding GoToDocumentRepositoryCommand}" CommandParameter="familia"/>
+                                    </StackLayout.GestureRecognizers>
+                                </StackLayout>
+                            </Grid>
+                        </ViewCell.View>
+                    </ViewCell>
+                </TableSection>
+                <TableSection Title="Seguridad">
+                    <ViewCell>
+                        <ViewCell.View>
+                            <Grid Padding="10">
+                                
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="40"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                
+                               <StackLayout Padding="10" Orientation="Horizontal" Grid.Row="0" Grid.Column="1">
+                                    <Label Text="Autenticacion con Huella" HorizontalOptions="StartAndExpand" StyleClass="ProfileOptionLabel"/>
+                                    <Switch HorizontalOptions="EndAndExpand"/>
+                                </StackLayout>
+                               
+                            </Grid>
+                        </ViewCell.View>
+                    </ViewCell>
+                </TableSection>
+                <TableSection Title="">
+                    <ViewCell>
+                        <ViewCell.View>
+                            <Grid Padding="10">
+                                
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="40"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                
+                               <StackLayout Padding="10" Grid.Row="0" Grid.Column="1">
+                                    <Label Text="Cerrar Sesion" StyleClass="ProfileOptionLabel"/>
+                                    <StackLayout.GestureRecognizers>
+                                       <TapGestureRecognizer Command="{Binding DoLogOffCommand}"/>
+                                    </StackLayout.GestureRecognizers>
+                                </StackLayout>
+                               
+                            </Grid>
+                        </ViewCell.View>
+                    </ViewCell>
+                </TableSection>
+                
+            </TableRoot>
+        </TableView>
+    </ContentPage.Content>
+</ContentPage>

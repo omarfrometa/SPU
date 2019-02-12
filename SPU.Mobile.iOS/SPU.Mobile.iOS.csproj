@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+        <ProductVersion>8.0.30703</ProductVersion>
+        <SchemaVersion>2.0</SchemaVersion>
+        <ProjectGuid>{B4C0EE4C-2B2C-4FE3-A4A7-68F7EBACEDD8}</ProjectGuid>
+        <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+        <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
+        <OutputType>Exe</OutputType>
+        <RootNamespace>SPU.Mobile.iOS</RootNamespace>
+        <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+        <AssemblyName>SPU.Mobile.iOS</AssemblyName>
+        <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
+        <NuGetPackageImportStamp>
+        </NuGetPackageImportStamp>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+        <DefineConstants>DEBUG</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <ConsolePause>false</ConsolePause>
+        <MtouchArch>x86_64</MtouchArch>
+        <MtouchLink>None</MtouchLink>
+        <MtouchDebug>true</MtouchDebug>
+        <CodesignKey>iPhone Developer</CodesignKey>
+        <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+        <CodesignProvision>SUPProvProf</CodesignProvision>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+        <DebugType>none</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <MtouchLink>None</MtouchLink>
+        <MtouchArch>x86_64</MtouchArch>
+        <ConsolePause>false</ConsolePause>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\iPhone\Debug</OutputPath>
+        <DefineConstants>DEBUG</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <ConsolePause>false</ConsolePause>
+        <MtouchArch>ARM64</MtouchArch>
+        <CodesignKey>iPhone Developer</CodesignKey>
+        <MtouchDebug>true</MtouchDebug>
+        <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+        <DebugType>none</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\iPhone\Release</OutputPath>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <MtouchArch>ARM64</MtouchArch>
+        <ConsolePause>false</ConsolePause>
+        <CodesignKey>iPhone Developer</CodesignKey>
+        <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
+        <DebugType>none</DebugType>
+        <Optimize>True</Optimize>
+        <OutputPath>bin\iPhone\Ad-Hoc</OutputPath>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <ConsolePause>False</ConsolePause>
+        <MtouchArch>ARM64</MtouchArch>
+        <BuildIpa>True</BuildIpa>
+        <CodesignProvision>SUPProf</CodesignProvision>
+        <CodesignKey>iPhone Distribution</CodesignKey>
+        <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+        <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">
+        <DebugType>none</DebugType>
+        <Optimize>True</Optimize>
+        <OutputPath>bin\iPhone\AppStore</OutputPath>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <ConsolePause>False</ConsolePause>
+        <MtouchArch>ARM64</MtouchArch>
+        <CodesignProvision>Automatic:AppStore</CodesignProvision>
+        <CodesignKey>iPhone Distribution</CodesignKey>
+        <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    </PropertyGroup>
+    <ItemGroup>
+        <Compile Include="Main.cs" />
+        <Compile Include="AppDelegate.cs" />
+        <None Include="Entitlements.plist" />
+        <None Include="Info.plist" />
+        <Compile Include="Properties\AssemblyInfo.cs" />
+        <None Include="FodyWeavers.xml" />
+    </ItemGroup>
+    <ItemGroup>
+        <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    </ItemGroup>
+    <ItemGroup>
+        <Reference Include="System" />
+        <Reference Include="System.Xml" />
+        <Reference Include="System.Core" />
+        <Reference Include="Xamarin.iOS" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Xamarin.Forms" Version="3.3.0.967583" />
+        <PackageReference Include="Acr.UserDialogs">
+            <Version>7.0.1</Version>
+        </PackageReference>
+        <PackageReference Include="Prism.Unity.Forms">
+            <Version>7.0.0.396</Version>
+        </PackageReference>
+        <PackageReference Include="Prism.Core">
+            <Version>7.0.0.396</Version>
+        </PackageReference>
+        <PackageReference Include="Prism.Forms">
+            <Version>7.0.0.396</Version>
+        </PackageReference>
+        <PackageReference Include="Xamarin.Essentials">
+            <Version>1.0.1</Version>
+        </PackageReference>
+        <PackageReference Include="Syncfusion.Xamarin.Core">
+          <Version>16.4.0.48</Version>
+        </PackageReference>
+        <PackageReference Include="Realm">
+          <Version>3.4.0</Version>
+        </PackageReference>
+        <PackageReference Include="Syncfusion.Xamarin.SfRotator">
+          <Version>16.4.0.48</Version>
+        </PackageReference>
+    </ItemGroup>
+    <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+    <ItemGroup>
+        <ProjectReference Include="..\SPU.Mobile\SPU.Mobile.csproj">
+            <Project>{E9E91910-933A-463A-AEF0-F12884F2BE9F}</Project>
+            <Name>SPU.Mobile</Name>
+        </ProjectReference>
+    </ItemGroup>
+    <ItemGroup>
+      <BundleResource Include="Resources\logoindotel.png" />
+      <BundleResource Include="Resources\logoindotel%402x.png" />
+      <BundleResource Include="Resources\logoindotel%403x.png" />
+      <BundleResource Include="Resources\facebookicon.png" />
+      <BundleResource Include="Resources\facebookicon%402x.png" />
+      <BundleResource Include="Resources\facebookicon%403x.png" />
+      <BundleResource Include="Resources\googleicon.png" />
+      <BundleResource Include="Resources\googleicon%402x.png" />
+      <BundleResource Include="Resources\googleicon%403x.png" />
+      <BundleResource Include="Resources\twitterIcon.png" />
+      <BundleResource Include="Resources\twitterIcon%402x.png" />
+      <BundleResource Include="Resources\twitterIcon%403x.png" />
+      <BundleResource Include="Resources\emptyprofile.png" />
+      <BundleResource Include="Resources\emptyprofile%402x.png" />
+      <BundleResource Include="Resources\emptyprofile%403x.png" />
+      <BundleResource Include="Resources\book.png" />
+      <BundleResource Include="Resources\book%402x.png" />
+      <BundleResource Include="Resources\book%403x.png" />
+      <BundleResource Include="Resources\casee.png" />
+      <BundleResource Include="Resources\casee%402x.png" />
+      <BundleResource Include="Resources\casee%403x.png" />
+      <BundleResource Include="Resources\compare.png" />
+      <BundleResource Include="Resources\compare%402x.png" />
+      <BundleResource Include="Resources\compare%403x.png" />
+      <BundleResource Include="Resources\contactus.png" />
+      <BundleResource Include="Resources\contactus%402x.png" />
+      <BundleResource Include="Resources\contactus%403x.png" />
+      <BundleResource Include="Resources\faq.png" />
+      <BundleResource Include="Resources\faq%402x.png" />
+      <BundleResource Include="Resources\faq%403x.png" />
+      <BundleResource Include="Resources\hands.png" />
+      <BundleResource Include="Resources\hands%402x.png" />
+      <BundleResource Include="Resources\hands%403x.png" />
+      <BundleResource Include="Resources\simulator.png" />
+      <BundleResource Include="Resources\simulator%402x.png" />
+      <BundleResource Include="Resources\simulator%403x.png" />
+      <BundleResource Include="Resources\home.png" />
+      <BundleResource Include="Resources\home%402x.png" />
+      <BundleResource Include="Resources\home%403x.png" />
+      <BundleResource Include="Resources\menu.png" />
+      <BundleResource Include="Resources\menu%402x.png" />
+      <BundleResource Include="Resources\menu%403x.png" />
+      <BundleResource Include="Resources\image1.jpg" />
+      <BundleResource Include="Resources\image2.jpg" />
+      <BundleResource Include="Resources\image3.jpg" />
+    </ItemGroup>
+    <ItemGroup>
+      <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
+      <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\40.png" />
+      <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\60.png" />
+      <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\58.png" />
+      <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\87.png" />
+      <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\80.png" />
+      <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\120.png" />
+      <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\180.png" />
+      <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\20.png" />
+      <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\29.png" />
+      <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\76.png" />
+      <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\152.png" />
+      <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\167.png" />
+      <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\100.png" />
+      <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\1024.png" />
+    </ItemGroup>
+</Project>

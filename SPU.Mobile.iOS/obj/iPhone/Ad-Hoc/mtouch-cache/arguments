@@ -1,0 +1,4 @@
+# Version: 12.2.1.13 (d15-9: a4332c90)
+# [first argument, ignore] # @/Users/arieldelossantos/Projects/XAM Frometa Projects/SPU.Mobile/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/response-file.rsp
+/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/lib/mtouch/mtouch.exe \
+	'--gcc_flags=-L/Users/arieldelossantos/.nuget/packages/realm/3.4.0/build/../native/ios/universal -lrealm-wrappers -lz -framework Security' \

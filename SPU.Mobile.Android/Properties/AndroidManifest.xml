@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="2" android:versionName="1.0.2" package="com.Indotel.SPU_Mobile">
+	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="27" />
+	<application android:label="SPU.Mobile.Android" android:icon="@mipmap/ic_launcher"></application>
+</manifest>

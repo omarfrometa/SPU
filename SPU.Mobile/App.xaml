@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prism:PrismApplication xmlns="http://xamarin.com/schemas/2014/forms" 
+                        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+                        xmlns:prism="clr-namespace:Prism.Unity;assembly=Prism.Unity.Forms"
+                        x:Class="SPU.Mobile.App">
+     <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="bgColor">#ffffff</Color>
+            <Color x:Key="WhiteColor">#ffffff</Color>
+            <Color x:Key="RedColor">#b42028</Color>
+            <Color x:Key="BlueColor">#032a53</Color>
+           
+            <Style TargetType="Label" Class="ButtonTextLabel" >
+                <!--<Setter Property="Label.FontFamily">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="Android">OpenSans-Bold.ttf#OpenSans-Bold</On>
+                            <On Platform="iOS">OpenSans-Bold</On>
+                        </OnPlatform>
+                    </Setter.Value>
+                </Setter>-->
+                <Setter Property="FontSize" Value="18" />
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="TextColor" Value="{StaticResource WhiteColor}" />
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+            </Style>
+            <Style TargetType="Label" Class="ImportantLabel" >
+                <!--<Setter Property="Label.FontFamily">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="Android">OpenSans-Bold.ttf#OpenSans-Bold</On>
+                            <On Platform="iOS">OpenSans-Bold</On>
+                        </OnPlatform>
+                    </Setter.Value>
+                </Setter>-->
+                <Setter Property="FontSize" Value="16" />
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+                <Setter Property="HorizontalTextAlignment" Value="Start" />
+            </Style>
+            
+            <Style TargetType="Label" Class="HomeTags" >
+                <!--<Setter Property="Label.FontFamily">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="Android">OpenSans-Bold.ttf#OpenSans-Bold</On>
+                            <On Platform="iOS">OpenSans-Bold</On>
+                        </OnPlatform>
+                    </Setter.Value>
+                </Setter>-->
+                <Setter Property="FontSize" Value="18" />
+                <Setter Property="TextColor" Value="{StaticResource BlueColor}"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+            </Style>
+            <Style TargetType="Label" Class="ProfileOptionLabel" >
+                <!--<Setter Property="Label.FontFamily">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="Android">OpenSans-Bold.ttf#OpenSans-Bold</On>
+                            <On Platform="iOS">OpenSans-Bold</On>
+                        </OnPlatform>
+                    </Setter.Value>
+                </Setter>-->
+                <Setter Property="FontSize" Value="17" />
+                <Setter Property="TextColor" Value="{StaticResource BlueColor}"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+                <Setter Property="HorizontalTextAlignment" Value="Start" />
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+
+</prism:PrismApplication>

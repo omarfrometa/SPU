@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+             x:Class="SPU.Mobile.Views.LoginPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid Padding="{OnIdiom Phone=20,15,20,0,Tablet=70,40,70,5}" 
+                  VerticalOptions="CenterAndExpand" 
+                  RowSpacing="{OnIdiom Phone=10,Tablet=25}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                
+                <Image Grid.Row="0" Source="logoindotel.png" HeightRequest="{OnIdiom Phone=100,Tablet=250}" 
+                       Aspect="AspectFit" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                
+                <StackLayout Grid.Row="1" Spacing="0" Padding="{OnIdiom Phone=0,10,0,0,Tablet=0,5,0,0}" >
+                    <inputLayout:SfTextInputLayout Hint="Correo Electronico" ContainerType="Outlined" FocusedColor="{StaticResource BlueColor}" 
+                                                   FocusedStrokeWidth="4" UnfocusedStrokeWidth="2">
+                        <Entry Text="{Binding UserLogin.Email}" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                    </inputLayout:SfTextInputLayout>
+                    
+                    <inputLayout:SfTextInputLayout Hint="Contraseña" EnablePasswordVisibilityToggle="true" FocusedColor="{StaticResource BlueColor}"
+                                                   ContainerType="Outlined" FocusedStrokeWidth="4" UnfocusedStrokeWidth="2">
+                        <Entry Text="{Binding UserLogin.Password}" IsPassword="true" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                    </inputLayout:SfTextInputLayout>
+                    <StackLayout  Orientation="Horizontal" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" Spacing="20">
+                       <Label StyleClass="ImportantLabel" Text="Recuerdame"/> <Switch VerticalOptions="CenterAndExpand" IsToggled="{Binding RememberMe}" />
+                    </StackLayout>
+                </StackLayout>
+                
+                <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}" Grid.Row="2"
+                                   HeightRequest="40" WidthRequest="40" Color="{StaticResource BlueColor}"/>
+                <Frame Grid.Row="2" BackgroundColor="{StaticResource RedColor}" IsVisible="{Binding IsNotBusy}" 
+                       Padding="{OnIdiom Phone=20,12,Tablet=20}" HasShadow="false" CornerRadius="8">
+                    <Label Text="Iniciar Sesion" StyleClass="ButtonTextLabel" />
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding DoLoginCommand}"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+                
+                <Label Grid.Row="3" Text="Olvide mi contraseña?" StyleClass="ImportantLabel"
+                       TextColor="RoyalBlue" HorizontalTextAlignment="End" VerticalTextAlignment="Center">
+                     <Label.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding GoToPasswordRecoveryCommand}"/>
+                    </Label.GestureRecognizers>
+                </Label>
+               
+               
+                <!--      Login Redes Sociales          -->
+                <Grid Grid.Row="4" RowSpacing="5" Padding="{OnIdiom Phone=0,Tablet=15,0,15,0}" VerticalOptions="StartAndExpand">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Row="0" Grid.ColumnSpan="3" Opacity="0.6" Padding="{OnIdiom Phone=10,5,Tablet=25,0}">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <BoxView Grid.Column="0" HeightRequest="0.5" VerticalOptions="CenterAndExpand" BackgroundColor="{StaticResource BlueColor}" />
+                        <Label Grid.Column="1" Text="Inicia sesion con tu red social" TextColor="{StaticResource BlueColor}" FontAttributes="Bold" FontSize="15" VerticalTextAlignment="Center"/>
+                        <BoxView Grid.Column="2" HeightRequest="0.5" VerticalOptions="CenterAndExpand" BackgroundColor="{StaticResource BlueColor}" />
+                    </Grid>
+                    <StackLayout Grid.Row="1" Grid.Column="0" >
+                        <Image Source="facebookicon.png" VerticalOptions="StartAndExpand" 
+                               HorizontalOptions="CenterAndExpand" Aspect="AspectFit" HeightRequest="{OnIdiom Phone=50,Tablet=100}"/>
+                        
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1"/>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                    <StackLayout Grid.Row="1" Grid.Column="1" >
+                        <Image Source="twitterIcon.png" VerticalOptions="StartAndExpand" 
+                               HorizontalOptions="CenterAndExpand" Aspect="AspectFit" HeightRequest="{OnIdiom Phone=50,Tablet=100}"/>
+                        
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1"/>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                    
+                    <StackLayout Grid.Row="1" Grid.Column="2" >
+                        <Image Source="googleicon.png" VerticalOptions="StartAndExpand" 
+                               HorizontalOptions="CenterAndExpand" Aspect="AspectFit" HeightRequest="{OnIdiom Phone=50,Tablet=100}"/>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1"/>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                </Grid>
+                <!--    END  Login Redes Sociales          -->
+                
+                <StackLayout Grid.Row="5">
+                    <Label Text="No tengo cuenta? Registarme" StyleClass="ImportantLabel"
+                       TextColor="RoyalBlue" HorizontalTextAlignment="Center" VerticalTextAlignment="End" 
+                       VerticalOptions="EndAndExpand"/>
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding GoToRegistrationCommand}"/>
+                    </StackLayout.GestureRecognizers>
+                </StackLayout>
+                
+               
+                
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
