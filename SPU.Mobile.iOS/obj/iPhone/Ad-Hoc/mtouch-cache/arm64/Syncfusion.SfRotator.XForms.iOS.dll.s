@@ -7136,7 +7136,7 @@ _mono_aot_file_info:
 	.long 120,2656,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 187,143,107,130,250,204,253,78,79,110,231,153,105,30,220,118
+	.byte 110,137,159,138,79,7,11,126,151,91,35,5,200,135,250,214
 	.globl _mono_aot_module_Syncfusion_SfRotator_XForms_iOS_info
 	.align 3
 _mono_aot_module_Syncfusion_SfRotator_XForms_iOS_info:

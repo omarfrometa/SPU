@@ -67209,7 +67209,7 @@ _mono_aot_file_info:
 	.long 1352,20152,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 9,102,227,173,55,62,87,103,96,18,53,95,112,3,60,152
+	.byte 151,83,7,180,115,52,101,210,199,233,114,59,91,15,86,215
 	.globl _mono_aot_module_Prism_Forms_info
 	.align 3
 _mono_aot_module_Prism_Forms_info:

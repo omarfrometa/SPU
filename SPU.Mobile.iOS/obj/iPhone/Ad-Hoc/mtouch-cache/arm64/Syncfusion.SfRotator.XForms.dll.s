@@ -6596,7 +6596,7 @@ _mono_aot_file_info:
 	.long 136,1728,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 9,9,170,198,137,155,246,252,112,184,210,72,92,170,114,132
+	.byte 132,66,91,0,201,171,253,114,57,221,183,235,253,156,102,50
 	.globl _mono_aot_module_Syncfusion_SfRotator_XForms_info
 	.align 3
 _mono_aot_module_Syncfusion_SfRotator_XForms_info:

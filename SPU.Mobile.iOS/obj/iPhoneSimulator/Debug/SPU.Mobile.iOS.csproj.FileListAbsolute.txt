@@ -251,6 +251,7 @@
 /Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/menu.png
 /Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/menu@2x.png
 /Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/menu@3x.png
+/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/image2.png
 /Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/
 /Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhoneSimulator/Debug/SPU.Mobile.iOS.csprojAssemblyReference.cache
 /Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhoneSimulator/Debug/SPU.Mobile.iOS.csproj.CoreCompileInputs.cache
@@ -258,4 +259,3 @@
 /Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhoneSimulator/Debug/SPU.Mobile.iOS.csproj.CopyComplete
 /Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhoneSimulator/Debug/SPU.Mobile.iOS.exe
 /Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhoneSimulator/Debug/SPU.Mobile.iOS.pdb
-/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/optimized/image2.png

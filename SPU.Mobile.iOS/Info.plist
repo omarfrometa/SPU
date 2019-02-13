@@ -23,7 +23,7 @@
 	<key>MinimumOSVersion</key>
 	<string>8.0</string>
 	<key>CFBundleDisplayName</key>
-	<string>SPU</string>
+	<string>INDOTEL</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.Indotel.SPU-Mobile</string>
 	<key>UILaunchStoryboardName</key>
@@ -33,8 +33,8 @@
 	<key>CFBundleName</key>
 	<string>SPU</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.3</string>
+	<string>1.0.4</string>
 	<key>CFBundleVersion</key>
-	<string>3</string>
+	<string>4</string>
 </dict>
 </plist>

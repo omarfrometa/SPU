@@ -749,7 +749,7 @@ _mono_aot_file_info:
 	.long 40,576,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 98,125,78,190,170,7,16,77,114,229,213,136,248,97,84,238
+	.byte 172,200,49,29,106,201,28,158,23,168,157,66,22,80,18,16
 	.globl _mono_aot_module_System_Reflection_TypeExtensions_info
 	.align 3
 _mono_aot_module_System_Reflection_TypeExtensions_info:

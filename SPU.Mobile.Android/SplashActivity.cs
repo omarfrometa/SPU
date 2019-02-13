@@ -14,7 +14,7 @@ using SPU.Mobile.Droid;
 
 namespace LF2020App.Droid
 {
-    [Activity(Label = "SPU", Theme = "@style/Theme.Splash", MainLauncher = true, NoHistory = true)]
+    [Activity(Label = "INDOTEL", Theme = "@style/Theme.Splash", MainLauncher = true, NoHistory = true)]
     public class SplashActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

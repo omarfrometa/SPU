@@ -205,7 +205,7 @@
       <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\76.png" />
       <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\152.png" />
       <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\167.png" />
-      <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\100.png" />
       <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\1024.png" />
+      <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\100.png" />
     </ItemGroup>
 </Project>

@@ -135,7 +135,6 @@
 /Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.Android/bin/Release/SPU.Mobile.pdb
 /Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.Android/obj/Release/SPU.Mobile.Android.nuget.stamp
 /Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.Android/obj/Release/MonoAndroid,Version=v8.1.AssemblyAttributes.cs
-/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.Android/obj/Release/SPU.Mobile.Android.csprojAssemblyReference.cache
 /Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.Android/obj/Release/libraryimports.cache.stamp
 /Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.Android/obj/Release/res.flag
 /Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.Android/obj/Release/SPU.Mobile.Android.csproj.CoreCompileInputs.cache

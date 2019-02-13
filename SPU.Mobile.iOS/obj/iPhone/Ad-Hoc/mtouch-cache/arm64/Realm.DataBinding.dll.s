@@ -5624,7 +5624,7 @@ _mono_aot_file_info:
 	.long 168,2208,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 33,96,88,138,62,134,231,8,131,55,247,88,149,210,182,135
+	.byte 138,190,245,53,63,152,64,46,248,48,82,247,176,58,2,208
 	.globl _mono_aot_module_Realm_DataBinding_info
 	.align 3
 _mono_aot_module_Realm_DataBinding_info:

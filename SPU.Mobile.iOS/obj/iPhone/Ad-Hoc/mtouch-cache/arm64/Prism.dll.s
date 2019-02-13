@@ -24425,7 +24425,7 @@ _mono_aot_file_info:
 	.long 560,7040,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 215,243,146,181,225,212,75,248,28,33,212,8,20,229,195,237
+	.byte 239,34,248,185,42,31,76,165,67,205,203,99,73,250,157,241
 	.globl _mono_aot_module_Prism_info
 	.align 3
 _mono_aot_module_Prism_info:

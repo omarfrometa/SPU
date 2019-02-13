@@ -1737,7 +1737,7 @@ _mono_aot_file_info:
 	.long 96,1200,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 30,244,214,243,195,21,153,148,37,240,246,218,176,170,164,225
+	.byte 43,57,26,67,189,255,79,21,94,176,200,238,212,50,4,237
 	.globl _mono_aot_module_System_Runtime_CompilerServices_Unsafe_info
 	.align 3
 _mono_aot_module_System_Runtime_CompilerServices_Unsafe_info:
