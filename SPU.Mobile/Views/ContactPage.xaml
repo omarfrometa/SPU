@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="SPU.Mobile.Views.ContactPage"
+             xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+             xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+             Title="{Binding Title}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="inicio.png" Priority="1"/>
+        <!--<ToolbarItem Text="Limpiar" Priority="0" Command="{Binding DoCleanFieldsCommand}"/>-->
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                
+                <Grid Grid.Row="0" RowSpacing="5" Padding="15,10,5,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+          
+                    <StackLayout Grid.Row="0" Padding="0,5" HorizontalOptions="StartAndExpand" Orientation="Horizontal" Spacing="1">
+                        <Image Source="contactos.png" HeightRequest="{OnIdiom Phone=35,Tablet=45}"
+                           Aspect="AspectFit" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand"/>
+                        <Label Text="Contacto" StyleClass="SpuTitle"/>
+                    </StackLayout>
+                </Grid>
+                
+                <Grid Grid.Row="1" VerticalOptions="StartAndExpand" Padding="{OnIdiom Phone=25,0,25,5,Tablet=70,0,70,5}" 
+                      RowSpacing="{OnIdiom Phone=10,Tablet=25}" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                        
+                   
+                    <Picker Grid.Row="0" Title="Categoria" HeightRequest="40" ItemsSource="{Binding ContactCategoryTypes}" 
+                            SelectedItem="{Binding SelectedCategory}" TextColor="{StaticResource BlueColor}" 
+                            VerticalOptions="CenterAndExpand" />
+                       <!--<Picker.Items>
+                            <x:String>Categoria 1</x:String>
+                            <x:String>Categoria 2</x:String>
+                            <x:String>Categoria 3</x:String>
+                       </Picker.Items>
+                    </Picker>-->
+                    
+                    <Grid Grid.Row="1" >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <BoxView Grid.Column="0" HeightRequest="0.5" VerticalOptions="CenterAndExpand" BackgroundColor="{StaticResource SPUTags}" />
+                        <Label Grid.Column="1" Text="Evianos tu inquietud" TextColor="{StaticResource SPUTags}" FontAttributes="Bold" FontSize="15" VerticalTextAlignment="Center"/>
+                        <BoxView Grid.Column="2" HeightRequest="0.5" VerticalOptions="CenterAndExpand" BackgroundColor="{StaticResource SPUTags}" />
+                    </Grid>
+                    
+                    
+                    <StackLayout Grid.Row="2" Spacing="3" VerticalOptions="CenterAndExpand" >
+                        <inputLayout:SfTextInputLayout Hint="Tu Correo"  ContainerType="Outlined"
+                                                       FocusedColor="{StaticResource SPUColor}" ErrorText="Correo Electronico Requerido" 
+                                                       HasError="{Binding EmailHasError}" ErrorColor="{StaticResource RedColor}"
+                                                       FocusedStrokeWidth="2" UnfocusedStrokeWidth="1">
+                            <Entry Keyboard="Text" Text="{Binding ContactForm.Email}" TextColor="{StaticResource BlueColor}" Focused="HandleEmail_Focused"  FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                        </inputLayout:SfTextInputLayout>  
+                        
+                        <inputLayout:SfTextInputLayout Hint="Motivo" x:Name="lblTitular" ContainerType="Outlined"
+                                                       FocusedColor="{StaticResource SPUColor}" ErrorText="El Motivo Requerido" 
+                                                       HasError="{Binding MotiveHasError}" ErrorColor="{StaticResource RedColor}"
+                                                       FocusedStrokeWidth="2" UnfocusedStrokeWidth="1">
+                            <Entry Keyboard="Text" Text="{Binding ContactForm.Motive}" TextColor="{StaticResource BlueColor}" Focused="HandleMotive_Focused" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                        </inputLayout:SfTextInputLayout>  
+                        
+                        
+                        
+                        <StackLayout Orientation="Vertical" Spacing="2" Padding="0" >
+                            <Label Text="Describe tu inquietud" class="ImportantLabel"/>
+                            <Frame BackgroundColor="Transparent" BorderColor="{StaticResource SPUColor}"  Margin="0"
+                                    Padding="{OnIdiom Phone=5,Tablet=10}" HasShadow="false" CornerRadius="8">
+                                    <Editor Text="{Binding ContactForm.Description}" TextColor="{StaticResource BlueColor}" 
+                                            HeightRequest="{OnIdiom Phone=100,Tablet=200}"/>
+                            </Frame>
+                        </StackLayout>
+                        
+                        
+                        <StackLayout Padding="10,25,5,10" HorizontalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="3">
+                            <Image Source="depositodocu" HeightRequest="{OnIdiom Phone=40,Tablet=60}" 
+                                   Aspect="AspectFit" HorizontalOptions="StartAndExpand" VerticalOptions="EndAndExpand"/>
+                            <Label Text="Adjuntar Archivo" VerticalTextAlignment="Center" 
+                                   FontSize="{OnIdiom Phone=18,Tablet=20}" HorizontalTextAlignment="Start"
+                                   TextColor="{StaticResource SPUColor}"/>
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding UploadContactDocumentCommand}" />
+                            </Frame.GestureRecognizers>
+                        </StackLayout>
+                        <StackLayout Padding="25,5" IsVisible="{Binding ContactForm.Attached}" >
+                            <Label Text="Documento Cargado" StyleClass="ImportantLabel" HorizontalTextAlignment="Center"  />
+                            <Label  FontSize="17" Text="{Binding DocInfo}" TextColor="{StaticResource BlueColor}" VerticalTextAlignment="End"  />
+                        </StackLayout>
+                    </StackLayout>
+                    
+                </Grid>
+                <ActivityIndicator Grid.Row="2" IsVisible="{Binding IsBusy}" VerticalOptions="StartAndExpand" IsRunning="{Binding IsBusy}" 
+                                       HeightRequest="40" WidthRequest="40" Color="{StaticResource SPUColor}"/>
+                    
+                <Frame Grid.Row="2" BackgroundColor="{StaticResource BlueColor}" IsVisible="{Binding IsNotBusy}" Margin="25,0"
+                       Padding="{OnIdiom Phone=20,5,Tablet=20,10}" HasShadow="false" VerticalOptions="StartAndExpand" CornerRadius="8">
+                    <Label Text="Enviar" StyleClass="ButtonTextLabel" />
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding DoSendCommand}" />
+                    </Frame.GestureRecognizers>
+                </Frame>
+                
+                <Grid Grid.Row="3" RowSpacing="7" Padding="{OnIdiom Phone=5,Tablet=30,15,30,10}" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="1"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="1"/>
+                    </Grid.RowDefinitions>
+                        
+                    <Grid Grid.Row="0" VerticalOptions="CenterAndExpand" >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        
+                        <Label Grid.Row="0" Text="@IndotelRD" HorizontalTextAlignment="Center" Grid.ColumnSpan="3" 
+                               TextColor="{StaticResource SPUTags}"/>
+                     
+                        <Image Source="facebookicon.png" HeightRequest="20" Aspect="AspectFit" Grid.Row="1" Grid.Column="0"/>
+                        <Image Source="twitterIcon.png" HeightRequest="20" Aspect="AspectFit" Grid.Row="1" Grid.Column="1"/>
+                        <Image Source="googleicon.png" HeightRequest="20" Aspect="AspectFit" Grid.Row="1" Grid.Column="2"/>
+                        
+                        <Label Grid.Row="2" Text="www.indotel.gob.do" HorizontalTextAlignment="Center" 
+                               Grid.ColumnSpan="3" TextColor="{StaticResource SPUTags}"/>
+                    </Grid>
+                        
+                    <BoxView Grid.Row="0" Grid.Column="1" WidthRequest="0.5" Margin="0,7" BackgroundColor="{StaticResource SPUTags}"/>
+                    
+                    <Grid Grid.Row="0" Grid.Column="2" ColumnSpacing="5" VerticalOptions="CenterAndExpand" >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="35"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        
+                     
+                        <Image Grid.RowSpan="2" Source="llamada.png" HeightRequest="30" Aspect="AspectFit"/>
+                        <Label Grid.Row="0" Text="LINEA GRATUITA" FontSize="15"
+                               HorizontalTextAlignment="Start" Grid.Column="1"
+                               TextColor="{StaticResource SPUTags}"/>
+                        <Label Grid.Row="1" Text="(809)200-9707" HorizontalTextAlignment="Start" 
+                               Grid.Column="1" TextColor="{StaticResource SPUTags}"/>
+                       
+                        <Grid.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding DoFreeCallCommand}"  />
+                        </Grid.GestureRecognizers>
+                    </Grid>
+                       
+                    <BoxView Grid.Row="1" Grid.ColumnSpan="3" HeightRequest="0.5" Margin="10,0"
+                             VerticalOptions="EndAndExpand" BackgroundColor="{StaticResource SPUTags}"/>
+                </Grid>
+                
+                
+                
+                
+              
+              
+            </Grid>
+         </ScrollView>    
+    </ContentPage.Content>
+</ContentPage>

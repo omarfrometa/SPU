@@ -29,6 +29,12 @@ namespace SPU.Mobile.ViewModels
             try
             {
                 IsBusy = true;
+                if (string.IsNullOrWhiteSpace(EmailorPhone))
+                {
+                    await _userDialogs.AlertAsync("Debe indicar el correo o el telefono.", "Error", "Aceptar");
+                    return;
+                }
+
                 var response = await _apiManager.PostPasswordRecoveryAsync(EmailorPhone);
 
                 await _userDialogs.AlertAsync("Solicitud enviada.Verifique su correo.", "Alerta", "Aceptar");

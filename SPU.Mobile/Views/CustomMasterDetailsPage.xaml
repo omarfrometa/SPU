@@ -2,65 +2,76 @@
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
-             x:Class="SPU.Mobile.Views.CustomMasterDetailsPage">
+             x:Class="SPU.Mobile.Views.CustomMasterDetailsPage"
+             Title="{Binding Title}">
    <MasterDetailPage.Master>
-        <ContentPage Title="Menu" Icon="menu.png" BackgroundColor="{StaticResource bgColor}">
+        <ContentPage Title="Menu" Icon="menu.png" BackgroundColor="#F2F2F2">
             <ContentPage.Content>
-            <Grid RowSpacing="20" Padding="0,30,0,20" >
+            <Grid RowSpacing="20" Padding="0,30,0,5">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
-                    <StackLayout Padding="0,30,0,0" Spacing="10">
-                       <!-- <ffimageloading:CachedImage HorizontalOptions="Center" VerticalOptions="Center"
-                                WidthRequest="100" HeightRequest="100" Aspect="AspectFit"
-                                DownsampleToViewSize="true"
-                                Source = "{Binding UserPic}">
-                            <ffimageloading:CachedImage.Transformations>
-                                        <fftransformations:CircleTransformation />
-                                    </ffimageloading:CachedImage.Transformations>
-                        </ffimageloading:CachedImage>-->
-                        <border:SfBorder BorderColor="{StaticResource RedColor}" CornerRadius="{OnIdiom Phone=240,Tablet=400}" 
+                    <StackLayout Padding="0,10,0,0" Spacing="5">
+                        <StackLayout Orientation="Horizontal"  HorizontalOptions="CenterAndExpand"
+                                  VerticalOptions="StartAndExpand" Spacing="10" Padding="{OnIdiom Phone=0,10,0,5,Tablet=0,10,0,10}">
+                            <Image Aspect="AspectFit" Source="editarperfil" HeightRequest="20" WidthRequest="20"/>
+                            <Label TextColor="{StaticResource BlueColor}" 
+                                   FontSize="{OnIdiom Phone=15,Tablet=18}" VerticalTextAlignment="Center" Text="Mi perfil"/> 
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding GoToProfileCommand}"/>
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>              <!--IsVisible="{Binding ShowGoToProfile}"-->
+                        <border:SfBorder BorderColor="{StaticResource BlueColor}" CornerRadius="{OnIdiom Phone=180,Tablet=240}" 
                                          HorizontalOptions="Center"
                                          VerticalOptions="Center" BorderWidth="2">
-                            <Image Source="emptyprofile.png" HeightRequest="{OnIdiom Phone=120,Tablet=200}" 
-                                   WidthRequest="{OnIdiom Phone=120,Tablet=200}" Aspect="AspectFit" 
+                            <Image Source="emptyprofile.png" HeightRequest="{OnIdiom Phone=90,Tablet=170}" 
+                                   WidthRequest="{OnIdiom Phone=90,Tablet=170}" Aspect="AspectFit" 
                                    HorizontalOptions="CenterAndExpand"/>
                         </border:SfBorder>
-                        <Label Text="{Binding ActiveUser.LocalDisplayName}" TextColor="{StaticResource BlueColor}"
+                        <Label Text="{Binding LocalDisplayName}" TextColor="{StaticResource BlueColor}"
                                FontSize="{OnIdiom Phone=18,Tablet=22}" FontAttributes="Bold"
                                VerticalTextAlignment="Center" HorizontalTextAlignment="Center" />
                        
-                        <Label Text=" Ver mi perfil " IsVisible="{Binding ActiveUser.ShowGoToProfile}" Margin="0,10" TextColor="{StaticResource RedColor}"
+                       <!-- <Label Text=" Ver mi perfil " IsVisible="{Binding ShowGoToProfile}" Margin="0,10" TextColor="{StaticResource RedColor}"
                                FontSize="{OnIdiom Phone=15,Tablet=18}" FontAttributes="Bold"
                                VerticalTextAlignment="Center" HorizontalTextAlignment="Center">
                                 <Label.GestureRecognizers>
                                     <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding GoToProfileCommand}"/>
                                 </Label.GestureRecognizers>
-                        </Label>
+                        </Label>-->
                     </StackLayout>
                     <ListView Grid.Row="1" ItemsSource="{Binding MenuItems}" SelectedItem="{Binding MenuItemSelected}" 
                               BackgroundColor="Transparent" SeparatorVisibility="None" HasUnevenRows="true" ItemSelected="Handle_ItemSelected">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
-                                    <Grid Padding="10,20,5,0" RowSpacing="5" ColumnSpacing="5" VerticalOptions="CenterAndExpand">
+                                   <!-- <StackLayout Padding="10,25,5,0" Spacing="0">
+                                        <Image Source="{Binding IconSource}" HeightRequest="{OnIdiom Phone=60,Tablet=110}" 
+                                               Aspect="AspectFit" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand"/>
+                                        <Label Text="{Binding Title}" VerticalTextAlignment="Start" 
+                                               FontSize="{OnIdiom Phone=18,Tablet=20}" HorizontalTextAlignment="Center"
+                                               TextColor="{StaticResource BlueColor}"/>
+                                    </StackLayout>-->
+                                    <Grid Padding="10,20,5,0" RowSpacing="8" ColumnSpacing="8" VerticalOptions="CenterAndExpand">
                                         <Grid.RowDefinitions>
-                                            <RowDefinition Height="Auto"/>
-                                            <RowDefinition Height="1"/>
+                                           <RowDefinition Height="Auto"/>
+                                           <RowDefinition Height="1"/>
                                         </Grid.RowDefinitions>
                                         <Grid.ColumnDefinitions>
-                                            <ColumnDefinition Width="40"/>
+                                            <ColumnDefinition Width="50"/>
                                             <ColumnDefinition Width="*"/>
                                         </Grid.ColumnDefinitions>
                                         
-                                        <Image Grid.RowSpan="2" Source="{Binding IconSource}" HeightRequest="{OnIdiom Phone=20,Tablet=35}" 
-                                                WidthRequest="{OnIdiom Phone=25,Tablet=30}" Aspect="AspectFit" 
-                                               HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                                        <Image Source="{Binding IconSource}" HeightRequest="{OnIdiom Phone=30,Tablet=45}" 
+                                            WidthRequest="{OnIdiom Phone=30,Tablet=45}" Aspect="AspectFit" 
+                                           HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                                        
                                         <Label Grid.Column="1" Grid.Row="0" Text="{Binding Title}" VerticalTextAlignment="Center" 
                                                FontSize="{OnIdiom Phone=18,Tablet=20}" TextColor="{StaticResource BlueColor}"/>
+                                       
                                         <BoxView Grid.Column="1" Grid.Row="1" Margin="0,0,8,0" HeightRequest="0.5" HorizontalOptions="FillAndExpand" 
-                                                 BackgroundColor="{StaticResource RedColor}" VerticalOptions="EndAndExpand"/>
+                                                 BackgroundColor="{StaticResource SPUColor}" VerticalOptions="EndAndExpand"/>
                                     </Grid>
                             </ViewCell>
                         </DataTemplate>

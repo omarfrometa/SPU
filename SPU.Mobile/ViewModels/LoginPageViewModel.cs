@@ -35,19 +35,34 @@ namespace SPU.Mobile.ViewModels
             try
             {
                 IsBusy = true;
-                var loggedUser = await _apiManager.DoLoginAsync(UserLogin.Email, UserLogin.Password);
+                var loginResult = await _apiManager.DoLoginAsync(UserLogin.Email, UserLogin.Password);
+
+
+                var _user = loginResult.User as User;
+                var loggedUser = new UserR(_user);
+
+
+                var _userProfile = loginResult.UserProfile as UserProfile;
+                var userProf = new UserProfileR(_userProfile);
+
                 if (loggedUser != null)
                 {
-                    loggedUser.RememberMe = RememberMe;
                     SPUSettings.UserEmail = loggedUser.Email;
                     SPUSettings.UserIsLogged = true;
 
+                    loggedUser.RememberMe = RememberMe;
+                    loggedUser.IsLogged = true;
+
                     _SPUDatabase.SaveActiveUser(loggedUser);
 
-                    var navparam = new NavigationParameters();
-                    navparam.Add("loggeduser", loggedUser);
 
-                    await NavigateToHome(navparam);
+                    _SPUDatabase.SaveUserProfile(userProf);
+
+                    //var navparam = new NavigationParameters();
+                    //navparam.Add("loggeduser", loggedUser);
+
+                    App.ActiveUser = loggedUser;
+                    await NavigateToHome();
                     //await _navigationService.NavigateAsync(new Uri("/CustomMasterDetailsPage/NavigationPage/SUPHomePage", UriKind.Absolute), navparam);
                 }
             }
@@ -71,7 +86,7 @@ namespace SPU.Mobile.ViewModels
 
         async void GoToRegistration()
         {
-            await _navigationService.NavigateAsync(NavigationConstants.RegistrationPage);
+            await _navigationService.NavigateAsync(NavigationConstants.RegistrationPage, null, false, true);
         }
     }
 }

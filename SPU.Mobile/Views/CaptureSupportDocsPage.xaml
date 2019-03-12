@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="SPU.Mobile.Views.CaptureSupportDocsPage"
+             Title="{Binding Title}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Priority="0" Text="Grabar" Command="{Binding DoSaveCommand}"/>
+        <ToolbarItem Priority="1" Text="Cancelar" Command="{Binding DoCancelCommand}"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <Grid Padding="{OnIdiom Phone=15,30,15,5,Tablet=30,50,30,10}" RowSpacing="{OnIdiom Phone=10,Tablet=20}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="8*"/>
+            </Grid.RowDefinitions>
+            <Frame Grid.Column="0" BackgroundColor="{StaticResource BlueColor}" IsVisible="{Binding IsNotBusy}" 
+                   Padding="{OnIdiom Phone=10,5,Tablet=20,10}" HasShadow="false" HorizontalOptions="CenterAndExpand" 
+                   VerticalOptions="StartAndExpand" CornerRadius="8">
+                <Label Text="Documento" StyleClass="ButtonTextLabel" />
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding PickFileCommand}"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+            
+            <Frame Grid.Column="1" BackgroundColor="{StaticResource BlueColor}" IsVisible="{Binding IsNotBusy}" 
+                   Padding="{OnIdiom Phone=10,5,Tablet=20,10}" HasShadow="false" HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="StartAndExpand" CornerRadius="8">
+                <Label Text="Imagen" StyleClass="ButtonTextLabel" />
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding TakePhotoCommand}"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+            
+            <ListView Grid.Row="1" Grid.ColumnSpan="2" IsVisible="{Binding HasDocuments}" ItemsSource="{Binding LoadedDocuments}" 
+                      ItemSelected="Handle_ItemSelected" HasUnevenRows="false">
+                <ListView.Header>
+                    <Label Text="Documentos Cargados" FontSize="{OnIdiom Phone=20,Tablet=30}"
+                           TextColor="{StaticResource RedColor}" HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center"/>
+                </ListView.Header>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding FileName}" Detail="{Binding FileExtension}" 
+                                  TextColor="{StaticResource BlueColor}" DetailColor="Gray"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

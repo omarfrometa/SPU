@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.14.0 (explicit/000780ca82c Fri Jan 11 12:38:08 EST 2019)"
+	.asciz "Mono AOT Compiler 5.14.0 (explicit/b538187892a Fri Feb  1 12:00:36 EST 2019)"
 	.asciz "System.Reflection.TypeExtensions.dll"
 	.asciz ""
 
@@ -664,7 +664,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "B4EAD401-D52E-432E-932E-2DDD61F445EF"
+	.asciz "CCA7E1CE-2092-41BF-BD72-57C0DF90307B"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -749,7 +749,7 @@ _mono_aot_file_info:
 	.long 40,576,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 172,200,49,29,106,201,28,158,23,168,157,66,22,80,18,16
+	.byte 187,197,16,93,149,174,79,94,175,117,57,157,10,158,89,234
 	.globl _mono_aot_module_System_Reflection_TypeExtensions_info
 	.align 3
 _mono_aot_module_System_Reflection_TypeExtensions_info:

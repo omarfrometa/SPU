@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.14.0 (explicit/000780ca82c Fri Jan 11 12:38:08 EST 2019)"
+	.asciz "Mono AOT Compiler 5.14.0 (explicit/b538187892a Fri Feb  1 12:00:36 EST 2019)"
 	.asciz "Syncfusion.SfRotator.XForms.iOS.dll"
 	.asciz ""
 
@@ -198,7 +198,7 @@ bl _p_3
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_4
-.word 0x14000333
+.word 0x1400033b
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
@@ -233,7 +233,7 @@ bl _p_3
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_6
-.word 0x14000311
+.word 0x14000319
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
@@ -255,21 +255,21 @@ bl _p_7
 .word 0xaa0203e0
 .word 0xd2800001
 .word 0xf9400042
-.word 0xf9419850
+.word 0xf941b450
 .word 0xd63f0200
-.word 0x140002fa
+.word 0x14000302
 .word 0xaa1903e0
 .word 0x3940033e
 bl _p_7
 .word 0x53001c00
-.word 0x35005ea0
+.word 0x35005fa0
 .word 0xf9400ae2
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0xf9400042
-.word 0xf9419850
+.word 0xf941b450
 .word 0xd63f0200
-.word 0x140002ee
+.word 0x140002f6
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
@@ -304,7 +304,7 @@ bl _p_3
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_9
-.word 0x140002cc
+.word 0x140002d4
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
@@ -329,7 +329,7 @@ bl _p_10
 .word 0xd2800021
 .word 0x3940005e
 bl _p_11
-.word 0x140002b4
+.word 0x140002bc
 .word 0xaa1903e0
 .word 0x3940033e
 bl _p_10
@@ -342,13 +342,13 @@ bl _p_10
 .word 0xd2800041
 .word 0x3940005e
 bl _p_11
-.word 0x140002a7
+.word 0x140002af
 .word 0xf9400ae2
 .word 0xaa0203e0
 .word 0xd2800001
 .word 0x3940005e
 bl _p_11
-.word 0x140002a1
+.word 0x140002a9
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
@@ -371,13 +371,13 @@ bl _p_12
 .word 0xd2800001
 .word 0x3940005e
 bl _p_13
-.word 0x1400028b
+.word 0x14000293
 .word 0xf9400ae2
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
 bl _p_13
-.word 0x14000285
+.word 0x1400028d
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
@@ -400,13 +400,13 @@ bl _p_14
 .word 0xd2800001
 .word 0x3940005e
 bl _p_15
-.word 0x1400026f
+.word 0x14000277
 .word 0xf9400ae2
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0x3940005e
 bl _p_15
-.word 0x14000269
+.word 0x14000271
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
@@ -429,7 +429,7 @@ bl _p_16
 .word 0xd2800001
 .word 0x3940005e
 bl _p_17
-.word 0x14000253
+.word 0x1400025b
 .word 0xaa1903e0
 .word 0x3940033e
 bl _p_16
@@ -442,7 +442,7 @@ bl _p_16
 .word 0xd2800021
 .word 0x3940005e
 bl _p_17
-.word 0x14000246
+.word 0x1400024e
 .word 0xaa1903e0
 .word 0x3940033e
 bl _p_16
@@ -455,13 +455,13 @@ bl _p_16
 .word 0xd2800041
 .word 0x3940005e
 bl _p_17
-.word 0x14000239
+.word 0x14000241
 .word 0xf9400ae2
 .word 0xaa0203e0
 .word 0xd2800061
 .word 0x3940005e
 bl _p_17
-.word 0x14000233
+.word 0x1400023b
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
@@ -484,7 +484,7 @@ bl _p_18
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_19
-.word 0x1400021d
+.word 0x14000225
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
@@ -507,7 +507,7 @@ bl _p_20
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_21
-.word 0x14000207
+.word 0x1400020f
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
@@ -523,7 +523,7 @@ bl _p_1
 .word 0xaa1903e0
 .word 0x3940033e
 bl _p_22
-.word 0xb4003f00
+.word 0xb4004000
 .word 0xaa1903e0
 .word 0x3940033e
 bl _p_22
@@ -532,7 +532,7 @@ bl _p_22
 .word 0xb9802000
 .word 0xd2800001
 .word 0x6b01001f
-.word 0x54003ded
+.word 0x54003eed
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
@@ -600,7 +600,7 @@ ldr x1, [x16, #304]
 .word 0xaa1a03e1
 .word 0x3940005e
 bl _p_31
-.word 0x140001b0
+.word 0x140001b8
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
@@ -627,7 +627,7 @@ bl _p_32
 .word 0x93407c21
 .word 0xeb01001f
 .word 0x9a9f07e0
-.word 0x340032c0
+.word 0x340033c0
 .word 0xf9400ae0
 .word 0xf900bba0
 .word 0xaa1903e0
@@ -639,7 +639,7 @@ bl _p_32
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_33
-.word 0x1400018a
+.word 0x14000192
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
@@ -662,7 +662,7 @@ bl _p_34
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_35
-.word 0x14000174
+.word 0x1400017c
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
@@ -685,7 +685,7 @@ bl _p_36
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_37
-.word 0x1400015e
+.word 0x14000166
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
@@ -715,7 +715,7 @@ bl _p_38
 .word 0x93407c42
 .word 0xeb1f005f
 .word 0x10000011
-.word 0x54002a20
+.word 0x54002b20
 .word 0xd29fffe3
 .word 0xf2bfffe3
 .word 0xf2dfffe3
@@ -730,10 +730,10 @@ bl _p_38
 .word 0xd280003e
 .word 0x6b1e007f
 .word 0x10000011
-.word 0x540027e0
+.word 0x540028e0
 .word 0xf100005f
 .word 0x10000011
-.word 0x540027e0
+.word 0x540028e0
 .word 0xd2800010
 .word 0xf2f00010
 .word 0xeb10001f
@@ -747,7 +747,7 @@ bl _p_38
 .word 0x8a110210
 .word 0xf100061f
 .word 0x10000011
-.word 0x540025c0
+.word 0x540026c0
 .word 0x9ac20c00
 .word 0xf9009ba0
 .word 0xf9409ba0
@@ -765,7 +765,7 @@ bl _p_18
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_19
-.word 0x1400010f
+.word 0x14000117
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
@@ -777,18 +777,18 @@ ldr x0, [x16, #344]
 .word 0xaa1803e0
 bl _p_1
 .word 0x53001c00
-.word 0x34002080
+.word 0x34002180
 .word 0xaa1903e0
 .word 0x3940033e
 bl _p_40
-.word 0xb4002000
+.word 0xb4002100
 .word 0xaa1903e0
 .word 0x3940033e
 bl _p_22
 .word 0xaa0003e1
 .word 0x3940003e
 .word 0xb9802000
-.word 0x35001f20
+.word 0x35002020
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
@@ -868,7 +868,7 @@ ldr x1, [x16, #352]
 .word 0xd2800015
 .word 0xeb1f02ff
 .word 0x10000011
-.word 0x54001720
+.word 0x54001820
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
@@ -878,7 +878,7 @@ bl _p_25
 .word 0xaa0003e1
 .word 0xeb1f02ff
 .word 0x10000011
-.word 0x540015a0
+.word 0x540016a0
 .word 0xf9001037
 .word 0x91008020
 .word 0xd349fc00
@@ -936,7 +936,7 @@ ldr x15, [x16, #400]
 .word 0xf8706830
 .word 0xd63f0200
 .word 0xf90093a0
-.word 0x1400004c
+.word 0x14000054
 .word 0xf94093a1
 .word 0xaa0103e0
 .word 0xf9400021
@@ -952,11 +952,15 @@ ldr x15, [x16, #408]
 .word 0xaa1603f5
 .word 0xaa1503f4
 .word 0xeb1f02bf
-.word 0x54000180
+.word 0x54000200
 .word 0xf94002a0
-.word 0xf9400000
-.word 0xf9400800
-.word 0xf9401400
+.word 0xf9400015
+.word 0x794032a0
+.word 0xd28000fe
+.word 0xeb1e001f
+.word 0x54000103
+.word 0xf9400aa0
+.word 0xf9401800
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
@@ -965,14 +969,18 @@ ldr x1, [x16, #416]
 .word 0x54000060
 .word 0xd2800014
 .word 0x14000001
-.word 0xb4000334
+.word 0xb40003b4
 .word 0xaa1603f5
 .word 0xeb1f02df
-.word 0x54000180
+.word 0x54000200
 .word 0xf94002c0
-.word 0xf9400000
-.word 0xf9400800
-.word 0xf9401400
+.word 0xf9400016
+.word 0x794032c0
+.word 0xd28000fe
+.word 0xeb1e001f
+.word 0x54000103
+.word 0xf9400ac0
+.word 0xf9401800
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
@@ -1029,7 +1037,7 @@ ldr x15, [x16, #440]
 .word 0xf8706830
 .word 0xd63f0200
 .word 0x53001c00
-.word 0x35fff540
+.word 0x35fff440
 .word 0xf90097bf
 .word 0x94000005
 .word 0xf94097a0
@@ -1064,13 +1072,13 @@ bl _p_31
 .word 0x910003bf
 .word 0xa8d87bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_44
 .word 0xd2801560
 .word 0xaa1103e1
 bl _p_44
-.word 0xd2802340
+.word 0xd2802360
 .word 0xaa1103e1
 bl _p_44
 .word 0xd2801980
@@ -1479,10 +1487,10 @@ bl _p_54
 .word 0xf9400af6
 .word 0xaa1603e0
 .word 0x3940001e
-.word 0xf9403ac0
+.word 0xf94036c0
 .word 0xaa0003f5
 .word 0xb5000040
-.word 0xf94046d5
+.word 0xf9403ed5
 .word 0xaa1803e0
 .word 0xaa1503e1
 .word 0x3940031e
@@ -1578,7 +1586,7 @@ bl _p_7
 .word 0xaa0203e0
 .word 0xd2800001
 .word 0xf9400042
-.word 0xf9419850
+.word 0xf941b450
 .word 0xd63f0200
 .word 0x14000070
 .word 0x3940035e
@@ -1586,7 +1594,7 @@ bl _p_7
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0xf9400042
-.word 0xf9419850
+.word 0xf941b450
 .word 0xd63f0200
 .word 0x14000068
 
@@ -1693,7 +1701,7 @@ bl _p_70
 .word 0xfd402ba2
 .word 0xfd402fa3
 .word 0xf9400021
-.word 0xf941a430
+.word 0xf941c430
 .word 0xd63f0200
 .word 0xa9415bb5
 .word 0xa94263b7
@@ -1718,8 +1726,8 @@ add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x0, [x16, #528]
 .word 0xd2800401
 bl _p_25
-.word 0xf9007740
-.word 0x9103a341
+.word 0xf9008340
+.word 0x91040341
 .word 0xd349fc21
 .word 0xd29ffffe
 .word 0xf2a00ffe
@@ -1739,8 +1747,8 @@ add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x0, [x16, #528]
 .word 0xd2800401
 bl _p_25
-.word 0xf9007740
-.word 0x9103a341
+.word 0xf9008340
+.word 0x91040341
 .word 0xd349fc21
 .word 0xd29ffffe
 .word 0xf2a00ffe
@@ -1781,8 +1789,8 @@ bl _p_72
 .word 0xb4002f80
 .word 0x3940035e
 .word 0xf9400b40
-.word 0xf9006b20
-.word 0x91034321
+.word 0xf9007720
+.word 0x9103a321
 .word 0xd349fc21
 .word 0xd29ffffe
 .word 0xf2a00ffe
@@ -1794,7 +1802,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.word 0xf9406f20
+.word 0xf9407b20
 .word 0xb5002d00
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
@@ -1804,8 +1812,8 @@ bl _p_23
 .word 0xf9005ba0
 bl _p_73
 .word 0xf9405ba0
-.word 0xf9006f20
-.word 0x91036321
+.word 0xf9007b20
+.word 0x9103c321
 .word 0xd349fc21
 .word 0xd29ffffe
 .word 0xf2a00ffe
@@ -1821,7 +1829,7 @@ ldr x2, [x16, #16]
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x0, [x16, #544]
-.word 0xf9406b21
+.word 0xf9407721
 bl _p_49
 .word 0xaa0003fa
 .word 0xaa1a03e1
@@ -1835,9 +1843,9 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x0, [x16, #480]
 .word 0xf9403fb8
-.word 0xf9407724
-.word 0xf9406b22
-.word 0xf9406f23
+.word 0xf9408324
+.word 0xf9407722
+.word 0xf9407b23
 .word 0xaa0403e0
 .word 0xaa1803e1
 .word 0x3940009e
@@ -1865,7 +1873,7 @@ ldr x1, [x16, #480]
 .word 0xf90047a0
 .word 0xf94053be
 .word 0xd61f03c0
-.word 0xf9406f20
+.word 0xf9407b20
 .word 0xf9006fa0
 .word 0xd280001e
 .word 0x9e6703d0
@@ -1908,12 +1916,12 @@ bl _p_70
 .word 0xfd401fa2
 .word 0xfd4023a3
 .word 0xf9400021
-.word 0xf941a430
+.word 0xf941c430
 .word 0xd63f0200
-.word 0xf9406f21
+.word 0xf9407b21
 .word 0xaa1903e0
 bl _p_75
-.word 0xf9406b20
+.word 0xf9407720
 .word 0xf9006ba0
 .word 0xeb1f033f
 .word 0x10000011
@@ -1964,7 +1972,7 @@ ldr x0, [x16, #576]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_76
-.word 0xf9406f20
+.word 0xf9407b20
 .word 0xf90067a0
 .word 0xeb1f033f
 .word 0x10000011
@@ -2015,7 +2023,7 @@ ldr x0, [x16, #608]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_77
-.word 0xf9406f20
+.word 0xf9407b20
 .word 0xf90063a0
 .word 0xeb1f033f
 .word 0x10000011
@@ -2066,7 +2074,7 @@ ldr x0, [x16, #640]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_78
-.word 0xf9406f20
+.word 0xf9407b20
 .word 0xf9005fa0
 .word 0xeb1f033f
 .word 0x10000011
@@ -2117,7 +2125,7 @@ ldr x0, [x16, #672]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_79
-.word 0xf9406f20
+.word 0xf9407b20
 .word 0xf9005ba0
 .word 0xeb1f033f
 .word 0x10000011
@@ -2187,7 +2195,7 @@ ldr x0, [x16, #488]
 .word 0xaa1a03e2
 bl _p_53
 .word 0x14000005
-.word 0xf9406f21
+.word 0xf9407b21
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_81
@@ -2196,7 +2204,7 @@ bl _p_81
 .word 0x910003bf
 .word 0xa8ce7bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_44
 .word 0xd2801560
@@ -2218,7 +2226,7 @@ Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_NativeRotator_Scrolling_object
 .word 0xaa0203fa
 .word 0xb90053bf
 .word 0xb90057bf
-.word 0xf9406b20
+.word 0xf9407720
 .word 0xb4000b80
 .word 0xaa1a03f8
 .word 0xeb1f035f
@@ -2235,7 +2243,7 @@ ldr x1, [x16, #704]
 .word 0x54000040
 .word 0xd2800018
 .word 0xaa1803fa
-.word 0xf9406b20
+.word 0xf9407720
 .word 0xf90043a0
 .word 0x3940031e
 .word 0x91009300
@@ -2296,8 +2304,8 @@ bl _p_25
 .word 0xf90033a0
 bl _p_83
 .word 0xf94033a0
-.word 0xf9007320
-.word 0x91038321
+.word 0xf9007f20
+.word 0x9103e321
 .word 0xd349fc21
 .word 0xd29ffffe
 .word 0xf2a00ffe
@@ -2309,11 +2317,11 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.word 0xf9406b22
-.word 0xf9407321
+.word 0xf9407722
+.word 0xf9407f21
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf941a450
+.word 0xf941b850
 .word 0xd63f0200
 .word 0xa94167b8
 .word 0xf94013ba
@@ -2338,19 +2346,19 @@ Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_HandleDrawThumbnailItemEventHa
 .word 0xf9002ba0
 .word 0xf9002fa0
 .word 0xf90033a0
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_84
 .word 0xb4001380
 .word 0x910123a0
 .word 0xf9003ba0
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_85
 .word 0xfd003fa0
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_86
@@ -2360,7 +2368,7 @@ bl _p_86
 .word 0x9e6703e0
 .word 0x9e6703e1
 bl _p_58
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_56
@@ -2368,7 +2376,7 @@ bl _p_56
 .word 0x1e612000
 .word 0x54000c20
 .word 0x54000c0b
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_57
@@ -2376,7 +2384,7 @@ bl _p_57
 .word 0x1e612000
 .word 0x54000b20
 .word 0x54000b0b
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_12
@@ -2384,7 +2392,7 @@ bl _p_12
 .word 0xd2800021
 .word 0x6b01001f
 .word 0x540007e1
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_16
@@ -2392,7 +2400,7 @@ bl _p_16
 .word 0xd2800061
 .word 0x6b01001f
 .word 0x54000120
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_16
@@ -2402,12 +2410,12 @@ bl _p_16
 .word 0x54000301
 .word 0x910123a0
 .word 0xf9003ba0
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_56
 .word 0xfd003fa0
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_57
@@ -2425,7 +2433,7 @@ bl _p_58
 .word 0x14000029
 .word 0x910123a0
 .word 0xf9003ba0
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_56
@@ -2435,7 +2443,7 @@ bl _p_56
 .word 0x9e6703c1
 .word 0x1e613800
 .word 0xfd003fa0
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_57
@@ -2448,12 +2456,12 @@ bl _p_58
 .word 0x14000012
 .word 0x910123a0
 .word 0xf9003ba0
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_56
 .word 0xfd003fa0
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_57
@@ -2463,7 +2471,7 @@ bl _p_57
 .word 0x9e6703e0
 .word 0x9e6703e1
 bl _p_58
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_84
@@ -2478,7 +2486,7 @@ bl _p_84
 .word 0xf9001fa0
 .word 0xf94033a0
 .word 0xf90023a0
-.word 0xf9406b23
+.word 0xf9407723
 .word 0xaa1903e0
 .word 0xfd4017a0
 .word 0xfd401ba1
@@ -2531,19 +2539,19 @@ Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_HandleDrawItemEventHandler_obj
 .word 0xb90067bf
 .word 0x9e6703e0
 .word 0xfd0047a0
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_84
 .word 0xb4001da0
 .word 0x9101a3a0
 .word 0xf9004ba0
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_85
 .word 0xfd004fa0
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_86
@@ -2553,7 +2561,7 @@ bl _p_86
 .word 0x9e6703e0
 .word 0x9e6703e1
 bl _p_58
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_56
@@ -2561,7 +2569,7 @@ bl _p_56
 .word 0x1e612000
 .word 0x54000c20
 .word 0x54000c0b
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_57
@@ -2569,7 +2577,7 @@ bl _p_57
 .word 0x1e612000
 .word 0x54000b20
 .word 0x54000b0b
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_12
@@ -2577,7 +2585,7 @@ bl _p_12
 .word 0xd2800021
 .word 0x6b01001f
 .word 0x540007e1
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_16
@@ -2585,7 +2593,7 @@ bl _p_16
 .word 0xd2800061
 .word 0x6b01001f
 .word 0x54000120
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_16
@@ -2595,12 +2603,12 @@ bl _p_16
 .word 0x54000301
 .word 0x9101a3a0
 .word 0xf9004ba0
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_56
 .word 0xfd004fa0
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_57
@@ -2618,7 +2626,7 @@ bl _p_58
 .word 0x14000029
 .word 0x9101a3a0
 .word 0xf9004ba0
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_56
@@ -2628,7 +2636,7 @@ bl _p_56
 .word 0x9e6703c1
 .word 0x1e613800
 .word 0xfd004fa0
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_57
@@ -2641,12 +2649,12 @@ bl _p_58
 .word 0x14000012
 .word 0x9101a3a0
 .word 0xf9004ba0
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_56
 .word 0xfd004fa0
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_57
@@ -2662,7 +2670,7 @@ add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x0, [x16, #728]
 bl _p_23
 bl _p_88
-.word 0xf9406b21
+.word 0xf9407721
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_84
@@ -2677,7 +2685,7 @@ bl _p_84
 .word 0xf9001fa0
 .word 0xf94043a0
 .word 0xf90023a0
-.word 0xf9406b23
+.word 0xf9407723
 .word 0xaa1903e0
 .word 0xfd4017a0
 .word 0xfd401ba1
@@ -2702,7 +2710,7 @@ ldr x2, [x16, #16]
 .word 0xf9400b41
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf941c830
+.word 0xf941ec30
 .word 0xd63f0200
 .word 0xf9004ba0
 bl _p_89
@@ -2713,7 +2721,7 @@ bl _p_89
 .word 0x3940035e
 .word 0xf9400b40
 .word 0xf9004ba0
-.word 0xf9406b21
+.word 0xf9407721
 .word 0x910123a8
 .word 0xaa0103e0
 .word 0x3940003e
@@ -2726,7 +2734,7 @@ bl _p_91
 bl _p_92
 .word 0x1e22c000
 .word 0xfd004fa0
-.word 0xf9406b21
+.word 0xf9407721
 .word 0x910123a8
 .word 0xaa0103e0
 .word 0x3940003e
@@ -2739,7 +2747,7 @@ bl _p_91
 bl _p_92
 .word 0x1e22c000
 .word 0xfd0053a0
-.word 0xf9406b21
+.word 0xf9407721
 .word 0x910123a8
 .word 0xaa0103e0
 .word 0x3940003e
@@ -2752,7 +2760,7 @@ bl _p_91
 bl _p_92
 .word 0x1e22c000
 .word 0xfd0057a0
-.word 0xf9406b21
+.word 0xf9407721
 .word 0x910123a8
 .word 0xaa0103e0
 .word 0x3940003e
@@ -2772,7 +2780,7 @@ bl _p_46
 .word 0xf9404ba2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf941c450
+.word 0xf941e850
 .word 0xd63f0200
 .word 0xa9416bb9
 .word 0x910003bf
@@ -2794,7 +2802,7 @@ Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_HandleSelectionChangedEventHan
 .word 0xaa0203fa
 .word 0x3940035e
 .word 0xf9400b40
-.word 0xb980f321
+.word 0xb9810b21
 .word 0x93407c21
 .word 0xeb01001f
 .word 0x9a9f07e0
@@ -2802,7 +2810,7 @@ Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_HandleSelectionChangedEventHan
 .word 0x3940035e
 .word 0xf9400b40
 .word 0x93407c00
-.word 0xb900f320
+.word 0xb9010b20
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
@@ -2837,7 +2845,7 @@ bl _p_25
 .word 0xf94033a2
 .word 0xf94037a4
 .word 0xb9001064
-.word 0xf9406b24
+.word 0xf9407724
 bl _p_93
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
@@ -2847,8 +2855,8 @@ ldr x0, [x16, #744]
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x2, [x16, #768]
-.word 0xf9406b23
-.word 0xf9406b24
+.word 0xf9407723
+.word 0xf9407724
 .word 0xaa1803e1
 bl _p_93
 
@@ -2856,7 +2864,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x0, [x16, #544]
 .word 0xf9001ba0
-.word 0xf9406b20
+.word 0xf9407720
 .word 0xf9001fa0
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
@@ -2901,14 +2909,14 @@ Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_SizeChanged_object_System_Even
 .word 0xaa0003fa
 .word 0xf9000fa1
 .word 0xf90013a2
-.word 0xf9406f40
+.word 0xf9407b40
 .word 0xf9003ba0
-.word 0xf9406b41
+.word 0xf9407741
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_56
 .word 0xfd003fa0
-.word 0xf9406b41
+.word 0xf9407741
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_57
@@ -2938,29 +2946,29 @@ bl _p_58
 .word 0xfd401fa2
 .word 0xfd4023a3
 .word 0xf9400021
-.word 0xf941a430
+.word 0xf941c430
 .word 0xd63f0200
-.word 0xf9407744
+.word 0xf9408344
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x1, [x16, #792]
-.word 0xf9406b42
-.word 0xf9406f43
+.word 0xf9407742
+.word 0xf9407b43
 .word 0xaa0403e0
 .word 0x3940009e
 bl _p_74
-.word 0xf9407744
+.word 0xf9408344
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x1, [x16, #800]
-.word 0xf9406b42
-.word 0xf9406f43
+.word 0xf9407742
+.word 0xf9407b43
 .word 0xaa0403e0
 .word 0x3940009e
 bl _p_74
-.word 0xf9406f41
+.word 0xf9407b41
 .word 0xaa0103e0
 .word 0x3940003e
 bl _p_96
@@ -2978,18 +2986,21 @@ Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_OnElementPropertyChanged_objec
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000bb7
-.word 0xf9000fa0
-.word 0xf90013a1
+.word 0xf9000fb9
+.word 0xf90013a0
+.word 0xaa0103f9
 .word 0xf90017a2
-.word 0xf94013b7
-.word 0xf94013a0
-.word 0xeb1f001f
-.word 0x54000180
-.word 0xf94013a0
-.word 0xf9400000
-.word 0xf9400000
-.word 0xf9400800
-.word 0xf9401400
+.word 0xaa1903f7
+.word 0xeb1f033f
+.word 0x540001e0
+.word 0xf9400320
+.word 0xf9400019
+.word 0x79403320
+.word 0xd28000fe
+.word 0xeb1e001f
+.word 0x54000103
+.word 0xf9400b20
+.word 0xf9401800
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
@@ -2998,17 +3009,18 @@ ldr x1, [x16, #808]
 .word 0x54000040
 .word 0xd2800017
 .word 0xb4000177
-.word 0xf9400fa0
-.word 0xf9407404
+.word 0xf94013a0
+.word 0xf9408004
 .word 0xf94017a1
 .word 0x3940003e
 .word 0xf9400821
-.word 0xf9406802
-.word 0xf9406c03
+.word 0xf9407402
+.word 0xf9407803
 .word 0xaa0403e0
 .word 0x3940009e
 bl _p_74
 .word 0xf9400bb7
+.word 0xf9400fb9
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
@@ -3240,22 +3252,22 @@ Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_ConvertFormsToNative_Xamarin_F
 bl _p_108
 .word 0xaa1903f8
 .word 0x3940033e
-.word 0xf9403b20
+.word 0xf9403720
 .word 0xaa0003f7
 .word 0xb5000040
-.word 0xf9404717
+.word 0xf9403f17
 .word 0xb4000277
 .word 0xaa1903fa
 .word 0x3940033e
-.word 0xf9403b20
+.word 0xf9403720
 .word 0xaa0003f8
 .word 0xb5000040
-.word 0xf9404758
+.word 0xf9403f58
 .word 0xb4000178
 .word 0xf9400300
 .word 0xf9400000
 .word 0xf9400800
-.word 0xf9400c00
+.word 0xf9401000
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
@@ -3266,15 +3278,15 @@ ldr x1, [x16, #832]
 .word 0x14000013
 .word 0xaa1a03f8
 .word 0x3940035e
-.word 0xf9403b40
+.word 0xf9403740
 .word 0xaa0003fa
 .word 0xb5000040
-.word 0xf940471a
+.word 0xf9403f1a
 .word 0xb400017a
 .word 0xf9400340
 .word 0xf9400000
 .word 0xf9400800
-.word 0xf9400c00
+.word 0xf9401000
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
@@ -3313,7 +3325,7 @@ ldr x1, [x16, #840]
 .word 0xf2effe1e
 .word 0x9e6703c1
 .word 0xf9400321
-.word 0xf9416830
+.word 0xf9417830
 .word 0xd63f0200
 .word 0xf94093be
 .word 0xfd0003c0
@@ -3395,7 +3407,7 @@ bl _p_112
 .word 0xfd4043a2
 .word 0xfd4047a3
 .word 0xf9400341
-.word 0xf941a430
+.word 0xf941c430
 .word 0xd63f0200
 .word 0xaa1a03e0
 .word 0xa94163b7
@@ -3676,7 +3688,7 @@ bl _p_121
 .word 0xf9400300
 .word 0xf9400000
 .word 0xf9400800
-.word 0xf9401000
+.word 0xf9401400
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
@@ -3762,11 +3774,11 @@ Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_Dispose_bool:
 .word 0xaa1903e0
 .word 0x394063a1
 bl _p_125
-.word 0xf9406f20
+.word 0xf9407b20
 .word 0xb4001d40
-.word 0xf9406b20
+.word 0xf9407720
 .word 0xb4001d00
-.word 0xf9406b20
+.word 0xf9407720
 .word 0xf90023a0
 .word 0xeb1f033f
 .word 0x10000011
@@ -3817,7 +3829,7 @@ ldr x0, [x16, #576]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_126
-.word 0xf9406f20
+.word 0xf9407b20
 .word 0xf9001fa0
 .word 0xeb1f033f
 .word 0x10000011
@@ -3868,7 +3880,7 @@ ldr x0, [x16, #608]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_127
-.word 0xf9406f20
+.word 0xf9407b20
 .word 0xf9001ba0
 .word 0xeb1f033f
 .word 0x10000011
@@ -3919,7 +3931,7 @@ ldr x0, [x16, #640]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_128
-.word 0xf9406f20
+.word 0xf9407b20
 .word 0xf90017a0
 .word 0xeb1f033f
 .word 0x10000011
@@ -3970,7 +3982,7 @@ ldr x0, [x16, #672]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_129
-.word 0xf9406f20
+.word 0xf9407b20
 .word 0xf90013a0
 .word 0xeb1f033f
 .word 0x10000011
@@ -4021,12 +4033,12 @@ ldr x0, [x16, #696]
 .word 0xaa0203e0
 .word 0x3940005e
 bl _p_130
-.word 0xf9006f3f
+.word 0xf9007b3f
 .word 0xf9400bb9
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_44
 .word 0xd2801560
@@ -4059,7 +4071,85 @@ ldr x0, [x16, #856]
 
 Lme_1b:
 .text
-ut_29:
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_System_ComponentModel_PropertyChangedEventArgs_invoke_void_object_TEventArgs_object_System_ComponentModel_PropertyChangedEventArgs
+wrapper_delegate_invoke_System_EventHandler_1_System_ComponentModel_PropertyChangedEventArgs_invoke_void_object_TEventArgs_object_System_ComponentModel_PropertyChangedEventArgs:
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xa9015bb5
+.word 0xa90263b7
+.word 0xa9036bb9
+.word 0xaa0003f8
+.word 0xaa0103f9
+.word 0xaa0203fa
+
+adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
+add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
+ldr x0, [x16, #968]
+.word 0xb9400000
+.word 0x35000680
+.word 0x14000001
+.word 0xf9403717
+.word 0xaa1703e0
+.word 0xb5000220
+.word 0xf9401317
+.word 0xaa1703e0
+.word 0xb4000100
+.word 0xf9401f00
+.word 0xf9400b03
+.word 0xaa1703e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xd63f0060
+.word 0x1400001e
+.word 0xf9401f00
+.word 0xf9400b02
+.word 0xaa1903e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0x14000018
+.word 0xb9801af8
+.word 0xd2800016
+.word 0x93407ec0
+.word 0xb9801ae1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x540003a9
+.word 0xd37df000
+.word 0x8b0002e0
+.word 0x91008000
+.word 0xf9400015
+.word 0xaa1503e3
+.word 0xaa0303e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xf90023a3
+.word 0xf9400c70
+.word 0xd63f0200
+.word 0xf94023a0
+.word 0x110006d6
+.word 0xaa1603e0
+.word 0x6b18001f
+.word 0x54fffd8b
+.word 0xa9415bb5
+.word 0xa94263b7
+.word 0xa9436bb9
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+.word 0xaa1703e0
+bl _p_132
+bl _p_133
+.word 0xaa0003f7
+.word 0xb5ffff80
+.word 0x17ffffcb
+.word 0xd2801fc0
+.word 0xaa1103e1
+bl _p_44
+
+Lme_1d:
+.text
+ut_30:
 add x0, x0, 16
 b System_Nullable_1_bool__ctor_bool
 ut_end:
@@ -4067,13 +4157,13 @@ ut_end:
 _unbox_trampoline_p:
 
 	.long 0
-LDIFF_SYM3=ut_end - ut_29
+LDIFF_SYM3=ut_end - ut_30
 	.long LDIFF_SYM3
 .text
 	.align 4
 	.no_dead_strip System_Nullable_1_bool__ctor_bool
 System_Nullable_1_bool__ctor_bool:
-.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/src/Xamarin.iOS/mcs/class/corlib/System/Nullable.cs"
+.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.15/src/Xamarin.iOS/mcs/class/corlib/System/Nullable.cs"
 .loc 2 94 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -4090,9 +4180,9 @@ System_Nullable_1_bool__ctor_bool:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_1d:
+Lme_1e:
 .text
-ut_30:
+ut_31:
 add x0, x0, 16
 b System_Nullable_1_bool_get_HasValue
 .text
@@ -4109,9 +4199,9 @@ System_Nullable_1_bool_get_HasValue:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_1e:
+Lme_1f:
 .text
-ut_31:
+ut_32:
 add x0, x0, 16
 b System_Nullable_1_bool_get_Value
 .text
@@ -4133,16 +4223,16 @@ System_Nullable_1_bool_get_Value:
 .word 0xd65f03c0
 .loc 2 105 0
 .word 0xd287e300
-bl _p_132
+bl _p_134
 .word 0xaa0003e1
 .word 0xd28020a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_133
+bl _p_132
 
-Lme_1f:
+Lme_20:
 .text
-ut_32:
+ut_33:
 add x0, x0, 16
 b System_Nullable_1_bool_Equals_object
 .text
@@ -4175,7 +4265,7 @@ System_Nullable_1_bool_Equals_object:
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
-ldr x1, [x16, #968]
+ldr x1, [x16, #976]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800018
@@ -4187,20 +4277,20 @@ ldr x1, [x16, #968]
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
-ldr x15, [x16, #976]
+ldr x15, [x16, #984]
 .word 0x9100a3a0
 .word 0xf9001ba0
 .word 0xaa1a03e0
-bl _p_134
+bl _p_135
 .word 0xf9401bbe
 .word 0xf90003c0
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
-ldr x15, [x16, #976]
+ldr x15, [x16, #984]
 .word 0xf94013a0
 .word 0xf94017a1
-bl _p_135
+bl _p_136
 .word 0x53001c00
 .word 0xf9400bb8
 .word 0xf9400fba
@@ -4208,9 +4298,9 @@ bl _p_135
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_20:
+Lme_21:
 .text
-ut_33:
+ut_34:
 add x0, x0, 16
 b System_Nullable_1_bool_Equals_System_Nullable_1_bool
 .text
@@ -4253,15 +4343,15 @@ bl _p_25
 .word 0xf9401ba0
 .word 0xf9401fa2
 .word 0x39004022
-bl _p_136
+bl _p_137
 .word 0x53001c00
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_21:
+Lme_22:
 .text
-ut_34:
+ut_35:
 add x0, x0, 16
 b System_Nullable_1_bool_GetHashCode
 .text
@@ -4291,9 +4381,9 @@ System_Nullable_1_bool_GetHashCode:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_22:
+Lme_23:
 .text
-ut_35:
+ut_36:
 add x0, x0, 16
 b System_Nullable_1_bool_GetValueOrDefault
 .text
@@ -4310,9 +4400,9 @@ System_Nullable_1_bool_GetValueOrDefault:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_23:
+Lme_24:
 .text
-ut_36:
+ut_37:
 add x0, x0, 16
 b System_Nullable_1_bool_GetValueOrDefault_bool
 .text
@@ -4335,9 +4425,9 @@ System_Nullable_1_bool_GetValueOrDefault_bool:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_24:
+Lme_25:
 .text
-ut_37:
+ut_38:
 add x0, x0, 16
 b System_Nullable_1_bool_ToString
 .text
@@ -4358,28 +4448,28 @@ System_Nullable_1_bool_ToString:
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
-ldr x26, [x16, #984]
+ldr x26, [x16, #992]
 .word 0x14000004
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
-ldr x26, [x16, #992]
+ldr x26, [x16, #1000]
 .word 0xaa1a03e0
 .word 0x14000005
 .loc 2 155 0
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
-ldr x0, [x16, #1000]
+ldr x0, [x16, #1008]
 .word 0xf9400000
 .word 0xf9400bba
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_25:
+Lme_26:
 .text
-ut_38:
+ut_39:
 add x0, x0, 16
 b System_Nullable_1_bool_Box_System_Nullable_1_bool
 .text
@@ -4410,9 +4500,9 @@ bl _p_25
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_26:
+Lme_27:
 .text
-ut_39:
+ut_40:
 add x0, x0, 16
 b System_Nullable_1_bool_Unbox_object
 .text
@@ -4447,7 +4537,7 @@ System_Nullable_1_bool_Unbox_object:
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
-ldr x2, [x16, #968]
+ldr x2, [x16, #976]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54000221
@@ -4458,8 +4548,8 @@ ldr x2, [x16, #968]
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
-ldr x15, [x16, #976]
-bl _p_137
+ldr x15, [x16, #984]
+bl _p_138
 .word 0x3980a3a0
 .word 0x390043a0
 .word 0x3980a7a0
@@ -4472,9 +4562,9 @@ bl _p_137
 .word 0xaa1103e1
 bl _p_44
 
-Lme_27:
+Lme_28:
 .text
-ut_40:
+ut_41:
 add x0, x0, 16
 b System_Nullable_1_bool_UnboxExact_object
 .text
@@ -4503,7 +4593,7 @@ System_Nullable_1_bool_UnboxExact_object:
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
-ldr x1, [x16, #1008]
+ldr x1, [x16, #1016]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xd2800001
@@ -4521,7 +4611,7 @@ ldr x1, [x16, #1008]
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
-ldr x1, [x16, #968]
+ldr x1, [x16, #976]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540002c1
@@ -4532,8 +4622,8 @@ ldr x1, [x16, #968]
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
-ldr x15, [x16, #976]
-bl _p_137
+ldr x15, [x16, #984]
+bl _p_138
 .word 0x3980a3a0
 .word 0x390063a0
 .word 0x3980a7a0
@@ -4547,12 +4637,12 @@ bl _p_137
 .word 0xd2802080
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
-bl _p_133
+bl _p_132
 .word 0xd2802080
 .word 0xaa1103e1
 bl _p_44
 
-Lme_28:
+Lme_29:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
@@ -4568,7 +4658,7 @@ wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualE
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
-ldr x0, [x16, #1016]
+ldr x0, [x16, #968]
 .word 0xb9400000
 .word 0x35000680
 .word 0x14000001
@@ -4621,8 +4711,8 @@ ldr x0, [x16, #1016]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .word 0xaa1703e0
+bl _p_132
 bl _p_133
-bl _p_138
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffcb
@@ -4630,7 +4720,7 @@ bl _p_138
 .word 0xaa1103e1
 bl _p_44
 
-Lme_29:
+Lme_2a:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Syncfusion_SfRotator_XForms_SfRotator_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Syncfusion_SfRotator_XForms_SfRotator
@@ -4646,7 +4736,7 @@ wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_Element
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
-ldr x0, [x16, #1016]
+ldr x0, [x16, #968]
 .word 0xb9400000
 .word 0x35000680
 .word 0x14000001
@@ -4699,8 +4789,8 @@ ldr x0, [x16, #1016]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .word 0xaa1703e0
+bl _p_132
 bl _p_133
-bl _p_138
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffcb
@@ -4708,12 +4798,12 @@ bl _p_138
 .word 0xaa1103e1
 bl _p_44
 
-Lme_2a:
+Lme_2b:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
-.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
+.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.15/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
 .loc 3 70 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -4774,7 +4864,7 @@ ldr x4, [x16, #16]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_33:
+Lme_34:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_get_Count
@@ -4789,7 +4879,7 @@ System_Array_InternalArray__ICollection_get_Count:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_34:
+Lme_35:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_get_IsReadOnly
@@ -4803,7 +4893,7 @@ System_Array_InternalArray__ICollection_get_IsReadOnly:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_35:
+Lme_36:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Clear
@@ -4813,17 +4903,17 @@ System_Array_InternalArray__ICollection_Clear:
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xd28900a0
-bl _p_132
+bl _p_134
 .word 0xaa0003e1
-.word 0xd2802240
+.word 0xd2802260
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_133
+bl _p_132
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_36:
+Lme_37:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Add_T_REF_T_REF
@@ -4835,17 +4925,17 @@ System_Array_InternalArray__ICollection_Add_T_REF_T_REF:
 .word 0xf9000ba0
 .word 0xf9000fa1
 .word 0xd28906a0
-bl _p_132
+bl _p_134
 .word 0xaa0003e1
-.word 0xd2802240
+.word 0xd2802260
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_133
+bl _p_132
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_37:
+Lme_38:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
@@ -4857,17 +4947,17 @@ System_Array_InternalArray__ICollection_Remove_T_REF_T_REF:
 .word 0xf9000ba0
 .word 0xf9000fa1
 .word 0xd28906a0
-bl _p_132
+bl _p_134
 .word 0xaa0003e1
-.word 0xd2802240
+.word 0xd2802260
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_133
+bl _p_132
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_38:
+Lme_39:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
@@ -4931,14 +5021,14 @@ bl _p_144
 .word 0xd65f03c0
 .loc 3 94 0
 .word 0xd2890e20
-bl _p_132
+bl _p_134
 .word 0xaa0003e1
-.word 0xd28023e0
+.word 0xd2802400
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_133
+bl _p_132
 
-Lme_39:
+Lme_3a:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
@@ -4973,7 +5063,7 @@ bl _p_145
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_3a:
+Lme_3b:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Predicate_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_bool_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
@@ -4988,7 +5078,7 @@ wrapper_delegate_invoke_System_Predicate_1_System_EventHandler_1_Xamarin_Forms_P
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
-ldr x0, [x16, #1016]
+ldr x0, [x16, #968]
 .word 0xb9400000
 .word 0x350006c0
 .word 0x14000001
@@ -5043,8 +5133,8 @@ ldr x0, [x16, #1016]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .word 0xaa1803e0
+bl _p_132
 bl _p_133
-bl _p_138
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffc9
@@ -5052,7 +5142,7 @@ bl _p_138
 .word 0xaa1103e1
 bl _p_44
 
-Lme_3b:
+Lme_3c:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
@@ -5067,7 +5157,7 @@ wrapper_delegate_invoke_System_Action_1_System_EventHandler_1_Xamarin_Forms_Plat
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
-ldr x0, [x16, #1016]
+ldr x0, [x16, #968]
 .word 0xb9400000
 .word 0x35000620
 .word 0x14000001
@@ -5117,8 +5207,8 @@ ldr x0, [x16, #1016]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .word 0xaa1803e0
+bl _p_132
 bl _p_133
-bl _p_138
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
@@ -5126,7 +5216,7 @@ bl _p_138
 .word 0xaa1103e1
 bl _p_44
 
-Lme_3c:
+Lme_3d:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Comparison_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_int_T_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
@@ -5142,7 +5232,7 @@ wrapper_delegate_invoke_System_Comparison_1_System_EventHandler_1_Xamarin_Forms_
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
-ldr x0, [x16, #1016]
+ldr x0, [x16, #968]
 .word 0xb9400000
 .word 0x35000720
 .word 0x14000001
@@ -5200,8 +5290,8 @@ ldr x0, [x16, #1016]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .word 0xaa1703e0
+bl _p_132
 bl _p_133
-bl _p_138
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
@@ -5209,7 +5299,7 @@ bl _p_138
 .word 0xaa1103e1
 bl _p_44
 
-Lme_3d:
+Lme_3e:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Predicate_1_Syncfusion_SfRotator_XForms_SfRotatorItem_invoke_bool_T_Syncfusion_SfRotator_XForms_SfRotatorItem
@@ -5224,7 +5314,7 @@ wrapper_delegate_invoke_System_Predicate_1_Syncfusion_SfRotator_XForms_SfRotator
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
-ldr x0, [x16, #1016]
+ldr x0, [x16, #968]
 .word 0xb9400000
 .word 0x350006c0
 .word 0x14000001
@@ -5279,8 +5369,8 @@ ldr x0, [x16, #1016]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .word 0xaa1803e0
+bl _p_132
 bl _p_133
-bl _p_138
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffc9
@@ -5288,7 +5378,7 @@ bl _p_138
 .word 0xaa1103e1
 bl _p_44
 
-Lme_3e:
+Lme_3f:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_Syncfusion_SfRotator_XForms_SfRotatorItem_invoke_void_T_Syncfusion_SfRotator_XForms_SfRotatorItem
@@ -5303,7 +5393,7 @@ wrapper_delegate_invoke_System_Action_1_Syncfusion_SfRotator_XForms_SfRotatorIte
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
-ldr x0, [x16, #1016]
+ldr x0, [x16, #968]
 .word 0xb9400000
 .word 0x35000620
 .word 0x14000001
@@ -5353,8 +5443,8 @@ ldr x0, [x16, #1016]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .word 0xaa1803e0
+bl _p_132
 bl _p_133
-bl _p_138
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
@@ -5362,7 +5452,7 @@ bl _p_138
 .word 0xaa1103e1
 bl _p_44
 
-Lme_3f:
+Lme_40:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Comparison_1_Syncfusion_SfRotator_XForms_SfRotatorItem_invoke_int_T_T_Syncfusion_SfRotator_XForms_SfRotatorItem_Syncfusion_SfRotator_XForms_SfRotatorItem
@@ -5378,7 +5468,7 @@ wrapper_delegate_invoke_System_Comparison_1_Syncfusion_SfRotator_XForms_SfRotato
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
-ldr x0, [x16, #1016]
+ldr x0, [x16, #968]
 .word 0xb9400000
 .word 0x35000720
 .word 0x14000001
@@ -5436,8 +5526,8 @@ ldr x0, [x16, #1016]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .word 0xaa1703e0
+bl _p_132
 bl _p_133
-bl _p_138
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
@@ -5445,7 +5535,7 @@ bl _p_138
 .word 0xaa1103e1
 bl _p_44
 
-Lme_40:
+Lme_41:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Predicate_1_string_invoke_bool_T_string
@@ -5460,7 +5550,7 @@ wrapper_delegate_invoke_System_Predicate_1_string_invoke_bool_T_string:
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
-ldr x0, [x16, #1016]
+ldr x0, [x16, #968]
 .word 0xb9400000
 .word 0x350006c0
 .word 0x14000001
@@ -5515,8 +5605,8 @@ ldr x0, [x16, #1016]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .word 0xaa1803e0
+bl _p_132
 bl _p_133
-bl _p_138
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffc9
@@ -5524,7 +5614,7 @@ bl _p_138
 .word 0xaa1103e1
 bl _p_44
 
-Lme_41:
+Lme_42:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_string_invoke_void_T_string
@@ -5539,7 +5629,7 @@ wrapper_delegate_invoke_System_Action_1_string_invoke_void_T_string:
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
-ldr x0, [x16, #1016]
+ldr x0, [x16, #968]
 .word 0xb9400000
 .word 0x35000620
 .word 0x14000001
@@ -5589,8 +5679,8 @@ ldr x0, [x16, #1016]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .word 0xaa1803e0
+bl _p_132
 bl _p_133
-bl _p_138
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
@@ -5598,7 +5688,7 @@ bl _p_138
 .word 0xaa1103e1
 bl _p_44
 
-Lme_42:
+Lme_43:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Comparison_1_string_invoke_int_T_T_string_string
@@ -5614,7 +5704,7 @@ wrapper_delegate_invoke_System_Comparison_1_string_invoke_int_T_T_string_string:
 
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
-ldr x0, [x16, #1016]
+ldr x0, [x16, #968]
 .word 0xb9400000
 .word 0x35000720
 .word 0x14000001
@@ -5672,8 +5762,8 @@ ldr x0, [x16, #1016]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .word 0xaa1703e0
+bl _p_132
 bl _p_133
-bl _p_138
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
@@ -5681,9 +5771,9 @@ bl _p_138
 .word 0xaa1103e1
 bl _p_44
 
-Lme_43:
+Lme_44:
 .text
-ut_68:
+ut_69:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 .text
@@ -5719,7 +5809,7 @@ ldr x3, [x16, #16]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_44:
+Lme_45:
 .text
 	.align 3
 jit_code_end:
@@ -5758,6 +5848,7 @@ bl Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_Init
 bl Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_Dispose_bool
 bl Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer__cctor
 bl method_addresses
+bl wrapper_delegate_invoke_System_EventHandler_1_System_ComponentModel_PropertyChangedEventArgs_invoke_void_object_TEventArgs_object_System_ComponentModel_PropertyChangedEventArgs
 bl System_Nullable_1_bool__ctor_bool
 bl System_Nullable_1_bool_get_HasValue
 bl System_Nullable_1_bool_get_Value
@@ -5804,15 +5895,14 @@ method_addresses_end:
 	.align 3
 unbox_trampolines:
 
-	.long 29,30,31,32,33,34,35,36
-	.long 37,38,39,40,68
+	.long 30,31,32,33,34,35,36,37
+	.long 38,39,40,41,69
 unbox_trampolines_end:
 
 	.long 0
 .text
 	.align 3
 unbox_trampoline_addresses:
-bl ut_29
 bl ut_30
 bl ut_31
 bl ut_32
@@ -5824,7 +5914,8 @@ bl ut_37
 bl ut_38
 bl ut_39
 bl ut_40
-bl ut_68
+bl ut_41
+bl ut_69
 
 	.long 0
 .section __TEXT, __const
@@ -5839,19 +5930,19 @@ unwind_info:
 	.byte 22,12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,152,26,153,25,68,154,24,22,12,31,0,68,14,144,1,157
 	.byte 18,158,17,68,13,29,68,152,16,153,15,68,154,14,19,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,153,14
 	.byte 154,13,19,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,153,20,154,19,21,12,31,0,68,14,112,157,14,158
-	.byte 13,68,13,29,68,152,12,153,11,68,154,10,17,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,154,14,16,12
-	.byte 31,0,68,14,48,157,6,158,5,68,13,29,68,151,4,31,12,31,0,68,14,96,157,12,158,11,68,13,29,68,148,10
-	.byte 149,9,68,150,8,151,7,68,152,6,153,5,68,154,4,16,12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4
-	.byte 19,12,31,0,68,14,64,157,8,158,7,68,13,29,68,150,6,68,152,5,24,12,31,0,68,14,192,2,157,40,158,39
-	.byte 68,13,29,68,151,38,152,37,68,153,36,154,35,23,12,31,0,68,14,64,157,8,158,7,68,13,29,68,151,6,152,5
-	.byte 68,153,4,154,3,22,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14,152,13,68,154,12,13,12,31,0
-	.byte 68,14,16,157,2,158,1,68,13,29,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,19,12,31,0,68
+	.byte 13,68,13,29,68,152,12,153,11,68,154,10,17,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,154,14,19,12
+	.byte 31,0,68,14,48,157,6,158,5,68,13,29,68,151,4,68,153,3,31,12,31,0,68,14,96,157,12,158,11,68,13,29
+	.byte 68,148,10,149,9,68,150,8,151,7,68,152,6,153,5,68,154,4,16,12,31,0,68,14,48,157,6,158,5,68,13,29
+	.byte 68,153,4,19,12,31,0,68,14,64,157,8,158,7,68,13,29,68,150,6,68,152,5,24,12,31,0,68,14,192,2,157
+	.byte 40,158,39,68,13,29,68,151,38,152,37,68,153,36,154,35,23,12,31,0,68,14,64,157,8,158,7,68,13,29,68,151
+	.byte 6,152,5,68,153,4,154,3,22,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14,152,13,68,154,12,13
+	.byte 12,31,0,68,14,16,157,2,158,1,68,13,29,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,28,12
+	.byte 31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3,19,12,31,0,68
 	.byte 14,64,157,8,158,7,68,13,29,68,152,6,68,154,5,13,12,31,0,68,14,64,157,8,158,7,68,13,29,13,12,31
-	.byte 0,68,14,48,157,6,158,5,68,13,29,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6,28,12,31,0
-	.byte 68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3,13,12,31,0,68,14,80
-	.byte 157,10,158,9,68,13,29,26,12,31,0,68,14,64,157,8,158,7,68,13,29,68,150,6,151,5,68,152,4,153,3,68
-	.byte 154,2,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,150,6,26,12,31,0,68,14,80,157,10,158,9,68,13
-	.byte 29,68,150,8,151,7,68,152,6,153,5,68,154,4
+	.byte 0,68,14,48,157,6,158,5,68,13,29,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6,13,12,31,0
+	.byte 68,14,80,157,10,158,9,68,13,29,26,12,31,0,68,14,64,157,8,158,7,68,13,29,68,150,6,151,5,68,152,4
+	.byte 153,3,68,154,2,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,150,6,26,12,31,0,68,14,80,157,10,158
+	.byte 9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
 
 .text
 	.align 4
@@ -5864,7 +5955,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1032]
 br x16
-.word 1843
+.word 1866
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_SfRotator_get_SelectedDotColor
 plt_Syncfusion_SfRotator_XForms_SfRotator_get_SelectedDotColor:
 _p_2:
@@ -5872,7 +5963,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1040]
 br x16
-.word 1848
+.word 1871
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_iOS_SfRotatorMapping_ColorToUIColor_Xamarin_Forms_Color
 plt_Syncfusion_SfRotator_XForms_iOS_SfRotatorMapping_ColorToUIColor_Xamarin_Forms_Color:
 _p_3:
@@ -5880,7 +5971,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1048]
 br x16
-.word 1853
+.word 1876
 	.no_dead_strip plt_Syncfusion_SfRotator_iOS_SfRotator_set_SelectedDotsColor_UIKit_UIColor
 plt_Syncfusion_SfRotator_iOS_SfRotator_set_SelectedDotsColor_UIKit_UIColor:
 _p_4:
@@ -5888,7 +5979,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1056]
 br x16
-.word 1855
+.word 1878
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_SfRotator_get_UnselectedDotColor
 plt_Syncfusion_SfRotator_XForms_SfRotator_get_UnselectedDotColor:
 _p_5:
@@ -5896,7 +5987,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1064]
 br x16
-.word 1860
+.word 1883
 	.no_dead_strip plt_Syncfusion_SfRotator_iOS_SfRotator_set_UnselectedDotsColor_UIKit_UIColor
 plt_Syncfusion_SfRotator_iOS_SfRotator_set_UnselectedDotsColor_UIKit_UIColor:
 _p_6:
@@ -5904,7 +5995,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1072]
 br x16
-.word 1865
+.word 1888
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_get_IsVisible
 plt_Xamarin_Forms_VisualElement_get_IsVisible:
 _p_7:
@@ -5912,7 +6003,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1080]
 br x16
-.word 1870
+.word 1893
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_SfRotator_get_DotsBorderColor
 plt_Syncfusion_SfRotator_XForms_SfRotator_get_DotsBorderColor:
 _p_8:
@@ -5920,7 +6011,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1088]
 br x16
-.word 1875
+.word 1898
 	.no_dead_strip plt_Syncfusion_SfRotator_iOS_SfRotator_set_DotsBorderColor_UIKit_UIColor
 plt_Syncfusion_SfRotator_iOS_SfRotator_set_DotsBorderColor_UIKit_UIColor:
 _p_9:
@@ -5928,7 +6019,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1096]
 br x16
-.word 1880
+.word 1903
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_SfRotator_get_DotPlacement
 plt_Syncfusion_SfRotator_XForms_SfRotator_get_DotPlacement:
 _p_10:
@@ -5936,7 +6027,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1104]
 br x16
-.word 1885
+.word 1908
 	.no_dead_strip plt_Syncfusion_SfRotator_iOS_SfRotator_set_DotsPlacement_Syncfusion_SfRotator_iOS_SFRotatorDotsPlacement
 plt_Syncfusion_SfRotator_iOS_SfRotator_set_DotsPlacement_Syncfusion_SfRotator_iOS_SFRotatorDotsPlacement:
 _p_11:
@@ -5944,7 +6035,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1112]
 br x16
-.word 1890
+.word 1913
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_SfRotator_get_NavigationStripMode
 plt_Syncfusion_SfRotator_XForms_SfRotator_get_NavigationStripMode:
 _p_12:
@@ -5952,7 +6043,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1120]
 br x16
-.word 1895
+.word 1918
 	.no_dead_strip plt_Syncfusion_SfRotator_iOS_SfRotator_set_NavigationStripMode_Syncfusion_SfRotator_iOS_SFRotatorNavigationStripMode
 plt_Syncfusion_SfRotator_iOS_SfRotator_set_NavigationStripMode_Syncfusion_SfRotator_iOS_SFRotatorNavigationStripMode:
 _p_13:
@@ -5960,7 +6051,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1128]
 br x16
-.word 1900
+.word 1923
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_SfRotator_get_NavigationDirection
 plt_Syncfusion_SfRotator_XForms_SfRotator_get_NavigationDirection:
 _p_14:
@@ -5968,7 +6059,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1136]
 br x16
-.word 1905
+.word 1928
 	.no_dead_strip plt_Syncfusion_SfRotator_iOS_SfRotator_set_NavigationDirection_Syncfusion_SfRotator_iOS_SFRotatorNavigationDirection
 plt_Syncfusion_SfRotator_iOS_SfRotator_set_NavigationDirection_Syncfusion_SfRotator_iOS_SFRotatorNavigationDirection:
 _p_15:
@@ -5976,7 +6067,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1144]
 br x16
-.word 1910
+.word 1933
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_SfRotator_get_NavigationStripPosition
 plt_Syncfusion_SfRotator_XForms_SfRotator_get_NavigationStripPosition:
 _p_16:
@@ -5984,7 +6075,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1152]
 br x16
-.word 1915
+.word 1938
 	.no_dead_strip plt_Syncfusion_SfRotator_iOS_SfRotator_set_NavigationStripPosition_Syncfusion_SfRotator_iOS_SFRotatorNavigationStripPosition
 plt_Syncfusion_SfRotator_iOS_SfRotator_set_NavigationStripPosition_Syncfusion_SfRotator_iOS_SFRotatorNavigationStripPosition:
 _p_17:
@@ -5992,7 +6083,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1160]
 br x16
-.word 1920
+.word 1943
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_SfRotator_get_EnableAutoPlay
 plt_Syncfusion_SfRotator_XForms_SfRotator_get_EnableAutoPlay:
 _p_18:
@@ -6000,7 +6091,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1168]
 br x16
-.word 1925
+.word 1948
 	.no_dead_strip plt_Syncfusion_SfRotator_iOS_SfRotator_set_EnableAutoPlay_bool
 plt_Syncfusion_SfRotator_iOS_SfRotator_set_EnableAutoPlay_bool:
 _p_19:
@@ -6008,7 +6099,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1176]
 br x16
-.word 1930
+.word 1953
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_SfRotator_get_EnableLooping
 plt_Syncfusion_SfRotator_XForms_SfRotator_get_EnableLooping:
 _p_20:
@@ -6016,7 +6107,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1184]
 br x16
-.word 1935
+.word 1958
 	.no_dead_strip plt_Syncfusion_SfRotator_iOS_SfRotator_set_EnableLooping_bool
 plt_Syncfusion_SfRotator_iOS_SfRotator_set_EnableLooping_bool:
 _p_21:
@@ -6024,7 +6115,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1192]
 br x16
-.word 1940
+.word 1963
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_SfRotator_get_DataSource
 plt_Syncfusion_SfRotator_XForms_SfRotator_get_DataSource:
 _p_22:
@@ -6032,7 +6123,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1200]
 br x16
-.word 1945
+.word 1968
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_23:
@@ -6040,7 +6131,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1208]
 br x16
-.word 1950
+.word 1973
 	.no_dead_strip plt_Foundation_NSMutableArray__ctor
 plt_Foundation_NSMutableArray__ctor:
 _p_24:
@@ -6048,7 +6139,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1216]
 br x16
-.word 1982
+.word 2005
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_25:
@@ -6056,7 +6147,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1224]
 br x16
-.word 1987
+.word 2010
 	.no_dead_strip plt_System_Collections_Generic_List_1_Syncfusion_SfRotator_XForms_SfRotatorItem_GetEnumerator
 plt_System_Collections_Generic_List_1_Syncfusion_SfRotator_XForms_SfRotatorItem_GetEnumerator:
 _p_26:
@@ -6064,7 +6155,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1232]
 br x16
-.word 1995
+.word 2018
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_iOS_SfRotatorItemMapping_GetNativeItem_Syncfusion_SfRotator_XForms_SfRotatorItem_Syncfusion_SfRotator_XForms_SfRotator
 plt_Syncfusion_SfRotator_XForms_iOS_SfRotatorItemMapping_GetNativeItem_Syncfusion_SfRotator_XForms_SfRotatorItem_Syncfusion_SfRotator_XForms_SfRotator:
 _p_27:
@@ -6072,7 +6163,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1240]
 br x16
-.word 2006
+.word 2029
 	.no_dead_strip plt_Foundation_NSMutableArray_Add_Foundation_NSObject
 plt_Foundation_NSMutableArray_Add_Foundation_NSObject:
 _p_28:
@@ -6080,7 +6171,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1248]
 br x16
-.word 2008
+.word 2031
 	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_Syncfusion_SfRotator_XForms_SfRotatorItem_MoveNext
 plt_System_Collections_Generic_List_1_Enumerator_Syncfusion_SfRotator_XForms_SfRotatorItem_MoveNext:
 _p_29:
@@ -6088,7 +6179,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1256]
 br x16
-.word 2013
+.word 2036
 	.no_dead_strip plt__jit_icall_ves_icall_thread_finish_async_abort
 plt__jit_icall_ves_icall_thread_finish_async_abort:
 _p_30:
@@ -6096,7 +6187,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1264]
 br x16
-.word 2024
+.word 2047
 	.no_dead_strip plt_Syncfusion_SfRotator_iOS_SfRotator_set_DataSource_Foundation_NSMutableArray
 plt_Syncfusion_SfRotator_iOS_SfRotator_set_DataSource_Foundation_NSMutableArray:
 _p_31:
@@ -6104,7 +6195,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1272]
 br x16
-.word 2062
+.word 2085
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_SfRotator_get_SelectedIndex
 plt_Syncfusion_SfRotator_XForms_SfRotator_get_SelectedIndex:
 _p_32:
@@ -6112,7 +6203,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1280]
 br x16
-.word 2067
+.word 2090
 	.no_dead_strip plt_Syncfusion_SfRotator_iOS_SfRotator_set_SelectedIndex_System_nint
 plt_Syncfusion_SfRotator_iOS_SfRotator_set_SelectedIndex_System_nint:
 _p_33:
@@ -6120,7 +6211,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1288]
 br x16
-.word 2072
+.word 2095
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_SfRotator_get_IsTextVisible
 plt_Syncfusion_SfRotator_XForms_SfRotator_get_IsTextVisible:
 _p_34:
@@ -6128,7 +6219,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1296]
 br x16
-.word 2077
+.word 2100
 	.no_dead_strip plt_Syncfusion_SfRotator_iOS_SfRotator_set_IsTextVisibile_bool
 plt_Syncfusion_SfRotator_iOS_SfRotator_set_IsTextVisibile_bool:
 _p_35:
@@ -6136,7 +6227,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1304]
 br x16
-.word 2082
+.word 2105
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_SfRotator_get_EnableSwiping
 plt_Syncfusion_SfRotator_XForms_SfRotator_get_EnableSwiping:
 _p_36:
@@ -6144,7 +6235,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1312]
 br x16
-.word 2087
+.word 2110
 	.no_dead_strip plt_Syncfusion_SfRotator_iOS_SfRotator_set_EnableSwiping_bool
 plt_Syncfusion_SfRotator_iOS_SfRotator_set_EnableSwiping_bool:
 _p_37:
@@ -6152,7 +6243,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1320]
 br x16
-.word 2092
+.word 2115
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_SfRotator_get_NavigationDelay
 plt_Syncfusion_SfRotator_XForms_SfRotator_get_NavigationDelay:
 _p_38:
@@ -6160,7 +6251,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1328]
 br x16
-.word 2097
+.word 2120
 	.no_dead_strip plt_Syncfusion_SfRotator_iOS_SfRotator_set_NavigationDelay_System_nfloat
 plt_Syncfusion_SfRotator_iOS_SfRotator_set_NavigationDelay_System_nfloat:
 _p_39:
@@ -6168,7 +6259,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1336]
 br x16
-.word 2102
+.word 2125
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_SfRotator_get_ItemsSource
 plt_Syncfusion_SfRotator_XForms_SfRotator_get_ItemsSource:
 _p_40:
@@ -6176,7 +6267,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1344]
 br x16
-.word 2107
+.word 2130
 	.no_dead_strip plt_Syncfusion_SfRotator_iOS_SFRotatorItem__ctor
 plt_Syncfusion_SfRotator_iOS_SFRotatorItem__ctor:
 _p_41:
@@ -6184,7 +6275,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1352]
 br x16
-.word 2112
+.word 2135
 	.no_dead_strip plt_UIKit_UIView__ctor
 plt_UIKit_UIView__ctor:
 _p_42:
@@ -6192,7 +6283,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1360]
 br x16
-.word 2117
+.word 2140
 	.no_dead_strip plt_Syncfusion_SfRotator_iOS_SfRotatorItem_set_View_UIKit_UIView
 plt_Syncfusion_SfRotator_iOS_SfRotatorItem_set_View_UIKit_UIView:
 _p_43:
@@ -6200,7 +6291,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1368]
 br x16
-.word 2122
+.word 2145
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_44:
@@ -6208,7 +6299,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1376]
 br x16
-.word 2127
+.word 2150
 	.no_dead_strip plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr
 plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr:
 _p_45:
@@ -6216,7 +6307,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1384]
 br x16
-.word 2162
+.word 2185
 	.no_dead_strip plt_UIKit_UIColor_FromRGBA_System_nfloat_System_nfloat_System_nfloat_System_nfloat
 plt_UIKit_UIColor_FromRGBA_System_nfloat_System_nfloat_System_nfloat_System_nfloat:
 _p_46:
@@ -6224,7 +6315,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1392]
 br x16
-.word 2170
+.word 2193
 	.no_dead_strip plt_UIKit_UIColor_GetRGBA_System_nfloat__System_nfloat__System_nfloat__System_nfloat_
 plt_UIKit_UIColor_GetRGBA_System_nfloat__System_nfloat__System_nfloat__System_nfloat_:
 _p_47:
@@ -6232,7 +6323,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1400]
 br x16
-.word 2175
+.word 2198
 	.no_dead_strip plt_Xamarin_Forms_Color_FromRgba_double_double_double_double
 plt_Xamarin_Forms_Color_FromRgba_double_double_double_double:
 _p_48:
@@ -6240,7 +6331,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1408]
 br x16
-.word 2180
+.word 2203
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_GetPropertiesChanged_System_Type_object
 plt_Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_GetPropertiesChanged_System_Type_object:
 _p_49:
@@ -6248,7 +6339,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1416]
 br x16
-.word 2185
+.word 2208
 	.no_dead_strip plt_System_Collections_Generic_List_1_string_GetEnumerator
 plt_System_Collections_Generic_List_1_string_GetEnumerator:
 _p_50:
@@ -6256,7 +6347,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1424]
 br x16
-.word 2187
+.word 2210
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_iOS_SfRotatorItemMapping_OnRotatorItemPropertiesChanged_string_Syncfusion_SfRotator_XForms_SfRotatorItem_Syncfusion_SfRotator_iOS_SFRotatorItem
 plt_Syncfusion_SfRotator_XForms_iOS_SfRotatorItemMapping_OnRotatorItemPropertiesChanged_string_Syncfusion_SfRotator_XForms_SfRotatorItem_Syncfusion_SfRotator_iOS_SFRotatorItem:
 _p_51:
@@ -6264,7 +6355,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1432]
 br x16
-.word 2198
+.word 2221
 	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_string_MoveNext
 plt_System_Collections_Generic_List_1_Enumerator_string_MoveNext:
 _p_52:
@@ -6272,7 +6363,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1440]
 br x16
-.word 2200
+.word 2223
 	.no_dead_strip plt_System_Array_Clear_System_Array_int_int
 plt_System_Array_Clear_System_Array_int_int:
 _p_53:
@@ -6280,7 +6371,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1448]
 br x16
-.word 2211
+.word 2234
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_SfRotatorItem_get_ItemContent
 plt_Syncfusion_SfRotator_XForms_SfRotatorItem_get_ItemContent:
 _p_54:
@@ -6288,7 +6379,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1456]
 br x16
-.word 2216
+.word 2239
 	.no_dead_strip plt_Xamarin_Forms_Element_set_Parent_Xamarin_Forms_Element
 plt_Xamarin_Forms_Element_set_Parent_Xamarin_Forms_Element:
 _p_55:
@@ -6296,7 +6387,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1464]
 br x16
-.word 2221
+.word 2244
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_get_Width
 plt_Xamarin_Forms_VisualElement_get_Width:
 _p_56:
@@ -6304,7 +6395,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1472]
 br x16
-.word 2226
+.word 2249
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_get_Height
 plt_Xamarin_Forms_VisualElement_get_Height:
 _p_57:
@@ -6312,7 +6403,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1480]
 br x16
-.word 2231
+.word 2254
 	.no_dead_strip plt_CoreGraphics_CGRect__ctor_double_double_double_double
 plt_CoreGraphics_CGRect__ctor_double_double_double_double:
 _p_58:
@@ -6320,7 +6411,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1488]
 br x16
-.word 2236
+.word 2259
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_ConvertFormsToNative_Xamarin_Forms_View_CoreGraphics_CGRect_Syncfusion_SfRotator_XForms_SfRotator
 plt_Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_ConvertFormsToNative_Xamarin_Forms_View_CoreGraphics_CGRect_Syncfusion_SfRotator_XForms_SfRotator:
 _p_59:
@@ -6328,7 +6419,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1496]
 br x16
-.word 2241
+.word 2264
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_SfRotatorItem_get_ItemText
 plt_Syncfusion_SfRotator_XForms_SfRotatorItem_get_ItemText:
 _p_60:
@@ -6336,7 +6427,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1504]
 br x16
-.word 2243
+.word 2266
 	.no_dead_strip plt_Foundation_NSString_op_Explicit_string
 plt_Foundation_NSString_op_Explicit_string:
 _p_61:
@@ -6344,7 +6435,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1512]
 br x16
-.word 2248
+.word 2271
 	.no_dead_strip plt_Syncfusion_SfRotator_iOS_SfRotatorItem_set_ItemText_Foundation_NSString
 plt_Syncfusion_SfRotator_iOS_SfRotatorItem_set_ItemText_Foundation_NSString:
 _p_62:
@@ -6352,7 +6443,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1520]
 br x16
-.word 2253
+.word 2276
 	.no_dead_strip plt_UIKit_UIImageView__ctor
 plt_UIKit_UIImageView__ctor:
 _p_63:
@@ -6360,7 +6451,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1528]
 br x16
-.word 2258
+.word 2281
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_SfRotatorItem_get_Image
 plt_Syncfusion_SfRotator_XForms_SfRotatorItem_get_Image:
 _p_64:
@@ -6368,7 +6459,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1536]
 br x16
-.word 2263
+.word 2286
 	.no_dead_strip plt_UIKit_UIImage_FromFile_string
 plt_UIKit_UIImage_FromFile_string:
 _p_65:
@@ -6376,7 +6467,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1544]
 br x16
-.word 2268
+.word 2291
 	.no_dead_strip plt_UIKit_UIImageView_set_Image_UIKit_UIImage
 plt_UIKit_UIImageView_set_Image_UIKit_UIImage:
 _p_66:
@@ -6384,7 +6475,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1552]
 br x16
-.word 2273
+.word 2296
 	.no_dead_strip plt_UIKit_UIView_set_AutoresizingMask_UIKit_UIViewAutoresizing
 plt_UIKit_UIView_set_AutoresizingMask_UIKit_UIViewAutoresizing:
 _p_67:
@@ -6392,7 +6483,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1560]
 br x16
-.word 2278
+.word 2301
 	.no_dead_strip plt_UIKit_UIView_set_ContentMode_UIKit_UIViewContentMode
 plt_UIKit_UIView_set_ContentMode_UIKit_UIViewContentMode:
 _p_68:
@@ -6400,7 +6491,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1568]
 br x16
-.word 2283
+.word 2306
 	.no_dead_strip plt_UIKit_UIView_AddSubview_UIKit_UIView
 plt_UIKit_UIView_AddSubview_UIKit_UIView:
 _p_69:
@@ -6408,7 +6499,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1576]
 br x16
-.word 2288
+.word 2311
 	.no_dead_strip plt_CoreGraphics_CGRect__ctor_single_single_single_single
 plt_CoreGraphics_CGRect__ctor_single_single_single_single:
 _p_70:
@@ -6416,7 +6507,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1584]
 br x16
-.word 2293
+.word 2316
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Syncfusion_SfRotator_XForms_SfRotator_Syncfusion_SfRotator_iOS_SFRotator__ctor
 plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Syncfusion_SfRotator_XForms_SfRotator_Syncfusion_SfRotator_iOS_SFRotator__ctor:
 _p_71:
@@ -6424,7 +6515,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1592]
 br x16
-.word 2298
+.word 2321
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Syncfusion_SfRotator_XForms_SfRotator_Syncfusion_SfRotator_iOS_SFRotator_OnElementChanged_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Syncfusion_SfRotator_XForms_SfRotator
 plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Syncfusion_SfRotator_XForms_SfRotator_Syncfusion_SfRotator_iOS_SFRotator_OnElementChanged_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Syncfusion_SfRotator_XForms_SfRotator:
 _p_72:
@@ -6432,7 +6523,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1600]
 br x16
-.word 2309
+.word 2332
 	.no_dead_strip plt_Syncfusion_SfRotator_iOS_SFRotator__ctor
 plt_Syncfusion_SfRotator_iOS_SFRotator__ctor:
 _p_73:
@@ -6440,7 +6531,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1608]
 br x16
-.word 2320
+.word 2343
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_iOS_SfRotatorMapping_OnRotatorPropertiesChanged_string_Syncfusion_SfRotator_XForms_SfRotator_Syncfusion_SfRotator_iOS_SFRotator
 plt_Syncfusion_SfRotator_XForms_iOS_SfRotatorMapping_OnRotatorPropertiesChanged_string_Syncfusion_SfRotator_XForms_SfRotator_Syncfusion_SfRotator_iOS_SFRotator:
 _p_74:
@@ -6448,7 +6539,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1616]
 br x16
-.word 2325
+.word 2348
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Syncfusion_SfRotator_XForms_SfRotator_Syncfusion_SfRotator_iOS_SFRotator_SetNativeControl_Syncfusion_SfRotator_iOS_SFRotator
 plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Syncfusion_SfRotator_XForms_SfRotator_Syncfusion_SfRotator_iOS_SFRotator_SetNativeControl_Syncfusion_SfRotator_iOS_SFRotator:
 _p_75:
@@ -6456,7 +6547,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1624]
 br x16
-.word 2327
+.word 2350
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_add_SizeChanged_System_EventHandler
 plt_Xamarin_Forms_VisualElement_add_SizeChanged_System_EventHandler:
 _p_76:
@@ -6464,7 +6555,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1632]
 br x16
-.word 2338
+.word 2361
 	.no_dead_strip plt_Syncfusion_SfRotator_iOS_SfRotator_add_DrawItem_Syncfusion_SfRotator_iOS_SfRotator_DrawItemEventHandler
 plt_Syncfusion_SfRotator_iOS_SfRotator_add_DrawItem_Syncfusion_SfRotator_iOS_SfRotator_DrawItemEventHandler:
 _p_77:
@@ -6472,7 +6563,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1640]
 br x16
-.word 2343
+.word 2366
 	.no_dead_strip plt_Syncfusion_SfRotator_iOS_SfRotator_add_DrawThumbnailItem_Syncfusion_SfRotator_iOS_SfRotator_DrawThumbnailItemEventHandler
 plt_Syncfusion_SfRotator_iOS_SfRotator_add_DrawThumbnailItem_Syncfusion_SfRotator_iOS_SfRotator_DrawThumbnailItemEventHandler:
 _p_78:
@@ -6480,7 +6571,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1648]
 br x16
-.word 2348
+.word 2371
 	.no_dead_strip plt_Syncfusion_SfRotator_iOS_SfRotator_add_SelectionChanged_Syncfusion_SfRotator_iOS_SfRotator_SelectionChangedEventHandler
 plt_Syncfusion_SfRotator_iOS_SfRotator_add_SelectionChanged_Syncfusion_SfRotator_iOS_SfRotator_SelectionChangedEventHandler:
 _p_79:
@@ -6488,7 +6579,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1656]
 br x16
-.word 2353
+.word 2376
 	.no_dead_strip plt_Syncfusion_SfRotator_iOS_SfRotator_add_RotatorScrolling_System_EventHandler
 plt_Syncfusion_SfRotator_iOS_SfRotator_add_RotatorScrolling_System_EventHandler:
 _p_80:
@@ -6496,7 +6587,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1664]
 br x16
-.word 2358
+.word 2381
 	.no_dead_strip plt_UIKit_UIView_SetNeedsDisplay
 plt_UIKit_UIView_SetNeedsDisplay:
 _p_81:
@@ -6504,7 +6595,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1672]
 br x16
-.word 2363
+.word 2386
 	.no_dead_strip plt_Xamarin_Forms_Size__ctor_double_double
 plt_Xamarin_Forms_Size__ctor_double_double:
 _p_82:
@@ -6512,7 +6603,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1680]
 br x16
-.word 2368
+.word 2391
 	.no_dead_strip plt_Syncfusion_XForms_ParallaxView_ParallaxScrollingEventArgs__ctor_double_double_bool
 plt_Syncfusion_XForms_ParallaxView_ParallaxScrollingEventArgs__ctor_double_double_bool:
 _p_83:
@@ -6520,7 +6611,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1688]
 br x16
-.word 2373
+.word 2396
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_SfRotator_get_ItemTemplate
 plt_Syncfusion_SfRotator_XForms_SfRotator_get_ItemTemplate:
 _p_84:
@@ -6528,7 +6619,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1696]
 br x16
-.word 2378
+.word 2401
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_get_WidthRequest
 plt_Xamarin_Forms_VisualElement_get_WidthRequest:
 _p_85:
@@ -6536,7 +6627,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1704]
 br x16
-.word 2383
+.word 2406
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_get_HeightRequest
 plt_Xamarin_Forms_VisualElement_get_HeightRequest:
 _p_86:
@@ -6544,7 +6635,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1712]
 br x16
-.word 2388
+.word 2411
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_ConvertFormsTemplateToNative_Xamarin_Forms_DataTemplate_System_nint_CoreGraphics_CGRect_Syncfusion_SfRotator_XForms_SfRotator
 plt_Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_ConvertFormsTemplateToNative_Xamarin_Forms_DataTemplate_System_nint_CoreGraphics_CGRect_Syncfusion_SfRotator_XForms_SfRotator:
 _p_87:
@@ -6552,7 +6643,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1720]
 br x16
-.word 2393
+.word 2416
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer__ctor
 plt_Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer__ctor:
 _p_88:
@@ -6560,7 +6651,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1728]
 br x16
-.word 2395
+.word 2418
 	.no_dead_strip plt_UIKit_UIColor_get_Clear
 plt_UIKit_UIColor_get_Clear:
 _p_89:
@@ -6568,7 +6659,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1736]
 br x16
-.word 2397
+.word 2420
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_get_BackgroundColor
 plt_Xamarin_Forms_VisualElement_get_BackgroundColor:
 _p_90:
@@ -6576,7 +6667,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1744]
 br x16
-.word 2402
+.word 2425
 	.no_dead_strip plt_double_ToString
 plt_double_ToString:
 _p_91:
@@ -6584,7 +6675,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1752]
 br x16
-.word 2407
+.word 2430
 	.no_dead_strip plt_single_Parse_string
 plt_single_Parse_string:
 _p_92:
@@ -6592,7 +6683,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1760]
 br x16
-.word 2412
+.word 2435
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_SetInternalProperty_System_Type_object_string_object_Syncfusion_SfRotator_XForms_SfRotator
 plt_Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_SetInternalProperty_System_Type_object_string_object_Syncfusion_SfRotator_XForms_SfRotator:
 _p_93:
@@ -6600,7 +6691,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1768]
 br x16
-.word 2417
+.word 2440
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_94:
@@ -6608,7 +6699,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1776]
 br x16
-.word 2419
+.word 2442
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_TriggerInternalMethod_System_Type_object_string_object__
 plt_Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_TriggerInternalMethod_System_Type_object_string_object__:
 _p_95:
@@ -6616,7 +6707,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1784]
 br x16
-.word 2427
+.word 2450
 	.no_dead_strip plt_Syncfusion_SfRotator_iOS_SfRotator_Update
 plt_Syncfusion_SfRotator_iOS_SfRotator_Update:
 _p_96:
@@ -6624,7 +6715,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1792]
 br x16
-.word 2429
+.word 2452
 	.no_dead_strip plt_System_Type_GetProperties
 plt_System_Type_GetProperties:
 _p_97:
@@ -6632,7 +6723,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1800]
 br x16
-.word 2434
+.word 2457
 	.no_dead_strip plt_System_Collections_Generic_List_1_string_AddWithResize_string
 plt_System_Collections_Generic_List_1_string_AddWithResize_string:
 _p_98:
@@ -6640,7 +6731,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1808]
 br x16
-.word 2439
+.word 2462
 	.no_dead_strip plt_System_Type_GetMethod_string_System_Reflection_BindingFlags
 plt_System_Type_GetMethod_string_System_Reflection_BindingFlags:
 _p_99:
@@ -6648,7 +6739,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1816]
 br x16
-.word 2460
+.word 2483
 	.no_dead_strip plt_System_Reflection_MethodInfo_op_Inequality_System_Reflection_MethodInfo_System_Reflection_MethodInfo
 plt_System_Reflection_MethodInfo_op_Inequality_System_Reflection_MethodInfo_System_Reflection_MethodInfo:
 _p_100:
@@ -6656,7 +6747,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1824]
 br x16
-.word 2465
+.word 2488
 	.no_dead_strip plt_System_Reflection_MethodBase_Invoke_object_object__
 plt_System_Reflection_MethodBase_Invoke_object_object__:
 _p_101:
@@ -6664,7 +6755,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1832]
 br x16
-.word 2470
+.word 2493
 	.no_dead_strip plt_System_Type_GetProperty_string
 plt_System_Type_GetProperty_string:
 _p_102:
@@ -6672,7 +6763,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1840]
 br x16
-.word 2475
+.word 2498
 	.no_dead_strip plt_System_Reflection_PropertyInfo_op_Inequality_System_Reflection_PropertyInfo_System_Reflection_PropertyInfo
 plt_System_Reflection_PropertyInfo_op_Inequality_System_Reflection_PropertyInfo_System_Reflection_PropertyInfo:
 _p_103:
@@ -6680,7 +6771,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1848]
 br x16
-.word 2480
+.word 2503
 	.no_dead_strip plt_System_Reflection_PropertyInfo_SetValue_object_object
 plt_System_Reflection_PropertyInfo_SetValue_object_object:
 _p_104:
@@ -6688,7 +6779,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1856]
 br x16
-.word 2485
+.word 2508
 	.no_dead_strip plt_string_Equals_string
 plt_string_Equals_string:
 _p_105:
@@ -6696,7 +6787,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1864]
 br x16
-.word 2490
+.word 2513
 	.no_dead_strip plt_int_Parse_string
 plt_int_Parse_string:
 _p_106:
@@ -6704,7 +6795,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1872]
 br x16
-.word 2495
+.word 2518
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_SfRotator_set_SelectedIndex_int
 plt_Syncfusion_SfRotator_XForms_SfRotator_set_SelectedIndex_int:
 _p_107:
@@ -6712,7 +6803,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1880]
 br x16
-.word 2500
+.word 2523
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_set_InputTransparent_bool
 plt_Xamarin_Forms_VisualElement_set_InputTransparent_bool:
 _p_108:
@@ -6720,7 +6811,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1888]
 br x16
-.word 2505
+.word 2528
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_Convert_Xamarin_Forms_View_Xamarin_Forms_VisualElement
 plt_Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_Convert_Xamarin_Forms_View_Xamarin_Forms_VisualElement:
 _p_109:
@@ -6728,7 +6819,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1896]
 br x16
-.word 2510
+.word 2533
 	.no_dead_strip plt_Xamarin_Forms_Rectangle__ctor_double_double_double_double
 plt_Xamarin_Forms_Rectangle__ctor_double_double_double_double:
 _p_110:
@@ -6736,7 +6827,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1904]
 br x16
-.word 2512
+.word 2535
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_Layout_Xamarin_Forms_Rectangle
 plt_Xamarin_Forms_VisualElement_Layout_Xamarin_Forms_Rectangle:
 _p_111:
@@ -6744,7 +6835,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1912]
 br x16
-.word 2517
+.word 2540
 	.no_dead_strip plt_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat
 plt_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat:
 _p_112:
@@ -6752,7 +6843,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1920]
 br x16
-.word 2522
+.word 2545
 	.no_dead_strip plt_System_Type_GetProperty_string_System_Reflection_BindingFlags
 plt_System_Type_GetProperty_string_System_Reflection_BindingFlags:
 _p_113:
@@ -6760,7 +6851,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1928]
 br x16
-.word 2527
+.word 2550
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_get_RendererProperty
 plt_Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_get_RendererProperty:
 _p_114:
@@ -6768,7 +6859,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1936]
 br x16
-.word 2532
+.word 2555
 	.no_dead_strip plt_Xamarin_Forms_BindableObject_GetValue_Xamarin_Forms_BindableProperty
 plt_Xamarin_Forms_BindableObject_GetValue_Xamarin_Forms_BindableProperty:
 _p_115:
@@ -6776,7 +6867,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1944]
 br x16
-.word 2534
+.word 2557
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_Platform_CreateRenderer_Xamarin_Forms_VisualElement
 plt_Xamarin_Forms_Platform_iOS_Platform_CreateRenderer_Xamarin_Forms_VisualElement:
 _p_116:
@@ -6784,7 +6875,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1952]
 br x16
-.word 2539
+.word 2562
 	.no_dead_strip plt_Xamarin_Forms_BindableObject_SetValue_Xamarin_Forms_BindableProperty_object
 plt_Xamarin_Forms_BindableObject_SetValue_Xamarin_Forms_BindableProperty_object:
 _p_117:
@@ -6792,7 +6883,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1960]
 br x16
-.word 2544
+.word 2567
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_get_PlatformProperty
 plt_Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_get_PlatformProperty:
 _p_118:
@@ -6800,7 +6891,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1968]
 br x16
-.word 2549
+.word 2572
 	.no_dead_strip plt_System_Reflection_PropertyInfo_GetValue_object
 plt_System_Reflection_PropertyInfo_GetValue_object:
 _p_119:
@@ -6808,7 +6899,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1976]
 br x16
-.word 2551
+.word 2574
 	.no_dead_strip plt_Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_get_IsPlatformEnabledProperty
 plt_Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_get_IsPlatformEnabledProperty:
 _p_120:
@@ -6816,7 +6907,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1984]
 br x16
-.word 2556
+.word 2579
 	.no_dead_strip plt_Xamarin_Forms_ElementTemplate_CreateContent
 plt_Xamarin_Forms_ElementTemplate_CreateContent:
 _p_121:
@@ -6824,7 +6915,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #1992]
 br x16
-.word 2558
+.word 2581
 	.no_dead_strip plt_System_Linq_Enumerable_Count_object_System_Collections_Generic_IEnumerable_1_object
 plt_System_Linq_Enumerable_Count_object_System_Collections_Generic_IEnumerable_1_object:
 _p_122:
@@ -6832,7 +6923,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #2000]
 br x16
-.word 2563
+.word 2586
 	.no_dead_strip plt_System_Linq_Enumerable_ElementAt_object_System_Collections_Generic_IEnumerable_1_object_int
 plt_System_Linq_Enumerable_ElementAt_object_System_Collections_Generic_IEnumerable_1_object_int:
 _p_123:
@@ -6840,7 +6931,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #2008]
 br x16
-.word 2575
+.word 2598
 	.no_dead_strip plt_Xamarin_Forms_BindableObject_set_BindingContext_object
 plt_Xamarin_Forms_BindableObject_set_BindingContext_object:
 _p_124:
@@ -6848,7 +6939,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #2016]
 br x16
-.word 2587
+.word 2610
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Syncfusion_SfRotator_XForms_SfRotator_Syncfusion_SfRotator_iOS_SFRotator_Dispose_bool
 plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_Syncfusion_SfRotator_XForms_SfRotator_Syncfusion_SfRotator_iOS_SFRotator_Dispose_bool:
 _p_125:
@@ -6856,7 +6947,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #2024]
 br x16
-.word 2592
+.word 2615
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_remove_SizeChanged_System_EventHandler
 plt_Xamarin_Forms_VisualElement_remove_SizeChanged_System_EventHandler:
 _p_126:
@@ -6864,7 +6955,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #2032]
 br x16
-.word 2603
+.word 2626
 	.no_dead_strip plt_Syncfusion_SfRotator_iOS_SfRotator_remove_DrawItem_Syncfusion_SfRotator_iOS_SfRotator_DrawItemEventHandler
 plt_Syncfusion_SfRotator_iOS_SfRotator_remove_DrawItem_Syncfusion_SfRotator_iOS_SfRotator_DrawItemEventHandler:
 _p_127:
@@ -6872,7 +6963,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #2040]
 br x16
-.word 2608
+.word 2631
 	.no_dead_strip plt_Syncfusion_SfRotator_iOS_SfRotator_remove_DrawThumbnailItem_Syncfusion_SfRotator_iOS_SfRotator_DrawThumbnailItemEventHandler
 plt_Syncfusion_SfRotator_iOS_SfRotator_remove_DrawThumbnailItem_Syncfusion_SfRotator_iOS_SfRotator_DrawThumbnailItemEventHandler:
 _p_128:
@@ -6880,7 +6971,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #2048]
 br x16
-.word 2613
+.word 2636
 	.no_dead_strip plt_Syncfusion_SfRotator_iOS_SfRotator_remove_SelectionChanged_Syncfusion_SfRotator_iOS_SfRotator_SelectionChangedEventHandler
 plt_Syncfusion_SfRotator_iOS_SfRotator_remove_SelectionChanged_Syncfusion_SfRotator_iOS_SfRotator_SelectionChangedEventHandler:
 _p_129:
@@ -6888,7 +6979,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #2056]
 br x16
-.word 2618
+.word 2641
 	.no_dead_strip plt_Syncfusion_SfRotator_iOS_SfRotator_remove_RotatorScrolling_System_EventHandler
 plt_Syncfusion_SfRotator_iOS_SfRotator_remove_RotatorScrolling_System_EventHandler:
 _p_130:
@@ -6896,7 +6987,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #2064]
 br x16
-.word 2623
+.word 2646
 	.no_dead_strip plt_System_Type_GetType_string_bool
 plt_System_Type_GetType_string_bool:
 _p_131:
@@ -6904,63 +6995,63 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #2072]
 br x16
-.word 2628
-	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
-plt__jit_icall_mono_helper_ldstr_mscorlib:
+.word 2651
+	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
+plt__jit_icall_mono_arch_throw_exception:
 _p_132:
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #2080]
 br x16
-.word 2633
-	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
-plt__jit_icall_mono_arch_throw_exception:
+.word 2656
+	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
+plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_133:
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #2088]
 br x16
-.word 2662
-	.no_dead_strip plt_System_Nullable_1_bool_Unbox_object
-plt_System_Nullable_1_bool_Unbox_object:
+.word 2684
+	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
+plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_134:
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #2096]
 br x16
-.word 2690
-	.no_dead_strip plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool
-plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool:
+.word 2722
+	.no_dead_strip plt_System_Nullable_1_bool_Unbox_object
+plt_System_Nullable_1_bool_Unbox_object:
 _p_135:
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #2104]
 br x16
-.word 2710
-	.no_dead_strip plt_bool_Equals_object
-plt_bool_Equals_object:
+.word 2751
+	.no_dead_strip plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool
+plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool:
 _p_136:
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #2112]
 br x16
-.word 2730
-	.no_dead_strip plt_System_Nullable_1_bool__ctor_bool
-plt_System_Nullable_1_bool__ctor_bool:
+.word 2771
+	.no_dead_strip plt_bool_Equals_object
+plt_bool_Equals_object:
 _p_137:
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #2120]
 br x16
-.word 2735
-	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
-plt__jit_icall_mono_thread_interruption_checkpoint:
+.word 2791
+	.no_dead_strip plt_System_Nullable_1_bool__ctor_bool
+plt_System_Nullable_1_bool__ctor_bool:
 _p_138:
 adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #2128]
 br x16
-.word 2755
+.word 2796
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_139:
@@ -6968,7 +7059,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #2136]
 br x16
-.word 2821
+.word 2844
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_140:
@@ -6976,7 +7067,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #2144]
 br x16
-.word 2829
+.word 2852
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_141:
@@ -6984,7 +7075,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #2152]
 br x16
-.word 2855
+.word 2878
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_142:
@@ -6992,7 +7083,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #2160]
 br x16
-.word 2872
+.word 2895
 	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 _p_143:
@@ -7000,7 +7091,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #2168]
 br x16
-.word 2880
+.word 2903
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_144:
@@ -7008,7 +7099,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #2176]
 br x16
-.word 2918
+.word 2941
 	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
 plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_145:
@@ -7016,7 +7107,7 @@ adrp x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGE+0
 add x16, x16, mono_aot_Syncfusion_SfRotator_XForms_iOS_got@PAGEOFF
 ldr x16, [x16, #2184]
 br x16
-.word 2942
+.word 2965
 plt_end:
 .section __DATA, __bss
 	.align 3
@@ -7130,13 +7221,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 128,2192,146,69,66,387000831,0,3479
-	.long 128,8,8,8,0,25,6152,2664
-	.long 1768,1384,0,1624,1744,1440,0,1056
-	.long 120,2656,0,0,0,0,0,0
+	.long 128,2192,146,70,66,387000831,0,3506
+	.long 128,8,8,8,0,25,6184,2672
+	.long 1776,1392,0,1632,1752,1448,0,1056
+	.long 120,2664,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 110,137,159,138,79,7,11,126,151,91,35,5,200,135,250,214
+	.byte 99,18,2,179,221,75,42,16,47,185,83,135,2,83,56,180
 	.globl _mono_aot_module_Syncfusion_SfRotator_XForms_iOS_info
 	.align 3
 _mono_aot_module_Syncfusion_SfRotator_XForms_iOS_info:
@@ -8516,381 +8607,467 @@ LTDIE_2_REFERENCE:
 	.byte 14
 LDIFF_SYM242=LTDIE_2 - Ldebug_info_start
 	.long LDIFF_SYM242
-LTDIE_46:
-
-	.byte 5
-	.asciz "System_Collections_Generic_List`1"
-
-	.byte 40,16
-LDIFF_SYM243=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM243
-	.byte 2,35,0,6
-	.asciz "_items"
-
-LDIFF_SYM244=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM244
-	.byte 2,35,16,6
-	.asciz "_size"
-
-LDIFF_SYM245=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM245
-	.byte 2,35,32,6
-	.asciz "_version"
-
-LDIFF_SYM246=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM246
-	.byte 2,35,36,6
-	.asciz "_syncRoot"
-
-LDIFF_SYM247=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM247
-	.byte 2,35,24,0,7
-	.asciz "System_Collections_Generic_List`1"
-
-LDIFF_SYM248=LTDIE_46 - Ldebug_info_start
-	.long LDIFF_SYM248
-LTDIE_46_POINTER:
-
-	.byte 13
-LDIFF_SYM249=LTDIE_46 - Ldebug_info_start
-	.long LDIFF_SYM249
-LTDIE_46_REFERENCE:
-
-	.byte 14
-LDIFF_SYM250=LTDIE_46 - Ldebug_info_start
-	.long LDIFF_SYM250
-LTDIE_47:
-
-	.byte 5
-	.asciz "System_ComponentModel_PropertyChangedEventHandler"
-
-	.byte 112,16
-LDIFF_SYM251=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM251
-	.byte 2,35,0,0,7
-	.asciz "System_ComponentModel_PropertyChangedEventHandler"
-
-LDIFF_SYM252=LTDIE_47 - Ldebug_info_start
-	.long LDIFF_SYM252
-LTDIE_47_POINTER:
-
-	.byte 13
-LDIFF_SYM253=LTDIE_47 - Ldebug_info_start
-	.long LDIFF_SYM253
-LTDIE_47_REFERENCE:
-
-	.byte 14
-LDIFF_SYM254=LTDIE_47 - Ldebug_info_start
-	.long LDIFF_SYM254
 LTDIE_48:
 
-	.byte 5
-	.asciz "Xamarin_Forms_PropertyChangingEventHandler"
+	.byte 17
+	.asciz "System_Collections_Generic_IEqualityComparer`1"
 
-	.byte 112,16
-LDIFF_SYM255=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM255
-	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_PropertyChangingEventHandler"
+	.byte 16,7
+	.asciz "System_Collections_Generic_IEqualityComparer`1"
 
-LDIFF_SYM256=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM256
+LDIFF_SYM243=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM243
 LTDIE_48_POINTER:
 
 	.byte 13
-LDIFF_SYM257=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM257
+LDIFF_SYM244=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM244
 LTDIE_48_REFERENCE:
 
 	.byte 14
-LDIFF_SYM258=LTDIE_48 - Ldebug_info_start
-	.long LDIFF_SYM258
-LTDIE_45:
-
-	.byte 5
-	.asciz "Xamarin_Forms_BindableObject"
-
-	.byte 64,16
-LDIFF_SYM259=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM259
-	.byte 2,35,0,6
-	.asciz "_properties"
-
-LDIFF_SYM260=LTDIE_46_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM260
-	.byte 2,35,16,6
-	.asciz "_applying"
-
-LDIFF_SYM261=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM261
-	.byte 2,35,56,6
-	.asciz "_inheritedContext"
-
-LDIFF_SYM262=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM262
-	.byte 2,35,24,6
-	.asciz "PropertyChanged"
-
-LDIFF_SYM263=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM263
-	.byte 2,35,32,6
-	.asciz "BindingContextChanged"
-
-LDIFF_SYM264=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM264
-	.byte 2,35,40,6
-	.asciz "PropertyChanging"
-
-LDIFF_SYM265=LTDIE_48_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM265
-	.byte 2,35,48,0,7
-	.asciz "Xamarin_Forms_BindableObject"
-
-LDIFF_SYM266=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM266
-LTDIE_45_POINTER:
-
-	.byte 13
-LDIFF_SYM267=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM267
-LTDIE_45_REFERENCE:
-
-	.byte 14
-LDIFF_SYM268=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM268
+LDIFF_SYM245=LTDIE_48 - Ldebug_info_start
+	.long LDIFF_SYM245
 LTDIE_49:
 
-	.byte 17
-	.asciz "System_Collections_Generic_IList`1"
+	.byte 5
+	.asciz "_KeyCollection"
 
-	.byte 16,7
-	.asciz "System_Collections_Generic_IList`1"
+	.byte 24,16
+LDIFF_SYM246=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM246
+	.byte 2,35,0,6
+	.asciz "_dictionary"
 
-LDIFF_SYM269=LTDIE_49 - Ldebug_info_start
-	.long LDIFF_SYM269
+LDIFF_SYM247=LTDIE_47_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM247
+	.byte 2,35,16,0,7
+	.asciz "_KeyCollection"
+
+LDIFF_SYM248=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM248
 LTDIE_49_POINTER:
 
 	.byte 13
-LDIFF_SYM270=LTDIE_49 - Ldebug_info_start
-	.long LDIFF_SYM270
+LDIFF_SYM249=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM249
 LTDIE_49_REFERENCE:
 
 	.byte 14
-LDIFF_SYM271=LTDIE_49 - Ldebug_info_start
-	.long LDIFF_SYM271
+LDIFF_SYM250=LTDIE_49 - Ldebug_info_start
+	.long LDIFF_SYM250
 LTDIE_50:
 
 	.byte 5
-	.asciz "System_Collections_Generic_List`1"
+	.asciz "_ValueCollection"
 
-	.byte 40,16
-LDIFF_SYM272=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM272
+	.byte 24,16
+LDIFF_SYM251=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM251
 	.byte 2,35,0,6
-	.asciz "_items"
+	.asciz "_dictionary"
 
-LDIFF_SYM273=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM273
-	.byte 2,35,16,6
-	.asciz "_size"
+LDIFF_SYM252=LTDIE_47_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM252
+	.byte 2,35,16,0,7
+	.asciz "_ValueCollection"
 
-LDIFF_SYM274=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM274
-	.byte 2,35,32,6
-	.asciz "_version"
-
-LDIFF_SYM275=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM275
-	.byte 2,35,36,6
-	.asciz "_syncRoot"
-
-LDIFF_SYM276=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM276
-	.byte 2,35,24,0,7
-	.asciz "System_Collections_Generic_List`1"
-
-LDIFF_SYM277=LTDIE_50 - Ldebug_info_start
-	.long LDIFF_SYM277
+LDIFF_SYM253=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM253
 LTDIE_50_POINTER:
 
 	.byte 13
-LDIFF_SYM278=LTDIE_50 - Ldebug_info_start
-	.long LDIFF_SYM278
+LDIFF_SYM254=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM254
 LTDIE_50_REFERENCE:
 
 	.byte 14
-LDIFF_SYM279=LTDIE_50 - Ldebug_info_start
-	.long LDIFF_SYM279
-LTDIE_52:
-
-	.byte 17
-	.asciz "System_Collections_Generic_IEqualityComparer`1"
-
-	.byte 16,7
-	.asciz "System_Collections_Generic_IEqualityComparer`1"
-
-LDIFF_SYM280=LTDIE_52 - Ldebug_info_start
-	.long LDIFF_SYM280
-LTDIE_52_POINTER:
-
-	.byte 13
-LDIFF_SYM281=LTDIE_52 - Ldebug_info_start
-	.long LDIFF_SYM281
-LTDIE_52_REFERENCE:
-
-	.byte 14
-LDIFF_SYM282=LTDIE_52 - Ldebug_info_start
-	.long LDIFF_SYM282
-LTDIE_53:
-
-	.byte 5
-	.asciz "_KeyCollection"
-
-	.byte 24,16
-LDIFF_SYM283=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM283
-	.byte 2,35,0,6
-	.asciz "_dictionary"
-
-LDIFF_SYM284=LTDIE_51_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM284
-	.byte 2,35,16,0,7
-	.asciz "_KeyCollection"
-
-LDIFF_SYM285=LTDIE_53 - Ldebug_info_start
-	.long LDIFF_SYM285
-LTDIE_53_POINTER:
-
-	.byte 13
-LDIFF_SYM286=LTDIE_53 - Ldebug_info_start
-	.long LDIFF_SYM286
-LTDIE_53_REFERENCE:
-
-	.byte 14
-LDIFF_SYM287=LTDIE_53 - Ldebug_info_start
-	.long LDIFF_SYM287
-LTDIE_54:
-
-	.byte 5
-	.asciz "_ValueCollection"
-
-	.byte 24,16
-LDIFF_SYM288=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM288
-	.byte 2,35,0,6
-	.asciz "_dictionary"
-
-LDIFF_SYM289=LTDIE_51_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM289
-	.byte 2,35,16,0,7
-	.asciz "_ValueCollection"
-
-LDIFF_SYM290=LTDIE_54 - Ldebug_info_start
-	.long LDIFF_SYM290
-LTDIE_54_POINTER:
-
-	.byte 13
-LDIFF_SYM291=LTDIE_54 - Ldebug_info_start
-	.long LDIFF_SYM291
-LTDIE_54_REFERENCE:
-
-	.byte 14
-LDIFF_SYM292=LTDIE_54 - Ldebug_info_start
-	.long LDIFF_SYM292
-LTDIE_51:
+LDIFF_SYM255=LTDIE_50 - Ldebug_info_start
+	.long LDIFF_SYM255
+LTDIE_47:
 
 	.byte 5
 	.asciz "System_Collections_Generic_Dictionary`2"
 
 	.byte 80,16
-LDIFF_SYM293=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM293
+LDIFF_SYM256=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM256
 	.byte 2,35,0,6
 	.asciz "_buckets"
 
-LDIFF_SYM294=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM294
+LDIFF_SYM257=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM257
 	.byte 2,35,16,6
 	.asciz "_entries"
 
-LDIFF_SYM295=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM295
+LDIFF_SYM258=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM258
 	.byte 2,35,24,6
 	.asciz "_count"
 
-LDIFF_SYM296=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM296
+LDIFF_SYM259=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM259
 	.byte 2,35,64,6
 	.asciz "_freeList"
 
-LDIFF_SYM297=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM297
+LDIFF_SYM260=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM260
 	.byte 2,35,68,6
 	.asciz "_freeCount"
 
-LDIFF_SYM298=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM298
+LDIFF_SYM261=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM261
 	.byte 2,35,72,6
 	.asciz "_version"
 
-LDIFF_SYM299=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM299
+LDIFF_SYM262=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM262
 	.byte 2,35,76,6
 	.asciz "_comparer"
 
-LDIFF_SYM300=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM300
+LDIFF_SYM263=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM263
 	.byte 2,35,32,6
 	.asciz "_keys"
 
-LDIFF_SYM301=LTDIE_53_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM301
+LDIFF_SYM264=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM264
 	.byte 2,35,40,6
 	.asciz "_values"
 
-LDIFF_SYM302=LTDIE_54_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM302
+LDIFF_SYM265=LTDIE_50_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM265
 	.byte 2,35,48,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM303=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM303
+LDIFF_SYM266=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM266
 	.byte 2,35,56,0,7
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-LDIFF_SYM304=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM304
+LDIFF_SYM267=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM267
+LTDIE_47_POINTER:
+
+	.byte 13
+LDIFF_SYM268=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM268
+LTDIE_47_REFERENCE:
+
+	.byte 14
+LDIFF_SYM269=LTDIE_47 - Ldebug_info_start
+	.long LDIFF_SYM269
+LTDIE_51:
+
+	.byte 5
+	.asciz "System_ComponentModel_PropertyChangedEventHandler"
+
+	.byte 112,16
+LDIFF_SYM270=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM270
+	.byte 2,35,0,0,7
+	.asciz "System_ComponentModel_PropertyChangedEventHandler"
+
+LDIFF_SYM271=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM271
 LTDIE_51_POINTER:
 
 	.byte 13
-LDIFF_SYM305=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM305
+LDIFF_SYM272=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM272
 LTDIE_51_REFERENCE:
 
 	.byte 14
-LDIFF_SYM306=LTDIE_51 - Ldebug_info_start
-	.long LDIFF_SYM306
-LTDIE_55:
+LDIFF_SYM273=LTDIE_51 - Ldebug_info_start
+	.long LDIFF_SYM273
+LTDIE_52:
+
+	.byte 5
+	.asciz "Xamarin_Forms_PropertyChangingEventHandler"
+
+	.byte 112,16
+LDIFF_SYM274=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM274
+	.byte 2,35,0,0,7
+	.asciz "Xamarin_Forms_PropertyChangingEventHandler"
+
+LDIFF_SYM275=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM275
+LTDIE_52_POINTER:
+
+	.byte 13
+LDIFF_SYM276=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM276
+LTDIE_52_REFERENCE:
+
+	.byte 14
+LDIFF_SYM277=LTDIE_52 - Ldebug_info_start
+	.long LDIFF_SYM277
+LTDIE_46:
+
+	.byte 5
+	.asciz "Xamarin_Forms_BindableObject"
+
+	.byte 64,16
+LDIFF_SYM278=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM278
+	.byte 2,35,0,6
+	.asciz "_properties"
+
+LDIFF_SYM279=LTDIE_47_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM279
+	.byte 2,35,16,6
+	.asciz "_applying"
+
+LDIFF_SYM280=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM280
+	.byte 2,35,56,6
+	.asciz "_inheritedContext"
+
+LDIFF_SYM281=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM281
+	.byte 2,35,24,6
+	.asciz "PropertyChanged"
+
+LDIFF_SYM282=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM282
+	.byte 2,35,32,6
+	.asciz "BindingContextChanged"
+
+LDIFF_SYM283=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM283
+	.byte 2,35,40,6
+	.asciz "PropertyChanging"
+
+LDIFF_SYM284=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM284
+	.byte 2,35,48,0,7
+	.asciz "Xamarin_Forms_BindableObject"
+
+LDIFF_SYM285=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM285
+LTDIE_46_POINTER:
+
+	.byte 13
+LDIFF_SYM286=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM286
+LTDIE_46_REFERENCE:
+
+	.byte 14
+LDIFF_SYM287=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM287
+LTDIE_53:
 
 	.byte 17
-	.asciz "Xamarin_Forms_IEffectControlProvider"
+	.asciz "System_Collections_Generic_IList`1"
 
 	.byte 16,7
-	.asciz "Xamarin_Forms_IEffectControlProvider"
+	.asciz "System_Collections_Generic_IList`1"
 
-LDIFF_SYM307=LTDIE_55 - Ldebug_info_start
+LDIFF_SYM288=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM288
+LTDIE_53_POINTER:
+
+	.byte 13
+LDIFF_SYM289=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM289
+LTDIE_53_REFERENCE:
+
+	.byte 14
+LDIFF_SYM290=LTDIE_53 - Ldebug_info_start
+	.long LDIFF_SYM290
+LTDIE_54:
+
+	.byte 5
+	.asciz "System_Collections_Generic_List`1"
+
+	.byte 40,16
+LDIFF_SYM291=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM291
+	.byte 2,35,0,6
+	.asciz "_items"
+
+LDIFF_SYM292=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM292
+	.byte 2,35,16,6
+	.asciz "_size"
+
+LDIFF_SYM293=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM293
+	.byte 2,35,32,6
+	.asciz "_version"
+
+LDIFF_SYM294=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM294
+	.byte 2,35,36,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM295=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM295
+	.byte 2,35,24,0,7
+	.asciz "System_Collections_Generic_List`1"
+
+LDIFF_SYM296=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM296
+LTDIE_54_POINTER:
+
+	.byte 13
+LDIFF_SYM297=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM297
+LTDIE_54_REFERENCE:
+
+	.byte 14
+LDIFF_SYM298=LTDIE_54 - Ldebug_info_start
+	.long LDIFF_SYM298
+LTDIE_56:
+
+	.byte 5
+	.asciz "_KeyCollection"
+
+	.byte 24,16
+LDIFF_SYM299=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM299
+	.byte 2,35,0,6
+	.asciz "_dictionary"
+
+LDIFF_SYM300=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM300
+	.byte 2,35,16,0,7
+	.asciz "_KeyCollection"
+
+LDIFF_SYM301=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM301
+LTDIE_56_POINTER:
+
+	.byte 13
+LDIFF_SYM302=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM302
+LTDIE_56_REFERENCE:
+
+	.byte 14
+LDIFF_SYM303=LTDIE_56 - Ldebug_info_start
+	.long LDIFF_SYM303
+LTDIE_57:
+
+	.byte 5
+	.asciz "_ValueCollection"
+
+	.byte 24,16
+LDIFF_SYM304=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM304
+	.byte 2,35,0,6
+	.asciz "_dictionary"
+
+LDIFF_SYM305=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM305
+	.byte 2,35,16,0,7
+	.asciz "_ValueCollection"
+
+LDIFF_SYM306=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM306
+LTDIE_57_POINTER:
+
+	.byte 13
+LDIFF_SYM307=LTDIE_57 - Ldebug_info_start
 	.long LDIFF_SYM307
+LTDIE_57_REFERENCE:
+
+	.byte 14
+LDIFF_SYM308=LTDIE_57 - Ldebug_info_start
+	.long LDIFF_SYM308
+LTDIE_55:
+
+	.byte 5
+	.asciz "System_Collections_Generic_Dictionary`2"
+
+	.byte 80,16
+LDIFF_SYM309=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM309
+	.byte 2,35,0,6
+	.asciz "_buckets"
+
+LDIFF_SYM310=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM310
+	.byte 2,35,16,6
+	.asciz "_entries"
+
+LDIFF_SYM311=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM311
+	.byte 2,35,24,6
+	.asciz "_count"
+
+LDIFF_SYM312=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM312
+	.byte 2,35,64,6
+	.asciz "_freeList"
+
+LDIFF_SYM313=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM313
+	.byte 2,35,68,6
+	.asciz "_freeCount"
+
+LDIFF_SYM314=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM314
+	.byte 2,35,72,6
+	.asciz "_version"
+
+LDIFF_SYM315=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM315
+	.byte 2,35,76,6
+	.asciz "_comparer"
+
+LDIFF_SYM316=LTDIE_48_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM316
+	.byte 2,35,32,6
+	.asciz "_keys"
+
+LDIFF_SYM317=LTDIE_56_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM317
+	.byte 2,35,40,6
+	.asciz "_values"
+
+LDIFF_SYM318=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM318
+	.byte 2,35,48,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM319=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM319
+	.byte 2,35,56,0,7
+	.asciz "System_Collections_Generic_Dictionary`2"
+
+LDIFF_SYM320=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM320
 LTDIE_55_POINTER:
 
 	.byte 13
-LDIFF_SYM308=LTDIE_55 - Ldebug_info_start
-	.long LDIFF_SYM308
+LDIFF_SYM321=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM321
 LTDIE_55_REFERENCE:
 
 	.byte 14
-LDIFF_SYM309=LTDIE_55 - Ldebug_info_start
-	.long LDIFF_SYM309
-LTDIE_59:
+LDIFF_SYM322=LTDIE_55 - Ldebug_info_start
+	.long LDIFF_SYM322
+LTDIE_58:
+
+	.byte 17
+	.asciz "Xamarin_Forms_IEffectControlProvider"
+
+	.byte 16,7
+	.asciz "Xamarin_Forms_IEffectControlProvider"
+
+LDIFF_SYM323=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM323
+LTDIE_58_POINTER:
+
+	.byte 13
+LDIFF_SYM324=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM324
+LTDIE_58_REFERENCE:
+
+	.byte 14
+LDIFF_SYM325=LTDIE_58 - Ldebug_info_start
+	.long LDIFF_SYM325
+LTDIE_62:
 
 	.byte 17
 	.asciz "System_Collections_Generic_IList`1"
@@ -8898,179 +9075,202 @@ LTDIE_59:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IList`1"
 
-LDIFF_SYM310=LTDIE_59 - Ldebug_info_start
-	.long LDIFF_SYM310
-LTDIE_59_POINTER:
+LDIFF_SYM326=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM326
+LTDIE_62_POINTER:
 
 	.byte 13
-LDIFF_SYM311=LTDIE_59 - Ldebug_info_start
-	.long LDIFF_SYM311
-LTDIE_59_REFERENCE:
+LDIFF_SYM327=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM327
+LTDIE_62_REFERENCE:
 
 	.byte 14
-LDIFF_SYM312=LTDIE_59 - Ldebug_info_start
-	.long LDIFF_SYM312
-LTDIE_58:
+LDIFF_SYM328=LTDIE_62 - Ldebug_info_start
+	.long LDIFF_SYM328
+LTDIE_61:
 
 	.byte 5
 	.asciz "System_Collections_ObjectModel_Collection`1"
 
 	.byte 32,16
-LDIFF_SYM313=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM313
+LDIFF_SYM329=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM329
 	.byte 2,35,0,6
 	.asciz "items"
 
-LDIFF_SYM314=LTDIE_59_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM314
+LDIFF_SYM330=LTDIE_62_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM330
 	.byte 2,35,16,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM315=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM315
+LDIFF_SYM331=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM331
 	.byte 2,35,24,0,7
 	.asciz "System_Collections_ObjectModel_Collection`1"
 
-LDIFF_SYM316=LTDIE_58 - Ldebug_info_start
-	.long LDIFF_SYM316
-LTDIE_58_POINTER:
+LDIFF_SYM332=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM332
+LTDIE_61_POINTER:
 
 	.byte 13
-LDIFF_SYM317=LTDIE_58 - Ldebug_info_start
-	.long LDIFF_SYM317
-LTDIE_58_REFERENCE:
+LDIFF_SYM333=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM333
+LTDIE_61_REFERENCE:
 
 	.byte 14
-LDIFF_SYM318=LTDIE_58 - Ldebug_info_start
-	.long LDIFF_SYM318
-LTDIE_60:
+LDIFF_SYM334=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM334
+LTDIE_63:
 
 	.byte 5
 	.asciz "_SimpleMonitor"
 
 	.byte 32,16
-LDIFF_SYM319=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM319
+LDIFF_SYM335=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM335
 	.byte 2,35,0,6
 	.asciz "_busyCount"
 
-LDIFF_SYM320=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM320
+LDIFF_SYM336=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM336
 	.byte 2,35,24,6
 	.asciz "_collection"
 
-LDIFF_SYM321=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM321
+LDIFF_SYM337=LTDIE_60_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM337
 	.byte 2,35,16,0,7
 	.asciz "_SimpleMonitor"
 
-LDIFF_SYM322=LTDIE_60 - Ldebug_info_start
-	.long LDIFF_SYM322
-LTDIE_60_POINTER:
+LDIFF_SYM338=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM338
+LTDIE_63_POINTER:
 
 	.byte 13
-LDIFF_SYM323=LTDIE_60 - Ldebug_info_start
-	.long LDIFF_SYM323
-LTDIE_60_REFERENCE:
+LDIFF_SYM339=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM339
+LTDIE_63_REFERENCE:
 
 	.byte 14
-LDIFF_SYM324=LTDIE_60 - Ldebug_info_start
-	.long LDIFF_SYM324
-LTDIE_61:
+LDIFF_SYM340=LTDIE_63 - Ldebug_info_start
+	.long LDIFF_SYM340
+LTDIE_64:
 
 	.byte 5
 	.asciz "System_Collections_Specialized_NotifyCollectionChangedEventHandler"
 
 	.byte 112,16
-LDIFF_SYM325=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM325
+LDIFF_SYM341=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM341
 	.byte 2,35,0,0,7
 	.asciz "System_Collections_Specialized_NotifyCollectionChangedEventHandler"
 
-LDIFF_SYM326=LTDIE_61 - Ldebug_info_start
-	.long LDIFF_SYM326
-LTDIE_61_POINTER:
+LDIFF_SYM342=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM342
+LTDIE_64_POINTER:
 
 	.byte 13
-LDIFF_SYM327=LTDIE_61 - Ldebug_info_start
-	.long LDIFF_SYM327
-LTDIE_61_REFERENCE:
+LDIFF_SYM343=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM343
+LTDIE_64_REFERENCE:
 
 	.byte 14
-LDIFF_SYM328=LTDIE_61 - Ldebug_info_start
-	.long LDIFF_SYM328
-LTDIE_57:
+LDIFF_SYM344=LTDIE_64 - Ldebug_info_start
+	.long LDIFF_SYM344
+LTDIE_60:
 
 	.byte 5
 	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
 
 	.byte 64,16
-LDIFF_SYM329=LTDIE_58 - Ldebug_info_start
-	.long LDIFF_SYM329
+LDIFF_SYM345=LTDIE_61 - Ldebug_info_start
+	.long LDIFF_SYM345
 	.byte 2,35,0,6
 	.asciz "_monitor"
 
-LDIFF_SYM330=LTDIE_60_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM330
+LDIFF_SYM346=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM346
 	.byte 2,35,32,6
 	.asciz "_blockReentrancyCount"
 
-LDIFF_SYM331=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM331
+LDIFF_SYM347=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM347
 	.byte 2,35,56,6
 	.asciz "CollectionChanged"
 
-LDIFF_SYM332=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM332
+LDIFF_SYM348=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM348
 	.byte 2,35,40,6
 	.asciz "PropertyChanged"
 
-LDIFF_SYM333=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM333
+LDIFF_SYM349=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM349
 	.byte 2,35,48,0,7
 	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
 
-LDIFF_SYM334=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM334
-LTDIE_57_POINTER:
+LDIFF_SYM350=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM350
+LTDIE_60_POINTER:
 
 	.byte 13
-LDIFF_SYM335=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM335
-LTDIE_57_REFERENCE:
+LDIFF_SYM351=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM351
+LTDIE_60_REFERENCE:
 
 	.byte 14
-LDIFF_SYM336=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM336
-LTDIE_56:
+LDIFF_SYM352=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM352
+LTDIE_59:
 
 	.byte 5
 	.asciz "Xamarin_Forms_TrackableCollection`1"
 
 	.byte 72,16
-LDIFF_SYM337=LTDIE_57 - Ldebug_info_start
-	.long LDIFF_SYM337
+LDIFF_SYM353=LTDIE_60 - Ldebug_info_start
+	.long LDIFF_SYM353
 	.byte 2,35,0,6
 	.asciz "Clearing"
 
-LDIFF_SYM338=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM338
+LDIFF_SYM354=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM354
 	.byte 2,35,64,0,7
 	.asciz "Xamarin_Forms_TrackableCollection`1"
 
-LDIFF_SYM339=LTDIE_56 - Ldebug_info_start
-	.long LDIFF_SYM339
-LTDIE_56_POINTER:
+LDIFF_SYM355=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM355
+LTDIE_59_POINTER:
 
 	.byte 13
-LDIFF_SYM340=LTDIE_56 - Ldebug_info_start
-	.long LDIFF_SYM340
-LTDIE_56_REFERENCE:
+LDIFF_SYM356=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM356
+LTDIE_59_REFERENCE:
 
 	.byte 14
-LDIFF_SYM341=LTDIE_56 - Ldebug_info_start
-	.long LDIFF_SYM341
-LTDIE_62:
+LDIFF_SYM357=LTDIE_59 - Ldebug_info_start
+	.long LDIFF_SYM357
+LTDIE_65:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 112,16
+LDIFF_SYM358=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM358
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM359=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM359
+LTDIE_65_POINTER:
+
+	.byte 13
+LDIFF_SYM360=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM360
+LTDIE_65_REFERENCE:
+
+	.byte 14
+LDIFF_SYM361=LTDIE_65 - Ldebug_info_start
+	.long LDIFF_SYM361
+LTDIE_66:
 
 	.byte 17
 	.asciz "Xamarin_Forms_Internals_IPlatform"
@@ -9078,167 +9278,378 @@ LTDIE_62:
 	.byte 16,7
 	.asciz "Xamarin_Forms_Internals_IPlatform"
 
-LDIFF_SYM342=LTDIE_62 - Ldebug_info_start
-	.long LDIFF_SYM342
-LTDIE_62_POINTER:
+LDIFF_SYM362=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM362
+LTDIE_66_POINTER:
 
 	.byte 13
-LDIFF_SYM343=LTDIE_62 - Ldebug_info_start
-	.long LDIFF_SYM343
-LTDIE_62_REFERENCE:
+LDIFF_SYM363=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM363
+LTDIE_66_REFERENCE:
 
 	.byte 14
-LDIFF_SYM344=LTDIE_62 - Ldebug_info_start
-	.long LDIFF_SYM344
-LTDIE_63:
-
-	.byte 5
-	.asciz "System_EventHandler`1"
-
-	.byte 112,16
-LDIFF_SYM345=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM345
-	.byte 2,35,0,0,7
-	.asciz "System_EventHandler`1"
-
-LDIFF_SYM346=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM346
-LTDIE_63_POINTER:
-
-	.byte 13
-LDIFF_SYM347=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM347
-LTDIE_63_REFERENCE:
-
-	.byte 14
-LDIFF_SYM348=LTDIE_63 - Ldebug_info_start
-	.long LDIFF_SYM348
-LTDIE_44:
+LDIFF_SYM364=LTDIE_66 - Ldebug_info_start
+	.long LDIFF_SYM364
+LTDIE_45:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Element"
 
 	.byte 224,1,16
-LDIFF_SYM349=LTDIE_45 - Ldebug_info_start
-	.long LDIFF_SYM349
+LDIFF_SYM365=LTDIE_46 - Ldebug_info_start
+	.long LDIFF_SYM365
 	.byte 2,35,0,6
-	.asciz "_automationId"
-
-LDIFF_SYM350=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM350
-	.byte 2,35,64,6
 	.asciz "_bindableResources"
 
-LDIFF_SYM351=LTDIE_49_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM351
-	.byte 2,35,72,6
+LDIFF_SYM366=LTDIE_53_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM366
+	.byte 2,35,64,6
 	.asciz "_changeHandlers"
 
-LDIFF_SYM352=LTDIE_50_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM352
-	.byte 2,35,80,6
+LDIFF_SYM367=LTDIE_54_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM367
+	.byte 2,35,72,6
 	.asciz "_dynamicResources"
 
-LDIFF_SYM353=LTDIE_51_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM353
-	.byte 2,35,88,6
+LDIFF_SYM368=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM368
+	.byte 2,35,80,6
 	.asciz "_effectControlProvider"
 
-LDIFF_SYM354=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM354
-	.byte 2,35,96,6
+LDIFF_SYM369=LTDIE_58_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM369
+	.byte 2,35,88,6
 	.asciz "_effects"
 
-LDIFF_SYM355=LTDIE_56_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM355
-	.byte 2,35,104,6
+LDIFF_SYM370=LTDIE_59_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM370
+	.byte 2,35,96,6
 	.asciz "_id"
 
-LDIFF_SYM356=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM356
+LDIFF_SYM371=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM371
 	.byte 3,35,200,1,6
 	.asciz "_parentOverride"
 
-LDIFF_SYM357=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM357
-	.byte 2,35,112,6
-	.asciz "_platform"
-
-LDIFF_SYM358=LTDIE_62_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM358
-	.byte 2,35,120,6
+LDIFF_SYM372=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM372
+	.byte 2,35,104,6
 	.asciz "_styleId"
 
-LDIFF_SYM359=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM359
-	.byte 3,35,128,1,6
+LDIFF_SYM373=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM373
+	.byte 2,35,112,6
 	.asciz "<Owned>k__BackingField"
 
-LDIFF_SYM360=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM360
+LDIFF_SYM374=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM374
 	.byte 3,35,220,1,6
 	.asciz "<RealParent>k__BackingField"
 
-LDIFF_SYM361=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM361
-	.byte 3,35,136,1,6
+LDIFF_SYM375=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM375
+	.byte 2,35,120,6
 	.asciz "ChildAdded"
 
-LDIFF_SYM362=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM362
-	.byte 3,35,144,1,6
+LDIFF_SYM376=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM376
+	.byte 3,35,128,1,6
 	.asciz "ChildRemoved"
 
-LDIFF_SYM363=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM363
-	.byte 3,35,152,1,6
+LDIFF_SYM377=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM377
+	.byte 3,35,136,1,6
 	.asciz "DescendantAdded"
 
-LDIFF_SYM364=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM364
-	.byte 3,35,160,1,6
+LDIFF_SYM378=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM378
+	.byte 3,35,144,1,6
 	.asciz "DescendantRemoved"
 
-LDIFF_SYM365=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM365
-	.byte 3,35,168,1,6
+LDIFF_SYM379=LTDIE_65_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM379
+	.byte 3,35,152,1,6
 	.asciz "ParentSet"
 
-LDIFF_SYM366=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM366
-	.byte 3,35,176,1,6
+LDIFF_SYM380=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM380
+	.byte 3,35,160,1,6
+	.asciz "_platform"
+
+LDIFF_SYM381=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM381
+	.byte 3,35,168,1,6
 	.asciz "PlatformSet"
 
-LDIFF_SYM367=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM367
+LDIFF_SYM382=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM382
+	.byte 3,35,176,1,6
+	.asciz "_cssFallbackTypeName"
+
+LDIFF_SYM383=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM383
 	.byte 3,35,184,1,6
 	.asciz "_styleSelectableNameAndBaseNames"
 
-LDIFF_SYM368=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM368
+LDIFF_SYM384=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM384
 	.byte 3,35,192,1,0,7
 	.asciz "Xamarin_Forms_Element"
 
-LDIFF_SYM369=LTDIE_44 - Ldebug_info_start
-	.long LDIFF_SYM369
+LDIFF_SYM385=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM385
+LTDIE_45_POINTER:
+
+	.byte 13
+LDIFF_SYM386=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM386
+LTDIE_45_REFERENCE:
+
+	.byte 14
+LDIFF_SYM387=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM387
+LTDIE_68:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IList`1"
+
+	.byte 16,7
+	.asciz "System_Collections_Generic_IList`1"
+
+LDIFF_SYM388=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM388
+LTDIE_68_POINTER:
+
+	.byte 13
+LDIFF_SYM389=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM389
+LTDIE_68_REFERENCE:
+
+	.byte 14
+LDIFF_SYM390=LTDIE_68 - Ldebug_info_start
+	.long LDIFF_SYM390
+LTDIE_69:
+
+	.byte 5
+	.asciz "System_Collections_Generic_List`1"
+
+	.byte 40,16
+LDIFF_SYM391=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM391
+	.byte 2,35,0,6
+	.asciz "_items"
+
+LDIFF_SYM392=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM392
+	.byte 2,35,16,6
+	.asciz "_size"
+
+LDIFF_SYM393=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM393
+	.byte 2,35,32,6
+	.asciz "_version"
+
+LDIFF_SYM394=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM394
+	.byte 2,35,36,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM395=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM395
+	.byte 2,35,24,0,7
+	.asciz "System_Collections_Generic_List`1"
+
+LDIFF_SYM396=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM396
+LTDIE_69_POINTER:
+
+	.byte 13
+LDIFF_SYM397=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM397
+LTDIE_69_REFERENCE:
+
+	.byte 14
+LDIFF_SYM398=LTDIE_69 - Ldebug_info_start
+	.long LDIFF_SYM398
+LTDIE_70:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IList`1"
+
+	.byte 16,7
+	.asciz "System_Collections_Generic_IList`1"
+
+LDIFF_SYM399=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM399
+LTDIE_70_POINTER:
+
+	.byte 13
+LDIFF_SYM400=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM400
+LTDIE_70_REFERENCE:
+
+	.byte 14
+LDIFF_SYM401=LTDIE_70 - Ldebug_info_start
+	.long LDIFF_SYM401
+LTDIE_71:
+
+	.byte 17
+	.asciz "Xamarin_Forms_IStyle"
+
+	.byte 16,7
+	.asciz "Xamarin_Forms_IStyle"
+
+LDIFF_SYM402=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM402
+LTDIE_71_POINTER:
+
+	.byte 13
+LDIFF_SYM403=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM403
+LTDIE_71_REFERENCE:
+
+	.byte 14
+LDIFF_SYM404=LTDIE_71 - Ldebug_info_start
+	.long LDIFF_SYM404
+LTDIE_72:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IList`1"
+
+	.byte 16,7
+	.asciz "System_Collections_Generic_IList`1"
+
+LDIFF_SYM405=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM405
+LTDIE_72_POINTER:
+
+	.byte 13
+LDIFF_SYM406=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM406
+LTDIE_72_REFERENCE:
+
+	.byte 14
+LDIFF_SYM407=LTDIE_72 - Ldebug_info_start
+	.long LDIFF_SYM407
+LTDIE_67:
+
+	.byte 5
+	.asciz "Xamarin_Forms_MergedStyle"
+
+	.byte 80,16
+LDIFF_SYM408=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM408
+	.byte 2,35,0,6
+	.asciz "_classStyleProperties"
+
+LDIFF_SYM409=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM409
+	.byte 2,35,16,6
+	.asciz "_implicitStyles"
+
+LDIFF_SYM410=LTDIE_69_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM410
+	.byte 2,35,24,6
+	.asciz "_classStyles"
+
+LDIFF_SYM411=LTDIE_70_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM411
+	.byte 2,35,32,6
+	.asciz "_implicitStyle"
+
+LDIFF_SYM412=LTDIE_71_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM412
+	.byte 2,35,40,6
+	.asciz "_style"
+
+LDIFF_SYM413=LTDIE_71_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM413
+	.byte 2,35,48,6
+	.asciz "_styleClass"
+
+LDIFF_SYM414=LTDIE_72_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM414
+	.byte 2,35,56,6
+	.asciz "<Target>k__BackingField"
+
+LDIFF_SYM415=LTDIE_46_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM415
+	.byte 2,35,64,6
+	.asciz "<TargetType>k__BackingField"
+
+LDIFF_SYM416=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM416
+	.byte 2,35,72,0,7
+	.asciz "Xamarin_Forms_MergedStyle"
+
+LDIFF_SYM417=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM417
+LTDIE_67_POINTER:
+
+	.byte 13
+LDIFF_SYM418=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM418
+LTDIE_67_REFERENCE:
+
+	.byte 14
+LDIFF_SYM419=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM419
+LTDIE_44:
+
+	.byte 5
+	.asciz "Xamarin_Forms_NavigableElement"
+
+	.byte 232,1,16
+LDIFF_SYM420=LTDIE_45 - Ldebug_info_start
+	.long LDIFF_SYM420
+	.byte 2,35,0,6
+	.asciz "_mergedStyle"
+
+LDIFF_SYM421=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM421
+	.byte 3,35,224,1,0,7
+	.asciz "Xamarin_Forms_NavigableElement"
+
+LDIFF_SYM422=LTDIE_44 - Ldebug_info_start
+	.long LDIFF_SYM422
 LTDIE_44_POINTER:
 
 	.byte 13
-LDIFF_SYM370=LTDIE_44 - Ldebug_info_start
-	.long LDIFF_SYM370
+LDIFF_SYM423=LTDIE_44 - Ldebug_info_start
+	.long LDIFF_SYM423
 LTDIE_44_REFERENCE:
 
 	.byte 14
-LDIFF_SYM371=LTDIE_44 - Ldebug_info_start
-	.long LDIFF_SYM371
-LTDIE_64:
+LDIFF_SYM424=LTDIE_44 - Ldebug_info_start
+	.long LDIFF_SYM424
+LTDIE_73:
+
+	.byte 17
+	.asciz "Xamarin_Forms_IVisual"
+
+	.byte 16,7
+	.asciz "Xamarin_Forms_IVisual"
+
+LDIFF_SYM425=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM425
+LTDIE_73_POINTER:
+
+	.byte 13
+LDIFF_SYM426=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM426
+LTDIE_73_REFERENCE:
+
+	.byte 14
+LDIFF_SYM427=LTDIE_73 - Ldebug_info_start
+	.long LDIFF_SYM427
+LTDIE_74:
 
 	.byte 8
 	.asciz "Xamarin_Forms_EffectiveFlowDirection"
 
 	.byte 4
-LDIFF_SYM372=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM372
+LDIFF_SYM428=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM428
 	.byte 9
 	.asciz "RightToLeft"
 
@@ -9248,361 +9659,175 @@ LDIFF_SYM372=LDIE_I4 - Ldebug_info_start
 	.byte 2,0,7
 	.asciz "Xamarin_Forms_EffectiveFlowDirection"
 
-LDIFF_SYM373=LTDIE_64 - Ldebug_info_start
-	.long LDIFF_SYM373
-LTDIE_64_POINTER:
-
-	.byte 13
-LDIFF_SYM374=LTDIE_64 - Ldebug_info_start
-	.long LDIFF_SYM374
-LTDIE_64_REFERENCE:
-
-	.byte 14
-LDIFF_SYM375=LTDIE_64 - Ldebug_info_start
-	.long LDIFF_SYM375
-LTDIE_66:
-
-	.byte 17
-	.asciz "System_Collections_Generic_IEqualityComparer`1"
-
-	.byte 16,7
-	.asciz "System_Collections_Generic_IEqualityComparer`1"
-
-LDIFF_SYM376=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM376
-LTDIE_66_POINTER:
-
-	.byte 13
-LDIFF_SYM377=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM377
-LTDIE_66_REFERENCE:
-
-	.byte 14
-LDIFF_SYM378=LTDIE_66 - Ldebug_info_start
-	.long LDIFF_SYM378
-LTDIE_67:
-
-	.byte 5
-	.asciz "_KeyCollection"
-
-	.byte 24,16
-LDIFF_SYM379=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM379
-	.byte 2,35,0,6
-	.asciz "_dictionary"
-
-LDIFF_SYM380=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM380
-	.byte 2,35,16,0,7
-	.asciz "_KeyCollection"
-
-LDIFF_SYM381=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM381
-LTDIE_67_POINTER:
-
-	.byte 13
-LDIFF_SYM382=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM382
-LTDIE_67_REFERENCE:
-
-	.byte 14
-LDIFF_SYM383=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM383
-LTDIE_68:
-
-	.byte 5
-	.asciz "_ValueCollection"
-
-	.byte 24,16
-LDIFF_SYM384=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM384
-	.byte 2,35,0,6
-	.asciz "_dictionary"
-
-LDIFF_SYM385=LTDIE_65_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM385
-	.byte 2,35,16,0,7
-	.asciz "_ValueCollection"
-
-LDIFF_SYM386=LTDIE_68 - Ldebug_info_start
-	.long LDIFF_SYM386
-LTDIE_68_POINTER:
-
-	.byte 13
-LDIFF_SYM387=LTDIE_68 - Ldebug_info_start
-	.long LDIFF_SYM387
-LTDIE_68_REFERENCE:
-
-	.byte 14
-LDIFF_SYM388=LTDIE_68 - Ldebug_info_start
-	.long LDIFF_SYM388
-LTDIE_65:
-
-	.byte 5
-	.asciz "System_Collections_Generic_Dictionary`2"
-
-	.byte 80,16
-LDIFF_SYM389=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM389
-	.byte 2,35,0,6
-	.asciz "_buckets"
-
-LDIFF_SYM390=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM390
-	.byte 2,35,16,6
-	.asciz "_entries"
-
-LDIFF_SYM391=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM391
-	.byte 2,35,24,6
-	.asciz "_count"
-
-LDIFF_SYM392=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM392
-	.byte 2,35,64,6
-	.asciz "_freeList"
-
-LDIFF_SYM393=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM393
-	.byte 2,35,68,6
-	.asciz "_freeCount"
-
-LDIFF_SYM394=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM394
-	.byte 2,35,72,6
-	.asciz "_version"
-
-LDIFF_SYM395=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM395
-	.byte 2,35,76,6
-	.asciz "_comparer"
-
-LDIFF_SYM396=LTDIE_66_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM396
-	.byte 2,35,32,6
-	.asciz "_keys"
-
-LDIFF_SYM397=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM397
-	.byte 2,35,40,6
-	.asciz "_values"
-
-LDIFF_SYM398=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM398
-	.byte 2,35,48,6
-	.asciz "_syncRoot"
-
-LDIFF_SYM399=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM399
-	.byte 2,35,56,0,7
-	.asciz "System_Collections_Generic_Dictionary`2"
-
-LDIFF_SYM400=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM400
-LTDIE_65_POINTER:
-
-	.byte 13
-LDIFF_SYM401=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM401
-LTDIE_65_REFERENCE:
-
-	.byte 14
-LDIFF_SYM402=LTDIE_65 - Ldebug_info_start
-	.long LDIFF_SYM402
-LTDIE_70:
-
-	.byte 17
-	.asciz "System_Collections_Generic_IList`1"
-
-	.byte 16,7
-	.asciz "System_Collections_Generic_IList`1"
-
-LDIFF_SYM403=LTDIE_70 - Ldebug_info_start
-	.long LDIFF_SYM403
-LTDIE_70_POINTER:
-
-	.byte 13
-LDIFF_SYM404=LTDIE_70 - Ldebug_info_start
-	.long LDIFF_SYM404
-LTDIE_70_REFERENCE:
-
-	.byte 14
-LDIFF_SYM405=LTDIE_70 - Ldebug_info_start
-	.long LDIFF_SYM405
-LTDIE_71:
-
-	.byte 5
-	.asciz "System_Collections_Generic_List`1"
-
-	.byte 40,16
-LDIFF_SYM406=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM406
-	.byte 2,35,0,6
-	.asciz "_items"
-
-LDIFF_SYM407=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM407
-	.byte 2,35,16,6
-	.asciz "_size"
-
-LDIFF_SYM408=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM408
-	.byte 2,35,32,6
-	.asciz "_version"
-
-LDIFF_SYM409=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM409
-	.byte 2,35,36,6
-	.asciz "_syncRoot"
-
-LDIFF_SYM410=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM410
-	.byte 2,35,24,0,7
-	.asciz "System_Collections_Generic_List`1"
-
-LDIFF_SYM411=LTDIE_71 - Ldebug_info_start
-	.long LDIFF_SYM411
-LTDIE_71_POINTER:
-
-	.byte 13
-LDIFF_SYM412=LTDIE_71 - Ldebug_info_start
-	.long LDIFF_SYM412
-LTDIE_71_REFERENCE:
-
-	.byte 14
-LDIFF_SYM413=LTDIE_71 - Ldebug_info_start
-	.long LDIFF_SYM413
-LTDIE_72:
-
-	.byte 17
-	.asciz "System_Collections_Generic_IList`1"
-
-	.byte 16,7
-	.asciz "System_Collections_Generic_IList`1"
-
-LDIFF_SYM414=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM414
-LTDIE_72_POINTER:
-
-	.byte 13
-LDIFF_SYM415=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM415
-LTDIE_72_REFERENCE:
-
-	.byte 14
-LDIFF_SYM416=LTDIE_72 - Ldebug_info_start
-	.long LDIFF_SYM416
-LTDIE_73:
-
-	.byte 17
-	.asciz "Xamarin_Forms_IStyle"
-
-	.byte 16,7
-	.asciz "Xamarin_Forms_IStyle"
-
-LDIFF_SYM417=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM417
-LTDIE_73_POINTER:
-
-	.byte 13
-LDIFF_SYM418=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM418
-LTDIE_73_REFERENCE:
-
-	.byte 14
-LDIFF_SYM419=LTDIE_73 - Ldebug_info_start
-	.long LDIFF_SYM419
-LTDIE_74:
-
-	.byte 17
-	.asciz "System_Collections_Generic_IList`1"
-
-	.byte 16,7
-	.asciz "System_Collections_Generic_IList`1"
-
-LDIFF_SYM420=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM420
+LDIFF_SYM429=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM429
 LTDIE_74_POINTER:
 
 	.byte 13
-LDIFF_SYM421=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM421
+LDIFF_SYM430=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM430
 LTDIE_74_REFERENCE:
 
 	.byte 14
-LDIFF_SYM422=LTDIE_74 - Ldebug_info_start
-	.long LDIFF_SYM422
-LTDIE_69:
-
-	.byte 5
-	.asciz "Xamarin_Forms_MergedStyle"
-
-	.byte 80,16
-LDIFF_SYM423=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM423
-	.byte 2,35,0,6
-	.asciz "_classStyleProperties"
-
-LDIFF_SYM424=LTDIE_70_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM424
-	.byte 2,35,16,6
-	.asciz "_implicitStyles"
-
-LDIFF_SYM425=LTDIE_71_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM425
-	.byte 2,35,24,6
-	.asciz "_classStyles"
-
-LDIFF_SYM426=LTDIE_72_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM426
-	.byte 2,35,32,6
-	.asciz "_implicitStyle"
-
-LDIFF_SYM427=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM427
-	.byte 2,35,40,6
-	.asciz "_style"
-
-LDIFF_SYM428=LTDIE_73_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM428
-	.byte 2,35,48,6
-	.asciz "_styleClass"
-
-LDIFF_SYM429=LTDIE_74_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM429
-	.byte 2,35,56,6
-	.asciz "<Target>k__BackingField"
-
-LDIFF_SYM430=LTDIE_45_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM430
-	.byte 2,35,64,6
-	.asciz "<TargetType>k__BackingField"
-
-LDIFF_SYM431=LTDIE_36_REFERENCE - Ldebug_info_start
+LDIFF_SYM431=LTDIE_74 - Ldebug_info_start
 	.long LDIFF_SYM431
-	.byte 2,35,72,0,7
-	.asciz "Xamarin_Forms_MergedStyle"
+LTDIE_76:
 
-LDIFF_SYM432=LTDIE_69 - Ldebug_info_start
+	.byte 17
+	.asciz "System_Collections_Generic_IEqualityComparer`1"
+
+	.byte 16,7
+	.asciz "System_Collections_Generic_IEqualityComparer`1"
+
+LDIFF_SYM432=LTDIE_76 - Ldebug_info_start
 	.long LDIFF_SYM432
-LTDIE_69_POINTER:
+LTDIE_76_POINTER:
 
 	.byte 13
-LDIFF_SYM433=LTDIE_69 - Ldebug_info_start
+LDIFF_SYM433=LTDIE_76 - Ldebug_info_start
 	.long LDIFF_SYM433
-LTDIE_69_REFERENCE:
+LTDIE_76_REFERENCE:
 
 	.byte 14
-LDIFF_SYM434=LTDIE_69 - Ldebug_info_start
+LDIFF_SYM434=LTDIE_76 - Ldebug_info_start
 	.long LDIFF_SYM434
+LTDIE_77:
+
+	.byte 5
+	.asciz "_KeyCollection"
+
+	.byte 24,16
+LDIFF_SYM435=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM435
+	.byte 2,35,0,6
+	.asciz "_dictionary"
+
+LDIFF_SYM436=LTDIE_75_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM436
+	.byte 2,35,16,0,7
+	.asciz "_KeyCollection"
+
+LDIFF_SYM437=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM437
+LTDIE_77_POINTER:
+
+	.byte 13
+LDIFF_SYM438=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM438
+LTDIE_77_REFERENCE:
+
+	.byte 14
+LDIFF_SYM439=LTDIE_77 - Ldebug_info_start
+	.long LDIFF_SYM439
+LTDIE_78:
+
+	.byte 5
+	.asciz "_ValueCollection"
+
+	.byte 24,16
+LDIFF_SYM440=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM440
+	.byte 2,35,0,6
+	.asciz "_dictionary"
+
+LDIFF_SYM441=LTDIE_75_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM441
+	.byte 2,35,16,0,7
+	.asciz "_ValueCollection"
+
+LDIFF_SYM442=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM442
+LTDIE_78_POINTER:
+
+	.byte 13
+LDIFF_SYM443=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM443
+LTDIE_78_REFERENCE:
+
+	.byte 14
+LDIFF_SYM444=LTDIE_78 - Ldebug_info_start
+	.long LDIFF_SYM444
 LTDIE_75:
+
+	.byte 5
+	.asciz "System_Collections_Generic_Dictionary`2"
+
+	.byte 80,16
+LDIFF_SYM445=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM445
+	.byte 2,35,0,6
+	.asciz "_buckets"
+
+LDIFF_SYM446=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM446
+	.byte 2,35,16,6
+	.asciz "_entries"
+
+LDIFF_SYM447=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM447
+	.byte 2,35,24,6
+	.asciz "_count"
+
+LDIFF_SYM448=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM448
+	.byte 2,35,64,6
+	.asciz "_freeList"
+
+LDIFF_SYM449=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM449
+	.byte 2,35,68,6
+	.asciz "_freeCount"
+
+LDIFF_SYM450=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM450
+	.byte 2,35,72,6
+	.asciz "_version"
+
+LDIFF_SYM451=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM451
+	.byte 2,35,76,6
+	.asciz "_comparer"
+
+LDIFF_SYM452=LTDIE_76_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM452
+	.byte 2,35,32,6
+	.asciz "_keys"
+
+LDIFF_SYM453=LTDIE_77_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM453
+	.byte 2,35,40,6
+	.asciz "_values"
+
+LDIFF_SYM454=LTDIE_78_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM454
+	.byte 2,35,48,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM455=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM455
+	.byte 2,35,56,0,7
+	.asciz "System_Collections_Generic_Dictionary`2"
+
+LDIFF_SYM456=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM456
+LTDIE_75_POINTER:
+
+	.byte 13
+LDIFF_SYM457=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM457
+LTDIE_75_REFERENCE:
+
+	.byte 14
+LDIFF_SYM458=LTDIE_75 - Ldebug_info_start
+	.long LDIFF_SYM458
+LTDIE_79:
 
 	.byte 8
 	.asciz "Xamarin_Forms_LayoutConstraint"
 
 	.byte 4
-LDIFF_SYM435=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM435
+LDIFF_SYM459=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM459
 	.byte 9
 	.asciz "None"
 
@@ -9618,19 +9843,19 @@ LDIFF_SYM435=LDIE_I4 - Ldebug_info_start
 	.byte 3,0,7
 	.asciz "Xamarin_Forms_LayoutConstraint"
 
-LDIFF_SYM436=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM436
-LTDIE_75_POINTER:
+LDIFF_SYM460=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM460
+LTDIE_79_POINTER:
 
 	.byte 13
-LDIFF_SYM437=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM437
-LTDIE_75_REFERENCE:
+LDIFF_SYM461=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM461
+LTDIE_79_REFERENCE:
 
 	.byte 14
-LDIFF_SYM438=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM438
-LTDIE_78:
+LDIFF_SYM462=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM462
+LTDIE_82:
 
 	.byte 17
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
@@ -9638,155 +9863,155 @@ LTDIE_78:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
 
-LDIFF_SYM439=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM439
-LTDIE_78_POINTER:
+LDIFF_SYM463=LTDIE_82 - Ldebug_info_start
+	.long LDIFF_SYM463
+LTDIE_82_POINTER:
 
 	.byte 13
-LDIFF_SYM440=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM440
-LTDIE_78_REFERENCE:
+LDIFF_SYM464=LTDIE_82 - Ldebug_info_start
+	.long LDIFF_SYM464
+LTDIE_82_REFERENCE:
 
 	.byte 14
-LDIFF_SYM441=LTDIE_78 - Ldebug_info_start
-	.long LDIFF_SYM441
-LTDIE_79:
+LDIFF_SYM465=LTDIE_82 - Ldebug_info_start
+	.long LDIFF_SYM465
+LTDIE_83:
 
 	.byte 5
 	.asciz "_KeyCollection"
 
 	.byte 24,16
-LDIFF_SYM442=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM442
+LDIFF_SYM466=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM466
 	.byte 2,35,0,6
 	.asciz "_dictionary"
 
-LDIFF_SYM443=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM443
+LDIFF_SYM467=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM467
 	.byte 2,35,16,0,7
 	.asciz "_KeyCollection"
 
-LDIFF_SYM444=LTDIE_79 - Ldebug_info_start
-	.long LDIFF_SYM444
-LTDIE_79_POINTER:
+LDIFF_SYM468=LTDIE_83 - Ldebug_info_start
+	.long LDIFF_SYM468
+LTDIE_83_POINTER:
 
 	.byte 13
-LDIFF_SYM445=LTDIE_79 - Ldebug_info_start
-	.long LDIFF_SYM445
-LTDIE_79_REFERENCE:
+LDIFF_SYM469=LTDIE_83 - Ldebug_info_start
+	.long LDIFF_SYM469
+LTDIE_83_REFERENCE:
 
 	.byte 14
-LDIFF_SYM446=LTDIE_79 - Ldebug_info_start
-	.long LDIFF_SYM446
-LTDIE_80:
+LDIFF_SYM470=LTDIE_83 - Ldebug_info_start
+	.long LDIFF_SYM470
+LTDIE_84:
 
 	.byte 5
 	.asciz "_ValueCollection"
 
 	.byte 24,16
-LDIFF_SYM447=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM447
+LDIFF_SYM471=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM471
 	.byte 2,35,0,6
 	.asciz "_dictionary"
 
-LDIFF_SYM448=LTDIE_77_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM448
+LDIFF_SYM472=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM472
 	.byte 2,35,16,0,7
 	.asciz "_ValueCollection"
 
-LDIFF_SYM449=LTDIE_80 - Ldebug_info_start
-	.long LDIFF_SYM449
-LTDIE_80_POINTER:
+LDIFF_SYM473=LTDIE_84 - Ldebug_info_start
+	.long LDIFF_SYM473
+LTDIE_84_POINTER:
 
 	.byte 13
-LDIFF_SYM450=LTDIE_80 - Ldebug_info_start
-	.long LDIFF_SYM450
-LTDIE_80_REFERENCE:
+LDIFF_SYM474=LTDIE_84 - Ldebug_info_start
+	.long LDIFF_SYM474
+LTDIE_84_REFERENCE:
 
 	.byte 14
-LDIFF_SYM451=LTDIE_80 - Ldebug_info_start
-	.long LDIFF_SYM451
-LTDIE_77:
+LDIFF_SYM475=LTDIE_84 - Ldebug_info_start
+	.long LDIFF_SYM475
+LTDIE_81:
 
 	.byte 5
 	.asciz "System_Collections_Generic_Dictionary`2"
 
 	.byte 80,16
-LDIFF_SYM452=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM452
+LDIFF_SYM476=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM476
 	.byte 2,35,0,6
 	.asciz "_buckets"
 
-LDIFF_SYM453=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM453
+LDIFF_SYM477=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM477
 	.byte 2,35,16,6
 	.asciz "_entries"
 
-LDIFF_SYM454=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM454
+LDIFF_SYM478=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM478
 	.byte 2,35,24,6
 	.asciz "_count"
 
-LDIFF_SYM455=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM455
+LDIFF_SYM479=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM479
 	.byte 2,35,64,6
 	.asciz "_freeList"
 
-LDIFF_SYM456=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM456
+LDIFF_SYM480=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM480
 	.byte 2,35,68,6
 	.asciz "_freeCount"
 
-LDIFF_SYM457=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM457
+LDIFF_SYM481=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM481
 	.byte 2,35,72,6
 	.asciz "_version"
 
-LDIFF_SYM458=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM458
+LDIFF_SYM482=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM482
 	.byte 2,35,76,6
 	.asciz "_comparer"
 
-LDIFF_SYM459=LTDIE_78_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM459
+LDIFF_SYM483=LTDIE_82_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM483
 	.byte 2,35,32,6
 	.asciz "_keys"
 
-LDIFF_SYM460=LTDIE_79_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM460
+LDIFF_SYM484=LTDIE_83_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM484
 	.byte 2,35,40,6
 	.asciz "_values"
 
-LDIFF_SYM461=LTDIE_80_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM461
+LDIFF_SYM485=LTDIE_84_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM485
 	.byte 2,35,48,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM462=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM462
+LDIFF_SYM486=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM486
 	.byte 2,35,56,0,7
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-LDIFF_SYM463=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM463
-LTDIE_77_POINTER:
+LDIFF_SYM487=LTDIE_81 - Ldebug_info_start
+	.long LDIFF_SYM487
+LTDIE_81_POINTER:
 
 	.byte 13
-LDIFF_SYM464=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM464
-LTDIE_77_REFERENCE:
+LDIFF_SYM488=LTDIE_81 - Ldebug_info_start
+	.long LDIFF_SYM488
+LTDIE_81_REFERENCE:
 
 	.byte 14
-LDIFF_SYM465=LTDIE_77 - Ldebug_info_start
-	.long LDIFF_SYM465
-LTDIE_83:
+LDIFF_SYM489=LTDIE_81 - Ldebug_info_start
+	.long LDIFF_SYM489
+LTDIE_87:
 
 	.byte 8
 	.asciz "System_UriSyntaxFlags"
 
 	.byte 4
-LDIFF_SYM466=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM466
+LDIFF_SYM490=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM490
 	.byte 9
 	.asciz "None"
 
@@ -9877,74 +10102,74 @@ LDIFF_SYM466=LDIE_I4 - Ldebug_info_start
 	.byte 128,128,128,128,1,0,7
 	.asciz "System_UriSyntaxFlags"
 
-LDIFF_SYM467=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM467
-LTDIE_83_POINTER:
+LDIFF_SYM491=LTDIE_87 - Ldebug_info_start
+	.long LDIFF_SYM491
+LTDIE_87_POINTER:
 
 	.byte 13
-LDIFF_SYM468=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM468
-LTDIE_83_REFERENCE:
+LDIFF_SYM492=LTDIE_87 - Ldebug_info_start
+	.long LDIFF_SYM492
+LTDIE_87_REFERENCE:
 
 	.byte 14
-LDIFF_SYM469=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM469
-LTDIE_82:
+LDIFF_SYM493=LTDIE_87 - Ldebug_info_start
+	.long LDIFF_SYM493
+LTDIE_86:
 
 	.byte 5
 	.asciz "System_UriParser"
 
 	.byte 40,16
-LDIFF_SYM470=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM470
+LDIFF_SYM494=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM494
 	.byte 2,35,0,6
 	.asciz "m_Flags"
 
-LDIFF_SYM471=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM471
+LDIFF_SYM495=LTDIE_87 - Ldebug_info_start
+	.long LDIFF_SYM495
 	.byte 2,35,24,6
 	.asciz "m_UpdatableFlags"
 
-LDIFF_SYM472=LTDIE_83 - Ldebug_info_start
-	.long LDIFF_SYM472
+LDIFF_SYM496=LTDIE_87 - Ldebug_info_start
+	.long LDIFF_SYM496
 	.byte 2,35,28,6
 	.asciz "m_UpdatableFlagsUsed"
 
-LDIFF_SYM473=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM473
+LDIFF_SYM497=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM497
 	.byte 2,35,32,6
 	.asciz "m_Port"
 
-LDIFF_SYM474=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM474
+LDIFF_SYM498=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM498
 	.byte 2,35,36,6
 	.asciz "m_Scheme"
 
-LDIFF_SYM475=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM475
+LDIFF_SYM499=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM499
 	.byte 2,35,16,0,7
 	.asciz "System_UriParser"
 
-LDIFF_SYM476=LTDIE_82 - Ldebug_info_start
-	.long LDIFF_SYM476
-LTDIE_82_POINTER:
+LDIFF_SYM500=LTDIE_86 - Ldebug_info_start
+	.long LDIFF_SYM500
+LTDIE_86_POINTER:
 
 	.byte 13
-LDIFF_SYM477=LTDIE_82 - Ldebug_info_start
-	.long LDIFF_SYM477
-LTDIE_82_REFERENCE:
+LDIFF_SYM501=LTDIE_86 - Ldebug_info_start
+	.long LDIFF_SYM501
+LTDIE_86_REFERENCE:
 
 	.byte 14
-LDIFF_SYM478=LTDIE_82 - Ldebug_info_start
-	.long LDIFF_SYM478
-LTDIE_84:
+LDIFF_SYM502=LTDIE_86 - Ldebug_info_start
+	.long LDIFF_SYM502
+LTDIE_88:
 
 	.byte 8
 	.asciz "_Flags"
 
 	.byte 8
-LDIFF_SYM479=LDIE_U8 - Ldebug_info_start
-	.long LDIFF_SYM479
+LDIFF_SYM503=LDIE_U8 - Ldebug_info_start
+	.long LDIFF_SYM503
 	.byte 9
 	.asciz "Zero"
 
@@ -10113,361 +10338,222 @@ LDIFF_SYM479=LDIE_U8 - Ldebug_info_start
 	.byte 128,128,128,128,128,128,4,0,7
 	.asciz "_Flags"
 
-LDIFF_SYM480=LTDIE_84 - Ldebug_info_start
-	.long LDIFF_SYM480
-LTDIE_84_POINTER:
+LDIFF_SYM504=LTDIE_88 - Ldebug_info_start
+	.long LDIFF_SYM504
+LTDIE_88_POINTER:
 
 	.byte 13
-LDIFF_SYM481=LTDIE_84 - Ldebug_info_start
-	.long LDIFF_SYM481
-LTDIE_84_REFERENCE:
+LDIFF_SYM505=LTDIE_88 - Ldebug_info_start
+	.long LDIFF_SYM505
+LTDIE_88_REFERENCE:
 
 	.byte 14
-LDIFF_SYM482=LTDIE_84 - Ldebug_info_start
-	.long LDIFF_SYM482
-LTDIE_86:
+LDIFF_SYM506=LTDIE_88 - Ldebug_info_start
+	.long LDIFF_SYM506
+LTDIE_90:
 
 	.byte 5
 	.asciz "_MoreInfo"
 
 	.byte 64,16
-LDIFF_SYM483=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM483
+LDIFF_SYM507=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM507
 	.byte 2,35,0,6
 	.asciz "Path"
 
-LDIFF_SYM484=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM484
+LDIFF_SYM508=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM508
 	.byte 2,35,16,6
 	.asciz "Query"
 
-LDIFF_SYM485=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM485
+LDIFF_SYM509=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM509
 	.byte 2,35,24,6
 	.asciz "Fragment"
 
-LDIFF_SYM486=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM486
+LDIFF_SYM510=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM510
 	.byte 2,35,32,6
 	.asciz "AbsoluteUri"
 
-LDIFF_SYM487=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM487
+LDIFF_SYM511=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM511
 	.byte 2,35,40,6
 	.asciz "Hash"
 
-LDIFF_SYM488=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM488
+LDIFF_SYM512=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM512
 	.byte 2,35,56,6
 	.asciz "RemoteUrl"
 
-LDIFF_SYM489=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM489
+LDIFF_SYM513=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM513
 	.byte 2,35,48,0,7
 	.asciz "_MoreInfo"
 
-LDIFF_SYM490=LTDIE_86 - Ldebug_info_start
-	.long LDIFF_SYM490
-LTDIE_86_POINTER:
-
-	.byte 13
-LDIFF_SYM491=LTDIE_86 - Ldebug_info_start
-	.long LDIFF_SYM491
-LTDIE_86_REFERENCE:
-
-	.byte 14
-LDIFF_SYM492=LTDIE_86 - Ldebug_info_start
-	.long LDIFF_SYM492
-LTDIE_85:
-
-	.byte 5
-	.asciz "_UriInfo"
-
-	.byte 72,16
-LDIFF_SYM493=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM493
-	.byte 2,35,0,6
-	.asciz "Host"
-
-LDIFF_SYM494=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM494
-	.byte 2,35,16,6
-	.asciz "ScopeId"
-
-LDIFF_SYM495=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM495
-	.byte 2,35,24,6
-	.asciz "String"
-
-LDIFF_SYM496=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM496
-	.byte 2,35,32,6
-	.asciz "Offset"
-
-LDIFF_SYM497=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM497
-	.byte 2,35,56,6
-	.asciz "DnsSafeHost"
-
-LDIFF_SYM498=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM498
-	.byte 2,35,40,6
-	.asciz "MoreInfo"
-
-LDIFF_SYM499=LTDIE_86_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM499
-	.byte 2,35,48,0,7
-	.asciz "_UriInfo"
-
-LDIFF_SYM500=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM500
-LTDIE_85_POINTER:
-
-	.byte 13
-LDIFF_SYM501=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM501
-LTDIE_85_REFERENCE:
-
-	.byte 14
-LDIFF_SYM502=LTDIE_85 - Ldebug_info_start
-	.long LDIFF_SYM502
-LTDIE_81:
-
-	.byte 5
-	.asciz "System_Uri"
-
-	.byte 72,16
-LDIFF_SYM503=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM503
-	.byte 2,35,0,6
-	.asciz "m_String"
-
-LDIFF_SYM504=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM504
-	.byte 2,35,16,6
-	.asciz "m_originalUnicodeString"
-
-LDIFF_SYM505=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM505
-	.byte 2,35,24,6
-	.asciz "m_Syntax"
-
-LDIFF_SYM506=LTDIE_82_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM506
-	.byte 2,35,32,6
-	.asciz "m_DnsSafeHost"
-
-LDIFF_SYM507=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM507
-	.byte 2,35,40,6
-	.asciz "m_Flags"
-
-LDIFF_SYM508=LTDIE_84 - Ldebug_info_start
-	.long LDIFF_SYM508
-	.byte 2,35,56,6
-	.asciz "m_Info"
-
-LDIFF_SYM509=LTDIE_85_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM509
-	.byte 2,35,48,6
-	.asciz "m_iriParsing"
-
-LDIFF_SYM510=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM510
-	.byte 2,35,64,0,7
-	.asciz "System_Uri"
-
-LDIFF_SYM511=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM511
-LTDIE_81_POINTER:
-
-	.byte 13
-LDIFF_SYM512=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM512
-LTDIE_81_REFERENCE:
-
-	.byte 14
-LDIFF_SYM513=LTDIE_81 - Ldebug_info_start
-	.long LDIFF_SYM513
-LTDIE_87:
-
-	.byte 17
-	.asciz "System_Collections_Generic_ICollection`1"
-
-	.byte 16,7
-	.asciz "System_Collections_Generic_ICollection`1"
-
-LDIFF_SYM514=LTDIE_87 - Ldebug_info_start
+LDIFF_SYM514=LTDIE_90 - Ldebug_info_start
 	.long LDIFF_SYM514
-LTDIE_87_POINTER:
-
-	.byte 13
-LDIFF_SYM515=LTDIE_87 - Ldebug_info_start
-	.long LDIFF_SYM515
-LTDIE_87_REFERENCE:
-
-	.byte 14
-LDIFF_SYM516=LTDIE_87 - Ldebug_info_start
-	.long LDIFF_SYM516
-LTDIE_88:
-
-	.byte 17
-	.asciz "System_Collections_Generic_IList`1"
-
-	.byte 16,7
-	.asciz "System_Collections_Generic_IList`1"
-
-LDIFF_SYM517=LTDIE_88 - Ldebug_info_start
-	.long LDIFF_SYM517
-LTDIE_88_POINTER:
-
-	.byte 13
-LDIFF_SYM518=LTDIE_88 - Ldebug_info_start
-	.long LDIFF_SYM518
-LTDIE_88_REFERENCE:
-
-	.byte 14
-LDIFF_SYM519=LTDIE_88 - Ldebug_info_start
-	.long LDIFF_SYM519
-LTDIE_89:
-
-	.byte 17
-	.asciz "System_Collections_Generic_IList`1"
-
-	.byte 16,7
-	.asciz "System_Collections_Generic_IList`1"
-
-LDIFF_SYM520=LTDIE_89 - Ldebug_info_start
-	.long LDIFF_SYM520
-LTDIE_89_POINTER:
-
-	.byte 13
-LDIFF_SYM521=LTDIE_89 - Ldebug_info_start
-	.long LDIFF_SYM521
-LTDIE_89_REFERENCE:
-
-	.byte 14
-LDIFF_SYM522=LTDIE_89 - Ldebug_info_start
-	.long LDIFF_SYM522
-LTDIE_90:
-
-	.byte 5
-	.asciz "System_EventHandler`1"
-
-	.byte 112,16
-LDIFF_SYM523=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM523
-	.byte 2,35,0,0,7
-	.asciz "System_EventHandler`1"
-
-LDIFF_SYM524=LTDIE_90 - Ldebug_info_start
-	.long LDIFF_SYM524
 LTDIE_90_POINTER:
 
 	.byte 13
-LDIFF_SYM525=LTDIE_90 - Ldebug_info_start
-	.long LDIFF_SYM525
+LDIFF_SYM515=LTDIE_90 - Ldebug_info_start
+	.long LDIFF_SYM515
 LTDIE_90_REFERENCE:
 
 	.byte 14
-LDIFF_SYM526=LTDIE_90 - Ldebug_info_start
-	.long LDIFF_SYM526
-LTDIE_76:
+LDIFF_SYM516=LTDIE_90 - Ldebug_info_start
+	.long LDIFF_SYM516
+LTDIE_89:
 
 	.byte 5
-	.asciz "Xamarin_Forms_ResourceDictionary"
+	.asciz "_UriInfo"
 
-	.byte 80,16
+	.byte 72,16
+LDIFF_SYM517=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM517
+	.byte 2,35,0,6
+	.asciz "Host"
+
+LDIFF_SYM518=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM518
+	.byte 2,35,16,6
+	.asciz "ScopeId"
+
+LDIFF_SYM519=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM519
+	.byte 2,35,24,6
+	.asciz "String"
+
+LDIFF_SYM520=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM520
+	.byte 2,35,32,6
+	.asciz "Offset"
+
+LDIFF_SYM521=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM521
+	.byte 2,35,56,6
+	.asciz "DnsSafeHost"
+
+LDIFF_SYM522=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM522
+	.byte 2,35,40,6
+	.asciz "MoreInfo"
+
+LDIFF_SYM523=LTDIE_90_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM523
+	.byte 2,35,48,0,7
+	.asciz "_UriInfo"
+
+LDIFF_SYM524=LTDIE_89 - Ldebug_info_start
+	.long LDIFF_SYM524
+LTDIE_89_POINTER:
+
+	.byte 13
+LDIFF_SYM525=LTDIE_89 - Ldebug_info_start
+	.long LDIFF_SYM525
+LTDIE_89_REFERENCE:
+
+	.byte 14
+LDIFF_SYM526=LTDIE_89 - Ldebug_info_start
+	.long LDIFF_SYM526
+LTDIE_85:
+
+	.byte 5
+	.asciz "System_Uri"
+
+	.byte 72,16
 LDIFF_SYM527=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM527
 	.byte 2,35,0,6
-	.asciz "_innerDictionary"
+	.asciz "m_String"
 
-LDIFF_SYM528=LTDIE_77_REFERENCE - Ldebug_info_start
+LDIFF_SYM528=LDIE_STRING - Ldebug_info_start
 	.long LDIFF_SYM528
 	.byte 2,35,16,6
-	.asciz "_mergedInstance"
+	.asciz "m_originalUnicodeString"
 
-LDIFF_SYM529=LTDIE_76_REFERENCE - Ldebug_info_start
+LDIFF_SYM529=LDIE_STRING - Ldebug_info_start
 	.long LDIFF_SYM529
 	.byte 2,35,24,6
-	.asciz "_mergedWith"
+	.asciz "m_Syntax"
 
-LDIFF_SYM530=LTDIE_36_REFERENCE - Ldebug_info_start
+LDIFF_SYM530=LTDIE_86_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM530
 	.byte 2,35,32,6
-	.asciz "_source"
+	.asciz "m_DnsSafeHost"
 
-LDIFF_SYM531=LTDIE_81_REFERENCE - Ldebug_info_start
+LDIFF_SYM531=LDIE_STRING - Ldebug_info_start
 	.long LDIFF_SYM531
 	.byte 2,35,40,6
-	.asciz "_mergedDictionaries"
+	.asciz "m_Flags"
 
-LDIFF_SYM532=LTDIE_87_REFERENCE - Ldebug_info_start
+LDIFF_SYM532=LTDIE_88 - Ldebug_info_start
 	.long LDIFF_SYM532
-	.byte 2,35,48,6
-	.asciz "<StyleSheets>k__BackingField"
-
-LDIFF_SYM533=LTDIE_88_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM533
 	.byte 2,35,56,6
-	.asciz "_collectionTrack"
+	.asciz "m_Info"
 
-LDIFF_SYM534=LTDIE_89_REFERENCE - Ldebug_info_start
+LDIFF_SYM533=LTDIE_89_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM533
+	.byte 2,35,48,6
+	.asciz "m_iriParsing"
+
+LDIFF_SYM534=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM534
-	.byte 2,35,64,6
-	.asciz "ValuesChanged"
+	.byte 2,35,64,0,7
+	.asciz "System_Uri"
 
-LDIFF_SYM535=LTDIE_90_REFERENCE - Ldebug_info_start
+LDIFF_SYM535=LTDIE_85 - Ldebug_info_start
 	.long LDIFF_SYM535
-	.byte 2,35,72,0,7
-	.asciz "Xamarin_Forms_ResourceDictionary"
+LTDIE_85_POINTER:
 
-LDIFF_SYM536=LTDIE_76 - Ldebug_info_start
+	.byte 13
+LDIFF_SYM536=LTDIE_85 - Ldebug_info_start
 	.long LDIFF_SYM536
-LTDIE_76_POINTER:
+LTDIE_85_REFERENCE:
 
-	.byte 13
-LDIFF_SYM537=LTDIE_76 - Ldebug_info_start
+	.byte 14
+LDIFF_SYM537=LTDIE_85 - Ldebug_info_start
 	.long LDIFF_SYM537
-LTDIE_76_REFERENCE:
+LTDIE_93:
 
-	.byte 14
-LDIFF_SYM538=LTDIE_76 - Ldebug_info_start
+	.byte 17
+	.asciz "System_Collections_Generic_IList`1"
+
+	.byte 16,7
+	.asciz "System_Collections_Generic_IList`1"
+
+LDIFF_SYM538=LTDIE_93 - Ldebug_info_start
 	.long LDIFF_SYM538
-LTDIE_91:
-
-	.byte 5
-	.asciz "System_EventHandler`1"
-
-	.byte 112,16
-LDIFF_SYM539=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM539
-	.byte 2,35,0,0,7
-	.asciz "System_EventHandler`1"
-
-LDIFF_SYM540=LTDIE_91 - Ldebug_info_start
-	.long LDIFF_SYM540
-LTDIE_91_POINTER:
+LTDIE_93_POINTER:
 
 	.byte 13
-LDIFF_SYM541=LTDIE_91 - Ldebug_info_start
-	.long LDIFF_SYM541
-LTDIE_91_REFERENCE:
+LDIFF_SYM539=LTDIE_93 - Ldebug_info_start
+	.long LDIFF_SYM539
+LTDIE_93_REFERENCE:
 
 	.byte 14
-LDIFF_SYM542=LTDIE_91 - Ldebug_info_start
-	.long LDIFF_SYM542
+LDIFF_SYM540=LTDIE_93 - Ldebug_info_start
+	.long LDIFF_SYM540
 LTDIE_92:
 
 	.byte 5
-	.asciz "System_EventHandler`1"
+	.asciz "System_Collections_ObjectModel_Collection`1"
 
-	.byte 112,16
-LDIFF_SYM543=LTDIE_30 - Ldebug_info_start
+	.byte 32,16
+LDIFF_SYM541=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM541
+	.byte 2,35,0,6
+	.asciz "items"
+
+LDIFF_SYM542=LTDIE_93_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM542
+	.byte 2,35,16,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM543=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM543
-	.byte 2,35,0,0,7
-	.asciz "System_EventHandler`1"
+	.byte 2,35,24,0,7
+	.asciz "System_Collections_ObjectModel_Collection`1"
 
 LDIFF_SYM544=LTDIE_92 - Ldebug_info_start
 	.long LDIFF_SYM544
@@ -10481,163 +10567,83 @@ LTDIE_92_REFERENCE:
 	.byte 14
 LDIFF_SYM546=LTDIE_92 - Ldebug_info_start
 	.long LDIFF_SYM546
-LTDIE_93:
+LTDIE_94:
 
 	.byte 5
-	.asciz "System_EventHandler`1"
+	.asciz "_SimpleMonitor"
 
-	.byte 112,16
-LDIFF_SYM547=LTDIE_30 - Ldebug_info_start
+	.byte 32,16
+LDIFF_SYM547=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM547
-	.byte 2,35,0,0,7
-	.asciz "System_EventHandler`1"
+	.byte 2,35,0,6
+	.asciz "_busyCount"
 
-LDIFF_SYM548=LTDIE_93 - Ldebug_info_start
+LDIFF_SYM548=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM548
-LTDIE_93_POINTER:
+	.byte 2,35,24,6
+	.asciz "_collection"
+
+LDIFF_SYM549=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM549
+	.byte 2,35,16,0,7
+	.asciz "_SimpleMonitor"
+
+LDIFF_SYM550=LTDIE_94 - Ldebug_info_start
+	.long LDIFF_SYM550
+LTDIE_94_POINTER:
 
 	.byte 13
-LDIFF_SYM549=LTDIE_93 - Ldebug_info_start
-	.long LDIFF_SYM549
-LTDIE_93_REFERENCE:
+LDIFF_SYM551=LTDIE_94 - Ldebug_info_start
+	.long LDIFF_SYM551
+LTDIE_94_REFERENCE:
 
 	.byte 14
-LDIFF_SYM550=LTDIE_93 - Ldebug_info_start
-	.long LDIFF_SYM550
-LTDIE_43:
+LDIFF_SYM552=LTDIE_94 - Ldebug_info_start
+	.long LDIFF_SYM552
+LTDIE_91:
 
 	.byte 5
-	.asciz "Xamarin_Forms_VisualElement"
+	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
 
-	.byte 232,2,16
-LDIFF_SYM551=LTDIE_44 - Ldebug_info_start
-	.long LDIFF_SYM551
-	.byte 2,35,0,6
-	.asciz "_effectiveFlowDirection"
-
-LDIFF_SYM552=LTDIE_64 - Ldebug_info_start
-	.long LDIFF_SYM552
-	.byte 3,35,176,2,6
-	.asciz "_measureCache"
-
-LDIFF_SYM553=LTDIE_65_REFERENCE - Ldebug_info_start
+	.byte 64,16
+LDIFF_SYM553=LTDIE_92 - Ldebug_info_start
 	.long LDIFF_SYM553
-	.byte 3,35,224,1,6
-	.asciz "_mergedStyle"
+	.byte 2,35,0,6
+	.asciz "_monitor"
 
-LDIFF_SYM554=LTDIE_69_REFERENCE - Ldebug_info_start
+LDIFF_SYM554=LTDIE_94_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM554
-	.byte 3,35,232,1,6
-	.asciz "_batched"
+	.byte 2,35,32,6
+	.asciz "_blockReentrancyCount"
 
 LDIFF_SYM555=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM555
-	.byte 3,35,180,2,6
-	.asciz "_computedConstraint"
+	.byte 2,35,56,6
+	.asciz "CollectionChanged"
 
-LDIFF_SYM556=LTDIE_75 - Ldebug_info_start
+LDIFF_SYM556=LTDIE_64_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM556
-	.byte 3,35,184,2,6
-	.asciz "_isInNativeLayout"
+	.byte 2,35,40,6
+	.asciz "PropertyChanged"
 
-LDIFF_SYM557=LDIE_BOOLEAN - Ldebug_info_start
+LDIFF_SYM557=LTDIE_51_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM557
-	.byte 3,35,188,2,6
-	.asciz "_isNativeStateConsistent"
+	.byte 2,35,48,0,7
+	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
 
-LDIFF_SYM558=LDIE_BOOLEAN - Ldebug_info_start
+LDIFF_SYM558=LTDIE_91 - Ldebug_info_start
 	.long LDIFF_SYM558
-	.byte 3,35,189,2,6
-	.asciz "_isPlatformEnabled"
-
-LDIFF_SYM559=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM559
-	.byte 3,35,190,2,6
-	.asciz "_mockHeight"
-
-LDIFF_SYM560=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM560
-	.byte 3,35,192,2,6
-	.asciz "_mockWidth"
-
-LDIFF_SYM561=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM561
-	.byte 3,35,200,2,6
-	.asciz "_mockX"
-
-LDIFF_SYM562=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM562
-	.byte 3,35,208,2,6
-	.asciz "_mockY"
-
-LDIFF_SYM563=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM563
-	.byte 3,35,216,2,6
-	.asciz "_selfConstraint"
-
-LDIFF_SYM564=LTDIE_75 - Ldebug_info_start
-	.long LDIFF_SYM564
-	.byte 3,35,224,2,6
-	.asciz "<DisableLayout>k__BackingField"
-
-LDIFF_SYM565=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM565
-	.byte 3,35,228,2,6
-	.asciz "_resources"
-
-LDIFF_SYM566=LTDIE_76_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM566
-	.byte 3,35,240,1,6
-	.asciz "ChildrenReordered"
-
-LDIFF_SYM567=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM567
-	.byte 3,35,248,1,6
-	.asciz "Focused"
-
-LDIFF_SYM568=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM568
-	.byte 3,35,128,2,6
-	.asciz "MeasureInvalidated"
-
-LDIFF_SYM569=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM569
-	.byte 3,35,136,2,6
-	.asciz "SizeChanged"
-
-LDIFF_SYM570=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM570
-	.byte 3,35,144,2,6
-	.asciz "Unfocused"
-
-LDIFF_SYM571=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM571
-	.byte 3,35,152,2,6
-	.asciz "BatchCommitted"
-
-LDIFF_SYM572=LTDIE_92_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM572
-	.byte 3,35,160,2,6
-	.asciz "FocusChangeRequested"
-
-LDIFF_SYM573=LTDIE_93_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM573
-	.byte 3,35,168,2,0,7
-	.asciz "Xamarin_Forms_VisualElement"
-
-LDIFF_SYM574=LTDIE_43 - Ldebug_info_start
-	.long LDIFF_SYM574
-LTDIE_43_POINTER:
+LTDIE_91_POINTER:
 
 	.byte 13
-LDIFF_SYM575=LTDIE_43 - Ldebug_info_start
-	.long LDIFF_SYM575
-LTDIE_43_REFERENCE:
+LDIFF_SYM559=LTDIE_91 - Ldebug_info_start
+	.long LDIFF_SYM559
+LTDIE_91_REFERENCE:
 
 	.byte 14
-LDIFF_SYM576=LTDIE_43 - Ldebug_info_start
-	.long LDIFF_SYM576
-LTDIE_96:
+LDIFF_SYM560=LTDIE_91 - Ldebug_info_start
+	.long LDIFF_SYM560
+LTDIE_95:
 
 	.byte 17
 	.asciz "System_Collections_Generic_IList`1"
@@ -10645,401 +10651,478 @@ LTDIE_96:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IList`1"
 
-LDIFF_SYM577=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM577
-LTDIE_96_POINTER:
-
-	.byte 13
-LDIFF_SYM578=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM578
-LTDIE_96_REFERENCE:
-
-	.byte 14
-LDIFF_SYM579=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM579
-LTDIE_95:
-
-	.byte 5
-	.asciz "System_Collections_ObjectModel_Collection`1"
-
-	.byte 32,16
-LDIFF_SYM580=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM580
-	.byte 2,35,0,6
-	.asciz "items"
-
-LDIFF_SYM581=LTDIE_96_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM581
-	.byte 2,35,16,6
-	.asciz "_syncRoot"
-
-LDIFF_SYM582=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM582
-	.byte 2,35,24,0,7
-	.asciz "System_Collections_ObjectModel_Collection`1"
-
-LDIFF_SYM583=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM583
+LDIFF_SYM561=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM561
 LTDIE_95_POINTER:
 
 	.byte 13
-LDIFF_SYM584=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM584
+LDIFF_SYM562=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM562
 LTDIE_95_REFERENCE:
 
 	.byte 14
-LDIFF_SYM585=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM585
+LDIFF_SYM563=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM563
+LTDIE_96:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 112,16
+LDIFF_SYM564=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM564
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM565=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM565
+LTDIE_96_POINTER:
+
+	.byte 13
+LDIFF_SYM566=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM566
+LTDIE_96_REFERENCE:
+
+	.byte 14
+LDIFF_SYM567=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM567
+LTDIE_80:
+
+	.byte 5
+	.asciz "Xamarin_Forms_ResourceDictionary"
+
+	.byte 80,16
+LDIFF_SYM568=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM568
+	.byte 2,35,0,6
+	.asciz "_innerDictionary"
+
+LDIFF_SYM569=LTDIE_81_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM569
+	.byte 2,35,16,6
+	.asciz "_mergedInstance"
+
+LDIFF_SYM570=LTDIE_80_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM570
+	.byte 2,35,24,6
+	.asciz "_mergedWith"
+
+LDIFF_SYM571=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM571
+	.byte 2,35,32,6
+	.asciz "_source"
+
+LDIFF_SYM572=LTDIE_85_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM572
+	.byte 2,35,40,6
+	.asciz "_mergedDictionaries"
+
+LDIFF_SYM573=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM573
+	.byte 2,35,48,6
+	.asciz "<StyleSheets>k__BackingField"
+
+LDIFF_SYM574=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM574
+	.byte 2,35,56,6
+	.asciz "_collectionTrack"
+
+LDIFF_SYM575=LTDIE_93_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM575
+	.byte 2,35,64,6
+	.asciz "ValuesChanged"
+
+LDIFF_SYM576=LTDIE_96_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM576
+	.byte 2,35,72,0,7
+	.asciz "Xamarin_Forms_ResourceDictionary"
+
+LDIFF_SYM577=LTDIE_80 - Ldebug_info_start
+	.long LDIFF_SYM577
+LTDIE_80_POINTER:
+
+	.byte 13
+LDIFF_SYM578=LTDIE_80 - Ldebug_info_start
+	.long LDIFF_SYM578
+LTDIE_80_REFERENCE:
+
+	.byte 14
+LDIFF_SYM579=LTDIE_80 - Ldebug_info_start
+	.long LDIFF_SYM579
 LTDIE_97:
 
 	.byte 5
-	.asciz "_SimpleMonitor"
+	.asciz "System_EventHandler`1"
 
-	.byte 32,16
-LDIFF_SYM586=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM586
-	.byte 2,35,0,6
-	.asciz "_busyCount"
+	.byte 112,16
+LDIFF_SYM580=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM580
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
 
-LDIFF_SYM587=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM587
-	.byte 2,35,24,6
-	.asciz "_collection"
-
-LDIFF_SYM588=LTDIE_94_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM588
-	.byte 2,35,16,0,7
-	.asciz "_SimpleMonitor"
-
-LDIFF_SYM589=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM589
+LDIFF_SYM581=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM581
 LTDIE_97_POINTER:
 
 	.byte 13
-LDIFF_SYM590=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM590
+LDIFF_SYM582=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM582
 LTDIE_97_REFERENCE:
 
 	.byte 14
-LDIFF_SYM591=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM591
-LTDIE_94:
-
-	.byte 5
-	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
-
-	.byte 64,16
-LDIFF_SYM592=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM592
-	.byte 2,35,0,6
-	.asciz "_monitor"
-
-LDIFF_SYM593=LTDIE_97_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM593
-	.byte 2,35,32,6
-	.asciz "_blockReentrancyCount"
-
-LDIFF_SYM594=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM594
-	.byte 2,35,56,6
-	.asciz "CollectionChanged"
-
-LDIFF_SYM595=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM595
-	.byte 2,35,40,6
-	.asciz "PropertyChanged"
-
-LDIFF_SYM596=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM596
-	.byte 2,35,48,0,7
-	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
-
-LDIFF_SYM597=LTDIE_94 - Ldebug_info_start
-	.long LDIFF_SYM597
-LTDIE_94_POINTER:
-
-	.byte 13
-LDIFF_SYM598=LTDIE_94 - Ldebug_info_start
-	.long LDIFF_SYM598
-LTDIE_94_REFERENCE:
-
-	.byte 14
-LDIFF_SYM599=LTDIE_94 - Ldebug_info_start
-	.long LDIFF_SYM599
-LTDIE_42:
-
-	.byte 5
-	.asciz "Xamarin_Forms_View"
-
-	.byte 248,2,16
-LDIFF_SYM600=LTDIE_43 - Ldebug_info_start
-	.long LDIFF_SYM600
-	.byte 2,35,0,6
-	.asciz "_gestureRecognizers"
-
-LDIFF_SYM601=LTDIE_94_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM601
-	.byte 3,35,232,2,6
-	.asciz "_compositeGestureRecognizers"
-
-LDIFF_SYM602=LTDIE_94_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM602
-	.byte 3,35,240,2,0,7
-	.asciz "Xamarin_Forms_View"
-
-LDIFF_SYM603=LTDIE_42 - Ldebug_info_start
-	.long LDIFF_SYM603
-LTDIE_42_POINTER:
-
-	.byte 13
-LDIFF_SYM604=LTDIE_42 - Ldebug_info_start
-	.long LDIFF_SYM604
-LTDIE_42_REFERENCE:
-
-	.byte 14
-LDIFF_SYM605=LTDIE_42 - Ldebug_info_start
-	.long LDIFF_SYM605
+LDIFF_SYM583=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM583
 LTDIE_98:
 
 	.byte 5
-	.asciz "_SelectedIndexChangedEventHandler"
+	.asciz "System_EventHandler`1"
 
 	.byte 112,16
-LDIFF_SYM606=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM606
+LDIFF_SYM584=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM584
 	.byte 2,35,0,0,7
-	.asciz "_SelectedIndexChangedEventHandler"
+	.asciz "System_EventHandler`1"
 
-LDIFF_SYM607=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM607
+LDIFF_SYM585=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM585
 LTDIE_98_POINTER:
 
 	.byte 13
-LDIFF_SYM608=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM608
+LDIFF_SYM586=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM586
 LTDIE_98_REFERENCE:
 
 	.byte 14
-LDIFF_SYM609=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM609
+LDIFF_SYM587=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM587
 LTDIE_99:
 
 	.byte 5
 	.asciz "System_EventHandler`1"
 
 	.byte 112,16
-LDIFF_SYM610=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM610
+LDIFF_SYM588=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM588
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM611=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM611
+LDIFF_SYM589=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM589
 LTDIE_99_POINTER:
 
 	.byte 13
-LDIFF_SYM612=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM612
+LDIFF_SYM590=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM590
 LTDIE_99_REFERENCE:
 
 	.byte 14
-LDIFF_SYM613=LTDIE_99 - Ldebug_info_start
+LDIFF_SYM591=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM591
+LTDIE_43:
+
+	.byte 5
+	.asciz "Xamarin_Forms_VisualElement"
+
+	.byte 240,2,16
+LDIFF_SYM592=LTDIE_44 - Ldebug_info_start
+	.long LDIFF_SYM592
+	.byte 2,35,0,6
+	.asciz "_effectiveVisual"
+
+LDIFF_SYM593=LTDIE_73_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM593
+	.byte 3,35,232,1,6
+	.asciz "_effectiveFlowDirection"
+
+LDIFF_SYM594=LTDIE_74 - Ldebug_info_start
+	.long LDIFF_SYM594
+	.byte 3,35,184,2,6
+	.asciz "_measureCache"
+
+LDIFF_SYM595=LTDIE_75_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM595
+	.byte 3,35,240,1,6
+	.asciz "_batched"
+
+LDIFF_SYM596=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM596
+	.byte 3,35,188,2,6
+	.asciz "_computedConstraint"
+
+LDIFF_SYM597=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM597
+	.byte 3,35,192,2,6
+	.asciz "_isInNativeLayout"
+
+LDIFF_SYM598=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM598
+	.byte 3,35,196,2,6
+	.asciz "_isNativeStateConsistent"
+
+LDIFF_SYM599=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM599
+	.byte 3,35,197,2,6
+	.asciz "_isPlatformEnabled"
+
+LDIFF_SYM600=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM600
+	.byte 3,35,198,2,6
+	.asciz "_mockHeight"
+
+LDIFF_SYM601=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM601
+	.byte 3,35,200,2,6
+	.asciz "_mockWidth"
+
+LDIFF_SYM602=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM602
+	.byte 3,35,208,2,6
+	.asciz "_mockX"
+
+LDIFF_SYM603=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM603
+	.byte 3,35,216,2,6
+	.asciz "_mockY"
+
+LDIFF_SYM604=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM604
+	.byte 3,35,224,2,6
+	.asciz "_selfConstraint"
+
+LDIFF_SYM605=LTDIE_79 - Ldebug_info_start
+	.long LDIFF_SYM605
+	.byte 3,35,232,2,6
+	.asciz "<DisableLayout>k__BackingField"
+
+LDIFF_SYM606=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM606
+	.byte 3,35,236,2,6
+	.asciz "_resources"
+
+LDIFF_SYM607=LTDIE_80_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM607
+	.byte 3,35,248,1,6
+	.asciz "ChildrenReordered"
+
+LDIFF_SYM608=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM608
+	.byte 3,35,128,2,6
+	.asciz "Focused"
+
+LDIFF_SYM609=LTDIE_97_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM609
+	.byte 3,35,136,2,6
+	.asciz "MeasureInvalidated"
+
+LDIFF_SYM610=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM610
+	.byte 3,35,144,2,6
+	.asciz "SizeChanged"
+
+LDIFF_SYM611=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM611
+	.byte 3,35,152,2,6
+	.asciz "Unfocused"
+
+LDIFF_SYM612=LTDIE_97_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM612
+	.byte 3,35,160,2,6
+	.asciz "BatchCommitted"
+
+LDIFF_SYM613=LTDIE_98_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM613
-LTDIE_41:
+	.byte 3,35,168,2,6
+	.asciz "FocusChangeRequested"
 
-	.byte 5
-	.asciz "Syncfusion_SfRotator_XForms_SfRotator"
-
-	.byte 168,3,16
-LDIFF_SYM614=LTDIE_42 - Ldebug_info_start
+LDIFF_SYM614=LTDIE_99_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM614
-	.byte 2,35,0,6
-	.asciz "MinHeight"
+	.byte 3,35,176,2,0,7
+	.asciz "Xamarin_Forms_VisualElement"
 
-LDIFF_SYM615=LDIE_R8 - Ldebug_info_start
+LDIFF_SYM615=LTDIE_43 - Ldebug_info_start
 	.long LDIFF_SYM615
-	.byte 3,35,136,3,6
-	.asciz "MinWidth"
+LTDIE_43_POINTER:
 
-LDIFF_SYM616=LDIE_R8 - Ldebug_info_start
+	.byte 13
+LDIFF_SYM616=LTDIE_43 - Ldebug_info_start
 	.long LDIFF_SYM616
-	.byte 3,35,144,3,6
-	.asciz "scrollableContentSize"
+LTDIE_43_REFERENCE:
 
-LDIFF_SYM617=LDIE_I4 - Ldebug_info_start
+	.byte 14
+LDIFF_SYM617=LTDIE_43 - Ldebug_info_start
 	.long LDIFF_SYM617
-	.byte 3,35,152,3,6
-	.asciz "SelectedIndexChanged"
-
-LDIFF_SYM618=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM618
-	.byte 3,35,248,2,6
-	.asciz "Scrolling"
-
-LDIFF_SYM619=LTDIE_99_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM619
-	.byte 3,35,128,3,0,7
-	.asciz "Syncfusion_SfRotator_XForms_SfRotator"
-
-LDIFF_SYM620=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM620
-LTDIE_41_POINTER:
-
-	.byte 13
-LDIFF_SYM621=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM621
-LTDIE_41_REFERENCE:
-
-	.byte 14
-LDIFF_SYM622=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM622
-LTDIE_0:
-
-	.byte 5
-	.asciz "Syncfusion_SfRotator_XForms_iOS_SfRotatorMapping"
-
-	.byte 32,16
-LDIFF_SYM623=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM623
-	.byte 2,35,0,6
-	.asciz "Rotator"
-
-LDIFF_SYM624=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM624
-	.byte 2,35,16,6
-	.asciz "FormsRotator"
-
-LDIFF_SYM625=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM625
-	.byte 2,35,24,0,7
-	.asciz "Syncfusion_SfRotator_XForms_iOS_SfRotatorMapping"
-
-LDIFF_SYM626=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM626
-LTDIE_0_POINTER:
-
-	.byte 13
-LDIFF_SYM627=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM627
-LTDIE_0_REFERENCE:
-
-	.byte 14
-LDIFF_SYM628=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM628
-LTDIE_100:
-
-	.byte 5
-	.asciz "Syncfusion_SfRotator_XForms_iOS_SfRotatorItemMapping"
-
-	.byte 24,16
-LDIFF_SYM629=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM629
-	.byte 2,35,0,6
-	.asciz "parentItem"
-
-LDIFF_SYM630=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM630
-	.byte 2,35,16,0,7
-	.asciz "Syncfusion_SfRotator_XForms_iOS_SfRotatorItemMapping"
-
-LDIFF_SYM631=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM631
-LTDIE_100_POINTER:
-
-	.byte 13
-LDIFF_SYM632=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM632
-LTDIE_100_REFERENCE:
-
-	.byte 14
-LDIFF_SYM633=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM633
-LTDIE_101:
-
-	.byte 5
-	.asciz "Syncfusion_SfRotator_XForms_SfRotatorItem"
-
-	.byte 248,2,16
-LDIFF_SYM634=LTDIE_42 - Ldebug_info_start
-	.long LDIFF_SYM634
-	.byte 2,35,0,0,7
-	.asciz "Syncfusion_SfRotator_XForms_SfRotatorItem"
-
-LDIFF_SYM635=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM635
-LTDIE_101_POINTER:
-
-	.byte 13
-LDIFF_SYM636=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM636
-LTDIE_101_REFERENCE:
-
-	.byte 14
-LDIFF_SYM637=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM637
 LTDIE_102:
 
 	.byte 17
-	.asciz "System_Collections_Generic_IEnumerator`1"
+	.asciz "System_Collections_Generic_IList`1"
 
 	.byte 16,7
-	.asciz "System_Collections_Generic_IEnumerator`1"
+	.asciz "System_Collections_Generic_IList`1"
 
-LDIFF_SYM638=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM638
+LDIFF_SYM618=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM618
 LTDIE_102_POINTER:
 
 	.byte 13
-LDIFF_SYM639=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM639
+LDIFF_SYM619=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM619
 LTDIE_102_REFERENCE:
 
 	.byte 14
-LDIFF_SYM640=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM640
-LTDIE_105:
+LDIFF_SYM620=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM620
+LTDIE_101:
 
 	.byte 5
-	.asciz "Foundation_NSString"
+	.asciz "System_Collections_ObjectModel_Collection`1"
 
-	.byte 40,16
-LDIFF_SYM641=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM641
-	.byte 2,35,0,0,7
-	.asciz "Foundation_NSString"
+	.byte 32,16
+LDIFF_SYM621=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM621
+	.byte 2,35,0,6
+	.asciz "items"
 
-LDIFF_SYM642=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM642
-LTDIE_105_POINTER:
+LDIFF_SYM622=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM622
+	.byte 2,35,16,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM623=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM623
+	.byte 2,35,24,0,7
+	.asciz "System_Collections_ObjectModel_Collection`1"
+
+LDIFF_SYM624=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM624
+LTDIE_101_POINTER:
 
 	.byte 13
-LDIFF_SYM643=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM643
-LTDIE_105_REFERENCE:
+LDIFF_SYM625=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM625
+LTDIE_101_REFERENCE:
 
 	.byte 14
-LDIFF_SYM644=LTDIE_105 - Ldebug_info_start
+LDIFF_SYM626=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM626
+LTDIE_103:
+
+	.byte 5
+	.asciz "_SimpleMonitor"
+
+	.byte 32,16
+LDIFF_SYM627=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM627
+	.byte 2,35,0,6
+	.asciz "_busyCount"
+
+LDIFF_SYM628=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM628
+	.byte 2,35,24,6
+	.asciz "_collection"
+
+LDIFF_SYM629=LTDIE_100_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM629
+	.byte 2,35,16,0,7
+	.asciz "_SimpleMonitor"
+
+LDIFF_SYM630=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM630
+LTDIE_103_POINTER:
+
+	.byte 13
+LDIFF_SYM631=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM631
+LTDIE_103_REFERENCE:
+
+	.byte 14
+LDIFF_SYM632=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM632
+LTDIE_100:
+
+	.byte 5
+	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
+
+	.byte 64,16
+LDIFF_SYM633=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM633
+	.byte 2,35,0,6
+	.asciz "_monitor"
+
+LDIFF_SYM634=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM634
+	.byte 2,35,32,6
+	.asciz "_blockReentrancyCount"
+
+LDIFF_SYM635=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM635
+	.byte 2,35,56,6
+	.asciz "CollectionChanged"
+
+LDIFF_SYM636=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM636
+	.byte 2,35,40,6
+	.asciz "PropertyChanged"
+
+LDIFF_SYM637=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM637
+	.byte 2,35,48,0,7
+	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
+
+LDIFF_SYM638=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM638
+LTDIE_100_POINTER:
+
+	.byte 13
+LDIFF_SYM639=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM639
+LTDIE_100_REFERENCE:
+
+	.byte 14
+LDIFF_SYM640=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM640
+LTDIE_42:
+
+	.byte 5
+	.asciz "Xamarin_Forms_View"
+
+	.byte 128,3,16
+LDIFF_SYM641=LTDIE_43 - Ldebug_info_start
+	.long LDIFF_SYM641
+	.byte 2,35,0,6
+	.asciz "_gestureRecognizers"
+
+LDIFF_SYM642=LTDIE_100_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM642
+	.byte 3,35,240,2,6
+	.asciz "_compositeGestureRecognizers"
+
+LDIFF_SYM643=LTDIE_100_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM643
+	.byte 3,35,248,2,0,7
+	.asciz "Xamarin_Forms_View"
+
+LDIFF_SYM644=LTDIE_42 - Ldebug_info_start
 	.long LDIFF_SYM644
+LTDIE_42_POINTER:
+
+	.byte 13
+LDIFF_SYM645=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM645
+LTDIE_42_REFERENCE:
+
+	.byte 14
+LDIFF_SYM646=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM646
 LTDIE_104:
 
 	.byte 5
-	.asciz "Syncfusion_SfRotator_iOS_SfRotatorItem"
+	.asciz "_SelectedIndexChangedEventHandler"
 
-	.byte 64,16
-LDIFF_SYM645=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM645
-	.byte 2,35,0,6
-	.asciz "view"
-
-LDIFF_SYM646=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM646
-	.byte 2,35,48,6
-	.asciz "itemText"
-
-LDIFF_SYM647=LTDIE_105_REFERENCE - Ldebug_info_start
+	.byte 112,16
+LDIFF_SYM647=LTDIE_30 - Ldebug_info_start
 	.long LDIFF_SYM647
-	.byte 2,35,56,0,7
-	.asciz "Syncfusion_SfRotator_iOS_SfRotatorItem"
+	.byte 2,35,0,0,7
+	.asciz "_SelectedIndexChangedEventHandler"
 
 LDIFF_SYM648=LTDIE_104 - Ldebug_info_start
 	.long LDIFF_SYM648
@@ -11053,29 +11136,260 @@ LTDIE_104_REFERENCE:
 	.byte 14
 LDIFF_SYM650=LTDIE_104 - Ldebug_info_start
 	.long LDIFF_SYM650
-LTDIE_103:
+LTDIE_105:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 112,16
+LDIFF_SYM651=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM651
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM652=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM652
+LTDIE_105_POINTER:
+
+	.byte 13
+LDIFF_SYM653=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM653
+LTDIE_105_REFERENCE:
+
+	.byte 14
+LDIFF_SYM654=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM654
+LTDIE_41:
+
+	.byte 5
+	.asciz "Syncfusion_SfRotator_XForms_SfRotator"
+
+	.byte 176,3,16
+LDIFF_SYM655=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM655
+	.byte 2,35,0,6
+	.asciz "MinHeight"
+
+LDIFF_SYM656=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM656
+	.byte 3,35,144,3,6
+	.asciz "MinWidth"
+
+LDIFF_SYM657=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM657
+	.byte 3,35,152,3,6
+	.asciz "scrollableContentSize"
+
+LDIFF_SYM658=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM658
+	.byte 3,35,160,3,6
+	.asciz "SelectedIndexChanged"
+
+LDIFF_SYM659=LTDIE_104_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM659
+	.byte 3,35,128,3,6
+	.asciz "Scrolling"
+
+LDIFF_SYM660=LTDIE_105_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM660
+	.byte 3,35,136,3,0,7
+	.asciz "Syncfusion_SfRotator_XForms_SfRotator"
+
+LDIFF_SYM661=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM661
+LTDIE_41_POINTER:
+
+	.byte 13
+LDIFF_SYM662=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM662
+LTDIE_41_REFERENCE:
+
+	.byte 14
+LDIFF_SYM663=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM663
+LTDIE_0:
+
+	.byte 5
+	.asciz "Syncfusion_SfRotator_XForms_iOS_SfRotatorMapping"
+
+	.byte 32,16
+LDIFF_SYM664=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM664
+	.byte 2,35,0,6
+	.asciz "Rotator"
+
+LDIFF_SYM665=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM665
+	.byte 2,35,16,6
+	.asciz "FormsRotator"
+
+LDIFF_SYM666=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM666
+	.byte 2,35,24,0,7
+	.asciz "Syncfusion_SfRotator_XForms_iOS_SfRotatorMapping"
+
+LDIFF_SYM667=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM667
+LTDIE_0_POINTER:
+
+	.byte 13
+LDIFF_SYM668=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM668
+LTDIE_0_REFERENCE:
+
+	.byte 14
+LDIFF_SYM669=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM669
+LTDIE_106:
+
+	.byte 5
+	.asciz "Syncfusion_SfRotator_XForms_iOS_SfRotatorItemMapping"
+
+	.byte 24,16
+LDIFF_SYM670=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM670
+	.byte 2,35,0,6
+	.asciz "parentItem"
+
+LDIFF_SYM671=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM671
+	.byte 2,35,16,0,7
+	.asciz "Syncfusion_SfRotator_XForms_iOS_SfRotatorItemMapping"
+
+LDIFF_SYM672=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM672
+LTDIE_106_POINTER:
+
+	.byte 13
+LDIFF_SYM673=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM673
+LTDIE_106_REFERENCE:
+
+	.byte 14
+LDIFF_SYM674=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM674
+LTDIE_107:
+
+	.byte 5
+	.asciz "Syncfusion_SfRotator_XForms_SfRotatorItem"
+
+	.byte 128,3,16
+LDIFF_SYM675=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM675
+	.byte 2,35,0,0,7
+	.asciz "Syncfusion_SfRotator_XForms_SfRotatorItem"
+
+LDIFF_SYM676=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM676
+LTDIE_107_POINTER:
+
+	.byte 13
+LDIFF_SYM677=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM677
+LTDIE_107_REFERENCE:
+
+	.byte 14
+LDIFF_SYM678=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM678
+LTDIE_108:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IEnumerator`1"
+
+	.byte 16,7
+	.asciz "System_Collections_Generic_IEnumerator`1"
+
+LDIFF_SYM679=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM679
+LTDIE_108_POINTER:
+
+	.byte 13
+LDIFF_SYM680=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM680
+LTDIE_108_REFERENCE:
+
+	.byte 14
+LDIFF_SYM681=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM681
+LTDIE_111:
+
+	.byte 5
+	.asciz "Foundation_NSString"
+
+	.byte 40,16
+LDIFF_SYM682=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM682
+	.byte 2,35,0,0,7
+	.asciz "Foundation_NSString"
+
+LDIFF_SYM683=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM683
+LTDIE_111_POINTER:
+
+	.byte 13
+LDIFF_SYM684=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM684
+LTDIE_111_REFERENCE:
+
+	.byte 14
+LDIFF_SYM685=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM685
+LTDIE_110:
+
+	.byte 5
+	.asciz "Syncfusion_SfRotator_iOS_SfRotatorItem"
+
+	.byte 64,16
+LDIFF_SYM686=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM686
+	.byte 2,35,0,6
+	.asciz "view"
+
+LDIFF_SYM687=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM687
+	.byte 2,35,48,6
+	.asciz "itemText"
+
+LDIFF_SYM688=LTDIE_111_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM688
+	.byte 2,35,56,0,7
+	.asciz "Syncfusion_SfRotator_iOS_SfRotatorItem"
+
+LDIFF_SYM689=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM689
+LTDIE_110_POINTER:
+
+	.byte 13
+LDIFF_SYM690=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM690
+LTDIE_110_REFERENCE:
+
+	.byte 14
+LDIFF_SYM691=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM691
+LTDIE_109:
 
 	.byte 5
 	.asciz "Syncfusion_SfRotator_iOS_SFRotatorItem"
 
 	.byte 64,16
-LDIFF_SYM651=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM651
+LDIFF_SYM692=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM692
 	.byte 2,35,0,0,7
 	.asciz "Syncfusion_SfRotator_iOS_SFRotatorItem"
 
-LDIFF_SYM652=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM652
-LTDIE_103_POINTER:
+LDIFF_SYM693=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM693
+LTDIE_109_POINTER:
 
 	.byte 13
-LDIFF_SYM653=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM653
-LTDIE_103_REFERENCE:
+LDIFF_SYM694=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM694
+LTDIE_109_REFERENCE:
 
 	.byte 14
-LDIFF_SYM654=LTDIE_103 - Ldebug_info_start
-	.long LDIFF_SYM654
+LDIFF_SYM695=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM695
 	.byte 2
 	.asciz "Syncfusion.SfRotator.XForms.iOS.SfRotatorMapping:OnRotatorPropertiesChanged"
 	.asciz "Syncfusion_SfRotator_XForms_iOS_SfRotatorMapping_OnRotatorPropertiesChanged_string_Syncfusion_SfRotator_XForms_SfRotator_Syncfusion_SfRotator_iOS_SFRotator"
@@ -11087,101 +11401,101 @@ LDIFF_SYM654=LTDIE_103 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM655=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM655
+LDIFF_SYM696=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM696
 	.byte 1,103,3
 	.asciz "propertyName"
 
-LDIFF_SYM656=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM656
+LDIFF_SYM697=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM697
 	.byte 1,104,3
 	.asciz "formsRotator"
 
-LDIFF_SYM657=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM657
+LDIFF_SYM698=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM698
 	.byte 1,105,3
 	.asciz "nativeRotator"
 
-LDIFF_SYM658=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM658
+LDIFF_SYM699=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM699
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM659=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM659
+LDIFF_SYM700=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM700
 	.byte 1,106,11
 	.asciz "V_1"
 
-LDIFF_SYM660=LTDIE_100_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM660
+LDIFF_SYM701=LTDIE_106_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM701
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM661=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM661
+LDIFF_SYM702=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM702
 	.byte 3,141,136,2,11
 	.asciz "V_3"
 
-LDIFF_SYM662=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM662
+LDIFF_SYM703=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM703
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM663=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM663
+LDIFF_SYM704=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM704
 	.byte 1,106,11
 	.asciz "V_5"
 
-LDIFF_SYM664=LTDIE_100_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM664
+LDIFF_SYM705=LTDIE_106_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM705
 	.byte 1,104,11
 	.asciz "V_6"
 
-LDIFF_SYM665=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM665
+LDIFF_SYM706=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM706
 	.byte 3,141,160,2,11
 	.asciz "V_7"
 
-LDIFF_SYM666=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM666
+LDIFF_SYM707=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM707
 	.byte 1,102,11
 	.asciz "V_8"
 
-LDIFF_SYM667=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM667
+LDIFF_SYM708=LTDIE_109_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM708
 	.byte 1,102,11
 	.asciz "V_9"
 
-LDIFF_SYM668=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM668
+LDIFF_SYM709=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM709
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM669=Lfde0_end - Lfde0_start
-	.long LDIFF_SYM669
+LDIFF_SYM710=Lfde0_end - Lfde0_start
+	.long LDIFF_SYM710
 Lfde0_start:
 
 	.long 0
 	.align 3
 	.quad Syncfusion_SfRotator_XForms_iOS_SfRotatorMapping_OnRotatorPropertiesChanged_string_Syncfusion_SfRotator_XForms_SfRotator_Syncfusion_SfRotator_iOS_SFRotator
 
-LDIFF_SYM670=Lme_0 - Syncfusion_SfRotator_XForms_iOS_SfRotatorMapping_OnRotatorPropertiesChanged_string_Syncfusion_SfRotator_XForms_SfRotator_Syncfusion_SfRotator_iOS_SFRotator
-	.long LDIFF_SYM670
+LDIFF_SYM711=Lme_0 - Syncfusion_SfRotator_XForms_iOS_SfRotatorMapping_OnRotatorPropertiesChanged_string_Syncfusion_SfRotator_XForms_SfRotator_Syncfusion_SfRotator_iOS_SFRotator
+	.long LDIFF_SYM711
 	.long 0
 	.byte 12,31,0,68,14,128,3,157,48,158,47,68,13,29,68,148,46,149,45,68,150,44,151,43,68,152,42,153,41,68,154,40
 	.align 3
 Lfde0_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_107:
+LTDIE_113:
 
 	.byte 8
 	.asciz "System_Collections_Specialized_NotifyCollectionChangedAction"
 
 	.byte 4
-LDIFF_SYM671=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM671
+LDIFF_SYM712=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM712
 	.byte 9
 	.asciz "Add"
 
@@ -11200,19 +11514,19 @@ LDIFF_SYM671=LDIE_I4 - Ldebug_info_start
 	.byte 4,0,7
 	.asciz "System_Collections_Specialized_NotifyCollectionChangedAction"
 
-LDIFF_SYM672=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM672
-LTDIE_107_POINTER:
+LDIFF_SYM713=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM713
+LTDIE_113_POINTER:
 
 	.byte 13
-LDIFF_SYM673=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM673
-LTDIE_107_REFERENCE:
+LDIFF_SYM714=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM714
+LTDIE_113_REFERENCE:
 
 	.byte 14
-LDIFF_SYM674=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM674
-LTDIE_108:
+LDIFF_SYM715=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM715
+LTDIE_114:
 
 	.byte 17
 	.asciz "System_Collections_IList"
@@ -11220,66 +11534,66 @@ LTDIE_108:
 	.byte 16,7
 	.asciz "System_Collections_IList"
 
-LDIFF_SYM675=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM675
-LTDIE_108_POINTER:
+LDIFF_SYM716=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM716
+LTDIE_114_POINTER:
 
 	.byte 13
-LDIFF_SYM676=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM676
-LTDIE_108_REFERENCE:
+LDIFF_SYM717=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM717
+LTDIE_114_REFERENCE:
 
 	.byte 14
-LDIFF_SYM677=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM677
-LTDIE_106:
+LDIFF_SYM718=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM718
+LTDIE_112:
 
 	.byte 5
 	.asciz "System_Collections_Specialized_NotifyCollectionChangedEventArgs"
 
 	.byte 48,16
-LDIFF_SYM678=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM678
+LDIFF_SYM719=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM719
 	.byte 2,35,0,6
 	.asciz "_action"
 
-LDIFF_SYM679=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM679
+LDIFF_SYM720=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM720
 	.byte 2,35,32,6
 	.asciz "_newItems"
 
-LDIFF_SYM680=LTDIE_108_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM680
+LDIFF_SYM721=LTDIE_114_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM721
 	.byte 2,35,16,6
 	.asciz "_oldItems"
 
-LDIFF_SYM681=LTDIE_108_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM681
+LDIFF_SYM722=LTDIE_114_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM722
 	.byte 2,35,24,6
 	.asciz "_newStartingIndex"
 
-LDIFF_SYM682=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM682
+LDIFF_SYM723=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM723
 	.byte 2,35,36,6
 	.asciz "_oldStartingIndex"
 
-LDIFF_SYM683=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM683
+LDIFF_SYM724=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM724
 	.byte 2,35,40,0,7
 	.asciz "System_Collections_Specialized_NotifyCollectionChangedEventArgs"
 
-LDIFF_SYM684=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM684
-LTDIE_106_POINTER:
+LDIFF_SYM725=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM725
+LTDIE_112_POINTER:
 
 	.byte 13
-LDIFF_SYM685=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM685
-LTDIE_106_REFERENCE:
+LDIFF_SYM726=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM726
+LTDIE_112_REFERENCE:
 
 	.byte 14
-LDIFF_SYM686=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM686
+LDIFF_SYM727=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM727
 	.byte 2
 	.asciz "Syncfusion.SfRotator.XForms.iOS.SfRotatorMapping:Handle_CollectionChanged"
 	.asciz "Syncfusion_SfRotator_XForms_iOS_SfRotatorMapping_Handle_CollectionChanged_object_System_Collections_Specialized_NotifyCollectionChangedEventArgs"
@@ -11291,52 +11605,52 @@ LDIFF_SYM686=LTDIE_106 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM687=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM687
+LDIFF_SYM728=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM728
 	.byte 2,141,40,3
 	.asciz "sender"
 
-LDIFF_SYM688=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM688
+LDIFF_SYM729=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM729
 	.byte 1,106,3
 	.asciz "e"
 
-LDIFF_SYM689=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM689
+LDIFF_SYM730=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM730
 	.byte 0,11
 	.asciz "V_0"
 
-LDIFF_SYM690=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM690
+LDIFF_SYM731=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM731
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM691=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM691
+LDIFF_SYM732=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM732
 	.byte 2,141,56,11
 	.asciz "V_2"
 
-LDIFF_SYM692=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM692
+LDIFF_SYM733=LTDIE_109_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM733
 	.byte 1,106,11
 	.asciz "V_3"
 
-LDIFF_SYM693=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM693
+LDIFF_SYM734=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM734
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM694=Lfde1_end - Lfde1_start
-	.long LDIFF_SYM694
+LDIFF_SYM735=Lfde1_end - Lfde1_start
+	.long LDIFF_SYM735
 Lfde1_start:
 
 	.long 0
 	.align 3
 	.quad Syncfusion_SfRotator_XForms_iOS_SfRotatorMapping_Handle_CollectionChanged_object_System_Collections_Specialized_NotifyCollectionChangedEventArgs
 
-LDIFF_SYM695=Lme_1 - Syncfusion_SfRotator_XForms_iOS_SfRotatorMapping_Handle_CollectionChanged_object_System_Collections_Specialized_NotifyCollectionChangedEventArgs
-	.long LDIFF_SYM695
+LDIFF_SYM736=Lme_1 - Syncfusion_SfRotator_XForms_iOS_SfRotatorMapping_Handle_CollectionChanged_object_System_Collections_Specialized_NotifyCollectionChangedEventArgs
+	.long LDIFF_SYM736
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,154,10
 	.align 3
@@ -11355,27 +11669,27 @@ Lfde1_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM696=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM696
+LDIFF_SYM737=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM737
 	.byte 0,3
 	.asciz "color"
 
-LDIFF_SYM697=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM697
+LDIFF_SYM738=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM738
 	.byte 1,80,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM698=Lfde2_end - Lfde2_start
-	.long LDIFF_SYM698
+LDIFF_SYM739=Lfde2_end - Lfde2_start
+	.long LDIFF_SYM739
 Lfde2_start:
 
 	.long 0
 	.align 3
 	.quad Syncfusion_SfRotator_XForms_iOS_SfRotatorMapping_ColorToUIColor_Xamarin_Forms_Color
 
-LDIFF_SYM699=Lme_2 - Syncfusion_SfRotator_XForms_iOS_SfRotatorMapping_ColorToUIColor_Xamarin_Forms_Color
-	.long LDIFF_SYM699
+LDIFF_SYM740=Lme_2 - Syncfusion_SfRotator_XForms_iOS_SfRotatorMapping_ColorToUIColor_Xamarin_Forms_Color
+	.long LDIFF_SYM740
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -11394,47 +11708,47 @@ Lfde2_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM700=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM700
+LDIFF_SYM741=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM741
 	.byte 0,3
 	.asciz "color"
 
-LDIFF_SYM701=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM701
+LDIFF_SYM742=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM742
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM702=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM702
+LDIFF_SYM743=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM743
 	.byte 3,141,200,0,11
 	.asciz "V_1"
 
-LDIFF_SYM703=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM703
+LDIFF_SYM744=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM744
 	.byte 3,141,208,0,11
 	.asciz "V_2"
 
-LDIFF_SYM704=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM704
+LDIFF_SYM745=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM745
 	.byte 3,141,216,0,11
 	.asciz "V_3"
 
-LDIFF_SYM705=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM705
+LDIFF_SYM746=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM746
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM706=Lfde3_end - Lfde3_start
-	.long LDIFF_SYM706
+LDIFF_SYM747=Lfde3_end - Lfde3_start
+	.long LDIFF_SYM747
 Lfde3_start:
 
 	.long 0
 	.align 3
 	.quad Syncfusion_SfRotator_XForms_iOS_SfRotatorMapping_UIColorToColor_UIKit_UIColor
 
-LDIFF_SYM707=Lme_3 - Syncfusion_SfRotator_XForms_iOS_SfRotatorMapping_UIColorToColor_UIKit_UIColor
-	.long LDIFF_SYM707
+LDIFF_SYM748=Lme_3 - Syncfusion_SfRotator_XForms_iOS_SfRotatorMapping_UIColorToColor_UIKit_UIColor
+	.long LDIFF_SYM748
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
 	.align 3
@@ -11453,22 +11767,22 @@ Lfde3_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM708=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM708
+LDIFF_SYM749=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM749
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM709=Lfde4_end - Lfde4_start
-	.long LDIFF_SYM709
+LDIFF_SYM750=Lfde4_end - Lfde4_start
+	.long LDIFF_SYM750
 Lfde4_start:
 
 	.long 0
 	.align 3
 	.quad Syncfusion_SfRotator_XForms_iOS_SfRotatorMapping__ctor
 
-LDIFF_SYM710=Lme_4 - Syncfusion_SfRotator_XForms_iOS_SfRotatorMapping__ctor
-	.long LDIFF_SYM710
+LDIFF_SYM751=Lme_4 - Syncfusion_SfRotator_XForms_iOS_SfRotatorMapping__ctor
+	.long LDIFF_SYM751
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
@@ -11487,71 +11801,71 @@ Lfde4_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM711=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM711
+LDIFF_SYM752=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM752
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM712=Lfde5_end - Lfde5_start
-	.long LDIFF_SYM712
+LDIFF_SYM753=Lfde5_end - Lfde5_start
+	.long LDIFF_SYM753
 Lfde5_start:
 
 	.long 0
 	.align 3
 	.quad Syncfusion_SfRotator_XForms_iOS_SfRotatorItemMapping__ctor
 
-LDIFF_SYM713=Lme_5 - Syncfusion_SfRotator_XForms_iOS_SfRotatorItemMapping__ctor
-	.long LDIFF_SYM713
+LDIFF_SYM754=Lme_5 - Syncfusion_SfRotator_XForms_iOS_SfRotatorItemMapping__ctor
+	.long LDIFF_SYM754
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
 Lfde5_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_109:
+LTDIE_115:
 
 	.byte 5
 	.asciz "System_Collections_Generic_List`1"
 
 	.byte 40,16
-LDIFF_SYM714=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM714
+LDIFF_SYM755=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM755
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM715=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM715
+LDIFF_SYM756=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM756
 	.byte 2,35,16,6
 	.asciz "_size"
 
-LDIFF_SYM716=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM716
+LDIFF_SYM757=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM757
 	.byte 2,35,32,6
 	.asciz "_version"
 
-LDIFF_SYM717=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM717
+LDIFF_SYM758=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM758
 	.byte 2,35,36,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM718=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM718
+LDIFF_SYM759=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM759
 	.byte 2,35,24,0,7
 	.asciz "System_Collections_Generic_List`1"
 
-LDIFF_SYM719=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM719
-LTDIE_109_POINTER:
+LDIFF_SYM760=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM760
+LTDIE_115_POINTER:
 
 	.byte 13
-LDIFF_SYM720=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM720
-LTDIE_109_REFERENCE:
+LDIFF_SYM761=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM761
+LTDIE_115_REFERENCE:
 
 	.byte 14
-LDIFF_SYM721=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM721
+LDIFF_SYM762=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM762
 	.byte 2
 	.asciz "Syncfusion.SfRotator.XForms.iOS.SfRotatorItemMapping:GetNativeItem"
 	.asciz "Syncfusion_SfRotator_XForms_iOS_SfRotatorItemMapping_GetNativeItem_Syncfusion_SfRotator_XForms_SfRotatorItem_Syncfusion_SfRotator_XForms_SfRotator"
@@ -11563,81 +11877,81 @@ LDIFF_SYM721=LTDIE_109 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM722=LTDIE_100_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM722
+LDIFF_SYM763=LTDIE_106_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM763
 	.byte 1,104,3
 	.asciz "item"
 
-LDIFF_SYM723=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM723
+LDIFF_SYM764=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM764
 	.byte 1,105,3
 	.asciz "rotator"
 
-LDIFF_SYM724=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM724
+LDIFF_SYM765=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM765
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM725=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM725
+LDIFF_SYM766=LTDIE_109_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM766
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM726=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM726
+LDIFF_SYM767=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM767
 	.byte 1,106,11
 	.asciz "V_2"
 
-LDIFF_SYM727=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM727
+LDIFF_SYM768=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM768
 	.byte 2,141,56,11
 	.asciz "V_3"
 
-LDIFF_SYM728=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM728
+LDIFF_SYM769=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM769
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM729=Lfde6_end - Lfde6_start
-	.long LDIFF_SYM729
+LDIFF_SYM770=Lfde6_end - Lfde6_start
+	.long LDIFF_SYM770
 Lfde6_start:
 
 	.long 0
 	.align 3
 	.quad Syncfusion_SfRotator_XForms_iOS_SfRotatorItemMapping_GetNativeItem_Syncfusion_SfRotator_XForms_SfRotatorItem_Syncfusion_SfRotator_XForms_SfRotator
 
-LDIFF_SYM730=Lme_6 - Syncfusion_SfRotator_XForms_iOS_SfRotatorItemMapping_GetNativeItem_Syncfusion_SfRotator_XForms_SfRotatorItem_Syncfusion_SfRotator_XForms_SfRotator
-	.long LDIFF_SYM730
+LDIFF_SYM771=Lme_6 - Syncfusion_SfRotator_XForms_iOS_SfRotatorItemMapping_GetNativeItem_Syncfusion_SfRotator_XForms_SfRotatorItem_Syncfusion_SfRotator_XForms_SfRotator
+	.long LDIFF_SYM771
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,150,16,151,15,68,152,14,153,13,68,154,12
 	.align 3
 Lfde6_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_110:
+LTDIE_116:
 
 	.byte 5
 	.asciz "UIKit_UIImageView"
 
 	.byte 48,16
-LDIFF_SYM731=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM731
+LDIFF_SYM772=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM772
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UIImageView"
 
-LDIFF_SYM732=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM732
-LTDIE_110_POINTER:
+LDIFF_SYM773=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM773
+LTDIE_116_POINTER:
 
 	.byte 13
-LDIFF_SYM733=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM733
-LTDIE_110_REFERENCE:
+LDIFF_SYM774=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM774
+LTDIE_116_REFERENCE:
 
 	.byte 14
-LDIFF_SYM734=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM734
+LDIFF_SYM775=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM775
 	.byte 2
 	.asciz "Syncfusion.SfRotator.XForms.iOS.SfRotatorItemMapping:OnRotatorItemPropertiesChanged"
 	.asciz "Syncfusion_SfRotator_XForms_iOS_SfRotatorItemMapping_OnRotatorItemPropertiesChanged_string_Syncfusion_SfRotator_XForms_SfRotatorItem_Syncfusion_SfRotator_iOS_SFRotatorItem"
@@ -11649,102 +11963,102 @@ LDIFF_SYM734=LTDIE_110 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM735=LTDIE_100_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM735
+LDIFF_SYM776=LTDIE_106_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM776
 	.byte 1,103,3
 	.asciz "propertyName"
 
-LDIFF_SYM736=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM736
+LDIFF_SYM777=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM777
 	.byte 1,104,3
 	.asciz "formsItem"
 
-LDIFF_SYM737=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM737
+LDIFF_SYM778=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM778
 	.byte 1,105,3
 	.asciz "nativeItem"
 
-LDIFF_SYM738=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM738
+LDIFF_SYM779=LTDIE_109_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM779
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM739=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM739
+LDIFF_SYM780=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM780
 	.byte 3,141,160,1,11
 	.asciz "V_1"
 
-LDIFF_SYM740=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM740
+LDIFF_SYM781=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM781
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM741=LTDIE_110_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM741
+LDIFF_SYM782=LTDIE_116_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM782
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM742=Lfde7_end - Lfde7_start
-	.long LDIFF_SYM742
+LDIFF_SYM783=Lfde7_end - Lfde7_start
+	.long LDIFF_SYM783
 Lfde7_start:
 
 	.long 0
 	.align 3
 	.quad Syncfusion_SfRotator_XForms_iOS_SfRotatorItemMapping_OnRotatorItemPropertiesChanged_string_Syncfusion_SfRotator_XForms_SfRotatorItem_Syncfusion_SfRotator_iOS_SFRotatorItem
 
-LDIFF_SYM743=Lme_7 - Syncfusion_SfRotator_XForms_iOS_SfRotatorItemMapping_OnRotatorItemPropertiesChanged_string_Syncfusion_SfRotator_XForms_SfRotatorItem_Syncfusion_SfRotator_iOS_SFRotatorItem
-	.long LDIFF_SYM743
+LDIFF_SYM784=Lme_7 - Syncfusion_SfRotator_XForms_iOS_SfRotatorItemMapping_OnRotatorItemPropertiesChanged_string_Syncfusion_SfRotator_XForms_SfRotatorItem_Syncfusion_SfRotator_iOS_SFRotatorItem
+	.long LDIFF_SYM784
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,149,28,150,27,68,151,26,152,25,68,153,24,154,23
 	.align 3
 Lfde7_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_114:
+LTDIE_120:
 
 	.byte 5
 	.asciz "System_Collections_Generic_List`1"
 
 	.byte 40,16
-LDIFF_SYM744=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM744
+LDIFF_SYM785=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM785
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM745=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM745
+LDIFF_SYM786=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM786
 	.byte 2,35,16,6
 	.asciz "_size"
 
-LDIFF_SYM746=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM746
+LDIFF_SYM787=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM787
 	.byte 2,35,32,6
 	.asciz "_version"
 
-LDIFF_SYM747=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM747
+LDIFF_SYM788=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM788
 	.byte 2,35,36,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM748=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM748
+LDIFF_SYM789=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM789
 	.byte 2,35,24,0,7
 	.asciz "System_Collections_Generic_List`1"
 
-LDIFF_SYM749=LTDIE_114 - Ldebug_info_start
-	.long LDIFF_SYM749
-LTDIE_114_POINTER:
+LDIFF_SYM790=LTDIE_120 - Ldebug_info_start
+	.long LDIFF_SYM790
+LTDIE_120_POINTER:
 
 	.byte 13
-LDIFF_SYM750=LTDIE_114 - Ldebug_info_start
-	.long LDIFF_SYM750
-LTDIE_114_REFERENCE:
+LDIFF_SYM791=LTDIE_120 - Ldebug_info_start
+	.long LDIFF_SYM791
+LTDIE_120_REFERENCE:
 
 	.byte 14
-LDIFF_SYM751=LTDIE_114 - Ldebug_info_start
-	.long LDIFF_SYM751
-LTDIE_117:
+LDIFF_SYM792=LTDIE_120 - Ldebug_info_start
+	.long LDIFF_SYM792
+LTDIE_123:
 
 	.byte 17
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
@@ -11752,148 +12066,148 @@ LTDIE_117:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
 
-LDIFF_SYM752=LTDIE_117 - Ldebug_info_start
-	.long LDIFF_SYM752
-LTDIE_117_POINTER:
+LDIFF_SYM793=LTDIE_123 - Ldebug_info_start
+	.long LDIFF_SYM793
+LTDIE_123_POINTER:
 
 	.byte 13
-LDIFF_SYM753=LTDIE_117 - Ldebug_info_start
-	.long LDIFF_SYM753
-LTDIE_117_REFERENCE:
+LDIFF_SYM794=LTDIE_123 - Ldebug_info_start
+	.long LDIFF_SYM794
+LTDIE_123_REFERENCE:
 
 	.byte 14
-LDIFF_SYM754=LTDIE_117 - Ldebug_info_start
-	.long LDIFF_SYM754
-LTDIE_118:
+LDIFF_SYM795=LTDIE_123 - Ldebug_info_start
+	.long LDIFF_SYM795
+LTDIE_124:
 
 	.byte 5
 	.asciz "_KeyCollection"
 
 	.byte 24,16
-LDIFF_SYM755=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM755
+LDIFF_SYM796=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM796
 	.byte 2,35,0,6
 	.asciz "_dictionary"
 
-LDIFF_SYM756=LTDIE_116_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM756
+LDIFF_SYM797=LTDIE_122_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM797
 	.byte 2,35,16,0,7
 	.asciz "_KeyCollection"
 
-LDIFF_SYM757=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM757
-LTDIE_118_POINTER:
+LDIFF_SYM798=LTDIE_124 - Ldebug_info_start
+	.long LDIFF_SYM798
+LTDIE_124_POINTER:
 
 	.byte 13
-LDIFF_SYM758=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM758
-LTDIE_118_REFERENCE:
+LDIFF_SYM799=LTDIE_124 - Ldebug_info_start
+	.long LDIFF_SYM799
+LTDIE_124_REFERENCE:
 
 	.byte 14
-LDIFF_SYM759=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM759
-LTDIE_119:
+LDIFF_SYM800=LTDIE_124 - Ldebug_info_start
+	.long LDIFF_SYM800
+LTDIE_125:
 
 	.byte 5
 	.asciz "_ValueCollection"
 
 	.byte 24,16
-LDIFF_SYM760=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM760
+LDIFF_SYM801=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM801
 	.byte 2,35,0,6
 	.asciz "_dictionary"
 
-LDIFF_SYM761=LTDIE_116_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM761
+LDIFF_SYM802=LTDIE_122_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM802
 	.byte 2,35,16,0,7
 	.asciz "_ValueCollection"
 
-LDIFF_SYM762=LTDIE_119 - Ldebug_info_start
-	.long LDIFF_SYM762
-LTDIE_119_POINTER:
+LDIFF_SYM803=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM803
+LTDIE_125_POINTER:
 
 	.byte 13
-LDIFF_SYM763=LTDIE_119 - Ldebug_info_start
-	.long LDIFF_SYM763
-LTDIE_119_REFERENCE:
+LDIFF_SYM804=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM804
+LTDIE_125_REFERENCE:
 
 	.byte 14
-LDIFF_SYM764=LTDIE_119 - Ldebug_info_start
-	.long LDIFF_SYM764
-LTDIE_116:
+LDIFF_SYM805=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM805
+LTDIE_122:
 
 	.byte 5
 	.asciz "System_Collections_Generic_Dictionary`2"
 
 	.byte 80,16
-LDIFF_SYM765=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM765
+LDIFF_SYM806=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM806
 	.byte 2,35,0,6
 	.asciz "_buckets"
 
-LDIFF_SYM766=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM766
+LDIFF_SYM807=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM807
 	.byte 2,35,16,6
 	.asciz "_entries"
 
-LDIFF_SYM767=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM767
+LDIFF_SYM808=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM808
 	.byte 2,35,24,6
 	.asciz "_count"
 
-LDIFF_SYM768=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM768
+LDIFF_SYM809=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM809
 	.byte 2,35,64,6
 	.asciz "_freeList"
 
-LDIFF_SYM769=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM769
+LDIFF_SYM810=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM810
 	.byte 2,35,68,6
 	.asciz "_freeCount"
 
-LDIFF_SYM770=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM770
+LDIFF_SYM811=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM811
 	.byte 2,35,72,6
 	.asciz "_version"
 
-LDIFF_SYM771=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM771
+LDIFF_SYM812=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM812
 	.byte 2,35,76,6
 	.asciz "_comparer"
 
-LDIFF_SYM772=LTDIE_117_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM772
+LDIFF_SYM813=LTDIE_123_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM813
 	.byte 2,35,32,6
 	.asciz "_keys"
 
-LDIFF_SYM773=LTDIE_118_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM773
+LDIFF_SYM814=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM814
 	.byte 2,35,40,6
 	.asciz "_values"
 
-LDIFF_SYM774=LTDIE_119_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM774
+LDIFF_SYM815=LTDIE_125_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM815
 	.byte 2,35,48,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM775=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM775
+LDIFF_SYM816=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM816
 	.byte 2,35,56,0,7
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-LDIFF_SYM776=LTDIE_116 - Ldebug_info_start
-	.long LDIFF_SYM776
-LTDIE_116_POINTER:
+LDIFF_SYM817=LTDIE_122 - Ldebug_info_start
+	.long LDIFF_SYM817
+LTDIE_122_POINTER:
 
 	.byte 13
-LDIFF_SYM777=LTDIE_116 - Ldebug_info_start
-	.long LDIFF_SYM777
-LTDIE_116_REFERENCE:
+LDIFF_SYM818=LTDIE_122 - Ldebug_info_start
+	.long LDIFF_SYM818
+LTDIE_122_REFERENCE:
 
 	.byte 14
-LDIFF_SYM778=LTDIE_116 - Ldebug_info_start
-	.long LDIFF_SYM778
-LTDIE_120:
+LDIFF_SYM819=LTDIE_122 - Ldebug_info_start
+	.long LDIFF_SYM819
+LTDIE_126:
 
 	.byte 17
 	.asciz "Xamarin_Forms_Platform_iOS_IVisualElementRenderer"
@@ -11901,107 +12215,107 @@ LTDIE_120:
 	.byte 16,7
 	.asciz "Xamarin_Forms_Platform_iOS_IVisualElementRenderer"
 
-LDIFF_SYM779=LTDIE_120 - Ldebug_info_start
-	.long LDIFF_SYM779
-LTDIE_120_POINTER:
+LDIFF_SYM820=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM820
+LTDIE_126_POINTER:
 
 	.byte 13
-LDIFF_SYM780=LTDIE_120 - Ldebug_info_start
-	.long LDIFF_SYM780
-LTDIE_120_REFERENCE:
+LDIFF_SYM821=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM821
+LTDIE_126_REFERENCE:
 
 	.byte 14
-LDIFF_SYM781=LTDIE_120 - Ldebug_info_start
-	.long LDIFF_SYM781
-LTDIE_121:
+LDIFF_SYM822=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM822
+LTDIE_127:
 
 	.byte 5
 	.asciz "UIKit_UITouchEventArgs"
 
 	.byte 112,16
-LDIFF_SYM782=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM782
+LDIFF_SYM823=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM823
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UITouchEventArgs"
 
-LDIFF_SYM783=LTDIE_121 - Ldebug_info_start
-	.long LDIFF_SYM783
-LTDIE_121_POINTER:
+LDIFF_SYM824=LTDIE_127 - Ldebug_info_start
+	.long LDIFF_SYM824
+LTDIE_127_POINTER:
 
 	.byte 13
-LDIFF_SYM784=LTDIE_121 - Ldebug_info_start
-	.long LDIFF_SYM784
-LTDIE_121_REFERENCE:
+LDIFF_SYM825=LTDIE_127 - Ldebug_info_start
+	.long LDIFF_SYM825
+LTDIE_127_REFERENCE:
 
 	.byte 14
-LDIFF_SYM785=LTDIE_121 - Ldebug_info_start
-	.long LDIFF_SYM785
-LTDIE_115:
+LDIFF_SYM826=LTDIE_127 - Ldebug_info_start
+	.long LDIFF_SYM826
+LTDIE_121:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Platform_iOS_EventTracker"
 
 	.byte 72,16
-LDIFF_SYM786=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM786
+LDIFF_SYM827=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM827
 	.byte 2,35,0,6
 	.asciz "_collectionChangedHandler"
 
-LDIFF_SYM787=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM787
+LDIFF_SYM828=LTDIE_64_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM828
 	.byte 2,35,16,6
 	.asciz "_gestureRecognizers"
 
-LDIFF_SYM788=LTDIE_116_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM788
+LDIFF_SYM829=LTDIE_122_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM829
 	.byte 2,35,24,6
 	.asciz "_renderer"
 
-LDIFF_SYM789=LTDIE_120_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM789
+LDIFF_SYM830=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM830
 	.byte 2,35,32,6
 	.asciz "_disposed"
 
-LDIFF_SYM790=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM790
+LDIFF_SYM831=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM831
 	.byte 2,35,56,6
 	.asciz "_handler"
 
-LDIFF_SYM791=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM791
+LDIFF_SYM832=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM832
 	.byte 2,35,40,6
 	.asciz "_previousScale"
 
-LDIFF_SYM792=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM792
+LDIFF_SYM833=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM833
 	.byte 2,35,64,6
 	.asciz "_shouldReceiveTouch"
 
-LDIFF_SYM793=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM793
+LDIFF_SYM834=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM834
 	.byte 2,35,48,0,7
 	.asciz "Xamarin_Forms_Platform_iOS_EventTracker"
 
-LDIFF_SYM794=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM794
-LTDIE_115_POINTER:
+LDIFF_SYM835=LTDIE_121 - Ldebug_info_start
+	.long LDIFF_SYM835
+LTDIE_121_POINTER:
 
 	.byte 13
-LDIFF_SYM795=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM795
-LTDIE_115_REFERENCE:
+LDIFF_SYM836=LTDIE_121 - Ldebug_info_start
+	.long LDIFF_SYM836
+LTDIE_121_REFERENCE:
 
 	.byte 14
-LDIFF_SYM796=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM796
-LTDIE_122:
+LDIFF_SYM837=LTDIE_121 - Ldebug_info_start
+	.long LDIFF_SYM837
+LTDIE_128:
 
 	.byte 8
 	.asciz "Xamarin_Forms_Platform_iOS_VisualElementRendererFlags"
 
 	.byte 4
-LDIFF_SYM797=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM797
+LDIFF_SYM838=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM838
 	.byte 9
 	.asciz "Disposed"
 
@@ -12014,231 +12328,236 @@ LDIFF_SYM797=LDIE_I4 - Ldebug_info_start
 	.byte 4,0,7
 	.asciz "Xamarin_Forms_Platform_iOS_VisualElementRendererFlags"
 
-LDIFF_SYM798=LTDIE_122 - Ldebug_info_start
-	.long LDIFF_SYM798
-LTDIE_122_POINTER:
+LDIFF_SYM839=LTDIE_128 - Ldebug_info_start
+	.long LDIFF_SYM839
+LTDIE_128_POINTER:
 
 	.byte 13
-LDIFF_SYM799=LTDIE_122 - Ldebug_info_start
-	.long LDIFF_SYM799
-LTDIE_122_REFERENCE:
+LDIFF_SYM840=LTDIE_128 - Ldebug_info_start
+	.long LDIFF_SYM840
+LTDIE_128_REFERENCE:
 
 	.byte 14
-LDIFF_SYM800=LTDIE_122 - Ldebug_info_start
-	.long LDIFF_SYM800
-LTDIE_123:
+LDIFF_SYM841=LTDIE_128 - Ldebug_info_start
+	.long LDIFF_SYM841
+LTDIE_129:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Platform_iOS_VisualElementPackager"
 
 	.byte 40,16
-LDIFF_SYM801=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM801
+LDIFF_SYM842=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM842
 	.byte 2,35,0,6
 	.asciz "_element"
 
-LDIFF_SYM802=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM802
+LDIFF_SYM843=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM843
 	.byte 2,35,16,6
 	.asciz "_isDisposed"
 
-LDIFF_SYM803=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM803
+LDIFF_SYM844=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM844
 	.byte 2,35,32,6
 	.asciz "<Renderer>k__BackingField"
 
-LDIFF_SYM804=LTDIE_120_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM804
+LDIFF_SYM845=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM845
 	.byte 2,35,24,0,7
 	.asciz "Xamarin_Forms_Platform_iOS_VisualElementPackager"
 
-LDIFF_SYM805=LTDIE_123 - Ldebug_info_start
-	.long LDIFF_SYM805
-LTDIE_123_POINTER:
+LDIFF_SYM846=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM846
+LTDIE_129_POINTER:
 
 	.byte 13
-LDIFF_SYM806=LTDIE_123 - Ldebug_info_start
-	.long LDIFF_SYM806
-LTDIE_123_REFERENCE:
+LDIFF_SYM847=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM847
+LTDIE_129_REFERENCE:
 
 	.byte 14
-LDIFF_SYM807=LTDIE_123 - Ldebug_info_start
-	.long LDIFF_SYM807
-LTDIE_126:
+LDIFF_SYM848=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM848
+LTDIE_132:
 
 	.byte 5
 	.asciz "System_WeakReference"
 
 	.byte 24,16
-LDIFF_SYM808=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM808
+LDIFF_SYM849=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM849
 	.byte 2,35,0,6
 	.asciz "isLongReference"
 
-LDIFF_SYM809=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM809
+LDIFF_SYM850=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM850
 	.byte 2,35,16,6
 	.asciz "gcHandle"
 
-LDIFF_SYM810=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM810
+LDIFF_SYM851=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM851
 	.byte 2,35,20,0,7
 	.asciz "System_WeakReference"
 
-LDIFF_SYM811=LTDIE_126 - Ldebug_info_start
-	.long LDIFF_SYM811
-LTDIE_126_POINTER:
+LDIFF_SYM852=LTDIE_132 - Ldebug_info_start
+	.long LDIFF_SYM852
+LTDIE_132_POINTER:
 
 	.byte 13
-LDIFF_SYM812=LTDIE_126 - Ldebug_info_start
-	.long LDIFF_SYM812
-LTDIE_126_REFERENCE:
+LDIFF_SYM853=LTDIE_132 - Ldebug_info_start
+	.long LDIFF_SYM853
+LTDIE_132_REFERENCE:
 
 	.byte 14
-LDIFF_SYM813=LTDIE_126 - Ldebug_info_start
-	.long LDIFF_SYM813
-LTDIE_125:
+LDIFF_SYM854=LTDIE_132 - Ldebug_info_start
+	.long LDIFF_SYM854
+LTDIE_131:
 
 	.byte 5
 	.asciz "CoreAnimation_CALayer"
 
 	.byte 56,16
-LDIFF_SYM814=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM814
+LDIFF_SYM855=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM855
 	.byte 2,35,0,6
 	.asciz "calayerdelegate"
 
-LDIFF_SYM815=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM815
+LDIFF_SYM856=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM856
 	.byte 2,35,40,6
 	.asciz "__mt_WeakDelegate_var"
 
-LDIFF_SYM816=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM816
+LDIFF_SYM857=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM857
 	.byte 2,35,48,0,7
 	.asciz "CoreAnimation_CALayer"
 
-LDIFF_SYM817=LTDIE_125 - Ldebug_info_start
-	.long LDIFF_SYM817
-LTDIE_125_POINTER:
+LDIFF_SYM858=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM858
+LTDIE_131_POINTER:
 
 	.byte 13
-LDIFF_SYM818=LTDIE_125 - Ldebug_info_start
-	.long LDIFF_SYM818
-LTDIE_125_REFERENCE:
+LDIFF_SYM859=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM859
+LTDIE_131_REFERENCE:
 
 	.byte 14
-LDIFF_SYM819=LTDIE_125 - Ldebug_info_start
-	.long LDIFF_SYM819
-LTDIE_124:
+LDIFF_SYM860=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM860
+LTDIE_130:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Platform_iOS_VisualElementTracker"
 
 	.byte 120,16
-LDIFF_SYM820=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM820
+LDIFF_SYM861=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM861
 	.byte 2,35,0,6
 	.asciz "_batchCommittedHandler"
 
-LDIFF_SYM821=LTDIE_92_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM821
+LDIFF_SYM862=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM862
 	.byte 2,35,16,6
 	.asciz "_propertyChangedHandler"
 
-LDIFF_SYM822=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM822
+LDIFF_SYM863=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM863
 	.byte 2,35,24,6
 	.asciz "_sizeChangedEventHandler"
 
-LDIFF_SYM823=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM823
+LDIFF_SYM864=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM864
 	.byte 2,35,32,6
 	.asciz "_disposed"
 
-LDIFF_SYM824=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM824
+LDIFF_SYM865=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM865
 	.byte 2,35,72,6
 	.asciz "_element"
 
-LDIFF_SYM825=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM825
+LDIFF_SYM866=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM866
 	.byte 2,35,40,6
 	.asciz "_isInteractive"
 
-LDIFF_SYM826=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM826
+LDIFF_SYM867=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM867
 	.byte 2,35,73,6
 	.asciz "_lastBounds"
 
-LDIFF_SYM827=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM827
+LDIFF_SYM868=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM868
 	.byte 2,35,80,6
 	.asciz "_layer"
 
-LDIFF_SYM828=LTDIE_125_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM828
+LDIFF_SYM869=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM869
 	.byte 2,35,48,6
 	.asciz "_updateCount"
 
-LDIFF_SYM829=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM829
+LDIFF_SYM870=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM870
 	.byte 2,35,112,6
+	.asciz "<TrackFrame>k__BackingField"
+
+LDIFF_SYM871=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM871
+	.byte 2,35,116,6
 	.asciz "<Renderer>k__BackingField"
 
-LDIFF_SYM830=LTDIE_120_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM830
+LDIFF_SYM872=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM872
 	.byte 2,35,56,6
 	.asciz "NativeControlUpdated"
 
-LDIFF_SYM831=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM831
+LDIFF_SYM873=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM873
 	.byte 2,35,64,0,7
 	.asciz "Xamarin_Forms_Platform_iOS_VisualElementTracker"
 
-LDIFF_SYM832=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM832
-LTDIE_124_POINTER:
+LDIFF_SYM874=LTDIE_130 - Ldebug_info_start
+	.long LDIFF_SYM874
+LTDIE_130_POINTER:
 
 	.byte 13
-LDIFF_SYM833=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM833
-LTDIE_124_REFERENCE:
+LDIFF_SYM875=LTDIE_130 - Ldebug_info_start
+	.long LDIFF_SYM875
+LTDIE_130_REFERENCE:
 
 	.byte 14
-LDIFF_SYM834=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM834
-LTDIE_127:
+LDIFF_SYM876=LTDIE_130 - Ldebug_info_start
+	.long LDIFF_SYM876
+LTDIE_133:
 
 	.byte 5
 	.asciz "UIKit_UIVisualEffectView"
 
 	.byte 48,16
-LDIFF_SYM835=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM835
+LDIFF_SYM877=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM877
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UIVisualEffectView"
 
-LDIFF_SYM836=LTDIE_127 - Ldebug_info_start
-	.long LDIFF_SYM836
-LTDIE_127_POINTER:
+LDIFF_SYM878=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM878
+LTDIE_133_POINTER:
 
 	.byte 13
-LDIFF_SYM837=LTDIE_127 - Ldebug_info_start
-	.long LDIFF_SYM837
-LTDIE_127_REFERENCE:
+LDIFF_SYM879=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM879
+LTDIE_133_REFERENCE:
 
 	.byte 14
-LDIFF_SYM838=LTDIE_127 - Ldebug_info_start
-	.long LDIFF_SYM838
-LTDIE_128:
+LDIFF_SYM880=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM880
+LTDIE_134:
 
 	.byte 8
 	.asciz "Xamarin_Forms_PlatformConfiguration_iOSSpecific_BlurEffectStyle"
 
 	.byte 4
-LDIFF_SYM839=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM839
+LDIFF_SYM881=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM881
 	.byte 9
 	.asciz "None"
 
@@ -12254,283 +12573,321 @@ LDIFF_SYM839=LDIE_I4 - Ldebug_info_start
 	.byte 3,0,7
 	.asciz "Xamarin_Forms_PlatformConfiguration_iOSSpecific_BlurEffectStyle"
 
-LDIFF_SYM840=LTDIE_128 - Ldebug_info_start
-	.long LDIFF_SYM840
-LTDIE_128_POINTER:
+LDIFF_SYM882=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM882
+LTDIE_134_POINTER:
 
 	.byte 13
-LDIFF_SYM841=LTDIE_128 - Ldebug_info_start
-	.long LDIFF_SYM841
-LTDIE_128_REFERENCE:
+LDIFF_SYM883=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM883
+LTDIE_134_REFERENCE:
 
 	.byte 14
-LDIFF_SYM842=LTDIE_128 - Ldebug_info_start
-	.long LDIFF_SYM842
-LTDIE_129:
+LDIFF_SYM884=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM884
+LTDIE_135:
 
 	.byte 5
 	.asciz "System_EventHandler`1"
 
 	.byte 112,16
-LDIFF_SYM843=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM843
+LDIFF_SYM885=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM885
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM844=LTDIE_129 - Ldebug_info_start
-	.long LDIFF_SYM844
-LTDIE_129_POINTER:
+LDIFF_SYM886=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM886
+LTDIE_135_POINTER:
 
 	.byte 13
-LDIFF_SYM845=LTDIE_129 - Ldebug_info_start
-	.long LDIFF_SYM845
-LTDIE_129_REFERENCE:
+LDIFF_SYM887=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM887
+LTDIE_135_REFERENCE:
 
 	.byte 14
-LDIFF_SYM846=LTDIE_129 - Ldebug_info_start
-	.long LDIFF_SYM846
-LTDIE_113:
+LDIFF_SYM888=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM888
+LTDIE_119:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Platform_iOS_VisualElementRenderer`1"
 
 	.byte 168,1,16
-LDIFF_SYM847=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM847
+LDIFF_SYM889=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM889
 	.byte 2,35,0,6
 	.asciz "_defaultColor"
 
-LDIFF_SYM848=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM848
+LDIFF_SYM890=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM890
 	.byte 2,35,48,6
 	.asciz "_elementChangedHandlers"
 
-LDIFF_SYM849=LTDIE_114_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM849
+LDIFF_SYM891=LTDIE_120_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM891
 	.byte 2,35,56,6
 	.asciz "_propertyChangedHandler"
 
-LDIFF_SYM850=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM850
+LDIFF_SYM892=LTDIE_51_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM892
 	.byte 2,35,64,6
 	.asciz "_defaultAccessibilityLabel"
 
-LDIFF_SYM851=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM851
+LDIFF_SYM893=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM893
 	.byte 2,35,72,6
 	.asciz "_defaultAccessibilityHint"
 
-LDIFF_SYM852=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM852
+LDIFF_SYM894=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM894
 	.byte 2,35,80,6
 	.asciz "_defaultIsAccessibilityElement"
 
-LDIFF_SYM853=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM853
+LDIFF_SYM895=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM895
 	.byte 3,35,144,1,6
 	.asciz "_events"
 
-LDIFF_SYM854=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM854
+LDIFF_SYM896=LTDIE_121_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM896
 	.byte 2,35,88,6
 	.asciz "_flags"
 
-LDIFF_SYM855=LTDIE_122 - Ldebug_info_start
-	.long LDIFF_SYM855
+LDIFF_SYM897=LTDIE_128 - Ldebug_info_start
+	.long LDIFF_SYM897
 	.byte 3,35,148,1,6
 	.asciz "_packager"
 
-LDIFF_SYM856=LTDIE_123_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM856
+LDIFF_SYM898=LTDIE_129_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM898
 	.byte 2,35,96,6
 	.asciz "_tracker"
 
-LDIFF_SYM857=LTDIE_124_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM857
+LDIFF_SYM899=LTDIE_130_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM899
 	.byte 2,35,104,6
 	.asciz "_blur"
 
-LDIFF_SYM858=LTDIE_127_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM858
+LDIFF_SYM900=LTDIE_133_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM900
 	.byte 2,35,112,6
 	.asciz "_previousBlur"
 
-LDIFF_SYM859=LTDIE_128 - Ldebug_info_start
-	.long LDIFF_SYM859
+LDIFF_SYM901=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM901
 	.byte 3,35,152,1,6
 	.asciz "<Element>k__BackingField"
 
-LDIFF_SYM860=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM860
+LDIFF_SYM902=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM902
 	.byte 2,35,120,6
 	.asciz "ElementChanged"
 
-LDIFF_SYM861=LTDIE_129_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM861
+LDIFF_SYM903=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM903
 	.byte 3,35,128,1,6
 	.asciz "<TabIndex>k__BackingField"
 
-LDIFF_SYM862=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM862
+LDIFF_SYM904=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM904
 	.byte 3,35,156,1,6
 	.asciz "<TabStop>k__BackingField"
 
-LDIFF_SYM863=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM863
+LDIFF_SYM905=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM905
 	.byte 3,35,160,1,6
 	.asciz "tabCommands"
 
-LDIFF_SYM864=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM864
+LDIFF_SYM906=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM906
 	.byte 3,35,136,1,0,7
 	.asciz "Xamarin_Forms_Platform_iOS_VisualElementRenderer`1"
 
-LDIFF_SYM865=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM865
-LTDIE_113_POINTER:
+LDIFF_SYM907=LTDIE_119 - Ldebug_info_start
+	.long LDIFF_SYM907
+LTDIE_119_POINTER:
 
 	.byte 13
-LDIFF_SYM866=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM866
-LTDIE_113_REFERENCE:
+LDIFF_SYM908=LTDIE_119 - Ldebug_info_start
+	.long LDIFF_SYM908
+LTDIE_119_REFERENCE:
 
 	.byte 14
-LDIFF_SYM867=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM867
-LTDIE_112:
+LDIFF_SYM909=LTDIE_119 - Ldebug_info_start
+	.long LDIFF_SYM909
+LTDIE_136:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 112,16
+LDIFF_SYM910=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM910
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM911=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM911
+LTDIE_136_POINTER:
+
+	.byte 13
+LDIFF_SYM912=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM912
+LTDIE_136_REFERENCE:
+
+	.byte 14
+LDIFF_SYM913=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM913
+LTDIE_118:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Platform_iOS_ViewRenderer`2"
 
-	.byte 208,1,16
-LDIFF_SYM868=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM868
+	.byte 232,1,16
+LDIFF_SYM914=LTDIE_119 - Ldebug_info_start
+	.long LDIFF_SYM914
 	.byte 2,35,0,6
 	.asciz "_defaultAccessibilityLabel"
 
-LDIFF_SYM869=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM869
+LDIFF_SYM915=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM915
 	.byte 3,35,168,1,6
 	.asciz "_defaultAccessibilityHint"
 
-LDIFF_SYM870=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM870
+LDIFF_SYM916=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM916
 	.byte 3,35,176,1,6
 	.asciz "_defaultIsAccessibilityElement"
 
-LDIFF_SYM871=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM871
-	.byte 3,35,200,1,6
+LDIFF_SYM917=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM917
+	.byte 3,35,224,1,6
 	.asciz "_defaultColor"
 
-LDIFF_SYM872=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM872
+LDIFF_SYM918=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM918
 	.byte 3,35,184,1,6
+	.asciz "_elementPropertyChanged"
+
+LDIFF_SYM919=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM919
+	.byte 3,35,192,1,6
+	.asciz "_controlChanging"
+
+LDIFF_SYM920=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM920
+	.byte 3,35,200,1,6
+	.asciz "_controlChanged"
+
+LDIFF_SYM921=LTDIE_37_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM921
+	.byte 3,35,208,1,6
 	.asciz "<Control>k__BackingField"
 
-LDIFF_SYM873=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM873
-	.byte 3,35,192,1,0,7
+LDIFF_SYM922=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM922
+	.byte 3,35,216,1,0,7
 	.asciz "Xamarin_Forms_Platform_iOS_ViewRenderer`2"
 
-LDIFF_SYM874=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM874
-LTDIE_112_POINTER:
+LDIFF_SYM923=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM923
+LTDIE_118_POINTER:
 
 	.byte 13
-LDIFF_SYM875=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM875
-LTDIE_112_REFERENCE:
+LDIFF_SYM924=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM924
+LTDIE_118_REFERENCE:
 
 	.byte 14
-LDIFF_SYM876=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM876
-LTDIE_130:
+LDIFF_SYM925=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM925
+LTDIE_137:
 
 	.byte 5
 	.asciz "Syncfusion_XForms_ParallaxView_ParallaxScrollingEventArgs"
 
 	.byte 40,16
-LDIFF_SYM877=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM877
+LDIFF_SYM926=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM926
 	.byte 2,35,0,6
 	.asciz "<ScrollX>k__BackingField"
 
-LDIFF_SYM878=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM878
+LDIFF_SYM927=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM927
 	.byte 2,35,16,6
 	.asciz "<ScrollY>k__BackingField"
 
-LDIFF_SYM879=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM879
+LDIFF_SYM928=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM928
 	.byte 2,35,24,6
 	.asciz "<CanAnimate>k__BackingField"
 
-LDIFF_SYM880=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM880
+LDIFF_SYM929=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM929
 	.byte 2,35,32,0,7
 	.asciz "Syncfusion_XForms_ParallaxView_ParallaxScrollingEventArgs"
 
-LDIFF_SYM881=LTDIE_130 - Ldebug_info_start
-	.long LDIFF_SYM881
-LTDIE_130_POINTER:
+LDIFF_SYM930=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM930
+LTDIE_137_POINTER:
 
 	.byte 13
-LDIFF_SYM882=LTDIE_130 - Ldebug_info_start
-	.long LDIFF_SYM882
-LTDIE_130_REFERENCE:
+LDIFF_SYM931=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM931
+LTDIE_137_REFERENCE:
 
 	.byte 14
-LDIFF_SYM883=LTDIE_130 - Ldebug_info_start
-	.long LDIFF_SYM883
-LTDIE_111:
+LDIFF_SYM932=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM932
+LTDIE_117:
 
 	.byte 5
 	.asciz "Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer"
 
-	.byte 248,1,16
-LDIFF_SYM884=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM884
+	.byte 144,2,16
+LDIFF_SYM933=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM933
 	.byte 2,35,0,6
 	.asciz "Rotator"
 
-LDIFF_SYM885=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM885
-	.byte 3,35,208,1,6
+LDIFF_SYM934=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM934
+	.byte 3,35,232,1,6
 	.asciz "nativeRotator"
 
-LDIFF_SYM886=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM886
-	.byte 3,35,216,1,6
+LDIFF_SYM935=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM935
+	.byte 3,35,240,1,6
 	.asciz "parallaxScrollingEventArgs"
 
-LDIFF_SYM887=LTDIE_130_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM887
-	.byte 3,35,224,1,6
+LDIFF_SYM936=LTDIE_137_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM936
+	.byte 3,35,248,1,6
 	.asciz "sfRotatorMapping"
 
-LDIFF_SYM888=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM888
-	.byte 3,35,232,1,6
+LDIFF_SYM937=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM937
+	.byte 3,35,128,2,6
 	.asciz "prevalue"
 
-LDIFF_SYM889=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM889
-	.byte 3,35,240,1,0,7
+LDIFF_SYM938=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM938
+	.byte 3,35,136,2,0,7
 	.asciz "Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer"
 
-LDIFF_SYM890=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM890
-LTDIE_111_POINTER:
+LDIFF_SYM939=LTDIE_117 - Ldebug_info_start
+	.long LDIFF_SYM939
+LTDIE_117_POINTER:
 
 	.byte 13
-LDIFF_SYM891=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM891
-LTDIE_111_REFERENCE:
+LDIFF_SYM940=LTDIE_117 - Ldebug_info_start
+	.long LDIFF_SYM940
+LTDIE_117_REFERENCE:
 
 	.byte 14
-LDIFF_SYM892=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM892
+LDIFF_SYM941=LTDIE_117 - Ldebug_info_start
+	.long LDIFF_SYM941
 	.byte 2
 	.asciz "Syncfusion.SfRotator.XForms.iOS.SfRotatorRenderer:.ctor"
 	.asciz "Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer__ctor"
@@ -12542,61 +12899,61 @@ LDIFF_SYM892=LTDIE_111 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM893=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM893
+LDIFF_SYM942=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM942
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM894=Lfde8_end - Lfde8_start
-	.long LDIFF_SYM894
+LDIFF_SYM943=Lfde8_end - Lfde8_start
+	.long LDIFF_SYM943
 Lfde8_start:
 
 	.long 0
 	.align 3
 	.quad Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer__ctor
 
-LDIFF_SYM895=Lme_8 - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer__ctor
-	.long LDIFF_SYM895
+LDIFF_SYM944=Lme_8 - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer__ctor
+	.long LDIFF_SYM944
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
 	.align 3
 Lfde8_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_131:
+LTDIE_138:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Platform_iOS_ElementChangedEventArgs`1"
 
 	.byte 32,16
-LDIFF_SYM896=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM896
+LDIFF_SYM945=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM945
 	.byte 2,35,0,6
 	.asciz "<NewElement>k__BackingField"
 
-LDIFF_SYM897=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM897
+LDIFF_SYM946=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM946
 	.byte 2,35,16,6
 	.asciz "<OldElement>k__BackingField"
 
-LDIFF_SYM898=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM898
+LDIFF_SYM947=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM947
 	.byte 2,35,24,0,7
 	.asciz "Xamarin_Forms_Platform_iOS_ElementChangedEventArgs`1"
 
-LDIFF_SYM899=LTDIE_131 - Ldebug_info_start
-	.long LDIFF_SYM899
-LTDIE_131_POINTER:
+LDIFF_SYM948=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM948
+LTDIE_138_POINTER:
 
 	.byte 13
-LDIFF_SYM900=LTDIE_131 - Ldebug_info_start
-	.long LDIFF_SYM900
-LTDIE_131_REFERENCE:
+LDIFF_SYM949=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM949
+LTDIE_138_REFERENCE:
 
 	.byte 14
-LDIFF_SYM901=LTDIE_131 - Ldebug_info_start
-	.long LDIFF_SYM901
+LDIFF_SYM950=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM950
 	.byte 2
 	.asciz "Syncfusion.SfRotator.XForms.iOS.SfRotatorRenderer:OnElementChanged"
 	.asciz "Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_OnElementChanged_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Syncfusion_SfRotator_XForms_SfRotator"
@@ -12608,42 +12965,42 @@ LDIFF_SYM901=LTDIE_131 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM902=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM902
+LDIFF_SYM951=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM951
 	.byte 1,105,3
 	.asciz "e"
 
-LDIFF_SYM903=LTDIE_131_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM903
+LDIFF_SYM952=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM952
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM904=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM904
+LDIFF_SYM953=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM953
 	.byte 1,106,11
 	.asciz "V_1"
 
-LDIFF_SYM905=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM905
+LDIFF_SYM954=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM954
 	.byte 3,141,232,0,11
 	.asciz "V_2"
 
-LDIFF_SYM906=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM906
+LDIFF_SYM955=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM955
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM907=Lfde9_end - Lfde9_start
-	.long LDIFF_SYM907
+LDIFF_SYM956=Lfde9_end - Lfde9_start
+	.long LDIFF_SYM956
 Lfde9_start:
 
 	.long 0
 	.align 3
 	.quad Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_OnElementChanged_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Syncfusion_SfRotator_XForms_SfRotator
 
-LDIFF_SYM908=Lme_9 - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_OnElementChanged_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Syncfusion_SfRotator_XForms_SfRotator
-	.long LDIFF_SYM908
+LDIFF_SYM957=Lme_9 - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_OnElementChanged_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Syncfusion_SfRotator_XForms_SfRotator
+	.long LDIFF_SYM957
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,152,26,153,25,68,154,24
 	.align 3
@@ -12662,42 +13019,42 @@ Lfde9_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM909=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM909
+LDIFF_SYM958=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM958
 	.byte 1,105,3
 	.asciz "sender"
 
-LDIFF_SYM910=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM910
+LDIFF_SYM959=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM959
 	.byte 0,3
 	.asciz "e"
 
-LDIFF_SYM911=LTDIE_26_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM911
+LDIFF_SYM960=LTDIE_26_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM960
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM912=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM912
+LDIFF_SYM961=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM961
 	.byte 1,106,11
 	.asciz "V_1"
 
-LDIFF_SYM913=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM913
+LDIFF_SYM962=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM962
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM914=Lfde10_end - Lfde10_start
-	.long LDIFF_SYM914
+LDIFF_SYM963=Lfde10_end - Lfde10_start
+	.long LDIFF_SYM963
 Lfde10_start:
 
 	.long 0
 	.align 3
 	.quad Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_NativeRotator_Scrolling_object_System_EventArgs
 
-LDIFF_SYM915=Lme_a - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_NativeRotator_Scrolling_object_System_EventArgs
-	.long LDIFF_SYM915
+LDIFF_SYM964=Lme_a - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_NativeRotator_Scrolling_object_System_EventArgs
+	.long LDIFF_SYM964
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,152,16,153,15,68,154,14
 	.align 3
@@ -12716,37 +13073,37 @@ Lfde10_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM916=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM916
+LDIFF_SYM965=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM965
 	.byte 1,105,3
 	.asciz "sender"
 
-LDIFF_SYM917=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM917
+LDIFF_SYM966=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM966
 	.byte 0,3
 	.asciz "e"
 
-LDIFF_SYM918=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM918
+LDIFF_SYM967=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM967
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM919=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM919
+LDIFF_SYM968=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM968
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM920=Lfde11_end - Lfde11_start
-	.long LDIFF_SYM920
+LDIFF_SYM969=Lfde11_end - Lfde11_start
+	.long LDIFF_SYM969
 Lfde11_start:
 
 	.long 0
 	.align 3
 	.quad Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_HandleDrawThumbnailItemEventHandler_object_Syncfusion_SfRotator_iOS_RotatorViewEventArgs
 
-LDIFF_SYM921=Lme_b - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_HandleDrawThumbnailItemEventHandler_object_Syncfusion_SfRotator_iOS_RotatorViewEventArgs
-	.long LDIFF_SYM921
+LDIFF_SYM970=Lme_b - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_HandleDrawThumbnailItemEventHandler_object_Syncfusion_SfRotator_iOS_RotatorViewEventArgs
+	.long LDIFF_SYM970
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,153,14,154,13
 	.align 3
@@ -12765,114 +13122,114 @@ Lfde11_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM922=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM922
+LDIFF_SYM971=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM971
 	.byte 1,105,3
 	.asciz "sender"
 
-LDIFF_SYM923=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM923
+LDIFF_SYM972=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM972
 	.byte 0,3
 	.asciz "e"
 
-LDIFF_SYM924=LTDIE_25_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM924
+LDIFF_SYM973=LTDIE_25_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM973
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM925=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM925
+LDIFF_SYM974=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM974
 	.byte 3,141,232,0,11
 	.asciz "V_1"
 
-LDIFF_SYM926=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM926
+LDIFF_SYM975=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM975
 	.byte 3,141,200,0,11
 	.asciz "V_2"
 
-LDIFF_SYM927=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM927
+LDIFF_SYM976=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM976
 	.byte 3,141,136,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM928=Lfde12_end - Lfde12_start
-	.long LDIFF_SYM928
+LDIFF_SYM977=Lfde12_end - Lfde12_start
+	.long LDIFF_SYM977
 Lfde12_start:
 
 	.long 0
 	.align 3
 	.quad Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_HandleDrawItemEventHandler_object_Syncfusion_SfRotator_iOS_RotatorViewEventArgs
 
-LDIFF_SYM929=Lme_c - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_HandleDrawItemEventHandler_object_Syncfusion_SfRotator_iOS_RotatorViewEventArgs
-	.long LDIFF_SYM929
+LDIFF_SYM978=Lme_c - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_HandleDrawItemEventHandler_object_Syncfusion_SfRotator_iOS_RotatorViewEventArgs
+	.long LDIFF_SYM978
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,153,20,154,19
 	.align 3
 Lfde12_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_132:
+LTDIE_139:
 
 	.byte 5
 	.asciz "Syncfusion_SfRotator_iOS_SelectionChangedEventArgs"
 
 	.byte 24,16
-LDIFF_SYM930=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM930
+LDIFF_SYM979=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM979
 	.byte 2,35,0,6
 	.asciz "<Index>k__BackingField"
 
-LDIFF_SYM931=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM931
+LDIFF_SYM980=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM980
 	.byte 2,35,16,0,7
 	.asciz "Syncfusion_SfRotator_iOS_SelectionChangedEventArgs"
 
-LDIFF_SYM932=LTDIE_132 - Ldebug_info_start
-	.long LDIFF_SYM932
-LTDIE_132_POINTER:
+LDIFF_SYM981=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM981
+LTDIE_139_POINTER:
 
 	.byte 13
-LDIFF_SYM933=LTDIE_132 - Ldebug_info_start
-	.long LDIFF_SYM933
-LTDIE_132_REFERENCE:
+LDIFF_SYM982=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM982
+LTDIE_139_REFERENCE:
 
 	.byte 14
-LDIFF_SYM934=LTDIE_132 - Ldebug_info_start
-	.long LDIFF_SYM934
-LTDIE_133:
+LDIFF_SYM983=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM983
+LTDIE_140:
 
 	.byte 5
 	.asciz "Syncfusion_SfRotator_XForms_SelectedIndexChangedEventArgs"
 
 	.byte 32,16
-LDIFF_SYM935=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM935
+LDIFF_SYM984=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM984
 	.byte 2,35,0,6
 	.asciz "<Rotator>k__BackingField"
 
-LDIFF_SYM936=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM936
+LDIFF_SYM985=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM985
 	.byte 2,35,16,6
 	.asciz "<Index>k__BackingField"
 
-LDIFF_SYM937=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM937
+LDIFF_SYM986=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM986
 	.byte 2,35,24,0,7
 	.asciz "Syncfusion_SfRotator_XForms_SelectedIndexChangedEventArgs"
 
-LDIFF_SYM938=LTDIE_133 - Ldebug_info_start
-	.long LDIFF_SYM938
-LTDIE_133_POINTER:
+LDIFF_SYM987=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM987
+LTDIE_140_POINTER:
 
 	.byte 13
-LDIFF_SYM939=LTDIE_133 - Ldebug_info_start
-	.long LDIFF_SYM939
-LTDIE_133_REFERENCE:
+LDIFF_SYM988=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM988
+LTDIE_140_REFERENCE:
 
 	.byte 14
-LDIFF_SYM940=LTDIE_133 - Ldebug_info_start
-	.long LDIFF_SYM940
+LDIFF_SYM989=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM989
 	.byte 2
 	.asciz "Syncfusion.SfRotator.XForms.iOS.SfRotatorRenderer:HandleSelectionChangedEventHandler"
 	.asciz "Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_HandleSelectionChangedEventHandler_object_Syncfusion_SfRotator_iOS_SelectionChangedEventArgs"
@@ -12884,37 +13241,37 @@ LDIFF_SYM940=LTDIE_133 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM941=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM941
+LDIFF_SYM990=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM990
 	.byte 1,105,3
 	.asciz "sender"
 
-LDIFF_SYM942=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM942
+LDIFF_SYM991=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM991
 	.byte 0,3
 	.asciz "e"
 
-LDIFF_SYM943=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM943
+LDIFF_SYM992=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM992
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM944=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM944
+LDIFF_SYM993=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM993
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM945=Lfde13_end - Lfde13_start
-	.long LDIFF_SYM945
+LDIFF_SYM994=Lfde13_end - Lfde13_start
+	.long LDIFF_SYM994
 Lfde13_start:
 
 	.long 0
 	.align 3
 	.quad Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_HandleSelectionChangedEventHandler_object_Syncfusion_SfRotator_iOS_SelectionChangedEventArgs
 
-LDIFF_SYM946=Lme_d - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_HandleSelectionChangedEventHandler_object_Syncfusion_SfRotator_iOS_SelectionChangedEventArgs
-	.long LDIFF_SYM946
+LDIFF_SYM995=Lme_d - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_HandleSelectionChangedEventHandler_object_Syncfusion_SfRotator_iOS_SelectionChangedEventArgs
+	.long LDIFF_SYM995
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,68,154,10
 	.align 3
@@ -12933,66 +13290,66 @@ Lfde13_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM947=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM947
+LDIFF_SYM996=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM996
 	.byte 1,106,3
 	.asciz "sender"
 
-LDIFF_SYM948=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM948
+LDIFF_SYM997=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM997
 	.byte 0,3
 	.asciz "e"
 
-LDIFF_SYM949=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM949
+LDIFF_SYM998=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM998
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM950=Lfde14_end - Lfde14_start
-	.long LDIFF_SYM950
+LDIFF_SYM999=Lfde14_end - Lfde14_start
+	.long LDIFF_SYM999
 Lfde14_start:
 
 	.long 0
 	.align 3
 	.quad Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_SizeChanged_object_System_EventArgs
 
-LDIFF_SYM951=Lme_e - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_SizeChanged_object_System_EventArgs
-	.long LDIFF_SYM951
+LDIFF_SYM1000=Lme_e - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_SizeChanged_object_System_EventArgs
+	.long LDIFF_SYM1000
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,154,14
 	.align 3
 Lfde14_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_134:
+LTDIE_141:
 
 	.byte 5
 	.asciz "System_ComponentModel_PropertyChangedEventArgs"
 
 	.byte 24,16
-LDIFF_SYM952=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM952
+LDIFF_SYM1001=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM1001
 	.byte 2,35,0,6
 	.asciz "propertyName"
 
-LDIFF_SYM953=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM953
+LDIFF_SYM1002=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1002
 	.byte 2,35,16,0,7
 	.asciz "System_ComponentModel_PropertyChangedEventArgs"
 
-LDIFF_SYM954=LTDIE_134 - Ldebug_info_start
-	.long LDIFF_SYM954
-LTDIE_134_POINTER:
+LDIFF_SYM1003=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM1003
+LTDIE_141_POINTER:
 
 	.byte 13
-LDIFF_SYM955=LTDIE_134 - Ldebug_info_start
-	.long LDIFF_SYM955
-LTDIE_134_REFERENCE:
+LDIFF_SYM1004=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM1004
+LTDIE_141_REFERENCE:
 
 	.byte 14
-LDIFF_SYM956=LTDIE_134 - Ldebug_info_start
-	.long LDIFF_SYM956
+LDIFF_SYM1005=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM1005
 	.byte 2
 	.asciz "Syncfusion.SfRotator.XForms.iOS.SfRotatorRenderer:OnElementPropertyChanged"
 	.asciz "Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_OnElementPropertyChanged_object_System_ComponentModel_PropertyChangedEventArgs"
@@ -13004,61 +13361,61 @@ LDIFF_SYM956=LTDIE_134 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM957=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM957
-	.byte 2,141,24,3
+LDIFF_SYM1006=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1006
+	.byte 2,141,32,3
 	.asciz "sender"
 
-LDIFF_SYM958=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM958
-	.byte 2,141,32,3
+LDIFF_SYM1007=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1007
+	.byte 1,105,3
 	.asciz "e"
 
-LDIFF_SYM959=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM959
+LDIFF_SYM1008=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1008
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM960=Lfde15_end - Lfde15_start
-	.long LDIFF_SYM960
+LDIFF_SYM1009=Lfde15_end - Lfde15_start
+	.long LDIFF_SYM1009
 Lfde15_start:
 
 	.long 0
 	.align 3
 	.quad Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_OnElementPropertyChanged_object_System_ComponentModel_PropertyChangedEventArgs
 
-LDIFF_SYM961=Lme_f - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_OnElementPropertyChanged_object_System_ComponentModel_PropertyChangedEventArgs
-	.long LDIFF_SYM961
+LDIFF_SYM1010=Lme_f - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_OnElementPropertyChanged_object_System_ComponentModel_PropertyChangedEventArgs
+	.long LDIFF_SYM1010
 	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,151,4
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,151,4,68,153,3
 	.align 3
 Lfde15_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_135:
+LTDIE_142:
 
 	.byte 5
 	.asciz "System_Reflection_PropertyInfo"
 
 	.byte 16,16
-LDIFF_SYM962=LTDIE_34 - Ldebug_info_start
-	.long LDIFF_SYM962
+LDIFF_SYM1011=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM1011
 	.byte 2,35,0,0,7
 	.asciz "System_Reflection_PropertyInfo"
 
-LDIFF_SYM963=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM963
-LTDIE_135_POINTER:
+LDIFF_SYM1012=LTDIE_142 - Ldebug_info_start
+	.long LDIFF_SYM1012
+LTDIE_142_POINTER:
 
 	.byte 13
-LDIFF_SYM964=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM964
-LTDIE_135_REFERENCE:
+LDIFF_SYM1013=LTDIE_142 - Ldebug_info_start
+	.long LDIFF_SYM1013
+LTDIE_142_REFERENCE:
 
 	.byte 14
-LDIFF_SYM965=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM965
+LDIFF_SYM1014=LTDIE_142 - Ldebug_info_start
+	.long LDIFF_SYM1014
 	.byte 2
 	.asciz "Syncfusion.SfRotator.XForms.iOS.SfRotatorRenderer:GetPropertiesChanged"
 	.asciz "Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_GetPropertiesChanged_System_Type_object"
@@ -13070,47 +13427,47 @@ LDIFF_SYM965=LTDIE_135 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "type"
 
-LDIFF_SYM966=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM966
+LDIFF_SYM1015=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1015
 	.byte 1,106,3
 	.asciz "obj"
 
-LDIFF_SYM967=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM967
+LDIFF_SYM1016=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1016
 	.byte 0,11
 	.asciz "V_0"
 
-LDIFF_SYM968=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM968
+LDIFF_SYM1017=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1017
 	.byte 1,106,11
 	.asciz "V_1"
 
-LDIFF_SYM969=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM969
+LDIFF_SYM1018=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1018
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM970=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM970
+LDIFF_SYM1019=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1019
 	.byte 1,104,11
 	.asciz "V_3"
 
-LDIFF_SYM971=LTDIE_135_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM971
+LDIFF_SYM1020=LTDIE_142_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1020
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM972=Lfde16_end - Lfde16_start
-	.long LDIFF_SYM972
+LDIFF_SYM1021=Lfde16_end - Lfde16_start
+	.long LDIFF_SYM1021
 Lfde16_start:
 
 	.long 0
 	.align 3
 	.quad Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_GetPropertiesChanged_System_Type_object
 
-LDIFF_SYM973=Lme_10 - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_GetPropertiesChanged_System_Type_object
-	.long LDIFF_SYM973
+LDIFF_SYM1022=Lme_10 - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_GetPropertiesChanged_System_Type_object
+	.long LDIFF_SYM1022
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,148,10,149,9,68,150,8,151,7,68,152,6,153,5,68,154,4
 	.align 3
@@ -13129,42 +13486,42 @@ Lfde16_end:
 	.byte 2,118,16,3
 	.asciz "type"
 
-LDIFF_SYM974=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM974
+LDIFF_SYM1023=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1023
 	.byte 2,141,24,3
 	.asciz "obj"
 
-LDIFF_SYM975=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM975
+LDIFF_SYM1024=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1024
 	.byte 2,141,32,3
 	.asciz "methodName"
 
-LDIFF_SYM976=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM976
+LDIFF_SYM1025=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1025
 	.byte 1,105,3
 	.asciz "args"
 
-LDIFF_SYM977=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM977
+LDIFF_SYM1026=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1026
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM978=LTDIE_32_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM978
+LDIFF_SYM1027=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1027
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM979=Lfde17_end - Lfde17_start
-	.long LDIFF_SYM979
+LDIFF_SYM1028=Lfde17_end - Lfde17_start
+	.long LDIFF_SYM1028
 Lfde17_start:
 
 	.long 0
 	.align 3
 	.quad Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_TriggerInternalMethod_System_Type_object_string_object__
 
-LDIFF_SYM980=Lme_11 - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_TriggerInternalMethod_System_Type_object_string_object__
-	.long LDIFF_SYM980
+LDIFF_SYM1029=Lme_11 - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_TriggerInternalMethod_System_Type_object_string_object__
+	.long LDIFF_SYM1029
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4
 	.align 3
@@ -13183,47 +13540,47 @@ Lfde17_end:
 	.byte 2,118,16,3
 	.asciz "type"
 
-LDIFF_SYM981=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM981
+LDIFF_SYM1030=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1030
 	.byte 1,102,3
 	.asciz "obj"
 
-LDIFF_SYM982=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM982
+LDIFF_SYM1031=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1031
 	.byte 2,141,32,3
 	.asciz "propertyName"
 
-LDIFF_SYM983=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM983
+LDIFF_SYM1032=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1032
 	.byte 1,104,3
 	.asciz "value"
 
-LDIFF_SYM984=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM984
+LDIFF_SYM1033=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1033
 	.byte 2,141,40,3
 	.asciz "slider"
 
-LDIFF_SYM985=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM985
+LDIFF_SYM1034=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1034
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM986=LTDIE_135_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM986
+LDIFF_SYM1035=LTDIE_142_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1035
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM987=Lfde18_end - Lfde18_start
-	.long LDIFF_SYM987
+LDIFF_SYM1036=Lfde18_end - Lfde18_start
+	.long LDIFF_SYM1036
 Lfde18_start:
 
 	.long 0
 	.align 3
 	.quad Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_SetInternalProperty_System_Type_object_string_object_Syncfusion_SfRotator_XForms_SfRotator
 
-LDIFF_SYM988=Lme_12 - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_SetInternalProperty_System_Type_object_string_object_Syncfusion_SfRotator_XForms_SfRotator
-	.long LDIFF_SYM988
+LDIFF_SYM1037=Lme_12 - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_SetInternalProperty_System_Type_object_string_object_Syncfusion_SfRotator_XForms_SfRotator
+	.long LDIFF_SYM1037
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,150,6,68,152,5
 	.align 3
@@ -13242,52 +13599,52 @@ Lfde18_end:
 	.byte 2,118,16,3
 	.asciz "view"
 
-LDIFF_SYM989=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM989
+LDIFF_SYM1038=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1038
 	.byte 1,105,3
 	.asciz "size"
 
-LDIFF_SYM990=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM990
+LDIFF_SYM1039=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1039
 	.byte 2,141,48,3
 	.asciz "formsRotator"
 
-LDIFF_SYM991=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM991
+LDIFF_SYM1040=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1040
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM992=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM992
+LDIFF_SYM1041=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1041
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM993=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM993
+LDIFF_SYM1042=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1042
 	.byte 1,106,11
 	.asciz "V_2"
 
-LDIFF_SYM994=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM994
+LDIFF_SYM1043=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1043
 	.byte 3,141,128,2,11
 	.asciz "V_3"
 
-LDIFF_SYM995=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM995
+LDIFF_SYM1044=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1044
 	.byte 3,141,240,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM996=Lfde19_end - Lfde19_start
-	.long LDIFF_SYM996
+LDIFF_SYM1045=Lfde19_end - Lfde19_start
+	.long LDIFF_SYM1045
 Lfde19_start:
 
 	.long 0
 	.align 3
 	.quad Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_ConvertFormsToNative_Xamarin_Forms_View_CoreGraphics_CGRect_Syncfusion_SfRotator_XForms_SfRotator
 
-LDIFF_SYM997=Lme_13 - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_ConvertFormsToNative_Xamarin_Forms_View_CoreGraphics_CGRect_Syncfusion_SfRotator_XForms_SfRotator
-	.long LDIFF_SYM997
+LDIFF_SYM1046=Lme_13 - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_ConvertFormsToNative_Xamarin_Forms_View_CoreGraphics_CGRect_Syncfusion_SfRotator_XForms_SfRotator
+	.long LDIFF_SYM1046
 	.long 0
 	.byte 12,31,0,68,14,192,2,157,40,158,39,68,13,29,68,151,38,152,37,68,153,36,154,35
 	.align 3
@@ -13307,16 +13664,16 @@ Lfde19_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM998=Lfde20_end - Lfde20_start
-	.long LDIFF_SYM998
+LDIFF_SYM1047=Lfde20_end - Lfde20_start
+	.long LDIFF_SYM1047
 Lfde20_start:
 
 	.long 0
 	.align 3
 	.quad Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_get_RendererProperty
 
-LDIFF_SYM999=Lme_14 - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_get_RendererProperty
-	.long LDIFF_SYM999
+LDIFF_SYM1048=Lme_14 - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_get_RendererProperty
+	.long LDIFF_SYM1048
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
 	.align 3
@@ -13336,16 +13693,16 @@ Lfde20_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1000=Lfde21_end - Lfde21_start
-	.long LDIFF_SYM1000
+LDIFF_SYM1049=Lfde21_end - Lfde21_start
+	.long LDIFF_SYM1049
 Lfde21_start:
 
 	.long 0
 	.align 3
 	.quad Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_get_IsPlatformEnabledProperty
 
-LDIFF_SYM1001=Lme_15 - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_get_IsPlatformEnabledProperty
-	.long LDIFF_SYM1001
+LDIFF_SYM1050=Lme_15 - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_get_IsPlatformEnabledProperty
+	.long LDIFF_SYM1050
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
 	.align 3
@@ -13365,16 +13722,16 @@ Lfde21_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1002=Lfde22_end - Lfde22_start
-	.long LDIFF_SYM1002
+LDIFF_SYM1051=Lfde22_end - Lfde22_start
+	.long LDIFF_SYM1051
 Lfde22_start:
 
 	.long 0
 	.align 3
 	.quad Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_get_PlatformProperty
 
-LDIFF_SYM1003=Lme_16 - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_get_PlatformProperty
-	.long LDIFF_SYM1003
+LDIFF_SYM1052=Lme_16 - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_get_PlatformProperty
+	.long LDIFF_SYM1052
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
 	.align 3
@@ -13393,110 +13750,110 @@ Lfde22_end:
 	.byte 2,118,16,3
 	.asciz "source"
 
-LDIFF_SYM1004=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1004
+LDIFF_SYM1053=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1053
 	.byte 1,105,3
 	.asciz "valid"
 
-LDIFF_SYM1005=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1005
+LDIFF_SYM1054=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1054
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1006=LTDIE_120_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1006
+LDIFF_SYM1055=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1055
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1007=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1007
+LDIFF_SYM1056=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1056
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1008=Lfde23_end - Lfde23_start
-	.long LDIFF_SYM1008
+LDIFF_SYM1057=Lfde23_end - Lfde23_start
+	.long LDIFF_SYM1057
 Lfde23_start:
 
 	.long 0
 	.align 3
 	.quad Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_Convert_Xamarin_Forms_View_Xamarin_Forms_VisualElement
 
-LDIFF_SYM1009=Lme_17 - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_Convert_Xamarin_Forms_View_Xamarin_Forms_VisualElement
-	.long LDIFF_SYM1009
+LDIFF_SYM1058=Lme_17 - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_Convert_Xamarin_Forms_View_Xamarin_Forms_VisualElement
+	.long LDIFF_SYM1058
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,151,6,152,5,68,153,4,154,3
 	.align 3
 Lfde23_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_138:
+LTDIE_145:
 
 	.byte 5
 	.asciz "System_Func`1"
 
 	.byte 112,16
-LDIFF_SYM1010=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM1010
+LDIFF_SYM1059=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM1059
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM1011=LTDIE_138 - Ldebug_info_start
-	.long LDIFF_SYM1011
-LTDIE_138_POINTER:
+LDIFF_SYM1060=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM1060
+LTDIE_145_POINTER:
 
 	.byte 13
-LDIFF_SYM1012=LTDIE_138 - Ldebug_info_start
-	.long LDIFF_SYM1012
-LTDIE_138_REFERENCE:
+LDIFF_SYM1061=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM1061
+LTDIE_145_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1013=LTDIE_138 - Ldebug_info_start
-	.long LDIFF_SYM1013
-LTDIE_137:
+LDIFF_SYM1062=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM1062
+LTDIE_144:
 
 	.byte 5
 	.asciz "Xamarin_Forms_ElementTemplate"
 
 	.byte 48,16
-LDIFF_SYM1014=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1014
+LDIFF_SYM1063=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1063
 	.byte 2,35,0,6
 	.asciz "_changeHandlers"
 
-LDIFF_SYM1015=LTDIE_50_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1015
+LDIFF_SYM1064=LTDIE_54_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1064
 	.byte 2,35,16,6
 	.asciz "_parent"
 
-LDIFF_SYM1016=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1016
+LDIFF_SYM1065=LTDIE_45_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1065
 	.byte 2,35,24,6
 	.asciz "_canRecycle"
 
-LDIFF_SYM1017=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1017
+LDIFF_SYM1066=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1066
 	.byte 2,35,40,6
 	.asciz "<LoadTemplate>k__BackingField"
 
-LDIFF_SYM1018=LTDIE_138_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1018
+LDIFF_SYM1067=LTDIE_145_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1067
 	.byte 2,35,32,0,7
 	.asciz "Xamarin_Forms_ElementTemplate"
 
-LDIFF_SYM1019=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM1019
-LTDIE_137_POINTER:
+LDIFF_SYM1068=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM1068
+LTDIE_144_POINTER:
 
 	.byte 13
-LDIFF_SYM1020=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM1020
-LTDIE_137_REFERENCE:
+LDIFF_SYM1069=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM1069
+LTDIE_144_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1021=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM1021
-LTDIE_139:
+LDIFF_SYM1070=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM1070
+LTDIE_146:
 
 	.byte 17
 	.asciz "System_Collections_Generic_IDictionary`2"
@@ -13504,19 +13861,19 @@ LTDIE_139:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IDictionary`2"
 
-LDIFF_SYM1022=LTDIE_139 - Ldebug_info_start
-	.long LDIFF_SYM1022
-LTDIE_139_POINTER:
+LDIFF_SYM1071=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM1071
+LTDIE_146_POINTER:
 
 	.byte 13
-LDIFF_SYM1023=LTDIE_139 - Ldebug_info_start
-	.long LDIFF_SYM1023
-LTDIE_139_REFERENCE:
+LDIFF_SYM1072=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM1072
+LTDIE_146_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1024=LTDIE_139 - Ldebug_info_start
-	.long LDIFF_SYM1024
-LTDIE_140:
+LDIFF_SYM1073=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM1073
+LTDIE_147:
 
 	.byte 17
 	.asciz "System_Collections_Generic_IDictionary`2"
@@ -13524,51 +13881,61 @@ LTDIE_140:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IDictionary`2"
 
-LDIFF_SYM1025=LTDIE_140 - Ldebug_info_start
-	.long LDIFF_SYM1025
-LTDIE_140_POINTER:
+LDIFF_SYM1074=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM1074
+LTDIE_147_POINTER:
 
 	.byte 13
-LDIFF_SYM1026=LTDIE_140 - Ldebug_info_start
-	.long LDIFF_SYM1026
-LTDIE_140_REFERENCE:
+LDIFF_SYM1075=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM1075
+LTDIE_147_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1027=LTDIE_140 - Ldebug_info_start
-	.long LDIFF_SYM1027
-LTDIE_136:
+LDIFF_SYM1076=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM1076
+LTDIE_143:
 
 	.byte 5
 	.asciz "Xamarin_Forms_DataTemplate"
 
-	.byte 64,16
-LDIFF_SYM1028=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM1028
+	.byte 80,16
+LDIFF_SYM1077=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM1077
 	.byte 2,35,0,6
+	.asciz "_id"
+
+LDIFF_SYM1078=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1078
+	.byte 2,35,72,6
+	.asciz "_idString"
+
+LDIFF_SYM1079=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1079
+	.byte 2,35,48,6
 	.asciz "<Bindings>k__BackingField"
 
-LDIFF_SYM1029=LTDIE_139_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1029
-	.byte 2,35,48,6
+LDIFF_SYM1080=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1080
+	.byte 2,35,56,6
 	.asciz "<Values>k__BackingField"
 
-LDIFF_SYM1030=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1030
-	.byte 2,35,56,0,7
+LDIFF_SYM1081=LTDIE_147_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1081
+	.byte 2,35,64,0,7
 	.asciz "Xamarin_Forms_DataTemplate"
 
-LDIFF_SYM1031=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM1031
-LTDIE_136_POINTER:
+LDIFF_SYM1082=LTDIE_143 - Ldebug_info_start
+	.long LDIFF_SYM1082
+LTDIE_143_POINTER:
 
 	.byte 13
-LDIFF_SYM1032=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM1032
-LTDIE_136_REFERENCE:
+LDIFF_SYM1083=LTDIE_143 - Ldebug_info_start
+	.long LDIFF_SYM1083
+LTDIE_143_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1033=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM1033
+LDIFF_SYM1084=LTDIE_143 - Ldebug_info_start
+	.long LDIFF_SYM1084
 	.byte 2
 	.asciz "Syncfusion.SfRotator.XForms.iOS.SfRotatorRenderer:ConvertFormsTemplateToNative"
 	.asciz "Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_ConvertFormsTemplateToNative_Xamarin_Forms_DataTemplate_System_nint_CoreGraphics_CGRect_Syncfusion_SfRotator_XForms_SfRotator"
@@ -13580,47 +13947,47 @@ LDIFF_SYM1033=LTDIE_136 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1034=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1034
+LDIFF_SYM1085=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1085
 	.byte 0,3
 	.asciz "view"
 
-LDIFF_SYM1035=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1035
+LDIFF_SYM1086=LTDIE_143_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1086
 	.byte 1,104,3
 	.asciz "index"
 
-LDIFF_SYM1036=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1036
+LDIFF_SYM1087=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1087
 	.byte 2,141,48,3
 	.asciz "size"
 
-LDIFF_SYM1037=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1037
+LDIFF_SYM1088=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1088
 	.byte 2,141,56,3
 	.asciz "_rotator"
 
-LDIFF_SYM1038=LTDIE_41_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1038
+LDIFF_SYM1089=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1089
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1039=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1039
+LDIFF_SYM1090=LTDIE_42_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1090
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1040=Lfde24_end - Lfde24_start
-	.long LDIFF_SYM1040
+LDIFF_SYM1091=Lfde24_end - Lfde24_start
+	.long LDIFF_SYM1091
 Lfde24_start:
 
 	.long 0
 	.align 3
 	.quad Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_ConvertFormsTemplateToNative_Xamarin_Forms_DataTemplate_System_nint_CoreGraphics_CGRect_Syncfusion_SfRotator_XForms_SfRotator
 
-LDIFF_SYM1041=Lme_18 - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_ConvertFormsTemplateToNative_Xamarin_Forms_DataTemplate_System_nint_CoreGraphics_CGRect_Syncfusion_SfRotator_XForms_SfRotator
-	.long LDIFF_SYM1041
+LDIFF_SYM1092=Lme_18 - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_ConvertFormsTemplateToNative_Xamarin_Forms_DataTemplate_System_nint_CoreGraphics_CGRect_Syncfusion_SfRotator_XForms_SfRotator
+	.long LDIFF_SYM1092
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14,152,13,68,154,12
 	.align 3
@@ -13640,16 +14007,16 @@ Lfde24_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1042=Lfde25_end - Lfde25_start
-	.long LDIFF_SYM1042
+LDIFF_SYM1093=Lfde25_end - Lfde25_start
+	.long LDIFF_SYM1093
 Lfde25_start:
 
 	.long 0
 	.align 3
 	.quad Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_Init
 
-LDIFF_SYM1043=Lme_19 - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_Init
-	.long LDIFF_SYM1043
+LDIFF_SYM1094=Lme_19 - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_Init
+	.long LDIFF_SYM1094
 	.long 0
 	.byte 12,31,0,68,14,16,157,2,158,1,68,13,29
 	.align 3
@@ -13668,27 +14035,27 @@ Lfde25_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1044=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1044
+LDIFF_SYM1095=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1095
 	.byte 1,105,3
 	.asciz "disposing"
 
-LDIFF_SYM1045=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1045
+LDIFF_SYM1096=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1096
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1046=Lfde26_end - Lfde26_start
-	.long LDIFF_SYM1046
+LDIFF_SYM1097=Lfde26_end - Lfde26_start
+	.long LDIFF_SYM1097
 Lfde26_start:
 
 	.long 0
 	.align 3
 	.quad Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_Dispose_bool
 
-LDIFF_SYM1047=Lme_1a - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_Dispose_bool
-	.long LDIFF_SYM1047
+LDIFF_SYM1098=Lme_1a - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer_Dispose_bool
+	.long LDIFF_SYM1098
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
 	.align 3
@@ -13708,91 +14075,182 @@ Lfde26_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1048=Lfde27_end - Lfde27_start
-	.long LDIFF_SYM1048
+LDIFF_SYM1099=Lfde27_end - Lfde27_start
+	.long LDIFF_SYM1099
 Lfde27_start:
 
 	.long 0
 	.align 3
 	.quad Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer__cctor
 
-LDIFF_SYM1049=Lme_1b - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer__cctor
-	.long LDIFF_SYM1049
+LDIFF_SYM1100=Lme_1b - Syncfusion_SfRotator_XForms_iOS_SfRotatorRenderer__cctor
+	.long LDIFF_SYM1100
 	.long 0
 	.byte 12,31,0,68,14,16,157,2,158,1,68,13,29
 	.align 3
 Lfde27_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_141:
+LTDIE_148:
+
+	.byte 5
+	.asciz "System_Array"
+
+	.byte 16,16
+LDIFF_SYM1101=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM1101
+	.byte 2,35,0,0,7
+	.asciz "System_Array"
+
+LDIFF_SYM1102=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM1102
+LTDIE_148_POINTER:
+
+	.byte 13
+LDIFF_SYM1103=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM1103
+LTDIE_148_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1104=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM1104
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.EventHandler`1<System.ComponentModel.PropertyChangedEventArgs>:invoke_void_object_TEventArgs"
+	.asciz "wrapper_delegate_invoke_System_EventHandler_1_System_ComponentModel_PropertyChangedEventArgs_invoke_void_object_TEventArgs_object_System_ComponentModel_PropertyChangedEventArgs"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_EventHandler_1_System_ComponentModel_PropertyChangedEventArgs_invoke_void_object_TEventArgs_object_System_ComponentModel_PropertyChangedEventArgs
+	.quad Lme_1d
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1105=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1105
+	.byte 1,104,3
+	.asciz "param0"
+
+LDIFF_SYM1106=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1106
+	.byte 1,105,3
+	.asciz "param1"
+
+LDIFF_SYM1107=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1107
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1108=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1108
+	.byte 1,102,11
+	.asciz "V_1"
+
+LDIFF_SYM1109=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1109
+	.byte 1,104,11
+	.asciz "V_2"
+
+LDIFF_SYM1110=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1110
+	.byte 1,103,11
+	.asciz "V_3"
+
+LDIFF_SYM1111=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1111
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM1112=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1112
+	.byte 1,103,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1113=Lfde28_end - Lfde28_start
+	.long LDIFF_SYM1113
+Lfde28_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_EventHandler_1_System_ComponentModel_PropertyChangedEventArgs_invoke_void_object_TEventArgs_object_System_ComponentModel_PropertyChangedEventArgs
+
+LDIFF_SYM1114=Lme_1d - wrapper_delegate_invoke_System_EventHandler_1_System_ComponentModel_PropertyChangedEventArgs_invoke_void_object_TEventArgs_object_System_ComponentModel_PropertyChangedEventArgs
+	.long LDIFF_SYM1114
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
+	.align 3
+Lfde28_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_149:
 
 	.byte 5
 	.asciz "System_Nullable`1"
 
 	.byte 18,16
-LDIFF_SYM1050=LTDIE_13 - Ldebug_info_start
-	.long LDIFF_SYM1050
+LDIFF_SYM1115=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM1115
 	.byte 2,35,0,6
 	.asciz "value"
 
-LDIFF_SYM1051=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1051
+LDIFF_SYM1116=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1116
 	.byte 2,35,16,6
 	.asciz "has_value"
 
-LDIFF_SYM1052=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1052
+LDIFF_SYM1117=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1117
 	.byte 2,35,17,0,7
 	.asciz "System_Nullable`1"
 
-LDIFF_SYM1053=LTDIE_141 - Ldebug_info_start
-	.long LDIFF_SYM1053
-LTDIE_141_POINTER:
+LDIFF_SYM1118=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM1118
+LTDIE_149_POINTER:
 
 	.byte 13
-LDIFF_SYM1054=LTDIE_141 - Ldebug_info_start
-	.long LDIFF_SYM1054
-LTDIE_141_REFERENCE:
+LDIFF_SYM1119=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM1119
+LTDIE_149_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1055=LTDIE_141 - Ldebug_info_start
-	.long LDIFF_SYM1055
+LDIFF_SYM1120=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM1120
 	.byte 2
 	.asciz "System.Nullable`1<bool>:.ctor"
 	.asciz "System_Nullable_1_bool__ctor_bool"
 
 	.byte 1,94
 	.quad System_Nullable_1_bool__ctor_bool
-	.quad Lme_1d
+	.quad Lme_1e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1056=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1056
+LDIFF_SYM1121=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1121
 	.byte 2,141,16,3
 	.asciz "value"
 
-LDIFF_SYM1057=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1057
+LDIFF_SYM1122=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1122
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1058=Lfde28_end - Lfde28_start
-	.long LDIFF_SYM1058
-Lfde28_start:
+LDIFF_SYM1123=Lfde29_end - Lfde29_start
+	.long LDIFF_SYM1123
+Lfde29_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool__ctor_bool
 
-LDIFF_SYM1059=Lme_1d - System_Nullable_1_bool__ctor_bool
-	.long LDIFF_SYM1059
+LDIFF_SYM1124=Lme_1e - System_Nullable_1_bool__ctor_bool
+	.long LDIFF_SYM1124
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde28_end:
+Lfde29_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13802,31 +14260,31 @@ Lfde28_end:
 
 	.byte 1,99
 	.quad System_Nullable_1_bool_get_HasValue
-	.quad Lme_1e
+	.quad Lme_1f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1060=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1060
+LDIFF_SYM1125=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1125
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1061=Lfde29_end - Lfde29_start
-	.long LDIFF_SYM1061
-Lfde29_start:
+LDIFF_SYM1126=Lfde30_end - Lfde30_start
+	.long LDIFF_SYM1126
+Lfde30_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_get_HasValue
 
-LDIFF_SYM1062=Lme_1e - System_Nullable_1_bool_get_HasValue
-	.long LDIFF_SYM1062
+LDIFF_SYM1127=Lme_1f - System_Nullable_1_bool_get_HasValue
+	.long LDIFF_SYM1127
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde29_end:
+Lfde30_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13836,31 +14294,31 @@ Lfde29_end:
 
 	.byte 1,104
 	.quad System_Nullable_1_bool_get_Value
-	.quad Lme_1f
+	.quad Lme_20
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1063=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1063
+LDIFF_SYM1128=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1128
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1064=Lfde30_end - Lfde30_start
-	.long LDIFF_SYM1064
-Lfde30_start:
+LDIFF_SYM1129=Lfde31_end - Lfde31_start
+	.long LDIFF_SYM1129
+Lfde31_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_get_Value
 
-LDIFF_SYM1065=Lme_1f - System_Nullable_1_bool_get_Value
-	.long LDIFF_SYM1065
+LDIFF_SYM1130=Lme_20 - System_Nullable_1_bool_get_Value
+	.long LDIFF_SYM1130
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde30_end:
+Lfde31_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13870,36 +14328,36 @@ Lfde30_end:
 
 	.byte 1,113
 	.quad System_Nullable_1_bool_Equals_object
-	.quad Lme_20
+	.quad Lme_21
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1066=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1066
+LDIFF_SYM1131=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1131
 	.byte 2,141,32,3
 	.asciz "other"
 
-LDIFF_SYM1067=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1067
+LDIFF_SYM1132=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1132
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1068=Lfde31_end - Lfde31_start
-	.long LDIFF_SYM1068
-Lfde31_start:
+LDIFF_SYM1133=Lfde32_end - Lfde32_start
+	.long LDIFF_SYM1133
+Lfde32_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_Equals_object
 
-LDIFF_SYM1069=Lme_20 - System_Nullable_1_bool_Equals_object
-	.long LDIFF_SYM1069
+LDIFF_SYM1134=Lme_21 - System_Nullable_1_bool_Equals_object
+	.long LDIFF_SYM1134
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,68,154,5
 	.align 3
-Lfde31_end:
+Lfde32_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13909,36 +14367,36 @@ Lfde31_end:
 
 	.byte 1,123
 	.quad System_Nullable_1_bool_Equals_System_Nullable_1_bool
-	.quad Lme_21
+	.quad Lme_22
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1070=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1070
+LDIFF_SYM1135=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1135
 	.byte 2,141,16,3
 	.asciz "other"
 
-LDIFF_SYM1071=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1071
+LDIFF_SYM1136=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1136
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1072=Lfde32_end - Lfde32_start
-	.long LDIFF_SYM1072
-Lfde32_start:
+LDIFF_SYM1137=Lfde33_end - Lfde33_start
+	.long LDIFF_SYM1137
+Lfde33_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_Equals_System_Nullable_1_bool
 
-LDIFF_SYM1073=Lme_21 - System_Nullable_1_bool_Equals_System_Nullable_1_bool
-	.long LDIFF_SYM1073
+LDIFF_SYM1138=Lme_22 - System_Nullable_1_bool_Equals_System_Nullable_1_bool
+	.long LDIFF_SYM1138
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde32_end:
+Lfde33_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13948,31 +14406,31 @@ Lfde32_end:
 
 	.byte 1,134,1
 	.quad System_Nullable_1_bool_GetHashCode
-	.quad Lme_22
+	.quad Lme_23
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1074=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1074
+LDIFF_SYM1139=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1139
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1075=Lfde33_end - Lfde33_start
-	.long LDIFF_SYM1075
-Lfde33_start:
+LDIFF_SYM1140=Lfde34_end - Lfde34_start
+	.long LDIFF_SYM1140
+Lfde34_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_GetHashCode
 
-LDIFF_SYM1076=Lme_22 - System_Nullable_1_bool_GetHashCode
-	.long LDIFF_SYM1076
+LDIFF_SYM1141=Lme_23 - System_Nullable_1_bool_GetHashCode
+	.long LDIFF_SYM1141
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
 	.align 3
-Lfde33_end:
+Lfde34_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13982,31 +14440,31 @@ Lfde33_end:
 
 	.byte 1,142,1
 	.quad System_Nullable_1_bool_GetValueOrDefault
-	.quad Lme_23
+	.quad Lme_24
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1077=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1077
+LDIFF_SYM1142=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1142
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1078=Lfde34_end - Lfde34_start
-	.long LDIFF_SYM1078
-Lfde34_start:
+LDIFF_SYM1143=Lfde35_end - Lfde35_start
+	.long LDIFF_SYM1143
+Lfde35_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_GetValueOrDefault
 
-LDIFF_SYM1079=Lme_23 - System_Nullable_1_bool_GetValueOrDefault
-	.long LDIFF_SYM1079
+LDIFF_SYM1144=Lme_24 - System_Nullable_1_bool_GetValueOrDefault
+	.long LDIFF_SYM1144
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde34_end:
+Lfde35_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14016,36 +14474,36 @@ Lfde34_end:
 
 	.byte 1,147,1
 	.quad System_Nullable_1_bool_GetValueOrDefault_bool
-	.quad Lme_24
+	.quad Lme_25
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1080=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1080
+LDIFF_SYM1145=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1145
 	.byte 2,141,16,3
 	.asciz "defaultValue"
 
-LDIFF_SYM1081=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1081
+LDIFF_SYM1146=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1146
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1082=Lfde35_end - Lfde35_start
-	.long LDIFF_SYM1082
-Lfde35_start:
+LDIFF_SYM1147=Lfde36_end - Lfde36_start
+	.long LDIFF_SYM1147
+Lfde36_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_GetValueOrDefault_bool
 
-LDIFF_SYM1083=Lme_24 - System_Nullable_1_bool_GetValueOrDefault_bool
-	.long LDIFF_SYM1083
+LDIFF_SYM1148=Lme_25 - System_Nullable_1_bool_GetValueOrDefault_bool
+	.long LDIFF_SYM1148
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde35_end:
+Lfde36_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14055,31 +14513,31 @@ Lfde35_end:
 
 	.byte 1,152,1
 	.quad System_Nullable_1_bool_ToString
-	.quad Lme_25
+	.quad Lme_26
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1084=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1084
+LDIFF_SYM1149=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1149
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1085=Lfde36_end - Lfde36_start
-	.long LDIFF_SYM1085
-Lfde36_start:
+LDIFF_SYM1150=Lfde37_end - Lfde37_start
+	.long LDIFF_SYM1150
+Lfde37_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_ToString
 
-LDIFF_SYM1086=Lme_25 - System_Nullable_1_bool_ToString
-	.long LDIFF_SYM1086
+LDIFF_SYM1151=Lme_26 - System_Nullable_1_bool_ToString
+	.long LDIFF_SYM1151
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29,68,154,2
 	.align 3
-Lfde36_end:
+Lfde37_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14089,31 +14547,31 @@ Lfde36_end:
 
 	.byte 1,177,1
 	.quad System_Nullable_1_bool_Box_System_Nullable_1_bool
-	.quad Lme_26
+	.quad Lme_27
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM1087=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1087
+LDIFF_SYM1152=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1152
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1088=Lfde37_end - Lfde37_start
-	.long LDIFF_SYM1088
-Lfde37_start:
+LDIFF_SYM1153=Lfde38_end - Lfde38_start
+	.long LDIFF_SYM1153
+Lfde38_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_Box_System_Nullable_1_bool
 
-LDIFF_SYM1089=Lme_26 - System_Nullable_1_bool_Box_System_Nullable_1_bool
-	.long LDIFF_SYM1089
+LDIFF_SYM1154=Lme_27 - System_Nullable_1_bool_Box_System_Nullable_1_bool
+	.long LDIFF_SYM1154
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde37_end:
+Lfde38_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14123,36 +14581,36 @@ Lfde37_end:
 
 	.byte 1,185,1
 	.quad System_Nullable_1_bool_Unbox_object
-	.quad Lme_27
+	.quad Lme_28
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM1090=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1090
+LDIFF_SYM1155=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1155
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM1091=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1091
+LDIFF_SYM1156=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1156
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1092=Lfde38_end - Lfde38_start
-	.long LDIFF_SYM1092
-Lfde38_start:
+LDIFF_SYM1157=Lfde39_end - Lfde39_start
+	.long LDIFF_SYM1157
+Lfde39_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_Unbox_object
 
-LDIFF_SYM1093=Lme_27 - System_Nullable_1_bool_Unbox_object
-	.long LDIFF_SYM1093
+LDIFF_SYM1158=Lme_28 - System_Nullable_1_bool_Unbox_object
+	.long LDIFF_SYM1158
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde38_end:
+Lfde39_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14162,206 +14620,183 @@ Lfde38_end:
 
 	.byte 1,192,1
 	.quad System_Nullable_1_bool_UnboxExact_object
-	.quad Lme_28
+	.quad Lme_29
 
 	.byte 2,118,16,3
 	.asciz "o"
 
-LDIFF_SYM1094=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1094
+LDIFF_SYM1159=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1159
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1095=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1095
+LDIFF_SYM1160=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1160
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1096=Lfde39_end - Lfde39_start
-	.long LDIFF_SYM1096
-Lfde39_start:
+LDIFF_SYM1161=Lfde40_end - Lfde40_start
+	.long LDIFF_SYM1161
+Lfde40_start:
 
 	.long 0
 	.align 3
 	.quad System_Nullable_1_bool_UnboxExact_object
 
-LDIFF_SYM1097=Lme_28 - System_Nullable_1_bool_UnboxExact_object
-	.long LDIFF_SYM1097
+LDIFF_SYM1162=Lme_29 - System_Nullable_1_bool_UnboxExact_object
+	.long LDIFF_SYM1162
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde39_end:
+Lfde40_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_142:
+LTDIE_150:
 
 	.byte 5
 	.asciz "System_EventHandler`1"
 
 	.byte 112,16
-LDIFF_SYM1098=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM1098
+LDIFF_SYM1163=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM1163
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM1099=LTDIE_142 - Ldebug_info_start
-	.long LDIFF_SYM1099
-LTDIE_142_POINTER:
+LDIFF_SYM1164=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM1164
+LTDIE_150_POINTER:
 
 	.byte 13
-LDIFF_SYM1100=LTDIE_142 - Ldebug_info_start
-	.long LDIFF_SYM1100
-LTDIE_142_REFERENCE:
+LDIFF_SYM1165=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM1165
+LTDIE_150_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1101=LTDIE_142 - Ldebug_info_start
-	.long LDIFF_SYM1101
-LTDIE_144:
+LDIFF_SYM1166=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM1166
+LTDIE_152:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Platform_iOS_ElementChangedEventArgs`1"
 
 	.byte 32,16
-LDIFF_SYM1102=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM1102
+LDIFF_SYM1167=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM1167
 	.byte 2,35,0,6
 	.asciz "<NewElement>k__BackingField"
 
-LDIFF_SYM1103=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1103
+LDIFF_SYM1168=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1168
 	.byte 2,35,16,6
 	.asciz "<OldElement>k__BackingField"
 
-LDIFF_SYM1104=LTDIE_43_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1104
+LDIFF_SYM1169=LTDIE_43_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1169
 	.byte 2,35,24,0,7
 	.asciz "Xamarin_Forms_Platform_iOS_ElementChangedEventArgs`1"
 
-LDIFF_SYM1105=LTDIE_144 - Ldebug_info_start
-	.long LDIFF_SYM1105
-LTDIE_144_POINTER:
+LDIFF_SYM1170=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM1170
+LTDIE_152_POINTER:
 
 	.byte 13
-LDIFF_SYM1106=LTDIE_144 - Ldebug_info_start
-	.long LDIFF_SYM1106
-LTDIE_144_REFERENCE:
+LDIFF_SYM1171=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM1171
+LTDIE_152_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1107=LTDIE_144 - Ldebug_info_start
-	.long LDIFF_SYM1107
-LTDIE_143:
+LDIFF_SYM1172=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM1172
+LTDIE_151:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs"
 
 	.byte 32,16
-LDIFF_SYM1108=LTDIE_144 - Ldebug_info_start
-	.long LDIFF_SYM1108
+LDIFF_SYM1173=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM1173
 	.byte 2,35,0,0,7
 	.asciz "Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs"
 
-LDIFF_SYM1109=LTDIE_143 - Ldebug_info_start
-	.long LDIFF_SYM1109
-LTDIE_143_POINTER:
+LDIFF_SYM1174=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM1174
+LTDIE_151_POINTER:
 
 	.byte 13
-LDIFF_SYM1110=LTDIE_143 - Ldebug_info_start
-	.long LDIFF_SYM1110
-LTDIE_143_REFERENCE:
+LDIFF_SYM1175=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM1175
+LTDIE_151_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1111=LTDIE_143 - Ldebug_info_start
-	.long LDIFF_SYM1111
-LTDIE_145:
-
-	.byte 5
-	.asciz "System_Array"
-
-	.byte 16,16
-LDIFF_SYM1112=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM1112
-	.byte 2,35,0,0,7
-	.asciz "System_Array"
-
-LDIFF_SYM1113=LTDIE_145 - Ldebug_info_start
-	.long LDIFF_SYM1113
-LTDIE_145_POINTER:
-
-	.byte 13
-LDIFF_SYM1114=LTDIE_145 - Ldebug_info_start
-	.long LDIFF_SYM1114
-LTDIE_145_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1115=LTDIE_145 - Ldebug_info_start
-	.long LDIFF_SYM1115
+LDIFF_SYM1176=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM1176
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.EventHandler`1<Xamarin.Forms.Platform.iOS.VisualElementChangedEventArgs>:invoke_void_object_TEventArgs"
 	.asciz "wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
-	.quad Lme_29
+	.quad Lme_2a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1116=LTDIE_142_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1116
+LDIFF_SYM1177=LTDIE_150_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1177
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1117=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1117
+LDIFF_SYM1178=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1178
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1118=LTDIE_143_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1118
+LDIFF_SYM1179=LTDIE_151_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1179
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1119=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1119
+LDIFF_SYM1180=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1180
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM1120=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1120
+LDIFF_SYM1181=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1181
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1121=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1121
+LDIFF_SYM1182=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1182
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM1122=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1122
+LDIFF_SYM1183=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1183
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1123=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1123
+LDIFF_SYM1184=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1184
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1124=Lfde40_end - Lfde40_start
-	.long LDIFF_SYM1124
-Lfde40_start:
+LDIFF_SYM1185=Lfde41_end - Lfde41_start
+	.long LDIFF_SYM1185
+Lfde41_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
 
-LDIFF_SYM1125=Lme_29 - wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
-	.long LDIFF_SYM1125
+LDIFF_SYM1186=Lme_2a - wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
+	.long LDIFF_SYM1186
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
 	.align 3
-Lfde40_end:
+Lfde41_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14371,66 +14806,66 @@ Lfde40_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Syncfusion_SfRotator_XForms_SfRotator_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Syncfusion_SfRotator_XForms_SfRotator
-	.quad Lme_2a
+	.quad Lme_2b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1126=LTDIE_129_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1126
+LDIFF_SYM1187=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1187
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1127=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1127
+LDIFF_SYM1188=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1188
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1128=LTDIE_131_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1128
+LDIFF_SYM1189=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1189
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1129=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1129
+LDIFF_SYM1190=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1190
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM1130=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1130
+LDIFF_SYM1191=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1191
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1131=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1131
+LDIFF_SYM1192=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1192
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM1132=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1132
+LDIFF_SYM1193=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1193
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1133=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1133
+LDIFF_SYM1194=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1194
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1134=Lfde41_end - Lfde41_start
-	.long LDIFF_SYM1134
-Lfde41_start:
+LDIFF_SYM1195=Lfde42_end - Lfde42_start
+	.long LDIFF_SYM1195
+Lfde42_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Syncfusion_SfRotator_XForms_SfRotator_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Syncfusion_SfRotator_XForms_SfRotator
 
-LDIFF_SYM1135=Lme_2a - wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Syncfusion_SfRotator_XForms_SfRotator_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Syncfusion_SfRotator_XForms_SfRotator
-	.long LDIFF_SYM1135
+LDIFF_SYM1196=Lme_2b - wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Syncfusion_SfRotator_XForms_SfRotator_invoke_void_object_TEventArgs_object_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_Syncfusion_SfRotator_XForms_SfRotator
+	.long LDIFF_SYM1196
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
 	.align 3
-Lfde41_end:
+Lfde42_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14440,31 +14875,31 @@ Lfde41_end:
 
 	.byte 2,70
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
-	.quad Lme_33
+	.quad Lme_34
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1136=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1136
+LDIFF_SYM1197=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1197
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1137=Lfde42_end - Lfde42_start
-	.long LDIFF_SYM1137
-Lfde42_start:
+LDIFF_SYM1198=Lfde43_end - Lfde43_start
+	.long LDIFF_SYM1198
+Lfde43_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 
-LDIFF_SYM1138=Lme_33 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
-	.long LDIFF_SYM1138
+LDIFF_SYM1199=Lme_34 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
+	.long LDIFF_SYM1199
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde42_end:
+Lfde43_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14474,31 +14909,31 @@ Lfde42_end:
 
 	.byte 2,60
 	.quad System_Array_InternalArray__ICollection_get_Count
-	.quad Lme_34
+	.quad Lme_35
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1139=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1139
+LDIFF_SYM1200=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1200
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1140=Lfde43_end - Lfde43_start
-	.long LDIFF_SYM1140
-Lfde43_start:
+LDIFF_SYM1201=Lfde44_end - Lfde44_start
+	.long LDIFF_SYM1201
+Lfde44_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_get_Count
 
-LDIFF_SYM1141=Lme_34 - System_Array_InternalArray__ICollection_get_Count
-	.long LDIFF_SYM1141
+LDIFF_SYM1202=Lme_35 - System_Array_InternalArray__ICollection_get_Count
+	.long LDIFF_SYM1202
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde43_end:
+Lfde44_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14508,31 +14943,31 @@ Lfde43_end:
 
 	.byte 2,65
 	.quad System_Array_InternalArray__ICollection_get_IsReadOnly
-	.quad Lme_35
+	.quad Lme_36
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1142=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1142
+LDIFF_SYM1203=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1203
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1143=Lfde44_end - Lfde44_start
-	.long LDIFF_SYM1143
-Lfde44_start:
+LDIFF_SYM1204=Lfde45_end - Lfde45_start
+	.long LDIFF_SYM1204
+Lfde45_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_get_IsReadOnly
 
-LDIFF_SYM1144=Lme_35 - System_Array_InternalArray__ICollection_get_IsReadOnly
-	.long LDIFF_SYM1144
+LDIFF_SYM1205=Lme_36 - System_Array_InternalArray__ICollection_get_IsReadOnly
+	.long LDIFF_SYM1205
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde44_end:
+Lfde45_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14542,31 +14977,31 @@ Lfde44_end:
 
 	.byte 2,78
 	.quad System_Array_InternalArray__ICollection_Clear
-	.quad Lme_36
+	.quad Lme_37
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1145=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1145
+LDIFF_SYM1206=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1206
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1146=Lfde45_end - Lfde45_start
-	.long LDIFF_SYM1146
-Lfde45_start:
+LDIFF_SYM1207=Lfde46_end - Lfde46_start
+	.long LDIFF_SYM1207
+Lfde46_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Clear
 
-LDIFF_SYM1147=Lme_36 - System_Array_InternalArray__ICollection_Clear
-	.long LDIFF_SYM1147
+LDIFF_SYM1208=Lme_37 - System_Array_InternalArray__ICollection_Clear
+	.long LDIFF_SYM1208
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde45_end:
+Lfde46_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14576,36 +15011,36 @@ Lfde45_end:
 
 	.byte 2,83
 	.quad System_Array_InternalArray__ICollection_Add_T_REF_T_REF
-	.quad Lme_37
+	.quad Lme_38
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1148=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1148
+LDIFF_SYM1209=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1209
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM1149=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1149
+LDIFF_SYM1210=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1210
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1150=Lfde46_end - Lfde46_start
-	.long LDIFF_SYM1150
-Lfde46_start:
+LDIFF_SYM1211=Lfde47_end - Lfde47_start
+	.long LDIFF_SYM1211
+Lfde47_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Add_T_REF_T_REF
 
-LDIFF_SYM1151=Lme_37 - System_Array_InternalArray__ICollection_Add_T_REF_T_REF
-	.long LDIFF_SYM1151
+LDIFF_SYM1212=Lme_38 - System_Array_InternalArray__ICollection_Add_T_REF_T_REF
+	.long LDIFF_SYM1212
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde46_end:
+Lfde47_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14615,36 +15050,36 @@ Lfde46_end:
 
 	.byte 2,88
 	.quad System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
-	.quad Lme_38
+	.quad Lme_39
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1152=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1152
+LDIFF_SYM1213=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1213
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM1153=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1153
+LDIFF_SYM1214=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1214
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1154=Lfde47_end - Lfde47_start
-	.long LDIFF_SYM1154
-Lfde47_start:
+LDIFF_SYM1215=Lfde48_end - Lfde48_start
+	.long LDIFF_SYM1215
+Lfde48_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
 
-LDIFF_SYM1155=Lme_38 - System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
-	.long LDIFF_SYM1155
+LDIFF_SYM1216=Lme_39 - System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
+	.long LDIFF_SYM1216
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde47_end:
+Lfde48_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14654,51 +15089,51 @@ Lfde47_end:
 
 	.byte 2,93
 	.quad System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
-	.quad Lme_39
+	.quad Lme_3a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1156=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1156
+LDIFF_SYM1217=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1217
 	.byte 1,105,3
 	.asciz "item"
 
-LDIFF_SYM1157=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1157
+LDIFF_SYM1218=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1218
 	.byte 1,106,11
 	.asciz "length"
 
-LDIFF_SYM1158=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1158
+LDIFF_SYM1219=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1219
 	.byte 1,104,11
 	.asciz "i"
 
-LDIFF_SYM1159=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1159
+LDIFF_SYM1220=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1220
 	.byte 1,103,11
 	.asciz "value"
 
-LDIFF_SYM1160=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1160
+LDIFF_SYM1221=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1221
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1161=Lfde48_end - Lfde48_start
-	.long LDIFF_SYM1161
-Lfde48_start:
+LDIFF_SYM1222=Lfde49_end - Lfde49_start
+	.long LDIFF_SYM1222
+Lfde49_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
 
-LDIFF_SYM1162=Lme_39 - System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
-	.long LDIFF_SYM1162
+LDIFF_SYM1223=Lme_3a - System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
+	.long LDIFF_SYM1223
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,150,6,151,5,68,152,4,153,3,68,154,2
 	.align 3
-Lfde48_end:
+Lfde49_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14708,931 +15143,931 @@ Lfde48_end:
 
 	.byte 2,118
 	.quad System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
-	.quad Lme_3a
+	.quad Lme_3b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1163=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1163
+LDIFF_SYM1224=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1224
 	.byte 2,141,24,3
 	.asciz "array"
 
-LDIFF_SYM1164=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1164
+LDIFF_SYM1225=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1225
 	.byte 2,141,32,3
 	.asciz "arrayIndex"
 
-LDIFF_SYM1165=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1165
+LDIFF_SYM1226=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1226
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1166=Lfde49_end - Lfde49_start
-	.long LDIFF_SYM1166
-Lfde49_start:
+LDIFF_SYM1227=Lfde50_end - Lfde50_start
+	.long LDIFF_SYM1227
+Lfde50_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
 
-LDIFF_SYM1167=Lme_3a - System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
-	.long LDIFF_SYM1167
+LDIFF_SYM1228=Lme_3b - System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
+	.long LDIFF_SYM1228
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,150,6
 	.align 3
-Lfde49_end:
+Lfde50_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_146:
+LTDIE_153:
 
 	.byte 5
 	.asciz "System_Predicate`1"
 
 	.byte 112,16
-LDIFF_SYM1168=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM1168
+LDIFF_SYM1229=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM1229
 	.byte 2,35,0,0,7
 	.asciz "System_Predicate`1"
 
-LDIFF_SYM1169=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM1169
-LTDIE_146_POINTER:
+LDIFF_SYM1230=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM1230
+LTDIE_153_POINTER:
 
 	.byte 13
-LDIFF_SYM1170=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM1170
-LTDIE_146_REFERENCE:
+LDIFF_SYM1231=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM1231
+LTDIE_153_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1171=LTDIE_146 - Ldebug_info_start
-	.long LDIFF_SYM1171
+LDIFF_SYM1232=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM1232
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Predicate`1<System.EventHandler`1<Xamarin.Forms.Platform.iOS.VisualElementChangedEventArgs>>:invoke_bool_T"
 	.asciz "wrapper_delegate_invoke_System_Predicate_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_bool_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Predicate_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_bool_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
-	.quad Lme_3b
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1172=LTDIE_146_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1172
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM1173=LTDIE_142_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1173
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1174=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1174
-	.byte 1,103,11
-	.asciz "V_1"
-
-LDIFF_SYM1175=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1175
-	.byte 1,105,11
-	.asciz "V_2"
-
-LDIFF_SYM1176=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1176
-	.byte 1,104,11
-	.asciz "V_3"
-
-LDIFF_SYM1177=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1177
-	.byte 1,102,11
-	.asciz "V_4"
-
-LDIFF_SYM1178=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1178
-	.byte 1,104,11
-	.asciz "V_5"
-
-LDIFF_SYM1179=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1179
-	.byte 1,102,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1180=Lfde50_end - Lfde50_start
-	.long LDIFF_SYM1180
-Lfde50_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Predicate_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_bool_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
-
-LDIFF_SYM1181=Lme_3b - wrapper_delegate_invoke_System_Predicate_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_bool_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
-	.long LDIFF_SYM1181
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
-	.align 3
-Lfde50_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_147:
-
-	.byte 5
-	.asciz "System_Action`1"
-
-	.byte 112,16
-LDIFF_SYM1182=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM1182
-	.byte 2,35,0,0,7
-	.asciz "System_Action`1"
-
-LDIFF_SYM1183=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM1183
-LTDIE_147_POINTER:
-
-	.byte 13
-LDIFF_SYM1184=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM1184
-LTDIE_147_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1185=LTDIE_147 - Ldebug_info_start
-	.long LDIFF_SYM1185
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.EventHandler`1<Xamarin.Forms.Platform.iOS.VisualElementChangedEventArgs>>:invoke_void_T"
-	.asciz "wrapper_delegate_invoke_System_Action_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Action_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
 	.quad Lme_3c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1186=LTDIE_147_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1186
+LDIFF_SYM1233=LTDIE_153_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1233
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1187=LTDIE_142_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1187
+LDIFF_SYM1234=LTDIE_150_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1234
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1188=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1188
+LDIFF_SYM1235=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1235
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1189=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1189
+LDIFF_SYM1236=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1236
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM1190=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1190
+LDIFF_SYM1237=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1237
 	.byte 1,104,11
 	.asciz "V_3"
 
-LDIFF_SYM1191=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1191
+LDIFF_SYM1238=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1238
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM1192=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1192
-	.byte 1,104,0
+LDIFF_SYM1239=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1239
+	.byte 1,104,11
+	.asciz "V_5"
+
+LDIFF_SYM1240=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1240
+	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1193=Lfde51_end - Lfde51_start
-	.long LDIFF_SYM1193
+LDIFF_SYM1241=Lfde51_end - Lfde51_start
+	.long LDIFF_SYM1241
 Lfde51_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Action_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
+	.quad wrapper_delegate_invoke_System_Predicate_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_bool_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
 
-LDIFF_SYM1194=Lme_3c - wrapper_delegate_invoke_System_Action_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
-	.long LDIFF_SYM1194
+LDIFF_SYM1242=Lme_3c - wrapper_delegate_invoke_System_Predicate_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_bool_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
+	.long LDIFF_SYM1242
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
 	.align 3
 Lfde51_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_148:
+LTDIE_154:
+
+	.byte 5
+	.asciz "System_Action`1"
+
+	.byte 112,16
+LDIFF_SYM1243=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM1243
+	.byte 2,35,0,0,7
+	.asciz "System_Action`1"
+
+LDIFF_SYM1244=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1244
+LTDIE_154_POINTER:
+
+	.byte 13
+LDIFF_SYM1245=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1245
+LTDIE_154_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1246=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1246
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Action`1<System.EventHandler`1<Xamarin.Forms.Platform.iOS.VisualElementChangedEventArgs>>:invoke_void_T"
+	.asciz "wrapper_delegate_invoke_System_Action_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Action_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
+	.quad Lme_3d
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1247=LTDIE_154_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1247
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1248=LTDIE_150_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1248
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1249=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1249
+	.byte 1,103,11
+	.asciz "V_1"
+
+LDIFF_SYM1250=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1250
+	.byte 1,105,11
+	.asciz "V_2"
+
+LDIFF_SYM1251=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1251
+	.byte 1,104,11
+	.asciz "V_3"
+
+LDIFF_SYM1252=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1252
+	.byte 1,102,11
+	.asciz "V_4"
+
+LDIFF_SYM1253=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1253
+	.byte 1,104,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1254=Lfde52_end - Lfde52_start
+	.long LDIFF_SYM1254
+Lfde52_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Action_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
+
+LDIFF_SYM1255=Lme_3d - wrapper_delegate_invoke_System_Action_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_void_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
+	.long LDIFF_SYM1255
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
+	.align 3
+Lfde52_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_155:
 
 	.byte 5
 	.asciz "System_Comparison`1"
 
 	.byte 112,16
-LDIFF_SYM1195=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM1195
+LDIFF_SYM1256=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM1256
 	.byte 2,35,0,0,7
 	.asciz "System_Comparison`1"
 
-LDIFF_SYM1196=LTDIE_148 - Ldebug_info_start
-	.long LDIFF_SYM1196
-LTDIE_148_POINTER:
+LDIFF_SYM1257=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1257
+LTDIE_155_POINTER:
 
 	.byte 13
-LDIFF_SYM1197=LTDIE_148 - Ldebug_info_start
-	.long LDIFF_SYM1197
-LTDIE_148_REFERENCE:
+LDIFF_SYM1258=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1258
+LTDIE_155_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1198=LTDIE_148 - Ldebug_info_start
-	.long LDIFF_SYM1198
+LDIFF_SYM1259=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1259
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Comparison`1<System.EventHandler`1<Xamarin.Forms.Platform.iOS.VisualElementChangedEventArgs>>:invoke_int_T_T"
 	.asciz "wrapper_delegate_invoke_System_Comparison_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_int_T_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Comparison_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_int_T_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
-	.quad Lme_3d
+	.quad Lme_3e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1199=LTDIE_148_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1199
+LDIFF_SYM1260=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1260
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1200=LTDIE_142_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1200
+LDIFF_SYM1261=LTDIE_150_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1261
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1201=LTDIE_142_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1201
+LDIFF_SYM1262=LTDIE_150_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1262
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1202=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1202
+LDIFF_SYM1263=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1263
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM1203=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1203
+LDIFF_SYM1264=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1264
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1204=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1204
+LDIFF_SYM1265=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1265
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM1205=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1205
+LDIFF_SYM1266=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1266
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1206=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1206
+LDIFF_SYM1267=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1267
 	.byte 1,103,11
 	.asciz "V_5"
 
-LDIFF_SYM1207=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1207
+LDIFF_SYM1268=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1268
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1208=Lfde52_end - Lfde52_start
-	.long LDIFF_SYM1208
-Lfde52_start:
+LDIFF_SYM1269=Lfde53_end - Lfde53_start
+	.long LDIFF_SYM1269
+Lfde53_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Comparison_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_int_T_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
 
-LDIFF_SYM1209=Lme_3d - wrapper_delegate_invoke_System_Comparison_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_int_T_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
-	.long LDIFF_SYM1209
+LDIFF_SYM1270=Lme_3e - wrapper_delegate_invoke_System_Comparison_1_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_invoke_int_T_T_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs_System_EventHandler_1_Xamarin_Forms_Platform_iOS_VisualElementChangedEventArgs
+	.long LDIFF_SYM1270
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
 	.align 3
-Lfde52_end:
+Lfde53_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_149:
+LTDIE_156:
 
 	.byte 5
 	.asciz "System_Predicate`1"
 
 	.byte 112,16
-LDIFF_SYM1210=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM1210
+LDIFF_SYM1271=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM1271
 	.byte 2,35,0,0,7
 	.asciz "System_Predicate`1"
 
-LDIFF_SYM1211=LTDIE_149 - Ldebug_info_start
-	.long LDIFF_SYM1211
-LTDIE_149_POINTER:
+LDIFF_SYM1272=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM1272
+LTDIE_156_POINTER:
 
 	.byte 13
-LDIFF_SYM1212=LTDIE_149 - Ldebug_info_start
-	.long LDIFF_SYM1212
-LTDIE_149_REFERENCE:
+LDIFF_SYM1273=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM1273
+LTDIE_156_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1213=LTDIE_149 - Ldebug_info_start
-	.long LDIFF_SYM1213
+LDIFF_SYM1274=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM1274
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Predicate`1<Syncfusion.SfRotator.XForms.SfRotatorItem>:invoke_bool_T"
 	.asciz "wrapper_delegate_invoke_System_Predicate_1_Syncfusion_SfRotator_XForms_SfRotatorItem_invoke_bool_T_Syncfusion_SfRotator_XForms_SfRotatorItem"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Predicate_1_Syncfusion_SfRotator_XForms_SfRotatorItem_invoke_bool_T_Syncfusion_SfRotator_XForms_SfRotatorItem
-	.quad Lme_3e
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1214=LTDIE_149_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1214
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM1215=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1215
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1216=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1216
-	.byte 1,103,11
-	.asciz "V_1"
-
-LDIFF_SYM1217=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1217
-	.byte 1,105,11
-	.asciz "V_2"
-
-LDIFF_SYM1218=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1218
-	.byte 1,104,11
-	.asciz "V_3"
-
-LDIFF_SYM1219=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1219
-	.byte 1,102,11
-	.asciz "V_4"
-
-LDIFF_SYM1220=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1220
-	.byte 1,104,11
-	.asciz "V_5"
-
-LDIFF_SYM1221=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1221
-	.byte 1,102,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1222=Lfde53_end - Lfde53_start
-	.long LDIFF_SYM1222
-Lfde53_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Predicate_1_Syncfusion_SfRotator_XForms_SfRotatorItem_invoke_bool_T_Syncfusion_SfRotator_XForms_SfRotatorItem
-
-LDIFF_SYM1223=Lme_3e - wrapper_delegate_invoke_System_Predicate_1_Syncfusion_SfRotator_XForms_SfRotatorItem_invoke_bool_T_Syncfusion_SfRotator_XForms_SfRotatorItem
-	.long LDIFF_SYM1223
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
-	.align 3
-Lfde53_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_150:
-
-	.byte 5
-	.asciz "System_Action`1"
-
-	.byte 112,16
-LDIFF_SYM1224=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM1224
-	.byte 2,35,0,0,7
-	.asciz "System_Action`1"
-
-LDIFF_SYM1225=LTDIE_150 - Ldebug_info_start
-	.long LDIFF_SYM1225
-LTDIE_150_POINTER:
-
-	.byte 13
-LDIFF_SYM1226=LTDIE_150 - Ldebug_info_start
-	.long LDIFF_SYM1226
-LTDIE_150_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1227=LTDIE_150 - Ldebug_info_start
-	.long LDIFF_SYM1227
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Action`1<Syncfusion.SfRotator.XForms.SfRotatorItem>:invoke_void_T"
-	.asciz "wrapper_delegate_invoke_System_Action_1_Syncfusion_SfRotator_XForms_SfRotatorItem_invoke_void_T_Syncfusion_SfRotator_XForms_SfRotatorItem"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Action_1_Syncfusion_SfRotator_XForms_SfRotatorItem_invoke_void_T_Syncfusion_SfRotator_XForms_SfRotatorItem
 	.quad Lme_3f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1228=LTDIE_150_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1228
+LDIFF_SYM1275=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1275
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1229=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1229
+LDIFF_SYM1276=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1276
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1230=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1230
+LDIFF_SYM1277=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1277
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1231=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1231
+LDIFF_SYM1278=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1278
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM1232=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1232
+LDIFF_SYM1279=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1279
 	.byte 1,104,11
 	.asciz "V_3"
 
-LDIFF_SYM1233=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1233
+LDIFF_SYM1280=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1280
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM1234=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1234
-	.byte 1,104,0
+LDIFF_SYM1281=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1281
+	.byte 1,104,11
+	.asciz "V_5"
+
+LDIFF_SYM1282=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1282
+	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1235=Lfde54_end - Lfde54_start
-	.long LDIFF_SYM1235
+LDIFF_SYM1283=Lfde54_end - Lfde54_start
+	.long LDIFF_SYM1283
 Lfde54_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Action_1_Syncfusion_SfRotator_XForms_SfRotatorItem_invoke_void_T_Syncfusion_SfRotator_XForms_SfRotatorItem
+	.quad wrapper_delegate_invoke_System_Predicate_1_Syncfusion_SfRotator_XForms_SfRotatorItem_invoke_bool_T_Syncfusion_SfRotator_XForms_SfRotatorItem
 
-LDIFF_SYM1236=Lme_3f - wrapper_delegate_invoke_System_Action_1_Syncfusion_SfRotator_XForms_SfRotatorItem_invoke_void_T_Syncfusion_SfRotator_XForms_SfRotatorItem
-	.long LDIFF_SYM1236
+LDIFF_SYM1284=Lme_3f - wrapper_delegate_invoke_System_Predicate_1_Syncfusion_SfRotator_XForms_SfRotatorItem_invoke_bool_T_Syncfusion_SfRotator_XForms_SfRotatorItem
+	.long LDIFF_SYM1284
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
 	.align 3
 Lfde54_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_151:
+LTDIE_157:
+
+	.byte 5
+	.asciz "System_Action`1"
+
+	.byte 112,16
+LDIFF_SYM1285=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM1285
+	.byte 2,35,0,0,7
+	.asciz "System_Action`1"
+
+LDIFF_SYM1286=LTDIE_157 - Ldebug_info_start
+	.long LDIFF_SYM1286
+LTDIE_157_POINTER:
+
+	.byte 13
+LDIFF_SYM1287=LTDIE_157 - Ldebug_info_start
+	.long LDIFF_SYM1287
+LTDIE_157_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1288=LTDIE_157 - Ldebug_info_start
+	.long LDIFF_SYM1288
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Action`1<Syncfusion.SfRotator.XForms.SfRotatorItem>:invoke_void_T"
+	.asciz "wrapper_delegate_invoke_System_Action_1_Syncfusion_SfRotator_XForms_SfRotatorItem_invoke_void_T_Syncfusion_SfRotator_XForms_SfRotatorItem"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Action_1_Syncfusion_SfRotator_XForms_SfRotatorItem_invoke_void_T_Syncfusion_SfRotator_XForms_SfRotatorItem
+	.quad Lme_40
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1289=LTDIE_157_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1289
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1290=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1290
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1291=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1291
+	.byte 1,103,11
+	.asciz "V_1"
+
+LDIFF_SYM1292=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1292
+	.byte 1,105,11
+	.asciz "V_2"
+
+LDIFF_SYM1293=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1293
+	.byte 1,104,11
+	.asciz "V_3"
+
+LDIFF_SYM1294=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1294
+	.byte 1,102,11
+	.asciz "V_4"
+
+LDIFF_SYM1295=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1295
+	.byte 1,104,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1296=Lfde55_end - Lfde55_start
+	.long LDIFF_SYM1296
+Lfde55_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Action_1_Syncfusion_SfRotator_XForms_SfRotatorItem_invoke_void_T_Syncfusion_SfRotator_XForms_SfRotatorItem
+
+LDIFF_SYM1297=Lme_40 - wrapper_delegate_invoke_System_Action_1_Syncfusion_SfRotator_XForms_SfRotatorItem_invoke_void_T_Syncfusion_SfRotator_XForms_SfRotatorItem
+	.long LDIFF_SYM1297
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
+	.align 3
+Lfde55_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_158:
 
 	.byte 5
 	.asciz "System_Comparison`1"
 
 	.byte 112,16
-LDIFF_SYM1237=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM1237
+LDIFF_SYM1298=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM1298
 	.byte 2,35,0,0,7
 	.asciz "System_Comparison`1"
 
-LDIFF_SYM1238=LTDIE_151 - Ldebug_info_start
-	.long LDIFF_SYM1238
-LTDIE_151_POINTER:
+LDIFF_SYM1299=LTDIE_158 - Ldebug_info_start
+	.long LDIFF_SYM1299
+LTDIE_158_POINTER:
 
 	.byte 13
-LDIFF_SYM1239=LTDIE_151 - Ldebug_info_start
-	.long LDIFF_SYM1239
-LTDIE_151_REFERENCE:
+LDIFF_SYM1300=LTDIE_158 - Ldebug_info_start
+	.long LDIFF_SYM1300
+LTDIE_158_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1240=LTDIE_151 - Ldebug_info_start
-	.long LDIFF_SYM1240
+LDIFF_SYM1301=LTDIE_158 - Ldebug_info_start
+	.long LDIFF_SYM1301
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Comparison`1<Syncfusion.SfRotator.XForms.SfRotatorItem>:invoke_int_T_T"
 	.asciz "wrapper_delegate_invoke_System_Comparison_1_Syncfusion_SfRotator_XForms_SfRotatorItem_invoke_int_T_T_Syncfusion_SfRotator_XForms_SfRotatorItem_Syncfusion_SfRotator_XForms_SfRotatorItem"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Comparison_1_Syncfusion_SfRotator_XForms_SfRotatorItem_invoke_int_T_T_Syncfusion_SfRotator_XForms_SfRotatorItem_Syncfusion_SfRotator_XForms_SfRotatorItem
-	.quad Lme_40
+	.quad Lme_41
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1241=LTDIE_151_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1241
+LDIFF_SYM1302=LTDIE_158_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1302
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1242=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1242
+LDIFF_SYM1303=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1303
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1243=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1243
+LDIFF_SYM1304=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1304
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1244=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1244
+LDIFF_SYM1305=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1305
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM1245=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1245
+LDIFF_SYM1306=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1306
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1246=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1246
+LDIFF_SYM1307=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1307
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM1247=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1247
+LDIFF_SYM1308=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1308
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1248=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1248
+LDIFF_SYM1309=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1309
 	.byte 1,103,11
 	.asciz "V_5"
 
-LDIFF_SYM1249=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1249
+LDIFF_SYM1310=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1310
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1250=Lfde55_end - Lfde55_start
-	.long LDIFF_SYM1250
-Lfde55_start:
+LDIFF_SYM1311=Lfde56_end - Lfde56_start
+	.long LDIFF_SYM1311
+Lfde56_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Comparison_1_Syncfusion_SfRotator_XForms_SfRotatorItem_invoke_int_T_T_Syncfusion_SfRotator_XForms_SfRotatorItem_Syncfusion_SfRotator_XForms_SfRotatorItem
 
-LDIFF_SYM1251=Lme_40 - wrapper_delegate_invoke_System_Comparison_1_Syncfusion_SfRotator_XForms_SfRotatorItem_invoke_int_T_T_Syncfusion_SfRotator_XForms_SfRotatorItem_Syncfusion_SfRotator_XForms_SfRotatorItem
-	.long LDIFF_SYM1251
+LDIFF_SYM1312=Lme_41 - wrapper_delegate_invoke_System_Comparison_1_Syncfusion_SfRotator_XForms_SfRotatorItem_invoke_int_T_T_Syncfusion_SfRotator_XForms_SfRotatorItem_Syncfusion_SfRotator_XForms_SfRotatorItem
+	.long LDIFF_SYM1312
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
 	.align 3
-Lfde55_end:
+Lfde56_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_152:
+LTDIE_159:
 
 	.byte 5
 	.asciz "System_Predicate`1"
 
 	.byte 112,16
-LDIFF_SYM1252=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM1252
+LDIFF_SYM1313=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM1313
 	.byte 2,35,0,0,7
 	.asciz "System_Predicate`1"
 
-LDIFF_SYM1253=LTDIE_152 - Ldebug_info_start
-	.long LDIFF_SYM1253
-LTDIE_152_POINTER:
+LDIFF_SYM1314=LTDIE_159 - Ldebug_info_start
+	.long LDIFF_SYM1314
+LTDIE_159_POINTER:
 
 	.byte 13
-LDIFF_SYM1254=LTDIE_152 - Ldebug_info_start
-	.long LDIFF_SYM1254
-LTDIE_152_REFERENCE:
+LDIFF_SYM1315=LTDIE_159 - Ldebug_info_start
+	.long LDIFF_SYM1315
+LTDIE_159_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1255=LTDIE_152 - Ldebug_info_start
-	.long LDIFF_SYM1255
+LDIFF_SYM1316=LTDIE_159 - Ldebug_info_start
+	.long LDIFF_SYM1316
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Predicate`1<string>:invoke_bool_T"
 	.asciz "wrapper_delegate_invoke_System_Predicate_1_string_invoke_bool_T_string"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Predicate_1_string_invoke_bool_T_string
-	.quad Lme_41
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM1256=LTDIE_152_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1256
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM1257=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1257
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM1258=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1258
-	.byte 1,103,11
-	.asciz "V_1"
-
-LDIFF_SYM1259=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1259
-	.byte 1,105,11
-	.asciz "V_2"
-
-LDIFF_SYM1260=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1260
-	.byte 1,104,11
-	.asciz "V_3"
-
-LDIFF_SYM1261=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1261
-	.byte 1,102,11
-	.asciz "V_4"
-
-LDIFF_SYM1262=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1262
-	.byte 1,104,11
-	.asciz "V_5"
-
-LDIFF_SYM1263=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1263
-	.byte 1,102,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM1264=Lfde56_end - Lfde56_start
-	.long LDIFF_SYM1264
-Lfde56_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Predicate_1_string_invoke_bool_T_string
-
-LDIFF_SYM1265=Lme_41 - wrapper_delegate_invoke_System_Predicate_1_string_invoke_bool_T_string
-	.long LDIFF_SYM1265
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
-	.align 3
-Lfde56_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_153:
-
-	.byte 5
-	.asciz "System_Action`1"
-
-	.byte 112,16
-LDIFF_SYM1266=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM1266
-	.byte 2,35,0,0,7
-	.asciz "System_Action`1"
-
-LDIFF_SYM1267=LTDIE_153 - Ldebug_info_start
-	.long LDIFF_SYM1267
-LTDIE_153_POINTER:
-
-	.byte 13
-LDIFF_SYM1268=LTDIE_153 - Ldebug_info_start
-	.long LDIFF_SYM1268
-LTDIE_153_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1269=LTDIE_153 - Ldebug_info_start
-	.long LDIFF_SYM1269
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Action`1<string>:invoke_void_T"
-	.asciz "wrapper_delegate_invoke_System_Action_1_string_invoke_void_T_string"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Action_1_string_invoke_void_T_string
 	.quad Lme_42
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1270=LTDIE_153_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1270
+LDIFF_SYM1317=LTDIE_159_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1317
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1271=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1271
+LDIFF_SYM1318=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1318
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1272=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1272
+LDIFF_SYM1319=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1319
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1273=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1273
+LDIFF_SYM1320=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1320
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM1274=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1274
+LDIFF_SYM1321=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1321
 	.byte 1,104,11
 	.asciz "V_3"
 
-LDIFF_SYM1275=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1275
+LDIFF_SYM1322=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1322
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM1276=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1276
-	.byte 1,104,0
+LDIFF_SYM1323=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1323
+	.byte 1,104,11
+	.asciz "V_5"
+
+LDIFF_SYM1324=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1324
+	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1277=Lfde57_end - Lfde57_start
-	.long LDIFF_SYM1277
+LDIFF_SYM1325=Lfde57_end - Lfde57_start
+	.long LDIFF_SYM1325
 Lfde57_start:
 
 	.long 0
 	.align 3
-	.quad wrapper_delegate_invoke_System_Action_1_string_invoke_void_T_string
+	.quad wrapper_delegate_invoke_System_Predicate_1_string_invoke_bool_T_string
 
-LDIFF_SYM1278=Lme_42 - wrapper_delegate_invoke_System_Action_1_string_invoke_void_T_string
-	.long LDIFF_SYM1278
+LDIFF_SYM1326=Lme_42 - wrapper_delegate_invoke_System_Predicate_1_string_invoke_bool_T_string
+	.long LDIFF_SYM1326
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
 	.align 3
 Lfde57_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_154:
+LTDIE_160:
+
+	.byte 5
+	.asciz "System_Action`1"
+
+	.byte 112,16
+LDIFF_SYM1327=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM1327
+	.byte 2,35,0,0,7
+	.asciz "System_Action`1"
+
+LDIFF_SYM1328=LTDIE_160 - Ldebug_info_start
+	.long LDIFF_SYM1328
+LTDIE_160_POINTER:
+
+	.byte 13
+LDIFF_SYM1329=LTDIE_160 - Ldebug_info_start
+	.long LDIFF_SYM1329
+LTDIE_160_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1330=LTDIE_160 - Ldebug_info_start
+	.long LDIFF_SYM1330
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Action`1<string>:invoke_void_T"
+	.asciz "wrapper_delegate_invoke_System_Action_1_string_invoke_void_T_string"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Action_1_string_invoke_void_T_string
+	.quad Lme_43
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1331=LTDIE_160_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1331
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1332=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1332
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1333=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1333
+	.byte 1,103,11
+	.asciz "V_1"
+
+LDIFF_SYM1334=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1334
+	.byte 1,105,11
+	.asciz "V_2"
+
+LDIFF_SYM1335=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1335
+	.byte 1,104,11
+	.asciz "V_3"
+
+LDIFF_SYM1336=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1336
+	.byte 1,102,11
+	.asciz "V_4"
+
+LDIFF_SYM1337=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1337
+	.byte 1,104,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1338=Lfde58_end - Lfde58_start
+	.long LDIFF_SYM1338
+Lfde58_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Action_1_string_invoke_void_T_string
+
+LDIFF_SYM1339=Lme_43 - wrapper_delegate_invoke_System_Action_1_string_invoke_void_T_string
+	.long LDIFF_SYM1339
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
+	.align 3
+Lfde58_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_161:
 
 	.byte 5
 	.asciz "System_Comparison`1"
 
 	.byte 112,16
-LDIFF_SYM1279=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM1279
+LDIFF_SYM1340=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM1340
 	.byte 2,35,0,0,7
 	.asciz "System_Comparison`1"
 
-LDIFF_SYM1280=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM1280
-LTDIE_154_POINTER:
+LDIFF_SYM1341=LTDIE_161 - Ldebug_info_start
+	.long LDIFF_SYM1341
+LTDIE_161_POINTER:
 
 	.byte 13
-LDIFF_SYM1281=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM1281
-LTDIE_154_REFERENCE:
+LDIFF_SYM1342=LTDIE_161 - Ldebug_info_start
+	.long LDIFF_SYM1342
+LTDIE_161_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1282=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM1282
+LDIFF_SYM1343=LTDIE_161 - Ldebug_info_start
+	.long LDIFF_SYM1343
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Comparison`1<string>:invoke_int_T_T"
 	.asciz "wrapper_delegate_invoke_System_Comparison_1_string_invoke_int_T_T_string_string"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Comparison_1_string_invoke_int_T_T_string_string
-	.quad Lme_43
+	.quad Lme_44
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1283=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1283
+LDIFF_SYM1344=LTDIE_161_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1344
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1284=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1284
+LDIFF_SYM1345=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1345
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1285=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1285
+LDIFF_SYM1346=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1346
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1286=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1286
+LDIFF_SYM1347=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1347
 	.byte 1,102,11
 	.asciz "V_1"
 
-LDIFF_SYM1287=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1287
+LDIFF_SYM1348=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1348
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1288=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1288
+LDIFF_SYM1349=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1349
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM1289=LTDIE_30_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1289
+LDIFF_SYM1350=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1350
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1290=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1290
+LDIFF_SYM1351=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1351
 	.byte 1,103,11
 	.asciz "V_5"
 
-LDIFF_SYM1291=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1291
+LDIFF_SYM1352=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1352
 	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1292=Lfde58_end - Lfde58_start
-	.long LDIFF_SYM1292
-Lfde58_start:
+LDIFF_SYM1353=Lfde59_end - Lfde59_start
+	.long LDIFF_SYM1353
+Lfde59_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Comparison_1_string_invoke_int_T_T_string_string
 
-LDIFF_SYM1293=Lme_43 - wrapper_delegate_invoke_System_Comparison_1_string_invoke_int_T_T_string_string
-	.long LDIFF_SYM1293
+LDIFF_SYM1354=Lme_44 - wrapper_delegate_invoke_System_Comparison_1_string_invoke_int_T_T_string_string
+	.long LDIFF_SYM1354
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,149,8,150,7,68,151,6,152,5,68,153,4,154,3
 	.align 3
-Lfde58_end:
+Lfde59_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_155:
+LTDIE_162:
 
 	.byte 5
 	.asciz "_InternalEnumerator`1"
 
 	.byte 32,16
-LDIFF_SYM1294=LTDIE_13 - Ldebug_info_start
-	.long LDIFF_SYM1294
+LDIFF_SYM1355=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM1355
 	.byte 2,35,0,6
 	.asciz "array"
 
-LDIFF_SYM1295=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1295
+LDIFF_SYM1356=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1356
 	.byte 2,35,16,6
 	.asciz "idx"
 
-LDIFF_SYM1296=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1296
+LDIFF_SYM1357=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1357
 	.byte 2,35,24,0,7
 	.asciz "_InternalEnumerator`1"
 
-LDIFF_SYM1297=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM1297
-LTDIE_155_POINTER:
+LDIFF_SYM1358=LTDIE_162 - Ldebug_info_start
+	.long LDIFF_SYM1358
+LTDIE_162_POINTER:
 
 	.byte 13
-LDIFF_SYM1298=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM1298
-LTDIE_155_REFERENCE:
+LDIFF_SYM1359=LTDIE_162 - Ldebug_info_start
+	.long LDIFF_SYM1359
+LTDIE_162_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1299=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM1299
+LDIFF_SYM1360=LTDIE_162 - Ldebug_info_start
+	.long LDIFF_SYM1360
 	.byte 2
 	.asciz "System.Array/InternalEnumerator`1<T_REF>:.ctor"
 	.asciz "System_Array_InternalEnumerator_1_T_REF__ctor_System_Array"
 
 	.byte 2,217,1
 	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.quad Lme_44
+	.quad Lme_45
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1300=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1300
+LDIFF_SYM1361=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1361
 	.byte 2,141,16,3
 	.asciz "array"
 
-LDIFF_SYM1301=LTDIE_145_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1301
+LDIFF_SYM1362=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1362
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1302=Lfde59_end - Lfde59_start
-	.long LDIFF_SYM1302
-Lfde59_start:
+LDIFF_SYM1363=Lfde60_end - Lfde60_start
+	.long LDIFF_SYM1363
+Lfde60_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 
-LDIFF_SYM1303=Lme_44 - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.long LDIFF_SYM1303
+LDIFF_SYM1364=Lme_45 - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+	.long LDIFF_SYM1364
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde59_end:
+Lfde60_end:
 
 .section __DWARF, __debug_info,regular,debug
 

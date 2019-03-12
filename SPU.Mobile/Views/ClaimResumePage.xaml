@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="SPU.Mobile.Views.ClaimResumePage"
+             Title="{Binding Title}">
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid VerticalOptions="StartAndExpand" Padding="20,0" RowSpacing="5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="20" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="20" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0" RowSpacing="5" Padding="25,10,5,10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                 
+                    <StackLayout Grid.Row="0" Padding="0,5" HorizontalOptions="StartAndExpand" Orientation="Horizontal" Spacing="1">
+                        <Image Source="reclamacioni.png" HeightRequest="{OnIdiom Phone=30,Tablet=40}" Aspect="AspectFit" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand" />
+                        <Label Text="Reclamacion" StyleClass="SpuTitle" />
+                    </StackLayout>
+                    <!--<Label Text="{Binding ClaimSteps}" Grid.Row="1" HorizontalTextAlignment="Start" StyleClass="SpuLabel" />-->
+                </Grid>
+                
+                <Grid Grid.Row="1" VerticalOptions="CenterAndExpand" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <BoxView Grid.Column="0" HeightRequest="0.5" VerticalOptions="CenterAndExpand" BackgroundColor="{StaticResource SPUColor}" />
+                    <Label Grid.Column="1" Text=" Reclamo Prestadora" TextColor="{StaticResource SPUColor}" FontAttributes="Bold" FontSize="15" VerticalTextAlignment="Center"/>
+                    <BoxView Grid.Column="2" HeightRequest="0.5" VerticalOptions="CenterAndExpand" BackgroundColor="{StaticResource SPUColor}" />
+                </Grid>
+                
+                <Grid Grid.Row="2" Padding="{OnIdiom Phone=20,10,20,5,Tablet=60,20,60,10}" RowSpacing="8">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                   
+                    <Label Grid.Row="0" Grid.Column="0" Text="No. de caso" TextColor="{StaticResource BlueColor}" class="ImportantLabel"/>
+                    <Label Grid.Row="0" Grid.Column="1" Text="{Binding UserClaim.ProviderTicketNo}"  class="ImportantLabel"/>
+                    
+                    <Label Grid.Row="1" Grid.Column="0" Text="Nombre del agente" TextColor="{StaticResource BlueColor}" class="ImportantLabel"/>
+                    <Label Grid.Row="1" Grid.Column="1" Text="{Binding UserClaim.ProviderAgentName}"  class="ImportantLabel"/>
+                    
+                    <Label Grid.Row="2" Grid.Column="0" Text="Fecha" TextColor="{StaticResource BlueColor}" class="ImportantLabel"/>
+                    <Label Grid.Row="2" Grid.Column="1" Text="{Binding UserClaim.ProviderDate}"  class="ImportantLabel"/>
+                    
+                    <Label Grid.Row="3" Grid.Column="0" Text="No. de Contrato" TextColor="{StaticResource BlueColor}" class="ImportantLabel"/>
+                    <Label Grid.Row="3" Grid.Column="1" Text="{Binding UserClaim.PhoneOrContractNo}"  class="ImportantLabel"/>
+ 
+                    <Label Grid.Row="4" Grid.Column="0" Text="Motivo del Reclamo" TextColor="{StaticResource BlueColor}" class="ImportantLabel"/>
+                    <Label Grid.Row="4" Grid.Column="1" Text="{Binding UserClaim.MotiveOfClaimTypeDescription}"  class="ImportantLabel"/>
+                </Grid>
+                
+
+                <Grid Grid.Row="3" IsVisible="{Binding HasDocuments}" VerticalOptions="CenterAndExpand" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <BoxView Grid.Column="0" HeightRequest="0.5" VerticalOptions="CenterAndExpand" BackgroundColor="{StaticResource SPUColor}" />
+                    <Label Grid.Column="1" Text="Documentos" TextColor="{StaticResource SPUColor}" FontAttributes="Bold" FontSize="15" VerticalTextAlignment="Center"/>
+                    <BoxView Grid.Column="2" HeightRequest="0.5" VerticalOptions="CenterAndExpand" BackgroundColor="{StaticResource SPUColor}" />
+                </Grid>
+                
+                
+                <ListView Grid.Row="4" IsVisible="{Binding HasDocuments}" VerticalOptions="StartAndExpand" ItemsSource="{Binding UserClaim.UserClaimDocumentDto}" 
+                                  ItemSelected="Handle_ItemSelected" HeightRequest="150" HasUnevenRows="false">
+                    <ListView.Header>
+                        <Label Text="Documentos Cargados" FontSize="{OnIdiom Phone=20,Tablet=30}"
+                               TextColor="{StaticResource RedColor}" HorizontalTextAlignment="Center"
+                               VerticalTextAlignment="Center"/>
+                    </ListView.Header>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell Text="{Binding Title}"
+                                      TextColor="{StaticResource SPUColor}" DetailColor="{StaticResource SPUTags}"/>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                
+                <ActivityIndicator Grid.Row="5" IsVisible="{Binding IsBusy}" VerticalOptions="StartAndExpand" IsRunning="{Binding IsBusy}" 
+                                       HeightRequest="40" WidthRequest="40" Color="{StaticResource SPUColor}"/>
+
+                <Frame Grid.Row="5" BackgroundColor="{StaticResource BlueColor}" IsVisible="{Binding IsNotBusy}" 
+                       Padding="{OnIdiom Phone=20,5,Tablet=20,10}" HasShadow="false" VerticalOptions="StartAndExpand" CornerRadius="8">
+                    <Label Text="Enviar" StyleClass="ButtonTextLabel" />
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding DoSendClaimFormCommand}"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+            
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

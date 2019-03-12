@@ -13,5 +13,7 @@ namespace SPU.Mobile.Models
         public List<string> Messages { get; set; } = new List<string>();
         public bool HasException { get; set; }
         public Exception Exception { get; set; }
+
+
     }
 }

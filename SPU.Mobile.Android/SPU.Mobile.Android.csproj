@@ -15,7 +15,7 @@
         <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
         <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
         <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-        <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+        <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
         <AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidClientHandler</AndroidHttpClientHandlerType>
         <NuGetPackageImportStamp>
         </NuGetPackageImportStamp>
@@ -50,12 +50,7 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <PackageReference Include="Xamarin.Forms" Version="3.3.0.967583" />
-        <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2.1" />
-        <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="27.0.2.1" />
-        <PackageReference Include="Xamarin.Android.Support.v4" Version="27.0.2.1" />
-        <PackageReference Include="Xamarin.Android.Support.v7.CardView" Version="27.0.2.1" />
-        <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter" Version="27.0.2.1" />
+        <PackageReference Include="Xamarin.Forms" Version="3.5.0.169047" />
         <PackageReference Include="Acr.UserDialogs">
             <Version>7.0.1</Version>
         </PackageReference>
@@ -72,13 +67,64 @@
             <Version>1.0.1</Version>
         </PackageReference>
         <PackageReference Include="Syncfusion.Xamarin.Core">
-          <Version>16.4.0.48</Version>
+            <Version>16.4.0.48</Version>
         </PackageReference>
         <PackageReference Include="Realm">
-          <Version>3.4.0</Version>
+            <Version>3.4.0</Version>
         </PackageReference>
         <PackageReference Include="Syncfusion.Xamarin.SfRotator">
-          <Version>16.4.0.48</Version>
+            <Version>16.4.0.48</Version>
+        </PackageReference>
+        <PackageReference Include="Xamarin.Plugin.FilePicker">
+            <Version>2.0.135</Version>
+        </PackageReference>
+        <PackageReference Include="Xam.Plugin.Media">
+            <Version>4.0.1.5</Version>
+        </PackageReference>
+        <PackageReference Include="Xamarin.Android.Support.v4">
+          <Version>28.0.0.1</Version>
+        </PackageReference>
+        <PackageReference Include="Xamarin.Android.Support.Compat">
+          <Version>28.0.0.1</Version>
+        </PackageReference>
+        <PackageReference Include="Xamarin.Android.Support.CustomTabs">
+          <Version>28.0.0.1</Version>
+        </PackageReference>
+        <PackageReference Include="Xamarin.Android.Support.Core.Utils">
+          <Version>28.0.0.1</Version>
+        </PackageReference>
+        <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter">
+          <Version>28.0.0.1</Version>
+        </PackageReference>
+        <PackageReference Include="Xamarin.Android.Support.v7.CardView">
+          <Version>28.0.0.1</Version>
+        </PackageReference>
+        <PackageReference Include="Xamarin.Android.Support.v7.AppCompat">
+          <Version>28.0.0.1</Version>
+        </PackageReference>
+        <PackageReference Include="Xamarin.Android.Support.Design">
+          <Version>28.0.0.1</Version>
+        </PackageReference>
+        <PackageReference Include="Plugin.FirebasePushNotification">
+          <Version>2.3.5</Version>
+        </PackageReference>
+        <PackageReference Include="Xamarin.Firebase.Messaging">
+          <Version>60.1142.1</Version>
+        </PackageReference>
+        <PackageReference Include="Xamarin.Firebase.Iid">
+          <Version>60.1142.1</Version>
+        </PackageReference>
+        <PackageReference Include="Xamarin.GooglePlayServices.Base">
+          <Version>60.1142.1</Version>
+        </PackageReference>
+        <PackageReference Include="Xamarin.GooglePlayServices.Basement">
+          <Version>60.1142.1</Version>
+        </PackageReference>
+        <PackageReference Include="Xamarin.GooglePlayServices.Tasks">
+          <Version>60.1142.1</Version>
+        </PackageReference>
+        <PackageReference Include="Xamarin.Firebase.Common">
+          <Version>60.1142.1</Version>
         </PackageReference>
     </ItemGroup>
     <ItemGroup>
@@ -86,6 +132,9 @@
         <Compile Include="Resources\Resource.designer.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="SplashActivity.cs" />
+        <Compile Include="NoShiftEffect.cs" />
+        <Compile Include="MainApplication.cs" />
+        <Compile Include="FirebaseService.cs" />
     </ItemGroup>
     <ItemGroup>
         <None Include="Resources\AboutResources.txt" />
@@ -111,10 +160,6 @@
         <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
         <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
         <AndroidResource Include="Resources\drawable\splash_screen.xml" />
-        <AndroidResource Include="Resources\drawable-hdpi\logoindotel.png" />
-        <AndroidResource Include="Resources\drawable-xhdpi\logoindotel.png" />
-        <AndroidResource Include="Resources\drawable-xxhdpi\logoindotel.png" />
-        <AndroidResource Include="Resources\drawable-xxxhdpi\logoindotel.png" />
         <AndroidResource Include="Resources\drawable-hdpi\facebookicon.png" />
         <AndroidResource Include="Resources\drawable-hdpi\googleicon.png" />
         <AndroidResource Include="Resources\drawable-hdpi\twitterIcon.png" />
@@ -136,38 +181,6 @@
         <AndroidResource Include="Resources\mipmap-xhdpi\ic_launcher.png" />
         <AndroidResource Include="Resources\mipmap-xxhdpi\ic_launcher.png" />
         <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher.png" />
-        <AndroidResource Include="Resources\drawable-hdpi\book.png" />
-        <AndroidResource Include="Resources\drawable-hdpi\casee.png" />
-        <AndroidResource Include="Resources\drawable-hdpi\compare.png" />
-        <AndroidResource Include="Resources\drawable-hdpi\contactus.png" />
-        <AndroidResource Include="Resources\drawable-hdpi\faq.png" />
-        <AndroidResource Include="Resources\drawable-hdpi\hands.png" />
-        <AndroidResource Include="Resources\drawable-hdpi\simulator.png" />
-        <AndroidResource Include="Resources\drawable-xhdpi\book.png" />
-        <AndroidResource Include="Resources\drawable-xhdpi\casee.png" />
-        <AndroidResource Include="Resources\drawable-xhdpi\compare.png" />
-        <AndroidResource Include="Resources\drawable-xhdpi\contactus.png" />
-        <AndroidResource Include="Resources\drawable-xhdpi\faq.png" />
-        <AndroidResource Include="Resources\drawable-xhdpi\hands.png" />
-        <AndroidResource Include="Resources\drawable-xhdpi\simulator.png" />
-        <AndroidResource Include="Resources\drawable-xxhdpi\book.png" />
-        <AndroidResource Include="Resources\drawable-xxhdpi\casee.png" />
-        <AndroidResource Include="Resources\drawable-xxhdpi\compare.png" />
-        <AndroidResource Include="Resources\drawable-xxhdpi\contactus.png" />
-        <AndroidResource Include="Resources\drawable-xxhdpi\faq.png" />
-        <AndroidResource Include="Resources\drawable-xxhdpi\hands.png" />
-        <AndroidResource Include="Resources\drawable-xxhdpi\simulator.png" />
-        <AndroidResource Include="Resources\drawable-xxxhdpi\book.png" />
-        <AndroidResource Include="Resources\drawable-xxxhdpi\casee.png" />
-        <AndroidResource Include="Resources\drawable-xxxhdpi\compare.png" />
-        <AndroidResource Include="Resources\drawable-xxxhdpi\contactus.png" />
-        <AndroidResource Include="Resources\drawable-xxxhdpi\faq.png" />
-        <AndroidResource Include="Resources\drawable-xxxhdpi\hands.png" />
-        <AndroidResource Include="Resources\drawable-xxxhdpi\simulator.png" />
-        <AndroidResource Include="Resources\drawable-hdpi\home.png" />
-        <AndroidResource Include="Resources\drawable-xhdpi\home.png" />
-        <AndroidResource Include="Resources\drawable-xxhdpi\home.png" />
-        <AndroidResource Include="Resources\drawable-xxxhdpi\home.png" />
         <AndroidResource Include="Resources\drawable-hdpi\menu.png" />
         <AndroidResource Include="Resources\drawable-xhdpi\menu.png" />
         <AndroidResource Include="Resources\drawable-xxhdpi\menu.png" />
@@ -175,6 +188,144 @@
         <AndroidResource Include="Resources\drawable\image1.jpg" />
         <AndroidResource Include="Resources\drawable\image3.jpg" />
         <AndroidResource Include="Resources\drawable\image2.png" />
+        <AndroidResource Include="Resources\xml\file_paths.xml" />
+        <AndroidResource Include="Resources\drawable-hdpi\arrobalogin.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\averiamain.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\averiaround.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\casos.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\chat.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\comparadormain.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\comparadorround.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\conciliacion.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\consultacaso.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\contactos.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\dau.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\depositodocu.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\editarperfil.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\faqs.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\hashtag.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\idt.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\llamada.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\lock.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\locklogin.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\logohashtag.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\logowhite.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\mas.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\misderechos.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\nuevareclamacion.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\proxconciliacion.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\reclamacioni.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\simulador2.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\simuladorround.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\home.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\arrobalogin.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\averiamain.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\averiaround.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\casos.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\chat.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\comparadormain.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\comparadorround.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\conciliacion.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\consultacaso.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\contactos.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\dau.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\depositodocu.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\editarperfil.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\faqs.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\hashtag.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\home.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\idt.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\llamada.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\lock.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\locklogin.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\logohashtag.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\logowhite.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\mas.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\misderechos.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\nuevareclamacion.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\proxconciliacion.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\reclamacioni.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\simulador2.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\simuladorround.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\arrobalogin.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\averiamain.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\averiaround.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\casos.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\chat.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\comparadormain.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\comparadorround.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\conciliacion.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\consultacaso.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\contactos.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\dau.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\depositodocu.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\editarperfil.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\faqs.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\hashtag.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\home.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\idt.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\llamada.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\lock.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\locklogin.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\logohashtag.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\logowhite.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\mas.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\misderechos.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\nuevareclamacion.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\proxconciliacion.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\reclamacioni.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\simulador2.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\simuladorround.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\arrobalogin.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\averiamain.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\averiaround.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\casos.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\chat.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\comparadormain.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\comparadorround.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\conciliacion.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\consultacaso.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\contactos.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\dau.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\depositodocu.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\editarperfil.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\faqs.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\hashtag.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\home.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\idt.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\llamada.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\lock.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\locklogin.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\logohashtag.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\logowhite.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\mas.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\misderechos.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\nuevareclamacion.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\proxconciliacion.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\reclamacioni.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\simulador2.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\simuladorround.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\inicio.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\inicio.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\inicio.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\inicio.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\mcasos.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\mcontactos.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\mcasos.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\mcontactos.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\mcasos.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\mcontactos.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\mcasos.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\mcontactos.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\mhome.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\mhome.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\mhome.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\mhome.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\back.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\back.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\back.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\back.png" />
+        <AndroidResource Include="Resources\drawable\masreclama.png" />
     </ItemGroup>
     <ItemGroup>
         <Folder Include="Resources\drawable\" />
@@ -182,12 +333,16 @@
         <Folder Include="Resources\drawable-xhdpi\" />
         <Folder Include="Resources\drawable-xxhdpi\" />
         <Folder Include="Resources\drawable-xxxhdpi\" />
+        <Folder Include="Resources\xml\" />
     </ItemGroup>
     <ItemGroup>
         <ProjectReference Include="..\SPU.Mobile\SPU.Mobile.csproj">
             <Project>{E9E91910-933A-463A-AEF0-F12884F2BE9F}</Project>
             <Name>SPU.Mobile</Name>
         </ProjectReference>
+    </ItemGroup>
+    <ItemGroup>
+      <GoogleServicesJson Include="google-services.json" />
     </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

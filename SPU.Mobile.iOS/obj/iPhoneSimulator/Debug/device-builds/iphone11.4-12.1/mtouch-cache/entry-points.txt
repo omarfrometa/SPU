@@ -979,6 +979,34 @@ Function=ReadZStream
 	/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-cache/1-Link/System.dll
 Function=WriteZStream
 	/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-cache/1-Link/System.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRMessagingMessageInfo
+	/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-cache/1-Link/Firebase.CloudMessaging.dll
+Field=FIRMessagingConnectionStateChangedNotification
+	/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-cache/1-Link/Firebase.CloudMessaging.dll
+Field=FIRMessagingMessagesDeletedNotification
+	/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-cache/1-Link/Firebase.CloudMessaging.dll
+Field=FIRMessagingRegistrationTokenRefreshedNotification
+	/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-cache/1-Link/Firebase.CloudMessaging.dll
+Field=FIRMessagingSendErrorNotification
+	/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-cache/1-Link/Firebase.CloudMessaging.dll
+Field=FIRMessagingSendSuccessNotification
+	/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-cache/1-Link/Firebase.CloudMessaging.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRMessaging
+	/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-cache/1-Link/Firebase.CloudMessaging.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRMessagingRemoteMessage
+	/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-cache/1-Link/Firebase.CloudMessaging.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRApp
+	/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-cache/1-Link/Firebase.Core.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRAnalyticsConfiguration
+	/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-cache/1-Link/Firebase.Core.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRConfiguration
+	/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-cache/1-Link/Firebase.Core.dll
+ObjectiveCClass=OBJC_CLASS_$_FIROptions
+	/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-cache/1-Link/Firebase.Core.dll
+Field=kFIRInstanceIDScopeFirebaseMessaging
+	/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-cache/1-Link/Firebase.InstanceID.dll
+Field=kFIRInstanceIDTokenRefreshNotification
+	/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-cache/1-Link/Firebase.InstanceID.dll
 Function=list_add_object
 	/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-cache/1-Link/Realm.dll
 Function=list_add_primitive

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "263192624846",
+    "firebase_url": "https://indotel-7d169.firebaseio.com",
+    "project_id": "indotel-7d169",
+    "storage_bucket": "indotel-7d169.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263192624846:android:d342600ccc8a9047",
+        "android_client_info": {
+          "package_name": "com.Indotel.SPU_Mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263192624846-3dfc1qq822bpd7cd112gv5fpvlatnlb9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYUHZnVZ3wEKChLOkzfTKAPLS_WwUTkOw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

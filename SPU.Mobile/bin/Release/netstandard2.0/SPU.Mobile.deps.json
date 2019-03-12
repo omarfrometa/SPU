@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "00b96aab0efb9257442813699975c4e516987faa"
+    "signature": "b95284dd9df201854a7023d2c890e0a56d20ef15"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,6 +11,7 @@
         "dependencies": {
           "Acr.UserDialogs": "7.0.1",
           "NETStandard.Library": "2.0.3",
+          "Plugin.FirebasePushNotification": "2.3.5",
           "Prism.Core": "7.0.0.396",
           "Prism.Forms": "7.0.0.396",
           "Prism.Unity.Forms": "7.0.0.396",
@@ -18,8 +19,10 @@
           "Realm": "3.4.0",
           "Syncfusion.Xamarin.Core": "16.4.0.48",
           "Syncfusion.Xamarin.SfRotator": "16.4.0.48",
+          "Xam.Plugin.Media": "4.0.1.5",
           "Xamarin.Essentials": "1.0.1",
-          "Xamarin.Forms": "3.3.0.967583"
+          "Xamarin.Forms": "3.5.0.169047",
+          "Xamarin.Plugin.FilePicker": "2.0.135"
         },
         "runtime": {
           "SPU.Mobile.dll": {}
@@ -83,6 +86,29 @@
           }
         }
       },
+      "Plugin.FirebasePushNotification/2.3.5": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Plugin.FirebasePushNotification.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard1.0/Plugin.FirebasePushNotification.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Plugin.Permissions/3.0.0.12": {
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Permissions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Prism.Core/7.0.0.396": {
         "runtime": {
           "lib/netstandard2.0/Prism.dll": {
@@ -94,7 +120,7 @@
       "Prism.Forms/7.0.0.396": {
         "dependencies": {
           "Prism.Core": "7.0.0.396",
-          "Xamarin.Forms": "3.3.0.967583"
+          "Xamarin.Forms": "3.5.0.169047"
         },
         "runtime": {
           "lib/netstandard2.0/Prism.Forms.dll": {
@@ -206,7 +232,7 @@
       "Syncfusion.Xamarin.SfRotator/16.4.0.48": {
         "dependencies": {
           "Syncfusion.Xamarin.Core": "16.4.0.48",
-          "Xamarin.Forms": "3.3.0.967583"
+          "Xamarin.Forms": "3.5.0.169047"
         },
         "runtime": {
           "lib/netstandard1.0/Syncfusion.SfRotator.XForms.dll": {
@@ -747,6 +773,17 @@
           }
         }
       },
+      "Xam.Plugin.Media/4.0.1.5": {
+        "dependencies": {
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Media.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Xamarin.Essentials/1.0.1": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -758,7 +795,7 @@
           }
         }
       },
-      "Xamarin.Forms/3.3.0.967583": {
+      "Xamarin.Forms/3.5.0.169047": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
@@ -771,6 +808,18 @@
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Plugin.FilePicker/2.0.135": {
+        "runtime": {
+          "lib/netstandard1.0/Plugin.FilePicker.Abstractions.dll": {
+            "assemblyVersion": "2.0.135.0",
+            "fileVersion": "2.0.135.0"
+          },
+          "lib/netstandard1.0/Plugin.FilePicker.dll": {
+            "assemblyVersion": "2.0.135.0",
+            "fileVersion": "2.0.135.0"
           }
         }
       }
@@ -830,6 +879,20 @@
       "sha512": "sha512-wBM7i7i3U2WX0ecor4zdVGvgrwFUjuigBoHKiL+nH39fCOpCPjBY3RDqJM32edvdyTAVdjzlccHsg41+/+zpSA==",
       "path": "newtonsoft.json/10.0.3",
       "hashPath": "newtonsoft.json.10.0.3.nupkg.sha512"
+    },
+    "Plugin.FirebasePushNotification/2.3.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VCdf6Fcm0WEy0rb0V73uBkFqDj5bQadGWsc2Fpi+yfg1eZ/rkaVVr3mQAm8q0pLhu4Ky1GvHGa31AAiEhrNW8w==",
+      "path": "plugin.firebasepushnotification/2.3.5",
+      "hashPath": "plugin.firebasepushnotification.2.3.5.nupkg.sha512"
+    },
+    "Plugin.Permissions/3.0.0.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VrYqI/ufk3bH6gTP1JJlLByjhS0CHu3riKmdozhX9/qXA9hlvLolmcqKJdyAqpzmrVC74m3ZtirUBIrBxvT1Lw==",
+      "path": "plugin.permissions/3.0.0.12",
+      "hashPath": "plugin.permissions.3.0.0.12.nupkg.sha512"
     },
     "Prism.Core/7.0.0.396": {
       "type": "package",
@@ -1202,6 +1265,13 @@
       "path": "unity/5.5.5",
       "hashPath": "unity.5.5.5.nupkg.sha512"
     },
+    "Xam.Plugin.Media/4.0.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a5l/M2Tl06BqBX/uhM/pr+q1jDkh2tRQr5Ne9rjAuD9VYn5STE+7kVFTzIUNPMnMr9PZLJkWP5WAr/tBN5oepw==",
+      "path": "xam.plugin.media/4.0.1.5",
+      "hashPath": "xam.plugin.media.4.0.1.5.nupkg.sha512"
+    },
     "Xamarin.Essentials/1.0.1": {
       "type": "package",
       "serviceable": true,
@@ -1209,12 +1279,19 @@
       "path": "xamarin.essentials/1.0.1",
       "hashPath": "xamarin.essentials.1.0.1.nupkg.sha512"
     },
-    "Xamarin.Forms/3.3.0.967583": {
+    "Xamarin.Forms/3.5.0.169047": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-aebAEUHkER6WRo4WpsDd8jq4EudSl3WS4n7Pxcq8ea+x9fHi9PstCU0dU2D5PGvSeKa3yEFSpRljOEjI7qtsNA==",
-      "path": "xamarin.forms/3.3.0.967583",
-      "hashPath": "xamarin.forms.3.3.0.967583.nupkg.sha512"
+      "sha512": "sha512-ybupzRr8C93lEDyeCI4am3XTervm+4nhBVdb8StYS/ZRLQdvjrGyKkAonz/TGbz7Sjln05KDWwQts4moE9HUgg==",
+      "path": "xamarin.forms/3.5.0.169047",
+      "hashPath": "xamarin.forms.3.5.0.169047.nupkg.sha512"
+    },
+    "Xamarin.Plugin.FilePicker/2.0.135": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5aRpZYfrW2sp+8TPqeibx6gmj2Ljl2C9sCkjbUCbrqoMMcfav0eUv8mFMSmCt4kAXBcfoBZnuACcLlKqr79hZQ==",
+      "path": "xamarin.plugin.filepicker/2.0.135",
+      "hashPath": "xamarin.plugin.filepicker.2.0.135.nupkg.sha512"
     }
   }
 }

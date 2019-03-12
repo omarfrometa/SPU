@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.14.0 (explicit/000780ca82c Fri Jan 11 12:38:08 EST 2019)"
+	.asciz "Mono AOT Compiler 5.14.0 (explicit/b538187892a Fri Feb  1 12:00:36 EST 2019)"
 	.asciz "Acr.UserDialogs.dll"
 	.asciz ""
 
@@ -414,7 +414,7 @@ TTG_TTGSnackbar_get_TopMargin:
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 
@@ -454,7 +454,7 @@ TTG_TTGSnackbar_get_LeftMargin:
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 
@@ -494,7 +494,7 @@ TTG_TTGSnackbar_get_RightMargin:
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 
@@ -534,7 +534,7 @@ TTG_TTGSnackbar_get_BottomMargin:
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 
@@ -1073,7 +1073,7 @@ bl _p_15
 .word 0xaa0003e1
 .word 0xaa1a03e0
 .word 0xf9400342
-.word 0xf941c450
+.word 0xf941e850
 .word 0xd63f0200
 .word 0xaa1a03e0
 .word 0x3940035e
@@ -1144,7 +1144,7 @@ bl _p_23
 .word 0xf941e7a2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf941c450
+.word 0xf941e850
 .word 0xd63f0200
 .word 0xf941e3a2
 .word 0xaa0203e0
@@ -1208,7 +1208,7 @@ bl _p_23
 .word 0xf941cba2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf941c450
+.word 0xf941e850
 .word 0xd63f0200
 .word 0xf941c7a2
 .word 0xaa0203e0
@@ -1257,7 +1257,7 @@ bl _p_23
 .word 0xf941b7a2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf941c450
+.word 0xf941e850
 .word 0xd63f0200
 .word 0xf941b3a0
 .word 0xf9003340
@@ -1385,7 +1385,7 @@ bl _p_23
 .word 0xf9419ba2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf941c450
+.word 0xf941e850
 .word 0xd63f0200
 .word 0xf94197a0
 .word 0xf9003740
@@ -1513,7 +1513,7 @@ bl _p_37
 .word 0xf9417fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf941c450
+.word 0xf941e850
 .word 0xd63f0200
 .word 0xf9417ba0
 .word 0xf9003f40
@@ -2179,7 +2179,7 @@ bl _p_45
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -2244,7 +2244,7 @@ bl _p_50
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 
@@ -2333,7 +2333,7 @@ ldr x2, [x16, #16]
 .word 0x9a9f17e1
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9419850
+.word 0xf941b450
 .word 0xd63f0200
 .word 0xf9403342
 .word 0xf9401b40
@@ -2342,7 +2342,7 @@ ldr x2, [x16, #16]
 .word 0x9a9f17e1
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9419850
+.word 0xf941b450
 .word 0xd63f0200
 .word 0xf9403742
 .word 0xf9401f40
@@ -2351,27 +2351,27 @@ ldr x2, [x16, #16]
 .word 0x9a9f17e1
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9419850
+.word 0xf941b450
 .word 0xd63f0200
 .word 0xf9403f40
 .word 0xf9003fa0
 .word 0xf9403341
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9419c30
+.word 0xf941b830
 .word 0xd63f0200
 .word 0xf9403fa2
 .word 0x53001c01
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9419850
+.word 0xf941b450
 .word 0xd63f0200
 .word 0xf9406340
 .word 0xf9003ba0
 .word 0xf9403b41
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9419c30
+.word 0xf941b830
 .word 0xd63f0200
 .word 0xf9403ba1
 .word 0x53001c00
@@ -2396,7 +2396,7 @@ bl _p_53
 .word 0xf9403341
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9419c30
+.word 0xf941b830
 .word 0xd63f0200
 .word 0xf9403ba1
 .word 0x53001c00
@@ -2405,7 +2405,7 @@ bl _p_53
 .word 0xf9403741
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9419c30
+.word 0xf941b830
 .word 0xd63f0200
 .word 0x53001c00
 .word 0x350000e0
@@ -2434,7 +2434,7 @@ bl _p_53
 .word 0xf9403741
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9419c30
+.word 0xf941b830
 .word 0xd63f0200
 .word 0xf9403ba1
 .word 0x53001c00
@@ -2443,7 +2443,7 @@ bl _p_53
 .word 0xf9403341
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9419c30
+.word 0xf941b830
 .word 0xd63f0200
 .word 0x53001c00
 .word 0x350000e0
@@ -2683,7 +2683,7 @@ bl _p_61
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -2755,7 +2755,7 @@ bl _p_51
 .word 0xf90037a0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf941a830
+.word 0xf941c830
 .word 0xd63f0200
 .word 0xf94037be
 .word 0xfd0003c0
@@ -2767,7 +2767,7 @@ bl _p_51
 .word 0x350000da
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf9420c30
+.word 0xf9423430
 .word 0xd63f0200
 .word 0x14000133
 
@@ -3118,7 +3118,7 @@ bl _p_66
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -3194,7 +3194,7 @@ bl _p_51
 .word 0xf90027a0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf941a830
+.word 0xf941c830
 .word 0xd63f0200
 .word 0xf94027be
 .word 0xfd0003c0
@@ -3412,7 +3412,7 @@ bl _p_68
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -4229,7 +4229,7 @@ bl _p_23
 .word 0xf94093a2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf941c450
+.word 0xf941e850
 .word 0xd63f0200
 
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+0
@@ -4264,7 +4264,7 @@ bl _p_80
 .word 0xf9401f41
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf941c450
+.word 0xf941e850
 .word 0xd63f0200
 .word 0xf9407fa2
 .word 0xaa0203e0
@@ -4447,7 +4447,7 @@ bl _p_91
 .word 0xf9418fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf941c450
+.word 0xf941e850
 .word 0xd63f0200
 .word 0xf9418ba1
 .word 0xaa0103e0
@@ -4577,7 +4577,7 @@ bl _p_19
 .word 0xf9416ba2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf941c450
+.word 0xf941e850
 .word 0xd63f0200
 .word 0xf94167a2
 .word 0xaa0203e0
@@ -4634,7 +4634,7 @@ bl _p_19
 .word 0xf94157a2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf941c450
+.word 0xf941e850
 .word 0xd63f0200
 .word 0xf94153a0
 .word 0xaa0003f6
@@ -4684,7 +4684,7 @@ bl _p_94
 .word 0xf94147a2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf941c450
+.word 0xf941e850
 .word 0xd63f0200
 .word 0xf94143a0
 .word 0xaa0003f5
@@ -5321,7 +5321,7 @@ bl _p_45
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -5386,7 +5386,7 @@ bl _p_50
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 
@@ -5596,7 +5596,7 @@ bl _p_77
 .word 0xf9004ba0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf941a830
+.word 0xf941c830
 .word 0xd63f0200
 .word 0xf9404bbe
 .word 0xfd0003c0
@@ -5657,7 +5657,7 @@ bl _p_77
 .word 0xfd4023a2
 .word 0xfd4027a3
 .word 0xf9400021
-.word 0xf941a430
+.word 0xf941c430
 .word 0xd63f0200
 .word 0xf9403721
 .word 0xd280001e
@@ -5884,7 +5884,7 @@ bl _p_66
 .word 0x910003bf
 .word 0xa8ce7bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -17172,7 +17172,7 @@ bl _p_145
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -17607,7 +17607,7 @@ bl _p_165
 .word 0x910003bf
 .word 0xa8cd7bfd
 .word 0xd65f03c0
-.word 0xd2802340
+.word 0xd2802360
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801980
@@ -18071,7 +18071,7 @@ bl _p_145
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -18171,7 +18171,7 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -18293,7 +18293,7 @@ ldr x0, [x16, #1992]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -18400,7 +18400,7 @@ ldr x0, [x16, #2024]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -18493,7 +18493,7 @@ ldr x0, [x16, #2056]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -18800,7 +18800,7 @@ ldr x0, [x16, #728]
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -19098,7 +19098,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -19191,7 +19191,7 @@ ldr x0, [x16, #2216]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -19298,7 +19298,7 @@ ldr x0, [x16, #2248]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -19514,7 +19514,7 @@ bl _p_178
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -19697,7 +19697,7 @@ bl _p_181
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -19846,7 +19846,7 @@ bl _p_40
 .word 0xaa1903e0
 .word 0xaa1a03e1
 .word 0xf9400323
-.word 0xf9409470
+.word 0xf9409870
 .word 0xd63f0200
 .word 0xf9401fa0
 .word 0xaa1903e1
@@ -19858,7 +19858,7 @@ bl _p_184
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -20079,7 +20079,7 @@ ldr x3, [x16, #16]
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -20283,7 +20283,7 @@ ldr x3, [x16, #16]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -20428,7 +20428,7 @@ bl _p_188
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -20736,7 +20736,7 @@ bl _p_194
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -21505,7 +21505,7 @@ bl _p_77
 .word 0xf9003fa0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf941a830
+.word 0xf941c830
 .word 0xd63f0200
 .word 0xf9403fbe
 .word 0xfd0003c0
@@ -21548,7 +21548,7 @@ bl _p_77
 .word 0xfd4017a2
 .word 0xfd401ba3
 .word 0xf9400021
-.word 0xf941a430
+.word 0xf941c430
 .word 0xd63f0200
 .word 0xf9400bba
 .word 0x910003bf
@@ -21640,7 +21640,7 @@ bl _p_77
 .word 0xf9002fa0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf941a830
+.word 0xf941c830
 .word 0xd63f0200
 .word 0xf9402fbe
 .word 0xfd0003c0
@@ -21685,13 +21685,13 @@ bl _p_77
 .word 0xfd4017a2
 .word 0xfd401ba3
 .word 0xf9400021
-.word 0xf941a430
+.word 0xf941c430
 .word 0xd63f0200
 .word 0xf9400bba
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 
@@ -22436,7 +22436,7 @@ bl _p_219
 .word 0x910003bf
 .word 0xa8dc7bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -23003,7 +23003,7 @@ bl _p_228
 .word 0x910003bf
 .word 0xa8d97bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -23567,7 +23567,7 @@ bl _p_237
 .word 0x910003bf
 .word 0xa8d97bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -24134,7 +24134,7 @@ bl _p_246
 .word 0x910003bf
 .word 0xa8d97bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -24701,7 +24701,7 @@ bl _p_255
 .word 0x910003bf
 .word 0xa8d97bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -25268,7 +25268,7 @@ bl _p_264
 .word 0x910003bf
 .word 0xa8d97bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -25835,7 +25835,7 @@ bl _p_273
 .word 0x910003bf
 .word 0xa8d97bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -26196,7 +26196,7 @@ bl _p_184
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -26471,7 +26471,7 @@ bl _p_184
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -27035,7 +27035,7 @@ bl _p_283
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -27506,7 +27506,7 @@ bl _p_283
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -27953,7 +27953,7 @@ bl _p_293
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -28179,7 +28179,7 @@ bl _p_298
 .word 0xf940a3a2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf941c450
+.word 0xf941e850
 .word 0xd63f0200
 .word 0xf9400b40
 .word 0xaa0003e1
@@ -28494,7 +28494,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8d67bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -28634,7 +28634,7 @@ bl _p_178
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -28802,7 +28802,7 @@ ldr x2, [x16, #16]
 .word 0xf9400b41
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf941d030
+.word 0xf941f030
 .word 0xd63f0200
 .word 0xb5000e00
 bl _p_46
@@ -29011,7 +29011,7 @@ bl _p_178
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -29033,7 +29033,7 @@ Acr_UserDialogs_UserDialogsImpl__c__DisplayClass16_0__Presentb__2:
 .word 0xd2800021
 .word 0xd2800002
 .word 0xf9400063
-.word 0xf941b070
+.word 0xf941cc70
 .word 0xd63f0200
 .word 0x910003bf
 .word 0xa8c27bfd
@@ -29157,7 +29157,7 @@ bl _p_178
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -29179,7 +29179,7 @@ Acr_UserDialogs_UserDialogsImpl__c__DisplayClass17_0__Presentb__2:
 .word 0xd2800021
 .word 0xd2800002
 .word 0xf9400063
-.word 0xf941b070
+.word 0xf941cc70
 .word 0xd63f0200
 .word 0x910003bf
 .word 0xa8c27bfd
@@ -29298,7 +29298,7 @@ bl _p_309
 .word 0x34000140
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0xf9419c30
+.word 0xf941b830
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xd2800001
@@ -30281,7 +30281,7 @@ b System_Nullable_1_bool__ctor_bool
 	.align 4
 	.no_dead_strip System_Nullable_1_bool__ctor_bool
 System_Nullable_1_bool__ctor_bool:
-.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/src/Xamarin.iOS/mcs/class/corlib/System/Nullable.cs"
+.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.15/src/Xamarin.iOS/mcs/class/corlib/System/Nullable.cs"
 .loc 2 94 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -32221,7 +32221,7 @@ b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_TResult_BOOL_Create
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_TResult_BOOL_Create
 System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_TResult_BOOL_Create:
-.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/AsyncMethodBuilder.cs"
+.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.15/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/AsyncMethodBuilder.cs"
 .loc 3 444 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -32434,7 +32434,7 @@ bl _p_351
 .word 0xa8c47bfd
 .word 0xd65f03c0
 .loc 3 610 0
-.word 0xd2932240
+.word 0xd2934080
 .word 0xf2a00020
 bl _p_329
 .word 0xaa0003e1
@@ -32575,7 +32575,7 @@ bl _p_357
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .loc 3 649 0
-.word 0xd28c6400
+.word 0xd28c8240
 .word 0xf2a00020
 bl _p_329
 .word 0xaa0003e1
@@ -32584,7 +32584,7 @@ bl _p_329
 bl _mono_create_corlib_exception_1
 bl _p_147
 .loc 3 675 0
-.word 0xd2932240
+.word 0xd2934080
 .word 0xf2a00020
 bl _p_329
 .word 0xaa0003e1
@@ -33121,7 +33121,7 @@ Lme_2d6:
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_BOOL__ctor
 System_Threading_Tasks_Task_1_TResult_BOOL__ctor:
-.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Threading/Tasks/Future.cs"
+.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.15/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Threading/Tasks/Future.cs"
 .loc 4 84 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -33437,7 +33437,7 @@ bl _p_377
 .word 0xa8c77bfd
 .word 0xd65f03c0
 .loc 4 347 0
-.word 0xd28bbbc0
+.word 0xd28bda00
 .word 0xf2a00020
 bl _p_329
 .word 0xaa0003e1
@@ -33446,7 +33446,7 @@ bl _p_329
 bl _mono_create_corlib_exception_1
 bl _p_147
 .loc 4 351 0
-.word 0xd28bbe00
+.word 0xd28bdc40
 .word 0xf2a00020
 bl _p_329
 .word 0xaa0003e1
@@ -33513,7 +33513,7 @@ bl _p_377
 .word 0xa8c87bfd
 .word 0xd65f03c0
 .loc 4 367 0
-.word 0xd28bbbc0
+.word 0xd28bda00
 .word 0xf2a00020
 bl _p_329
 .word 0xaa0003e1
@@ -33522,7 +33522,7 @@ bl _p_329
 bl _mono_create_corlib_exception_1
 bl _p_147
 .loc 4 371 0
-.word 0xd28bbe00
+.word 0xd28bdc40
 .word 0xf2a00020
 bl _p_329
 .word 0xaa0003e1
@@ -33611,7 +33611,7 @@ bl _p_382
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 
@@ -34133,7 +34133,7 @@ bl _p_407
 .word 0xa8c87bfd
 .word 0xd65f03c0
 .loc 4 745 0
-.word 0xd28bbe00
+.word 0xd28bdc40
 .word 0xf2a00020
 bl _p_329
 .word 0xaa0003e1
@@ -34141,7 +34141,7 @@ bl _p_329
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_147
-.word 0xd28bc080
+.word 0xd28bdec0
 .word 0xf2a00020
 .loc 4 740 0
 bl _p_329
@@ -34156,7 +34156,7 @@ Lme_2ed:
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_TResult_BOOL__ctor
 System_Threading_Tasks_TaskFactory_1_TResult_BOOL__ctor:
-.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Threading/Tasks/FutureFactory.cs"
+.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.15/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Threading/Tasks/FutureFactory.cs"
 .loc 5 93 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -34246,7 +34246,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28c02a0
+.word 0xd28c20e0
 .word 0xf2a00020
 bl _p_329
 .word 0xaa0003e1
@@ -34815,7 +34815,7 @@ bl _p_428
 .word 0xa8cc7bfd
 .word 0xd65f03c0
 .loc 5 774 0
-.word 0xd28bcd80
+.word 0xd28bebc0
 .word 0xf2a00020
 bl _p_329
 .word 0xaa0003e1
@@ -34823,7 +34823,7 @@ bl _p_329
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_147
-.word 0xd28bca80
+.word 0xd28be8c0
 .word 0xf2a00020
 .loc 5 771 0
 bl _p_329
@@ -34832,7 +34832,7 @@ bl _p_329
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_147
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
@@ -36531,7 +36531,7 @@ Lme_30f:
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_get_Count
 System_Array_InternalArray__ICollection_get_Count:
-.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
+.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.15/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
 .loc 6 60 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -36568,7 +36568,7 @@ System_Array_InternalArray__ICollection_Clear:
 .word 0xd28900a0
 bl _p_329
 .word 0xaa0003e1
-.word 0xd2802240
+.word 0xd2802260
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_147
@@ -36590,7 +36590,7 @@ System_Array_InternalArray__ICollection_Add_T_REF_T_REF:
 .word 0xd28906a0
 bl _p_329
 .word 0xaa0003e1
-.word 0xd2802240
+.word 0xd2802260
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_147
@@ -36612,7 +36612,7 @@ System_Array_InternalArray__ICollection_Remove_T_REF_T_REF:
 .word 0xd28906a0
 bl _p_329
 .word 0xaa0003e1
-.word 0xd2802240
+.word 0xd2802260
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_147
@@ -36686,7 +36686,7 @@ bl _p_433
 .word 0xd2890e20
 bl _p_329
 .word 0xaa0003e1
-.word 0xd28023e0
+.word 0xd2802400
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_147
@@ -41204,7 +41204,7 @@ Lme_36a:
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL__ctor
 System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL__ctor:
-.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Threading/Tasks/TaskCompletionSource.cs"
+.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.15/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Threading/Tasks/TaskCompletionSource.cs"
 .loc 7 58 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -41273,6 +41273,32 @@ bl _p_461
 Lme_36c:
 .text
 	.align 4
+	.no_dead_strip System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL__ctor_object
+System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL__ctor_object:
+.loc 7 88 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf9400ba0
+.word 0x3940001e
+.word 0xf90013a0
+.word 0xf9400ba0
+.word 0xf9400000
+bl _p_462
+.word 0xaa0003e3
+.word 0xf94013a0
+.word 0xf9400fa1
+.word 0xd2800002
+.word 0xd63f0060
+.loc 7 90 0
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_36d:
+.text
+	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL__ctor_object_System_Threading_Tasks_TaskCreationOptions
 System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL__ctor_object_System_Threading_Tasks_TaskCreationOptions:
 .loc 7 106 0 prologue_end
@@ -41285,13 +41311,13 @@ System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL__ctor_object_System_T
 .word 0xf9001fa0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_462
+bl _p_463
 .word 0xd2800a01
 bl _p_33
 .word 0xf90023a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_463
+bl _p_464
 .word 0xaa0003e3
 .word 0xf94023a0
 .word 0xf9001ba0
@@ -41318,7 +41344,7 @@ ldr x2, [x16, #16]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_36d:
+Lme_36e:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_get_Task
@@ -41333,7 +41359,7 @@ System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_get_Task:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_36e:
+Lme_36f:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SpinUntilCompleted
@@ -41347,7 +41373,7 @@ System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SpinUntilCompleted:
 .word 0x14000003
 .loc 7 131 0
 .word 0x910063a0
-bl _p_464
+bl _p_465
 .loc 7 130 0
 .word 0xf9400ba0
 .word 0xf9400800
@@ -41369,7 +41395,7 @@ bl _p_464
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_36f:
+Lme_370:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetException_System_Exception
@@ -41412,7 +41438,7 @@ bl _p_356
 .word 0xf90013a0
 .word 0xf9400fa0
 .word 0xf9400000
-bl _p_465
+bl _p_466
 .word 0xaa0003e1
 .word 0xf94013a0
 .word 0xd63f0020
@@ -41424,10 +41450,10 @@ bl _p_465
 .word 0xd65f03c0
 .loc 7 154 0
 .word 0xd2800400
-bl _p_466
+bl _p_467
 .word 0x17ffffd8
 
-Lme_370:
+Lme_371:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SetException_System_Exception
@@ -41445,7 +41471,7 @@ System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SetException_System_E
 .word 0xf90013a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_467
+bl _p_468
 .word 0xaa0003e2
 .word 0xf94013a0
 .word 0xf9400fa1
@@ -41458,15 +41484,15 @@ bl _p_467
 .word 0xd65f03c0
 .loc 7 220 0
 .word 0xd2800400
-bl _p_466
+bl _p_467
 .word 0x17ffffef
 .loc 7 224 0
 .word 0xd28005c0
-bl _p_468
+bl _p_469
 .loc 7 226 0
 .word 0x17fffff8
 
-Lme_371:
+Lme_372:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetResult_TResult_BOOL
@@ -41483,7 +41509,7 @@ System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetResult_TResult_
 .word 0xf9001ba0
 .word 0xf9400fa0
 .word 0xf9400000
-bl _p_469
+bl _p_470
 .word 0xaa0003e2
 .word 0xf9401ba0
 .word 0x394083a1
@@ -41497,7 +41523,7 @@ bl _p_469
 .word 0xf9001ba0
 .word 0xf9400fa0
 .word 0xf9400000
-bl _p_470
+bl _p_471
 .word 0xaa0003e1
 .word 0xf9401ba0
 .word 0xd63f0020
@@ -41508,7 +41534,7 @@ bl _p_470
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_372:
+Lme_373:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SetResult_TResult_BOOL
@@ -41523,7 +41549,7 @@ System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SetResult_TResult_BOO
 .word 0xf90013a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_471
+bl _p_472
 .word 0xaa0003e2
 .word 0xf94013a0
 .word 0x394063a1
@@ -41536,11 +41562,11 @@ bl _p_471
 .word 0xd65f03c0
 .loc 7 298 0
 .word 0xd28005c0
-bl _p_468
+bl _p_469
 .loc 7 299 0
 .word 0x17fffffb
 
-Lme_373:
+Lme_374:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetCanceled
@@ -41555,7 +41581,7 @@ System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetCanceled:
 .word 0xf90013a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_472
+bl _p_473
 .word 0xaa0003e2
 .word 0xf94013a0
 .word 0xf9400fa1
@@ -41565,7 +41591,7 @@ bl _p_472
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_374:
+Lme_375:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetCanceled_System_Threading_CancellationToken
@@ -41580,7 +41606,7 @@ System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetCanceled_System
 .word 0xaa0203e0
 .word 0xf9400fa1
 .word 0x3940005e
-bl _p_473
+bl _p_474
 .word 0x53001c00
 .loc 7 325 0
 .word 0xaa0003e1
@@ -41606,7 +41632,7 @@ bl _p_473
 .word 0xf9001ba0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_474
+bl _p_475
 .word 0xaa0003e1
 .word 0xf9401ba0
 .word 0xd63f0020
@@ -41616,7 +41642,7 @@ bl _p_474
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_375:
+Lme_376:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SetCanceled
@@ -41630,7 +41656,7 @@ System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SetCanceled:
 .word 0xf90013a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_475
+bl _p_476
 .word 0xaa0003e1
 .word 0xf94013a0
 .word 0xd63f0020
@@ -41642,11 +41668,11 @@ bl _p_475
 .word 0xd65f03c0
 .loc 7 346 0
 .word 0xd28005c0
-bl _p_468
+bl _p_469
 .loc 7 347 0
 .word 0x17fffffb
 
-Lme_376:
+Lme_377:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_bool_invoke_void_T_bool
@@ -41720,16 +41746,16 @@ bl _p_328
 .word 0xaa1103e1
 bl _p_5
 
-Lme_37b:
+Lme_37c:
 .text
-ut_892:
+ut_893:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL
 System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL:
-.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Runtime/CompilerServices/TaskAwaiter.cs"
+.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.15/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Runtime/CompilerServices/TaskAwaiter.cs"
 .loc 8 271 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -41755,9 +41781,9 @@ ldr x2, [x16, #16]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_37c:
+Lme_37d:
 .text
-ut_893:
+ut_894:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_get_IsCompleted
 .text
@@ -41787,9 +41813,9 @@ System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_get_IsCompleted:
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_37d:
+Lme_37e:
 .text
-ut_894:
+ut_895:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_OnCompleted_System_Action
 .text
@@ -41807,15 +41833,15 @@ System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_OnCompleted_System_Ac
 .word 0xf9400fa1
 .word 0xd2800022
 .word 0xd2800023
-bl _p_476
+bl _p_477
 .loc 8 290 0
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_37e:
+Lme_37f:
 .text
-ut_895:
+ut_896:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_UnsafeOnCompleted_System_Action
 .text
@@ -41833,15 +41859,15 @@ System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_UnsafeOnCompleted_Sys
 .word 0xf9400fa1
 .word 0xd2800022
 .word 0xd2800003
-bl _p_476
+bl _p_477
 .loc 8 300 0
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_37f:
+Lme_380:
 .text
-ut_896:
+ut_897:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_GetResult
 .text
@@ -41855,7 +41881,7 @@ System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_GetResult:
 .word 0xf9000ba0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_477
+bl _p_478
 .loc 8 311 0
 .word 0xf9400ba0
 .word 0xf9400000
@@ -41866,7 +41892,7 @@ bl _p_477
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_380:
+Lme_381:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_Acr_UserDialogs_DatePromptResult_invoke_void_T_Acr_UserDialogs_DatePromptResult
@@ -41940,7 +41966,7 @@ bl _p_328
 .word 0xaa1103e1
 bl _p_5
 
-Lme_381:
+Lme_382:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_Acr_UserDialogs_TimePromptResult_invoke_void_T_Acr_UserDialogs_TimePromptResult
@@ -42014,7 +42040,7 @@ bl _p_328
 .word 0xaa1103e1
 bl _p_5
 
-Lme_382:
+Lme_383:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_Acr_UserDialogs_LoginResult_invoke_void_T_Acr_UserDialogs_LoginResult
@@ -42088,7 +42114,7 @@ bl _p_328
 .word 0xaa1103e1
 bl _p_5
 
-Lme_383:
+Lme_384:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_Acr_UserDialogs_PromptResult_invoke_void_T_Acr_UserDialogs_PromptResult
@@ -42162,7 +42188,7 @@ bl _p_328
 .word 0xaa1103e1
 bl _p_5
 
-Lme_384:
+Lme_385:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_UIKit_UITextField_invoke_void_T_UIKit_UITextField
@@ -42236,7 +42262,7 @@ bl _p_328
 .word 0xaa1103e1
 bl _p_5
 
-Lme_385:
+Lme_386:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__Insert_T_REF_int_T_REF
@@ -42251,7 +42277,7 @@ System_Array_InternalArray__Insert_T_REF_int_T_REF:
 .word 0xd28906a0
 bl _p_329
 .word 0xaa0003e1
-.word 0xd2802240
+.word 0xd2802260
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_147
@@ -42259,7 +42285,7 @@ bl _p_147
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_386:
+Lme_387:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__RemoveAt_int
@@ -42272,7 +42298,7 @@ System_Array_InternalArray__RemoveAt_int:
 .word 0xd28906a0
 bl _p_329
 .word 0xaa0003e1
-.word 0xd2802240
+.word 0xd2802260
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_147
@@ -42280,7 +42306,7 @@ bl _p_147
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_387:
+Lme_388:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IndexOf_T_REF_T_REF
@@ -42306,7 +42332,7 @@ System_Array_InternalArray__IndexOf_T_REF_T_REF:
 .word 0x14000024
 .loc 6 154 0
 .word 0xf9401fa0
-bl _p_478
+bl _p_479
 .word 0x93407ee0
 .word 0xd37df000
 .word 0x8b000320
@@ -42366,12 +42392,12 @@ bl _p_478
 .word 0xd2890e20
 bl _p_329
 .word 0xaa0003e1
-.word 0xd28023e0
+.word 0xd2802400
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_147
 
-Lme_388:
+Lme_389:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__get_Item_T_REF_int
@@ -42389,7 +42415,7 @@ System_Array_InternalArray__get_Item_T_REF_int:
 .word 0x540001c2
 .loc 6 179 0
 .word 0xf94013a0
-bl _p_479
+bl _p_480
 .word 0x93407f40
 .word 0xd37df001
 .word 0xf9400fa0
@@ -42411,7 +42437,7 @@ bl _p_329
 bl _mono_create_corlib_exception_1
 bl _p_147
 
-Lme_389:
+Lme_38a:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__set_Item_T_REF_int_T_REF
@@ -42470,7 +42496,7 @@ ldr x0, [x16, #376]
 .word 0x14000014
 .loc 6 193 0
 .word 0xf9401fa0
-bl _p_480
+bl _p_481
 .word 0xb9802ba0
 .word 0x93407c00
 .word 0xd37df000
@@ -42504,7 +42530,7 @@ bl _p_329
 bl _mono_create_corlib_exception_1
 bl _p_147
 
-Lme_38a:
+Lme_38b:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_DateTime_object_intptr_intptr_intptr
@@ -42527,7 +42553,7 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x0, [x16, #3976]
 .word 0xb9400000
 .word 0x340000c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4000060
 .word 0xaa1703e0
@@ -42599,13 +42625,13 @@ bl _p_334
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4fffd20
 .word 0xaa1703e0
 bl _p_147
 
-Lme_38b:
+Lme_38c:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_bool_object_intptr_intptr_intptr
@@ -42628,7 +42654,7 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x0, [x16, #3976]
 .word 0xb9400000
 .word 0x340000c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4000060
 .word 0xaa1703e0
@@ -42696,13 +42722,13 @@ bl _p_330
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4fffd60
 .word 0xaa1703e0
 bl _p_147
 
-Lme_38c:
+Lme_38d:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_object_Nullable_1_CancellationToken_object_object_intptr_intptr_intptr
@@ -42726,7 +42752,7 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x0, [x16, #3976]
 .word 0xb9400000
 .word 0x340000c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4000060
 .word 0xaa1703e0
@@ -42819,13 +42845,13 @@ bl _p_450
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4fffbc0
 .word 0xaa1703e0
 bl _p_147
 
-Lme_38d:
+Lme_38e:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_void__this___object_Nullable_1_MaskType_object_intptr_intptr_intptr
@@ -42849,7 +42875,7 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x0, [x16, #3976]
 .word 0xb9400000
 .word 0x340000c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4000060
 .word 0xaa1703e0
@@ -42922,13 +42948,13 @@ bl _p_339
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4fffd00
 .word 0xaa1703e0
 bl _p_147
 
-Lme_38e:
+Lme_38f:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_object_byte_Nullable_1_MaskType_object_intptr_intptr_intptr
@@ -42952,7 +42978,7 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x0, [x16, #3976]
 .word 0xb9400000
 .word 0x340000c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4000060
 .word 0xaa1703e0
@@ -43047,13 +43073,13 @@ bl _p_339
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4fffba0
 .word 0xaa1703e0
 bl _p_147
 
-Lme_38f:
+Lme_390:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_Nullable_1_CancellationToken_object_intptr_intptr_intptr
@@ -43077,7 +43103,7 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x0, [x16, #3976]
 .word 0xb9400000
 .word 0x340000c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4000060
 .word 0xaa1703e0
@@ -43156,13 +43182,13 @@ bl _p_450
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4fffca0
 .word 0xaa1703e0
 bl _p_147
 
-Lme_390:
+Lme_391:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_object_Nullable_1_CancellationToken_object_intptr_intptr_intptr
@@ -43186,7 +43212,7 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x0, [x16, #3976]
 .word 0xb9400000
 .word 0x340000c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4000060
 .word 0xaa1703e0
@@ -43277,13 +43303,13 @@ bl _p_450
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4fffbe0
 .word 0xaa1703e0
 bl _p_147
 
-Lme_391:
+Lme_392:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_object_object_Nullable_1_CancellationToken_object_intptr_intptr_intptr
@@ -43307,7 +43333,7 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x0, [x16, #3976]
 .word 0xb9400000
 .word 0x340000c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4000060
 .word 0xaa1703e0
@@ -43404,13 +43430,13 @@ bl _p_450
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4fffb80
 .word 0xaa1703e0
 bl _p_147
 
-Lme_392:
+Lme_393:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_Nullable_1_DateTime_Nullable_1_CancellationToken_object_intptr_intptr_intptr
@@ -43434,7 +43460,7 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x0, [x16, #3976]
 .word 0xb9400000
 .word 0x340000c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4000060
 .word 0xaa1703e0
@@ -43539,13 +43565,13 @@ bl _p_450
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4fffb20
 .word 0xaa1703e0
 bl _p_147
 
-Lme_393:
+Lme_394:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_Nullable_1_TimeSpan_Nullable_1_CancellationToken_object_intptr_intptr_intptr
@@ -43569,7 +43595,7 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x0, [x16, #3976]
 .word 0xb9400000
 .word 0x340000c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4000060
 .word 0xaa1703e0
@@ -43674,13 +43700,13 @@ bl _p_450
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4fffb20
 .word 0xaa1703e0
 bl _p_147
 
-Lme_394:
+Lme_395:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_Nullable_1_CancellationToken_object_intptr_intptr_intptr
@@ -43704,7 +43730,7 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x0, [x16, #3976]
 .word 0xb9400000
 .word 0x340000c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4000060
 .word 0xaa1703e0
@@ -43789,13 +43815,13 @@ bl _p_450
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4fffc40
 .word 0xaa1703e0
 bl _p_147
 
-Lme_395:
+Lme_396:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_object_object_object_int_Nullable_1_CancellationToken_object_intptr_intptr_intptr
@@ -43823,7 +43849,7 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x0, [x16, #3976]
 .word 0xb9400000
 .word 0x340000c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4000060
 .word 0xaa1703e0
@@ -43938,13 +43964,13 @@ bl _p_450
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4fffa60
 .word 0xaa1703e0
 bl _p_147
 
-Lme_396:
+Lme_397:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_Nullable_1_TimeSpan_object_intptr_intptr_intptr
@@ -43968,7 +43994,7 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x0, [x16, #3976]
 .word 0xb9400000
 .word 0x340000c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4000060
 .word 0xaa1703e0
@@ -44047,13 +44073,13 @@ bl _p_429
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4fffca0
 .word 0xaa1703e0
 bl _p_147
 
-Lme_397:
+Lme_398:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_void_Nullable_1_int_object_intptr_intptr_intptr
@@ -44076,7 +44102,7 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x0, [x16, #3976]
 .word 0xb9400000
 .word 0x340000c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f8
 .word 0xb4000060
 .word 0xaa1803e0
@@ -44142,13 +44168,13 @@ bl _p_439
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f8
 .word 0xb4fffd80
 .word 0xaa1803e0
 bl _p_147
 
-Lme_398:
+Lme_399:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_int_object_intptr_intptr_intptr
@@ -44171,7 +44197,7 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x0, [x16, #3976]
 .word 0xb9400000
 .word 0x340000c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4000060
 .word 0xaa1703e0
@@ -44239,13 +44265,13 @@ bl _p_439
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4fffd60
 .word 0xaa1703e0
 bl _p_147
 
-Lme_399:
+Lme_39a:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_void_Nullable_1_bool_object_intptr_intptr_intptr
@@ -44268,7 +44294,7 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x0, [x16, #3976]
 .word 0xb9400000
 .word 0x340000c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f8
 .word 0xb4000060
 .word 0xaa1803e0
@@ -44334,13 +44360,13 @@ bl _p_330
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f8
 .word 0xb4fffd80
 .word 0xaa1803e0
 bl _p_147
 
-Lme_39a:
+Lme_39b:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_TimeSpan_object_intptr_intptr_intptr
@@ -44363,7 +44389,7 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x0, [x16, #3976]
 .word 0xb9400000
 .word 0x340000c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4000060
 .word 0xaa1703e0
@@ -44435,13 +44461,13 @@ bl _p_429
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4fffd20
 .word 0xaa1703e0
 bl _p_147
 
-Lme_39b:
+Lme_39c:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_Color_object_intptr_intptr_intptr
@@ -44464,7 +44490,7 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x0, [x16, #3976]
 .word 0xb9400000
 .word 0x340000c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4000060
 .word 0xaa1703e0
@@ -44542,13 +44568,13 @@ bl _p_443
 .word 0x910003bf
 .word 0xa8cf7bfd
 .word 0xd65f03c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4fffcc0
 .word 0xaa1703e0
 bl _p_147
 
-Lme_39c:
+Lme_39d:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_void_Nullable_1_Color_object_intptr_intptr_intptr
@@ -44571,7 +44597,7 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x0, [x16, #3976]
 .word 0xb9400000
 .word 0x340000c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f8
 .word 0xb4000060
 .word 0xaa1803e0
@@ -44647,13 +44673,13 @@ bl _p_443
 .word 0x910003bf
 .word 0xa8cf7bfd
 .word 0xd65f03c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f8
 .word 0xb4fffce0
 .word 0xaa1803e0
 bl _p_147
 
-Lme_39d:
+Lme_39e:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_void_Nullable_1_ToastPosition_object_intptr_intptr_intptr
@@ -44676,7 +44702,7 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x0, [x16, #3976]
 .word 0xb9400000
 .word 0x340000c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f8
 .word 0xb4000060
 .word 0xaa1803e0
@@ -44742,13 +44768,13 @@ bl _p_448
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f8
 .word 0xb4fffd80
 .word 0xaa1803e0
 bl _p_147
 
-Lme_39e:
+Lme_39f:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_ToastPosition_object_intptr_intptr_intptr
@@ -44771,7 +44797,7 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x0, [x16, #3976]
 .word 0xb9400000
 .word 0x340000c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4000060
 .word 0xaa1703e0
@@ -44839,13 +44865,13 @@ bl _p_448
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4fffd60
 .word 0xaa1703e0
 bl _p_147
 
-Lme_39f:
+Lme_3a0:
 .text
 	.align 4
 	.no_dead_strip wrapper_runtime_invoke__Module_runtime_invoke_object__this___Nullable_1_TimeSpan_object_intptr_intptr_intptr
@@ -44868,7 +44894,7 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x0, [x16, #3976]
 .word 0xb9400000
 .word 0x340000c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4000060
 .word 0xaa1703e0
@@ -44942,15 +44968,15 @@ bl _p_429
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-bl _p_481
+bl _p_482
 .word 0xaa0003f7
 .word 0xb4fffd00
 .word 0xaa1703e0
 bl _p_147
 
-Lme_3a0:
+Lme_3a1:
 .text
-ut_929:
+ut_930:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_Start_Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_
 .text
@@ -44970,9 +44996,9 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_Start_Acr_UserDi
 .word 0xf9400fa1
 .word 0x910083a0
 .word 0xd2801002
-bl _p_482
+bl _p_483
 .word 0x14000009
-.word 0xd2931d00
+.word 0xd2933b40
 .word 0xf2a00020
 bl _p_329
 .word 0xaa0003e1
@@ -44988,10 +45014,10 @@ bl _p_147
 .word 0xf9005fa0
 .loc 3 470 0
 .word 0x910283a0
-bl _p_483
+bl _p_484
 .loc 3 471 0
 .word 0xf9400fa0
-bl _p_484
+bl _p_485
 .loc 3 472 0
 .word 0xf90063bf
 .word 0x94000005
@@ -45002,7 +45028,7 @@ bl _p_214
 .word 0xf9006fbe
 .loc 3 475 0
 .word 0x910283a0
-bl _p_485
+bl _p_486
 .loc 3 476 0
 .word 0xf9406fbe
 .word 0xd61f03c0
@@ -45011,9 +45037,9 @@ bl _p_485
 .word 0xa8ce7bfd
 .word 0xd65f03c0
 
-Lme_3a1:
+Lme_3a2:
 .text
-ut_930:
+ut_931:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_
 .text
@@ -45033,9 +45059,9 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Acr_UserDialogs_Abs
 .word 0xf9400fa1
 .word 0x910083a0
 .word 0xd2800d02
-bl _p_482
+bl _p_483
 .word 0x14000009
-.word 0xd2931d00
+.word 0xd2933b40
 .word 0xf2a00020
 bl _p_329
 .word 0xaa0003e1
@@ -45051,10 +45077,10 @@ bl _p_147
 .word 0xf90053a0
 .loc 3 315 0
 .word 0x910223a0
-bl _p_483
+bl _p_484
 .loc 3 316 0
 .word 0xf9400fa0
-bl _p_486
+bl _p_487
 .loc 3 317 0
 .word 0xf90057bf
 .word 0x94000005
@@ -45065,7 +45091,7 @@ bl _p_214
 .word 0xf90063be
 .loc 3 320 0
 .word 0x910223a0
-bl _p_485
+bl _p_486
 .loc 3 321 0
 .word 0xf94063be
 .word 0xd61f03c0
@@ -45074,9 +45100,9 @@ bl _p_485
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_3a2:
+Lme_3a3:
 .text
-ut_931:
+ut_932:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_Start_Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_
 .text
@@ -45096,9 +45122,9 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_Start_Acr_UserDial
 .word 0xf9400fa1
 .word 0x910083a0
 .word 0xd2800d02
-bl _p_482
+bl _p_483
 .word 0x14000009
-.word 0xd2931d00
+.word 0xd2933b40
 .word 0xf2a00020
 bl _p_329
 .word 0xaa0003e1
@@ -45114,10 +45140,10 @@ bl _p_147
 .word 0xf90053a0
 .loc 3 470 0
 .word 0x910223a0
-bl _p_483
+bl _p_484
 .loc 3 471 0
 .word 0xf9400fa0
-bl _p_487
+bl _p_488
 .loc 3 472 0
 .word 0xf90057bf
 .word 0x94000005
@@ -45128,7 +45154,7 @@ bl _p_214
 .word 0xf90063be
 .loc 3 475 0
 .word 0x910223a0
-bl _p_485
+bl _p_486
 .loc 3 476 0
 .word 0xf94063be
 .word 0xd61f03c0
@@ -45137,9 +45163,9 @@ bl _p_485
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_3a3:
+Lme_3a4:
 .text
-ut_932:
+ut_933:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_DatePromptResult_Start_Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_
 .text
@@ -45159,9 +45185,9 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_DatePro
 .word 0xf9400fa1
 .word 0x910083a0
 .word 0xd2800d02
-bl _p_482
+bl _p_483
 .word 0x14000009
-.word 0xd2931d00
+.word 0xd2933b40
 .word 0xf2a00020
 bl _p_329
 .word 0xaa0003e1
@@ -45177,10 +45203,10 @@ bl _p_147
 .word 0xf90053a0
 .loc 3 470 0
 .word 0x910223a0
-bl _p_483
+bl _p_484
 .loc 3 471 0
 .word 0xf9400fa0
-bl _p_488
+bl _p_489
 .loc 3 472 0
 .word 0xf90057bf
 .word 0x94000005
@@ -45191,7 +45217,7 @@ bl _p_214
 .word 0xf90063be
 .loc 3 475 0
 .word 0x910223a0
-bl _p_485
+bl _p_486
 .loc 3 476 0
 .word 0xf94063be
 .word 0xd61f03c0
@@ -45200,9 +45226,9 @@ bl _p_485
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_3a4:
+Lme_3a5:
 .text
-ut_933:
+ut_934:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_TimePromptResult_Start_Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_
 .text
@@ -45222,9 +45248,9 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_TimePro
 .word 0xf9400fa1
 .word 0x910083a0
 .word 0xd2800d02
-bl _p_482
+bl _p_483
 .word 0x14000009
-.word 0xd2931d00
+.word 0xd2933b40
 .word 0xf2a00020
 bl _p_329
 .word 0xaa0003e1
@@ -45240,10 +45266,10 @@ bl _p_147
 .word 0xf90053a0
 .loc 3 470 0
 .word 0x910223a0
-bl _p_483
+bl _p_484
 .loc 3 471 0
 .word 0xf9400fa0
-bl _p_489
+bl _p_490
 .loc 3 472 0
 .word 0xf90057bf
 .word 0x94000005
@@ -45254,7 +45280,7 @@ bl _p_214
 .word 0xf90063be
 .loc 3 475 0
 .word 0x910223a0
-bl _p_485
+bl _p_486
 .loc 3 476 0
 .word 0xf94063be
 .word 0xd61f03c0
@@ -45263,9 +45289,9 @@ bl _p_485
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_3a5:
+Lme_3a6:
 .text
-ut_934:
+ut_935:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_LoginResult_Start_Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_
 .text
@@ -45285,9 +45311,9 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_LoginRe
 .word 0xf9400fa1
 .word 0x910083a0
 .word 0xd2800d02
-bl _p_482
+bl _p_483
 .word 0x14000009
-.word 0xd2931d00
+.word 0xd2933b40
 .word 0xf2a00020
 bl _p_329
 .word 0xaa0003e1
@@ -45303,10 +45329,10 @@ bl _p_147
 .word 0xf90053a0
 .loc 3 470 0
 .word 0x910223a0
-bl _p_483
+bl _p_484
 .loc 3 471 0
 .word 0xf9400fa0
-bl _p_490
+bl _p_491
 .loc 3 472 0
 .word 0xf90057bf
 .word 0x94000005
@@ -45317,7 +45343,7 @@ bl _p_214
 .word 0xf90063be
 .loc 3 475 0
 .word 0x910223a0
-bl _p_485
+bl _p_486
 .loc 3 476 0
 .word 0xf94063be
 .word 0xd61f03c0
@@ -45326,9 +45352,9 @@ bl _p_485
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_3a6:
+Lme_3a7:
 .text
-ut_935:
+ut_936:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_PromptResult_Start_Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_
 .text
@@ -45348,9 +45374,9 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_PromptR
 .word 0xf9400fa1
 .word 0x910083a0
 .word 0xd2800d02
-bl _p_482
+bl _p_483
 .word 0x14000009
-.word 0xd2931d00
+.word 0xd2933b40
 .word 0xf2a00020
 bl _p_329
 .word 0xaa0003e1
@@ -45366,10 +45392,10 @@ bl _p_147
 .word 0xf90053a0
 .loc 3 470 0
 .word 0x910223a0
-bl _p_483
+bl _p_484
 .loc 3 471 0
 .word 0xf9400fa0
-bl _p_491
+bl _p_492
 .loc 3 472 0
 .word 0xf90057bf
 .word 0x94000005
@@ -45380,7 +45406,7 @@ bl _p_214
 .word 0xf90063be
 .loc 3 475 0
 .word 0x910223a0
-bl _p_485
+bl _p_486
 .loc 3 476 0
 .word 0xf94063be
 .word 0xd61f03c0
@@ -45389,7 +45415,7 @@ bl _p_485
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_3a7:
+Lme_3a8:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_TrySetCanceled
@@ -45401,15 +45427,15 @@ System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_TrySetCanceled:
 .word 0xf9400ba0
 .word 0xf9000fbf
 .word 0xf9400fa1
-bl _p_492
+bl _p_493
 .word 0x53001c00
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_3a8:
+Lme_3a9:
 .text
-ut_937:
+ut_938:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSHAREDVT_TStateMachine_GSHAREDVT_
 .text
@@ -45425,7 +45451,7 @@ System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSHAR
 .word 0xf90017a0
 .word 0xf9001ba1
 .word 0xf9401fa0
-bl _p_493
+bl _p_494
 .word 0xaa0003f9
 .word 0xb9800320
 .word 0x91003c10
@@ -45461,8 +45487,8 @@ bl _p_493
 .word 0xeb1e02ff
 .word 0x54000320
 .word 0xf9401fa0
-bl _p_494
 bl _p_495
+bl _p_496
 .word 0xb9802b21
 .word 0x8b010301
 .word 0xf9004ba1
@@ -45472,7 +45498,7 @@ bl _p_495
 .word 0xf9400f20
 .word 0xf9401320
 .word 0xf9401fa0
-bl _p_496
+bl _p_497
 .word 0xaa0003e2
 .word 0xf94047a0
 .word 0xf9404ba1
@@ -45497,10 +45523,10 @@ bl _mono_gsharedvt_value_copy
 .word 0xf9002ba0
 .word 0xf9002fa0
 .loc 3 80 0
-bl _p_497
+bl _p_498
 .loc 3 83 0
 .word 0x910103a0
-bl _p_483
+bl _p_484
 .loc 3 84 0
 
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
@@ -45508,13 +45534,13 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x0, [x16, #384]
 .word 0xf90043a0
 .word 0xf9401fa0
-bl _p_496
+bl _p_497
 .word 0xaa0003e2
 .word 0xf94043a1
 .word 0xf9401ba0
 .word 0xd2800003
 .word 0xd2800004
-bl _p_498
+bl _p_499
 .loc 3 85 0
 .word 0xf90033bf
 .word 0x94000005
@@ -45525,7 +45551,7 @@ bl _p_214
 .word 0xf9003fbe
 .loc 3 88 0
 .word 0x910103a0
-bl _p_485
+bl _p_486
 .loc 3 89 0
 .word 0xf9403fbe
 .word 0xd61f03c0
@@ -45536,7 +45562,7 @@ bl _p_485
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 .loc 3 72 0
-.word 0xd2931d00
+.word 0xd2933b40
 .word 0xf2a00020
 bl _p_329
 .word 0xaa0003e1
@@ -45545,9 +45571,9 @@ bl _p_329
 bl _mono_create_corlib_exception_1
 bl _p_147
 
-Lme_3a9:
+Lme_3aa:
 .text
-ut_938:
+ut_939:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_System_Runtime_CompilerServices_TaskAwaiter_1_string__Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_
 .text
@@ -45582,7 +45608,7 @@ bl _p_102
 .word 0x9102e3a2
 .word 0xaa1603e0
 .word 0xaa1703e1
-bl _p_499
+bl _p_500
 .word 0xaa0003f7
 .loc 3 547 0
 .word 0xf9400300
@@ -45599,7 +45625,7 @@ bl _p_102
 .word 0xf9401ba1
 .word 0x9100e3a0
 .word 0xd2801002
-bl _p_482
+bl _p_483
 
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
@@ -45615,7 +45641,7 @@ bl _mono_gc_wbarrier_range_copy
 .word 0xf9405fa2
 .word 0xaa1803e0
 .word 0xaa1603e3
-bl _p_500
+bl _p_501
 .loc 3 559 0
 
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+0
@@ -45623,14 +45649,14 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x15, [x16, #2824]
 .word 0xf94017a0
 .word 0xaa1703e1
-bl _p_501
+bl _p_502
 .loc 3 560 0
 .word 0x1400000c
 .word 0xf90063a0
 .word 0xf94063a0
 .loc 3 563 0
 .word 0xd2800001
-bl _p_502
+bl _p_503
 .loc 3 564 0
 bl _p_218
 .word 0xf90073a0
@@ -45646,9 +45672,9 @@ bl _p_147
 .word 0xa8d07bfd
 .word 0xd65f03c0
 
-Lme_3aa:
+Lme_3ab:
 .text
-ut_939:
+ut_940:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_object_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_System_Runtime_CompilerServices_TaskAwaiter_1_object__Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_
 .text
@@ -45668,15 +45694,15 @@ ldr x15, [x16, #400]
 .word 0xf9400ba0
 .word 0xf9400fa1
 .word 0xf94013a2
-bl _p_503
+bl _p_504
 .loc 3 361 0
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3ab:
+Lme_3ac:
 .text
-ut_940:
+ut_941:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_System_Runtime_CompilerServices_TaskAwaiter_1_bool__Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_
 .text
@@ -45711,7 +45737,7 @@ bl _p_109
 .word 0x910283a2
 .word 0xaa1603e0
 .word 0xaa1703e1
-bl _p_499
+bl _p_500
 .word 0xaa0003f7
 .loc 3 547 0
 .word 0xf9400300
@@ -45728,7 +45754,7 @@ bl _p_109
 .word 0xf9401ba1
 .word 0x9100e3a0
 .word 0xd2800d02
-bl _p_482
+bl _p_483
 
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
@@ -45744,7 +45770,7 @@ bl _mono_gc_wbarrier_range_copy
 .word 0xf94053a2
 .word 0xaa1803e0
 .word 0xaa1603e3
-bl _p_500
+bl _p_501
 .loc 3 559 0
 
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+0
@@ -45752,14 +45778,14 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x15, [x16, #3008]
 .word 0xf94017a0
 .word 0xaa1703e1
-bl _p_504
+bl _p_505
 .loc 3 560 0
 .word 0x1400000c
 .word 0xf90057a0
 .word 0xf94057a0
 .loc 3 563 0
 .word 0xd2800001
-bl _p_502
+bl _p_503
 .loc 3 564 0
 bl _p_218
 .word 0xf90067a0
@@ -45775,9 +45801,9 @@ bl _p_147
 .word 0xa8ce7bfd
 .word 0xd65f03c0
 
-Lme_3ac:
+Lme_3ad:
 .text
-ut_941:
+ut_942:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_DatePromptResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_DatePromptResult_Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_DatePromptResult__Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_
 .text
@@ -45812,7 +45838,7 @@ bl _p_112
 .word 0x910283a2
 .word 0xaa1603e0
 .word 0xaa1703e1
-bl _p_499
+bl _p_500
 .word 0xaa0003f7
 .loc 3 547 0
 .word 0xf9400300
@@ -45829,7 +45855,7 @@ bl _p_112
 .word 0xf9401ba1
 .word 0x9100e3a0
 .word 0xd2800d02
-bl _p_482
+bl _p_483
 
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
@@ -45845,7 +45871,7 @@ bl _mono_gc_wbarrier_range_copy
 .word 0xf94053a2
 .word 0xaa1803e0
 .word 0xaa1603e3
-bl _p_500
+bl _p_501
 .loc 3 559 0
 
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+0
@@ -45853,14 +45879,14 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x15, [x16, #3104]
 .word 0xf94017a0
 .word 0xaa1703e1
-bl _p_505
+bl _p_506
 .loc 3 560 0
 .word 0x1400000c
 .word 0xf90057a0
 .word 0xf94057a0
 .loc 3 563 0
 .word 0xd2800001
-bl _p_502
+bl _p_503
 .loc 3 564 0
 bl _p_218
 .word 0xf90067a0
@@ -45876,9 +45902,9 @@ bl _p_147
 .word 0xa8ce7bfd
 .word 0xd65f03c0
 
-Lme_3ad:
+Lme_3ae:
 .text
-ut_942:
+ut_943:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_TimePromptResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_TimePromptResult_Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_TimePromptResult__Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_
 .text
@@ -45913,7 +45939,7 @@ bl _p_115
 .word 0x910283a2
 .word 0xaa1603e0
 .word 0xaa1703e1
-bl _p_499
+bl _p_500
 .word 0xaa0003f7
 .loc 3 547 0
 .word 0xf9400300
@@ -45930,7 +45956,7 @@ bl _p_115
 .word 0xf9401ba1
 .word 0x9100e3a0
 .word 0xd2800d02
-bl _p_482
+bl _p_483
 
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
@@ -45946,7 +45972,7 @@ bl _mono_gc_wbarrier_range_copy
 .word 0xf94053a2
 .word 0xaa1803e0
 .word 0xaa1603e3
-bl _p_500
+bl _p_501
 .loc 3 559 0
 
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+0
@@ -45954,14 +45980,14 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x15, [x16, #3200]
 .word 0xf94017a0
 .word 0xaa1703e1
-bl _p_506
+bl _p_507
 .loc 3 560 0
 .word 0x1400000c
 .word 0xf90057a0
 .word 0xf94057a0
 .loc 3 563 0
 .word 0xd2800001
-bl _p_502
+bl _p_503
 .loc 3 564 0
 bl _p_218
 .word 0xf90067a0
@@ -45977,9 +46003,9 @@ bl _p_147
 .word 0xa8ce7bfd
 .word 0xd65f03c0
 
-Lme_3ae:
+Lme_3af:
 .text
-ut_943:
+ut_944:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_LoginResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_LoginResult_Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_LoginResult__Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_
 .text
@@ -46014,7 +46040,7 @@ bl _p_118
 .word 0x910283a2
 .word 0xaa1603e0
 .word 0xaa1703e1
-bl _p_499
+bl _p_500
 .word 0xaa0003f7
 .loc 3 547 0
 .word 0xf9400300
@@ -46031,7 +46057,7 @@ bl _p_118
 .word 0xf9401ba1
 .word 0x9100e3a0
 .word 0xd2800d02
-bl _p_482
+bl _p_483
 
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
@@ -46047,7 +46073,7 @@ bl _mono_gc_wbarrier_range_copy
 .word 0xf94053a2
 .word 0xaa1803e0
 .word 0xaa1603e3
-bl _p_500
+bl _p_501
 .loc 3 559 0
 
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+0
@@ -46055,14 +46081,14 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x15, [x16, #3296]
 .word 0xf94017a0
 .word 0xaa1703e1
-bl _p_507
+bl _p_508
 .loc 3 560 0
 .word 0x1400000c
 .word 0xf90057a0
 .word 0xf94057a0
 .loc 3 563 0
 .word 0xd2800001
-bl _p_502
+bl _p_503
 .loc 3 564 0
 bl _p_218
 .word 0xf90067a0
@@ -46078,9 +46104,9 @@ bl _p_147
 .word 0xa8ce7bfd
 .word 0xd65f03c0
 
-Lme_3af:
+Lme_3b0:
 .text
-ut_944:
+ut_945:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_PromptResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_PromptResult_Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_PromptResult__Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_
 .text
@@ -46115,7 +46141,7 @@ bl _p_121
 .word 0x910283a2
 .word 0xaa1603e0
 .word 0xaa1703e1
-bl _p_499
+bl _p_500
 .word 0xaa0003f7
 .loc 3 547 0
 .word 0xf9400300
@@ -46132,7 +46158,7 @@ bl _p_121
 .word 0xf9401ba1
 .word 0x9100e3a0
 .word 0xd2800d02
-bl _p_482
+bl _p_483
 
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
@@ -46148,7 +46174,7 @@ bl _mono_gc_wbarrier_range_copy
 .word 0xf94053a2
 .word 0xaa1803e0
 .word 0xaa1603e3
-bl _p_500
+bl _p_501
 .loc 3 559 0
 
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+0
@@ -46156,14 +46182,14 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x15, [x16, #3392]
 .word 0xf94017a0
 .word 0xaa1703e1
-bl _p_508
+bl _p_509
 .loc 3 560 0
 .word 0x1400000c
 .word 0xf90057a0
 .word 0xf94057a0
 .loc 3 563 0
 .word 0xd2800001
-bl _p_502
+bl _p_503
 .loc 3 564 0
 bl _p_218
 .word 0xf90067a0
@@ -46179,9 +46205,9 @@ bl _p_147
 .word 0xa8ce7bfd
 .word 0xd65f03c0
 
-Lme_3b0:
+Lme_3b1:
 .text
-ut_945:
+ut_946:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_GSHAREDVT_TStateMachine_GSHAREDVT_TAwaiter_GSHAREDVT__TStateMachine_GSHAREDVT_
 .text
@@ -46200,7 +46226,7 @@ System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TA
 .word 0xf90023a1
 .word 0xaa0203fa
 .word 0xf94027a0
-bl _p_509
+bl _p_510
 .word 0xaa0003f7
 .word 0xb98002e0
 .word 0x91003c10
@@ -46222,7 +46248,7 @@ bl _p_509
 .loc 3 162 0
 .word 0x91002300
 .word 0xf90043a0
-bl _p_510
+bl _p_511
 .word 0xf94043a1
 .word 0x53001c00
 .word 0xaa0103f5
@@ -46231,24 +46257,24 @@ bl _p_510
 .word 0xd2800015
 .word 0x14000005
 .word 0xaa1803e0
-bl _p_511
+bl _p_512
 .word 0xaa1503f4
 .word 0xaa0003f5
 .word 0x910143a2
 .word 0xaa1403e0
 .word 0xaa1503e1
-bl _p_499
+bl _p_500
 .word 0xaa0003f5
 .loc 3 166 0
 .word 0xf9400700
 .word 0xb5000b40
 .loc 3 168 0
-bl _p_510
+bl _p_511
 .word 0x53001c00
 .word 0x340004c0
 .loc 3 169 0
 .word 0xaa1803e0
-bl _p_511
+bl _p_512
 .word 0xaa0003e1
 .word 0xaa0103e0
 .word 0x3940003e
@@ -46266,13 +46292,13 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x0, [x16, #456]
 .word 0xf9004ba0
 .word 0xf94027a0
-bl _p_512
+bl _p_513
 .word 0xaa0003e2
 .word 0xf9404ba1
 .word 0xaa1a03e0
 .word 0xd2800003
 .word 0xd2800004
-bl _p_498
+bl _p_499
 .word 0xaa0003e1
 .word 0xaa0103e0
 .word 0xf9400021
@@ -46285,7 +46311,7 @@ bl _p_168
 .word 0xf94043a1
 .word 0xd2800000
 .word 0xd2800003
-bl _p_513
+bl _p_514
 .loc 3 174 0
 .word 0x91002314
 .word 0xb9802ae0
@@ -46302,8 +46328,8 @@ bl _p_513
 .word 0xeb1e035f
 .word 0x54000320
 .word 0xf94027a0
-bl _p_514
-bl _p_495
+bl _p_515
+bl _p_496
 .word 0xb9802ae1
 .word 0x8b0102c1
 .word 0xf9004ba1
@@ -46313,7 +46339,7 @@ bl _p_495
 .word 0xf9400ee0
 .word 0xf94012e0
 .word 0xf94027a0
-bl _p_512
+bl _p_513
 .word 0xaa0003e2
 .word 0xf94047a0
 .word 0xf9404ba1
@@ -46335,7 +46361,7 @@ bl _mono_gsharedvt_value_copy
 .word 0xaa1403e0
 .word 0xaa1a03e1
 .word 0xd2800003
-bl _p_500
+bl _p_501
 .loc 3 177 0
 
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
@@ -46343,7 +46369,7 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x0, [x16, #464]
 .word 0xf90043a0
 .word 0xf94027a0
-bl _p_515
+bl _p_516
 .word 0xaa0003e2
 .word 0xf94043a1
 .word 0xd10043ff
@@ -46352,14 +46378,14 @@ bl _p_515
 .word 0xf9000095
 .word 0xf94023a0
 .word 0xd2800003
-bl _p_498
+bl _p_499
 .loc 3 178 0
 .word 0x1400000c
 .word 0xf9002fa0
 .word 0xf9402fa0
 .loc 3 181 0
 .word 0xd2800001
-bl _p_502
+bl _p_503
 .loc 3 182 0
 bl _p_218
 .word 0xf9003fa0
@@ -46377,7 +46403,7 @@ bl _p_147
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 
-Lme_3b1:
+Lme_3b2:
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_TResult_BOOL_TResult_BOOL
@@ -46389,12 +46415,12 @@ System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_TResult_BOOL_
 .word 0xf9000ba0
 .word 0xf9000fbf
 .word 0xf94013a0
-bl _p_516
+bl _p_517
 .word 0xd2800a01
 bl _p_33
 .word 0xf9001fa0
 .word 0xf94013a0
-bl _p_517
+bl _p_518
 .word 0xaa0003e5
 .word 0xf9401fa0
 .word 0xf9001ba0
@@ -46408,9 +46434,9 @@ bl _p_517
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_3b2:
+Lme_3b3:
 .text
-ut_947:
+ut_948:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL_bool
 .text
@@ -46430,10 +46456,10 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_TResult_BOOL__ctor_Sys
 .word 0x9100e3a0
 .word 0xf9002ba0
 .word 0xf94027a0
-bl _p_518
+bl _p_519
 .word 0xf9002fa0
 .word 0xf94027a0
-bl _p_519
+bl _p_520
 .word 0xaa0003e3
 .word 0xf9402ba0
 .word 0xf9402faf
@@ -46467,12 +46493,12 @@ ldr x3, [x16, #16]
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_3b3:
+Lme_3b4:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_ContinuationTaskFromResultTask_1_TAntecedentResult_BOOL__ctor_System_Threading_Tasks_Task_1_TAntecedentResult_BOOL_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
 System_Threading_Tasks_ContinuationTaskFromResultTask_1_TAntecedentResult_BOOL__ctor_System_Threading_Tasks_Task_1_TAntecedentResult_BOOL_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions:
-.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Threading/Tasks/TaskContinuation.cs"
+.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.15/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Threading/Tasks/TaskContinuation.cs"
 .loc 9 130 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
@@ -46556,7 +46582,7 @@ bl _p_372
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_3b4:
+Lme_3b5:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_TResult_BOOL__ctor
@@ -46568,9 +46594,9 @@ System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_TResult_BOOL__ctor:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_3b5:
+Lme_3b6:
 .text
-ut_950:
+ut_951:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 .text
@@ -46606,7 +46632,7 @@ ldr x3, [x16, #16]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3b6:
+Lme_3b7:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_TrySetCanceled_System_Threading_CancellationToken
@@ -46621,7 +46647,7 @@ System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_TrySetCanceled_System_
 .word 0xaa0203e0
 .word 0xf9400fa1
 .word 0x3940005e
-bl _p_473
+bl _p_474
 .word 0x53001c00
 .loc 7 325 0
 .word 0xaa0003e1
@@ -46643,16 +46669,16 @@ bl _p_473
 .word 0x9a9f97e0
 .word 0x35000060
 .word 0xf9400ba0
-bl _p_520
+bl _p_521
 .loc 7 326 0
 .word 0xb9802ba0
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_3b7:
+Lme_3b8:
 .text
-ut_952:
+ut_953:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_object_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_System_Runtime_CompilerServices_TaskAwaiter_1_object__Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_
 .text
@@ -46681,13 +46707,13 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x15, [x16, #472]
 .word 0xaa1803e0
-bl _p_521
+bl _p_522
 .word 0xaa1703f6
 .word 0xaa0003f7
 .word 0x910283a2
 .word 0xaa1603e0
 .word 0xaa1703e1
-bl _p_499
+bl _p_500
 .word 0xaa0003f7
 .loc 3 547 0
 .word 0xf9400300
@@ -46698,13 +46724,13 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x15, [x16, #472]
 .word 0xaa1803e0
-bl _p_521
+bl _p_522
 .word 0xaa0003f6
 .loc 3 556 0
 .word 0xf9401ba1
 .word 0x9100e3a0
 .word 0xd2800d02
-bl _p_482
+bl _p_483
 
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
@@ -46720,7 +46746,7 @@ bl _mono_gc_wbarrier_range_copy
 .word 0xf94053a2
 .word 0xaa1803e0
 .word 0xaa1603e3
-bl _p_500
+bl _p_501
 .loc 3 559 0
 
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+0
@@ -46728,14 +46754,14 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x15, [x16, #2912]
 .word 0xf94017a0
 .word 0xaa1703e1
-bl _p_522
+bl _p_523
 .loc 3 560 0
 .word 0x1400000c
 .word 0xf90057a0
 .word 0xf94057a0
 .loc 3 563 0
 .word 0xd2800001
-bl _p_502
+bl _p_503
 .loc 3 564 0
 bl _p_218
 .word 0xf90067a0
@@ -46751,7 +46777,7 @@ bl _p_147
 .word 0xa8ce7bfd
 .word 0xd65f03c0
 
-Lme_3b8:
+Lme_3b9:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
@@ -46767,7 +46793,7 @@ bl _p_368
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_3b9:
+Lme_3ba:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
@@ -46788,7 +46814,7 @@ bl _p_369
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3ba:
+Lme_3bb:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
@@ -46814,7 +46840,7 @@ bl _p_370
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3bb:
+Lme_3bc:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
@@ -46845,7 +46871,7 @@ bl _p_370
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_3bc:
+Lme_3bd:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken
@@ -46863,7 +46889,7 @@ System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System
 .word 0xd2800004
 .word 0xd2800005
 .word 0xd2800006
-bl _p_523
+bl _p_524
 .loc 4 154 0
 .word 0xf9400ba0
 bl _p_372
@@ -46872,7 +46898,7 @@ bl _p_372
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3bd:
+Lme_3be:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
@@ -46929,7 +46955,7 @@ ldr x1, [x16, #200]
 .word 0xb98043a5
 .word 0xd2800006
 .word 0xd2800007
-bl _p_524
+bl _p_525
 .loc 4 303 0
 .word 0xf94013a0
 bl _p_372
@@ -46939,7 +46965,7 @@ bl _p_372
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_3be:
+Lme_3bf:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
@@ -46971,7 +46997,7 @@ bl _p_372
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_3bf:
+Lme_3c0:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
@@ -47004,7 +47030,7 @@ bl _p_372
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_3c0:
+Lme_3c1:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
@@ -47041,7 +47067,7 @@ bl _p_33
 .word 0xf94013a3
 .word 0xb98033a4
 .word 0xf94023a6
-bl _p_523
+bl _p_524
 .word 0xf9402fa2
 .loc 4 357 0
 .word 0xaa0203e0
@@ -47056,7 +47082,7 @@ bl _p_377
 .word 0xa8c77bfd
 .word 0xd65f03c0
 .loc 4 347 0
-.word 0xd28bbbc0
+.word 0xd28bda00
 .word 0xf2a00020
 bl _p_329
 .word 0xaa0003e1
@@ -47065,7 +47091,7 @@ bl _p_329
 bl _mono_create_corlib_exception_1
 bl _p_147
 .loc 4 351 0
-.word 0xd28bbe00
+.word 0xd28bdc40
 .word 0xf2a00020
 bl _p_329
 .word 0xaa0003e1
@@ -47074,7 +47100,7 @@ bl _p_329
 bl _mono_create_corlib_exception_1
 bl _p_147
 
-Lme_3c1:
+Lme_3c2:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
@@ -47113,7 +47139,7 @@ bl _p_33
 .word 0xf94017a4
 .word 0xb9803ba5
 .word 0xf94027a7
-bl _p_524
+bl _p_525
 .word 0xf9402fa2
 .loc 4 377 0
 .word 0xaa0203e0
@@ -47128,7 +47154,7 @@ bl _p_377
 .word 0xa8c77bfd
 .word 0xd65f03c0
 .loc 4 367 0
-.word 0xd28bbbc0
+.word 0xd28bda00
 .word 0xf2a00020
 bl _p_329
 .word 0xaa0003e1
@@ -47137,7 +47163,7 @@ bl _p_329
 bl _mono_create_corlib_exception_1
 bl _p_147
 .loc 4 371 0
-.word 0xd28bbe00
+.word 0xd28bdc40
 .word 0xf2a00020
 bl _p_329
 .word 0xaa0003e1
@@ -47146,7 +47172,7 @@ bl _p_329
 bl _mono_create_corlib_exception_1
 bl _p_147
 
-Lme_3c2:
+Lme_3c3:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
@@ -47223,11 +47249,11 @@ bl _p_382
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 
-Lme_3c3:
+Lme_3c4:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
@@ -47243,7 +47269,7 @@ System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSet
 .loc 4 454 0
 .word 0xaa1a03e0
 .word 0xf9400fa1
-bl _p_525
+bl _p_526
 .loc 4 458 0
 .word 0x1400000f
 .loc 4 461 0
@@ -47268,7 +47294,7 @@ bl _p_525
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_3c4:
+Lme_3c5:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Result
@@ -47302,7 +47328,7 @@ System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Result:
 .word 0xf90017a0
 .word 0xf94013a0
 .word 0xd2800021
-bl _p_526
+bl _p_527
 .word 0xf94017be
 .word 0xf90003c0
 .word 0xf9400ba0
@@ -47310,7 +47336,7 @@ bl _p_526
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_3c5:
+Lme_3c6:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess
@@ -47328,7 +47354,7 @@ System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOn
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3c6:
+Lme_3c7:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
@@ -47382,7 +47408,7 @@ bl _p_388
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_3c7:
+Lme_3c8:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Factory
@@ -47409,7 +47435,7 @@ ldr x0, [x16, #504]
 .word 0xd2800501
 bl _p_33
 .word 0xf9000ba0
-bl _p_527
+bl _p_528
 .word 0xf9400ba0
 .word 0xf9400fa1
 .word 0xd2800002
@@ -47445,7 +47471,7 @@ ldr x0, [x16, #496]
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_3c8:
+Lme_3c9:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
@@ -47521,7 +47547,7 @@ bl _p_394
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_3c9:
+Lme_3ca:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
@@ -47537,7 +47563,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x15, [x16, #544]
 .word 0xf94013a1
-bl _p_528
+bl _p_529
 .word 0xf94017a0
 .word 0xf9000ba0
 .word 0xf9400ba0
@@ -47545,7 +47571,7 @@ bl _p_528
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3ca:
+Lme_3cb:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ConfigureAwait_bool
@@ -47565,7 +47591,7 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x15, [x16, #552]
 .word 0xf94013a1
 .word 0x3940a3a2
-bl _p_529
+bl _p_530
 .word 0xf9401ba0
 .word 0xf9000ba0
 .word 0xf9401fa0
@@ -47576,7 +47602,7 @@ bl _p_529
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_3cb:
+Lme_3cc:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
@@ -47593,12 +47619,12 @@ bl _p_400
 .word 0xf9400fa1
 .word 0xf94013a3
 .word 0xd2800004
-bl _p_530
+bl _p_531
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3cc:
+Lme_3cd:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
@@ -47615,12 +47641,12 @@ System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith
 .word 0xf94013a2
 .word 0xf94017a3
 .word 0xd2800004
-bl _p_530
+bl _p_531
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3cd:
+Lme_3ce:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
@@ -47638,12 +47664,12 @@ System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith
 .word 0xf9401fa2
 .word 0xf94013a3
 .word 0xb98033a4
-bl _p_530
+bl _p_531
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_3ce:
+Lme_3cf:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
@@ -47685,7 +47711,7 @@ bl _p_33
 .word 0xf9400fa1
 .word 0xaa1803e2
 .word 0xd2800003
-bl _p_531
+bl _p_532
 .word 0xf9402ba0
 .word 0xaa0003f8
 .loc 4 762 0
@@ -47702,7 +47728,7 @@ bl _p_407
 .word 0xa8c77bfd
 .word 0xd65f03c0
 .loc 4 745 0
-.word 0xd28bbe00
+.word 0xd28bdc40
 .word 0xf2a00020
 bl _p_329
 .word 0xaa0003e1
@@ -47710,7 +47736,7 @@ bl _p_329
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_147
-.word 0xd28bc080
+.word 0xd28bdec0
 .word 0xf2a00020
 .loc 4 740 0
 bl _p_329
@@ -47720,7 +47746,7 @@ bl _p_329
 bl _mono_create_corlib_exception_1
 bl _p_147
 
-Lme_3cf:
+Lme_3d0:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
@@ -47735,13 +47761,13 @@ System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
 .word 0xd2800002
 .word 0xd2800003
 .word 0xd2800004
-bl _p_532
+bl _p_533
 .loc 5 95 0
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_3d0:
+Lme_3d1:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
@@ -47805,7 +47831,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28c02a0
+.word 0xd28c20e0
 .word 0xf2a00020
 bl _p_329
 .word 0xaa0003e1
@@ -47815,7 +47841,7 @@ bl _mono_create_corlib_exception_1
 bl _p_147
 .word 0x17ffffd5
 
-Lme_3d1:
+Lme_3d2:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
@@ -47871,13 +47897,13 @@ ldr x15, [x16, #488]
 .word 0xb98043a4
 .word 0xd2800005
 .word 0xf94027a6
-bl _p_533
+bl _p_534
 .word 0xf9400bb6
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_3d2:
+Lme_3d3:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
@@ -48032,7 +48058,7 @@ bl _p_412
 .word 0xaa0203e0
 .word 0xf94023a1
 .word 0x3940005e
-bl _p_525
+bl _p_526
 .loc 5 566 0
 .word 0x14000008
 .loc 5 569 0
@@ -48042,7 +48068,7 @@ bl _p_525
 .word 0xaa0203e0
 .word 0xf9401fa1
 .word 0x3940005e
-bl _p_534
+bl _p_535
 .loc 5 572 0
 .word 0xf94077be
 .word 0xd61f03c0
@@ -48052,7 +48078,7 @@ bl _p_534
 .word 0xa8d07bfd
 .word 0xd65f03c0
 
-Lme_3d3:
+Lme_3d4:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
@@ -48074,12 +48100,12 @@ ldr x15, [x16, #504]
 .word 0xf94013a1
 .word 0xd2800002
 .word 0xf94017a3
-bl _p_535
+bl _p_536
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3d4:
+Lme_3d5:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
@@ -48158,7 +48184,7 @@ bl _p_33
 .word 0xf90053a0
 .word 0xf9401ba1
 .word 0xaa1a03e2
-bl _p_536
+bl _p_537
 .word 0xf94053a0
 .word 0xf94057a1
 .word 0xf9001020
@@ -48277,7 +48303,7 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x15, [x16, #504]
 .word 0xaa1a03e0
 .word 0xd2800004
-bl _p_537
+bl _p_538
 .loc 5 798 0
 .word 0x14000026
 .word 0xf90027a0
@@ -48320,7 +48346,7 @@ bl _p_412
 .word 0xaa0203e0
 .word 0xf9404ba1
 .word 0x3940005e
-bl _p_525
+bl _p_526
 .loc 5 807 0
 .word 0xf94027a0
 bl _p_428
@@ -48333,7 +48359,7 @@ bl _p_428
 .word 0xa8cb7bfd
 .word 0xd65f03c0
 .loc 5 774 0
-.word 0xd28bcd80
+.word 0xd28bebc0
 .word 0xf2a00020
 bl _p_329
 .word 0xaa0003e1
@@ -48341,7 +48367,7 @@ bl _p_329
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_147
-.word 0xd28bca80
+.word 0xd28be8c0
 .word 0xf2a00020
 .loc 5 771 0
 bl _p_329
@@ -48350,16 +48376,16 @@ bl _p_329
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_147
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2801560
 .word 0xaa1103e1
 bl _p_5
 
-Lme_3d5:
+Lme_3d6:
 .text
-ut_982:
+ut_983:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
 .text
@@ -48420,9 +48446,9 @@ ldr x2, [x16, #16]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3d6:
+Lme_3d7:
 .text
-ut_983:
+ut_984:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 .text
@@ -48442,9 +48468,9 @@ bl _p_344
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_3d7:
+Lme_3d8:
 .text
-ut_984:
+ut_985:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
 .text
@@ -48468,7 +48494,7 @@ ldr x0, [x16, #488]
 .word 0xd2800a01
 bl _p_33
 .word 0xf90013a0
-bl _p_538
+bl _p_539
 .word 0xf94013a1
 .word 0xaa0103e0
 .word 0xaa0103f9
@@ -48493,9 +48519,9 @@ ldr x2, [x16, #16]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3d8:
+Lme_3d9:
 .text
-ut_985:
+ut_986:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
 .text
@@ -48519,7 +48545,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x15, [x16, #472]
 .word 0xf94013a0
-bl _p_539
+bl _p_540
 .word 0xf9400fa1
 .word 0xf9000820
 .word 0x91004021
@@ -48556,7 +48582,7 @@ bl _p_350
 .word 0xaa1903e0
 .word 0xf94013a1
 .word 0x3940033e
-bl _p_525
+bl _p_526
 .word 0x53001c00
 .word 0x340000a0
 .loc 3 613 0
@@ -48565,7 +48591,7 @@ bl _p_525
 .word 0xa8c37bfd
 .word 0xd65f03c0
 .loc 3 610 0
-.word 0xd2932240
+.word 0xd2934080
 .word 0xf2a00020
 bl _p_329
 .word 0xaa0003e1
@@ -48574,9 +48600,9 @@ bl _p_329
 bl _mono_create_corlib_exception_1
 bl _p_147
 
-Lme_3d9:
+Lme_3da:
 .text
-ut_986:
+ut_987:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 .text
@@ -48620,16 +48646,16 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x15, [x16, #472]
 .word 0xaa1903e0
 .word 0xf94013a1
-bl _p_540
+bl _p_541
 .loc 3 638 0
 .word 0xf9400bb9
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3da:
+Lme_3db:
 .text
-ut_987:
+ut_988:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
 .text
@@ -48655,7 +48681,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x15, [x16, #472]
 .word 0xaa1903e0
-bl _p_521
+bl _p_522
 .word 0xaa0003f8
 .loc 3 661 0
 .word 0xaa1a03f9
@@ -48700,7 +48726,7 @@ bl _p_357
 .word 0xa8c47bfd
 .word 0xd65f03c0
 .loc 3 649 0
-.word 0xd28c6400
+.word 0xd28c8240
 .word 0xf2a00020
 bl _p_329
 .word 0xaa0003e1
@@ -48709,7 +48735,7 @@ bl _p_329
 bl _mono_create_corlib_exception_1
 bl _p_147
 .loc 3 675 0
-.word 0xd2932240
+.word 0xd2934080
 .word 0xf2a00020
 bl _p_329
 .word 0xaa0003e1
@@ -48718,9 +48744,9 @@ bl _p_329
 bl _mono_create_corlib_exception_1
 bl _p_147
 
-Lme_3db:
+Lme_3dc:
 .text
-ut_988:
+ut_989:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
 .text
@@ -49260,7 +49286,7 @@ ldr x0, [x16, #488]
 bl _p_33
 .word 0xf9001ba0
 .word 0xf9400fa1
-bl _p_541
+bl _p_542
 .word 0xf9401ba0
 .word 0xf9400bba
 .word 0x910003bf
@@ -49273,9 +49299,9 @@ bl _p_5
 .word 0xaa1103e1
 bl _p_5
 
-Lme_3dc:
+Lme_3dd:
 .text
-ut_989:
+ut_990:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
 .text
@@ -49291,7 +49317,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x15, [x16, #728]
 .word 0xf9400ba0
-bl _p_542
+bl _p_543
 .word 0xaa0003e1
 
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
@@ -49302,9 +49328,9 @@ ldr x0, [x16, #720]
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_3dd:
+Lme_3de:
 .text
-ut_990:
+ut_991:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL_bool
 .text
@@ -49340,7 +49366,7 @@ ldr x3, [x16, #16]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3de:
+Lme_3df:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_SpinUntilCompleted
@@ -49354,7 +49380,7 @@ System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_SpinUntilCompleted:
 .word 0x14000003
 .loc 7 131 0
 .word 0x910063a0
-bl _p_464
+bl _p_465
 .loc 7 130 0
 .word 0xf9400ba0
 .word 0xf9400800
@@ -49376,7 +49402,7 @@ bl _p_464
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3df:
+Lme_3e0:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
@@ -49462,9 +49488,9 @@ bl _p_328
 .word 0xaa1103e1
 bl _p_5
 
-Lme_3e4:
+Lme_3e5:
 .text
-ut_997:
+ut_998:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 .text
@@ -49495,9 +49521,9 @@ ldr x2, [x16, #16]
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_3e5:
+Lme_3e6:
 .text
-ut_998:
+ut_999:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
 .text
@@ -49526,9 +49552,9 @@ System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskRes
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3e6:
+Lme_3e7:
 .text
-ut_999:
+ut_1000:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
 .text
@@ -49545,15 +49571,15 @@ System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskRes
 .word 0xf9400fa1
 .word 0xd2800022
 .word 0xd2800023
-bl _p_476
+bl _p_477
 .loc 8 290 0
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_3e7:
+Lme_3e8:
 .text
-ut_1000:
+ut_1001:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
 .text
@@ -49570,15 +49596,15 @@ System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskRes
 .word 0xf9400fa1
 .word 0xd2800022
 .word 0xd2800003
-bl _p_476
+bl _p_477
 .loc 8 300 0
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_3e8:
+Lme_3e9:
 .text
-ut_1001:
+ut_1002:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
 .text
@@ -49591,7 +49617,7 @@ System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskRes
 .word 0xf90013a0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_477
+bl _p_478
 .loc 8 311 0
 .word 0xf94013a0
 .word 0xf9400000
@@ -49605,9 +49631,9 @@ bl _p_477
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3e9:
+Lme_3ea:
 .text
-ut_1002:
+ut_1003:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 .text
@@ -49630,7 +49656,7 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x15, [x16, #736]
 .word 0xf9400fa1
 .word 0x394083a2
-bl _p_543
+bl _p_544
 .word 0xf9401fa0
 .word 0xf90017a0
 .word 0xf94023a0
@@ -49658,9 +49684,9 @@ ldr x3, [x16, #16]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_3ea:
+Lme_3eb:
 .text
-ut_1003:
+ut_1004:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
 .text
@@ -49682,9 +49708,9 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3eb:
+Lme_3ec:
 .text
-ut_1004:
+ut_1005:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 .text
@@ -49719,9 +49745,9 @@ ldr x3, [x16, #16]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3ec:
+Lme_3ed:
 .text
-ut_1005:
+ut_1006:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
 .text
@@ -49750,9 +49776,9 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3ed:
+Lme_3ee:
 .text
-ut_1006:
+ut_1007:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
 .text
@@ -49769,15 +49795,15 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 .word 0x39402022
 .word 0xf9400fa1
 .word 0xd2800023
-bl _p_476
+bl _p_477
 .loc 8 464 0
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_3ee:
+Lme_3ef:
 .text
-ut_1007:
+ut_1008:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
 .text
@@ -49794,15 +49820,15 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 .word 0x39402022
 .word 0xf9400fa1
 .word 0xd2800003
-bl _p_476
+bl _p_477
 .loc 8 474 0
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_3ef:
+Lme_3f0:
 .text
-ut_1008:
+ut_1009:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
 .text
@@ -49815,7 +49841,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 .word 0xf90013a0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_477
+bl _p_478
 .loc 8 485 0
 .word 0xf94013a0
 .word 0xf9400000
@@ -49829,7 +49855,7 @@ bl _p_477
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3f0:
+Lme_3f1:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
@@ -49903,7 +49929,7 @@ bl _p_328
 .word 0xaa1103e1
 bl _p_5
 
-Lme_3f1:
+Lme_3f2:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
@@ -49991,7 +50017,7 @@ bl _p_372
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_3f2:
+Lme_3f3:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
@@ -50059,7 +50085,7 @@ bl _p_394
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3f3:
+Lme_3f4:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
@@ -50151,7 +50177,7 @@ bl _p_328
 .word 0xaa1103e1
 bl _p_5
 
-Lme_3f8:
+Lme_3f9:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
@@ -50243,7 +50269,7 @@ bl _p_328
 .word 0xaa1103e1
 bl _p_5
 
-Lme_3fd:
+Lme_3fe:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
@@ -50255,7 +50281,7 @@ System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_3fe:
+Lme_3ff:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
@@ -50289,13 +50315,13 @@ add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x15, [x16, #504]
 .word 0xf9400fa0
 .word 0xd2800024
-bl _p_537
+bl _p_538
 .loc 5 792 0
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
 
-Lme_3ff:
+Lme_400:
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
@@ -50316,13 +50342,13 @@ bl _p_33
 .word 0xf9400ba2
 .word 0xd2880003
 .word 0xf94013a4
-bl _p_544
+bl _p_545
 .word 0xf9401ba0
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_400:
+Lme_401:
 .text
 	.align 3
 jit_code_end:
@@ -51209,6 +51235,7 @@ bl wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_object_
 bl wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_object_invoke_TResult_T_System_IAsyncResult
 bl System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL__ctor
 bl System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL__ctor_System_Threading_Tasks_TaskCreationOptions
+bl System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL__ctor_object
 bl System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL__ctor_object_System_Threading_Tasks_TaskCreationOptions
 bl System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_get_Task
 bl System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SpinUntilCompleted
@@ -51380,12 +51407,12 @@ unbox_trampolines:
 	.long 847,848,849,850,851,852,853,854
 	.long 855,856,857,858,859,860,861,862
 	.long 863,864,865,866,867,868,869,870
-	.long 892,893,894,895,896,929,930,931
-	.long 932,933,934,935,937,938,939,940
-	.long 941,942,943,944,945,947,950,952
-	.long 982,983,984,985,986,987,988,989
-	.long 990,997,998,999,1000,1001,1002,1003
-	.long 1004,1005,1006,1007,1008
+	.long 893,894,895,896,897,930,931,932
+	.long 933,934,935,936,938,939,940,941
+	.long 942,943,944,945,946,948,951,953
+	.long 983,984,985,986,987,988,989,990
+	.long 991,998,999,1000,1001,1002,1003,1004
+	.long 1005,1006,1007,1008,1009
 unbox_trampolines_end:
 
 	.long 0
@@ -51528,19 +51555,18 @@ bl ut_867
 bl ut_868
 bl ut_869
 bl ut_870
-bl ut_892
 bl ut_893
 bl ut_894
 bl ut_895
 bl ut_896
-bl ut_929
+bl ut_897
 bl ut_930
 bl ut_931
 bl ut_932
 bl ut_933
 bl ut_934
 bl ut_935
-bl ut_937
+bl ut_936
 bl ut_938
 bl ut_939
 bl ut_940
@@ -51549,10 +51575,10 @@ bl ut_942
 bl ut_943
 bl ut_944
 bl ut_945
-bl ut_947
-bl ut_950
-bl ut_952
-bl ut_982
+bl ut_946
+bl ut_948
+bl ut_951
+bl ut_953
 bl ut_983
 bl ut_984
 bl ut_985
@@ -51561,7 +51587,7 @@ bl ut_987
 bl ut_988
 bl ut_989
 bl ut_990
-bl ut_997
+bl ut_991
 bl ut_998
 bl ut_999
 bl ut_1000
@@ -51573,6 +51599,7 @@ bl ut_1005
 bl ut_1006
 bl ut_1007
 bl ut_1008
+bl ut_1009
 
 	.long 0
 .section __TEXT, __const
@@ -51654,7 +51681,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #784]
 br x16
-.word 15471
+.word 15491
 	.no_dead_strip plt_CoreAnimation_CALayer_get_CornerRadius
 plt_CoreAnimation_CALayer_get_CornerRadius:
 _p_2:
@@ -51662,7 +51689,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #792]
 br x16
-.word 15476
+.word 15496
 	.no_dead_strip plt_CoreAnimation_CALayer_set_CornerRadius_System_nfloat
 plt_CoreAnimation_CALayer_set_CornerRadius_System_nfloat:
 _p_3:
@@ -51670,7 +51697,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #800]
 br x16
-.word 15481
+.word 15501
 	.no_dead_strip plt_CoreAnimation_CALayer_set_MasksToBounds_bool
 plt_CoreAnimation_CALayer_set_MasksToBounds_bool:
 _p_4:
@@ -51678,7 +51705,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #808]
 br x16
-.word 15486
+.word 15506
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_5:
@@ -51686,7 +51713,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #816]
 br x16
-.word 15491
+.word 15511
 	.no_dead_strip plt_UIKit_UILabel_get_Text
 plt_UIKit_UILabel_get_Text:
 _p_6:
@@ -51694,7 +51721,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #824]
 br x16
-.word 15526
+.word 15546
 	.no_dead_strip plt_UIKit_UILabel_set_Text_string
 plt_UIKit_UILabel_set_Text_string:
 _p_7:
@@ -51702,7 +51729,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #832]
 br x16
-.word 15531
+.word 15551
 	.no_dead_strip plt_UIKit_UIButton_SetTitle_string_UIKit_UIControlState
 plt_UIKit_UIButton_SetTitle_string_UIKit_UIControlState:
 _p_8:
@@ -51710,7 +51737,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #840]
 br x16
-.word 15536
+.word 15556
 	.no_dead_strip plt_UIKit_UIImageView_set_Image_UIKit_UIImage
 plt_UIKit_UIImageView_set_Image_UIKit_UIImage:
 _p_9:
@@ -51718,7 +51745,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #848]
 br x16
-.word 15541
+.word 15561
 	.no_dead_strip plt_UIKit_UIView_set_ContentMode_UIKit_UIViewContentMode
 plt_UIKit_UIView_set_ContentMode_UIKit_UIViewContentMode:
 _p_10:
@@ -51726,7 +51753,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #856]
 br x16
-.word 15546
+.word 15566
 	.no_dead_strip plt_System_TimeSpan_FromSeconds_double
 plt_System_TimeSpan_FromSeconds_double:
 _p_11:
@@ -51734,7 +51761,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #864]
 br x16
-.word 15551
+.word 15571
 	.no_dead_strip plt_CoreGraphics_CGRect_FromLTRB_System_nfloat_System_nfloat_System_nfloat_System_nfloat
 plt_CoreGraphics_CGRect_FromLTRB_System_nfloat_System_nfloat_System_nfloat_System_nfloat:
 _p_12:
@@ -51742,7 +51769,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #872]
 br x16
-.word 15556
+.word 15576
 	.no_dead_strip plt_UIKit_UIView__ctor_CoreGraphics_CGRect
 plt_UIKit_UIView__ctor_CoreGraphics_CGRect:
 _p_13:
@@ -51750,7 +51777,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #880]
 br x16
-.word 15561
+.word 15581
 	.no_dead_strip plt_UIKit_UIView_set_TranslatesAutoresizingMaskIntoConstraints_bool
 plt_UIKit_UIView_set_TranslatesAutoresizingMaskIntoConstraints_bool:
 _p_14:
@@ -51758,7 +51785,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #888]
 br x16
-.word 15566
+.word 15586
 	.no_dead_strip plt_UIKit_UIColor_get_DarkGray
 plt_UIKit_UIColor_get_DarkGray:
 _p_15:
@@ -51766,7 +51793,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #896]
 br x16
-.word 15571
+.word 15591
 	.no_dead_strip plt_TTG_TTGSnackbar_SetupSafeAreaInsets
 plt_TTG_TTGSnackbar_SetupSafeAreaInsets:
 _p_16:
@@ -51774,7 +51801,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #904]
 br x16
-.word 15576
+.word 15596
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_17:
@@ -51782,7 +51809,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #912]
 br x16
-.word 15578
+.word 15598
 	.no_dead_strip plt_UIKit_UILabel__ctor
 plt_UIKit_UILabel__ctor:
 _p_18:
@@ -51790,7 +51817,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #920]
 br x16
-.word 15610
+.word 15630
 	.no_dead_strip plt_UIKit_UIColor_get_White
 plt_UIKit_UIColor_get_White:
 _p_19:
@@ -51798,7 +51825,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #928]
 br x16
-.word 15615
+.word 15635
 	.no_dead_strip plt_UIKit_UILabel_set_TextColor_UIKit_UIColor
 plt_UIKit_UILabel_set_TextColor_UIKit_UIColor:
 _p_20:
@@ -51806,7 +51833,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #936]
 br x16
-.word 15620
+.word 15640
 	.no_dead_strip plt_UIKit_UIFont_SystemFontOfSize_System_nfloat
 plt_UIKit_UIFont_SystemFontOfSize_System_nfloat:
 _p_21:
@@ -51814,7 +51841,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #944]
 br x16
-.word 15625
+.word 15645
 	.no_dead_strip plt_UIKit_UILabel_set_Font_UIKit_UIFont
 plt_UIKit_UILabel_set_Font_UIKit_UIFont:
 _p_22:
@@ -51822,7 +51849,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #952]
 br x16
-.word 15630
+.word 15650
 	.no_dead_strip plt_UIKit_UIColor_get_Clear
 plt_UIKit_UIColor_get_Clear:
 _p_23:
@@ -51830,7 +51857,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #960]
 br x16
-.word 15635
+.word 15655
 	.no_dead_strip plt_UIKit_UILabel_set_LineBreakMode_UIKit_UILineBreakMode
 plt_UIKit_UILabel_set_LineBreakMode_UIKit_UILineBreakMode:
 _p_24:
@@ -51838,7 +51865,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #968]
 br x16
-.word 15640
+.word 15660
 	.no_dead_strip plt_UIKit_UILabel_set_TextAlignment_UIKit_UITextAlignment
 plt_UIKit_UILabel_set_TextAlignment_UIKit_UITextAlignment:
 _p_25:
@@ -51846,7 +51873,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #976]
 br x16
-.word 15645
+.word 15665
 	.no_dead_strip plt_UIKit_UILabel_set_Lines_System_nint
 plt_UIKit_UILabel_set_Lines_System_nint:
 _p_26:
@@ -51854,7 +51881,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #984]
 br x16
-.word 15650
+.word 15670
 	.no_dead_strip plt_UIKit_UIView_AddSubview_UIKit_UIView
 plt_UIKit_UIView_AddSubview_UIKit_UIView:
 _p_27:
@@ -51862,7 +51889,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #992]
 br x16
-.word 15655
+.word 15675
 	.no_dead_strip plt_UIKit_UIImageView__ctor
 plt_UIKit_UIImageView__ctor:
 _p_28:
@@ -51870,7 +51897,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1000]
 br x16
-.word 15660
+.word 15680
 	.no_dead_strip plt_UIKit_UIButton__ctor
 plt_UIKit_UIButton__ctor:
 _p_29:
@@ -51878,7 +51905,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1008]
 br x16
-.word 15665
+.word 15685
 	.no_dead_strip plt_UIKit_UIButton_get_TitleLabel
 plt_UIKit_UIButton_get_TitleLabel:
 _p_30:
@@ -51886,7 +51913,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1016]
 br x16
-.word 15670
+.word 15690
 	.no_dead_strip plt_UIKit_UILabel_set_AdjustsFontSizeToFitWidth_bool
 plt_UIKit_UILabel_set_AdjustsFontSizeToFitWidth_bool:
 _p_31:
@@ -51894,7 +51921,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1024]
 br x16
-.word 15675
+.word 15695
 	.no_dead_strip plt_UIKit_UIButton_SetTitleColor_UIKit_UIColor_UIKit_UIControlState
 plt_UIKit_UIButton_SetTitleColor_UIKit_UIColor_UIKit_UIControlState:
 _p_32:
@@ -51902,7 +51929,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1032]
 br x16
-.word 15680
+.word 15700
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_33:
@@ -51910,7 +51937,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1040]
 br x16
-.word 15685
+.word 15705
 	.no_dead_strip plt_UIKit_UIControl_add_TouchUpInside_System_EventHandler
 plt_UIKit_UIControl_add_TouchUpInside_System_EventHandler:
 _p_34:
@@ -51918,7 +51945,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1048]
 br x16
-.word 15693
+.word 15713
 	.no_dead_strip plt_UIKit_UIFont_BoldSystemFontOfSize_System_nfloat
 plt_UIKit_UIFont_BoldSystemFontOfSize_System_nfloat:
 _p_35:
@@ -51926,7 +51953,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1056]
 br x16
-.word 15698
+.word 15718
 	.no_dead_strip plt_UIKit_UIView__ctor
 plt_UIKit_UIView__ctor:
 _p_36:
@@ -51934,7 +51961,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1064]
 br x16
-.word 15703
+.word 15723
 	.no_dead_strip plt_UIKit_UIColor_get_Gray
 plt_UIKit_UIColor_get_Gray:
 _p_37:
@@ -51942,7 +51969,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1072]
 br x16
-.word 15708
+.word 15728
 	.no_dead_strip plt_Foundation_NSDictionary__ctor
 plt_Foundation_NSDictionary__ctor:
 _p_38:
@@ -51950,7 +51977,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1080]
 br x16
-.word 15713
+.word 15733
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_39:
@@ -51958,7 +51985,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1088]
 br x16
-.word 15718
+.word 15738
 	.no_dead_strip plt_Foundation_NSString__ctor_string
 plt_Foundation_NSString__ctor_string:
 _p_40:
@@ -51966,7 +51993,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1096]
 br x16
-.word 15726
+.word 15746
 	.no_dead_strip plt_Foundation_NSDictionary_FromObjectsAndKeys_Foundation_NSObject___Foundation_NSObject__
 plt_Foundation_NSDictionary_FromObjectsAndKeys_Foundation_NSObject___Foundation_NSObject__:
 _p_41:
@@ -51974,7 +52001,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1104]
 br x16
-.word 15731
+.word 15751
 	.no_dead_strip plt_UIKit_NSLayoutConstraint_FromVisualFormat_string_UIKit_NSLayoutFormatOptions_Foundation_NSDictionary_Foundation_NSDictionary
 plt_UIKit_NSLayoutConstraint_FromVisualFormat_string_UIKit_NSLayoutFormatOptions_Foundation_NSDictionary_Foundation_NSDictionary:
 _p_42:
@@ -51982,7 +52009,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1112]
 br x16
-.word 15736
+.word 15756
 	.no_dead_strip plt_UIKit_NSLayoutConstraint_Create_Foundation_NSObject_UIKit_NSLayoutAttribute_UIKit_NSLayoutRelation_Foundation_NSObject_UIKit_NSLayoutAttribute_System_nfloat_System_nfloat
 plt_UIKit_NSLayoutConstraint_Create_Foundation_NSObject_UIKit_NSLayoutAttribute_UIKit_NSLayoutRelation_Foundation_NSObject_UIKit_NSLayoutAttribute_System_nfloat_System_nfloat:
 _p_43:
@@ -51990,7 +52017,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1120]
 br x16
-.word 15741
+.word 15761
 	.no_dead_strip plt_UIKit_UIView_AddConstraint_UIKit_NSLayoutConstraint
 plt_UIKit_UIView_AddConstraint_UIKit_NSLayoutConstraint:
 _p_44:
@@ -51998,7 +52025,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1128]
 br x16
-.word 15746
+.word 15766
 	.no_dead_strip plt_UIKit_UIView_AddConstraints_UIKit_NSLayoutConstraint__
 plt_UIKit_UIView_AddConstraints_UIKit_NSLayoutConstraint__:
 _p_45:
@@ -52006,7 +52033,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1136]
 br x16
-.word 15751
+.word 15771
 	.no_dead_strip plt_UIKit_UIDevice_get_CurrentDevice
 plt_UIKit_UIDevice_get_CurrentDevice:
 _p_46:
@@ -52014,7 +52041,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1144]
 br x16
-.word 15756
+.word 15776
 	.no_dead_strip plt_UIKit_UIDevice_CheckSystemVersion_int_int
 plt_UIKit_UIDevice_CheckSystemVersion_int_int:
 _p_47:
@@ -52022,7 +52049,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1152]
 br x16
-.word 15761
+.word 15781
 	.no_dead_strip plt_UIKit_UIApplication_get_SharedApplication
 plt_UIKit_UIApplication_get_SharedApplication:
 _p_48:
@@ -52030,7 +52057,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1160]
 br x16
-.word 15766
+.word 15786
 	.no_dead_strip plt_UIKit_UIApplication_get_KeyWindow
 plt_UIKit_UIApplication_get_KeyWindow:
 _p_49:
@@ -52038,7 +52065,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1168]
 br x16
-.word 15771
+.word 15791
 	.no_dead_strip plt_UIKit_UIView_get_SafeAreaInsets
 plt_UIKit_UIView_get_SafeAreaInsets:
 _p_50:
@@ -52046,7 +52073,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1176]
 br x16
-.word 15776
+.word 15796
 	.no_dead_strip plt_UIKit_UIView_get_Superview
 plt_UIKit_UIView_get_Superview:
 _p_51:
@@ -52054,7 +52081,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1184]
 br x16
-.word 15781
+.word 15801
 	.no_dead_strip plt_Foundation_NSTimer_CreateScheduledTimer_System_TimeSpan_System_Action_1_Foundation_NSTimer
 plt_Foundation_NSTimer_CreateScheduledTimer_System_TimeSpan_System_Action_1_Foundation_NSTimer:
 _p_52:
@@ -52062,7 +52089,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1192]
 br x16
-.word 15786
+.word 15806
 	.no_dead_strip plt_UIKit_NSLayoutConstraint_set_Constant_System_nfloat
 plt_UIKit_NSLayoutConstraint_set_Constant_System_nfloat:
 _p_53:
@@ -52070,7 +52097,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1200]
 br x16
-.word 15791
+.word 15811
 	.no_dead_strip plt_UIKit_UIView_LayoutIfNeeded
 plt_UIKit_UIView_LayoutIfNeeded:
 _p_54:
@@ -52078,7 +52105,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1208]
 br x16
-.word 15796
+.word 15816
 	.no_dead_strip plt_TTG_TTGSnackbar_get_LeftMargin
 plt_TTG_TTGSnackbar_get_LeftMargin:
 _p_55:
@@ -52086,7 +52113,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1216]
 br x16
-.word 15801
+.word 15821
 	.no_dead_strip plt_TTG_TTGSnackbar_get_RightMargin
 plt_TTG_TTGSnackbar_get_RightMargin:
 _p_56:
@@ -52094,7 +52121,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1224]
 br x16
-.word 15803
+.word 15823
 	.no_dead_strip plt_TTG_TTGSnackbar_get_TopMargin
 plt_TTG_TTGSnackbar_get_TopMargin:
 _p_57:
@@ -52102,7 +52129,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1232]
 br x16
-.word 15805
+.word 15825
 	.no_dead_strip plt_TTG_TTGSnackbar_get_BottomMargin
 plt_TTG_TTGSnackbar_get_BottomMargin:
 _p_58:
@@ -52110,7 +52137,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1240]
 br x16
-.word 15807
+.word 15827
 	.no_dead_strip plt_UIKit_NSLayoutConstraint_set_Priority_single
 plt_UIKit_NSLayoutConstraint_set_Priority_single:
 _p_59:
@@ -52118,7 +52145,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1248]
 br x16
-.word 15809
+.word 15829
 	.no_dead_strip plt_TTG_TTGSnackbar_showWithAnimation
 plt_TTG_TTGSnackbar_showWithAnimation:
 _p_60:
@@ -52126,7 +52153,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1256]
 br x16
-.word 15814
+.word 15834
 	.no_dead_strip plt_System_Console_WriteLine_string
 plt_System_Console_WriteLine_string:
 _p_61:
@@ -52134,7 +52161,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1264]
 br x16
-.word 15816
+.word 15836
 	.no_dead_strip plt_Foundation_NSTimer_Invalidate
 plt_Foundation_NSTimer_Invalidate:
 _p_62:
@@ -52142,7 +52169,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1272]
 br x16
-.word 15821
+.word 15841
 	.no_dead_strip plt_UIKit_UIView_SetNeedsLayout
 plt_UIKit_UIView_SetNeedsLayout:
 _p_63:
@@ -52150,7 +52177,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1280]
 br x16
-.word 15826
+.word 15846
 	.no_dead_strip plt__jit_icall_mono_ldvirtfn
 plt__jit_icall_mono_ldvirtfn:
 _p_64:
@@ -52158,7 +52185,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1288]
 br x16
-.word 15831
+.word 15851
 	.no_dead_strip plt_System_Action__ctor_object_intptr
 plt_System_Action__ctor_object_intptr:
 _p_65:
@@ -52166,7 +52193,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1296]
 br x16
-.word 15847
+.word 15867
 	.no_dead_strip plt_UIKit_UIView_Animate_double_double_UIKit_UIViewAnimationOptions_System_Action_System_Action
 plt_UIKit_UIView_Animate_double_double_UIKit_UIViewAnimationOptions_System_Action_System_Action:
 _p_66:
@@ -52174,7 +52201,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1304]
 br x16
-.word 15852
+.word 15872
 	.no_dead_strip plt_UIKit_UIView_set_Alpha_System_nfloat
 plt_UIKit_UIView_set_Alpha_System_nfloat:
 _p_67:
@@ -52182,7 +52209,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1312]
 br x16
-.word 15857
+.word 15877
 	.no_dead_strip plt_UIKit_UIView_AnimateNotify_double_double_System_nfloat_System_nfloat_UIKit_UIViewAnimationOptions_System_Action_UIKit_UICompletionHandler
 plt_UIKit_UIView_AnimateNotify_double_double_System_nfloat_System_nfloat_UIKit_UIViewAnimationOptions_System_Action_UIKit_UICompletionHandler:
 _p_68:
@@ -52190,7 +52217,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1320]
 br x16
-.word 15862
+.word 15882
 	.no_dead_strip plt_TTG_TTGSnackbar_Dismiss_bool
 plt_TTG_TTGSnackbar_Dismiss_bool:
 _p_69:
@@ -52198,7 +52225,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1328]
 br x16
-.word 15867
+.word 15887
 	.no_dead_strip plt_System_DateTime_get_Now
 plt_System_DateTime_get_Now:
 _p_70:
@@ -52206,7 +52233,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1336]
 br x16
-.word 15869
+.word 15889
 	.no_dead_strip plt_Foundation_NSDateFormatter__ctor
 plt_Foundation_NSDateFormatter__ctor:
 _p_71:
@@ -52214,7 +52241,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1344]
 br x16
-.word 15874
+.word 15894
 	.no_dead_strip plt_UIKit_UIViewController__ctor
 plt_UIKit_UIViewController__ctor:
 _p_72:
@@ -52222,7 +52249,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1352]
 br x16
-.word 15879
+.word 15899
 	.no_dead_strip plt_UIKit_UIViewController_set_ModalPresentationStyle_UIKit_UIModalPresentationStyle
 plt_UIKit_UIViewController_set_ModalPresentationStyle_UIKit_UIModalPresentationStyle:
 _p_73:
@@ -52230,7 +52257,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1360]
 br x16
-.word 15884
+.word 15904
 	.no_dead_strip plt_UIKit_UIViewController_set_TransitioningDelegate_UIKit_IUIViewControllerTransitioningDelegate
 plt_UIKit_UIViewController_set_TransitioningDelegate_UIKit_IUIViewControllerTransitioningDelegate:
 _p_74:
@@ -52238,7 +52265,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1368]
 br x16
-.word 15889
+.word 15909
 	.no_dead_strip plt_AI_AIDatePickerController_SetupSafeAreaInsets
 plt_AI_AIDatePickerController_SetupSafeAreaInsets:
 _p_75:
@@ -52246,7 +52273,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1376]
 br x16
-.word 15894
+.word 15914
 	.no_dead_strip plt_UIKit_UIViewController_ViewDidLoad
 plt_UIKit_UIViewController_ViewDidLoad:
 _p_76:
@@ -52254,7 +52281,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1384]
 br x16
-.word 15896
+.word 15916
 	.no_dead_strip plt_UIKit_UIViewController_get_View
 plt_UIKit_UIViewController_get_View:
 _p_77:
@@ -52262,7 +52289,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1392]
 br x16
-.word 15901
+.word 15921
 	.no_dead_strip plt_UIKit_UIDatePicker__ctor
 plt_UIKit_UIDatePicker__ctor:
 _p_78:
@@ -52270,7 +52297,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1400]
 br x16
-.word 15906
+.word 15926
 	.no_dead_strip plt_Acr_UserDialogs_Extensions_ToNSDate_System_DateTime
 plt_Acr_UserDialogs_Extensions_ToNSDate_System_DateTime:
 _p_79:
@@ -52278,7 +52305,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1408]
 br x16
-.word 15911
+.word 15931
 	.no_dead_strip plt_UIKit_UIDatePicker_set_Date_Foundation_NSDate
 plt_UIKit_UIDatePicker_set_Date_Foundation_NSDate:
 _p_80:
@@ -52286,7 +52313,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1416]
 br x16
-.word 15914
+.word 15934
 	.no_dead_strip plt_UIKit_UIDatePicker_set_Mode_UIKit_UIDatePickerMode
 plt_UIKit_UIDatePicker_set_Mode_UIKit_UIDatePickerMode:
 _p_81:
@@ -52294,7 +52321,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1424]
 br x16
-.word 15919
+.word 15939
 	.no_dead_strip plt_UIKit_UIDatePicker_set_MinuteInterval_System_nint
 plt_UIKit_UIDatePicker_set_MinuteInterval_System_nint:
 _p_82:
@@ -52302,7 +52329,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1432]
 br x16
-.word 15924
+.word 15944
 	.no_dead_strip plt_Foundation_NSLocale_FromLocaleIdentifier_string
 plt_Foundation_NSLocale_FromLocaleIdentifier_string:
 _p_83:
@@ -52310,7 +52337,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1440]
 br x16
-.word 15929
+.word 15949
 	.no_dead_strip plt_UIKit_UIDatePicker_set_Locale_Foundation_NSLocale
 plt_UIKit_UIDatePicker_set_Locale_Foundation_NSLocale:
 _p_84:
@@ -52318,7 +52345,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1448]
 br x16
-.word 15934
+.word 15954
 	.no_dead_strip plt_System_Nullable_1_System_DateTime_get_Value
 plt_System_Nullable_1_System_DateTime_get_Value:
 _p_85:
@@ -52326,7 +52353,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1456]
 br x16
-.word 15939
+.word 15959
 	.no_dead_strip plt_UIKit_UIDatePicker_set_MinimumDate_Foundation_NSDate
 plt_UIKit_UIDatePicker_set_MinimumDate_Foundation_NSDate:
 _p_86:
@@ -52334,7 +52361,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1464]
 br x16
-.word 15950
+.word 15970
 	.no_dead_strip plt_UIKit_UIDatePicker_set_MaximumDate_Foundation_NSDate
 plt_UIKit_UIDatePicker_set_MaximumDate_Foundation_NSDate:
 _p_87:
@@ -52342,7 +52369,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1472]
 br x16
-.word 15955
+.word 15975
 	.no_dead_strip plt_UIKit_UIView_get_Bounds
 plt_UIKit_UIView_get_Bounds:
 _p_88:
@@ -52350,7 +52377,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1480]
 br x16
-.word 15960
+.word 15980
 	.no_dead_strip plt_UIKit_UIView_set_AutoresizingMask_UIKit_UIViewAutoresizing
 plt_UIKit_UIView_set_AutoresizingMask_UIKit_UIViewAutoresizing:
 _p_89:
@@ -52358,7 +52385,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1488]
 br x16
-.word 15965
+.word 15985
 	.no_dead_strip plt_UIKit_UIView_set_TintAdjustmentMode_UIKit_UIViewTintAdjustmentMode
 plt_UIKit_UIView_set_TintAdjustmentMode_UIKit_UIViewTintAdjustmentMode:
 _p_90:
@@ -52366,7 +52393,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1496]
 br x16
-.word 15970
+.word 15990
 	.no_dead_strip plt_UIKit_UIColor_get_Black
 plt_UIKit_UIColor_get_Black:
 _p_91:
@@ -52374,7 +52401,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1504]
 br x16
-.word 15975
+.word 15995
 	.no_dead_strip plt_UIKit_UIView_set_UserInteractionEnabled_bool
 plt_UIKit_UIView_set_UserInteractionEnabled_bool:
 _p_92:
@@ -52382,7 +52409,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1512]
 br x16
-.word 15980
+.word 16000
 	.no_dead_strip plt_UIKit_UIView_set_ClipsToBounds_bool
 plt_UIKit_UIView_set_ClipsToBounds_bool:
 _p_93:
@@ -52390,7 +52417,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1520]
 br x16
-.word 15985
+.word 16005
 	.no_dead_strip plt_UIKit_UIColor_FromRGBA_int_int_int_int
 plt_UIKit_UIColor_FromRGBA_int_int_int_int:
 _p_94:
@@ -52398,7 +52425,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1528]
 br x16
-.word 15990
+.word 16010
 	.no_dead_strip plt_UIKit_UIColor_get_Red
 plt_UIKit_UIColor_get_Red:
 _p_95:
@@ -52406,7 +52433,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1536]
 br x16
-.word 15995
+.word 16015
 	.no_dead_strip plt_UIKit_UIButton__ctor_UIKit_UIButtonType
 plt_UIKit_UIButton__ctor_UIKit_UIButtonType:
 _p_96:
@@ -52414,7 +52441,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1544]
 br x16
-.word 16000
+.word 16020
 	.no_dead_strip plt_string_Format_string_object
 plt_string_Format_string_object:
 _p_97:
@@ -52422,7 +52449,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1552]
 br x16
-.word 16005
+.word 16025
 	.no_dead_strip plt_UIKit_UITransitionContext_get_FromViewControllerKey
 plt_UIKit_UITransitionContext_get_FromViewControllerKey:
 _p_98:
@@ -52430,7 +52457,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1560]
 br x16
-.word 16010
+.word 16030
 	.no_dead_strip plt_UIKit_UITransitionContext_get_ToViewControllerKey
 plt_UIKit_UITransitionContext_get_ToViewControllerKey:
 _p_99:
@@ -52438,7 +52465,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1568]
 br x16
-.word 16015
+.word 16035
 	.no_dead_strip plt_string_memset_byte__int_int
 plt_string_memset_byte__int_int:
 _p_100:
@@ -52446,7 +52473,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1576]
 br x16
-.word 16020
+.word 16040
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_Start_Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_Start_Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_:
 _p_101:
@@ -52454,7 +52481,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1584]
 br x16
-.word 16025
+.word 16045
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_get_Task:
 _p_102:
@@ -52462,7 +52489,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1592]
 br x16
-.word 16037
+.word 16057
 	.no_dead_strip plt_Acr_UserDialogs_AlertConfig__ctor
 plt_Acr_UserDialogs_AlertConfig__ctor:
 _p_103:
@@ -52470,7 +52497,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1600]
 br x16
-.word 16048
+.word 16068
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_104:
@@ -52478,7 +52505,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1608]
 br x16
-.word 16051
+.word 16071
 	.no_dead_strip plt_Acr_UserDialogs_ProgressDialogConfig__ctor
 plt_Acr_UserDialogs_ProgressDialogConfig__ctor:
 _p_105:
@@ -52486,7 +52513,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1616]
 br x16
-.word 16077
+.word 16097
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_:
 _p_106:
@@ -52494,7 +52521,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1624]
 br x16
-.word 16080
+.word 16100
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_get_Task:
 _p_107:
@@ -52502,7 +52529,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1632]
 br x16
-.word 16092
+.word 16112
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_Start_Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_Start_Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_:
 _p_108:
@@ -52510,7 +52537,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1640]
 br x16
-.word 16097
+.word 16117
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_get_Task:
 _p_109:
@@ -52518,7 +52545,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1648]
 br x16
-.word 16109
+.word 16129
 	.no_dead_strip plt_Acr_UserDialogs_ConfirmConfig__ctor
 plt_Acr_UserDialogs_ConfirmConfig__ctor:
 _p_110:
@@ -52526,7 +52553,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1656]
 br x16
-.word 16120
+.word 16140
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_DatePromptResult_Start_Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_DatePromptResult_Start_Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_:
 _p_111:
@@ -52534,7 +52561,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1664]
 br x16
-.word 16123
+.word 16143
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_DatePromptResult_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_DatePromptResult_get_Task:
 _p_112:
@@ -52542,7 +52569,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1672]
 br x16
-.word 16135
+.word 16155
 	.no_dead_strip plt_Acr_UserDialogs_DatePromptConfig__ctor
 plt_Acr_UserDialogs_DatePromptConfig__ctor:
 _p_113:
@@ -52550,7 +52577,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1680]
 br x16
-.word 16146
+.word 16166
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_TimePromptResult_Start_Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_TimePromptResult_Start_Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_:
 _p_114:
@@ -52558,7 +52585,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1688]
 br x16
-.word 16149
+.word 16169
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_TimePromptResult_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_TimePromptResult_get_Task:
 _p_115:
@@ -52566,7 +52593,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1696]
 br x16
-.word 16161
+.word 16181
 	.no_dead_strip plt_Acr_UserDialogs_TimePromptConfig__ctor
 plt_Acr_UserDialogs_TimePromptConfig__ctor:
 _p_116:
@@ -52574,7 +52601,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1704]
 br x16
-.word 16172
+.word 16192
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_LoginResult_Start_Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_LoginResult_Start_Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_:
 _p_117:
@@ -52582,7 +52609,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1712]
 br x16
-.word 16175
+.word 16195
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_LoginResult_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_LoginResult_get_Task:
 _p_118:
@@ -52590,7 +52617,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1720]
 br x16
-.word 16187
+.word 16207
 	.no_dead_strip plt_Acr_UserDialogs_LoginConfig__ctor
 plt_Acr_UserDialogs_LoginConfig__ctor:
 _p_119:
@@ -52598,7 +52625,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1728]
 br x16
-.word 16198
+.word 16218
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_PromptResult_Start_Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_PromptResult_Start_Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_:
 _p_120:
@@ -52606,7 +52633,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1736]
 br x16
-.word 16201
+.word 16221
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_PromptResult_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_PromptResult_get_Task:
 _p_121:
@@ -52614,7 +52641,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1744]
 br x16
-.word 16213
+.word 16233
 	.no_dead_strip plt_Acr_UserDialogs_PromptConfig__ctor
 plt_Acr_UserDialogs_PromptConfig__ctor:
 _p_122:
@@ -52622,7 +52649,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1752]
 br x16
-.word 16224
+.word 16244
 	.no_dead_strip plt_Acr_UserDialogs_ToastConfig__ctor_string
 plt_Acr_UserDialogs_ToastConfig__ctor_string:
 _p_123:
@@ -52630,7 +52657,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1760]
 br x16
-.word 16227
+.word 16247
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_TrySetCanceled
 plt_System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_TrySetCanceled:
 _p_124:
@@ -52638,7 +52665,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1768]
 br x16
-.word 16245
+.word 16265
 	.no_dead_strip plt_Acr_UserDialogs_ActionSheetOption__ctor_string_System_Action_string
 plt_Acr_UserDialogs_ActionSheetOption__ctor_string_System_Action_string:
 _p_125:
@@ -52646,7 +52673,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1776]
 br x16
-.word 16264
+.word 16284
 	.no_dead_strip plt_Acr_UserDialogs_AbstractStandardDialogResult_1_System_DateTime__ctor_bool_System_DateTime
 plt_Acr_UserDialogs_AbstractStandardDialogResult_1_System_DateTime__ctor_bool_System_DateTime:
 _p_126:
@@ -52654,7 +52681,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1784]
 br x16
-.word 16267
+.word 16287
 	.no_dead_strip plt_System_GC_SuppressFinalize_object
 plt_System_GC_SuppressFinalize_object:
 _p_127:
@@ -52662,7 +52689,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1792]
 br x16
-.word 16278
+.word 16298
 	.no_dead_strip plt_Acr_UserDialogs_Credentials__ctor_string_string
 plt_Acr_UserDialogs_Credentials__ctor_string_string:
 _p_128:
@@ -52670,7 +52697,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1800]
 br x16
-.word 16283
+.word 16303
 	.no_dead_strip plt_Acr_UserDialogs_AbstractStandardDialogResult_1_Acr_UserDialogs_Credentials__ctor_bool_Acr_UserDialogs_Credentials
 plt_Acr_UserDialogs_AbstractStandardDialogResult_1_Acr_UserDialogs_Credentials__ctor_bool_Acr_UserDialogs_Credentials:
 _p_129:
@@ -52678,7 +52705,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1808]
 br x16
-.word 16286
+.word 16306
 	.no_dead_strip plt_System_Nullable_1_int__ctor_int
 plt_System_Nullable_1_int__ctor_int:
 _p_130:
@@ -52686,7 +52713,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1816]
 br x16
-.word 16297
+.word 16317
 	.no_dead_strip plt_Acr_UserDialogs_AbstractStandardDialogResult_1_string__ctor_bool_string
 plt_Acr_UserDialogs_AbstractStandardDialogResult_1_string__ctor_bool_string:
 _p_131:
@@ -52694,7 +52721,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1824]
 br x16
-.word 16308
+.word 16328
 	.no_dead_strip plt_Acr_UserDialogs_AbstractStandardDialogResult_1_System_TimeSpan__ctor_bool_System_TimeSpan
 plt_Acr_UserDialogs_AbstractStandardDialogResult_1_System_TimeSpan__ctor_bool_System_TimeSpan:
 _p_132:
@@ -52702,7 +52729,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1832]
 br x16
-.word 16319
+.word 16339
 	.no_dead_strip plt_System_Nullable_1_System_Drawing_Color__ctor_System_Drawing_Color
 plt_System_Nullable_1_System_Drawing_Color__ctor_System_Drawing_Color:
 _p_133:
@@ -52710,7 +52737,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1840]
 br x16
-.word 16330
+.word 16350
 	.no_dead_strip plt_System_Nullable_1_Acr_UserDialogs_ToastPosition__ctor_Acr_UserDialogs_ToastPosition
 plt_System_Nullable_1_Acr_UserDialogs_ToastPosition__ctor_Acr_UserDialogs_ToastPosition:
 _p_134:
@@ -52718,7 +52745,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1848]
 br x16
-.word 16341
+.word 16361
 	.no_dead_strip plt_System_TimeSpan_FromMilliseconds_double
 plt_System_TimeSpan_FromMilliseconds_double:
 _p_135:
@@ -52726,7 +52753,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1856]
 br x16
-.word 16352
+.word 16372
 	.no_dead_strip plt_System_Nullable_1_System_TimeSpan__ctor_System_TimeSpan
 plt_System_Nullable_1_System_TimeSpan__ctor_System_TimeSpan:
 _p_136:
@@ -52734,7 +52761,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1864]
 br x16
-.word 16357
+.word 16377
 	.no_dead_strip plt_Acr_UserDialogs_ToastConfig_SetDuration_System_Nullable_1_System_TimeSpan
 plt_Acr_UserDialogs_ToastConfig_SetDuration_System_Nullable_1_System_TimeSpan:
 _p_137:
@@ -52742,7 +52769,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1872]
 br x16
-.word 16368
+.word 16388
 	.no_dead_strip plt_Acr_UserDialogs_ToastConfig_SetAction_Acr_UserDialogs_ToastAction
 plt_Acr_UserDialogs_ToastConfig_SetAction_Acr_UserDialogs_ToastAction:
 _p_138:
@@ -52750,7 +52777,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1880]
 br x16
-.word 16371
+.word 16391
 	.no_dead_strip plt_Acr_UserDialogs_UserDialogsImpl__ctor
 plt_Acr_UserDialogs_UserDialogsImpl__ctor:
 _p_139:
@@ -52758,7 +52785,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1888]
 br x16
-.word 16374
+.word 16394
 	.no_dead_strip plt_System_Drawing_Color_get_R
 plt_System_Drawing_Color_get_R:
 _p_140:
@@ -52766,7 +52793,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1896]
 br x16
-.word 16377
+.word 16397
 	.no_dead_strip plt_System_Drawing_Color_get_G
 plt_System_Drawing_Color_get_G:
 _p_141:
@@ -52774,7 +52801,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1904]
 br x16
-.word 16382
+.word 16402
 	.no_dead_strip plt_System_Drawing_Color_get_B
 plt_System_Drawing_Color_get_B:
 _p_142:
@@ -52782,7 +52809,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1912]
 br x16
-.word 16387
+.word 16407
 	.no_dead_strip plt_System_Drawing_Color_get_A
 plt_System_Drawing_Color_get_A:
 _p_143:
@@ -52790,7 +52817,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1920]
 br x16
-.word 16392
+.word 16412
 	.no_dead_strip plt_UIKit_UIColor__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat
 plt_UIKit_UIColor__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat:
 _p_144:
@@ -52798,7 +52825,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1928]
 br x16
-.word 16397
+.word 16417
 	.no_dead_strip plt_Foundation_NSObject_InvokeOnMainThread_System_Action
 plt_Foundation_NSObject_InvokeOnMainThread_System_Action:
 _p_145:
@@ -52806,7 +52833,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1936]
 br x16
-.word 16402
+.word 16422
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_146:
@@ -52814,7 +52841,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1944]
 br x16
-.word 16407
+.word 16427
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_147:
@@ -52822,7 +52849,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1952]
 br x16
-.word 16427
+.word 16447
 	.no_dead_strip plt_Foundation_NSCalendar_get_CurrentCalendar
 plt_Foundation_NSCalendar_get_CurrentCalendar:
 _p_148:
@@ -52830,7 +52857,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1960]
 br x16
-.word 16455
+.word 16475
 	.no_dead_strip plt_Foundation_NSCalendar_GetComponentFromDate_Foundation_NSCalendarUnit_Foundation_NSDate
 plt_Foundation_NSCalendar_GetComponentFromDate_Foundation_NSCalendarUnit_Foundation_NSDate:
 _p_149:
@@ -52838,7 +52865,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1968]
 br x16
-.word 16460
+.word 16480
 	.no_dead_strip plt_System_DateTime__ctor_int_int_int_int_int_int_int_System_DateTimeKind
 plt_System_DateTime__ctor_int_int_int_int_int_int_int_System_DateTimeKind:
 _p_150:
@@ -52846,7 +52873,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1976]
 br x16
-.word 16465
+.word 16485
 	.no_dead_strip plt_System_DateTime_ToLocalTime
 plt_System_DateTime_ToLocalTime:
 _p_151:
@@ -52854,7 +52881,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1984]
 br x16
-.word 16470
+.word 16490
 	.no_dead_strip plt_Foundation_NSDateComponents__ctor
 plt_Foundation_NSDateComponents__ctor:
 _p_152:
@@ -52862,7 +52889,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1992]
 br x16
-.word 16475
+.word 16495
 	.no_dead_strip plt_System_DateTime_get_Year
 plt_System_DateTime_get_Year:
 _p_153:
@@ -52870,7 +52897,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2000]
 br x16
-.word 16480
+.word 16500
 	.no_dead_strip plt_Foundation_NSDateComponents_set_Year_System_nint
 plt_Foundation_NSDateComponents_set_Year_System_nint:
 _p_154:
@@ -52878,7 +52905,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2008]
 br x16
-.word 16485
+.word 16505
 	.no_dead_strip plt_System_DateTime_get_Month
 plt_System_DateTime_get_Month:
 _p_155:
@@ -52886,7 +52913,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2016]
 br x16
-.word 16490
+.word 16510
 	.no_dead_strip plt_Foundation_NSDateComponents_set_Month_System_nint
 plt_Foundation_NSDateComponents_set_Month_System_nint:
 _p_156:
@@ -52894,7 +52921,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2024]
 br x16
-.word 16495
+.word 16515
 	.no_dead_strip plt_System_DateTime_get_Day
 plt_System_DateTime_get_Day:
 _p_157:
@@ -52902,7 +52929,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2032]
 br x16
-.word 16500
+.word 16520
 	.no_dead_strip plt_Foundation_NSDateComponents_set_Day_System_nint
 plt_Foundation_NSDateComponents_set_Day_System_nint:
 _p_158:
@@ -52910,7 +52937,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2040]
 br x16
-.word 16505
+.word 16525
 	.no_dead_strip plt_System_DateTime_get_Hour
 plt_System_DateTime_get_Hour:
 _p_159:
@@ -52918,7 +52945,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2048]
 br x16
-.word 16510
+.word 16530
 	.no_dead_strip plt_Foundation_NSDateComponents_set_Hour_System_nint
 plt_Foundation_NSDateComponents_set_Hour_System_nint:
 _p_160:
@@ -52926,7 +52953,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2056]
 br x16
-.word 16515
+.word 16535
 	.no_dead_strip plt_Foundation_NSDateComponents_set_Minute_System_nint
 plt_Foundation_NSDateComponents_set_Minute_System_nint:
 _p_161:
@@ -52934,7 +52961,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2064]
 br x16
-.word 16520
+.word 16540
 	.no_dead_strip plt_Foundation_NSDateComponents_set_Second_System_nint
 plt_Foundation_NSDateComponents_set_Second_System_nint:
 _p_162:
@@ -52942,7 +52969,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2072]
 br x16
-.word 16525
+.word 16545
 	.no_dead_strip plt_System_DateTime_get_Millisecond
 plt_System_DateTime_get_Millisecond:
 _p_163:
@@ -52950,7 +52977,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2080]
 br x16
-.word 16530
+.word 16550
 	.no_dead_strip plt_Foundation_NSDateComponents_set_Nanosecond_System_nint
 plt_Foundation_NSDateComponents_set_Nanosecond_System_nint:
 _p_164:
@@ -52958,7 +52985,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2088]
 br x16
-.word 16535
+.word 16555
 	.no_dead_strip plt_Foundation_NSCalendar_DateFromComponents_Foundation_NSDateComponents
 plt_Foundation_NSCalendar_DateFromComponents_Foundation_NSDateComponents:
 _p_165:
@@ -52966,7 +52993,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2096]
 br x16
-.word 16540
+.word 16560
 	.no_dead_strip plt_string_op_Equality_string_string
 plt_string_op_Equality_string_string:
 _p_166:
@@ -52974,7 +53001,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2104]
 br x16
-.word 16545
+.word 16565
 	.no_dead_strip plt_string_IsNullOrWhiteSpace_string
 plt_string_IsNullOrWhiteSpace_string:
 _p_167:
@@ -52982,7 +53009,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2112]
 br x16
-.word 16550
+.word 16570
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_168:
@@ -52990,7 +53017,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2120]
 br x16
-.word 16555
+.word 16575
 	.no_dead_strip plt_string_Concat_object_object_object
 plt_string_Concat_object_object_object:
 _p_169:
@@ -52998,7 +53025,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2128]
 br x16
-.word 16560
+.word 16580
 	.no_dead_strip plt_AI_AIDatePickerController__ctor
 plt_AI_AIDatePickerController__ctor:
 _p_170:
@@ -53006,7 +53033,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2136]
 br x16
-.word 16565
+.word 16585
 	.no_dead_strip plt_System_DateTime_get_Today
 plt_System_DateTime_get_Today:
 _p_171:
@@ -53014,7 +53041,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2144]
 br x16
-.word 16567
+.word 16587
 	.no_dead_strip plt_System_Nullable_1_System_TimeSpan_get_Value
 plt_System_Nullable_1_System_TimeSpan_get_Value:
 _p_172:
@@ -53022,7 +53049,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2152]
 br x16
-.word 16572
+.word 16592
 	.no_dead_strip plt_System_DateTime_Add_System_TimeSpan
 plt_System_DateTime_Add_System_TimeSpan:
 _p_173:
@@ -53030,7 +53057,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2160]
 br x16
-.word 16583
+.word 16603
 	.no_dead_strip plt_UIKit_UITextField_get_Text
 plt_UIKit_UITextField_get_Text:
 _p_174:
@@ -53038,7 +53065,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2168]
 br x16
-.word 16588
+.word 16608
 	.no_dead_strip plt_UIKit_UIAlertAction_set_Enabled_bool
 plt_UIKit_UIAlertAction_set_Enabled_bool:
 _p_175:
@@ -53046,7 +53073,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2176]
 br x16
-.word 16593
+.word 16613
 	.no_dead_strip plt_string_Equals_string
 plt_string_Equals_string:
 _p_176:
@@ -53054,7 +53081,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2184]
 br x16
-.word 16598
+.word 16618
 	.no_dead_strip plt_UIKit_UITextField_set_Text_string
 plt_UIKit_UITextField_set_Text_string:
 _p_177:
@@ -53062,7 +53089,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2192]
 br x16
-.word 16603
+.word 16623
 	.no_dead_strip plt_Acr_UserDialogs_Extensions_SafeInvokeOnMainThread_UIKit_UIApplication_System_Action
 plt_Acr_UserDialogs_Extensions_SafeInvokeOnMainThread_UIKit_UIApplication_System_Action:
 _p_178:
@@ -53070,7 +53097,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2200]
 br x16
-.word 16608
+.word 16628
 	.no_dead_strip plt_UIKit_UIAlertController_Create_string_string_UIKit_UIAlertControllerStyle
 plt_UIKit_UIAlertController_Create_string_string_UIKit_UIAlertControllerStyle:
 _p_179:
@@ -53078,7 +53105,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2208]
 br x16
-.word 16611
+.word 16631
 	.no_dead_strip plt_System_Linq_Enumerable_ToList_Acr_UserDialogs_ActionSheetOption_System_Collections_Generic_IEnumerable_1_Acr_UserDialogs_ActionSheetOption
 plt_System_Linq_Enumerable_ToList_Acr_UserDialogs_ActionSheetOption_System_Collections_Generic_IEnumerable_1_Acr_UserDialogs_ActionSheetOption:
 _p_180:
@@ -53086,7 +53113,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2216]
 br x16
-.word 16616
+.word 16636
 	.no_dead_strip plt_System_Collections_Generic_List_1_Acr_UserDialogs_ActionSheetOption_ForEach_System_Action_1_Acr_UserDialogs_ActionSheetOption
 plt_System_Collections_Generic_List_1_Acr_UserDialogs_ActionSheetOption_ForEach_System_Action_1_Acr_UserDialogs_ActionSheetOption:
 _p_181:
@@ -53094,7 +53121,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2224]
 br x16
-.word 16628
+.word 16648
 	.no_dead_strip plt_UIKit_UIAlertAction_Create_string_UIKit_UIAlertActionStyle_System_Action_1_UIKit_UIAlertAction
 plt_UIKit_UIAlertAction_Create_string_UIKit_UIAlertActionStyle_System_Action_1_UIKit_UIAlertAction:
 _p_182:
@@ -53102,7 +53129,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2232]
 br x16
-.word 16639
+.word 16659
 	.no_dead_strip plt_UIKit_UIImage_FromBundle_string
 plt_UIKit_UIImage_FromBundle_string:
 _p_183:
@@ -53110,7 +53137,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2240]
 br x16
-.word 16644
+.word 16664
 	.no_dead_strip plt_UIKit_UIAlertController_AddAction_UIKit_UIAlertAction
 plt_UIKit_UIAlertController_AddAction_UIKit_UIAlertAction:
 _p_184:
@@ -53118,7 +53145,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2248]
 br x16
-.word 16649
+.word 16669
 	.no_dead_strip plt_Acr_UserDialogs_ProgressDialog__ctor_Acr_UserDialogs_ProgressDialogConfig
 plt_Acr_UserDialogs_ProgressDialog__ctor_Acr_UserDialogs_ProgressDialogConfig:
 _p_185:
@@ -53126,7 +53153,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2256]
 br x16
-.word 16654
+.word 16674
 	.no_dead_strip plt_UIKit_UITextField_set_KeyboardType_UIKit_UIKeyboardType
 plt_UIKit_UITextField_set_KeyboardType_UIKit_UIKeyboardType:
 _p_186:
@@ -53134,7 +53161,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2264]
 br x16
-.word 16657
+.word 16677
 	.no_dead_strip plt_UIKit_UITextField_set_SecureTextEntry_bool
 plt_UIKit_UITextField_set_SecureTextEntry_bool:
 _p_187:
@@ -53142,7 +53169,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2272]
 br x16
-.word 16662
+.word 16682
 	.no_dead_strip plt_Acr_UserDialogs_Infrastructure_Log_set_Out_System_Action_3_string_string_Acr_UserDialogs_Infrastructure_LogLevel
 plt_Acr_UserDialogs_Infrastructure_Log_set_Out_System_Action_3_string_string_Acr_UserDialogs_Infrastructure_LogLevel:
 _p_188:
@@ -53150,7 +53177,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2280]
 br x16
-.word 16667
+.word 16687
 	.no_dead_strip plt_Acr_UserDialogs_Infrastructure_Log_Write_string_string_Acr_UserDialogs_Infrastructure_LogLevel
 plt_Acr_UserDialogs_Infrastructure_Log_Write_string_string_Acr_UserDialogs_Infrastructure_LogLevel:
 _p_189:
@@ -53158,7 +53185,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2288]
 br x16
-.word 16670
+.word 16690
 	.no_dead_strip plt_Acr_UserDialogs_Infrastructure_Log_get_MinLogLevel
 plt_Acr_UserDialogs_Infrastructure_Log_get_MinLogLevel:
 _p_190:
@@ -53166,7 +53193,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2296]
 br x16
-.word 16673
+.word 16693
 	.no_dead_strip plt_Acr_UserDialogs_Infrastructure_Log_get_Out
 plt_Acr_UserDialogs_Infrastructure_Log_get_Out:
 _p_191:
@@ -53174,7 +53201,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2304]
 br x16
-.word 16676
+.word 16696
 	.no_dead_strip plt_UIKit_UIApplication_get_Windows
 plt_UIKit_UIApplication_get_Windows:
 _p_192:
@@ -53182,7 +53209,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2312]
 br x16
-.word 16679
+.word 16699
 	.no_dead_strip plt_System_Linq_Enumerable_Reverse_UIKit_UIWindow_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow
 plt_System_Linq_Enumerable_Reverse_UIKit_UIWindow_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow:
 _p_193:
@@ -53190,7 +53217,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2320]
 br x16
-.word 16684
+.word 16704
 	.no_dead_strip plt_System_Linq_Enumerable_FirstOrDefault_UIKit_UIWindow_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_bool
 plt_System_Linq_Enumerable_FirstOrDefault_UIKit_UIWindow_System_Collections_Generic_IEnumerable_1_UIKit_UIWindow_System_Func_2_UIKit_UIWindow_bool:
 _p_194:
@@ -53198,7 +53225,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2328]
 br x16
-.word 16696
+.word 16716
 	.no_dead_strip plt_Acr_UserDialogs_Infrastructure_Utils_GetTopWindow_UIKit_UIApplication
 plt_Acr_UserDialogs_Infrastructure_Utils_GetTopWindow_UIKit_UIApplication:
 _p_195:
@@ -53206,7 +53233,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2336]
 br x16
-.word 16708
+.word 16728
 	.no_dead_strip plt_UIKit_UIView_get_Subviews
 plt_UIKit_UIView_get_Subviews:
 _p_196:
@@ -53214,7 +53241,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2344]
 br x16
-.word 16711
+.word 16731
 	.no_dead_strip plt_System_Linq_Enumerable_Last_UIKit_UIView_System_Collections_Generic_IEnumerable_1_UIKit_UIView
 plt_System_Linq_Enumerable_Last_UIKit_UIView_System_Collections_Generic_IEnumerable_1_UIKit_UIView:
 _p_197:
@@ -53222,7 +53249,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2352]
 br x16
-.word 16716
+.word 16736
 	.no_dead_strip plt_UIKit_UIWindow_get_RootViewController
 plt_UIKit_UIWindow_get_RootViewController:
 _p_198:
@@ -53230,7 +53257,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2360]
 br x16
-.word 16728
+.word 16748
 	.no_dead_strip plt_UIKit_UIViewController_get_PresentedViewController
 plt_UIKit_UIViewController_get_PresentedViewController:
 _p_199:
@@ -53238,7 +53265,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2368]
 br x16
-.word 16733
+.word 16753
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create:
 _p_200:
@@ -53246,7 +53273,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2376]
 br x16
-.word 16738
+.word 16758
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_AI_AIDatePickerController__c__DisplayClass59_0___ViewDidLoadb__0d_AI_AIDatePickerController__c__DisplayClass59_0___ViewDidLoadb__0d_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_AI_AIDatePickerController__c__DisplayClass59_0___ViewDidLoadb__0d_AI_AIDatePickerController__c__DisplayClass59_0___ViewDidLoadb__0d_:
 _p_201:
@@ -53254,7 +53281,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2384]
 br x16
-.word 16743
+.word 16763
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_AI_AIDatePickerController__c__DisplayClass59_0___ViewDidLoadb__1d_AI_AIDatePickerController__c__DisplayClass59_0___ViewDidLoadb__1d_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_AI_AIDatePickerController__c__DisplayClass59_0___ViewDidLoadb__1d_AI_AIDatePickerController__c__DisplayClass59_0___ViewDidLoadb__1d_:
 _p_202:
@@ -53262,7 +53289,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2392]
 br x16
-.word 16755
+.word 16775
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_AI_AIDatePickerController__c__DisplayClass59_0___ViewDidLoadb__2d_AI_AIDatePickerController__c__DisplayClass59_0___ViewDidLoadb__2d_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_AI_AIDatePickerController__c__DisplayClass59_0___ViewDidLoadb__2d_AI_AIDatePickerController__c__DisplayClass59_0___ViewDidLoadb__2d_:
 _p_203:
@@ -53270,7 +53297,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2400]
 br x16
-.word 16767
+.word 16787
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_string_TrySetResult_string
 plt_System_Threading_Tasks_TaskCompletionSource_1_string_TrySetResult_string:
 _p_204:
@@ -53278,7 +53305,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2408]
 br x16
-.word 16779
+.word 16799
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_string__ctor
 plt_System_Threading_Tasks_TaskCompletionSource_1_string__ctor:
 _p_205:
@@ -53286,7 +53313,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2416]
 br x16
-.word 16790
+.word 16810
 	.no_dead_strip plt_Acr_UserDialogs_ActionSheetConfig__ctor
 plt_Acr_UserDialogs_ActionSheetConfig__ctor:
 _p_206:
@@ -53294,7 +53321,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2424]
 br x16
-.word 16801
+.word 16821
 	.no_dead_strip plt_Acr_UserDialogs_ActionSheetConfig_SetCancel_string_System_Action_string
 plt_Acr_UserDialogs_ActionSheetConfig_SetCancel_string_System_Action_string:
 _p_207:
@@ -53302,7 +53329,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2432]
 br x16
-.word 16804
+.word 16824
 	.no_dead_strip plt_Acr_UserDialogs_ActionSheetConfig_SetDestructive_string_System_Action_string
 plt_Acr_UserDialogs_ActionSheetConfig_SetDestructive_string_System_Action_string:
 _p_208:
@@ -53310,7 +53337,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2440]
 br x16
-.word 16807
+.word 16827
 	.no_dead_strip plt_Acr_UserDialogs_ActionSheetConfig_Add_string_System_Action_string
 plt_Acr_UserDialogs_ActionSheetConfig_Add_string_System_Action_string:
 _p_209:
@@ -53318,7 +53345,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2448]
 br x16
-.word 16810
+.word 16830
 	.no_dead_strip plt_System_Threading_CancellationToken_Register_System_Action
 plt_System_Threading_CancellationToken_Register_System_Action:
 _p_210:
@@ -53326,7 +53353,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2456]
 br x16
-.word 16813
+.word 16833
 	.no_dead_strip plt_System_Nullable_1_System_Threading_CancellationTokenRegistration__ctor_System_Threading_CancellationTokenRegistration
 plt_System_Nullable_1_System_Threading_CancellationTokenRegistration__ctor_System_Threading_CancellationTokenRegistration:
 _p_211:
@@ -53334,7 +53361,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2464]
 br x16
-.word 16818
+.word 16838
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_string_GetAwaiter
 plt_System_Threading_Tasks_Task_1_string_GetAwaiter:
 _p_212:
@@ -53342,7 +53369,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2472]
 br x16
-.word 16829
+.word 16849
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_System_Runtime_CompilerServices_TaskAwaiter_1_string__Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_System_Runtime_CompilerServices_TaskAwaiter_1_string__Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_:
 _p_213:
@@ -53350,7 +53377,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2480]
 br x16
-.word 16840
+.word 16860
 	.no_dead_strip plt__jit_icall_ves_icall_thread_finish_async_abort
 plt__jit_icall_ves_icall_thread_finish_async_abort:
 _p_214:
@@ -53358,7 +53385,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2488]
 br x16
-.word 16852
+.word 16872
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_string_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_string_GetResult:
 _p_215:
@@ -53366,7 +53393,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2496]
 br x16
-.word 16890
+.word 16910
 	.no_dead_strip plt_System_Threading_CancellationTokenRegistration_Dispose
 plt_System_Threading_CancellationTokenRegistration_Dispose:
 _p_216:
@@ -53374,7 +53401,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2504]
 br x16
-.word 16901
+.word 16921
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_SetException_System_Exception:
 _p_217:
@@ -53382,7 +53409,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2512]
 br x16
-.word 16906
+.word 16926
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_218:
@@ -53390,7 +53417,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2520]
 br x16
-.word 16917
+.word 16937
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_SetResult_string
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_SetResult_string:
 _p_219:
@@ -53398,7 +53425,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2528]
 br x16
-.word 16956
+.word 16976
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_220:
@@ -53406,7 +53433,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2536]
 br x16
-.word 16967
+.word 16987
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_object_TrySetResult_object
 plt_System_Threading_Tasks_TaskCompletionSource_1_object_TrySetResult_object:
 _p_221:
@@ -53414,7 +53441,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2544]
 br x16
-.word 16978
+.word 16998
 	.no_dead_strip plt_Acr_UserDialogs_AbstractUserDialogs_Cancel_object_System_IDisposable_System_Threading_Tasks_TaskCompletionSource_1_object
 plt_Acr_UserDialogs_AbstractUserDialogs_Cancel_object_System_IDisposable_System_Threading_Tasks_TaskCompletionSource_1_object:
 _p_222:
@@ -53422,7 +53449,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2552]
 br x16
-.word 16989
+.word 17009
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_object__ctor
 plt_System_Threading_Tasks_TaskCompletionSource_1_object__ctor:
 _p_223:
@@ -53430,7 +53457,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2560]
 br x16
-.word 17001
+.word 17021
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_object_GetAwaiter
 plt_System_Threading_Tasks_Task_1_object_GetAwaiter:
 _p_224:
@@ -53438,7 +53465,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2568]
 br x16
-.word 17012
+.word 17032
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_object_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_System_Runtime_CompilerServices_TaskAwaiter_1_object__Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_object_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_System_Runtime_CompilerServices_TaskAwaiter_1_object__Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_:
 _p_225:
@@ -53446,7 +53473,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2576]
 br x16
-.word 17023
+.word 17043
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_object_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_object_GetResult:
 _p_226:
@@ -53454,7 +53481,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2584]
 br x16
-.word 17035
+.word 17055
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetException_System_Exception:
 _p_227:
@@ -53462,7 +53489,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2592]
 br x16
-.word 17046
+.word 17066
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetResult
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetResult:
 _p_228:
@@ -53470,7 +53497,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2600]
 br x16
-.word 17051
+.word 17071
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_229:
@@ -53478,7 +53505,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2608]
 br x16
-.word 17056
+.word 17076
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetResult_bool
 plt_System_Threading_Tasks_TaskCompletionSource_1_bool_TrySetResult_bool:
 _p_230:
@@ -53486,7 +53513,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2616]
 br x16
-.word 17061
+.word 17081
 	.no_dead_strip plt_Acr_UserDialogs_AbstractUserDialogs_Cancel_bool_System_IDisposable_System_Threading_Tasks_TaskCompletionSource_1_bool
 plt_Acr_UserDialogs_AbstractUserDialogs_Cancel_bool_System_IDisposable_System_Threading_Tasks_TaskCompletionSource_1_bool:
 _p_231:
@@ -53494,7 +53521,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2624]
 br x16
-.word 17072
+.word 17092
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_bool__ctor
 plt_System_Threading_Tasks_TaskCompletionSource_1_bool__ctor:
 _p_232:
@@ -53502,7 +53529,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2632]
 br x16
-.word 17084
+.word 17104
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_bool_GetAwaiter
 plt_System_Threading_Tasks_Task_1_bool_GetAwaiter:
 _p_233:
@@ -53510,7 +53537,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2640]
 br x16
-.word 17095
+.word 17115
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_System_Runtime_CompilerServices_TaskAwaiter_1_bool__Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_System_Runtime_CompilerServices_TaskAwaiter_1_bool__Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_:
 _p_234:
@@ -53518,7 +53545,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2648]
 br x16
-.word 17106
+.word 17126
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_GetResult:
 _p_235:
@@ -53526,7 +53553,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2656]
 br x16
-.word 17118
+.word 17138
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_SetException_System_Exception:
 _p_236:
@@ -53534,7 +53561,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2664]
 br x16
-.word 17129
+.word 17149
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_SetResult_bool
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_SetResult_bool:
 _p_237:
@@ -53542,7 +53569,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2672]
 br x16
-.word 17140
+.word 17160
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_238:
@@ -53550,7 +53577,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2680]
 br x16
-.word 17151
+.word 17171
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Acr_UserDialogs_DatePromptResult_TrySetResult_Acr_UserDialogs_DatePromptResult
 plt_System_Threading_Tasks_TaskCompletionSource_1_Acr_UserDialogs_DatePromptResult_TrySetResult_Acr_UserDialogs_DatePromptResult:
 _p_239:
@@ -53558,7 +53585,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2688]
 br x16
-.word 17162
+.word 17182
 	.no_dead_strip plt_Acr_UserDialogs_AbstractUserDialogs_Cancel_Acr_UserDialogs_DatePromptResult_System_IDisposable_System_Threading_Tasks_TaskCompletionSource_1_Acr_UserDialogs_DatePromptResult
 plt_Acr_UserDialogs_AbstractUserDialogs_Cancel_Acr_UserDialogs_DatePromptResult_System_IDisposable_System_Threading_Tasks_TaskCompletionSource_1_Acr_UserDialogs_DatePromptResult:
 _p_240:
@@ -53566,7 +53593,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2696]
 br x16
-.word 17173
+.word 17193
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Acr_UserDialogs_DatePromptResult__ctor
 plt_System_Threading_Tasks_TaskCompletionSource_1_Acr_UserDialogs_DatePromptResult__ctor:
 _p_241:
@@ -53574,7 +53601,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2704]
 br x16
-.word 17185
+.word 17205
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_Acr_UserDialogs_DatePromptResult_GetAwaiter
 plt_System_Threading_Tasks_Task_1_Acr_UserDialogs_DatePromptResult_GetAwaiter:
 _p_242:
@@ -53582,7 +53609,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2712]
 br x16
-.word 17196
+.word 17216
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_DatePromptResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_DatePromptResult_Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_DatePromptResult__Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_DatePromptResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_DatePromptResult_Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_DatePromptResult__Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_:
 _p_243:
@@ -53590,7 +53617,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2720]
 br x16
-.word 17207
+.word 17227
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_DatePromptResult_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_DatePromptResult_GetResult:
 _p_244:
@@ -53598,7 +53625,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2728]
 br x16
-.word 17219
+.word 17239
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_DatePromptResult_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_DatePromptResult_SetException_System_Exception:
 _p_245:
@@ -53606,7 +53633,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2736]
 br x16
-.word 17230
+.word 17250
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_DatePromptResult_SetResult_Acr_UserDialogs_DatePromptResult
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_DatePromptResult_SetResult_Acr_UserDialogs_DatePromptResult:
 _p_246:
@@ -53614,7 +53641,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2744]
 br x16
-.word 17241
+.word 17261
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_DatePromptResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_DatePromptResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_247:
@@ -53622,7 +53649,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2752]
 br x16
-.word 17252
+.word 17272
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Acr_UserDialogs_TimePromptResult_TrySetResult_Acr_UserDialogs_TimePromptResult
 plt_System_Threading_Tasks_TaskCompletionSource_1_Acr_UserDialogs_TimePromptResult_TrySetResult_Acr_UserDialogs_TimePromptResult:
 _p_248:
@@ -53630,7 +53657,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2760]
 br x16
-.word 17263
+.word 17283
 	.no_dead_strip plt_Acr_UserDialogs_AbstractUserDialogs_Cancel_Acr_UserDialogs_TimePromptResult_System_IDisposable_System_Threading_Tasks_TaskCompletionSource_1_Acr_UserDialogs_TimePromptResult
 plt_Acr_UserDialogs_AbstractUserDialogs_Cancel_Acr_UserDialogs_TimePromptResult_System_IDisposable_System_Threading_Tasks_TaskCompletionSource_1_Acr_UserDialogs_TimePromptResult:
 _p_249:
@@ -53638,7 +53665,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2768]
 br x16
-.word 17274
+.word 17294
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Acr_UserDialogs_TimePromptResult__ctor
 plt_System_Threading_Tasks_TaskCompletionSource_1_Acr_UserDialogs_TimePromptResult__ctor:
 _p_250:
@@ -53646,7 +53673,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2776]
 br x16
-.word 17286
+.word 17306
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_Acr_UserDialogs_TimePromptResult_GetAwaiter
 plt_System_Threading_Tasks_Task_1_Acr_UserDialogs_TimePromptResult_GetAwaiter:
 _p_251:
@@ -53654,7 +53681,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2784]
 br x16
-.word 17297
+.word 17317
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_TimePromptResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_TimePromptResult_Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_TimePromptResult__Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_TimePromptResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_TimePromptResult_Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_TimePromptResult__Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_:
 _p_252:
@@ -53662,7 +53689,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2792]
 br x16
-.word 17308
+.word 17328
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_TimePromptResult_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_TimePromptResult_GetResult:
 _p_253:
@@ -53670,7 +53697,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2800]
 br x16
-.word 17320
+.word 17340
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_TimePromptResult_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_TimePromptResult_SetException_System_Exception:
 _p_254:
@@ -53678,7 +53705,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2808]
 br x16
-.word 17331
+.word 17351
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_TimePromptResult_SetResult_Acr_UserDialogs_TimePromptResult
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_TimePromptResult_SetResult_Acr_UserDialogs_TimePromptResult:
 _p_255:
@@ -53686,7 +53713,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2816]
 br x16
-.word 17342
+.word 17362
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_TimePromptResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_TimePromptResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_256:
@@ -53694,7 +53721,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2824]
 br x16
-.word 17353
+.word 17373
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Acr_UserDialogs_LoginResult_TrySetResult_Acr_UserDialogs_LoginResult
 plt_System_Threading_Tasks_TaskCompletionSource_1_Acr_UserDialogs_LoginResult_TrySetResult_Acr_UserDialogs_LoginResult:
 _p_257:
@@ -53702,7 +53729,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2832]
 br x16
-.word 17364
+.word 17384
 	.no_dead_strip plt_Acr_UserDialogs_AbstractUserDialogs_Cancel_Acr_UserDialogs_LoginResult_System_IDisposable_System_Threading_Tasks_TaskCompletionSource_1_Acr_UserDialogs_LoginResult
 plt_Acr_UserDialogs_AbstractUserDialogs_Cancel_Acr_UserDialogs_LoginResult_System_IDisposable_System_Threading_Tasks_TaskCompletionSource_1_Acr_UserDialogs_LoginResult:
 _p_258:
@@ -53710,7 +53737,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2840]
 br x16
-.word 17375
+.word 17395
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Acr_UserDialogs_LoginResult__ctor
 plt_System_Threading_Tasks_TaskCompletionSource_1_Acr_UserDialogs_LoginResult__ctor:
 _p_259:
@@ -53718,7 +53745,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2848]
 br x16
-.word 17387
+.word 17407
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_Acr_UserDialogs_LoginResult_GetAwaiter
 plt_System_Threading_Tasks_Task_1_Acr_UserDialogs_LoginResult_GetAwaiter:
 _p_260:
@@ -53726,7 +53753,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2856]
 br x16
-.word 17398
+.word 17418
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_LoginResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_LoginResult_Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_LoginResult__Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_LoginResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_LoginResult_Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_LoginResult__Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_:
 _p_261:
@@ -53734,7 +53761,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2864]
 br x16
-.word 17409
+.word 17429
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_LoginResult_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_LoginResult_GetResult:
 _p_262:
@@ -53742,7 +53769,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2872]
 br x16
-.word 17421
+.word 17441
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_LoginResult_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_LoginResult_SetException_System_Exception:
 _p_263:
@@ -53750,7 +53777,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2880]
 br x16
-.word 17432
+.word 17452
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_LoginResult_SetResult_Acr_UserDialogs_LoginResult
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_LoginResult_SetResult_Acr_UserDialogs_LoginResult:
 _p_264:
@@ -53758,7 +53785,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2888]
 br x16
-.word 17443
+.word 17463
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_LoginResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_LoginResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_265:
@@ -53766,7 +53793,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2896]
 br x16
-.word 17454
+.word 17474
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Acr_UserDialogs_PromptResult_TrySetResult_Acr_UserDialogs_PromptResult
 plt_System_Threading_Tasks_TaskCompletionSource_1_Acr_UserDialogs_PromptResult_TrySetResult_Acr_UserDialogs_PromptResult:
 _p_266:
@@ -53774,7 +53801,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2904]
 br x16
-.word 17465
+.word 17485
 	.no_dead_strip plt_Acr_UserDialogs_AbstractUserDialogs_Cancel_Acr_UserDialogs_PromptResult_System_IDisposable_System_Threading_Tasks_TaskCompletionSource_1_Acr_UserDialogs_PromptResult
 plt_Acr_UserDialogs_AbstractUserDialogs_Cancel_Acr_UserDialogs_PromptResult_System_IDisposable_System_Threading_Tasks_TaskCompletionSource_1_Acr_UserDialogs_PromptResult:
 _p_267:
@@ -53782,7 +53809,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2912]
 br x16
-.word 17476
+.word 17496
 	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_Acr_UserDialogs_PromptResult__ctor
 plt_System_Threading_Tasks_TaskCompletionSource_1_Acr_UserDialogs_PromptResult__ctor:
 _p_268:
@@ -53790,7 +53817,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2920]
 br x16
-.word 17488
+.word 17508
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_Acr_UserDialogs_PromptResult_GetAwaiter
 plt_System_Threading_Tasks_Task_1_Acr_UserDialogs_PromptResult_GetAwaiter:
 _p_269:
@@ -53798,7 +53825,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2928]
 br x16
-.word 17499
+.word 17519
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_PromptResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_PromptResult_Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_PromptResult__Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_PromptResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_PromptResult_Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_PromptResult__Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_:
 _p_270:
@@ -53806,7 +53833,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2936]
 br x16
-.word 17510
+.word 17530
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_PromptResult_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_PromptResult_GetResult:
 _p_271:
@@ -53814,7 +53841,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2944]
 br x16
-.word 17522
+.word 17542
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_PromptResult_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_PromptResult_SetException_System_Exception:
 _p_272:
@@ -53822,7 +53849,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2952]
 br x16
-.word 17533
+.word 17553
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_PromptResult_SetResult_Acr_UserDialogs_PromptResult
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_PromptResult_SetResult_Acr_UserDialogs_PromptResult:
 _p_273:
@@ -53830,7 +53857,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2960]
 br x16
-.word 17544
+.word 17564
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_PromptResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_PromptResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_274:
@@ -53838,7 +53865,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2968]
 br x16
-.word 17555
+.word 17575
 	.no_dead_strip plt_Acr_UserDialogs_Infrastructure_Log_Error_string_string
 plt_Acr_UserDialogs_Infrastructure_Log_Error_string_string:
 _p_275:
@@ -53846,7 +53873,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2976]
 br x16
-.word 17566
+.word 17586
 	.no_dead_strip plt_Acr_UserDialogs_Extensions_ToNative_Acr_UserDialogs_MaskType
 plt_Acr_UserDialogs_Extensions_ToNative_Acr_UserDialogs_MaskType:
 _p_276:
@@ -53854,7 +53881,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2984]
 br x16
-.word 17569
+.word 17589
 	.no_dead_strip plt_BigTed_BTProgressHUD_Show_string_single_BigTed_ProgressHUD_MaskType
 plt_BigTed_BTProgressHUD_Show_string_single_BigTed_ProgressHUD_MaskType:
 _p_277:
@@ -53862,7 +53889,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #2992]
 br x16
-.word 17572
+.word 17592
 	.no_dead_strip plt_BigTed_BTProgressHUD_Show_string_System_Action_string_single_BigTed_ProgressHUD_MaskType
 plt_BigTed_BTProgressHUD_Show_string_System_Action_string_single_BigTed_ProgressHUD_MaskType:
 _p_278:
@@ -53870,7 +53897,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3000]
 br x16
-.word 17577
+.word 17597
 	.no_dead_strip plt_Acr_UserDialogs_Infrastructure_Utils_GetTopViewController_UIKit_UIApplication
 plt_Acr_UserDialogs_Infrastructure_Utils_GetTopViewController_UIKit_UIApplication:
 _p_279:
@@ -53878,7 +53905,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3008]
 br x16
-.word 17582
+.word 17602
 	.no_dead_strip plt_Acr_UserDialogs_DatePromptResult__ctor_bool_System_DateTime
 plt_Acr_UserDialogs_DatePromptResult__ctor_bool_System_DateTime:
 _p_280:
@@ -53886,7 +53913,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3016]
 br x16
-.word 17585
+.word 17605
 	.no_dead_strip plt_System_DateTime_get_TimeOfDay
 plt_System_DateTime_get_TimeOfDay:
 _p_281:
@@ -53894,7 +53921,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3024]
 br x16
-.word 17588
+.word 17608
 	.no_dead_strip plt_Acr_UserDialogs_TimePromptResult__ctor_bool_System_TimeSpan
 plt_Acr_UserDialogs_TimePromptResult__ctor_bool_System_TimeSpan:
 _p_282:
@@ -53902,7 +53929,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3032]
 br x16
-.word 17593
+.word 17613
 	.no_dead_strip plt_UIKit_UIAlertController_AddTextField_System_Action_1_UIKit_UITextField
 plt_UIKit_UIAlertController_AddTextField_System_Action_1_UIKit_UITextField:
 _p_283:
@@ -53910,7 +53937,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3040]
 br x16
-.word 17596
+.word 17616
 	.no_dead_strip plt_Acr_UserDialogs_LoginResult__ctor_bool_string_string
 plt_Acr_UserDialogs_LoginResult__ctor_bool_string_string:
 _p_284:
@@ -53918,7 +53945,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3048]
 br x16
-.word 17601
+.word 17621
 	.no_dead_strip plt_UIKit_UITextField_set_Placeholder_string
 plt_UIKit_UITextField_set_Placeholder_string:
 _p_285:
@@ -53926,7 +53953,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3056]
 br x16
-.word 17604
+.word 17624
 	.no_dead_strip plt_System_Text_StringBuilder__ctor_string
 plt_System_Text_StringBuilder__ctor_string:
 _p_286:
@@ -53934,7 +53961,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3064]
 br x16
-.word 17609
+.word 17629
 	.no_dead_strip plt_System_Text_StringBuilder_Remove_int_int
 plt_System_Text_StringBuilder_Remove_int_int:
 _p_287:
@@ -53942,7 +53969,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3072]
 br x16
-.word 17614
+.word 17634
 	.no_dead_strip plt_System_Text_StringBuilder_Insert_int_string
 plt_System_Text_StringBuilder_Insert_int_string:
 _p_288:
@@ -53950,7 +53977,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3080]
 br x16
-.word 17619
+.word 17639
 	.no_dead_strip plt_System_Nullable_1_int_get_Value
 plt_System_Nullable_1_int_get_Value:
 _p_289:
@@ -53958,7 +53985,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3088]
 br x16
-.word 17624
+.word 17644
 	.no_dead_strip plt_Acr_UserDialogs_PromptResult__ctor_bool_string
 plt_Acr_UserDialogs_PromptResult__ctor_bool_string:
 _p_290:
@@ -53966,7 +53993,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3096]
 br x16
-.word 17635
+.word 17655
 	.no_dead_strip plt_UIKit_UITextField_set_ShouldChangeCharacters_UIKit_UITextFieldChange
 plt_UIKit_UITextField_set_ShouldChangeCharacters_UIKit_UITextFieldChange:
 _p_291:
@@ -53974,7 +54001,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3104]
 br x16
-.word 17638
+.word 17658
 	.no_dead_strip plt_UIKit_UIControl_AddTarget_System_EventHandler_UIKit_UIControlEvent
 plt_UIKit_UIControl_AddTarget_System_EventHandler_UIKit_UIControlEvent:
 _p_292:
@@ -53982,7 +54009,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3112]
 br x16
-.word 17643
+.word 17663
 	.no_dead_strip plt_Acr_UserDialogs_UserDialogsImpl_ValidatePrompt_UIKit_UITextField_UIKit_UIAlertAction_Acr_UserDialogs_PromptConfig
 plt_Acr_UserDialogs_UserDialogsImpl_ValidatePrompt_UIKit_UITextField_UIKit_UIAlertAction_Acr_UserDialogs_PromptConfig:
 _p_293:
@@ -53990,7 +54017,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3120]
 br x16
-.word 17648
+.word 17668
 	.no_dead_strip plt_TTG_TTGSnackbar__ctor
 plt_TTG_TTGSnackbar__ctor:
 _p_294:
@@ -53998,7 +54025,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3128]
 br x16
-.word 17651
+.word 17671
 	.no_dead_strip plt_TTG_TTGSnackbar_set_Message_string
 plt_TTG_TTGSnackbar_set_Message_string:
 _p_295:
@@ -54006,7 +54033,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3136]
 br x16
-.word 17653
+.word 17673
 	.no_dead_strip plt_TTG_TTGSnackbar_set_Icon_UIKit_UIImage
 plt_TTG_TTGSnackbar_set_Icon_UIKit_UIImage:
 _p_296:
@@ -54014,7 +54041,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3144]
 br x16
-.word 17655
+.word 17675
 	.no_dead_strip plt_System_Nullable_1_System_Drawing_Color_get_Value
 plt_System_Nullable_1_System_Drawing_Color_get_Value:
 _p_297:
@@ -54022,7 +54049,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3152]
 br x16
-.word 17657
+.word 17677
 	.no_dead_strip plt_Acr_UserDialogs_Extensions_ToNative_System_Drawing_Color
 plt_Acr_UserDialogs_Extensions_ToNative_System_Drawing_Color:
 _p_298:
@@ -54030,7 +54057,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3160]
 br x16
-.word 17668
+.word 17688
 	.no_dead_strip plt_TTG_TTGSnackbar_set_ActionText_string
 plt_TTG_TTGSnackbar_set_ActionText_string:
 _p_299:
@@ -54038,7 +54065,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3168]
 br x16
-.word 17671
+.word 17691
 	.no_dead_strip plt_TTG_TTGSnackbar_Show
 plt_TTG_TTGSnackbar_Show:
 _p_300:
@@ -54046,7 +54073,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3176]
 br x16
-.word 17673
+.word 17693
 	.no_dead_strip plt_UIKit_UIDevice_get_UserInterfaceIdiom
 plt_UIKit_UIDevice_get_UserInterfaceIdiom:
 _p_301:
@@ -54054,7 +54081,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3184]
 br x16
-.word 17675
+.word 17695
 	.no_dead_strip plt_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat
 plt_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat:
 _p_302:
@@ -54062,7 +54089,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3192]
 br x16
-.word 17680
+.word 17700
 	.no_dead_strip plt_UIKit_UIViewController_get_PopoverPresentationController
 plt_UIKit_UIViewController_get_PopoverPresentationController:
 _p_303:
@@ -54070,7 +54097,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3200]
 br x16
-.word 17685
+.word 17705
 	.no_dead_strip plt_UIKit_UIPopoverPresentationController_set_SourceView_UIKit_UIView
 plt_UIKit_UIPopoverPresentationController_set_SourceView_UIKit_UIView:
 _p_304:
@@ -54078,7 +54105,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3208]
 br x16
-.word 17690
+.word 17710
 	.no_dead_strip plt_UIKit_UIPopoverPresentationController_set_SourceRect_CoreGraphics_CGRect
 plt_UIKit_UIPopoverPresentationController_set_SourceRect_CoreGraphics_CGRect:
 _p_305:
@@ -54086,7 +54113,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3216]
 br x16
-.word 17695
+.word 17715
 	.no_dead_strip plt_UIKit_UIPopoverPresentationController_set_PermittedArrowDirections_UIKit_UIPopoverArrowDirection
 plt_UIKit_UIPopoverPresentationController_set_PermittedArrowDirections_UIKit_UIPopoverArrowDirection:
 _p_306:
@@ -54094,7 +54121,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3224]
 br x16
-.word 17700
+.word 17720
 	.no_dead_strip plt_UIKit_UIViewController_PresentViewController_UIKit_UIViewController_bool_System_Action
 plt_UIKit_UIViewController_PresentViewController_UIKit_UIViewController_bool_System_Action:
 _p_307:
@@ -54102,7 +54129,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3232]
 br x16
-.word 17705
+.word 17725
 	.no_dead_strip plt_UIKit_UIWindow_get_WindowLevel
 plt_UIKit_UIWindow_get_WindowLevel:
 _p_308:
@@ -54110,7 +54137,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3240]
 br x16
-.word 17710
+.word 17730
 	.no_dead_strip plt_UIKit_UIWindowLevel_get_Normal
 plt_UIKit_UIWindowLevel_get_Normal:
 _p_309:
@@ -54118,7 +54145,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3248]
 br x16
-.word 17715
+.word 17735
 	.no_dead_strip plt_UIKit_UIViewController_DismissViewControllerAsync_bool
 plt_UIKit_UIViewController_DismissViewControllerAsync_bool:
 _p_310:
@@ -54126,7 +54153,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3256]
 br x16
-.word 17720
+.word 17740
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_AI_AIDatePickerController__c__DisplayClass59_0___ViewDidLoadb__0d_System_Runtime_CompilerServices_TaskAwaiter__AI_AIDatePickerController__c__DisplayClass59_0___ViewDidLoadb__0d_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_AI_AIDatePickerController__c__DisplayClass59_0___ViewDidLoadb__0d_System_Runtime_CompilerServices_TaskAwaiter__AI_AIDatePickerController__c__DisplayClass59_0___ViewDidLoadb__0d_:
 _p_311:
@@ -54134,7 +54161,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3264]
 br x16
-.word 17725
+.word 17745
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_GetResult:
 _p_312:
@@ -54142,7 +54169,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3272]
 br x16
-.word 17737
+.word 17757
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception:
 _p_313:
@@ -54150,7 +54177,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3280]
 br x16
-.word 17742
+.word 17762
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult:
 _p_314:
@@ -54158,7 +54185,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3288]
 br x16
-.word 17747
+.word 17767
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_315:
@@ -54166,7 +54193,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3296]
 br x16
-.word 17752
+.word 17772
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_AI_AIDatePickerController__c__DisplayClass59_0___ViewDidLoadb__1d_System_Runtime_CompilerServices_TaskAwaiter__AI_AIDatePickerController__c__DisplayClass59_0___ViewDidLoadb__1d_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_AI_AIDatePickerController__c__DisplayClass59_0___ViewDidLoadb__1d_System_Runtime_CompilerServices_TaskAwaiter__AI_AIDatePickerController__c__DisplayClass59_0___ViewDidLoadb__1d_:
 _p_316:
@@ -54174,7 +54201,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3304]
 br x16
-.word 17757
+.word 17777
 	.no_dead_strip plt_UIKit_UIDatePicker_get_Date
 plt_UIKit_UIDatePicker_get_Date:
 _p_317:
@@ -54182,7 +54209,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3312]
 br x16
-.word 17769
+.word 17789
 	.no_dead_strip plt_Acr_UserDialogs_Extensions_ToDateTime_Foundation_NSDate
 plt_Acr_UserDialogs_Extensions_ToDateTime_Foundation_NSDate:
 _p_318:
@@ -54190,7 +54217,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3320]
 br x16
-.word 17774
+.word 17794
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_AI_AIDatePickerController__c__DisplayClass59_0___ViewDidLoadb__2d_System_Runtime_CompilerServices_TaskAwaiter__AI_AIDatePickerController__c__DisplayClass59_0___ViewDidLoadb__2d_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_AI_AIDatePickerController__c__DisplayClass59_0___ViewDidLoadb__2d_System_Runtime_CompilerServices_TaskAwaiter__AI_AIDatePickerController__c__DisplayClass59_0___ViewDidLoadb__2d_:
 _p_319:
@@ -54198,7 +54225,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3328]
 br x16
-.word 17777
+.word 17797
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_320:
@@ -54206,7 +54233,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3336]
 br x16
-.word 17807
+.word 17827
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_321:
@@ -54214,7 +54241,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3344]
 br x16
-.word 17853
+.word 17873
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_322:
@@ -54222,7 +54249,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3352]
 br x16
-.word 17881
+.word 17901
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_323:
@@ -54230,7 +54257,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3360]
 br x16
-.word 17932
+.word 17952
 	.no_dead_strip plt__rgctx_fetch_4
 plt__rgctx_fetch_4:
 _p_324:
@@ -54238,7 +54265,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3368]
 br x16
-.word 17977
+.word 17997
 	.no_dead_strip plt__rgctx_fetch_5
 plt__rgctx_fetch_5:
 _p_325:
@@ -54246,7 +54273,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3376]
 br x16
-.word 18004
+.word 18024
 	.no_dead_strip plt__rgctx_fetch_6
 plt__rgctx_fetch_6:
 _p_326:
@@ -54254,7 +54281,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3384]
 br x16
-.word 18040
+.word 18060
 	.no_dead_strip plt__rgctx_fetch_7
 plt__rgctx_fetch_7:
 _p_327:
@@ -54262,7 +54289,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3392]
 br x16
-.word 18098
+.word 18118
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_328:
@@ -54270,7 +54297,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3400]
 br x16
-.word 18125
+.word 18145
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_329:
@@ -54278,7 +54305,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3408]
 br x16
-.word 18163
+.word 18183
 	.no_dead_strip plt_System_Nullable_1_bool_Unbox_object
 plt_System_Nullable_1_bool_Unbox_object:
 _p_330:
@@ -54286,7 +54313,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3416]
 br x16
-.word 18192
+.word 18212
 	.no_dead_strip plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool
 plt_System_Nullable_1_bool_Equals_System_Nullable_1_bool:
 _p_331:
@@ -54294,7 +54321,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3424]
 br x16
-.word 18214
+.word 18234
 	.no_dead_strip plt_bool_Equals_object
 plt_bool_Equals_object:
 _p_332:
@@ -54302,7 +54329,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3432]
 br x16
-.word 18236
+.word 18256
 	.no_dead_strip plt_System_Nullable_1_bool__ctor_bool
 plt_System_Nullable_1_bool__ctor_bool:
 _p_333:
@@ -54310,7 +54337,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3440]
 br x16
-.word 18241
+.word 18261
 	.no_dead_strip plt_System_Nullable_1_System_DateTime_Unbox_object
 plt_System_Nullable_1_System_DateTime_Unbox_object:
 _p_334:
@@ -54318,7 +54345,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3448]
 br x16
-.word 18263
+.word 18283
 	.no_dead_strip plt_System_Nullable_1_System_DateTime_Equals_System_Nullable_1_System_DateTime
 plt_System_Nullable_1_System_DateTime_Equals_System_Nullable_1_System_DateTime:
 _p_335:
@@ -54326,7 +54353,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3456]
 br x16
-.word 18285
+.word 18305
 	.no_dead_strip plt_System_DateTime_Equals_object
 plt_System_DateTime_Equals_object:
 _p_336:
@@ -54334,7 +54361,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3464]
 br x16
-.word 18307
+.word 18327
 	.no_dead_strip plt_System_DateTime_ToString
 plt_System_DateTime_ToString:
 _p_337:
@@ -54342,7 +54369,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3472]
 br x16
-.word 18312
+.word 18332
 	.no_dead_strip plt_System_Nullable_1_System_DateTime__ctor_System_DateTime
 plt_System_Nullable_1_System_DateTime__ctor_System_DateTime:
 _p_338:
@@ -54350,7 +54377,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3480]
 br x16
-.word 18317
+.word 18337
 	.no_dead_strip plt_System_Nullable_1_Acr_UserDialogs_MaskType_UnboxExact_object
 plt_System_Nullable_1_Acr_UserDialogs_MaskType_UnboxExact_object:
 _p_339:
@@ -54358,7 +54385,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3488]
 br x16
-.word 18339
+.word 18359
 	.no_dead_strip plt_System_Nullable_1_Acr_UserDialogs_MaskType_Equals_System_Nullable_1_Acr_UserDialogs_MaskType
 plt_System_Nullable_1_Acr_UserDialogs_MaskType_Equals_System_Nullable_1_Acr_UserDialogs_MaskType:
 _p_340:
@@ -54366,7 +54393,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3496]
 br x16
-.word 18359
+.word 18379
 	.no_dead_strip plt_System_Enum_Equals_object
 plt_System_Enum_Equals_object:
 _p_341:
@@ -54374,7 +54401,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3504]
 br x16
-.word 18379
+.word 18399
 	.no_dead_strip plt_System_Enum_ToString
 plt_System_Enum_ToString:
 _p_342:
@@ -54382,7 +54409,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3512]
 br x16
-.word 18384
+.word 18404
 	.no_dead_strip plt_System_Nullable_1_Acr_UserDialogs_MaskType__ctor_Acr_UserDialogs_MaskType
 plt_System_Nullable_1_Acr_UserDialogs_MaskType__ctor_Acr_UserDialogs_MaskType:
 _p_343:
@@ -54390,7 +54417,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3520]
 br x16
-.word 18389
+.word 18409
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_344:
@@ -54398,7 +54425,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3528]
 br x16
-.word 18409
+.word 18429
 	.no_dead_strip plt__rgctx_fetch_8
 plt__rgctx_fetch_8:
 _p_345:
@@ -54406,7 +54433,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3536]
 br x16
-.word 18441
+.word 18461
 	.no_dead_strip plt__rgctx_fetch_9
 plt__rgctx_fetch_9:
 _p_346:
@@ -54414,7 +54441,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3544]
 br x16
-.word 18453
+.word 18473
 	.no_dead_strip plt__rgctx_fetch_10
 plt__rgctx_fetch_10:
 _p_347:
@@ -54422,7 +54449,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3552]
 br x16
-.word 18498
+.word 18518
 	.no_dead_strip plt__rgctx_fetch_11
 plt__rgctx_fetch_11:
 _p_348:
@@ -54430,7 +54457,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3560]
 br x16
-.word 18508
+.word 18528
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_Id
 plt_System_Threading_Tasks_Task_get_Id:
 _p_349:
@@ -54438,7 +54465,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3568]
 br x16
-.word 18533
+.word 18553
 	.no_dead_strip plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int
 plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int:
 _p_350:
@@ -54446,7 +54473,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3576]
 br x16
-.word 18538
+.word 18558
 	.no_dead_strip plt__rgctx_fetch_12
 plt__rgctx_fetch_12:
 _p_351:
@@ -54454,7 +54481,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3584]
 br x16
-.word 18543
+.word 18563
 	.no_dead_strip plt__rgctx_fetch_13
 plt__rgctx_fetch_13:
 _p_352:
@@ -54462,7 +54489,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3592]
 br x16
-.word 18588
+.word 18608
 	.no_dead_strip plt__rgctx_fetch_14
 plt__rgctx_fetch_14:
 _p_353:
@@ -54470,7 +54497,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3600]
 br x16
-.word 18598
+.word 18618
 	.no_dead_strip plt__rgctx_fetch_15
 plt__rgctx_fetch_15:
 _p_354:
@@ -54478,7 +54505,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3608]
 br x16
-.word 18641
+.word 18661
 	.no_dead_strip plt__rgctx_fetch_16
 plt__rgctx_fetch_16:
 _p_355:
@@ -54486,7 +54513,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3616]
 br x16
-.word 18651
+.word 18671
 	.no_dead_strip plt_System_Threading_Tasks_Task_TrySetException_object
 plt_System_Threading_Tasks_Task_TrySetException_object:
 _p_356:
@@ -54494,7 +54521,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3624]
 br x16
-.word 18676
+.word 18696
 	.no_dead_strip plt_System_Threading_Tasks_Task_TrySetCanceled_System_Threading_CancellationToken_object
 plt_System_Threading_Tasks_Task_TrySetCanceled_System_Threading_CancellationToken_object:
 _p_357:
@@ -54502,7 +54529,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3632]
 br x16
-.word 18681
+.word 18701
 	.no_dead_strip plt__rgctx_fetch_17
 plt__rgctx_fetch_17:
 _p_358:
@@ -54510,7 +54537,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3640]
 br x16
-.word 18704
+.word 18724
 	.no_dead_strip plt__rgctx_fetch_18
 plt__rgctx_fetch_18:
 _p_359:
@@ -54518,7 +54545,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3648]
 br x16
-.word 18714
+.word 18734
 	.no_dead_strip plt__rgctx_fetch_19
 plt__rgctx_fetch_19:
 _p_360:
@@ -54526,7 +54553,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3656]
 br x16
-.word 18724
+.word 18744
 	.no_dead_strip plt__rgctx_fetch_20
 plt__rgctx_fetch_20:
 _p_361:
@@ -54534,7 +54561,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3664]
 br x16
-.word 18752
+.word 18772
 	.no_dead_strip plt__rgctx_fetch_21
 plt__rgctx_fetch_21:
 _p_362:
@@ -54542,7 +54569,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3672]
 br x16
-.word 18762
+.word 18782
 	.no_dead_strip plt__rgctx_fetch_22
 plt__rgctx_fetch_22:
 _p_363:
@@ -54550,7 +54577,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3680]
 br x16
-.word 18772
+.word 18792
 	.no_dead_strip plt__rgctx_fetch_23
 plt__rgctx_fetch_23:
 _p_364:
@@ -54558,7 +54585,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3688]
 br x16
-.word 18784
+.word 18804
 	.no_dead_strip plt__rgctx_fetch_24
 plt__rgctx_fetch_24:
 _p_365:
@@ -54566,7 +54593,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3696]
 br x16
-.word 18829
+.word 18849
 	.no_dead_strip plt__rgctx_fetch_25
 plt__rgctx_fetch_25:
 _p_366:
@@ -54574,7 +54601,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3704]
 br x16
-.word 18855
+.word 18875
 	.no_dead_strip plt__rgctx_fetch_26
 plt__rgctx_fetch_26:
 _p_367:
@@ -54582,7 +54609,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3712]
 br x16
-.word 18881
+.word 18901
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor
 plt_System_Threading_Tasks_Task__ctor:
 _p_368:
@@ -54590,7 +54617,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3720]
 br x16
-.word 18891
+.word 18911
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool
 plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool:
 _p_369:
@@ -54598,7 +54625,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3728]
 br x16
-.word 18896
+.word 18916
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
 _p_370:
@@ -54606,7 +54633,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3736]
 br x16
-.word 18901
+.word 18921
 	.no_dead_strip plt__rgctx_fetch_27
 plt__rgctx_fetch_27:
 _p_371:
@@ -54614,7 +54641,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3744]
 br x16
-.word 18924
+.word 18944
 	.no_dead_strip plt_System_Threading_Tasks_Task_PossiblyCaptureContext
 plt_System_Threading_Tasks_Task_PossiblyCaptureContext:
 _p_372:
@@ -54622,7 +54649,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3752]
 br x16
-.word 18949
+.word 18969
 	.no_dead_strip plt__rgctx_fetch_28
 plt__rgctx_fetch_28:
 _p_373:
@@ -54630,7 +54657,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3760]
 br x16
-.word 18972
+.word 18992
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_374:
@@ -54638,7 +54665,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3768]
 br x16
-.word 18997
+.word 19017
 	.no_dead_strip plt__rgctx_fetch_29
 plt__rgctx_fetch_29:
 _p_375:
@@ -54646,7 +54673,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3776]
 br x16
-.word 19020
+.word 19040
 	.no_dead_strip plt__rgctx_fetch_30
 plt__rgctx_fetch_30:
 _p_376:
@@ -54654,7 +54681,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3784]
 br x16
-.word 19030
+.word 19050
 	.no_dead_strip plt_System_Threading_Tasks_Task_ScheduleAndStart_bool
 plt_System_Threading_Tasks_Task_ScheduleAndStart_bool:
 _p_377:
@@ -54662,7 +54689,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3792]
 br x16
-.word 19055
+.word 19075
 	.no_dead_strip plt__rgctx_fetch_31
 plt__rgctx_fetch_31:
 _p_378:
@@ -54670,7 +54697,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3800]
 br x16
-.word 19078
+.word 19098
 	.no_dead_strip plt__rgctx_fetch_32
 plt__rgctx_fetch_32:
 _p_379:
@@ -54678,7 +54705,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3808]
 br x16
-.word 19088
+.word 19108
 	.no_dead_strip plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int
 plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int:
 _p_380:
@@ -54686,7 +54713,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3816]
 br x16
-.word 19113
+.word 19133
 	.no_dead_strip plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted
 plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted:
 _p_381:
@@ -54694,7 +54721,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3824]
 br x16
-.word 19118
+.word 19138
 	.no_dead_strip plt_System_Threading_Tasks_Task_FinishStageThree
 plt_System_Threading_Tasks_Task_FinishStageThree:
 _p_382:
@@ -54702,7 +54729,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3832]
 br x16
-.word 19123
+.word 19143
 	.no_dead_strip plt__rgctx_fetch_33
 plt__rgctx_fetch_33:
 _p_383:
@@ -54710,7 +54737,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3840]
 br x16
-.word 19146
+.word 19166
 	.no_dead_strip plt__rgctx_fetch_34
 plt__rgctx_fetch_34:
 _p_384:
@@ -54718,7 +54745,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3848]
 br x16
-.word 19189
+.word 19209
 	.no_dead_strip plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken:
 _p_385:
@@ -54726,7 +54753,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3856]
 br x16
-.word 19214
+.word 19234
 	.no_dead_strip plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary
 plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary:
 _p_386:
@@ -54734,7 +54761,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3864]
 br x16
-.word 19219
+.word 19239
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsCompletedSuccessfully
 plt_System_Threading_Tasks_Task_get_IsCompletedSuccessfully:
 _p_387:
@@ -54742,7 +54769,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3872]
 br x16
-.word 19224
+.word 19244
 	.no_dead_strip plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool
 plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool:
 _p_388:
@@ -54750,7 +54777,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3880]
 br x16
-.word 19229
+.word 19249
 	.no_dead_strip plt__rgctx_fetch_35
 plt__rgctx_fetch_35:
 _p_389:
@@ -54758,7 +54785,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3888]
 br x16
-.word 19252
+.word 19272
 	.no_dead_strip plt__rgctx_fetch_36
 plt__rgctx_fetch_36:
 _p_390:
@@ -54766,7 +54793,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3896]
 br x16
-.word 19271
+.word 19291
 	.no_dead_strip plt__rgctx_fetch_37
 plt__rgctx_fetch_37:
 _p_391:
@@ -54774,7 +54801,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3904]
 br x16
-.word 19283
+.word 19303
 	.no_dead_strip plt__rgctx_fetch_38
 plt__rgctx_fetch_38:
 _p_392:
@@ -54782,7 +54809,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3912]
 br x16
-.word 19310
+.word 19330
 	.no_dead_strip plt__rgctx_fetch_39
 plt__rgctx_fetch_39:
 _p_393:
@@ -54790,7 +54817,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3920]
 br x16
-.word 19365
+.word 19385
 	.no_dead_strip plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr
 plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr:
 _p_394:
@@ -54798,7 +54825,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3928]
 br x16
-.word 19377
+.word 19397
 	.no_dead_strip plt__rgctx_fetch_40
 plt__rgctx_fetch_40:
 _p_395:
@@ -54806,7 +54833,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3936]
 br x16
-.word 19398
+.word 19418
 	.no_dead_strip plt__rgctx_fetch_41
 plt__rgctx_fetch_41:
 _p_396:
@@ -54814,7 +54841,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3944]
 br x16
-.word 19437
+.word 19457
 	.no_dead_strip plt__rgctx_fetch_42
 plt__rgctx_fetch_42:
 _p_397:
@@ -54822,7 +54849,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3952]
 br x16
-.word 19449
+.word 19469
 	.no_dead_strip plt__rgctx_fetch_43
 plt__rgctx_fetch_43:
 _p_398:
@@ -54830,7 +54857,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3960]
 br x16
-.word 19503
+.word 19523
 	.no_dead_strip plt__rgctx_fetch_44
 plt__rgctx_fetch_44:
 _p_399:
@@ -54838,7 +54865,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3968]
 br x16
-.word 19515
+.word 19535
 	.no_dead_strip plt_System_Threading_Tasks_TaskScheduler_get_Current
 plt_System_Threading_Tasks_TaskScheduler_get_Current:
 _p_400:
@@ -54846,7 +54873,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3976]
 br x16
-.word 19542
+.word 19562
 	.no_dead_strip plt__rgctx_fetch_45
 plt__rgctx_fetch_45:
 _p_401:
@@ -54854,7 +54881,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3984]
 br x16
-.word 19565
+.word 19585
 	.no_dead_strip plt__rgctx_fetch_46
 plt__rgctx_fetch_46:
 _p_402:
@@ -54862,7 +54889,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #3992]
 br x16
-.word 19608
+.word 19628
 	.no_dead_strip plt__rgctx_fetch_47
 plt__rgctx_fetch_47:
 _p_403:
@@ -54870,7 +54897,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #4000]
 br x16
-.word 19651
+.word 19671
 	.no_dead_strip plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_
 plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_:
 _p_404:
@@ -54878,7 +54905,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #4008]
 br x16
-.word 19676
+.word 19696
 	.no_dead_strip plt__rgctx_fetch_48
 plt__rgctx_fetch_48:
 _p_405:
@@ -54886,7 +54913,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #4016]
 br x16
-.word 19708
+.word 19728
 	.no_dead_strip plt__rgctx_fetch_49
 plt__rgctx_fetch_49:
 _p_406:
@@ -54894,7 +54921,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #4024]
 br x16
-.word 19720
+.word 19740
 	.no_dead_strip plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
 plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions:
 _p_407:
@@ -54902,7 +54929,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #4032]
 br x16
-.word 19747
+.word 19767
 	.no_dead_strip plt__rgctx_fetch_50
 plt__rgctx_fetch_50:
 _p_408:
@@ -54910,7 +54937,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #4040]
 br x16
-.word 19770
+.word 19790
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions
 plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions:
 _p_409:
@@ -54918,7 +54945,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #4048]
 br x16
-.word 19795
+.word 19815
 	.no_dead_strip plt__rgctx_fetch_51
 plt__rgctx_fetch_51:
 _p_410:
@@ -54926,7 +54953,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #4056]
 br x16
-.word 19827
+.word 19847
 	.no_dead_strip plt__rgctx_fetch_52
 plt__rgctx_fetch_52:
 _p_411:
@@ -54934,7 +54961,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #4064]
 br x16
-.word 19839
+.word 19859
 	.no_dead_strip plt_System_Threading_Tasks_DebuggerSupport_RemoveFromActiveTasksNonInlined_System_Threading_Tasks_Task
 plt_System_Threading_Tasks_DebuggerSupport_RemoveFromActiveTasksNonInlined_System_Threading_Tasks_Task:
 _p_412:
@@ -54942,7 +54969,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #4072]
 br x16
-.word 19866
+.word 19886
 	.no_dead_strip plt__rgctx_fetch_53
 plt__rgctx_fetch_53:
 _p_413:
@@ -54950,7 +54977,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #4080]
 br x16
-.word 19889
+.word 19909
 	.no_dead_strip plt__rgctx_fetch_54
 plt__rgctx_fetch_54:
 _p_414:
@@ -54958,7 +54985,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+4096
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #4088]
 br x16
-.word 19916
+.word 19936
 	.no_dead_strip plt__rgctx_fetch_55
 plt__rgctx_fetch_55:
 _p_415:
@@ -54966,7 +54993,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #0]
 br x16
-.word 19961
+.word 19981
 	.no_dead_strip plt__rgctx_fetch_56
 plt__rgctx_fetch_56:
 _p_416:
@@ -54974,7 +55001,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #8]
 br x16
-.word 19971
+.word 19991
 	.no_dead_strip plt__rgctx_fetch_57
 plt__rgctx_fetch_57:
 _p_417:
@@ -54982,7 +55009,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #16]
 br x16
-.word 20023
+.word 20043
 	.no_dead_strip plt__rgctx_fetch_58
 plt__rgctx_fetch_58:
 _p_418:
@@ -54990,7 +55017,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #24]
 br x16
-.word 20035
+.word 20055
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool
 plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool:
 _p_419:
@@ -54998,7 +55025,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #32]
 br x16
-.word 20062
+.word 20082
 	.no_dead_strip plt__rgctx_fetch_59
 plt__rgctx_fetch_59:
 _p_420:
@@ -55006,7 +55033,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #40]
 br x16
-.word 20067
+.word 20087
 	.no_dead_strip plt__rgctx_fetch_60
 plt__rgctx_fetch_60:
 _p_421:
@@ -55014,7 +55041,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #48]
 br x16
-.word 20079
+.word 20099
 	.no_dead_strip plt_System_Threading_Tasks_DebuggerSupport_AddToActiveTasksNonInlined_System_Threading_Tasks_Task
 plt_System_Threading_Tasks_DebuggerSupport_AddToActiveTasksNonInlined_System_Threading_Tasks_Task:
 _p_422:
@@ -55022,7 +55049,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #56]
 br x16
-.word 20106
+.word 20126
 	.no_dead_strip plt__rgctx_fetch_61
 plt__rgctx_fetch_61:
 _p_423:
@@ -55030,7 +55057,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #64]
 br x16
-.word 20111
+.word 20131
 	.no_dead_strip plt__rgctx_fetch_62
 plt__rgctx_fetch_62:
 _p_424:
@@ -55038,7 +55065,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #72]
 br x16
-.word 20138
+.word 20158
 	.no_dead_strip plt__rgctx_fetch_63
 plt__rgctx_fetch_63:
 _p_425:
@@ -55046,7 +55073,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #80]
 br x16
-.word 20165
+.word 20185
 	.no_dead_strip plt__rgctx_fetch_64
 plt__rgctx_fetch_64:
 _p_426:
@@ -55054,7 +55081,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #88]
 br x16
-.word 20175
+.word 20195
 	.no_dead_strip plt__rgctx_fetch_65
 plt__rgctx_fetch_65:
 _p_427:
@@ -55062,7 +55089,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #96]
 br x16
-.word 20200
+.word 20220
 	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
 plt__jit_icall_mono_arch_rethrow_exception:
 _p_428:
@@ -55070,7 +55097,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #104]
 br x16
-.word 20227
+.word 20247
 	.no_dead_strip plt_System_Nullable_1_System_TimeSpan_Unbox_object
 plt_System_Nullable_1_System_TimeSpan_Unbox_object:
 _p_429:
@@ -55078,7 +55105,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #112]
 br x16
-.word 20257
+.word 20277
 	.no_dead_strip plt_System_Nullable_1_System_TimeSpan_Equals_System_Nullable_1_System_TimeSpan
 plt_System_Nullable_1_System_TimeSpan_Equals_System_Nullable_1_System_TimeSpan:
 _p_430:
@@ -55086,7 +55113,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #120]
 br x16
-.word 20279
+.word 20299
 	.no_dead_strip plt_System_TimeSpan_Equals_object
 plt_System_TimeSpan_Equals_object:
 _p_431:
@@ -55094,7 +55121,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #128]
 br x16
-.word 20301
+.word 20321
 	.no_dead_strip plt_System_TimeSpan_ToString
 plt_System_TimeSpan_ToString:
 _p_432:
@@ -55102,7 +55129,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #136]
 br x16
-.word 20306
+.word 20326
 	.no_dead_strip plt__rgctx_fetch_66
 plt__rgctx_fetch_66:
 _p_433:
@@ -55110,7 +55137,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #144]
 br x16
-.word 20330
+.word 20350
 	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
 plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_434:
@@ -55118,7 +55145,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #152]
 br x16
-.word 20356
+.word 20376
 	.no_dead_strip plt__rgctx_fetch_67
 plt__rgctx_fetch_67:
 _p_435:
@@ -55126,7 +55153,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #160]
 br x16
-.word 20389
+.word 20409
 	.no_dead_strip plt__rgctx_fetch_68
 plt__rgctx_fetch_68:
 _p_436:
@@ -55134,7 +55161,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #168]
 br x16
-.word 20401
+.word 20421
 	.no_dead_strip plt__rgctx_fetch_69
 plt__rgctx_fetch_69:
 _p_437:
@@ -55142,7 +55169,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #176]
 br x16
-.word 20422
+.word 20442
 	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 _p_438:
@@ -55150,7 +55177,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #184]
 br x16
-.word 20434
+.word 20454
 	.no_dead_strip plt_System_Nullable_1_int_Unbox_object
 plt_System_Nullable_1_int_Unbox_object:
 _p_439:
@@ -55158,7 +55185,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #192]
 br x16
-.word 20455
+.word 20475
 	.no_dead_strip plt_System_Nullable_1_int_Equals_System_Nullable_1_int
 plt_System_Nullable_1_int_Equals_System_Nullable_1_int:
 _p_440:
@@ -55166,7 +55193,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #200]
 br x16
-.word 20477
+.word 20497
 	.no_dead_strip plt_int_Equals_object
 plt_int_Equals_object:
 _p_441:
@@ -55174,7 +55201,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #208]
 br x16
-.word 20499
+.word 20519
 	.no_dead_strip plt_int_ToString
 plt_int_ToString:
 _p_442:
@@ -55182,7 +55209,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #216]
 br x16
-.word 20504
+.word 20524
 	.no_dead_strip plt_System_Nullable_1_System_Drawing_Color_Unbox_object
 plt_System_Nullable_1_System_Drawing_Color_Unbox_object:
 _p_443:
@@ -55190,7 +55217,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #224]
 br x16
-.word 20509
+.word 20529
 	.no_dead_strip plt_System_Nullable_1_System_Drawing_Color_Equals_System_Nullable_1_System_Drawing_Color
 plt_System_Nullable_1_System_Drawing_Color_Equals_System_Nullable_1_System_Drawing_Color:
 _p_444:
@@ -55198,7 +55225,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #232]
 br x16
-.word 20530
+.word 20550
 	.no_dead_strip plt_System_Drawing_Color_Equals_object
 plt_System_Drawing_Color_Equals_object:
 _p_445:
@@ -55206,7 +55233,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #240]
 br x16
-.word 20551
+.word 20571
 	.no_dead_strip plt_System_Drawing_Color_GetHashCode
 plt_System_Drawing_Color_GetHashCode:
 _p_446:
@@ -55214,7 +55241,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #248]
 br x16
-.word 20556
+.word 20576
 	.no_dead_strip plt_System_Drawing_Color_ToString
 plt_System_Drawing_Color_ToString:
 _p_447:
@@ -55222,7 +55249,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #256]
 br x16
-.word 20561
+.word 20581
 	.no_dead_strip plt_System_Nullable_1_Acr_UserDialogs_ToastPosition_UnboxExact_object
 plt_System_Nullable_1_Acr_UserDialogs_ToastPosition_UnboxExact_object:
 _p_448:
@@ -55230,7 +55257,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #264]
 br x16
-.word 20566
+.word 20586
 	.no_dead_strip plt_System_Nullable_1_Acr_UserDialogs_ToastPosition_Equals_System_Nullable_1_Acr_UserDialogs_ToastPosition
 plt_System_Nullable_1_Acr_UserDialogs_ToastPosition_Equals_System_Nullable_1_Acr_UserDialogs_ToastPosition:
 _p_449:
@@ -55238,7 +55265,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #272]
 br x16
-.word 20586
+.word 20606
 	.no_dead_strip plt_System_Nullable_1_System_Threading_CancellationToken_Unbox_object
 plt_System_Nullable_1_System_Threading_CancellationToken_Unbox_object:
 _p_450:
@@ -55246,7 +55273,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #280]
 br x16
-.word 20606
+.word 20626
 	.no_dead_strip plt_System_Nullable_1_System_Threading_CancellationToken_Equals_System_Nullable_1_System_Threading_CancellationToken
 plt_System_Nullable_1_System_Threading_CancellationToken_Equals_System_Nullable_1_System_Threading_CancellationToken:
 _p_451:
@@ -55254,7 +55281,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #288]
 br x16
-.word 20628
+.word 20648
 	.no_dead_strip plt_System_Threading_CancellationToken_Equals_object
 plt_System_Threading_CancellationToken_Equals_object:
 _p_452:
@@ -55262,7 +55289,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #296]
 br x16
-.word 20650
+.word 20670
 	.no_dead_strip plt_System_Threading_CancellationToken_GetHashCode
 plt_System_Threading_CancellationToken_GetHashCode:
 _p_453:
@@ -55270,7 +55297,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #304]
 br x16
-.word 20655
+.word 20675
 	.no_dead_strip plt_System_Nullable_1_System_Threading_CancellationToken__ctor_System_Threading_CancellationToken
 plt_System_Nullable_1_System_Threading_CancellationToken__ctor_System_Threading_CancellationToken:
 _p_454:
@@ -55278,7 +55305,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #312]
 br x16
-.word 20660
+.word 20680
 	.no_dead_strip plt_System_Nullable_1_System_Threading_CancellationTokenRegistration_Unbox_object
 plt_System_Nullable_1_System_Threading_CancellationTokenRegistration_Unbox_object:
 _p_455:
@@ -55286,7 +55313,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #320]
 br x16
-.word 20682
+.word 20702
 	.no_dead_strip plt_System_Nullable_1_System_Threading_CancellationTokenRegistration_Equals_System_Nullable_1_System_Threading_CancellationTokenRegistration
 plt_System_Nullable_1_System_Threading_CancellationTokenRegistration_Equals_System_Nullable_1_System_Threading_CancellationTokenRegistration:
 _p_456:
@@ -55294,7 +55321,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #328]
 br x16
-.word 20704
+.word 20724
 	.no_dead_strip plt_System_Threading_CancellationTokenRegistration_Equals_object
 plt_System_Threading_CancellationTokenRegistration_Equals_object:
 _p_457:
@@ -55302,7 +55329,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #336]
 br x16
-.word 20726
+.word 20746
 	.no_dead_strip plt_System_Threading_CancellationTokenRegistration_GetHashCode
 plt_System_Threading_CancellationTokenRegistration_GetHashCode:
 _p_458:
@@ -55310,7 +55337,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #344]
 br x16
-.word 20731
+.word 20751
 	.no_dead_strip plt__rgctx_fetch_70
 plt__rgctx_fetch_70:
 _p_459:
@@ -55318,7 +55345,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #352]
 br x16
-.word 20763
+.word 20783
 	.no_dead_strip plt__rgctx_fetch_71
 plt__rgctx_fetch_71:
 _p_460:
@@ -55326,7 +55353,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #360]
 br x16
-.word 20775
+.word 20795
 	.no_dead_strip plt__rgctx_fetch_72
 plt__rgctx_fetch_72:
 _p_461:
@@ -55334,7 +55361,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #368]
 br x16
-.word 20820
+.word 20840
 	.no_dead_strip plt__rgctx_fetch_73
 plt__rgctx_fetch_73:
 _p_462:
@@ -55342,7 +55369,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #376]
 br x16
-.word 20863
+.word 20883
 	.no_dead_strip plt__rgctx_fetch_74
 plt__rgctx_fetch_74:
 _p_463:
@@ -55350,55 +55377,55 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #384]
 br x16
-.word 20875
-	.no_dead_strip plt_System_Threading_SpinWait_SpinOnce
-plt_System_Threading_SpinWait_SpinOnce:
+.word 20926
+	.no_dead_strip plt__rgctx_fetch_75
+plt__rgctx_fetch_75:
 _p_464:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #392]
 br x16
-.word 20902
-	.no_dead_strip plt__rgctx_fetch_75
-plt__rgctx_fetch_75:
+.word 20938
+	.no_dead_strip plt_System_Threading_SpinWait_SpinOnce
+plt_System_Threading_SpinWait_SpinOnce:
 _p_465:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #400]
 br x16
-.word 20925
-	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument
-plt_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument:
+.word 20965
+	.no_dead_strip plt__rgctx_fetch_76
+plt__rgctx_fetch_76:
 _p_466:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #408]
 br x16
-.word 20950
-	.no_dead_strip plt__rgctx_fetch_76
-plt__rgctx_fetch_76:
+.word 20988
+	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument
+plt_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument:
 _p_467:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #416]
 br x16
-.word 20973
-	.no_dead_strip plt_System_ThrowHelper_ThrowInvalidOperationException_System_ExceptionResource
-plt_System_ThrowHelper_ThrowInvalidOperationException_System_ExceptionResource:
+.word 21013
+	.no_dead_strip plt__rgctx_fetch_77
+plt__rgctx_fetch_77:
 _p_468:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #424]
 br x16
-.word 20998
-	.no_dead_strip plt__rgctx_fetch_77
-plt__rgctx_fetch_77:
+.word 21036
+	.no_dead_strip plt_System_ThrowHelper_ThrowInvalidOperationException_System_ExceptionResource
+plt_System_ThrowHelper_ThrowInvalidOperationException_System_ExceptionResource:
 _p_469:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #432]
 br x16
-.word 21021
+.word 21061
 	.no_dead_strip plt__rgctx_fetch_78
 plt__rgctx_fetch_78:
 _p_470:
@@ -55406,7 +55433,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #440]
 br x16
-.word 21048
+.word 21084
 	.no_dead_strip plt__rgctx_fetch_79
 plt__rgctx_fetch_79:
 _p_471:
@@ -55414,7 +55441,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #448]
 br x16
-.word 21091
+.word 21111
 	.no_dead_strip plt__rgctx_fetch_80
 plt__rgctx_fetch_80:
 _p_472:
@@ -55422,23 +55449,23 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #456]
 br x16
-.word 21134
-	.no_dead_strip plt_System_Threading_Tasks_Task_TrySetCanceled_System_Threading_CancellationToken
-plt_System_Threading_Tasks_Task_TrySetCanceled_System_Threading_CancellationToken:
+.word 21154
+	.no_dead_strip plt__rgctx_fetch_81
+plt__rgctx_fetch_81:
 _p_473:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #464]
 br x16
-.word 21159
-	.no_dead_strip plt__rgctx_fetch_81
-plt__rgctx_fetch_81:
+.word 21197
+	.no_dead_strip plt_System_Threading_Tasks_Task_TrySetCanceled_System_Threading_CancellationToken
+plt_System_Threading_Tasks_Task_TrySetCanceled_System_Threading_CancellationToken:
 _p_474:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #472]
 br x16
-.word 21182
+.word 21222
 	.no_dead_strip plt__rgctx_fetch_82
 plt__rgctx_fetch_82:
 _p_475:
@@ -55446,31 +55473,31 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #480]
 br x16
-.word 21225
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool
-plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool:
+.word 21245
+	.no_dead_strip plt__rgctx_fetch_83
+plt__rgctx_fetch_83:
 _p_476:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #488]
 br x16
-.word 21250
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task
-plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task:
+.word 21288
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool
+plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool:
 _p_477:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #496]
 br x16
-.word 21255
-	.no_dead_strip plt__rgctx_fetch_83
-plt__rgctx_fetch_83:
+.word 21313
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task
+plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task:
 _p_478:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #504]
 br x16
-.word 21279
+.word 21318
 	.no_dead_strip plt__rgctx_fetch_84
 plt__rgctx_fetch_84:
 _p_479:
@@ -55478,7 +55505,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #512]
 br x16
-.word 21324
+.word 21342
 	.no_dead_strip plt__rgctx_fetch_85
 plt__rgctx_fetch_85:
 _p_480:
@@ -55486,111 +55513,111 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #520]
 br x16
-.word 21369
-	.no_dead_strip plt__jit_icall_mono_thread_force_interruption_checkpoint_noraise
-plt__jit_icall_mono_thread_force_interruption_checkpoint_noraise:
+.word 21387
+	.no_dead_strip plt__rgctx_fetch_86
+plt__rgctx_fetch_86:
 _p_481:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #528]
 br x16
-.word 21395
-	.no_dead_strip plt_string_memcpy_byte__byte__int
-plt_string_memcpy_byte__byte__int:
+.word 21432
+	.no_dead_strip plt__jit_icall_mono_thread_force_interruption_checkpoint_noraise
+plt__jit_icall_mono_thread_force_interruption_checkpoint_noraise:
 _p_482:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #536]
 br x16
-.word 21447
-	.no_dead_strip plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_
-plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_:
+.word 21458
+	.no_dead_strip plt_string_memcpy_byte__byte__int
+plt_string_memcpy_byte__byte__int:
 _p_483:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #544]
 br x16
-.word 21452
-	.no_dead_strip plt_Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_MoveNext
-plt_Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_MoveNext:
+.word 21510
+	.no_dead_strip plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_
+plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_:
 _p_484:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #552]
 br x16
-.word 21457
-	.no_dead_strip plt_System_Threading_ExecutionContextSwitcher_Undo
-plt_System_Threading_ExecutionContextSwitcher_Undo:
+.word 21515
+	.no_dead_strip plt_Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_MoveNext
+plt_Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_MoveNext:
 _p_485:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #560]
 br x16
-.word 21460
-	.no_dead_strip plt_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_MoveNext
-plt_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_MoveNext:
+.word 21520
+	.no_dead_strip plt_System_Threading_ExecutionContextSwitcher_Undo
+plt_System_Threading_ExecutionContextSwitcher_Undo:
 _p_486:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #568]
 br x16
-.word 21465
-	.no_dead_strip plt_Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_MoveNext
-plt_Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_MoveNext:
+.word 21523
+	.no_dead_strip plt_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_MoveNext
+plt_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_MoveNext:
 _p_487:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #576]
 br x16
-.word 21468
-	.no_dead_strip plt_Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_MoveNext
-plt_Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_MoveNext:
+.word 21528
+	.no_dead_strip plt_Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_MoveNext
+plt_Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_MoveNext:
 _p_488:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #584]
 br x16
-.word 21471
-	.no_dead_strip plt_Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_MoveNext
-plt_Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_MoveNext:
+.word 21531
+	.no_dead_strip plt_Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_MoveNext
+plt_Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_MoveNext:
 _p_489:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #592]
 br x16
-.word 21474
-	.no_dead_strip plt_Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_MoveNext
-plt_Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_MoveNext:
+.word 21534
+	.no_dead_strip plt_Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_MoveNext
+plt_Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_MoveNext:
 _p_490:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #600]
 br x16
-.word 21477
-	.no_dead_strip plt_Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_MoveNext
-plt_Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_MoveNext:
+.word 21537
+	.no_dead_strip plt_Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_MoveNext
+plt_Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_MoveNext:
 _p_491:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #608]
 br x16
-.word 21480
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_TrySetCanceled_System_Threading_CancellationToken
-plt_System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_TrySetCanceled_System_Threading_CancellationToken:
+.word 21540
+	.no_dead_strip plt_Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_MoveNext
+plt_Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_MoveNext:
 _p_492:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #616]
 br x16
-.word 21483
-	.no_dead_strip plt__rgctx_fetch_86
-plt__rgctx_fetch_86:
+.word 21543
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_TrySetCanceled_System_Threading_CancellationToken
+plt_System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_TrySetCanceled_System_Threading_CancellationToken:
 _p_493:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #624]
 br x16
-.word 21521
+.word 21546
 	.no_dead_strip plt__rgctx_fetch_87
 plt__rgctx_fetch_87:
 _p_494:
@@ -55598,167 +55625,167 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #632]
 br x16
-.word 21570
-	.no_dead_strip plt_wrapper_alloc_object_Alloc_intptr
-plt_wrapper_alloc_object_Alloc_intptr:
+.word 21584
+	.no_dead_strip plt__rgctx_fetch_88
+plt__rgctx_fetch_88:
 _p_495:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #640]
 br x16
-.word 21580
-	.no_dead_strip plt__rgctx_fetch_88
-plt__rgctx_fetch_88:
+.word 21633
+	.no_dead_strip plt_wrapper_alloc_object_Alloc_intptr
+plt_wrapper_alloc_object_Alloc_intptr:
 _p_496:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #648]
 br x16
-.word 21588
-	.no_dead_strip plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions
-plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions:
+.word 21643
+	.no_dead_strip plt__rgctx_fetch_89
+plt__rgctx_fetch_89:
 _p_497:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #656]
 br x16
-.word 21598
-	.no_dead_strip plt__jit_icall_mono_gsharedvt_constrained_call
-plt__jit_icall_mono_gsharedvt_constrained_call:
+.word 21651
+	.no_dead_strip plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions
+plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions:
 _p_498:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #664]
 br x16
-.word 21603
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
-plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
+.word 21661
+	.no_dead_strip plt__jit_icall_mono_gsharedvt_constrained_call
+plt__jit_icall_mono_gsharedvt_constrained_call:
 _p_499:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #672]
 br x16
-.word 21637
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
-plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
+.word 21666
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
+plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
 _p_500:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #680]
 br x16
-.word 21642
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_string_UnsafeOnCompleted_System_Action
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_string_UnsafeOnCompleted_System_Action:
+.word 21700
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
+plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
 _p_501:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #688]
 br x16
-.word 21647
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
-plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
+.word 21705
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_string_UnsafeOnCompleted_System_Action
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_string_UnsafeOnCompleted_System_Action:
 _p_502:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #696]
 br x16
-.word 21668
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_object_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_System_Runtime_CompilerServices_TaskAwaiter_1_object__Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_object_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_System_Runtime_CompilerServices_TaskAwaiter_1_object__Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_:
+.word 21710
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
+plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
 _p_503:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #704]
 br x16
-.word 21673
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_UnsafeOnCompleted_System_Action
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_UnsafeOnCompleted_System_Action:
+.word 21731
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_object_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_System_Runtime_CompilerServices_TaskAwaiter_1_object__Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_object_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_System_Runtime_CompilerServices_TaskAwaiter_1_object__Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_:
 _p_504:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #712]
 br x16
-.word 21700
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_DatePromptResult_UnsafeOnCompleted_System_Action
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_DatePromptResult_UnsafeOnCompleted_System_Action:
+.word 21736
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_UnsafeOnCompleted_System_Action
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_UnsafeOnCompleted_System_Action:
 _p_505:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #720]
 br x16
-.word 21722
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_TimePromptResult_UnsafeOnCompleted_System_Action
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_TimePromptResult_UnsafeOnCompleted_System_Action:
+.word 21763
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_DatePromptResult_UnsafeOnCompleted_System_Action
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_DatePromptResult_UnsafeOnCompleted_System_Action:
 _p_506:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #728]
 br x16
-.word 21742
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_LoginResult_UnsafeOnCompleted_System_Action
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_LoginResult_UnsafeOnCompleted_System_Action:
+.word 21785
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_TimePromptResult_UnsafeOnCompleted_System_Action
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_TimePromptResult_UnsafeOnCompleted_System_Action:
 _p_507:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #736]
 br x16
-.word 21762
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_PromptResult_UnsafeOnCompleted_System_Action
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_PromptResult_UnsafeOnCompleted_System_Action:
+.word 21805
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_LoginResult_UnsafeOnCompleted_System_Action
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_LoginResult_UnsafeOnCompleted_System_Action:
 _p_508:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #744]
 br x16
-.word 21782
-	.no_dead_strip plt__rgctx_fetch_89
-plt__rgctx_fetch_89:
+.word 21825
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_PromptResult_UnsafeOnCompleted_System_Action
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_PromptResult_UnsafeOnCompleted_System_Action:
 _p_509:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #752]
 br x16
-.word 21824
-	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn
-plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn:
+.word 21845
+	.no_dead_strip plt__rgctx_fetch_90
+plt__rgctx_fetch_90:
 _p_510:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #760]
 br x16
-.word 21876
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task:
+.word 21887
+	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn
+plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn:
 _p_511:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #768]
 br x16
-.word 21881
-	.no_dead_strip plt__rgctx_fetch_90
-plt__rgctx_fetch_90:
+.word 21939
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task:
 _p_512:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #776]
 br x16
-.word 21886
-	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong
-plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong:
+.word 21944
+	.no_dead_strip plt__rgctx_fetch_91
+plt__rgctx_fetch_91:
 _p_513:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #784]
 br x16
-.word 21896
-	.no_dead_strip plt__rgctx_fetch_91
-plt__rgctx_fetch_91:
+.word 21949
+	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong
+plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong:
 _p_514:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #792]
 br x16
-.word 21901
+.word 21959
 	.no_dead_strip plt__rgctx_fetch_92
 plt__rgctx_fetch_92:
 _p_515:
@@ -55766,7 +55793,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #800]
 br x16
-.word 21911
+.word 21964
 	.no_dead_strip plt__rgctx_fetch_93
 plt__rgctx_fetch_93:
 _p_516:
@@ -55774,7 +55801,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #808]
 br x16
-.word 21949
+.word 21974
 	.no_dead_strip plt__rgctx_fetch_94
 plt__rgctx_fetch_94:
 _p_517:
@@ -55782,7 +55809,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #816]
 br x16
-.word 21961
+.word 22012
 	.no_dead_strip plt__rgctx_fetch_95
 plt__rgctx_fetch_95:
 _p_518:
@@ -55790,7 +55817,7 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #824]
 br x16
-.word 22015
+.word 22024
 	.no_dead_strip plt__rgctx_fetch_96
 plt__rgctx_fetch_96:
 _p_519:
@@ -55798,211 +55825,219 @@ adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #832]
 br x16
-.word 22027
-	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_SpinUntilCompleted
-plt_System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_SpinUntilCompleted:
+.word 22078
+	.no_dead_strip plt__rgctx_fetch_97
+plt__rgctx_fetch_97:
 _p_520:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #840]
 br x16
-.word 22054
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task:
+.word 22090
+	.no_dead_strip plt_System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_SpinUntilCompleted
+plt_System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_SpinUntilCompleted:
 _p_521:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #848]
 br x16
-.word 22073
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_object_UnsafeOnCompleted_System_Action
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_object_UnsafeOnCompleted_System_Action:
+.word 22117
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task:
 _p_522:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #856]
 br x16
-.word 22084
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
+.word 22136
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_object_UnsafeOnCompleted_System_Action
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_object_UnsafeOnCompleted_System_Action:
 _p_523:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #864]
 br x16
-.word 22106
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
+.word 22147
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_524:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #872]
 br x16
-.word 22126
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult:
+.word 22169
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_525:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #880]
 br x16
-.word 22146
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool:
+.word 22189
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult:
 _p_526:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #888]
 br x16
-.word 22166
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
-plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor:
+.word 22209
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool:
 _p_527:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #896]
 br x16
-.word 22186
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult:
+.word 22229
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
+plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor:
 _p_528:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #904]
 br x16
-.word 22206
-	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
+.word 22249
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult:
 _p_529:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #912]
 br x16
-.word 22226
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions:
+.word 22269
+	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
 _p_530:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #920]
 br x16
-.word 22246
-	.no_dead_strip plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
-plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions:
+.word 22289
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions:
 _p_531:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #928]
 br x16
-.word 22266
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler:
+.word 22309
+	.no_dead_strip plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
+plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions:
 _p_532:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #936]
 br x16
-.word 22286
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
+.word 22329
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler:
 _p_533:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #944]
 br x16
-.word 22306
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult:
+.word 22349
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_534:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #952]
 br x16
-.word 22326
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
-plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions:
+.word 22369
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult:
 _p_535:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #960]
 br x16
-.word 22346
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions:
+.word 22389
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
+plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions:
 _p_536:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #968]
 br x16
-.word 22366
-	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
+.word 22409
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions:
 _p_537:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #976]
 br x16
-.word 22386
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor:
+.word 22429
+	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
 _p_538:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #984]
 br x16
-.word 22406
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult:
+.word 22449
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor:
 _p_539:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #992]
 br x16
-.word 22426
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
-plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult:
+.word 22469
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult:
 _p_540:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1000]
 br x16
-.word 22446
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult:
+.word 22489
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
+plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult:
 _p_541:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1008]
 br x16
-.word 22466
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
-plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult:
+.word 22509
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult:
 _p_542:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1016]
 br x16
-.word 22486
-	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
+.word 22529
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
+plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult:
 _p_543:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1024]
 br x16
-.word 22507
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
-plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
+.word 22549
+	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
 _p_544:
 adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
 add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
 ldr x16, [x16, #1032]
 br x16
-.word 22527
+.word 22570
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
+plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
+_p_545:
+adrp x16, mono_aot_Acr_UserDialogs_got@PAGE+8192
+add x16, x16, mono_aot_Acr_UserDialogs_got@PAGEOFF
+ldr x16, [x16, #1040]
+br x16
+.word 22590
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_Acr_UserDialogs_got, 9232
+.lcomm mono_aot_Acr_UserDialogs_got, 9240
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -56112,13 +56147,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 609,9232,545,1025,66,387000831,0,32136
-	.long 128,8,8,8,0,25,48168,16024
-	.long 15496,12184,0,13736,15344,12920,0,9272
-	.long 1392,16016,0,0,0,0,0,0
+	.long 609,9240,546,1026,66,387000831,0,32302
+	.long 128,8,8,8,0,25,48360,16048
+	.long 15520,12208,0,13760,15368,12944,0,9288
+	.long 1392,16040,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 231,164,60,88,17,72,100,55,52,220,54,54,216,122,66,173
+	.byte 92,192,244,3,205,143,198,140,72,92,15,32,57,85,195,139
 	.globl _mono_aot_module_Acr_UserDialogs_info
 	.align 3
 _mono_aot_module_Acr_UserDialogs_info:
@@ -97180,10 +97215,10 @@ Lfde813_end:
 
 	.byte 2
 	.asciz "System.Threading.Tasks.TaskCompletionSource`1<TResult_BOOL>:.ctor"
-	.asciz "System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL__ctor_object_System_Threading_Tasks_TaskCreationOptions"
+	.asciz "System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL__ctor_object"
 
-	.byte 6,104
-	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL__ctor_object_System_Threading_Tasks_TaskCreationOptions
+	.byte 6,88
+	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL__ctor_object
 	.quad Lme_36d
 
 	.byte 2,118,16,3
@@ -97196,29 +97231,68 @@ LDIFF_SYM4925=LTDIE_270_REFERENCE - Ldebug_info_start
 
 LDIFF_SYM4926=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM4926
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM4927=Lfde814_end - Lfde814_start
+	.long LDIFF_SYM4927
+Lfde814_start:
+
+	.long 0
+	.align 3
+	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL__ctor_object
+
+LDIFF_SYM4928=Lme_36d - System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL__ctor_object
+	.long LDIFF_SYM4928
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde814_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Threading.Tasks.TaskCompletionSource`1<TResult_BOOL>:.ctor"
+	.asciz "System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL__ctor_object_System_Threading_Tasks_TaskCreationOptions"
+
+	.byte 6,104
+	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL__ctor_object_System_Threading_Tasks_TaskCreationOptions
+	.quad Lme_36e
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM4929=LTDIE_270_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM4929
+	.byte 2,141,16,3
+	.asciz "state"
+
+LDIFF_SYM4930=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM4930
 	.byte 2,141,24,3
 	.asciz "creationOptions"
 
-LDIFF_SYM4927=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM4927
+LDIFF_SYM4931=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM4931
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM4928=Lfde814_end - Lfde814_start
-	.long LDIFF_SYM4928
-Lfde814_start:
+LDIFF_SYM4932=Lfde815_end - Lfde815_start
+	.long LDIFF_SYM4932
+Lfde815_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL__ctor_object_System_Threading_Tasks_TaskCreationOptions
 
-LDIFF_SYM4929=Lme_36d - System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL__ctor_object_System_Threading_Tasks_TaskCreationOptions
-	.long LDIFF_SYM4929
+LDIFF_SYM4933=Lme_36e - System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL__ctor_object_System_Threading_Tasks_TaskCreationOptions
+	.long LDIFF_SYM4933
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde814_end:
+Lfde815_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -97228,53 +97302,14 @@ Lfde814_end:
 
 	.byte 6,122
 	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_get_Task
-	.quad Lme_36e
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM4930=LTDIE_270_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM4930
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM4931=Lfde815_end - Lfde815_start
-	.long LDIFF_SYM4931
-Lfde815_start:
-
-	.long 0
-	.align 3
-	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_get_Task
-
-LDIFF_SYM4932=Lme_36e - System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_get_Task
-	.long LDIFF_SYM4932
-	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
-	.align 3
-Lfde815_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Threading.Tasks.TaskCompletionSource`1<TResult_BOOL>:SpinUntilCompleted"
-	.asciz "System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SpinUntilCompleted"
-
-	.byte 6,129,1
-	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SpinUntilCompleted
 	.quad Lme_36f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM4933=LTDIE_270_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM4933
-	.byte 2,141,16,11
-	.asciz "sw"
-
-LDIFF_SYM4934=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM4934=LTDIE_270_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM4934
-	.byte 2,141,24,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -97284,23 +97319,23 @@ Lfde816_start:
 
 	.long 0
 	.align 3
-	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SpinUntilCompleted
+	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_get_Task
 
-LDIFF_SYM4936=Lme_36f - System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SpinUntilCompleted
+LDIFF_SYM4936=Lme_36f - System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_get_Task
 	.long LDIFF_SYM4936
 	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
 Lfde816_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Threading.Tasks.TaskCompletionSource`1<TResult_BOOL>:TrySetException"
-	.asciz "System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetException_System_Exception"
+	.asciz "System.Threading.Tasks.TaskCompletionSource`1<TResult_BOOL>:SpinUntilCompleted"
+	.asciz "System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SpinUntilCompleted"
 
-	.byte 6,154,1
-	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetException_System_Exception
+	.byte 6,129,1
+	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SpinUntilCompleted
 	.quad Lme_370
 
 	.byte 2,118,16,3
@@ -97308,12 +97343,12 @@ Lfde816_end:
 
 LDIFF_SYM4937=LTDIE_270_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM4937
-	.byte 2,141,24,3
-	.asciz "exception"
+	.byte 2,141,16,11
+	.asciz "sw"
 
-LDIFF_SYM4938=LTDIE_98_REFERENCE - Ldebug_info_start
+LDIFF_SYM4938=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM4938
-	.byte 1,106,0
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -97323,23 +97358,23 @@ Lfde817_start:
 
 	.long 0
 	.align 3
-	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetException_System_Exception
+	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SpinUntilCompleted
 
-LDIFF_SYM4940=Lme_370 - System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetException_System_Exception
+LDIFF_SYM4940=Lme_370 - System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SpinUntilCompleted
 	.long LDIFF_SYM4940
 	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde817_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Threading.Tasks.TaskCompletionSource`1<TResult_BOOL>:SetException"
-	.asciz "System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SetException_System_Exception"
+	.asciz "System.Threading.Tasks.TaskCompletionSource`1<TResult_BOOL>:TrySetException"
+	.asciz "System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetException_System_Exception"
 
-	.byte 6,220,1
-	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SetException_System_Exception
+	.byte 6,154,1
+	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetException_System_Exception
 	.quad Lme_371
 
 	.byte 2,118,16,3
@@ -97347,12 +97382,12 @@ Lfde817_end:
 
 LDIFF_SYM4941=LTDIE_270_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM4941
-	.byte 2,141,16,3
+	.byte 2,141,24,3
 	.asciz "exception"
 
 LDIFF_SYM4942=LTDIE_98_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM4942
-	.byte 2,141,24,0
+	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -97362,23 +97397,23 @@ Lfde818_start:
 
 	.long 0
 	.align 3
-	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SetException_System_Exception
+	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetException_System_Exception
 
-LDIFF_SYM4944=Lme_371 - System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SetException_System_Exception
+LDIFF_SYM4944=Lme_371 - System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetException_System_Exception
 	.long LDIFF_SYM4944
 	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
 Lfde818_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Threading.Tasks.TaskCompletionSource`1<TResult_BOOL>:TrySetResult"
-	.asciz "System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetResult_TResult_BOOL"
+	.asciz "System.Threading.Tasks.TaskCompletionSource`1<TResult_BOOL>:SetException"
+	.asciz "System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SetException_System_Exception"
 
-	.byte 6,146,2
-	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetResult_TResult_BOOL
+	.byte 6,220,1
+	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SetException_System_Exception
 	.quad Lme_372
 
 	.byte 2,118,16,3
@@ -97386,12 +97421,12 @@ Lfde818_end:
 
 LDIFF_SYM4945=LTDIE_270_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM4945
-	.byte 2,141,24,3
-	.asciz "result"
+	.byte 2,141,16,3
+	.asciz "exception"
 
-LDIFF_SYM4946=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM4946=LTDIE_98_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM4946
-	.byte 2,141,32,0
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -97401,23 +97436,23 @@ Lfde819_start:
 
 	.long 0
 	.align 3
-	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetResult_TResult_BOOL
+	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SetException_System_Exception
 
-LDIFF_SYM4948=Lme_372 - System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetResult_TResult_BOOL
+LDIFF_SYM4948=Lme_372 - System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SetException_System_Exception
 	.long LDIFF_SYM4948
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde819_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Threading.Tasks.TaskCompletionSource`1<TResult_BOOL>:SetResult"
-	.asciz "System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SetResult_TResult_BOOL"
+	.asciz "System.Threading.Tasks.TaskCompletionSource`1<TResult_BOOL>:TrySetResult"
+	.asciz "System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetResult_TResult_BOOL"
 
-	.byte 6,169,2
-	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SetResult_TResult_BOOL
+	.byte 6,146,2
+	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetResult_TResult_BOOL
 	.quad Lme_373
 
 	.byte 2,118,16,3
@@ -97425,12 +97460,12 @@ Lfde819_end:
 
 LDIFF_SYM4949=LTDIE_270_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM4949
-	.byte 2,141,16,3
+	.byte 2,141,24,3
 	.asciz "result"
 
 LDIFF_SYM4950=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM4950
-	.byte 2,141,24,0
+	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -97440,23 +97475,23 @@ Lfde820_start:
 
 	.long 0
 	.align 3
-	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SetResult_TResult_BOOL
+	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetResult_TResult_BOOL
 
-LDIFF_SYM4952=Lme_373 - System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SetResult_TResult_BOOL
+LDIFF_SYM4952=Lme_373 - System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetResult_TResult_BOOL
 	.long LDIFF_SYM4952
 	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
 Lfde820_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Threading.Tasks.TaskCompletionSource`1<TResult_BOOL>:TrySetCanceled"
-	.asciz "System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetCanceled"
+	.asciz "System.Threading.Tasks.TaskCompletionSource`1<TResult_BOOL>:SetResult"
+	.asciz "System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SetResult_TResult_BOOL"
 
-	.byte 6,190,2
-	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetCanceled
+	.byte 6,169,2
+	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SetResult_TResult_BOOL
 	.quad Lme_374
 
 	.byte 2,118,16,3
@@ -97464,12 +97499,12 @@ Lfde820_end:
 
 LDIFF_SYM4953=LTDIE_270_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM4953
-	.byte 2,141,16,11
-	.asciz "V_0"
+	.byte 2,141,16,3
+	.asciz "result"
 
 LDIFF_SYM4954=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM4954
-	.byte 0,0
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -97479,9 +97514,9 @@ Lfde821_start:
 
 	.long 0
 	.align 3
-	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetCanceled
+	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SetResult_TResult_BOOL
 
-LDIFF_SYM4956=Lme_374 - System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetCanceled
+LDIFF_SYM4956=Lme_374 - System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SetResult_TResult_BOOL
 	.long LDIFF_SYM4956
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
@@ -97492,10 +97527,10 @@ Lfde821_end:
 
 	.byte 2
 	.asciz "System.Threading.Tasks.TaskCompletionSource`1<TResult_BOOL>:TrySetCanceled"
-	.asciz "System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetCanceled_System_Threading_CancellationToken"
+	.asciz "System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetCanceled"
 
-	.byte 6,196,2
-	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetCanceled_System_Threading_CancellationToken
+	.byte 6,190,2
+	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetCanceled
 	.quad Lme_375
 
 	.byte 2,118,16,3
@@ -97503,12 +97538,12 @@ Lfde821_end:
 
 LDIFF_SYM4957=LTDIE_270_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM4957
-	.byte 2,141,16,3
-	.asciz "cancellationToken"
+	.byte 2,141,16,11
+	.asciz "V_0"
 
 LDIFF_SYM4958=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM4958
-	.byte 2,141,24,0
+	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -97518,14 +97553,53 @@ Lfde822_start:
 
 	.long 0
 	.align 3
+	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetCanceled
+
+LDIFF_SYM4960=Lme_375 - System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetCanceled
+	.long LDIFF_SYM4960
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde822_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Threading.Tasks.TaskCompletionSource`1<TResult_BOOL>:TrySetCanceled"
+	.asciz "System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetCanceled_System_Threading_CancellationToken"
+
+	.byte 6,196,2
+	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetCanceled_System_Threading_CancellationToken
+	.quad Lme_376
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM4961=LTDIE_270_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM4961
+	.byte 2,141,16,3
+	.asciz "cancellationToken"
+
+LDIFF_SYM4962=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM4962
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM4963=Lfde823_end - Lfde823_start
+	.long LDIFF_SYM4963
+Lfde823_start:
+
+	.long 0
+	.align 3
 	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetCanceled_System_Threading_CancellationToken
 
-LDIFF_SYM4960=Lme_375 - System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetCanceled_System_Threading_CancellationToken
-	.long LDIFF_SYM4960
+LDIFF_SYM4964=Lme_376 - System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_TrySetCanceled_System_Threading_CancellationToken
+	.long LDIFF_SYM4964
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde822_end:
+Lfde823_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -97535,31 +97609,31 @@ Lfde822_end:
 
 	.byte 6,217,2
 	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SetCanceled
-	.quad Lme_376
+	.quad Lme_377
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM4961=LTDIE_270_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM4961
+LDIFF_SYM4965=LTDIE_270_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM4965
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM4962=Lfde823_end - Lfde823_start
-	.long LDIFF_SYM4962
-Lfde823_start:
+LDIFF_SYM4966=Lfde824_end - Lfde824_start
+	.long LDIFF_SYM4966
+Lfde824_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SetCanceled
 
-LDIFF_SYM4963=Lme_376 - System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SetCanceled
-	.long LDIFF_SYM4963
+LDIFF_SYM4967=Lme_377 - System_Threading_Tasks_TaskCompletionSource_1_TResult_BOOL_SetCanceled
+	.long LDIFF_SYM4967
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde823_end:
+Lfde824_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -97569,61 +97643,61 @@ Lfde823_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_bool_invoke_void_T_bool
-	.quad Lme_37b
+	.quad Lme_37c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM4964=LTDIE_52_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM4964
+LDIFF_SYM4968=LTDIE_52_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM4968
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM4965=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM4965
+LDIFF_SYM4969=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM4969
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM4966=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM4966
+LDIFF_SYM4970=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM4970
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM4967=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM4967
+LDIFF_SYM4971=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM4971
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM4968=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM4968
+LDIFF_SYM4972=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM4972
 	.byte 1,104,11
 	.asciz "V_3"
 
-LDIFF_SYM4969=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM4969
+LDIFF_SYM4973=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM4973
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM4970=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM4970
+LDIFF_SYM4974=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM4974
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM4971=Lfde824_end - Lfde824_start
-	.long LDIFF_SYM4971
-Lfde824_start:
+LDIFF_SYM4975=Lfde825_end - Lfde825_start
+	.long LDIFF_SYM4975
+Lfde825_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_bool_invoke_void_T_bool
 
-LDIFF_SYM4972=Lme_37b - wrapper_delegate_invoke_System_Action_1_bool_invoke_void_T_bool
-	.long LDIFF_SYM4972
+LDIFF_SYM4976=Lme_37c - wrapper_delegate_invoke_System_Action_1_bool_invoke_void_T_bool
+	.long LDIFF_SYM4976
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
 	.align 3
-Lfde824_end:
+Lfde825_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_273:
@@ -97632,92 +97706,92 @@ LTDIE_273:
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM4973=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM4973
+LDIFF_SYM4977=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM4977
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM4974=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM4974
+LDIFF_SYM4978=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM4978
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM4975=LTDIE_273 - Ldebug_info_start
-	.long LDIFF_SYM4975
+LDIFF_SYM4979=LTDIE_273 - Ldebug_info_start
+	.long LDIFF_SYM4979
 LTDIE_273_POINTER:
 
 	.byte 13
-LDIFF_SYM4976=LTDIE_273 - Ldebug_info_start
-	.long LDIFF_SYM4976
+LDIFF_SYM4980=LTDIE_273 - Ldebug_info_start
+	.long LDIFF_SYM4980
 LTDIE_273_REFERENCE:
 
 	.byte 14
-LDIFF_SYM4977=LTDIE_273 - Ldebug_info_start
-	.long LDIFF_SYM4977
+LDIFF_SYM4981=LTDIE_273 - Ldebug_info_start
+	.long LDIFF_SYM4981
 LTDIE_272:
 
 	.byte 5
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
 	.byte 24,16
-LDIFF_SYM4978=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM4978
+LDIFF_SYM4982=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM4982
 	.byte 2,35,0,6
 	.asciz "m_task"
 
-LDIFF_SYM4979=LTDIE_273_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM4979
+LDIFF_SYM4983=LTDIE_273_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM4983
 	.byte 2,35,16,0,7
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
-LDIFF_SYM4980=LTDIE_272 - Ldebug_info_start
-	.long LDIFF_SYM4980
+LDIFF_SYM4984=LTDIE_272 - Ldebug_info_start
+	.long LDIFF_SYM4984
 LTDIE_272_POINTER:
 
 	.byte 13
-LDIFF_SYM4981=LTDIE_272 - Ldebug_info_start
-	.long LDIFF_SYM4981
+LDIFF_SYM4985=LTDIE_272 - Ldebug_info_start
+	.long LDIFF_SYM4985
 LTDIE_272_REFERENCE:
 
 	.byte 14
-LDIFF_SYM4982=LTDIE_272 - Ldebug_info_start
-	.long LDIFF_SYM4982
+LDIFF_SYM4986=LTDIE_272 - Ldebug_info_start
+	.long LDIFF_SYM4986
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<TResult_BOOL>:.ctor"
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL"
 
 	.byte 7,143,2
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL
-	.quad Lme_37c
+	.quad Lme_37d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM4983=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM4983
+LDIFF_SYM4987=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM4987
 	.byte 2,141,16,3
 	.asciz "task"
 
-LDIFF_SYM4984=LTDIE_273_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM4984
+LDIFF_SYM4988=LTDIE_273_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM4988
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM4985=Lfde825_end - Lfde825_start
-	.long LDIFF_SYM4985
-Lfde825_start:
+LDIFF_SYM4989=Lfde826_end - Lfde826_start
+	.long LDIFF_SYM4989
+Lfde826_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL
 
-LDIFF_SYM4986=Lme_37c - System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL
-	.long LDIFF_SYM4986
+LDIFF_SYM4990=Lme_37d - System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL
+	.long LDIFF_SYM4990
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde825_end:
+Lfde826_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -97727,53 +97801,14 @@ Lfde825_end:
 
 	.byte 7,151,2
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_get_IsCompleted
-	.quad Lme_37d
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM4987=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM4987
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM4988=Lfde826_end - Lfde826_start
-	.long LDIFF_SYM4988
-Lfde826_start:
-
-	.long 0
-	.align 3
-	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_get_IsCompleted
-
-LDIFF_SYM4989=Lme_37d - System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_get_IsCompleted
-	.long LDIFF_SYM4989
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde826_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<TResult_BOOL>:OnCompleted"
-	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_OnCompleted_System_Action"
-
-	.byte 7,161,2
-	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_OnCompleted_System_Action
 	.quad Lme_37e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM4990=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM4990
-	.byte 2,141,16,3
-	.asciz "continuation"
-
-LDIFF_SYM4991=LTDIE_28_REFERENCE - Ldebug_info_start
+LDIFF_SYM4991=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM4991
-	.byte 2,141,24,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -97783,9 +97818,9 @@ Lfde827_start:
 
 	.long 0
 	.align 3
-	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_OnCompleted_System_Action
+	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_get_IsCompleted
 
-LDIFF_SYM4993=Lme_37e - System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_OnCompleted_System_Action
+LDIFF_SYM4993=Lme_37e - System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_get_IsCompleted
 	.long LDIFF_SYM4993
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
@@ -97795,11 +97830,11 @@ Lfde827_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<TResult_BOOL>:UnsafeOnCompleted"
-	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_UnsafeOnCompleted_System_Action"
+	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<TResult_BOOL>:OnCompleted"
+	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_OnCompleted_System_Action"
 
-	.byte 7,171,2
-	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_UnsafeOnCompleted_System_Action
+	.byte 7,161,2
+	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_OnCompleted_System_Action
 	.quad Lme_37f
 
 	.byte 2,118,16,3
@@ -97822,9 +97857,9 @@ Lfde828_start:
 
 	.long 0
 	.align 3
-	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_UnsafeOnCompleted_System_Action
+	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_OnCompleted_System_Action
 
-LDIFF_SYM4997=Lme_37f - System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_UnsafeOnCompleted_System_Action
+LDIFF_SYM4997=Lme_37f - System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_OnCompleted_System_Action
 	.long LDIFF_SYM4997
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
@@ -97834,11 +97869,11 @@ Lfde828_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<TResult_BOOL>:GetResult"
-	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_GetResult"
+	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<TResult_BOOL>:UnsafeOnCompleted"
+	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_UnsafeOnCompleted_System_Action"
 
-	.byte 7,182,2
-	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_GetResult
+	.byte 7,171,2
+	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_UnsafeOnCompleted_System_Action
 	.quad Lme_380
 
 	.byte 2,118,16,3
@@ -97846,24 +97881,63 @@ Lfde828_end:
 
 LDIFF_SYM4998=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM4998
+	.byte 2,141,16,3
+	.asciz "continuation"
+
+LDIFF_SYM4999=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM4999
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM5000=Lfde829_end - Lfde829_start
+	.long LDIFF_SYM5000
+Lfde829_start:
+
+	.long 0
+	.align 3
+	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_UnsafeOnCompleted_System_Action
+
+LDIFF_SYM5001=Lme_380 - System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_UnsafeOnCompleted_System_Action
+	.long LDIFF_SYM5001
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde829_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<TResult_BOOL>:GetResult"
+	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_GetResult"
+
+	.byte 7,182,2
+	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_GetResult
+	.quad Lme_381
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM5002=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5002
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM4999=Lfde829_end - Lfde829_start
-	.long LDIFF_SYM4999
-Lfde829_start:
+LDIFF_SYM5003=Lfde830_end - Lfde830_start
+	.long LDIFF_SYM5003
+Lfde830_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_GetResult
 
-LDIFF_SYM5000=Lme_380 - System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_GetResult
-	.long LDIFF_SYM5000
+LDIFF_SYM5004=Lme_381 - System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_GetResult
+	.long LDIFF_SYM5004
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde829_end:
+Lfde830_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -97873,61 +97947,61 @@ Lfde829_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_Acr_UserDialogs_DatePromptResult_invoke_void_T_Acr_UserDialogs_DatePromptResult
-	.quad Lme_381
+	.quad Lme_382
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5001=LTDIE_55_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5001
+LDIFF_SYM5005=LTDIE_55_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5005
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM5002=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5002
+LDIFF_SYM5006=LTDIE_121_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5006
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM5003=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5003
+LDIFF_SYM5007=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5007
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM5004=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5004
+LDIFF_SYM5008=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5008
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM5005=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5005
+LDIFF_SYM5009=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5009
 	.byte 1,104,11
 	.asciz "V_3"
 
-LDIFF_SYM5006=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5006
+LDIFF_SYM5010=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5010
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM5007=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5007
+LDIFF_SYM5011=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5011
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5008=Lfde830_end - Lfde830_start
-	.long LDIFF_SYM5008
-Lfde830_start:
+LDIFF_SYM5012=Lfde831_end - Lfde831_start
+	.long LDIFF_SYM5012
+Lfde831_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_Acr_UserDialogs_DatePromptResult_invoke_void_T_Acr_UserDialogs_DatePromptResult
 
-LDIFF_SYM5009=Lme_381 - wrapper_delegate_invoke_System_Action_1_Acr_UserDialogs_DatePromptResult_invoke_void_T_Acr_UserDialogs_DatePromptResult
-	.long LDIFF_SYM5009
+LDIFF_SYM5013=Lme_382 - wrapper_delegate_invoke_System_Action_1_Acr_UserDialogs_DatePromptResult_invoke_void_T_Acr_UserDialogs_DatePromptResult
+	.long LDIFF_SYM5013
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
 	.align 3
-Lfde830_end:
+Lfde831_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -97937,61 +98011,61 @@ Lfde830_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_Acr_UserDialogs_TimePromptResult_invoke_void_T_Acr_UserDialogs_TimePromptResult
-	.quad Lme_382
+	.quad Lme_383
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5010=LTDIE_57_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5010
+LDIFF_SYM5014=LTDIE_57_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5014
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM5011=LTDIE_129_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5011
+LDIFF_SYM5015=LTDIE_129_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5015
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM5012=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5012
+LDIFF_SYM5016=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5016
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM5013=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5013
+LDIFF_SYM5017=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5017
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM5014=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5014
+LDIFF_SYM5018=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5018
 	.byte 1,104,11
 	.asciz "V_3"
 
-LDIFF_SYM5015=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5015
+LDIFF_SYM5019=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5019
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM5016=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5016
+LDIFF_SYM5020=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5020
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5017=Lfde831_end - Lfde831_start
-	.long LDIFF_SYM5017
-Lfde831_start:
+LDIFF_SYM5021=Lfde832_end - Lfde832_start
+	.long LDIFF_SYM5021
+Lfde832_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_Acr_UserDialogs_TimePromptResult_invoke_void_T_Acr_UserDialogs_TimePromptResult
 
-LDIFF_SYM5018=Lme_382 - wrapper_delegate_invoke_System_Action_1_Acr_UserDialogs_TimePromptResult_invoke_void_T_Acr_UserDialogs_TimePromptResult
-	.long LDIFF_SYM5018
+LDIFF_SYM5022=Lme_383 - wrapper_delegate_invoke_System_Action_1_Acr_UserDialogs_TimePromptResult_invoke_void_T_Acr_UserDialogs_TimePromptResult
+	.long LDIFF_SYM5022
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
 	.align 3
-Lfde831_end:
+Lfde832_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -98001,61 +98075,61 @@ Lfde831_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_Acr_UserDialogs_LoginResult_invoke_void_T_Acr_UserDialogs_LoginResult
-	.quad Lme_383
+	.quad Lme_384
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5019=LTDIE_59_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5019
+LDIFF_SYM5023=LTDIE_59_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5023
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM5020=LTDIE_124_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5020
+LDIFF_SYM5024=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5024
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM5021=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5021
+LDIFF_SYM5025=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5025
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM5022=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5022
+LDIFF_SYM5026=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5026
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM5023=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5023
+LDIFF_SYM5027=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5027
 	.byte 1,104,11
 	.asciz "V_3"
 
-LDIFF_SYM5024=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5024
+LDIFF_SYM5028=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5028
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM5025=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5025
+LDIFF_SYM5029=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5029
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5026=Lfde832_end - Lfde832_start
-	.long LDIFF_SYM5026
-Lfde832_start:
+LDIFF_SYM5030=Lfde833_end - Lfde833_start
+	.long LDIFF_SYM5030
+Lfde833_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_Acr_UserDialogs_LoginResult_invoke_void_T_Acr_UserDialogs_LoginResult
 
-LDIFF_SYM5027=Lme_383 - wrapper_delegate_invoke_System_Action_1_Acr_UserDialogs_LoginResult_invoke_void_T_Acr_UserDialogs_LoginResult
-	.long LDIFF_SYM5027
+LDIFF_SYM5031=Lme_384 - wrapper_delegate_invoke_System_Action_1_Acr_UserDialogs_LoginResult_invoke_void_T_Acr_UserDialogs_LoginResult
+	.long LDIFF_SYM5031
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
 	.align 3
-Lfde832_end:
+Lfde833_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -98065,61 +98139,61 @@ Lfde832_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_Acr_UserDialogs_PromptResult_invoke_void_T_Acr_UserDialogs_PromptResult
-	.quad Lme_384
+	.quad Lme_385
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5028=LTDIE_61_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5028
+LDIFF_SYM5032=LTDIE_61_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5032
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM5029=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5029
+LDIFF_SYM5033=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5033
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM5030=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5030
+LDIFF_SYM5034=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5034
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM5031=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5031
+LDIFF_SYM5035=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5035
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM5032=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5032
+LDIFF_SYM5036=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5036
 	.byte 1,104,11
 	.asciz "V_3"
 
-LDIFF_SYM5033=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5033
+LDIFF_SYM5037=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5037
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM5034=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5034
+LDIFF_SYM5038=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5038
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5035=Lfde833_end - Lfde833_start
-	.long LDIFF_SYM5035
-Lfde833_start:
+LDIFF_SYM5039=Lfde834_end - Lfde834_start
+	.long LDIFF_SYM5039
+Lfde834_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_Acr_UserDialogs_PromptResult_invoke_void_T_Acr_UserDialogs_PromptResult
 
-LDIFF_SYM5036=Lme_384 - wrapper_delegate_invoke_System_Action_1_Acr_UserDialogs_PromptResult_invoke_void_T_Acr_UserDialogs_PromptResult
-	.long LDIFF_SYM5036
+LDIFF_SYM5040=Lme_385 - wrapper_delegate_invoke_System_Action_1_Acr_UserDialogs_PromptResult_invoke_void_T_Acr_UserDialogs_PromptResult
+	.long LDIFF_SYM5040
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
 	.align 3
-Lfde833_end:
+Lfde834_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_274:
@@ -98128,84 +98202,84 @@ LTDIE_274:
 	.asciz "System_Action`1"
 
 	.byte 112,16
-LDIFF_SYM5037=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM5037
+LDIFF_SYM5041=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM5041
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM5038=LTDIE_274 - Ldebug_info_start
-	.long LDIFF_SYM5038
+LDIFF_SYM5042=LTDIE_274 - Ldebug_info_start
+	.long LDIFF_SYM5042
 LTDIE_274_POINTER:
 
 	.byte 13
-LDIFF_SYM5039=LTDIE_274 - Ldebug_info_start
-	.long LDIFF_SYM5039
+LDIFF_SYM5043=LTDIE_274 - Ldebug_info_start
+	.long LDIFF_SYM5043
 LTDIE_274_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5040=LTDIE_274 - Ldebug_info_start
-	.long LDIFF_SYM5040
+LDIFF_SYM5044=LTDIE_274 - Ldebug_info_start
+	.long LDIFF_SYM5044
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<UIKit.UITextField>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_UIKit_UITextField_invoke_void_T_UIKit_UITextField"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_UIKit_UITextField_invoke_void_T_UIKit_UITextField
-	.quad Lme_385
+	.quad Lme_386
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5041=LTDIE_274_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5041
+LDIFF_SYM5045=LTDIE_274_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5045
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM5042=LTDIE_153_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5042
+LDIFF_SYM5046=LTDIE_153_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5046
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM5043=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5043
+LDIFF_SYM5047=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5047
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM5044=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5044
+LDIFF_SYM5048=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5048
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM5045=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5045
+LDIFF_SYM5049=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5049
 	.byte 1,104,11
 	.asciz "V_3"
 
-LDIFF_SYM5046=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5046
+LDIFF_SYM5050=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5050
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM5047=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5047
+LDIFF_SYM5051=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5051
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5048=Lfde834_end - Lfde834_start
-	.long LDIFF_SYM5048
-Lfde834_start:
+LDIFF_SYM5052=Lfde835_end - Lfde835_start
+	.long LDIFF_SYM5052
+Lfde835_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_UIKit_UITextField_invoke_void_T_UIKit_UITextField
 
-LDIFF_SYM5049=Lme_385 - wrapper_delegate_invoke_System_Action_1_UIKit_UITextField_invoke_void_T_UIKit_UITextField
-	.long LDIFF_SYM5049
+LDIFF_SYM5053=Lme_386 - wrapper_delegate_invoke_System_Action_1_UIKit_UITextField_invoke_void_T_UIKit_UITextField
+	.long LDIFF_SYM5053
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
 	.align 3
-Lfde834_end:
+Lfde835_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -98215,59 +98289,20 @@ Lfde834_end:
 
 	.byte 5,138,1
 	.quad System_Array_InternalArray__Insert_T_REF_int_T_REF
-	.quad Lme_386
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM5050=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5050
-	.byte 2,141,16,3
-	.asciz "index"
-
-LDIFF_SYM5051=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5051
-	.byte 0,3
-	.asciz "item"
-
-LDIFF_SYM5052=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5052
-	.byte 0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM5053=Lfde835_end - Lfde835_start
-	.long LDIFF_SYM5053
-Lfde835_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalArray__Insert_T_REF_int_T_REF
-
-LDIFF_SYM5054=Lme_386 - System_Array_InternalArray__Insert_T_REF_int_T_REF
-	.long LDIFF_SYM5054
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde835_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Array:InternalArray__RemoveAt"
-	.asciz "System_Array_InternalArray__RemoveAt_int"
-
-	.byte 5,143,1
-	.quad System_Array_InternalArray__RemoveAt_int
 	.quad Lme_387
 
 	.byte 2,118,16,3
 	.asciz "this"
 
+LDIFF_SYM5054=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5054
+	.byte 2,141,16,3
+	.asciz "index"
+
 LDIFF_SYM5055=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM5055
 	.byte 0,3
-	.asciz "index"
+	.asciz "item"
 
 LDIFF_SYM5056=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM5056
@@ -98281,14 +98316,53 @@ Lfde836_start:
 
 	.long 0
 	.align 3
+	.quad System_Array_InternalArray__Insert_T_REF_int_T_REF
+
+LDIFF_SYM5058=Lme_387 - System_Array_InternalArray__Insert_T_REF_int_T_REF
+	.long LDIFF_SYM5058
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde836_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Array:InternalArray__RemoveAt"
+	.asciz "System_Array_InternalArray__RemoveAt_int"
+
+	.byte 5,143,1
+	.quad System_Array_InternalArray__RemoveAt_int
+	.quad Lme_388
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM5059=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5059
+	.byte 0,3
+	.asciz "index"
+
+LDIFF_SYM5060=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5060
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM5061=Lfde837_end - Lfde837_start
+	.long LDIFF_SYM5061
+Lfde837_start:
+
+	.long 0
+	.align 3
 	.quad System_Array_InternalArray__RemoveAt_int
 
-LDIFF_SYM5058=Lme_387 - System_Array_InternalArray__RemoveAt_int
-	.long LDIFF_SYM5058
+LDIFF_SYM5062=Lme_388 - System_Array_InternalArray__RemoveAt_int
+	.long LDIFF_SYM5062
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde836_end:
+Lfde837_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -98298,51 +98372,51 @@ Lfde836_end:
 
 	.byte 5,148,1
 	.quad System_Array_InternalArray__IndexOf_T_REF_T_REF
-	.quad Lme_388
+	.quad Lme_389
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5059=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5059
+LDIFF_SYM5063=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5063
 	.byte 1,105,3
 	.asciz "item"
 
-LDIFF_SYM5060=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5060
+LDIFF_SYM5064=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5064
 	.byte 1,106,11
 	.asciz "length"
 
-LDIFF_SYM5061=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5061
+LDIFF_SYM5065=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5065
 	.byte 1,104,11
 	.asciz "i"
 
-LDIFF_SYM5062=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5062
+LDIFF_SYM5066=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5066
 	.byte 1,103,11
 	.asciz "value"
 
-LDIFF_SYM5063=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5063
+LDIFF_SYM5067=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5067
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5064=Lfde837_end - Lfde837_start
-	.long LDIFF_SYM5064
-Lfde837_start:
+LDIFF_SYM5068=Lfde838_end - Lfde838_start
+	.long LDIFF_SYM5068
+Lfde838_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__IndexOf_T_REF_T_REF
 
-LDIFF_SYM5065=Lme_388 - System_Array_InternalArray__IndexOf_T_REF_T_REF
-	.long LDIFF_SYM5065
+LDIFF_SYM5069=Lme_389 - System_Array_InternalArray__IndexOf_T_REF_T_REF
+	.long LDIFF_SYM5069
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,150,6,151,5,68,152,4,153,3,68,154,2
 	.align 3
-Lfde837_end:
+Lfde838_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -98352,41 +98426,41 @@ Lfde837_end:
 
 	.byte 5,175,1
 	.quad System_Array_InternalArray__get_Item_T_REF_int
-	.quad Lme_389
+	.quad Lme_38a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5066=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5066
+LDIFF_SYM5070=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5070
 	.byte 2,141,24,3
 	.asciz "index"
 
-LDIFF_SYM5067=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5067
+LDIFF_SYM5071=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5071
 	.byte 1,106,11
 	.asciz "value"
 
-LDIFF_SYM5068=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5068
+LDIFF_SYM5072=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5072
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5069=Lfde838_end - Lfde838_start
-	.long LDIFF_SYM5069
-Lfde838_start:
+LDIFF_SYM5073=Lfde839_end - Lfde839_start
+	.long LDIFF_SYM5073
+Lfde839_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__get_Item_T_REF_int
 
-LDIFF_SYM5070=Lme_389 - System_Array_InternalArray__get_Item_T_REF_int
-	.long LDIFF_SYM5070
+LDIFF_SYM5074=Lme_38a - System_Array_InternalArray__get_Item_T_REF_int
+	.long LDIFF_SYM5074
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
-Lfde838_end:
+Lfde839_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -98396,46 +98470,46 @@ Lfde838_end:
 
 	.byte 5,185,1
 	.quad System_Array_InternalArray__set_Item_T_REF_int_T_REF
-	.quad Lme_38a
+	.quad Lme_38b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5071=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5071
+LDIFF_SYM5075=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5075
 	.byte 1,104,3
 	.asciz "index"
 
-LDIFF_SYM5072=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5072
+LDIFF_SYM5076=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5076
 	.byte 2,141,40,3
 	.asciz "item"
 
-LDIFF_SYM5073=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5073
+LDIFF_SYM5077=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5077
 	.byte 2,141,48,11
 	.asciz "oarray"
 
-LDIFF_SYM5074=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM5074
+LDIFF_SYM5078=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM5078
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5075=Lfde839_end - Lfde839_start
-	.long LDIFF_SYM5075
-Lfde839_start:
+LDIFF_SYM5079=Lfde840_end - Lfde840_start
+	.long LDIFF_SYM5079
+Lfde840_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__set_Item_T_REF_int_T_REF
 
-LDIFF_SYM5076=Lme_38a - System_Array_InternalArray__set_Item_T_REF_int_T_REF
-	.long LDIFF_SYM5076
+LDIFF_SYM5080=Lme_38b - System_Array_InternalArray__set_Item_T_REF_int_T_REF
+	.long LDIFF_SYM5080
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,150,6,151,5,68,152,4
 	.align 3
-Lfde839_end:
+Lfde840_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -98445,56 +98519,56 @@ Lfde839_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_DateTime_object_intptr_intptr_intptr
-	.quad Lme_38b
+	.quad Lme_38c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5077=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5077
+LDIFF_SYM5081=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5081
 	.byte 2,141,24,3
 	.asciz "params"
 
-LDIFF_SYM5078=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5078
+LDIFF_SYM5082=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5082
 	.byte 2,141,32,3
 	.asciz "exc"
 
-LDIFF_SYM5079=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5079
+LDIFF_SYM5083=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5083
 	.byte 2,141,40,3
 	.asciz "method"
 
-LDIFF_SYM5080=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5080
+LDIFF_SYM5084=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5084
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM5081=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5081
+LDIFF_SYM5085=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5085
 	.byte 3,141,216,0,11
 	.asciz "V_1"
 
-LDIFF_SYM5082=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5082
+LDIFF_SYM5086=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5086
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5083=Lfde840_end - Lfde840_start
-	.long LDIFF_SYM5083
-Lfde840_start:
+LDIFF_SYM5087=Lfde841_end - Lfde841_start
+	.long LDIFF_SYM5087
+Lfde841_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_DateTime_object_intptr_intptr_intptr
 
-LDIFF_SYM5084=Lme_38b - wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_DateTime_object_intptr_intptr_intptr
-	.long LDIFF_SYM5084
+LDIFF_SYM5088=Lme_38c - wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_DateTime_object_intptr_intptr_intptr
+	.long LDIFF_SYM5088
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151,16
 	.align 3
-Lfde840_end:
+Lfde841_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -98504,56 +98578,56 @@ Lfde840_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_bool_object_intptr_intptr_intptr
-	.quad Lme_38c
+	.quad Lme_38d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5085=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5085
+LDIFF_SYM5089=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5089
 	.byte 2,141,24,3
 	.asciz "params"
 
-LDIFF_SYM5086=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5086
+LDIFF_SYM5090=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5090
 	.byte 2,141,32,3
 	.asciz "exc"
 
-LDIFF_SYM5087=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5087
+LDIFF_SYM5091=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5091
 	.byte 2,141,40,3
 	.asciz "method"
 
-LDIFF_SYM5088=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5088
+LDIFF_SYM5092=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5092
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM5089=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5089
+LDIFF_SYM5093=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5093
 	.byte 3,141,200,0,11
 	.asciz "V_1"
 
-LDIFF_SYM5090=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5090
+LDIFF_SYM5094=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5094
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5091=Lfde841_end - Lfde841_start
-	.long LDIFF_SYM5091
-Lfde841_start:
+LDIFF_SYM5095=Lfde842_end - Lfde842_start
+	.long LDIFF_SYM5095
+Lfde842_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_bool_object_intptr_intptr_intptr
 
-LDIFF_SYM5092=Lme_38c - wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_bool_object_intptr_intptr_intptr
-	.long LDIFF_SYM5092
+LDIFF_SYM5096=Lme_38d - wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_bool_object_intptr_intptr_intptr
+	.long LDIFF_SYM5096
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14
 	.align 3
-Lfde841_end:
+Lfde842_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -98563,56 +98637,56 @@ Lfde841_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_object_Nullable_1_CancellationToken_object_object_intptr_intptr_intptr
-	.quad Lme_38d
+	.quad Lme_38e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5093=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5093
+LDIFF_SYM5097=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5097
 	.byte 2,141,32,3
 	.asciz "params"
 
-LDIFF_SYM5094=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5094
+LDIFF_SYM5098=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5098
 	.byte 1,105,3
 	.asciz "exc"
 
-LDIFF_SYM5095=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5095
+LDIFF_SYM5099=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5099
 	.byte 2,141,40,3
 	.asciz "method"
 
-LDIFF_SYM5096=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5096
+LDIFF_SYM5100=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5100
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM5097=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5097
+LDIFF_SYM5101=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5101
 	.byte 3,141,216,0,11
 	.asciz "V_1"
 
-LDIFF_SYM5098=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5098
+LDIFF_SYM5102=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5102
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5099=Lfde842_end - Lfde842_start
-	.long LDIFF_SYM5099
-Lfde842_start:
+LDIFF_SYM5103=Lfde843_end - Lfde843_start
+	.long LDIFF_SYM5103
+Lfde843_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_object_Nullable_1_CancellationToken_object_object_intptr_intptr_intptr
 
-LDIFF_SYM5100=Lme_38d - wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_object_Nullable_1_CancellationToken_object_object_intptr_intptr_intptr
-	.long LDIFF_SYM5100
+LDIFF_SYM5104=Lme_38e - wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_object_Nullable_1_CancellationToken_object_object_intptr_intptr_intptr
+	.long LDIFF_SYM5104
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,151,20,68,153,19
 	.align 3
-Lfde842_end:
+Lfde843_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -98622,56 +98696,56 @@ Lfde842_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___object_Nullable_1_MaskType_object_intptr_intptr_intptr
-	.quad Lme_38e
+	.quad Lme_38f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5101=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5101
+LDIFF_SYM5105=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5105
 	.byte 2,141,32,3
 	.asciz "params"
 
-LDIFF_SYM5102=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5102
+LDIFF_SYM5106=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5106
 	.byte 1,105,3
 	.asciz "exc"
 
-LDIFF_SYM5103=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5103
+LDIFF_SYM5107=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5107
 	.byte 2,141,40,3
 	.asciz "method"
 
-LDIFF_SYM5104=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5104
+LDIFF_SYM5108=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5108
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM5105=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5105
+LDIFF_SYM5109=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5109
 	.byte 3,141,200,0,11
 	.asciz "V_1"
 
-LDIFF_SYM5106=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5106
+LDIFF_SYM5110=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5110
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5107=Lfde843_end - Lfde843_start
-	.long LDIFF_SYM5107
-Lfde843_start:
+LDIFF_SYM5111=Lfde844_end - Lfde844_start
+	.long LDIFF_SYM5111
+Lfde844_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___object_Nullable_1_MaskType_object_intptr_intptr_intptr
 
-LDIFF_SYM5108=Lme_38e - wrapper_runtime_invoke__Module_runtime_invoke_void__this___object_Nullable_1_MaskType_object_intptr_intptr_intptr
-	.long LDIFF_SYM5108
+LDIFF_SYM5112=Lme_38f - wrapper_runtime_invoke__Module_runtime_invoke_void__this___object_Nullable_1_MaskType_object_intptr_intptr_intptr
+	.long LDIFF_SYM5112
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151,16,68,153,15
 	.align 3
-Lfde843_end:
+Lfde844_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -98681,56 +98755,56 @@ Lfde843_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_object_byte_Nullable_1_MaskType_object_intptr_intptr_intptr
-	.quad Lme_38f
+	.quad Lme_390
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5109=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5109
+LDIFF_SYM5113=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5113
 	.byte 2,141,32,3
 	.asciz "params"
 
-LDIFF_SYM5110=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5110
+LDIFF_SYM5114=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5114
 	.byte 1,105,3
 	.asciz "exc"
 
-LDIFF_SYM5111=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5111
+LDIFF_SYM5115=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5115
 	.byte 2,141,40,3
 	.asciz "method"
 
-LDIFF_SYM5112=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5112
+LDIFF_SYM5116=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5116
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM5113=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5113
+LDIFF_SYM5117=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5117
 	.byte 3,141,200,0,11
 	.asciz "V_1"
 
-LDIFF_SYM5114=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5114
+LDIFF_SYM5118=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5118
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5115=Lfde844_end - Lfde844_start
-	.long LDIFF_SYM5115
-Lfde844_start:
+LDIFF_SYM5119=Lfde845_end - Lfde845_start
+	.long LDIFF_SYM5119
+Lfde845_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_object_byte_Nullable_1_MaskType_object_intptr_intptr_intptr
 
-LDIFF_SYM5116=Lme_38f - wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_object_byte_Nullable_1_MaskType_object_intptr_intptr_intptr
-	.long LDIFF_SYM5116
+LDIFF_SYM5120=Lme_390 - wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_object_byte_Nullable_1_MaskType_object_intptr_intptr_intptr
+	.long LDIFF_SYM5120
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,151,18,68,153,17
 	.align 3
-Lfde844_end:
+Lfde845_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -98740,56 +98814,56 @@ Lfde844_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_Nullable_1_CancellationToken_object_intptr_intptr_intptr
-	.quad Lme_390
+	.quad Lme_391
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5117=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5117
+LDIFF_SYM5121=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5121
 	.byte 2,141,32,3
 	.asciz "params"
 
-LDIFF_SYM5118=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5118
+LDIFF_SYM5122=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5122
 	.byte 1,105,3
 	.asciz "exc"
 
-LDIFF_SYM5119=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5119
+LDIFF_SYM5123=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5123
 	.byte 2,141,40,3
 	.asciz "method"
 
-LDIFF_SYM5120=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5120
+LDIFF_SYM5124=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5124
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM5121=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5121
+LDIFF_SYM5125=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5125
 	.byte 3,141,216,0,11
 	.asciz "V_1"
 
-LDIFF_SYM5122=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5122
+LDIFF_SYM5126=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5126
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5123=Lfde845_end - Lfde845_start
-	.long LDIFF_SYM5123
-Lfde845_start:
+LDIFF_SYM5127=Lfde846_end - Lfde846_start
+	.long LDIFF_SYM5127
+Lfde846_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_Nullable_1_CancellationToken_object_intptr_intptr_intptr
 
-LDIFF_SYM5124=Lme_390 - wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_Nullable_1_CancellationToken_object_intptr_intptr_intptr
-	.long LDIFF_SYM5124
+LDIFF_SYM5128=Lme_391 - wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_Nullable_1_CancellationToken_object_intptr_intptr_intptr
+	.long LDIFF_SYM5128
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,151,18,68,153,17
 	.align 3
-Lfde845_end:
+Lfde846_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -98799,56 +98873,56 @@ Lfde845_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_object_Nullable_1_CancellationToken_object_intptr_intptr_intptr
-	.quad Lme_391
+	.quad Lme_392
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5125=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5125
+LDIFF_SYM5129=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5129
 	.byte 2,141,32,3
 	.asciz "params"
 
-LDIFF_SYM5126=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5126
+LDIFF_SYM5130=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5130
 	.byte 1,105,3
 	.asciz "exc"
 
-LDIFF_SYM5127=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5127
+LDIFF_SYM5131=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5131
 	.byte 2,141,40,3
 	.asciz "method"
 
-LDIFF_SYM5128=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5128
+LDIFF_SYM5132=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5132
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM5129=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5129
+LDIFF_SYM5133=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5133
 	.byte 3,141,216,0,11
 	.asciz "V_1"
 
-LDIFF_SYM5130=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5130
+LDIFF_SYM5134=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5134
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5131=Lfde846_end - Lfde846_start
-	.long LDIFF_SYM5131
-Lfde846_start:
+LDIFF_SYM5135=Lfde847_end - Lfde847_start
+	.long LDIFF_SYM5135
+Lfde847_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_object_Nullable_1_CancellationToken_object_intptr_intptr_intptr
 
-LDIFF_SYM5132=Lme_391 - wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_object_Nullable_1_CancellationToken_object_intptr_intptr_intptr
-	.long LDIFF_SYM5132
+LDIFF_SYM5136=Lme_392 - wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_object_Nullable_1_CancellationToken_object_intptr_intptr_intptr
+	.long LDIFF_SYM5136
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,151,20,68,153,19
 	.align 3
-Lfde846_end:
+Lfde847_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -98858,56 +98932,56 @@ Lfde846_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_object_object_Nullable_1_CancellationToken_object_intptr_intptr_intptr
-	.quad Lme_392
+	.quad Lme_393
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5133=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5133
+LDIFF_SYM5137=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5137
 	.byte 2,141,32,3
 	.asciz "params"
 
-LDIFF_SYM5134=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5134
+LDIFF_SYM5138=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5138
 	.byte 1,105,3
 	.asciz "exc"
 
-LDIFF_SYM5135=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5135
+LDIFF_SYM5139=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5139
 	.byte 2,141,40,3
 	.asciz "method"
 
-LDIFF_SYM5136=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5136
+LDIFF_SYM5140=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5140
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM5137=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5137
+LDIFF_SYM5141=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5141
 	.byte 3,141,216,0,11
 	.asciz "V_1"
 
-LDIFF_SYM5138=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5138
+LDIFF_SYM5142=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5142
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5139=Lfde847_end - Lfde847_start
-	.long LDIFF_SYM5139
-Lfde847_start:
+LDIFF_SYM5143=Lfde848_end - Lfde848_start
+	.long LDIFF_SYM5143
+Lfde848_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_object_object_Nullable_1_CancellationToken_object_intptr_intptr_intptr
 
-LDIFF_SYM5140=Lme_392 - wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_object_object_Nullable_1_CancellationToken_object_intptr_intptr_intptr
-	.long LDIFF_SYM5140
+LDIFF_SYM5144=Lme_393 - wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_object_object_Nullable_1_CancellationToken_object_intptr_intptr_intptr
+	.long LDIFF_SYM5144
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,151,20,68,153,19
 	.align 3
-Lfde847_end:
+Lfde848_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -98917,56 +98991,56 @@ Lfde847_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_Nullable_1_DateTime_Nullable_1_CancellationToken_object_intptr_intptr_intptr
-	.quad Lme_393
+	.quad Lme_394
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5141=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5141
+LDIFF_SYM5145=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5145
 	.byte 2,141,32,3
 	.asciz "params"
 
-LDIFF_SYM5142=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5142
+LDIFF_SYM5146=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5146
 	.byte 1,105,3
 	.asciz "exc"
 
-LDIFF_SYM5143=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5143
+LDIFF_SYM5147=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5147
 	.byte 2,141,40,3
 	.asciz "method"
 
-LDIFF_SYM5144=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5144
+LDIFF_SYM5148=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5148
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM5145=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5145
+LDIFF_SYM5149=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5149
 	.byte 3,141,248,0,11
 	.asciz "V_1"
 
-LDIFF_SYM5146=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5146
+LDIFF_SYM5150=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5150
 	.byte 3,141,128,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5147=Lfde848_end - Lfde848_start
-	.long LDIFF_SYM5147
-Lfde848_start:
+LDIFF_SYM5151=Lfde849_end - Lfde849_start
+	.long LDIFF_SYM5151
+Lfde849_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_Nullable_1_DateTime_Nullable_1_CancellationToken_object_intptr_intptr_intptr
 
-LDIFF_SYM5148=Lme_393 - wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_Nullable_1_DateTime_Nullable_1_CancellationToken_object_intptr_intptr_intptr
-	.long LDIFF_SYM5148
+LDIFF_SYM5152=Lme_394 - wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_Nullable_1_DateTime_Nullable_1_CancellationToken_object_intptr_intptr_intptr
+	.long LDIFF_SYM5152
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,151,22,68,153,21
 	.align 3
-Lfde848_end:
+Lfde849_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -98976,56 +99050,56 @@ Lfde848_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_Nullable_1_TimeSpan_Nullable_1_CancellationToken_object_intptr_intptr_intptr
-	.quad Lme_394
+	.quad Lme_395
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5149=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5149
+LDIFF_SYM5153=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5153
 	.byte 2,141,32,3
 	.asciz "params"
 
-LDIFF_SYM5150=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5150
+LDIFF_SYM5154=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5154
 	.byte 1,105,3
 	.asciz "exc"
 
-LDIFF_SYM5151=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5151
+LDIFF_SYM5155=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5155
 	.byte 2,141,40,3
 	.asciz "method"
 
-LDIFF_SYM5152=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5152
+LDIFF_SYM5156=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5156
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM5153=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5153
+LDIFF_SYM5157=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5157
 	.byte 3,141,248,0,11
 	.asciz "V_1"
 
-LDIFF_SYM5154=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5154
+LDIFF_SYM5158=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5158
 	.byte 3,141,128,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5155=Lfde849_end - Lfde849_start
-	.long LDIFF_SYM5155
-Lfde849_start:
+LDIFF_SYM5159=Lfde850_end - Lfde850_start
+	.long LDIFF_SYM5159
+Lfde850_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_Nullable_1_TimeSpan_Nullable_1_CancellationToken_object_intptr_intptr_intptr
 
-LDIFF_SYM5156=Lme_394 - wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_Nullable_1_TimeSpan_Nullable_1_CancellationToken_object_intptr_intptr_intptr
-	.long LDIFF_SYM5156
+LDIFF_SYM5160=Lme_395 - wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_Nullable_1_TimeSpan_Nullable_1_CancellationToken_object_intptr_intptr_intptr
+	.long LDIFF_SYM5160
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,151,22,68,153,21
 	.align 3
-Lfde849_end:
+Lfde850_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -99035,56 +99109,56 @@ Lfde849_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_Nullable_1_CancellationToken_object_intptr_intptr_intptr
-	.quad Lme_395
+	.quad Lme_396
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5157=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5157
+LDIFF_SYM5161=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5161
 	.byte 2,141,32,3
 	.asciz "params"
 
-LDIFF_SYM5158=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5158
+LDIFF_SYM5162=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5162
 	.byte 1,105,3
 	.asciz "exc"
 
-LDIFF_SYM5159=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5159
+LDIFF_SYM5163=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5163
 	.byte 2,141,40,3
 	.asciz "method"
 
-LDIFF_SYM5160=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5160
+LDIFF_SYM5164=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5164
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM5161=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5161
+LDIFF_SYM5165=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5165
 	.byte 3,141,216,0,11
 	.asciz "V_1"
 
-LDIFF_SYM5162=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5162
+LDIFF_SYM5166=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5166
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5163=Lfde850_end - Lfde850_start
-	.long LDIFF_SYM5163
-Lfde850_start:
+LDIFF_SYM5167=Lfde851_end - Lfde851_start
+	.long LDIFF_SYM5167
+Lfde851_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_Nullable_1_CancellationToken_object_intptr_intptr_intptr
 
-LDIFF_SYM5164=Lme_395 - wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_Nullable_1_CancellationToken_object_intptr_intptr_intptr
-	.long LDIFF_SYM5164
+LDIFF_SYM5168=Lme_396 - wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_Nullable_1_CancellationToken_object_intptr_intptr_intptr
+	.long LDIFF_SYM5168
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,151,18,68,153,17
 	.align 3
-Lfde850_end:
+Lfde851_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -99094,56 +99168,56 @@ Lfde850_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_object_object_object_int_Nullable_1_CancellationToken_object_intptr_intptr_intptr
-	.quad Lme_396
+	.quad Lme_397
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5165=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5165
+LDIFF_SYM5169=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5169
 	.byte 2,141,32,3
 	.asciz "params"
 
-LDIFF_SYM5166=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5166
+LDIFF_SYM5170=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5170
 	.byte 1,105,3
 	.asciz "exc"
 
-LDIFF_SYM5167=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5167
+LDIFF_SYM5171=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5171
 	.byte 2,141,40,3
 	.asciz "method"
 
-LDIFF_SYM5168=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5168
+LDIFF_SYM5172=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5172
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM5169=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5169
+LDIFF_SYM5173=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5173
 	.byte 3,141,216,0,11
 	.asciz "V_1"
 
-LDIFF_SYM5170=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5170
+LDIFF_SYM5174=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5174
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5171=Lfde851_end - Lfde851_start
-	.long LDIFF_SYM5171
-Lfde851_start:
+LDIFF_SYM5175=Lfde852_end - Lfde852_start
+	.long LDIFF_SYM5175
+Lfde852_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_object_object_object_int_Nullable_1_CancellationToken_object_intptr_intptr_intptr
 
-LDIFF_SYM5172=Lme_396 - wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_object_object_object_int_Nullable_1_CancellationToken_object_intptr_intptr_intptr
-	.long LDIFF_SYM5172
+LDIFF_SYM5176=Lme_397 - wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_object_object_object_object_int_Nullable_1_CancellationToken_object_intptr_intptr_intptr
+	.long LDIFF_SYM5176
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,84,151,22,68,153,21
 	.align 3
-Lfde851_end:
+Lfde852_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -99153,56 +99227,56 @@ Lfde851_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_Nullable_1_TimeSpan_object_intptr_intptr_intptr
-	.quad Lme_397
+	.quad Lme_398
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5173=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5173
+LDIFF_SYM5177=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5177
 	.byte 2,141,32,3
 	.asciz "params"
 
-LDIFF_SYM5174=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5174
+LDIFF_SYM5178=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5178
 	.byte 1,105,3
 	.asciz "exc"
 
-LDIFF_SYM5175=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5175
+LDIFF_SYM5179=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5179
 	.byte 2,141,40,3
 	.asciz "method"
 
-LDIFF_SYM5176=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5176
+LDIFF_SYM5180=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5180
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM5177=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5177
+LDIFF_SYM5181=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5181
 	.byte 3,141,216,0,11
 	.asciz "V_1"
 
-LDIFF_SYM5178=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5178
+LDIFF_SYM5182=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5182
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5179=Lfde852_end - Lfde852_start
-	.long LDIFF_SYM5179
-Lfde852_start:
+LDIFF_SYM5183=Lfde853_end - Lfde853_start
+	.long LDIFF_SYM5183
+Lfde853_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_Nullable_1_TimeSpan_object_intptr_intptr_intptr
 
-LDIFF_SYM5180=Lme_397 - wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_Nullable_1_TimeSpan_object_intptr_intptr_intptr
-	.long LDIFF_SYM5180
+LDIFF_SYM5184=Lme_398 - wrapper_runtime_invoke__Module_runtime_invoke_object__this___object_Nullable_1_TimeSpan_object_intptr_intptr_intptr
+	.long LDIFF_SYM5184
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,151,18,68,153,17
 	.align 3
-Lfde852_end:
+Lfde853_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -99212,56 +99286,56 @@ Lfde852_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void_Nullable_1_int_object_intptr_intptr_intptr
-	.quad Lme_398
+	.quad Lme_399
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5181=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5181
+LDIFF_SYM5185=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5185
 	.byte 0,3
 	.asciz "params"
 
-LDIFF_SYM5182=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5182
+LDIFF_SYM5186=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5186
 	.byte 2,141,32,3
 	.asciz "exc"
 
-LDIFF_SYM5183=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5183
+LDIFF_SYM5187=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5187
 	.byte 2,141,40,3
 	.asciz "method"
 
-LDIFF_SYM5184=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5184
+LDIFF_SYM5188=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5188
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM5185=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5185
+LDIFF_SYM5189=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5189
 	.byte 3,141,200,0,11
 	.asciz "V_1"
 
-LDIFF_SYM5186=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5186
+LDIFF_SYM5190=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5190
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5187=Lfde853_end - Lfde853_start
-	.long LDIFF_SYM5187
-Lfde853_start:
+LDIFF_SYM5191=Lfde854_end - Lfde854_start
+	.long LDIFF_SYM5191
+Lfde854_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void_Nullable_1_int_object_intptr_intptr_intptr
 
-LDIFF_SYM5188=Lme_398 - wrapper_runtime_invoke__Module_runtime_invoke_void_Nullable_1_int_object_intptr_intptr_intptr
-	.long LDIFF_SYM5188
+LDIFF_SYM5192=Lme_399 - wrapper_runtime_invoke__Module_runtime_invoke_void_Nullable_1_int_object_intptr_intptr_intptr
+	.long LDIFF_SYM5192
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14
 	.align 3
-Lfde853_end:
+Lfde854_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -99271,56 +99345,56 @@ Lfde853_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_int_object_intptr_intptr_intptr
-	.quad Lme_399
+	.quad Lme_39a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5189=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5189
+LDIFF_SYM5193=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5193
 	.byte 2,141,24,3
 	.asciz "params"
 
-LDIFF_SYM5190=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5190
+LDIFF_SYM5194=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5194
 	.byte 2,141,32,3
 	.asciz "exc"
 
-LDIFF_SYM5191=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5191
+LDIFF_SYM5195=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5195
 	.byte 2,141,40,3
 	.asciz "method"
 
-LDIFF_SYM5192=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5192
+LDIFF_SYM5196=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5196
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM5193=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5193
+LDIFF_SYM5197=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5197
 	.byte 3,141,200,0,11
 	.asciz "V_1"
 
-LDIFF_SYM5194=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5194
+LDIFF_SYM5198=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5198
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5195=Lfde854_end - Lfde854_start
-	.long LDIFF_SYM5195
-Lfde854_start:
+LDIFF_SYM5199=Lfde855_end - Lfde855_start
+	.long LDIFF_SYM5199
+Lfde855_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_int_object_intptr_intptr_intptr
 
-LDIFF_SYM5196=Lme_399 - wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_int_object_intptr_intptr_intptr
-	.long LDIFF_SYM5196
+LDIFF_SYM5200=Lme_39a - wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_int_object_intptr_intptr_intptr
+	.long LDIFF_SYM5200
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14
 	.align 3
-Lfde854_end:
+Lfde855_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -99330,56 +99404,56 @@ Lfde854_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void_Nullable_1_bool_object_intptr_intptr_intptr
-	.quad Lme_39a
+	.quad Lme_39b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5197=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5197
+LDIFF_SYM5201=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5201
 	.byte 0,3
 	.asciz "params"
 
-LDIFF_SYM5198=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5198
+LDIFF_SYM5202=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5202
 	.byte 2,141,32,3
 	.asciz "exc"
 
-LDIFF_SYM5199=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5199
+LDIFF_SYM5203=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5203
 	.byte 2,141,40,3
 	.asciz "method"
 
-LDIFF_SYM5200=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5200
+LDIFF_SYM5204=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5204
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM5201=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5201
+LDIFF_SYM5205=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5205
 	.byte 3,141,200,0,11
 	.asciz "V_1"
 
-LDIFF_SYM5202=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5202
+LDIFF_SYM5206=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5206
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5203=Lfde855_end - Lfde855_start
-	.long LDIFF_SYM5203
-Lfde855_start:
+LDIFF_SYM5207=Lfde856_end - Lfde856_start
+	.long LDIFF_SYM5207
+Lfde856_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void_Nullable_1_bool_object_intptr_intptr_intptr
 
-LDIFF_SYM5204=Lme_39a - wrapper_runtime_invoke__Module_runtime_invoke_void_Nullable_1_bool_object_intptr_intptr_intptr
-	.long LDIFF_SYM5204
+LDIFF_SYM5208=Lme_39b - wrapper_runtime_invoke__Module_runtime_invoke_void_Nullable_1_bool_object_intptr_intptr_intptr
+	.long LDIFF_SYM5208
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14
 	.align 3
-Lfde855_end:
+Lfde856_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -99389,56 +99463,56 @@ Lfde855_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_TimeSpan_object_intptr_intptr_intptr
-	.quad Lme_39b
+	.quad Lme_39c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5205=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5205
+LDIFF_SYM5209=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5209
 	.byte 2,141,24,3
 	.asciz "params"
 
-LDIFF_SYM5206=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5206
+LDIFF_SYM5210=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5210
 	.byte 2,141,32,3
 	.asciz "exc"
 
-LDIFF_SYM5207=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5207
+LDIFF_SYM5211=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5211
 	.byte 2,141,40,3
 	.asciz "method"
 
-LDIFF_SYM5208=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5208
+LDIFF_SYM5212=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5212
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM5209=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5209
+LDIFF_SYM5213=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5213
 	.byte 3,141,216,0,11
 	.asciz "V_1"
 
-LDIFF_SYM5210=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5210
+LDIFF_SYM5214=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5214
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5211=Lfde856_end - Lfde856_start
-	.long LDIFF_SYM5211
-Lfde856_start:
+LDIFF_SYM5215=Lfde857_end - Lfde857_start
+	.long LDIFF_SYM5215
+Lfde857_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_TimeSpan_object_intptr_intptr_intptr
 
-LDIFF_SYM5212=Lme_39b - wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_TimeSpan_object_intptr_intptr_intptr
-	.long LDIFF_SYM5212
+LDIFF_SYM5216=Lme_39c - wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_TimeSpan_object_intptr_intptr_intptr
+	.long LDIFF_SYM5216
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151,16
 	.align 3
-Lfde856_end:
+Lfde857_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -99448,56 +99522,56 @@ Lfde856_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_Color_object_intptr_intptr_intptr
-	.quad Lme_39c
+	.quad Lme_39d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5213=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5213
+LDIFF_SYM5217=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5217
 	.byte 2,141,24,3
 	.asciz "params"
 
-LDIFF_SYM5214=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5214
+LDIFF_SYM5218=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5218
 	.byte 2,141,32,3
 	.asciz "exc"
 
-LDIFF_SYM5215=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5215
+LDIFF_SYM5219=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5219
 	.byte 2,141,40,3
 	.asciz "method"
 
-LDIFF_SYM5216=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5216
+LDIFF_SYM5220=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5220
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM5217=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5217
+LDIFF_SYM5221=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5221
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM5218=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5218
+LDIFF_SYM5222=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5222
 	.byte 3,141,192,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5219=Lfde857_end - Lfde857_start
-	.long LDIFF_SYM5219
-Lfde857_start:
+LDIFF_SYM5223=Lfde858_end - Lfde858_start
+	.long LDIFF_SYM5223
+Lfde858_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_Color_object_intptr_intptr_intptr
 
-LDIFF_SYM5220=Lme_39c - wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_Color_object_intptr_intptr_intptr
-	.long LDIFF_SYM5220
+LDIFF_SYM5224=Lme_39d - wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_Color_object_intptr_intptr_intptr
+	.long LDIFF_SYM5224
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,151,28
 	.align 3
-Lfde857_end:
+Lfde858_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -99507,56 +99581,56 @@ Lfde857_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void_Nullable_1_Color_object_intptr_intptr_intptr
-	.quad Lme_39d
+	.quad Lme_39e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5221=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5221
+LDIFF_SYM5225=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5225
 	.byte 0,3
 	.asciz "params"
 
-LDIFF_SYM5222=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5222
+LDIFF_SYM5226=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5226
 	.byte 2,141,32,3
 	.asciz "exc"
 
-LDIFF_SYM5223=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5223
+LDIFF_SYM5227=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5227
 	.byte 2,141,40,3
 	.asciz "method"
 
-LDIFF_SYM5224=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5224
+LDIFF_SYM5228=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5228
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM5225=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5225
+LDIFF_SYM5229=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5229
 	.byte 3,141,184,1,11
 	.asciz "V_1"
 
-LDIFF_SYM5226=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5226
+LDIFF_SYM5230=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5230
 	.byte 3,141,192,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5227=Lfde858_end - Lfde858_start
-	.long LDIFF_SYM5227
-Lfde858_start:
+LDIFF_SYM5231=Lfde859_end - Lfde859_start
+	.long LDIFF_SYM5231
+Lfde859_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void_Nullable_1_Color_object_intptr_intptr_intptr
 
-LDIFF_SYM5228=Lme_39d - wrapper_runtime_invoke__Module_runtime_invoke_void_Nullable_1_Color_object_intptr_intptr_intptr
-	.long LDIFF_SYM5228
+LDIFF_SYM5232=Lme_39e - wrapper_runtime_invoke__Module_runtime_invoke_void_Nullable_1_Color_object_intptr_intptr_intptr
+	.long LDIFF_SYM5232
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,152,28
 	.align 3
-Lfde858_end:
+Lfde859_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -99566,56 +99640,56 @@ Lfde858_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void_Nullable_1_ToastPosition_object_intptr_intptr_intptr
-	.quad Lme_39e
+	.quad Lme_39f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5229=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5229
+LDIFF_SYM5233=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5233
 	.byte 0,3
 	.asciz "params"
 
-LDIFF_SYM5230=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5230
+LDIFF_SYM5234=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5234
 	.byte 2,141,32,3
 	.asciz "exc"
 
-LDIFF_SYM5231=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5231
+LDIFF_SYM5235=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5235
 	.byte 2,141,40,3
 	.asciz "method"
 
-LDIFF_SYM5232=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5232
+LDIFF_SYM5236=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5236
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM5233=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5233
+LDIFF_SYM5237=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5237
 	.byte 3,141,200,0,11
 	.asciz "V_1"
 
-LDIFF_SYM5234=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5234
+LDIFF_SYM5238=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5238
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5235=Lfde859_end - Lfde859_start
-	.long LDIFF_SYM5235
-Lfde859_start:
+LDIFF_SYM5239=Lfde860_end - Lfde860_start
+	.long LDIFF_SYM5239
+Lfde860_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void_Nullable_1_ToastPosition_object_intptr_intptr_intptr
 
-LDIFF_SYM5236=Lme_39e - wrapper_runtime_invoke__Module_runtime_invoke_void_Nullable_1_ToastPosition_object_intptr_intptr_intptr
-	.long LDIFF_SYM5236
+LDIFF_SYM5240=Lme_39f - wrapper_runtime_invoke__Module_runtime_invoke_void_Nullable_1_ToastPosition_object_intptr_intptr_intptr
+	.long LDIFF_SYM5240
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14
 	.align 3
-Lfde859_end:
+Lfde860_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -99625,56 +99699,56 @@ Lfde859_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_ToastPosition_object_intptr_intptr_intptr
-	.quad Lme_39f
+	.quad Lme_3a0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5237=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5237
+LDIFF_SYM5241=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5241
 	.byte 2,141,24,3
 	.asciz "params"
 
-LDIFF_SYM5238=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5238
+LDIFF_SYM5242=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5242
 	.byte 2,141,32,3
 	.asciz "exc"
 
-LDIFF_SYM5239=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5239
+LDIFF_SYM5243=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5243
 	.byte 2,141,40,3
 	.asciz "method"
 
-LDIFF_SYM5240=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5240
+LDIFF_SYM5244=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5244
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM5241=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5241
+LDIFF_SYM5245=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5245
 	.byte 3,141,200,0,11
 	.asciz "V_1"
 
-LDIFF_SYM5242=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5242
+LDIFF_SYM5246=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5246
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5243=Lfde860_end - Lfde860_start
-	.long LDIFF_SYM5243
-Lfde860_start:
+LDIFF_SYM5247=Lfde861_end - Lfde861_start
+	.long LDIFF_SYM5247
+Lfde861_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_ToastPosition_object_intptr_intptr_intptr
 
-LDIFF_SYM5244=Lme_39f - wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_ToastPosition_object_intptr_intptr_intptr
-	.long LDIFF_SYM5244
+LDIFF_SYM5248=Lme_3a0 - wrapper_runtime_invoke__Module_runtime_invoke_void__this___Nullable_1_ToastPosition_object_intptr_intptr_intptr
+	.long LDIFF_SYM5248
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14
 	.align 3
-Lfde860_end:
+Lfde861_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -99684,56 +99758,56 @@ Lfde860_end:
 
 	.byte 0,0
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_object__this___Nullable_1_TimeSpan_object_intptr_intptr_intptr
-	.quad Lme_3a0
+	.quad Lme_3a1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5245=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5245
+LDIFF_SYM5249=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5249
 	.byte 2,141,24,3
 	.asciz "params"
 
-LDIFF_SYM5246=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5246
+LDIFF_SYM5250=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5250
 	.byte 2,141,32,3
 	.asciz "exc"
 
-LDIFF_SYM5247=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5247
+LDIFF_SYM5251=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5251
 	.byte 2,141,40,3
 	.asciz "method"
 
-LDIFF_SYM5248=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5248
+LDIFF_SYM5252=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5252
 	.byte 2,141,48,11
 	.asciz "V_0"
 
-LDIFF_SYM5249=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5249
+LDIFF_SYM5253=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5253
 	.byte 3,141,216,0,11
 	.asciz "V_1"
 
-LDIFF_SYM5250=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5250
+LDIFF_SYM5254=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5254
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5251=Lfde861_end - Lfde861_start
-	.long LDIFF_SYM5251
-Lfde861_start:
+LDIFF_SYM5255=Lfde862_end - Lfde862_start
+	.long LDIFF_SYM5255
+Lfde862_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_runtime_invoke__Module_runtime_invoke_object__this___Nullable_1_TimeSpan_object_intptr_intptr_intptr
 
-LDIFF_SYM5252=Lme_3a0 - wrapper_runtime_invoke__Module_runtime_invoke_object__this___Nullable_1_TimeSpan_object_intptr_intptr_intptr
-	.long LDIFF_SYM5252
+LDIFF_SYM5256=Lme_3a1 - wrapper_runtime_invoke__Module_runtime_invoke_object__this___Nullable_1_TimeSpan_object_intptr_intptr_intptr
+	.long LDIFF_SYM5256
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,151,16
 	.align 3
-Lfde861_end:
+Lfde862_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_275:
@@ -99742,74 +99816,74 @@ LTDIE_275:
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder`1"
 
 	.byte 40,16
-LDIFF_SYM5253=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM5253
+LDIFF_SYM5257=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM5257
 	.byte 2,35,0,6
 	.asciz "m_coreState"
 
-LDIFF_SYM5254=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5254
+LDIFF_SYM5258=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5258
 	.byte 2,35,16,6
 	.asciz "m_task"
 
-LDIFF_SYM5255=LTDIE_168_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5255
+LDIFF_SYM5259=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5259
 	.byte 2,35,32,0,7
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder`1"
 
-LDIFF_SYM5256=LTDIE_275 - Ldebug_info_start
-	.long LDIFF_SYM5256
+LDIFF_SYM5260=LTDIE_275 - Ldebug_info_start
+	.long LDIFF_SYM5260
 LTDIE_275_POINTER:
 
 	.byte 13
-LDIFF_SYM5257=LTDIE_275 - Ldebug_info_start
-	.long LDIFF_SYM5257
+LDIFF_SYM5261=LTDIE_275 - Ldebug_info_start
+	.long LDIFF_SYM5261
 LTDIE_275_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5258=LTDIE_275 - Ldebug_info_start
-	.long LDIFF_SYM5258
+LDIFF_SYM5262=LTDIE_275 - Ldebug_info_start
+	.long LDIFF_SYM5262
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<string>:Start<Acr.UserDialogs.AbstractUserDialogs/<ActionSheetAsync>d__10>"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_Start_Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_"
 
 	.byte 2,203,3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_Start_Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_
-	.quad Lme_3a1
+	.quad Lme_3a2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5259=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5259
+LDIFF_SYM5263=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5263
 	.byte 0,3
 	.asciz "stateMachine"
 
-LDIFF_SYM5260=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5260
+LDIFF_SYM5264=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5264
 	.byte 2,141,24,11
 	.asciz "ecs"
 
-LDIFF_SYM5261=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5261
+LDIFF_SYM5265=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5265
 	.byte 3,141,160,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5262=Lfde862_end - Lfde862_start
-	.long LDIFF_SYM5262
-Lfde862_start:
+LDIFF_SYM5266=Lfde863_end - Lfde863_start
+	.long LDIFF_SYM5266
+Lfde863_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_Start_Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_
 
-LDIFF_SYM5263=Lme_3a1 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_Start_Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_
-	.long LDIFF_SYM5263
+LDIFF_SYM5267=Lme_3a2 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_Start_Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_
+	.long LDIFF_SYM5267
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29
 	.align 3
-Lfde862_end:
+Lfde863_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_276:
@@ -99818,69 +99892,69 @@ LTDIE_276:
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder"
 
 	.byte 40,16
-LDIFF_SYM5264=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM5264
+LDIFF_SYM5268=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM5268
 	.byte 2,35,0,6
 	.asciz "m_builder"
 
-LDIFF_SYM5265=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5265
+LDIFF_SYM5269=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5269
 	.byte 2,35,0,0,7
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder"
 
-LDIFF_SYM5266=LTDIE_276 - Ldebug_info_start
-	.long LDIFF_SYM5266
+LDIFF_SYM5270=LTDIE_276 - Ldebug_info_start
+	.long LDIFF_SYM5270
 LTDIE_276_POINTER:
 
 	.byte 13
-LDIFF_SYM5267=LTDIE_276 - Ldebug_info_start
-	.long LDIFF_SYM5267
+LDIFF_SYM5271=LTDIE_276 - Ldebug_info_start
+	.long LDIFF_SYM5271
 LTDIE_276_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5268=LTDIE_276 - Ldebug_info_start
-	.long LDIFF_SYM5268
+LDIFF_SYM5272=LTDIE_276 - Ldebug_info_start
+	.long LDIFF_SYM5272
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<Acr.UserDialogs.AbstractUserDialogs/<AlertAsync>d__18>"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_"
 
 	.byte 2,176,2
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_
-	.quad Lme_3a2
+	.quad Lme_3a3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5269=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5269
+LDIFF_SYM5273=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5273
 	.byte 0,3
 	.asciz "stateMachine"
 
-LDIFF_SYM5270=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5270
+LDIFF_SYM5274=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5274
 	.byte 2,141,24,11
 	.asciz "ecs"
 
-LDIFF_SYM5271=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5271
+LDIFF_SYM5275=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5275
 	.byte 3,141,136,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5272=Lfde863_end - Lfde863_start
-	.long LDIFF_SYM5272
-Lfde863_start:
+LDIFF_SYM5276=Lfde864_end - Lfde864_start
+	.long LDIFF_SYM5276
+Lfde864_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_
 
-LDIFF_SYM5273=Lme_3a2 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_
-	.long LDIFF_SYM5273
+LDIFF_SYM5277=Lme_3a3 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_
+	.long LDIFF_SYM5277
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29
 	.align 3
-Lfde863_end:
+Lfde864_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_277:
@@ -99889,74 +99963,74 @@ LTDIE_277:
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder`1"
 
 	.byte 40,16
-LDIFF_SYM5274=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM5274
+LDIFF_SYM5278=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM5278
 	.byte 2,35,0,6
 	.asciz "m_coreState"
 
-LDIFF_SYM5275=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5275
+LDIFF_SYM5279=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5279
 	.byte 2,35,16,6
 	.asciz "m_task"
 
-LDIFF_SYM5276=LTDIE_178_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5276
+LDIFF_SYM5280=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5280
 	.byte 2,35,32,0,7
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder`1"
 
-LDIFF_SYM5277=LTDIE_277 - Ldebug_info_start
-	.long LDIFF_SYM5277
+LDIFF_SYM5281=LTDIE_277 - Ldebug_info_start
+	.long LDIFF_SYM5281
 LTDIE_277_POINTER:
 
 	.byte 13
-LDIFF_SYM5278=LTDIE_277 - Ldebug_info_start
-	.long LDIFF_SYM5278
+LDIFF_SYM5282=LTDIE_277 - Ldebug_info_start
+	.long LDIFF_SYM5282
 LTDIE_277_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5279=LTDIE_277 - Ldebug_info_start
-	.long LDIFF_SYM5279
+LDIFF_SYM5283=LTDIE_277 - Ldebug_info_start
+	.long LDIFF_SYM5283
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:Start<Acr.UserDialogs.AbstractUserDialogs/<ConfirmAsync>d__20>"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_Start_Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_"
 
 	.byte 2,203,3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_Start_Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_
-	.quad Lme_3a3
+	.quad Lme_3a4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5280=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5280
+LDIFF_SYM5284=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5284
 	.byte 0,3
 	.asciz "stateMachine"
 
-LDIFF_SYM5281=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5281
+LDIFF_SYM5285=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5285
 	.byte 2,141,24,11
 	.asciz "ecs"
 
-LDIFF_SYM5282=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5282
+LDIFF_SYM5286=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5286
 	.byte 3,141,136,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5283=Lfde864_end - Lfde864_start
-	.long LDIFF_SYM5283
-Lfde864_start:
+LDIFF_SYM5287=Lfde865_end - Lfde865_start
+	.long LDIFF_SYM5287
+Lfde865_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_Start_Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_
 
-LDIFF_SYM5284=Lme_3a3 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_Start_Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_
-	.long LDIFF_SYM5284
+LDIFF_SYM5288=Lme_3a4 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_Start_Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_
+	.long LDIFF_SYM5288
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29
 	.align 3
-Lfde864_end:
+Lfde865_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_278:
@@ -99965,74 +100039,74 @@ LTDIE_278:
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder`1"
 
 	.byte 40,16
-LDIFF_SYM5285=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM5285
+LDIFF_SYM5289=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM5289
 	.byte 2,35,0,6
 	.asciz "m_coreState"
 
-LDIFF_SYM5286=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5286
+LDIFF_SYM5290=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5290
 	.byte 2,35,16,6
 	.asciz "m_task"
 
-LDIFF_SYM5287=LTDIE_182_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5287
+LDIFF_SYM5291=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5291
 	.byte 2,35,32,0,7
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder`1"
 
-LDIFF_SYM5288=LTDIE_278 - Ldebug_info_start
-	.long LDIFF_SYM5288
+LDIFF_SYM5292=LTDIE_278 - Ldebug_info_start
+	.long LDIFF_SYM5292
 LTDIE_278_POINTER:
 
 	.byte 13
-LDIFF_SYM5289=LTDIE_278 - Ldebug_info_start
-	.long LDIFF_SYM5289
+LDIFF_SYM5293=LTDIE_278 - Ldebug_info_start
+	.long LDIFF_SYM5293
 LTDIE_278_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5290=LTDIE_278 - Ldebug_info_start
-	.long LDIFF_SYM5290
+LDIFF_SYM5294=LTDIE_278 - Ldebug_info_start
+	.long LDIFF_SYM5294
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Acr.UserDialogs.DatePromptResult>:Start<Acr.UserDialogs.AbstractUserDialogs/<DatePromptAsync>d__22>"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_DatePromptResult_Start_Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_"
 
 	.byte 2,203,3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_DatePromptResult_Start_Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_
-	.quad Lme_3a4
+	.quad Lme_3a5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5291=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5291
+LDIFF_SYM5295=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5295
 	.byte 0,3
 	.asciz "stateMachine"
 
-LDIFF_SYM5292=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5292
+LDIFF_SYM5296=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5296
 	.byte 2,141,24,11
 	.asciz "ecs"
 
-LDIFF_SYM5293=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5293
+LDIFF_SYM5297=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5297
 	.byte 3,141,136,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5294=Lfde865_end - Lfde865_start
-	.long LDIFF_SYM5294
-Lfde865_start:
+LDIFF_SYM5298=Lfde866_end - Lfde866_start
+	.long LDIFF_SYM5298
+Lfde866_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_DatePromptResult_Start_Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_
 
-LDIFF_SYM5295=Lme_3a4 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_DatePromptResult_Start_Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_
-	.long LDIFF_SYM5295
+LDIFF_SYM5299=Lme_3a5 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_DatePromptResult_Start_Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_
+	.long LDIFF_SYM5299
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29
 	.align 3
-Lfde865_end:
+Lfde866_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_279:
@@ -100041,74 +100115,74 @@ LTDIE_279:
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder`1"
 
 	.byte 40,16
-LDIFF_SYM5296=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM5296
+LDIFF_SYM5300=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM5300
 	.byte 2,35,0,6
 	.asciz "m_coreState"
 
-LDIFF_SYM5297=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5297
+LDIFF_SYM5301=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5301
 	.byte 2,35,16,6
 	.asciz "m_task"
 
-LDIFF_SYM5298=LTDIE_186_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5298
+LDIFF_SYM5302=LTDIE_186_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5302
 	.byte 2,35,32,0,7
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder`1"
 
-LDIFF_SYM5299=LTDIE_279 - Ldebug_info_start
-	.long LDIFF_SYM5299
+LDIFF_SYM5303=LTDIE_279 - Ldebug_info_start
+	.long LDIFF_SYM5303
 LTDIE_279_POINTER:
 
 	.byte 13
-LDIFF_SYM5300=LTDIE_279 - Ldebug_info_start
-	.long LDIFF_SYM5300
+LDIFF_SYM5304=LTDIE_279 - Ldebug_info_start
+	.long LDIFF_SYM5304
 LTDIE_279_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5301=LTDIE_279 - Ldebug_info_start
-	.long LDIFF_SYM5301
+LDIFF_SYM5305=LTDIE_279 - Ldebug_info_start
+	.long LDIFF_SYM5305
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Acr.UserDialogs.TimePromptResult>:Start<Acr.UserDialogs.AbstractUserDialogs/<TimePromptAsync>d__24>"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_TimePromptResult_Start_Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_"
 
 	.byte 2,203,3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_TimePromptResult_Start_Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_
-	.quad Lme_3a5
+	.quad Lme_3a6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5302=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5302
+LDIFF_SYM5306=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5306
 	.byte 0,3
 	.asciz "stateMachine"
 
-LDIFF_SYM5303=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5303
+LDIFF_SYM5307=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5307
 	.byte 2,141,24,11
 	.asciz "ecs"
 
-LDIFF_SYM5304=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5304
+LDIFF_SYM5308=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5308
 	.byte 3,141,136,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5305=Lfde866_end - Lfde866_start
-	.long LDIFF_SYM5305
-Lfde866_start:
+LDIFF_SYM5309=Lfde867_end - Lfde867_start
+	.long LDIFF_SYM5309
+Lfde867_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_TimePromptResult_Start_Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_
 
-LDIFF_SYM5306=Lme_3a5 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_TimePromptResult_Start_Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_
-	.long LDIFF_SYM5306
+LDIFF_SYM5310=Lme_3a6 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_TimePromptResult_Start_Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_
+	.long LDIFF_SYM5310
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29
 	.align 3
-Lfde866_end:
+Lfde867_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_280:
@@ -100117,74 +100191,74 @@ LTDIE_280:
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder`1"
 
 	.byte 40,16
-LDIFF_SYM5307=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM5307
+LDIFF_SYM5311=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM5311
 	.byte 2,35,0,6
 	.asciz "m_coreState"
 
-LDIFF_SYM5308=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5308
+LDIFF_SYM5312=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5312
 	.byte 2,35,16,6
 	.asciz "m_task"
 
-LDIFF_SYM5309=LTDIE_190_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5309
+LDIFF_SYM5313=LTDIE_190_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5313
 	.byte 2,35,32,0,7
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder`1"
 
-LDIFF_SYM5310=LTDIE_280 - Ldebug_info_start
-	.long LDIFF_SYM5310
+LDIFF_SYM5314=LTDIE_280 - Ldebug_info_start
+	.long LDIFF_SYM5314
 LTDIE_280_POINTER:
 
 	.byte 13
-LDIFF_SYM5311=LTDIE_280 - Ldebug_info_start
-	.long LDIFF_SYM5311
+LDIFF_SYM5315=LTDIE_280 - Ldebug_info_start
+	.long LDIFF_SYM5315
 LTDIE_280_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5312=LTDIE_280 - Ldebug_info_start
-	.long LDIFF_SYM5312
+LDIFF_SYM5316=LTDIE_280 - Ldebug_info_start
+	.long LDIFF_SYM5316
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Acr.UserDialogs.LoginResult>:Start<Acr.UserDialogs.AbstractUserDialogs/<LoginAsync>d__26>"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_LoginResult_Start_Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_"
 
 	.byte 2,203,3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_LoginResult_Start_Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_
-	.quad Lme_3a6
+	.quad Lme_3a7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5313=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5313
+LDIFF_SYM5317=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5317
 	.byte 0,3
 	.asciz "stateMachine"
 
-LDIFF_SYM5314=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5314
+LDIFF_SYM5318=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5318
 	.byte 2,141,24,11
 	.asciz "ecs"
 
-LDIFF_SYM5315=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5315
+LDIFF_SYM5319=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5319
 	.byte 3,141,136,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5316=Lfde867_end - Lfde867_start
-	.long LDIFF_SYM5316
-Lfde867_start:
+LDIFF_SYM5320=Lfde868_end - Lfde868_start
+	.long LDIFF_SYM5320
+Lfde868_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_LoginResult_Start_Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_
 
-LDIFF_SYM5317=Lme_3a6 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_LoginResult_Start_Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_
-	.long LDIFF_SYM5317
+LDIFF_SYM5321=Lme_3a7 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_LoginResult_Start_Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_
+	.long LDIFF_SYM5321
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29
 	.align 3
-Lfde867_end:
+Lfde868_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_281:
@@ -100193,74 +100267,74 @@ LTDIE_281:
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder`1"
 
 	.byte 40,16
-LDIFF_SYM5318=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM5318
+LDIFF_SYM5322=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM5322
 	.byte 2,35,0,6
 	.asciz "m_coreState"
 
-LDIFF_SYM5319=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5319
+LDIFF_SYM5323=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5323
 	.byte 2,35,16,6
 	.asciz "m_task"
 
-LDIFF_SYM5320=LTDIE_194_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5320
+LDIFF_SYM5324=LTDIE_194_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5324
 	.byte 2,35,32,0,7
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder`1"
 
-LDIFF_SYM5321=LTDIE_281 - Ldebug_info_start
-	.long LDIFF_SYM5321
+LDIFF_SYM5325=LTDIE_281 - Ldebug_info_start
+	.long LDIFF_SYM5325
 LTDIE_281_POINTER:
 
 	.byte 13
-LDIFF_SYM5322=LTDIE_281 - Ldebug_info_start
-	.long LDIFF_SYM5322
+LDIFF_SYM5326=LTDIE_281 - Ldebug_info_start
+	.long LDIFF_SYM5326
 LTDIE_281_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5323=LTDIE_281 - Ldebug_info_start
-	.long LDIFF_SYM5323
+LDIFF_SYM5327=LTDIE_281 - Ldebug_info_start
+	.long LDIFF_SYM5327
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Acr.UserDialogs.PromptResult>:Start<Acr.UserDialogs.AbstractUserDialogs/<PromptAsync>d__28>"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_PromptResult_Start_Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_"
 
 	.byte 2,203,3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_PromptResult_Start_Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_
-	.quad Lme_3a7
+	.quad Lme_3a8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5324=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5324
+LDIFF_SYM5328=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5328
 	.byte 0,3
 	.asciz "stateMachine"
 
-LDIFF_SYM5325=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5325
+LDIFF_SYM5329=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5329
 	.byte 2,141,24,11
 	.asciz "ecs"
 
-LDIFF_SYM5326=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5326
+LDIFF_SYM5330=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5330
 	.byte 3,141,136,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5327=Lfde868_end - Lfde868_start
-	.long LDIFF_SYM5327
-Lfde868_start:
+LDIFF_SYM5331=Lfde869_end - Lfde869_start
+	.long LDIFF_SYM5331
+Lfde869_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_PromptResult_Start_Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_
 
-LDIFF_SYM5328=Lme_3a7 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_PromptResult_Start_Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_
-	.long LDIFF_SYM5328
+LDIFF_SYM5332=Lme_3a8 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_PromptResult_Start_Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_
+	.long LDIFF_SYM5332
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29
 	.align 3
-Lfde868_end:
+Lfde869_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_283:
@@ -100269,92 +100343,92 @@ LTDIE_283:
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM5329=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM5329
+LDIFF_SYM5333=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM5333
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM5330=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5330
+LDIFF_SYM5334=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5334
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM5331=LTDIE_283 - Ldebug_info_start
-	.long LDIFF_SYM5331
+LDIFF_SYM5335=LTDIE_283 - Ldebug_info_start
+	.long LDIFF_SYM5335
 LTDIE_283_POINTER:
 
 	.byte 13
-LDIFF_SYM5332=LTDIE_283 - Ldebug_info_start
-	.long LDIFF_SYM5332
+LDIFF_SYM5336=LTDIE_283 - Ldebug_info_start
+	.long LDIFF_SYM5336
 LTDIE_283_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5333=LTDIE_283 - Ldebug_info_start
-	.long LDIFF_SYM5333
+LDIFF_SYM5337=LTDIE_283 - Ldebug_info_start
+	.long LDIFF_SYM5337
 LTDIE_282:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_TaskCompletionSource`1"
 
 	.byte 24,16
-LDIFF_SYM5334=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM5334
+LDIFF_SYM5338=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM5338
 	.byte 2,35,0,6
 	.asciz "_task"
 
-LDIFF_SYM5335=LTDIE_283_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5335
+LDIFF_SYM5339=LTDIE_283_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5339
 	.byte 2,35,16,0,7
 	.asciz "System_Threading_Tasks_TaskCompletionSource`1"
 
-LDIFF_SYM5336=LTDIE_282 - Ldebug_info_start
-	.long LDIFF_SYM5336
+LDIFF_SYM5340=LTDIE_282 - Ldebug_info_start
+	.long LDIFF_SYM5340
 LTDIE_282_POINTER:
 
 	.byte 13
-LDIFF_SYM5337=LTDIE_282 - Ldebug_info_start
-	.long LDIFF_SYM5337
+LDIFF_SYM5341=LTDIE_282 - Ldebug_info_start
+	.long LDIFF_SYM5341
 LTDIE_282_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5338=LTDIE_282 - Ldebug_info_start
-	.long LDIFF_SYM5338
+LDIFF_SYM5342=LTDIE_282 - Ldebug_info_start
+	.long LDIFF_SYM5342
 	.byte 2
 	.asciz "System.Threading.Tasks.TaskCompletionSource`1<TResult_REF>:TrySetCanceled"
 	.asciz "System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_TrySetCanceled"
 
 	.byte 6,190,2
 	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_TrySetCanceled
-	.quad Lme_3a8
+	.quad Lme_3a9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5339=LTDIE_282_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5339
+LDIFF_SYM5343=LTDIE_282_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5343
 	.byte 2,141,16,11
 	.asciz "V_0"
 
-LDIFF_SYM5340=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5340
+LDIFF_SYM5344=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5344
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5341=Lfde869_end - Lfde869_start
-	.long LDIFF_SYM5341
-Lfde869_start:
+LDIFF_SYM5345=Lfde870_end - Lfde870_start
+	.long LDIFF_SYM5345
+Lfde870_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_TrySetCanceled
 
-LDIFF_SYM5342=Lme_3a8 - System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_TrySetCanceled
-	.long LDIFF_SYM5342
+LDIFF_SYM5346=Lme_3a9 - System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_TrySetCanceled
+	.long LDIFF_SYM5346
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde869_end:
+Lfde870_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_284:
@@ -100363,79 +100437,79 @@ LTDIE_284:
 	.asciz "System_Runtime_CompilerServices_AsyncVoidMethodBuilder"
 
 	.byte 48,16
-LDIFF_SYM5343=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM5343
+LDIFF_SYM5347=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM5347
 	.byte 2,35,0,6
 	.asciz "m_synchronizationContext"
 
-LDIFF_SYM5344=LTDIE_71_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5344
+LDIFF_SYM5348=LTDIE_71_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5348
 	.byte 2,35,0,6
 	.asciz "m_coreState"
 
-LDIFF_SYM5345=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5345
+LDIFF_SYM5349=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5349
 	.byte 2,35,8,6
 	.asciz "m_task"
 
-LDIFF_SYM5346=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5346
+LDIFF_SYM5350=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5350
 	.byte 2,35,24,0,7
 	.asciz "System_Runtime_CompilerServices_AsyncVoidMethodBuilder"
 
-LDIFF_SYM5347=LTDIE_284 - Ldebug_info_start
-	.long LDIFF_SYM5347
+LDIFF_SYM5351=LTDIE_284 - Ldebug_info_start
+	.long LDIFF_SYM5351
 LTDIE_284_POINTER:
 
 	.byte 13
-LDIFF_SYM5348=LTDIE_284 - Ldebug_info_start
-	.long LDIFF_SYM5348
+LDIFF_SYM5352=LTDIE_284 - Ldebug_info_start
+	.long LDIFF_SYM5352
 LTDIE_284_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5349=LTDIE_284 - Ldebug_info_start
-	.long LDIFF_SYM5349
+LDIFF_SYM5353=LTDIE_284 - Ldebug_info_start
+	.long LDIFF_SYM5353
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncVoidMethodBuilder:Start<TStateMachine_GSHAREDVT>"
 	.asciz "System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSHAREDVT_TStateMachine_GSHAREDVT_"
 
 	.byte 2,72
 	.quad System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSHAREDVT_TStateMachine_GSHAREDVT_
-	.quad Lme_3a9
+	.quad Lme_3aa
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5350=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5350
+LDIFF_SYM5354=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5354
 	.byte 2,141,40,3
 	.asciz "stateMachine"
 
-LDIFF_SYM5351=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5351
+LDIFF_SYM5355=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5355
 	.byte 2,141,48,11
 	.asciz "ecs"
 
-LDIFF_SYM5352=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5352
+LDIFF_SYM5356=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5356
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5353=Lfde870_end - Lfde870_start
-	.long LDIFF_SYM5353
-Lfde870_start:
+LDIFF_SYM5357=Lfde871_end - Lfde871_start
+	.long LDIFF_SYM5357
+Lfde871_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSHAREDVT_TStateMachine_GSHAREDVT_
 
-LDIFF_SYM5354=Lme_3a9 - System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSHAREDVT_TStateMachine_GSHAREDVT_
-	.long LDIFF_SYM5354
+LDIFF_SYM5358=Lme_3aa - System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSHAREDVT_TStateMachine_GSHAREDVT_
+	.long LDIFF_SYM5358
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,151,18,152,17,68,153,16
 	.align 3
-Lfde870_end:
+Lfde871_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_285:
@@ -100444,117 +100518,117 @@ LTDIE_285:
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
 	.byte 24,16
-LDIFF_SYM5355=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM5355
+LDIFF_SYM5359=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM5359
 	.byte 2,35,0,6
 	.asciz "m_task"
 
-LDIFF_SYM5356=LTDIE_168_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5356
+LDIFF_SYM5360=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5360
 	.byte 2,35,16,0,7
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
-LDIFF_SYM5357=LTDIE_285 - Ldebug_info_start
-	.long LDIFF_SYM5357
+LDIFF_SYM5361=LTDIE_285 - Ldebug_info_start
+	.long LDIFF_SYM5361
 LTDIE_285_POINTER:
 
 	.byte 13
-LDIFF_SYM5358=LTDIE_285 - Ldebug_info_start
-	.long LDIFF_SYM5358
+LDIFF_SYM5362=LTDIE_285 - Ldebug_info_start
+	.long LDIFF_SYM5362
 LTDIE_285_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5359=LTDIE_285 - Ldebug_info_start
-	.long LDIFF_SYM5359
+LDIFF_SYM5363=LTDIE_285 - Ldebug_info_start
+	.long LDIFF_SYM5363
 LTDIE_286:
 
 	.byte 5
 	.asciz "_MoveNextRunner"
 
 	.byte 32,16
-LDIFF_SYM5360=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM5360
+LDIFF_SYM5364=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM5364
 	.byte 2,35,0,6
 	.asciz "m_context"
 
-LDIFF_SYM5361=LTDIE_70_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5361
+LDIFF_SYM5365=LTDIE_70_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5365
 	.byte 2,35,16,6
 	.asciz "m_stateMachine"
 
-LDIFF_SYM5362=LTDIE_171_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5362
+LDIFF_SYM5366=LTDIE_171_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5366
 	.byte 2,35,24,0,7
 	.asciz "_MoveNextRunner"
 
-LDIFF_SYM5363=LTDIE_286 - Ldebug_info_start
-	.long LDIFF_SYM5363
+LDIFF_SYM5367=LTDIE_286 - Ldebug_info_start
+	.long LDIFF_SYM5367
 LTDIE_286_POINTER:
 
 	.byte 13
-LDIFF_SYM5364=LTDIE_286 - Ldebug_info_start
-	.long LDIFF_SYM5364
+LDIFF_SYM5368=LTDIE_286 - Ldebug_info_start
+	.long LDIFF_SYM5368
 LTDIE_286_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5365=LTDIE_286 - Ldebug_info_start
-	.long LDIFF_SYM5365
+LDIFF_SYM5369=LTDIE_286 - Ldebug_info_start
+	.long LDIFF_SYM5369
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<string>:AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<string>,_Acr.UserDialogs.AbstractUserDialogs/<ActionSheetAsync>d__10>"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_System_Runtime_CompilerServices_TaskAwaiter_1_string__Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_"
 
 	.byte 2,158,4
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_System_Runtime_CompilerServices_TaskAwaiter_1_string__Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_
-	.quad Lme_3aa
+	.quad Lme_3ab
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5366=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5366
+LDIFF_SYM5370=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5370
 	.byte 1,104,3
 	.asciz "awaiter"
 
-LDIFF_SYM5367=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5367
+LDIFF_SYM5371=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5371
 	.byte 2,141,40,3
 	.asciz "stateMachine"
 
-LDIFF_SYM5368=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5368
+LDIFF_SYM5372=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5372
 	.byte 2,141,48,11
 	.asciz "runnerToInitialize"
 
-LDIFF_SYM5369=LTDIE_286_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5369
+LDIFF_SYM5373=LTDIE_286_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5373
 	.byte 3,141,184,1,11
 	.asciz "continuation"
 
-LDIFF_SYM5370=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5370
+LDIFF_SYM5374=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5374
 	.byte 1,103,11
 	.asciz "builtTask"
 
-LDIFF_SYM5371=LTDIE_168_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5371
+LDIFF_SYM5375=LTDIE_168_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5375
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5372=Lfde871_end - Lfde871_start
-	.long LDIFF_SYM5372
-Lfde871_start:
+LDIFF_SYM5376=Lfde872_end - Lfde872_start
+	.long LDIFF_SYM5376
+Lfde872_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_System_Runtime_CompilerServices_TaskAwaiter_1_string__Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_
 
-LDIFF_SYM5373=Lme_3aa - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_System_Runtime_CompilerServices_TaskAwaiter_1_string__Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_
-	.long LDIFF_SYM5373
+LDIFF_SYM5377=Lme_3ab - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_string_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_string_Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_System_Runtime_CompilerServices_TaskAwaiter_1_string__Acr_UserDialogs_AbstractUserDialogs__ActionSheetAsyncd__10_
+	.long LDIFF_SYM5377
 	.long 0
 	.byte 12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,150,30,151,29,68,152,28
 	.align 3
-Lfde871_end:
+Lfde872_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_287:
@@ -100563,69 +100637,69 @@ LTDIE_287:
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
 	.byte 24,16
-LDIFF_SYM5374=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM5374
+LDIFF_SYM5378=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM5378
 	.byte 2,35,0,6
 	.asciz "m_task"
 
-LDIFF_SYM5375=LTDIE_174_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5375
+LDIFF_SYM5379=LTDIE_174_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5379
 	.byte 2,35,16,0,7
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
-LDIFF_SYM5376=LTDIE_287 - Ldebug_info_start
-	.long LDIFF_SYM5376
+LDIFF_SYM5380=LTDIE_287 - Ldebug_info_start
+	.long LDIFF_SYM5380
 LTDIE_287_POINTER:
 
 	.byte 13
-LDIFF_SYM5377=LTDIE_287 - Ldebug_info_start
-	.long LDIFF_SYM5377
+LDIFF_SYM5381=LTDIE_287 - Ldebug_info_start
+	.long LDIFF_SYM5381
 LTDIE_287_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5378=LTDIE_287 - Ldebug_info_start
-	.long LDIFF_SYM5378
+LDIFF_SYM5382=LTDIE_287 - Ldebug_info_start
+	.long LDIFF_SYM5382
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder:AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<object>,_Acr.UserDialogs.AbstractUserDialogs/<AlertAsync>d__18>"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_object_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_System_Runtime_CompilerServices_TaskAwaiter_1_object__Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_"
 
 	.byte 2,232,2
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_object_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_System_Runtime_CompilerServices_TaskAwaiter_1_object__Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_
-	.quad Lme_3ab
+	.quad Lme_3ac
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5379=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5379
+LDIFF_SYM5383=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5383
 	.byte 2,141,16,3
 	.asciz "awaiter"
 
-LDIFF_SYM5380=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5380
+LDIFF_SYM5384=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5384
 	.byte 2,141,24,3
 	.asciz "stateMachine"
 
-LDIFF_SYM5381=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5381
+LDIFF_SYM5385=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5385
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5382=Lfde872_end - Lfde872_start
-	.long LDIFF_SYM5382
-Lfde872_start:
+LDIFF_SYM5386=Lfde873_end - Lfde873_start
+	.long LDIFF_SYM5386
+Lfde873_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_object_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_System_Runtime_CompilerServices_TaskAwaiter_1_object__Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_
 
-LDIFF_SYM5383=Lme_3ab - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_object_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_System_Runtime_CompilerServices_TaskAwaiter_1_object__Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_
-	.long LDIFF_SYM5383
+LDIFF_SYM5387=Lme_3ac - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_object_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_System_Runtime_CompilerServices_TaskAwaiter_1_object__Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_
+	.long LDIFF_SYM5387
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde872_end:
+Lfde873_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_288:
@@ -100634,84 +100708,84 @@ LTDIE_288:
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
 	.byte 24,16
-LDIFF_SYM5384=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM5384
+LDIFF_SYM5388=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM5388
 	.byte 2,35,0,6
 	.asciz "m_task"
 
-LDIFF_SYM5385=LTDIE_178_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5385
+LDIFF_SYM5389=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5389
 	.byte 2,35,16,0,7
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
-LDIFF_SYM5386=LTDIE_288 - Ldebug_info_start
-	.long LDIFF_SYM5386
+LDIFF_SYM5390=LTDIE_288 - Ldebug_info_start
+	.long LDIFF_SYM5390
 LTDIE_288_POINTER:
 
 	.byte 13
-LDIFF_SYM5387=LTDIE_288 - Ldebug_info_start
-	.long LDIFF_SYM5387
+LDIFF_SYM5391=LTDIE_288 - Ldebug_info_start
+	.long LDIFF_SYM5391
 LTDIE_288_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5388=LTDIE_288 - Ldebug_info_start
-	.long LDIFF_SYM5388
+LDIFF_SYM5392=LTDIE_288 - Ldebug_info_start
+	.long LDIFF_SYM5392
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<bool>:AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<bool>,_Acr.UserDialogs.AbstractUserDialogs/<ConfirmAsync>d__20>"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_System_Runtime_CompilerServices_TaskAwaiter_1_bool__Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_"
 
 	.byte 2,158,4
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_System_Runtime_CompilerServices_TaskAwaiter_1_bool__Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_
-	.quad Lme_3ac
+	.quad Lme_3ad
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5389=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5389
+LDIFF_SYM5393=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5393
 	.byte 1,104,3
 	.asciz "awaiter"
 
-LDIFF_SYM5390=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5390
+LDIFF_SYM5394=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5394
 	.byte 2,141,40,3
 	.asciz "stateMachine"
 
-LDIFF_SYM5391=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5391
+LDIFF_SYM5395=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5395
 	.byte 2,141,48,11
 	.asciz "runnerToInitialize"
 
-LDIFF_SYM5392=LTDIE_286_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5392
+LDIFF_SYM5396=LTDIE_286_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5396
 	.byte 3,141,160,1,11
 	.asciz "continuation"
 
-LDIFF_SYM5393=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5393
+LDIFF_SYM5397=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5397
 	.byte 1,103,11
 	.asciz "builtTask"
 
-LDIFF_SYM5394=LTDIE_178_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5394
+LDIFF_SYM5398=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5398
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5395=Lfde873_end - Lfde873_start
-	.long LDIFF_SYM5395
-Lfde873_start:
+LDIFF_SYM5399=Lfde874_end - Lfde874_start
+	.long LDIFF_SYM5399
+Lfde874_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_System_Runtime_CompilerServices_TaskAwaiter_1_bool__Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_
 
-LDIFF_SYM5396=Lme_3ac - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_System_Runtime_CompilerServices_TaskAwaiter_1_bool__Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_
-	.long LDIFF_SYM5396
+LDIFF_SYM5400=Lme_3ad - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_bool_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_System_Runtime_CompilerServices_TaskAwaiter_1_bool__Acr_UserDialogs_AbstractUserDialogs__ConfirmAsyncd__20_
+	.long LDIFF_SYM5400
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,150,26,151,25,68,152,24
 	.align 3
-Lfde873_end:
+Lfde874_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_289:
@@ -100720,84 +100794,84 @@ LTDIE_289:
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
 	.byte 24,16
-LDIFF_SYM5397=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM5397
+LDIFF_SYM5401=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM5401
 	.byte 2,35,0,6
 	.asciz "m_task"
 
-LDIFF_SYM5398=LTDIE_182_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5398
+LDIFF_SYM5402=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5402
 	.byte 2,35,16,0,7
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
-LDIFF_SYM5399=LTDIE_289 - Ldebug_info_start
-	.long LDIFF_SYM5399
+LDIFF_SYM5403=LTDIE_289 - Ldebug_info_start
+	.long LDIFF_SYM5403
 LTDIE_289_POINTER:
 
 	.byte 13
-LDIFF_SYM5400=LTDIE_289 - Ldebug_info_start
-	.long LDIFF_SYM5400
+LDIFF_SYM5404=LTDIE_289 - Ldebug_info_start
+	.long LDIFF_SYM5404
 LTDIE_289_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5401=LTDIE_289 - Ldebug_info_start
-	.long LDIFF_SYM5401
+LDIFF_SYM5405=LTDIE_289 - Ldebug_info_start
+	.long LDIFF_SYM5405
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Acr.UserDialogs.DatePromptResult>:AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<Acr.UserDialogs.DatePromptResult>,_Acr.UserDialogs.AbstractUserDialogs/<DatePromptAsync>d__22>"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_DatePromptResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_DatePromptResult_Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_DatePromptResult__Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_"
 
 	.byte 2,158,4
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_DatePromptResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_DatePromptResult_Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_DatePromptResult__Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_
-	.quad Lme_3ad
+	.quad Lme_3ae
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5402=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5402
+LDIFF_SYM5406=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5406
 	.byte 1,104,3
 	.asciz "awaiter"
 
-LDIFF_SYM5403=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5403
+LDIFF_SYM5407=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5407
 	.byte 2,141,40,3
 	.asciz "stateMachine"
 
-LDIFF_SYM5404=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5404
+LDIFF_SYM5408=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5408
 	.byte 2,141,48,11
 	.asciz "runnerToInitialize"
 
-LDIFF_SYM5405=LTDIE_286_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5405
+LDIFF_SYM5409=LTDIE_286_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5409
 	.byte 3,141,160,1,11
 	.asciz "continuation"
 
-LDIFF_SYM5406=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5406
+LDIFF_SYM5410=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5410
 	.byte 1,103,11
 	.asciz "builtTask"
 
-LDIFF_SYM5407=LTDIE_182_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5407
+LDIFF_SYM5411=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5411
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5408=Lfde874_end - Lfde874_start
-	.long LDIFF_SYM5408
-Lfde874_start:
+LDIFF_SYM5412=Lfde875_end - Lfde875_start
+	.long LDIFF_SYM5412
+Lfde875_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_DatePromptResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_DatePromptResult_Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_DatePromptResult__Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_
 
-LDIFF_SYM5409=Lme_3ad - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_DatePromptResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_DatePromptResult_Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_DatePromptResult__Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_
-	.long LDIFF_SYM5409
+LDIFF_SYM5413=Lme_3ae - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_DatePromptResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_DatePromptResult_Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_DatePromptResult__Acr_UserDialogs_AbstractUserDialogs__DatePromptAsyncd__22_
+	.long LDIFF_SYM5413
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,150,26,151,25,68,152,24
 	.align 3
-Lfde874_end:
+Lfde875_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_290:
@@ -100806,84 +100880,84 @@ LTDIE_290:
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
 	.byte 24,16
-LDIFF_SYM5410=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM5410
+LDIFF_SYM5414=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM5414
 	.byte 2,35,0,6
 	.asciz "m_task"
 
-LDIFF_SYM5411=LTDIE_186_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5411
+LDIFF_SYM5415=LTDIE_186_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5415
 	.byte 2,35,16,0,7
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
-LDIFF_SYM5412=LTDIE_290 - Ldebug_info_start
-	.long LDIFF_SYM5412
+LDIFF_SYM5416=LTDIE_290 - Ldebug_info_start
+	.long LDIFF_SYM5416
 LTDIE_290_POINTER:
 
 	.byte 13
-LDIFF_SYM5413=LTDIE_290 - Ldebug_info_start
-	.long LDIFF_SYM5413
+LDIFF_SYM5417=LTDIE_290 - Ldebug_info_start
+	.long LDIFF_SYM5417
 LTDIE_290_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5414=LTDIE_290 - Ldebug_info_start
-	.long LDIFF_SYM5414
+LDIFF_SYM5418=LTDIE_290 - Ldebug_info_start
+	.long LDIFF_SYM5418
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Acr.UserDialogs.TimePromptResult>:AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<Acr.UserDialogs.TimePromptResult>,_Acr.UserDialogs.AbstractUserDialogs/<TimePromptAsync>d__24>"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_TimePromptResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_TimePromptResult_Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_TimePromptResult__Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_"
 
 	.byte 2,158,4
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_TimePromptResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_TimePromptResult_Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_TimePromptResult__Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_
-	.quad Lme_3ae
+	.quad Lme_3af
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5415=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5415
+LDIFF_SYM5419=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5419
 	.byte 1,104,3
 	.asciz "awaiter"
 
-LDIFF_SYM5416=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5416
+LDIFF_SYM5420=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5420
 	.byte 2,141,40,3
 	.asciz "stateMachine"
 
-LDIFF_SYM5417=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5417
+LDIFF_SYM5421=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5421
 	.byte 2,141,48,11
 	.asciz "runnerToInitialize"
 
-LDIFF_SYM5418=LTDIE_286_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5418
+LDIFF_SYM5422=LTDIE_286_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5422
 	.byte 3,141,160,1,11
 	.asciz "continuation"
 
-LDIFF_SYM5419=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5419
+LDIFF_SYM5423=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5423
 	.byte 1,103,11
 	.asciz "builtTask"
 
-LDIFF_SYM5420=LTDIE_186_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5420
+LDIFF_SYM5424=LTDIE_186_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5424
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5421=Lfde875_end - Lfde875_start
-	.long LDIFF_SYM5421
-Lfde875_start:
+LDIFF_SYM5425=Lfde876_end - Lfde876_start
+	.long LDIFF_SYM5425
+Lfde876_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_TimePromptResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_TimePromptResult_Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_TimePromptResult__Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_
 
-LDIFF_SYM5422=Lme_3ae - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_TimePromptResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_TimePromptResult_Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_TimePromptResult__Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_
-	.long LDIFF_SYM5422
+LDIFF_SYM5426=Lme_3af - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_TimePromptResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_TimePromptResult_Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_TimePromptResult__Acr_UserDialogs_AbstractUserDialogs__TimePromptAsyncd__24_
+	.long LDIFF_SYM5426
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,150,26,151,25,68,152,24
 	.align 3
-Lfde875_end:
+Lfde876_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_291:
@@ -100892,84 +100966,84 @@ LTDIE_291:
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
 	.byte 24,16
-LDIFF_SYM5423=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM5423
+LDIFF_SYM5427=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM5427
 	.byte 2,35,0,6
 	.asciz "m_task"
 
-LDIFF_SYM5424=LTDIE_190_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5424
+LDIFF_SYM5428=LTDIE_190_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5428
 	.byte 2,35,16,0,7
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
-LDIFF_SYM5425=LTDIE_291 - Ldebug_info_start
-	.long LDIFF_SYM5425
+LDIFF_SYM5429=LTDIE_291 - Ldebug_info_start
+	.long LDIFF_SYM5429
 LTDIE_291_POINTER:
 
 	.byte 13
-LDIFF_SYM5426=LTDIE_291 - Ldebug_info_start
-	.long LDIFF_SYM5426
+LDIFF_SYM5430=LTDIE_291 - Ldebug_info_start
+	.long LDIFF_SYM5430
 LTDIE_291_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5427=LTDIE_291 - Ldebug_info_start
-	.long LDIFF_SYM5427
+LDIFF_SYM5431=LTDIE_291 - Ldebug_info_start
+	.long LDIFF_SYM5431
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Acr.UserDialogs.LoginResult>:AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<Acr.UserDialogs.LoginResult>,_Acr.UserDialogs.AbstractUserDialogs/<LoginAsync>d__26>"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_LoginResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_LoginResult_Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_LoginResult__Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_"
 
 	.byte 2,158,4
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_LoginResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_LoginResult_Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_LoginResult__Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_
-	.quad Lme_3af
+	.quad Lme_3b0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5428=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5428
+LDIFF_SYM5432=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5432
 	.byte 1,104,3
 	.asciz "awaiter"
 
-LDIFF_SYM5429=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5429
+LDIFF_SYM5433=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5433
 	.byte 2,141,40,3
 	.asciz "stateMachine"
 
-LDIFF_SYM5430=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5430
+LDIFF_SYM5434=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5434
 	.byte 2,141,48,11
 	.asciz "runnerToInitialize"
 
-LDIFF_SYM5431=LTDIE_286_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5431
+LDIFF_SYM5435=LTDIE_286_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5435
 	.byte 3,141,160,1,11
 	.asciz "continuation"
 
-LDIFF_SYM5432=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5432
+LDIFF_SYM5436=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5436
 	.byte 1,103,11
 	.asciz "builtTask"
 
-LDIFF_SYM5433=LTDIE_190_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5433
+LDIFF_SYM5437=LTDIE_190_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5437
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5434=Lfde876_end - Lfde876_start
-	.long LDIFF_SYM5434
-Lfde876_start:
+LDIFF_SYM5438=Lfde877_end - Lfde877_start
+	.long LDIFF_SYM5438
+Lfde877_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_LoginResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_LoginResult_Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_LoginResult__Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_
 
-LDIFF_SYM5435=Lme_3af - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_LoginResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_LoginResult_Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_LoginResult__Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_
-	.long LDIFF_SYM5435
+LDIFF_SYM5439=Lme_3b0 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_LoginResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_LoginResult_Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_LoginResult__Acr_UserDialogs_AbstractUserDialogs__LoginAsyncd__26_
+	.long LDIFF_SYM5439
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,150,26,151,25,68,152,24
 	.align 3
-Lfde876_end:
+Lfde877_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_292:
@@ -100978,84 +101052,84 @@ LTDIE_292:
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
 	.byte 24,16
-LDIFF_SYM5436=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM5436
+LDIFF_SYM5440=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM5440
 	.byte 2,35,0,6
 	.asciz "m_task"
 
-LDIFF_SYM5437=LTDIE_194_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5437
+LDIFF_SYM5441=LTDIE_194_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5441
 	.byte 2,35,16,0,7
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
-LDIFF_SYM5438=LTDIE_292 - Ldebug_info_start
-	.long LDIFF_SYM5438
+LDIFF_SYM5442=LTDIE_292 - Ldebug_info_start
+	.long LDIFF_SYM5442
 LTDIE_292_POINTER:
 
 	.byte 13
-LDIFF_SYM5439=LTDIE_292 - Ldebug_info_start
-	.long LDIFF_SYM5439
+LDIFF_SYM5443=LTDIE_292 - Ldebug_info_start
+	.long LDIFF_SYM5443
 LTDIE_292_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5440=LTDIE_292 - Ldebug_info_start
-	.long LDIFF_SYM5440
+LDIFF_SYM5444=LTDIE_292 - Ldebug_info_start
+	.long LDIFF_SYM5444
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Acr.UserDialogs.PromptResult>:AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<Acr.UserDialogs.PromptResult>,_Acr.UserDialogs.AbstractUserDialogs/<PromptAsync>d__28>"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_PromptResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_PromptResult_Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_PromptResult__Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_"
 
 	.byte 2,158,4
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_PromptResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_PromptResult_Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_PromptResult__Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_
-	.quad Lme_3b0
+	.quad Lme_3b1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5441=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5441
+LDIFF_SYM5445=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5445
 	.byte 1,104,3
 	.asciz "awaiter"
 
-LDIFF_SYM5442=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5442
+LDIFF_SYM5446=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5446
 	.byte 2,141,40,3
 	.asciz "stateMachine"
 
-LDIFF_SYM5443=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5443
+LDIFF_SYM5447=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5447
 	.byte 2,141,48,11
 	.asciz "runnerToInitialize"
 
-LDIFF_SYM5444=LTDIE_286_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5444
+LDIFF_SYM5448=LTDIE_286_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5448
 	.byte 3,141,160,1,11
 	.asciz "continuation"
 
-LDIFF_SYM5445=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5445
+LDIFF_SYM5449=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5449
 	.byte 1,103,11
 	.asciz "builtTask"
 
-LDIFF_SYM5446=LTDIE_194_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5446
+LDIFF_SYM5450=LTDIE_194_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5450
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5447=Lfde877_end - Lfde877_start
-	.long LDIFF_SYM5447
-Lfde877_start:
+LDIFF_SYM5451=Lfde878_end - Lfde878_start
+	.long LDIFF_SYM5451
+Lfde878_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_PromptResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_PromptResult_Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_PromptResult__Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_
 
-LDIFF_SYM5448=Lme_3b0 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_PromptResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_PromptResult_Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_PromptResult__Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_
-	.long LDIFF_SYM5448
+LDIFF_SYM5452=Lme_3b1 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_Acr_UserDialogs_PromptResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_PromptResult_Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_System_Runtime_CompilerServices_TaskAwaiter_1_Acr_UserDialogs_PromptResult__Acr_UserDialogs_AbstractUserDialogs__PromptAsyncd__28_
+	.long LDIFF_SYM5452
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,150,26,151,25,68,152,24
 	.align 3
-Lfde877_end:
+Lfde878_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -101065,73 +101139,34 @@ Lfde877_end:
 
 	.byte 2,161,1
 	.quad System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_GSHAREDVT_TStateMachine_GSHAREDVT_TAwaiter_GSHAREDVT__TStateMachine_GSHAREDVT_
-	.quad Lme_3b1
+	.quad Lme_3b2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5449=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5449
+LDIFF_SYM5453=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5453
 	.byte 1,104,3
 	.asciz "awaiter"
 
-LDIFF_SYM5450=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5450
+LDIFF_SYM5454=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5454
 	.byte 3,141,192,0,3
 	.asciz "stateMachine"
 
-LDIFF_SYM5451=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5451
+LDIFF_SYM5455=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5455
 	.byte 1,106,11
 	.asciz "runnerToInitialize"
 
-LDIFF_SYM5452=LTDIE_286_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5452
+LDIFF_SYM5456=LTDIE_286_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5456
 	.byte 3,141,208,0,11
 	.asciz "continuation"
 
-LDIFF_SYM5453=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5453
-	.byte 1,101,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM5454=Lfde878_end - Lfde878_start
-	.long LDIFF_SYM5454
-Lfde878_start:
-
-	.long 0
-	.align 3
-	.quad System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_GSHAREDVT_TStateMachine_GSHAREDVT_TAwaiter_GSHAREDVT__TStateMachine_GSHAREDVT_
-
-LDIFF_SYM5455=Lme_3b1 - System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_GSHAREDVT_TStateMachine_GSHAREDVT_TAwaiter_GSHAREDVT__TStateMachine_GSHAREDVT_
-	.long LDIFF_SYM5455
-	.long 0
-	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,148,18,149,17,68,150,16,151,15,68,152,14,68,154,13
-	.align 3
-Lfde878_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Runtime.CompilerServices.AsyncTaskCache:CreateCacheableTask<TResult_BOOL>"
-	.asciz "System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_TResult_BOOL_TResult_BOOL"
-
-	.byte 2,198,6
-	.quad System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_TResult_BOOL_TResult_BOOL
-	.quad Lme_3b2
-
-	.byte 2,118,16,3
-	.asciz "result"
-
-LDIFF_SYM5456=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5456
-	.byte 2,141,16,11
-	.asciz "V_0"
-
-LDIFF_SYM5457=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM5457=LTDIE_28_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM5457
-	.byte 0,0
+	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -101141,14 +101176,53 @@ Lfde879_start:
 
 	.long 0
 	.align 3
+	.quad System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_GSHAREDVT_TStateMachine_GSHAREDVT_TAwaiter_GSHAREDVT__TStateMachine_GSHAREDVT_
+
+LDIFF_SYM5459=Lme_3b2 - System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TAwaiter_GSHAREDVT_TStateMachine_GSHAREDVT_TAwaiter_GSHAREDVT__TStateMachine_GSHAREDVT_
+	.long LDIFF_SYM5459
+	.long 0
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,148,18,149,17,68,150,16,151,15,68,152,14,68,154,13
+	.align 3
+Lfde879_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.AsyncTaskCache:CreateCacheableTask<TResult_BOOL>"
+	.asciz "System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_TResult_BOOL_TResult_BOOL"
+
+	.byte 2,198,6
+	.quad System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_TResult_BOOL_TResult_BOOL
+	.quad Lme_3b3
+
+	.byte 2,118,16,3
+	.asciz "result"
+
+LDIFF_SYM5460=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5460
+	.byte 2,141,16,11
+	.asciz "V_0"
+
+LDIFF_SYM5461=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5461
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM5462=Lfde880_end - Lfde880_start
+	.long LDIFF_SYM5462
+Lfde880_start:
+
+	.long 0
+	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_TResult_BOOL_TResult_BOOL
 
-LDIFF_SYM5459=Lme_3b2 - System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_TResult_BOOL_TResult_BOOL
-	.long LDIFF_SYM5459
+LDIFF_SYM5463=Lme_3b3 - System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_TResult_BOOL_TResult_BOOL
+	.long LDIFF_SYM5463
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde879_end:
+Lfde880_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_293:
@@ -101157,97 +101231,97 @@ LTDIE_293:
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable`1"
 
 	.byte 32,16
-LDIFF_SYM5460=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM5460
+LDIFF_SYM5464=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM5464
 	.byte 2,35,0,6
 	.asciz "m_configuredTaskAwaiter"
 
-LDIFF_SYM5461=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5461
+LDIFF_SYM5465=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5465
 	.byte 2,35,16,0,7
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable`1"
 
-LDIFF_SYM5462=LTDIE_293 - Ldebug_info_start
-	.long LDIFF_SYM5462
+LDIFF_SYM5466=LTDIE_293 - Ldebug_info_start
+	.long LDIFF_SYM5466
 LTDIE_293_POINTER:
 
 	.byte 13
-LDIFF_SYM5463=LTDIE_293 - Ldebug_info_start
-	.long LDIFF_SYM5463
+LDIFF_SYM5467=LTDIE_293 - Ldebug_info_start
+	.long LDIFF_SYM5467
 LTDIE_293_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5464=LTDIE_293 - Ldebug_info_start
-	.long LDIFF_SYM5464
+LDIFF_SYM5468=LTDIE_293 - Ldebug_info_start
+	.long LDIFF_SYM5468
 LTDIE_294:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM5465=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM5465
+LDIFF_SYM5469=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM5469
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM5466=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5466
+LDIFF_SYM5470=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5470
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM5467=LTDIE_294 - Ldebug_info_start
-	.long LDIFF_SYM5467
+LDIFF_SYM5471=LTDIE_294 - Ldebug_info_start
+	.long LDIFF_SYM5471
 LTDIE_294_POINTER:
 
 	.byte 13
-LDIFF_SYM5468=LTDIE_294 - Ldebug_info_start
-	.long LDIFF_SYM5468
+LDIFF_SYM5472=LTDIE_294 - Ldebug_info_start
+	.long LDIFF_SYM5472
 LTDIE_294_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5469=LTDIE_294 - Ldebug_info_start
-	.long LDIFF_SYM5469
+LDIFF_SYM5473=LTDIE_294 - Ldebug_info_start
+	.long LDIFF_SYM5473
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<TResult_BOOL>:.ctor"
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL_bool"
 
 	.byte 7,161,3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL_bool
-	.quad Lme_3b3
+	.quad Lme_3b4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5470=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5470
+LDIFF_SYM5474=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5474
 	.byte 2,141,16,3
 	.asciz "task"
 
-LDIFF_SYM5471=LTDIE_294_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5471
+LDIFF_SYM5475=LTDIE_294_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5475
 	.byte 2,141,24,3
 	.asciz "continueOnCapturedContext"
 
-LDIFF_SYM5472=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM5472
+LDIFF_SYM5476=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM5476
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5473=Lfde880_end - Lfde880_start
-	.long LDIFF_SYM5473
-Lfde880_start:
+LDIFF_SYM5477=Lfde881_end - Lfde881_start
+	.long LDIFF_SYM5477
+Lfde881_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL_bool
 
-LDIFF_SYM5474=Lme_3b3 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL_bool
-	.long LDIFF_SYM5474
+LDIFF_SYM5478=Lme_3b4 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL_bool
+	.long LDIFF_SYM5478
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde880_end:
+Lfde881_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_296:
@@ -101256,117 +101330,117 @@ LTDIE_296:
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM5475=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM5475
+LDIFF_SYM5479=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM5479
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM5476=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5476
+LDIFF_SYM5480=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5480
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM5477=LTDIE_296 - Ldebug_info_start
-	.long LDIFF_SYM5477
+LDIFF_SYM5481=LTDIE_296 - Ldebug_info_start
+	.long LDIFF_SYM5481
 LTDIE_296_POINTER:
 
 	.byte 13
-LDIFF_SYM5478=LTDIE_296 - Ldebug_info_start
-	.long LDIFF_SYM5478
+LDIFF_SYM5482=LTDIE_296 - Ldebug_info_start
+	.long LDIFF_SYM5482
 LTDIE_296_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5479=LTDIE_296 - Ldebug_info_start
-	.long LDIFF_SYM5479
+LDIFF_SYM5483=LTDIE_296 - Ldebug_info_start
+	.long LDIFF_SYM5483
 LTDIE_295:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask`1"
 
 	.byte 80,16
-LDIFF_SYM5480=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM5480
+LDIFF_SYM5484=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM5484
 	.byte 2,35,0,6
 	.asciz "m_antecedent"
 
-LDIFF_SYM5481=LTDIE_296_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5481
+LDIFF_SYM5485=LTDIE_296_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5485
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask`1"
 
-LDIFF_SYM5482=LTDIE_295 - Ldebug_info_start
-	.long LDIFF_SYM5482
+LDIFF_SYM5486=LTDIE_295 - Ldebug_info_start
+	.long LDIFF_SYM5486
 LTDIE_295_POINTER:
 
 	.byte 13
-LDIFF_SYM5483=LTDIE_295 - Ldebug_info_start
-	.long LDIFF_SYM5483
+LDIFF_SYM5487=LTDIE_295 - Ldebug_info_start
+	.long LDIFF_SYM5487
 LTDIE_295_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5484=LTDIE_295 - Ldebug_info_start
-	.long LDIFF_SYM5484
+LDIFF_SYM5488=LTDIE_295 - Ldebug_info_start
+	.long LDIFF_SYM5488
 	.byte 2
 	.asciz "System.Threading.Tasks.ContinuationTaskFromResultTask`1<TAntecedentResult_BOOL>:.ctor"
 	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask_1_TAntecedentResult_BOOL__ctor_System_Threading_Tasks_Task_1_TAntecedentResult_BOOL_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions"
 
 	.byte 8,130,1
 	.quad System_Threading_Tasks_ContinuationTaskFromResultTask_1_TAntecedentResult_BOOL__ctor_System_Threading_Tasks_Task_1_TAntecedentResult_BOOL_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
-	.quad Lme_3b4
+	.quad Lme_3b5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5485=LTDIE_295_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5485
+LDIFF_SYM5489=LTDIE_295_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5489
 	.byte 2,141,32,3
 	.asciz "antecedent"
 
-LDIFF_SYM5486=LTDIE_296_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5486
+LDIFF_SYM5490=LTDIE_296_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5490
 	.byte 2,141,40,3
 	.asciz "action"
 
-LDIFF_SYM5487=LTDIE_8_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5487
+LDIFF_SYM5491=LTDIE_8_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5491
 	.byte 2,141,48,3
 	.asciz "state"
 
-LDIFF_SYM5488=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5488
+LDIFF_SYM5492=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5492
 	.byte 1,104,3
 	.asciz "creationOptions"
 
-LDIFF_SYM5489=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM5489
+LDIFF_SYM5493=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM5493
 	.byte 2,141,56,3
 	.asciz "internalOptions"
 
-LDIFF_SYM5490=LTDIE_232 - Ldebug_info_start
-	.long LDIFF_SYM5490
+LDIFF_SYM5494=LTDIE_232 - Ldebug_info_start
+	.long LDIFF_SYM5494
 	.byte 3,141,192,0,11
 	.asciz "V_0"
 
-LDIFF_SYM5491=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5491
+LDIFF_SYM5495=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5495
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5492=Lfde881_end - Lfde881_start
-	.long LDIFF_SYM5492
-Lfde881_start:
+LDIFF_SYM5496=Lfde882_end - Lfde882_start
+	.long LDIFF_SYM5496
+Lfde882_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_ContinuationTaskFromResultTask_1_TAntecedentResult_BOOL__ctor_System_Threading_Tasks_Task_1_TAntecedentResult_BOOL_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
 
-LDIFF_SYM5493=Lme_3b4 - System_Threading_Tasks_ContinuationTaskFromResultTask_1_TAntecedentResult_BOOL__ctor_System_Threading_Tasks_Task_1_TAntecedentResult_BOOL_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
-	.long LDIFF_SYM5493
+LDIFF_SYM5497=Lme_3b5 - System_Threading_Tasks_ContinuationTaskFromResultTask_1_TAntecedentResult_BOOL__ctor_System_Threading_Tasks_Task_1_TAntecedentResult_BOOL_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
+	.long LDIFF_SYM5497
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11
 	.align 3
-Lfde881_end:
+Lfde882_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_298:
@@ -101375,120 +101449,120 @@ LTDIE_298:
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM5494=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM5494
+LDIFF_SYM5498=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM5498
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM5495=LTDIE_298 - Ldebug_info_start
-	.long LDIFF_SYM5495
+LDIFF_SYM5499=LTDIE_298 - Ldebug_info_start
+	.long LDIFF_SYM5499
 LTDIE_298_POINTER:
 
 	.byte 13
-LDIFF_SYM5496=LTDIE_298 - Ldebug_info_start
-	.long LDIFF_SYM5496
+LDIFF_SYM5500=LTDIE_298 - Ldebug_info_start
+	.long LDIFF_SYM5500
 LTDIE_298_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5497=LTDIE_298 - Ldebug_info_start
-	.long LDIFF_SYM5497
+LDIFF_SYM5501=LTDIE_298 - Ldebug_info_start
+	.long LDIFF_SYM5501
 LTDIE_299:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM5498=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM5498
+LDIFF_SYM5502=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM5502
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM5499=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5499
+LDIFF_SYM5503=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5503
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM5500=LTDIE_299 - Ldebug_info_start
-	.long LDIFF_SYM5500
+LDIFF_SYM5504=LTDIE_299 - Ldebug_info_start
+	.long LDIFF_SYM5504
 LTDIE_299_POINTER:
 
 	.byte 13
-LDIFF_SYM5501=LTDIE_299 - Ldebug_info_start
-	.long LDIFF_SYM5501
+LDIFF_SYM5505=LTDIE_299 - Ldebug_info_start
+	.long LDIFF_SYM5505
 LTDIE_299_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5502=LTDIE_299 - Ldebug_info_start
-	.long LDIFF_SYM5502
+LDIFF_SYM5506=LTDIE_299 - Ldebug_info_start
+	.long LDIFF_SYM5506
 LTDIE_297:
 
 	.byte 5
 	.asciz "_<>c__DisplayClass35_0"
 
 	.byte 40,16
-LDIFF_SYM5503=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM5503
+LDIFF_SYM5507=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM5507
 	.byte 2,35,0,6
 	.asciz "endFunction"
 
-LDIFF_SYM5504=LTDIE_298_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5504
+LDIFF_SYM5508=LTDIE_298_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5508
 	.byte 2,35,16,6
 	.asciz "endAction"
 
-LDIFF_SYM5505=LTDIE_220_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5505
+LDIFF_SYM5509=LTDIE_220_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5509
 	.byte 2,35,24,6
 	.asciz "promise"
 
-LDIFF_SYM5506=LTDIE_299_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5506
+LDIFF_SYM5510=LTDIE_299_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5510
 	.byte 2,35,32,0,7
 	.asciz "_<>c__DisplayClass35_0"
 
-LDIFF_SYM5507=LTDIE_297 - Ldebug_info_start
-	.long LDIFF_SYM5507
+LDIFF_SYM5511=LTDIE_297 - Ldebug_info_start
+	.long LDIFF_SYM5511
 LTDIE_297_POINTER:
 
 	.byte 13
-LDIFF_SYM5508=LTDIE_297 - Ldebug_info_start
-	.long LDIFF_SYM5508
+LDIFF_SYM5512=LTDIE_297 - Ldebug_info_start
+	.long LDIFF_SYM5512
 LTDIE_297_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5509=LTDIE_297 - Ldebug_info_start
-	.long LDIFF_SYM5509
+LDIFF_SYM5513=LTDIE_297 - Ldebug_info_start
+	.long LDIFF_SYM5513
 	.byte 2
 	.asciz "System.Threading.Tasks.TaskFactory`1/<>c__DisplayClass35_0<TResult_BOOL>:.ctor"
 	.asciz "System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_TResult_BOOL__ctor"
 
 	.byte 0,0
 	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_TResult_BOOL__ctor
-	.quad Lme_3b5
+	.quad Lme_3b6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5510=LTDIE_297_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5510
+LDIFF_SYM5514=LTDIE_297_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5514
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5511=Lfde882_end - Lfde882_start
-	.long LDIFF_SYM5511
-Lfde882_start:
+LDIFF_SYM5515=Lfde883_end - Lfde883_start
+	.long LDIFF_SYM5515
+Lfde883_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_TResult_BOOL__ctor
 
-LDIFF_SYM5512=Lme_3b5 - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_TResult_BOOL__ctor
-	.long LDIFF_SYM5512
+LDIFF_SYM5516=Lme_3b6 - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_TResult_BOOL__ctor
+	.long LDIFF_SYM5516
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde882_end:
+Lfde883_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_300:
@@ -101497,89 +101571,50 @@ LTDIE_300:
 	.asciz "_InternalEnumerator`1"
 
 	.byte 32,16
-LDIFF_SYM5513=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM5513
+LDIFF_SYM5517=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM5517
 	.byte 2,35,0,6
 	.asciz "array"
 
-LDIFF_SYM5514=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5514
+LDIFF_SYM5518=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5518
 	.byte 2,35,16,6
 	.asciz "idx"
 
-LDIFF_SYM5515=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5515
+LDIFF_SYM5519=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5519
 	.byte 2,35,24,0,7
 	.asciz "_InternalEnumerator`1"
 
-LDIFF_SYM5516=LTDIE_300 - Ldebug_info_start
-	.long LDIFF_SYM5516
+LDIFF_SYM5520=LTDIE_300 - Ldebug_info_start
+	.long LDIFF_SYM5520
 LTDIE_300_POINTER:
 
 	.byte 13
-LDIFF_SYM5517=LTDIE_300 - Ldebug_info_start
-	.long LDIFF_SYM5517
+LDIFF_SYM5521=LTDIE_300 - Ldebug_info_start
+	.long LDIFF_SYM5521
 LTDIE_300_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5518=LTDIE_300 - Ldebug_info_start
-	.long LDIFF_SYM5518
+LDIFF_SYM5522=LTDIE_300 - Ldebug_info_start
+	.long LDIFF_SYM5522
 	.byte 2
 	.asciz "System.Array/InternalEnumerator`1<T_REF>:.ctor"
 	.asciz "System_Array_InternalEnumerator_1_T_REF__ctor_System_Array"
 
 	.byte 5,217,1
 	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.quad Lme_3b6
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM5519=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5519
-	.byte 2,141,16,3
-	.asciz "array"
-
-LDIFF_SYM5520=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5520
-	.byte 2,141,24,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM5521=Lfde883_end - Lfde883_start
-	.long LDIFF_SYM5521
-Lfde883_start:
-
-	.long 0
-	.align 3
-	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-
-LDIFF_SYM5522=Lme_3b6 - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.long LDIFF_SYM5522
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde883_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Threading.Tasks.TaskCompletionSource`1<TResult_REF>:TrySetCanceled"
-	.asciz "System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_TrySetCanceled_System_Threading_CancellationToken"
-
-	.byte 6,196,2
-	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_TrySetCanceled_System_Threading_CancellationToken
 	.quad Lme_3b7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5523=LTDIE_282_REFERENCE - Ldebug_info_start
+LDIFF_SYM5523=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM5523
 	.byte 2,141,16,3
-	.asciz "cancellationToken"
+	.asciz "array"
 
-LDIFF_SYM5524=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM5524=LTDIE_212_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM5524
 	.byte 2,141,24,0
 
@@ -101591,14 +101626,53 @@ Lfde884_start:
 
 	.long 0
 	.align 3
+	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+
+LDIFF_SYM5526=Lme_3b7 - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+	.long LDIFF_SYM5526
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde884_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Threading.Tasks.TaskCompletionSource`1<TResult_REF>:TrySetCanceled"
+	.asciz "System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_TrySetCanceled_System_Threading_CancellationToken"
+
+	.byte 6,196,2
+	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_TrySetCanceled_System_Threading_CancellationToken
+	.quad Lme_3b8
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM5527=LTDIE_282_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5527
+	.byte 2,141,16,3
+	.asciz "cancellationToken"
+
+LDIFF_SYM5528=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5528
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM5529=Lfde885_end - Lfde885_start
+	.long LDIFF_SYM5529
+Lfde885_start:
+
+	.long 0
+	.align 3
 	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_TrySetCanceled_System_Threading_CancellationToken
 
-LDIFF_SYM5526=Lme_3b7 - System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_TrySetCanceled_System_Threading_CancellationToken
-	.long LDIFF_SYM5526
+LDIFF_SYM5530=Lme_3b8 - System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_TrySetCanceled_System_Threading_CancellationToken
+	.long LDIFF_SYM5530
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde884_end:
+Lfde885_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_302:
@@ -101607,117 +101681,117 @@ LTDIE_302:
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM5527=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM5527
+LDIFF_SYM5531=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM5531
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM5528=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5528
+LDIFF_SYM5532=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5532
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM5529=LTDIE_302 - Ldebug_info_start
-	.long LDIFF_SYM5529
+LDIFF_SYM5533=LTDIE_302 - Ldebug_info_start
+	.long LDIFF_SYM5533
 LTDIE_302_POINTER:
 
 	.byte 13
-LDIFF_SYM5530=LTDIE_302 - Ldebug_info_start
-	.long LDIFF_SYM5530
+LDIFF_SYM5534=LTDIE_302 - Ldebug_info_start
+	.long LDIFF_SYM5534
 LTDIE_302_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5531=LTDIE_302 - Ldebug_info_start
-	.long LDIFF_SYM5531
+LDIFF_SYM5535=LTDIE_302 - Ldebug_info_start
+	.long LDIFF_SYM5535
 LTDIE_301:
 
 	.byte 5
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder`1"
 
 	.byte 40,16
-LDIFF_SYM5532=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM5532
+LDIFF_SYM5536=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM5536
 	.byte 2,35,0,6
 	.asciz "m_coreState"
 
-LDIFF_SYM5533=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5533
+LDIFF_SYM5537=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5537
 	.byte 2,35,16,6
 	.asciz "m_task"
 
-LDIFF_SYM5534=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5534
+LDIFF_SYM5538=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5538
 	.byte 2,35,32,0,7
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder`1"
 
-LDIFF_SYM5535=LTDIE_301 - Ldebug_info_start
-	.long LDIFF_SYM5535
+LDIFF_SYM5539=LTDIE_301 - Ldebug_info_start
+	.long LDIFF_SYM5539
 LTDIE_301_POINTER:
 
 	.byte 13
-LDIFF_SYM5536=LTDIE_301 - Ldebug_info_start
-	.long LDIFF_SYM5536
+LDIFF_SYM5540=LTDIE_301 - Ldebug_info_start
+	.long LDIFF_SYM5540
 LTDIE_301_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5537=LTDIE_301 - Ldebug_info_start
-	.long LDIFF_SYM5537
+LDIFF_SYM5541=LTDIE_301 - Ldebug_info_start
+	.long LDIFF_SYM5541
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<object>,_Acr.UserDialogs.AbstractUserDialogs/<AlertAsync>d__18>"
 	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_object_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_System_Runtime_CompilerServices_TaskAwaiter_1_object__Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_"
 
 	.byte 2,158,4
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_object_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_System_Runtime_CompilerServices_TaskAwaiter_1_object__Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_
-	.quad Lme_3b8
+	.quad Lme_3b9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5538=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5538
+LDIFF_SYM5542=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5542
 	.byte 1,104,3
 	.asciz "awaiter"
 
-LDIFF_SYM5539=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5539
+LDIFF_SYM5543=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5543
 	.byte 2,141,40,3
 	.asciz "stateMachine"
 
-LDIFF_SYM5540=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5540
+LDIFF_SYM5544=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5544
 	.byte 2,141,48,11
 	.asciz "runnerToInitialize"
 
-LDIFF_SYM5541=LTDIE_286_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5541
+LDIFF_SYM5545=LTDIE_286_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5545
 	.byte 3,141,160,1,11
 	.asciz "continuation"
 
-LDIFF_SYM5542=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5542
+LDIFF_SYM5546=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5546
 	.byte 1,103,11
 	.asciz "builtTask"
 
-LDIFF_SYM5543=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5543
+LDIFF_SYM5547=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5547
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5544=Lfde885_end - Lfde885_start
-	.long LDIFF_SYM5544
-Lfde885_start:
+LDIFF_SYM5548=Lfde886_end - Lfde886_start
+	.long LDIFF_SYM5548
+Lfde886_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_object_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_System_Runtime_CompilerServices_TaskAwaiter_1_object__Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_
 
-LDIFF_SYM5545=Lme_3b8 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_object_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_System_Runtime_CompilerServices_TaskAwaiter_1_object__Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_
-	.long LDIFF_SYM5545
+LDIFF_SYM5549=Lme_3b9 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_object_Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_System_Runtime_CompilerServices_TaskAwaiter_1_object__Acr_UserDialogs_AbstractUserDialogs__AlertAsyncd__18_
+	.long LDIFF_SYM5549
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,150,26,151,25,68,152,24
 	.align 3
-Lfde885_end:
+Lfde886_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -101727,31 +101801,31 @@ Lfde885_end:
 
 	.byte 3,84
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
-	.quad Lme_3b9
+	.quad Lme_3ba
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5546=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5546
+LDIFF_SYM5550=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5550
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5547=Lfde886_end - Lfde886_start
-	.long LDIFF_SYM5547
-Lfde886_start:
+LDIFF_SYM5551=Lfde887_end - Lfde887_start
+	.long LDIFF_SYM5551
+Lfde887_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
 
-LDIFF_SYM5548=Lme_3b9 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
-	.long LDIFF_SYM5548
+LDIFF_SYM5552=Lme_3ba - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
+	.long LDIFF_SYM5552
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde886_end:
+Lfde887_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -101761,81 +101835,37 @@ Lfde886_end:
 
 	.byte 3,90
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
-	.quad Lme_3ba
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM5549=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5549
-	.byte 2,141,16,3
-	.asciz "state"
-
-LDIFF_SYM5550=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5550
-	.byte 2,141,24,3
-	.asciz "options"
-
-LDIFF_SYM5551=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM5551
-	.byte 2,141,32,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM5552=Lfde887_end - Lfde887_start
-	.long LDIFF_SYM5552
-Lfde887_start:
-
-	.long 0
-	.align 3
-	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
-
-LDIFF_SYM5553=Lme_3ba - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
-	.long LDIFF_SYM5553
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde887_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
-	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult"
-
-	.byte 3,97
-	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
 	.quad Lme_3bb
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5554=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5554
+LDIFF_SYM5553=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5553
 	.byte 2,141,16,3
-	.asciz "result"
+	.asciz "state"
 
-LDIFF_SYM5555=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM5554=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5554
+	.byte 2,141,24,3
+	.asciz "options"
+
+LDIFF_SYM5555=LTDIE_229 - Ldebug_info_start
 	.long LDIFF_SYM5555
-	.byte 2,141,24,11
-	.asciz "V_0"
-
-LDIFF_SYM5556=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5556
-	.byte 0,0
+	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5557=Lfde888_end - Lfde888_start
-	.long LDIFF_SYM5557
+LDIFF_SYM5556=Lfde888_end - Lfde888_start
+	.long LDIFF_SYM5556
 Lfde888_start:
 
 	.long 0
 	.align 3
-	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
+	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
 
-LDIFF_SYM5558=Lme_3bb - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM5558
+LDIFF_SYM5557=Lme_3bb - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
+	.long LDIFF_SYM5557
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -101845,55 +101875,99 @@ Lfde888_end:
 
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
-	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken"
+	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult"
 
-	.byte 3,103
-	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
+	.byte 3,97
+	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
 	.quad Lme_3bc
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5559=LTDIE_302_REFERENCE - Ldebug_info_start
+LDIFF_SYM5558=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5558
+	.byte 2,141,16,3
+	.asciz "result"
+
+LDIFF_SYM5559=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM5559
+	.byte 2,141,24,11
+	.asciz "V_0"
+
+LDIFF_SYM5560=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5560
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM5561=Lfde889_end - Lfde889_start
+	.long LDIFF_SYM5561
+Lfde889_start:
+
+	.long 0
+	.align 3
+	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
+
+LDIFF_SYM5562=Lme_3bc - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM5562
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde889_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
+	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken"
+
+	.byte 3,103
+	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
+	.quad Lme_3bd
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM5563=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5563
 	.byte 2,141,16,3
 	.asciz "canceled"
 
-LDIFF_SYM5560=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM5560
+LDIFF_SYM5564=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM5564
 	.byte 2,141,24,3
 	.asciz "result"
 
-LDIFF_SYM5561=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5561
+LDIFF_SYM5565=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5565
 	.byte 2,141,32,3
 	.asciz "creationOptions"
 
-LDIFF_SYM5562=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM5562
+LDIFF_SYM5566=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM5566
 	.byte 2,141,48,3
 	.asciz "ct"
 
-LDIFF_SYM5563=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5563
+LDIFF_SYM5567=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5567
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5564=Lfde889_end - Lfde889_start
-	.long LDIFF_SYM5564
-Lfde889_start:
+LDIFF_SYM5568=Lfde890_end - Lfde890_start
+	.long LDIFF_SYM5568
+Lfde890_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
 
-LDIFF_SYM5565=Lme_3bc - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
-	.long LDIFF_SYM5565
+LDIFF_SYM5569=Lme_3bd - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
+	.long LDIFF_SYM5569
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde889_end:
+Lfde890_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_303:
@@ -101902,64 +101976,64 @@ LTDIE_303:
 	.asciz "System_Func`1"
 
 	.byte 112,16
-LDIFF_SYM5566=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM5566
+LDIFF_SYM5570=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM5570
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM5567=LTDIE_303 - Ldebug_info_start
-	.long LDIFF_SYM5567
+LDIFF_SYM5571=LTDIE_303 - Ldebug_info_start
+	.long LDIFF_SYM5571
 LTDIE_303_POINTER:
 
 	.byte 13
-LDIFF_SYM5568=LTDIE_303 - Ldebug_info_start
-	.long LDIFF_SYM5568
+LDIFF_SYM5572=LTDIE_303 - Ldebug_info_start
+	.long LDIFF_SYM5572
 LTDIE_303_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5569=LTDIE_303 - Ldebug_info_start
-	.long LDIFF_SYM5569
+LDIFF_SYM5573=LTDIE_303 - Ldebug_info_start
+	.long LDIFF_SYM5573
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken"
 
 	.byte 3,151,1
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken
-	.quad Lme_3bd
+	.quad Lme_3be
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5570=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5570
+LDIFF_SYM5574=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5574
 	.byte 2,141,16,3
 	.asciz "function"
 
-LDIFF_SYM5571=LTDIE_303_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5571
+LDIFF_SYM5575=LTDIE_303_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5575
 	.byte 2,141,24,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM5572=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5572
+LDIFF_SYM5576=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5576
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5573=Lfde890_end - Lfde890_start
-	.long LDIFF_SYM5573
-Lfde890_start:
+LDIFF_SYM5577=Lfde891_end - Lfde891_start
+	.long LDIFF_SYM5577
+Lfde891_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken
 
-LDIFF_SYM5574=Lme_3bd - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken
-	.long LDIFF_SYM5574
+LDIFF_SYM5578=Lme_3be - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken
+	.long LDIFF_SYM5578
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde890_end:
+Lfde891_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_304:
@@ -101968,74 +102042,74 @@ LTDIE_304:
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM5575=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM5575
+LDIFF_SYM5579=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM5579
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM5576=LTDIE_304 - Ldebug_info_start
-	.long LDIFF_SYM5576
+LDIFF_SYM5580=LTDIE_304 - Ldebug_info_start
+	.long LDIFF_SYM5580
 LTDIE_304_POINTER:
 
 	.byte 13
-LDIFF_SYM5577=LTDIE_304 - Ldebug_info_start
-	.long LDIFF_SYM5577
+LDIFF_SYM5581=LTDIE_304 - Ldebug_info_start
+	.long LDIFF_SYM5581
 LTDIE_304_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5578=LTDIE_304 - Ldebug_info_start
-	.long LDIFF_SYM5578
+LDIFF_SYM5582=LTDIE_304 - Ldebug_info_start
+	.long LDIFF_SYM5582
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions"
 
 	.byte 3,172,2
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
-	.quad Lme_3be
+	.quad Lme_3bf
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5579=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5579
+LDIFF_SYM5583=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5583
 	.byte 2,141,32,3
 	.asciz "function"
 
-LDIFF_SYM5580=LTDIE_304_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5580
+LDIFF_SYM5584=LTDIE_304_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5584
 	.byte 2,141,40,3
 	.asciz "state"
 
-LDIFF_SYM5581=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5581
+LDIFF_SYM5585=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5585
 	.byte 1,105,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM5582=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5582
+LDIFF_SYM5586=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5586
 	.byte 2,141,48,3
 	.asciz "creationOptions"
 
-LDIFF_SYM5583=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM5583
+LDIFF_SYM5587=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM5587
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5584=Lfde891_end - Lfde891_start
-	.long LDIFF_SYM5584
-Lfde891_start:
+LDIFF_SYM5588=Lfde892_end - Lfde892_start
+	.long LDIFF_SYM5588
+Lfde892_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
 
-LDIFF_SYM5585=Lme_3be - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
-	.long LDIFF_SYM5585
+LDIFF_SYM5589=Lme_3bf - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions
+	.long LDIFF_SYM5589
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9
 	.align 3
-Lfde891_end:
+Lfde892_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -102045,61 +102119,61 @@ Lfde891_end:
 
 	.byte 3,189,2
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_3bf
+	.quad Lme_3c0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5586=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5586
+LDIFF_SYM5590=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5590
 	.byte 2,141,16,3
 	.asciz "valueSelector"
 
-LDIFF_SYM5587=LTDIE_303_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5587
+LDIFF_SYM5591=LTDIE_303_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5591
 	.byte 2,141,24,3
 	.asciz "parent"
 
-LDIFF_SYM5588=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5588
+LDIFF_SYM5592=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5592
 	.byte 2,141,32,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM5589=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5589
+LDIFF_SYM5593=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5593
 	.byte 2,141,40,3
 	.asciz "creationOptions"
 
-LDIFF_SYM5590=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM5590
+LDIFF_SYM5594=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM5594
 	.byte 2,141,56,3
 	.asciz "internalOptions"
 
-LDIFF_SYM5591=LTDIE_232 - Ldebug_info_start
-	.long LDIFF_SYM5591
+LDIFF_SYM5595=LTDIE_232 - Ldebug_info_start
+	.long LDIFF_SYM5595
 	.byte 3,141,192,0,3
 	.asciz "scheduler"
 
-LDIFF_SYM5592=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5592
+LDIFF_SYM5596=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5596
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5593=Lfde892_end - Lfde892_start
-	.long LDIFF_SYM5593
-Lfde892_start:
+LDIFF_SYM5597=Lfde893_end - Lfde893_start
+	.long LDIFF_SYM5597
+Lfde893_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM5594=Lme_3bf - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM5594
+LDIFF_SYM5598=Lme_3c0 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM5598
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde892_end:
+Lfde893_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -102109,66 +102183,66 @@ Lfde892_end:
 
 	.byte 3,207,2
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_3c0
+	.quad Lme_3c1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5595=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5595
+LDIFF_SYM5599=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5599
 	.byte 2,141,16,3
 	.asciz "valueSelector"
 
-LDIFF_SYM5596=LTDIE_8_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5596
+LDIFF_SYM5600=LTDIE_8_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5600
 	.byte 2,141,24,3
 	.asciz "state"
 
-LDIFF_SYM5597=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5597
+LDIFF_SYM5601=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5601
 	.byte 2,141,32,3
 	.asciz "parent"
 
-LDIFF_SYM5598=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5598
+LDIFF_SYM5602=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5602
 	.byte 2,141,40,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM5599=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5599
+LDIFF_SYM5603=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5603
 	.byte 2,141,48,3
 	.asciz "creationOptions"
 
-LDIFF_SYM5600=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM5600
+LDIFF_SYM5604=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM5604
 	.byte 3,141,192,0,3
 	.asciz "internalOptions"
 
-LDIFF_SYM5601=LTDIE_232 - Ldebug_info_start
-	.long LDIFF_SYM5601
+LDIFF_SYM5605=LTDIE_232 - Ldebug_info_start
+	.long LDIFF_SYM5605
 	.byte 3,141,200,0,3
 	.asciz "scheduler"
 
-LDIFF_SYM5602=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5602
+LDIFF_SYM5606=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5606
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5603=Lfde893_end - Lfde893_start
-	.long LDIFF_SYM5603
-Lfde893_start:
+LDIFF_SYM5607=Lfde894_end - Lfde894_start
+	.long LDIFF_SYM5607
+Lfde894_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM5604=Lme_3c0 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM5604
+LDIFF_SYM5608=Lme_3c1 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM5608
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde893_end:
+Lfde894_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -102178,56 +102252,56 @@ Lfde893_end:
 
 	.byte 3,217,2
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_3c1
+	.quad Lme_3c2
 
 	.byte 2,118,16,3
 	.asciz "parent"
 
-LDIFF_SYM5605=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5605
+LDIFF_SYM5609=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5609
 	.byte 2,141,16,3
 	.asciz "function"
 
-LDIFF_SYM5606=LTDIE_303_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5606
+LDIFF_SYM5610=LTDIE_303_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5610
 	.byte 2,141,24,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM5607=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5607
+LDIFF_SYM5611=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5611
 	.byte 2,141,32,3
 	.asciz "creationOptions"
 
-LDIFF_SYM5608=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM5608
+LDIFF_SYM5612=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM5612
 	.byte 2,141,48,3
 	.asciz "internalOptions"
 
-LDIFF_SYM5609=LTDIE_232 - Ldebug_info_start
-	.long LDIFF_SYM5609
+LDIFF_SYM5613=LTDIE_232 - Ldebug_info_start
+	.long LDIFF_SYM5613
 	.byte 2,141,56,3
 	.asciz "scheduler"
 
-LDIFF_SYM5610=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5610
+LDIFF_SYM5614=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5614
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5611=Lfde894_end - Lfde894_start
-	.long LDIFF_SYM5611
-Lfde894_start:
+LDIFF_SYM5615=Lfde895_end - Lfde895_start
+	.long LDIFF_SYM5615
+Lfde895_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM5612=Lme_3c1 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM5612
+LDIFF_SYM5616=Lme_3c2 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM5616
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde894_end:
+Lfde895_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -102237,61 +102311,61 @@ Lfde894_end:
 
 	.byte 3,237,2
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_3c2
+	.quad Lme_3c3
 
 	.byte 2,118,16,3
 	.asciz "parent"
 
-LDIFF_SYM5613=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5613
+LDIFF_SYM5617=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5617
 	.byte 2,141,16,3
 	.asciz "function"
 
-LDIFF_SYM5614=LTDIE_304_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5614
+LDIFF_SYM5618=LTDIE_304_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5618
 	.byte 2,141,24,3
 	.asciz "state"
 
-LDIFF_SYM5615=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5615
+LDIFF_SYM5619=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5619
 	.byte 2,141,32,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM5616=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5616
+LDIFF_SYM5620=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5620
 	.byte 2,141,40,3
 	.asciz "creationOptions"
 
-LDIFF_SYM5617=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM5617
+LDIFF_SYM5621=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM5621
 	.byte 2,141,56,3
 	.asciz "internalOptions"
 
-LDIFF_SYM5618=LTDIE_232 - Ldebug_info_start
-	.long LDIFF_SYM5618
+LDIFF_SYM5622=LTDIE_232 - Ldebug_info_start
+	.long LDIFF_SYM5622
 	.byte 3,141,192,0,3
 	.asciz "scheduler"
 
-LDIFF_SYM5619=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5619
+LDIFF_SYM5623=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5623
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5620=Lfde895_end - Lfde895_start
-	.long LDIFF_SYM5620
-Lfde895_start:
+LDIFF_SYM5624=Lfde896_end - Lfde896_start
+	.long LDIFF_SYM5624
+Lfde896_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM5621=Lme_3c2 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM5621
+LDIFF_SYM5625=Lme_3c3 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM5625
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde895_end:
+Lfde896_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -102301,63 +102375,24 @@ Lfde895_end:
 
 	.byte 3,152,3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_3c3
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM5622=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5622
-	.byte 1,106,3
-	.asciz "result"
-
-LDIFF_SYM5623=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5623
-	.byte 2,141,32,11
-	.asciz "cp"
-
-LDIFF_SYM5624=LTDIE_69_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5624
-	.byte 1,105,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM5625=Lfde896_end - Lfde896_start
-	.long LDIFF_SYM5625
-Lfde896_start:
-
-	.long 0
-	.align 3
-	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
-
-LDIFF_SYM5626=Lme_3c3 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM5626
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
-	.align 3
-Lfde896_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:DangerousSetResult"
-	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult"
-
-	.byte 3,196,3
-	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
 	.quad Lme_3c4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5627=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5627
+LDIFF_SYM5626=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5626
 	.byte 1,106,3
 	.asciz "result"
 
-LDIFF_SYM5628=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM5627=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5627
+	.byte 2,141,32,11
+	.asciz "cp"
+
+LDIFF_SYM5628=LTDIE_69_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM5628
-	.byte 2,141,24,0
+	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -102367,14 +102402,53 @@ Lfde897_start:
 
 	.long 0
 	.align 3
+	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
+
+LDIFF_SYM5630=Lme_3c4 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM5630
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
+	.align 3
+Lfde897_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:DangerousSetResult"
+	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult"
+
+	.byte 3,196,3
+	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
+	.quad Lme_3c5
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM5631=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5631
+	.byte 1,106,3
+	.asciz "result"
+
+LDIFF_SYM5632=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5632
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM5633=Lfde898_end - Lfde898_start
+	.long LDIFF_SYM5633
+Lfde898_start:
+
+	.long 0
+	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM5630=Lme_3c4 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM5630
+LDIFF_SYM5634=Lme_3c5 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM5634
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde897_end:
+Lfde898_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -102384,31 +102458,31 @@ Lfde897_end:
 
 	.byte 3,221,3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Result
-	.quad Lme_3c5
+	.quad Lme_3c6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5631=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5631
+LDIFF_SYM5635=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5635
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5632=Lfde898_end - Lfde898_start
-	.long LDIFF_SYM5632
-Lfde898_start:
+LDIFF_SYM5636=Lfde899_end - Lfde899_start
+	.long LDIFF_SYM5636
+Lfde899_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Result
 
-LDIFF_SYM5633=Lme_3c5 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Result
-	.long LDIFF_SYM5633
+LDIFF_SYM5637=Lme_3c6 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Result
+	.long LDIFF_SYM5637
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde898_end:
+Lfde899_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -102418,31 +102492,31 @@ Lfde898_end:
 
 	.byte 3,237,3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess
-	.quad Lme_3c6
+	.quad Lme_3c7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5634=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5634
+LDIFF_SYM5638=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5638
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5635=Lfde899_end - Lfde899_start
-	.long LDIFF_SYM5635
-Lfde899_start:
+LDIFF_SYM5639=Lfde900_end - Lfde900_start
+	.long LDIFF_SYM5639
+Lfde900_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess
 
-LDIFF_SYM5636=Lme_3c6 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess
-	.long LDIFF_SYM5636
+LDIFF_SYM5640=Lme_3c7 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess
+	.long LDIFF_SYM5640
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde899_end:
+Lfde900_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -102452,41 +102526,41 @@ Lfde899_end:
 
 	.byte 3,245,3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
-	.quad Lme_3c7
+	.quad Lme_3c8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5637=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5637
+LDIFF_SYM5641=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5641
 	.byte 1,105,3
 	.asciz "waitCompletionNotification"
 
-LDIFF_SYM5638=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM5638
+LDIFF_SYM5642=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM5642
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM5639=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5639
+LDIFF_SYM5643=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5643
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5640=Lfde900_end - Lfde900_start
-	.long LDIFF_SYM5640
-Lfde900_start:
+LDIFF_SYM5644=Lfde901_end - Lfde901_start
+	.long LDIFF_SYM5644
+Lfde901_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
 
-LDIFF_SYM5641=Lme_3c7 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
-	.long LDIFF_SYM5641
+LDIFF_SYM5645=Lme_3c8 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
+	.long LDIFF_SYM5645
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
 	.align 3
-Lfde900_end:
+Lfde901_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -102496,26 +102570,26 @@ Lfde900_end:
 
 	.byte 3,143,4
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Factory
-	.quad Lme_3c8
+	.quad Lme_3c9
 
 	.byte 2,118,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5642=Lfde901_end - Lfde901_start
-	.long LDIFF_SYM5642
-Lfde901_start:
+LDIFF_SYM5646=Lfde902_end - Lfde902_start
+	.long LDIFF_SYM5646
+Lfde902_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Factory
 
-LDIFF_SYM5643=Lme_3c8 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Factory
-	.long LDIFF_SYM5643
+LDIFF_SYM5647=Lme_3c9 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_Factory
+	.long LDIFF_SYM5647
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde901_end:
+Lfde902_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -102525,41 +102599,41 @@ Lfde901_end:
 
 	.byte 3,158,4
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
-	.quad Lme_3c9
+	.quad Lme_3ca
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5644=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5644
+LDIFF_SYM5648=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5648
 	.byte 1,106,11
 	.asciz "func"
 
-LDIFF_SYM5645=LTDIE_303_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5645
+LDIFF_SYM5649=LTDIE_303_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5649
 	.byte 1,105,11
 	.asciz "funcWithState"
 
-LDIFF_SYM5646=LTDIE_304_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5646
+LDIFF_SYM5650=LTDIE_304_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5650
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5647=Lfde902_end - Lfde902_start
-	.long LDIFF_SYM5647
-Lfde902_start:
+LDIFF_SYM5651=Lfde903_end - Lfde903_start
+	.long LDIFF_SYM5651
+Lfde903_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
 
-LDIFF_SYM5648=Lme_3c9 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
-	.long LDIFF_SYM5648
+LDIFF_SYM5652=Lme_3ca - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
+	.long LDIFF_SYM5652
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6,153,5,68,154,4
 	.align 3
-Lfde902_end:
+Lfde903_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -102569,53 +102643,14 @@ Lfde902_end:
 
 	.byte 3,180,4
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
-	.quad Lme_3ca
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM5649=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5649
-	.byte 2,141,32,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM5650=Lfde903_end - Lfde903_start
-	.long LDIFF_SYM5650
-Lfde903_start:
-
-	.long 0
-	.align 3
-	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
-
-LDIFF_SYM5651=Lme_3ca - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
-	.long LDIFF_SYM5651
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde903_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:ConfigureAwait"
-	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ConfigureAwait_bool"
-
-	.byte 3,190,4
-	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ConfigureAwait_bool
 	.quad Lme_3cb
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5652=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5652
-	.byte 2,141,32,3
-	.asciz "continueOnCapturedContext"
-
-LDIFF_SYM5653=LDIE_BOOLEAN - Ldebug_info_start
+LDIFF_SYM5653=LTDIE_302_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM5653
-	.byte 2,141,40,0
+	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -102625,14 +102660,53 @@ Lfde904_start:
 
 	.long 0
 	.align 3
+	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
+
+LDIFF_SYM5655=Lme_3cb - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
+	.long LDIFF_SYM5655
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde904_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:ConfigureAwait"
+	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ConfigureAwait_bool"
+
+	.byte 3,190,4
+	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ConfigureAwait_bool
+	.quad Lme_3cc
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM5656=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5656
+	.byte 2,141,32,3
+	.asciz "continueOnCapturedContext"
+
+LDIFF_SYM5657=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM5657
+	.byte 2,141,40,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM5658=Lfde905_end - Lfde905_start
+	.long LDIFF_SYM5658
+Lfde905_start:
+
+	.long 0
+	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ConfigureAwait_bool
 
-LDIFF_SYM5655=Lme_3cb - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ConfigureAwait_bool
-	.long LDIFF_SYM5655
+LDIFF_SYM5659=Lme_3cc - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ConfigureAwait_bool
+	.long LDIFF_SYM5659
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde904_end:
+Lfde905_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_305:
@@ -102641,109 +102715,60 @@ LTDIE_305:
 	.asciz "System_Action`1"
 
 	.byte 112,16
-LDIFF_SYM5656=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM5656
+LDIFF_SYM5660=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM5660
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM5657=LTDIE_305 - Ldebug_info_start
-	.long LDIFF_SYM5657
+LDIFF_SYM5661=LTDIE_305 - Ldebug_info_start
+	.long LDIFF_SYM5661
 LTDIE_305_POINTER:
 
 	.byte 13
-LDIFF_SYM5658=LTDIE_305 - Ldebug_info_start
-	.long LDIFF_SYM5658
+LDIFF_SYM5662=LTDIE_305 - Ldebug_info_start
+	.long LDIFF_SYM5662
 LTDIE_305_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5659=LTDIE_305 - Ldebug_info_start
-	.long LDIFF_SYM5659
+LDIFF_SYM5663=LTDIE_305 - Ldebug_info_start
+	.long LDIFF_SYM5663
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:ContinueWith"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult"
 
 	.byte 3,216,4
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_3cc
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM5660=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5660
-	.byte 2,141,16,3
-	.asciz "continuationAction"
-
-LDIFF_SYM5661=LTDIE_305_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5661
-	.byte 2,141,24,11
-	.asciz "V_0"
-
-LDIFF_SYM5662=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5662
-	.byte 0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM5663=Lfde905_end - Lfde905_start
-	.long LDIFF_SYM5663
-Lfde905_start:
-
-	.long 0
-	.align 3
-	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-
-LDIFF_SYM5664=Lme_3cc - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM5664
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde905_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:ContinueWith"
-	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler"
-
-	.byte 3,142,5
-	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
 	.quad Lme_3cd
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5665=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5665
+LDIFF_SYM5664=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5664
 	.byte 2,141,16,3
 	.asciz "continuationAction"
 
-LDIFF_SYM5666=LTDIE_305_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5666
-	.byte 2,141,24,3
-	.asciz "scheduler"
-
-LDIFF_SYM5667=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5667
-	.byte 2,141,32,11
+LDIFF_SYM5665=LTDIE_305_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5665
+	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM5668=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5668
+LDIFF_SYM5666=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5666
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5669=Lfde906_end - Lfde906_start
-	.long LDIFF_SYM5669
+LDIFF_SYM5667=Lfde906_end - Lfde906_start
+	.long LDIFF_SYM5667
 Lfde906_start:
 
 	.long 0
 	.align 3
-	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
+	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM5670=Lme_3cd - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM5670
+LDIFF_SYM5668=Lme_3cd - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM5668
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
@@ -102753,55 +102778,104 @@ Lfde906_end:
 
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:ContinueWith"
-	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler"
+	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler"
 
-	.byte 3,219,5
-	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+	.byte 3,142,5
+	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
 	.quad Lme_3ce
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5671=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5671
+LDIFF_SYM5669=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5669
 	.byte 2,141,16,3
 	.asciz "continuationAction"
 
-LDIFF_SYM5672=LTDIE_305_REFERENCE - Ldebug_info_start
+LDIFF_SYM5670=LTDIE_305_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5670
+	.byte 2,141,24,3
+	.asciz "scheduler"
+
+LDIFF_SYM5671=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5671
+	.byte 2,141,32,11
+	.asciz "V_0"
+
+LDIFF_SYM5672=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM5672
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM5673=Lfde907_end - Lfde907_start
+	.long LDIFF_SYM5673
+Lfde907_start:
+
+	.long 0
+	.align 3
+	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
+
+LDIFF_SYM5674=Lme_3ce - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM5674
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde907_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:ContinueWith"
+	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler"
+
+	.byte 3,219,5
+	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+	.quad Lme_3cf
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM5675=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5675
+	.byte 2,141,16,3
+	.asciz "continuationAction"
+
+LDIFF_SYM5676=LTDIE_305_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5676
 	.byte 2,141,24,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM5673=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5673
+LDIFF_SYM5677=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5677
 	.byte 2,141,32,3
 	.asciz "continuationOptions"
 
-LDIFF_SYM5674=LTDIE_234 - Ldebug_info_start
-	.long LDIFF_SYM5674
+LDIFF_SYM5678=LTDIE_234 - Ldebug_info_start
+	.long LDIFF_SYM5678
 	.byte 2,141,48,3
 	.asciz "scheduler"
 
-LDIFF_SYM5675=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5675
+LDIFF_SYM5679=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5679
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5676=Lfde907_end - Lfde907_start
-	.long LDIFF_SYM5676
-Lfde907_start:
+LDIFF_SYM5680=Lfde908_end - Lfde908_start
+	.long LDIFF_SYM5680
+Lfde908_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM5677=Lme_3ce - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM5677
+LDIFF_SYM5681=Lme_3cf - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM5681
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde907_end:
+Lfde908_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -102811,66 +102885,66 @@ Lfde907_end:
 
 	.byte 3,226,5
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
-	.quad Lme_3cf
+	.quad Lme_3d0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5678=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5678
+LDIFF_SYM5682=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5682
 	.byte 2,141,24,3
 	.asciz "continuationAction"
 
-LDIFF_SYM5679=LTDIE_305_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5679
+LDIFF_SYM5683=LTDIE_305_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5683
 	.byte 1,104,3
 	.asciz "scheduler"
 
-LDIFF_SYM5680=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5680
+LDIFF_SYM5684=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5684
 	.byte 2,141,32,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM5681=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5681
+LDIFF_SYM5685=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5685
 	.byte 2,141,40,3
 	.asciz "continuationOptions"
 
-LDIFF_SYM5682=LTDIE_234 - Ldebug_info_start
-	.long LDIFF_SYM5682
+LDIFF_SYM5686=LTDIE_234 - Ldebug_info_start
+	.long LDIFF_SYM5686
 	.byte 2,141,56,11
 	.asciz "creationOptions"
 
-LDIFF_SYM5683=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM5683
+LDIFF_SYM5687=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM5687
 	.byte 3,141,192,0,11
 	.asciz "internalOptions"
 
-LDIFF_SYM5684=LTDIE_232 - Ldebug_info_start
-	.long LDIFF_SYM5684
+LDIFF_SYM5688=LTDIE_232 - Ldebug_info_start
+	.long LDIFF_SYM5688
 	.byte 3,141,200,0,11
 	.asciz "continuationTask"
 
-LDIFF_SYM5685=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5685
+LDIFF_SYM5689=LTDIE_67_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5689
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5686=Lfde908_end - Lfde908_start
-	.long LDIFF_SYM5686
-Lfde908_start:
+LDIFF_SYM5690=Lfde909_end - Lfde909_start
+	.long LDIFF_SYM5690
+Lfde909_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
 
-LDIFF_SYM5687=Lme_3cf - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
-	.long LDIFF_SYM5687
+LDIFF_SYM5691=Lme_3d0 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
+	.long LDIFF_SYM5691
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12
 	.align 3
-Lfde908_end:
+Lfde909_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_306:
@@ -102879,79 +102953,79 @@ LTDIE_306:
 	.asciz "System_Threading_Tasks_TaskFactory`1"
 
 	.byte 40,16
-LDIFF_SYM5688=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM5688
+LDIFF_SYM5692=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM5692
 	.byte 2,35,0,6
 	.asciz "m_defaultCancellationToken"
 
-LDIFF_SYM5689=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5689
+LDIFF_SYM5693=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5693
 	.byte 2,35,16,6
 	.asciz "m_defaultScheduler"
 
-LDIFF_SYM5690=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5690
+LDIFF_SYM5694=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5694
 	.byte 2,35,24,6
 	.asciz "m_defaultCreationOptions"
 
-LDIFF_SYM5691=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM5691
+LDIFF_SYM5695=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM5695
 	.byte 2,35,32,6
 	.asciz "m_defaultContinuationOptions"
 
-LDIFF_SYM5692=LTDIE_234 - Ldebug_info_start
-	.long LDIFF_SYM5692
+LDIFF_SYM5696=LTDIE_234 - Ldebug_info_start
+	.long LDIFF_SYM5696
 	.byte 2,35,36,0,7
 	.asciz "System_Threading_Tasks_TaskFactory`1"
 
-LDIFF_SYM5693=LTDIE_306 - Ldebug_info_start
-	.long LDIFF_SYM5693
+LDIFF_SYM5697=LTDIE_306 - Ldebug_info_start
+	.long LDIFF_SYM5697
 LTDIE_306_POINTER:
 
 	.byte 13
-LDIFF_SYM5694=LTDIE_306 - Ldebug_info_start
-	.long LDIFF_SYM5694
+LDIFF_SYM5698=LTDIE_306 - Ldebug_info_start
+	.long LDIFF_SYM5698
 LTDIE_306_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5695=LTDIE_306 - Ldebug_info_start
-	.long LDIFF_SYM5695
+LDIFF_SYM5699=LTDIE_306 - Ldebug_info_start
+	.long LDIFF_SYM5699
 	.byte 2
 	.asciz "System.Threading.Tasks.TaskFactory`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor"
 
 	.byte 4,93
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
-	.quad Lme_3d0
+	.quad Lme_3d1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5696=LTDIE_306_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5696
+LDIFF_SYM5700=LTDIE_306_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5700
 	.byte 2,141,16,11
 	.asciz "V_0"
 
-LDIFF_SYM5697=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5697
+LDIFF_SYM5701=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5701
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5698=Lfde909_end - Lfde909_start
-	.long LDIFF_SYM5698
-Lfde909_start:
+LDIFF_SYM5702=Lfde910_end - Lfde910_start
+	.long LDIFF_SYM5702
+Lfde910_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
 
-LDIFF_SYM5699=Lme_3d0 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
-	.long LDIFF_SYM5699
+LDIFF_SYM5703=Lme_3d1 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
+	.long LDIFF_SYM5703
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde909_end:
+Lfde910_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -102961,51 +103035,51 @@ Lfde909_end:
 
 	.byte 4,208,1
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_3d1
+	.quad Lme_3d2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5700=LTDIE_306_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5700
+LDIFF_SYM5704=LTDIE_306_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5704
 	.byte 1,103,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM5701=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5701
+LDIFF_SYM5705=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5705
 	.byte 2,141,24,3
 	.asciz "creationOptions"
 
-LDIFF_SYM5702=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM5702
+LDIFF_SYM5706=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM5706
 	.byte 2,141,40,3
 	.asciz "continuationOptions"
 
-LDIFF_SYM5703=LTDIE_234 - Ldebug_info_start
-	.long LDIFF_SYM5703
+LDIFF_SYM5707=LTDIE_234 - Ldebug_info_start
+	.long LDIFF_SYM5707
 	.byte 2,141,48,3
 	.asciz "scheduler"
 
-LDIFF_SYM5704=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5704
+LDIFF_SYM5708=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5708
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5705=Lfde910_end - Lfde910_start
-	.long LDIFF_SYM5705
-Lfde910_start:
+LDIFF_SYM5709=Lfde911_end - Lfde911_start
+	.long LDIFF_SYM5709
+Lfde911_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM5706=Lme_3d1 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM5706
+LDIFF_SYM5710=Lme_3d2 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM5710
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,151,6
 	.align 3
-Lfde910_end:
+Lfde911_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -103015,56 +103089,56 @@ Lfde910_end:
 
 	.byte 4,252,3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_3d2
+	.quad Lme_3d3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5707=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5707
+LDIFF_SYM5711=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5711
 	.byte 0,3
 	.asciz "function"
 
-LDIFF_SYM5708=LTDIE_304_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5708
+LDIFF_SYM5712=LTDIE_304_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5712
 	.byte 2,141,32,3
 	.asciz "state"
 
-LDIFF_SYM5709=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5709
+LDIFF_SYM5713=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5713
 	.byte 2,141,40,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM5710=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5710
+LDIFF_SYM5714=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5714
 	.byte 2,141,48,3
 	.asciz "creationOptions"
 
-LDIFF_SYM5711=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM5711
+LDIFF_SYM5715=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM5715
 	.byte 3,141,192,0,3
 	.asciz "scheduler"
 
-LDIFF_SYM5712=LTDIE_68_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5712
+LDIFF_SYM5716=LTDIE_68_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5716
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5713=Lfde911_end - Lfde911_start
-	.long LDIFF_SYM5713
-Lfde911_start:
+LDIFF_SYM5717=Lfde912_end - Lfde912_start
+	.long LDIFF_SYM5717
+Lfde912_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM5714=Lme_3d2 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM5714
+LDIFF_SYM5718=Lme_3d3 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM5718
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8
 	.align 3
-Lfde911_end:
+Lfde912_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_307:
@@ -103073,89 +103147,89 @@ LTDIE_307:
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM5715=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM5715
+LDIFF_SYM5719=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM5719
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM5716=LTDIE_307 - Ldebug_info_start
-	.long LDIFF_SYM5716
+LDIFF_SYM5720=LTDIE_307 - Ldebug_info_start
+	.long LDIFF_SYM5720
 LTDIE_307_POINTER:
 
 	.byte 13
-LDIFF_SYM5717=LTDIE_307 - Ldebug_info_start
-	.long LDIFF_SYM5717
+LDIFF_SYM5721=LTDIE_307 - Ldebug_info_start
+	.long LDIFF_SYM5721
 LTDIE_307_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5718=LTDIE_307 - Ldebug_info_start
-	.long LDIFF_SYM5718
+LDIFF_SYM5722=LTDIE_307 - Ldebug_info_start
+	.long LDIFF_SYM5722
 	.byte 2
 	.asciz "System.Threading.Tasks.TaskFactory`1<System.Threading.Tasks.VoidTaskResult>:FromAsyncCoreLogic"
 	.asciz "System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool"
 
 	.byte 4,142,4
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.quad Lme_3d3
+	.quad Lme_3d4
 
 	.byte 2,118,16,3
 	.asciz "iar"
 
-LDIFF_SYM5719=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5719
+LDIFF_SYM5723=LTDIE_219_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5723
 	.byte 2,141,24,3
 	.asciz "endFunction"
 
-LDIFF_SYM5720=LTDIE_307_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5720
+LDIFF_SYM5724=LTDIE_307_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5724
 	.byte 1,105,3
 	.asciz "endAction"
 
-LDIFF_SYM5721=LTDIE_220_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5721
+LDIFF_SYM5725=LTDIE_220_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5725
 	.byte 2,141,32,3
 	.asciz "promise"
 
-LDIFF_SYM5722=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5722
+LDIFF_SYM5726=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5726
 	.byte 2,141,40,3
 	.asciz "requiresSynchronization"
 
-LDIFF_SYM5723=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM5723
+LDIFF_SYM5727=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM5727
 	.byte 2,141,48,11
 	.asciz "ex"
 
-LDIFF_SYM5724=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5724
+LDIFF_SYM5728=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5728
 	.byte 3,141,232,0,11
 	.asciz "oce"
 
-LDIFF_SYM5725=LTDIE_226_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5725
+LDIFF_SYM5729=LTDIE_226_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5729
 	.byte 3,141,240,0,11
 	.asciz "result"
 
-LDIFF_SYM5726=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5726
+LDIFF_SYM5730=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5730
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5727=Lfde912_end - Lfde912_start
-	.long LDIFF_SYM5727
-Lfde912_start:
+LDIFF_SYM5731=Lfde913_end - Lfde913_start
+	.long LDIFF_SYM5731
+Lfde913_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 
-LDIFF_SYM5728=Lme_3d3 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.long LDIFF_SYM5728
+LDIFF_SYM5732=Lme_3d4 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+	.long LDIFF_SYM5732
 	.long 0
 	.byte 12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,153,30
 	.align 3
-Lfde912_end:
+Lfde913_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -103165,46 +103239,46 @@ Lfde912_end:
 
 	.byte 4,220,5
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
-	.quad Lme_3d4
+	.quad Lme_3d5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5729=LTDIE_306_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5729
+LDIFF_SYM5733=LTDIE_306_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5733
 	.byte 2,141,16,3
 	.asciz "beginMethod"
 
-LDIFF_SYM5730=LTDIE_221_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5730
+LDIFF_SYM5734=LTDIE_221_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5734
 	.byte 2,141,24,3
 	.asciz "endMethod"
 
-LDIFF_SYM5731=LTDIE_307_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5731
+LDIFF_SYM5735=LTDIE_307_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5735
 	.byte 2,141,32,3
 	.asciz "state"
 
-LDIFF_SYM5732=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5732
+LDIFF_SYM5736=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5736
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5733=Lfde913_end - Lfde913_start
-	.long LDIFF_SYM5733
-Lfde913_start:
+LDIFF_SYM5737=Lfde914_end - Lfde914_start
+	.long LDIFF_SYM5737
+Lfde914_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
 
-LDIFF_SYM5734=Lme_3d4 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
-	.long LDIFF_SYM5734
+LDIFF_SYM5738=Lme_3d5 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
+	.long LDIFF_SYM5738
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde913_end:
+Lfde914_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_308:
@@ -103213,104 +103287,104 @@ LTDIE_308:
 	.asciz "_<>c__DisplayClass35_0"
 
 	.byte 40,16
-LDIFF_SYM5735=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM5735
+LDIFF_SYM5739=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM5739
 	.byte 2,35,0,6
 	.asciz "endFunction"
 
-LDIFF_SYM5736=LTDIE_307_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5736
+LDIFF_SYM5740=LTDIE_307_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5740
 	.byte 2,35,16,6
 	.asciz "endAction"
 
-LDIFF_SYM5737=LTDIE_220_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5737
+LDIFF_SYM5741=LTDIE_220_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5741
 	.byte 2,35,24,6
 	.asciz "promise"
 
-LDIFF_SYM5738=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5738
+LDIFF_SYM5742=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5742
 	.byte 2,35,32,0,7
 	.asciz "_<>c__DisplayClass35_0"
 
-LDIFF_SYM5739=LTDIE_308 - Ldebug_info_start
-	.long LDIFF_SYM5739
+LDIFF_SYM5743=LTDIE_308 - Ldebug_info_start
+	.long LDIFF_SYM5743
 LTDIE_308_POINTER:
 
 	.byte 13
-LDIFF_SYM5740=LTDIE_308 - Ldebug_info_start
-	.long LDIFF_SYM5740
+LDIFF_SYM5744=LTDIE_308 - Ldebug_info_start
+	.long LDIFF_SYM5744
 LTDIE_308_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5741=LTDIE_308 - Ldebug_info_start
-	.long LDIFF_SYM5741
+LDIFF_SYM5745=LTDIE_308 - Ldebug_info_start
+	.long LDIFF_SYM5745
 	.byte 2
 	.asciz "System.Threading.Tasks.TaskFactory`1<System.Threading.Tasks.VoidTaskResult>:FromAsyncImpl"
 	.asciz "System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions"
 
 	.byte 4,0
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
-	.quad Lme_3d5
+	.quad Lme_3d6
 
 	.byte 2,118,16,3
 	.asciz "beginMethod"
 
-LDIFF_SYM5742=LTDIE_221_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5742
+LDIFF_SYM5746=LTDIE_221_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5746
 	.byte 1,102,3
 	.asciz "endFunction"
 
-LDIFF_SYM5743=LTDIE_307_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5743
+LDIFF_SYM5747=LTDIE_307_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5747
 	.byte 2,141,32,3
 	.asciz "endAction"
 
-LDIFF_SYM5744=LTDIE_220_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5744
+LDIFF_SYM5748=LTDIE_220_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5748
 	.byte 2,141,40,3
 	.asciz "state"
 
-LDIFF_SYM5745=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5745
+LDIFF_SYM5749=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5749
 	.byte 2,141,48,3
 	.asciz "creationOptions"
 
-LDIFF_SYM5746=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM5746
+LDIFF_SYM5750=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM5750
 	.byte 1,106,11
 	.asciz "CS$<>8__locals0"
 
-LDIFF_SYM5747=LTDIE_308_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5747
+LDIFF_SYM5751=LTDIE_308_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5751
 	.byte 3,141,192,0,11
 	.asciz "asyncResult"
 
-LDIFF_SYM5748=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5748
+LDIFF_SYM5752=LTDIE_219_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5752
 	.byte 1,106,11
 	.asciz "V_2"
 
-LDIFF_SYM5749=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5749
+LDIFF_SYM5753=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5753
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5750=Lfde914_end - Lfde914_start
-	.long LDIFF_SYM5750
-Lfde914_start:
+LDIFF_SYM5754=Lfde915_end - Lfde915_start
+	.long LDIFF_SYM5754
+Lfde915_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
 
-LDIFF_SYM5751=Lme_3d5 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
-	.long LDIFF_SYM5751
+LDIFF_SYM5755=Lme_3d6 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
+	.long LDIFF_SYM5755
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,150,20,68,154,19
 	.align 3
-Lfde914_end:
+Lfde915_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -103320,53 +103394,14 @@ Lfde914_end:
 
 	.byte 2,188,3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
-	.quad Lme_3d6
+	.quad Lme_3d7
 
 	.byte 2,118,16,11
 	.asciz "V_0"
 
-LDIFF_SYM5752=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5752
-	.byte 0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM5753=Lfde915_end - Lfde915_start
-	.long LDIFF_SYM5753
-Lfde915_start:
-
-	.long 0
-	.align 3
-	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
-
-LDIFF_SYM5754=Lme_3d6 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
-	.long LDIFF_SYM5754
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde915_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:SetStateMachine"
-	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
-
-	.byte 2,229,3
-	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.quad Lme_3d7
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM5755=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5755
-	.byte 2,141,16,3
-	.asciz "stateMachine"
-
-LDIFF_SYM5756=LTDIE_171_REFERENCE - Ldebug_info_start
+LDIFF_SYM5756=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM5756
-	.byte 2,141,24,0
+	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -103376,23 +103411,23 @@ Lfde916_start:
 
 	.long 0
 	.align 3
-	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
 
-LDIFF_SYM5758=Lme_3d7 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+LDIFF_SYM5758=Lme_3d7 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
 	.long LDIFF_SYM5758
 	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde916_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:get_Task"
-	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task"
+	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:SetStateMachine"
+	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
 
-	.byte 2,190,4
-	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
+	.byte 2,229,3
+	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 	.quad Lme_3d8
 
 	.byte 2,118,16,3
@@ -103400,12 +103435,12 @@ Lfde916_end:
 
 LDIFF_SYM5759=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM5759
-	.byte 2,141,24,11
-	.asciz "task"
+	.byte 2,141,16,3
+	.asciz "stateMachine"
 
-LDIFF_SYM5760=LTDIE_302_REFERENCE - Ldebug_info_start
+LDIFF_SYM5760=LTDIE_171_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM5760
-	.byte 1,105,0
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -103415,23 +103450,23 @@ Lfde917_start:
 
 	.long 0
 	.align 3
-	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
+	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 
-LDIFF_SYM5762=Lme_3d8 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
+LDIFF_SYM5762=Lme_3d8 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 	.long LDIFF_SYM5762
 	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
 Lfde917_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:SetResult"
-	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult"
+	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:get_Task"
+	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task"
 
-	.byte 2,206,4
-	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
+	.byte 2,190,4
+	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
 	.quad Lme_3d9
 
 	.byte 2,118,16,3
@@ -103439,30 +103474,25 @@ Lfde917_end:
 
 LDIFF_SYM5763=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM5763
-	.byte 2,141,24,3
-	.asciz "result"
-
-LDIFF_SYM5764=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5764
-	.byte 2,141,32,11
+	.byte 2,141,24,11
 	.asciz "task"
 
-LDIFF_SYM5765=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5765
+LDIFF_SYM5764=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5764
 	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5766=Lfde918_end - Lfde918_start
-	.long LDIFF_SYM5766
+LDIFF_SYM5765=Lfde918_end - Lfde918_start
+	.long LDIFF_SYM5765
 Lfde918_start:
 
 	.long 0
 	.align 3
-	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
+	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
 
-LDIFF_SYM5767=Lme_3d9 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM5767
+LDIFF_SYM5766=Lme_3d9 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
+	.long LDIFF_SYM5766
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4
 	.align 3
@@ -103472,45 +103502,89 @@ Lfde918_end:
 
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:SetResult"
-	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult"
+	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult"
 
-	.byte 2,244,4
-	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+	.byte 2,206,4
+	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
 	.quad Lme_3da
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5768=LDIE_I - Ldebug_info_start
+LDIFF_SYM5767=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5767
+	.byte 2,141,24,3
+	.asciz "result"
+
+LDIFF_SYM5768=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM5768
-	.byte 1,105,3
-	.asciz "completedTask"
+	.byte 2,141,32,11
+	.asciz "task"
 
 LDIFF_SYM5769=LTDIE_302_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM5769
+	.byte 1,105,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM5770=Lfde919_end - Lfde919_start
+	.long LDIFF_SYM5770
+Lfde919_start:
+
+	.long 0
+	.align 3
+	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
+
+LDIFF_SYM5771=Lme_3da - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM5771
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4
+	.align 3
+Lfde919_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:SetResult"
+	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult"
+
+	.byte 2,244,4
+	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+	.quad Lme_3db
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM5772=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5772
+	.byte 1,105,3
+	.asciz "completedTask"
+
+LDIFF_SYM5773=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5773
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM5770=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5770
+LDIFF_SYM5774=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5774
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5771=Lfde919_end - Lfde919_start
-	.long LDIFF_SYM5771
-Lfde919_start:
+LDIFF_SYM5775=Lfde920_end - Lfde920_start
+	.long LDIFF_SYM5775
+Lfde920_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM5772=Lme_3da - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM5772
+LDIFF_SYM5776=Lme_3db - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM5776
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,153,4
 	.align 3
-Lfde919_end:
+Lfde920_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -103520,46 +103594,46 @@ Lfde919_end:
 
 	.byte 2,137,5
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
-	.quad Lme_3db
+	.quad Lme_3dc
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5773=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5773
+LDIFF_SYM5777=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5777
 	.byte 1,105,3
 	.asciz "exception"
 
-LDIFF_SYM5774=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5774
+LDIFF_SYM5778=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5778
 	.byte 1,106,11
 	.asciz "task"
 
-LDIFF_SYM5775=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5775
+LDIFF_SYM5779=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5779
 	.byte 1,104,11
 	.asciz "oce"
 
-LDIFF_SYM5776=LTDIE_226_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5776
+LDIFF_SYM5780=LTDIE_226_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5780
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5777=Lfde920_end - Lfde920_start
-	.long LDIFF_SYM5777
-Lfde920_start:
+LDIFF_SYM5781=Lfde921_end - Lfde921_start
+	.long LDIFF_SYM5781
+Lfde921_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
 
-LDIFF_SYM5778=Lme_3db - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
-	.long LDIFF_SYM5778
+LDIFF_SYM5782=Lme_3dc - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
+	.long LDIFF_SYM5782
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,151,6,152,5,68,153,4,154,3
 	.align 3
-Lfde920_end:
+Lfde921_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -103569,41 +103643,41 @@ Lfde920_end:
 
 	.byte 2,228,5
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_3dc
+	.quad Lme_3dd
 
 	.byte 2,118,16,3
 	.asciz "result"
 
-LDIFF_SYM5779=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5779
+LDIFF_SYM5783=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5783
 	.byte 2,141,24,11
 	.asciz "V_0"
 
-LDIFF_SYM5780=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5780
+LDIFF_SYM5784=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5784
 	.byte 0,11
 	.asciz "value"
 
-LDIFF_SYM5781=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5781
+LDIFF_SYM5785=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5785
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5782=Lfde921_end - Lfde921_start
-	.long LDIFF_SYM5782
-Lfde921_start:
+LDIFF_SYM5786=Lfde922_end - Lfde922_start
+	.long LDIFF_SYM5786
+Lfde922_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM5783=Lme_3dc - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM5783
+LDIFF_SYM5787=Lme_3dd - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM5787
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
-Lfde921_end:
+Lfde922_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -103613,31 +103687,31 @@ Lfde921_end:
 
 	.byte 2,171,3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
-	.quad Lme_3dd
+	.quad Lme_3de
 
 	.byte 2,118,16,11
 	.asciz "V_0"
 
-LDIFF_SYM5784=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5784
+LDIFF_SYM5788=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5788
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5785=Lfde922_end - Lfde922_start
-	.long LDIFF_SYM5785
-Lfde922_start:
+LDIFF_SYM5789=Lfde923_end - Lfde923_start
+	.long LDIFF_SYM5789
+Lfde923_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
 
-LDIFF_SYM5786=Lme_3dd - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
-	.long LDIFF_SYM5786
+LDIFF_SYM5790=Lme_3de - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
+	.long LDIFF_SYM5790
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde922_end:
+Lfde923_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_310:
@@ -103646,124 +103720,85 @@ LTDIE_310:
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM5787=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM5787
+LDIFF_SYM5791=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM5791
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM5788=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5788
+LDIFF_SYM5792=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5792
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM5789=LTDIE_310 - Ldebug_info_start
-	.long LDIFF_SYM5789
+LDIFF_SYM5793=LTDIE_310 - Ldebug_info_start
+	.long LDIFF_SYM5793
 LTDIE_310_POINTER:
 
 	.byte 13
-LDIFF_SYM5790=LTDIE_310 - Ldebug_info_start
-	.long LDIFF_SYM5790
+LDIFF_SYM5794=LTDIE_310 - Ldebug_info_start
+	.long LDIFF_SYM5794
 LTDIE_310_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5791=LTDIE_310 - Ldebug_info_start
-	.long LDIFF_SYM5791
+LDIFF_SYM5795=LTDIE_310 - Ldebug_info_start
+	.long LDIFF_SYM5795
 LTDIE_309:
 
 	.byte 5
 	.asciz "_ConfiguredTaskAwaiter"
 
 	.byte 32,16
-LDIFF_SYM5792=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM5792
+LDIFF_SYM5796=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM5796
 	.byte 2,35,0,6
 	.asciz "m_task"
 
-LDIFF_SYM5793=LTDIE_310_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5793
+LDIFF_SYM5797=LTDIE_310_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5797
 	.byte 2,35,16,6
 	.asciz "m_continueOnCapturedContext"
 
-LDIFF_SYM5794=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM5794
+LDIFF_SYM5798=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM5798
 	.byte 2,35,24,0,7
 	.asciz "_ConfiguredTaskAwaiter"
 
-LDIFF_SYM5795=LTDIE_309 - Ldebug_info_start
-	.long LDIFF_SYM5795
+LDIFF_SYM5799=LTDIE_309 - Ldebug_info_start
+	.long LDIFF_SYM5799
 LTDIE_309_POINTER:
 
 	.byte 13
-LDIFF_SYM5796=LTDIE_309 - Ldebug_info_start
-	.long LDIFF_SYM5796
+LDIFF_SYM5800=LTDIE_309 - Ldebug_info_start
+	.long LDIFF_SYM5800
 LTDIE_309_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5797=LTDIE_309 - Ldebug_info_start
-	.long LDIFF_SYM5797
+LDIFF_SYM5801=LTDIE_309 - Ldebug_info_start
+	.long LDIFF_SYM5801
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<TResult_BOOL>:.ctor"
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL_bool"
 
 	.byte 7,188,3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL_bool
-	.quad Lme_3de
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM5798=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5798
-	.byte 2,141,16,3
-	.asciz "task"
-
-LDIFF_SYM5799=LTDIE_310_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5799
-	.byte 2,141,24,3
-	.asciz "continueOnCapturedContext"
-
-LDIFF_SYM5800=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM5800
-	.byte 2,141,32,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM5801=Lfde923_end - Lfde923_start
-	.long LDIFF_SYM5801
-Lfde923_start:
-
-	.long 0
-	.align 3
-	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL_bool
-
-LDIFF_SYM5802=Lme_3de - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL_bool
-	.long LDIFF_SYM5802
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde923_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Threading.Tasks.TaskCompletionSource`1<TResult_REF>:SpinUntilCompleted"
-	.asciz "System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_SpinUntilCompleted"
-
-	.byte 6,129,1
-	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_SpinUntilCompleted
 	.quad Lme_3df
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5803=LTDIE_282_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5803
-	.byte 2,141,16,11
-	.asciz "sw"
+LDIFF_SYM5802=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5802
+	.byte 2,141,16,3
+	.asciz "task"
 
-LDIFF_SYM5804=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM5803=LTDIE_310_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5803
+	.byte 2,141,24,3
+	.asciz "continueOnCapturedContext"
+
+LDIFF_SYM5804=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM5804
-	.byte 2,141,24,0
+	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -103773,9 +103808,9 @@ Lfde924_start:
 
 	.long 0
 	.align 3
-	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_SpinUntilCompleted
+	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL_bool
 
-LDIFF_SYM5806=Lme_3df - System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_SpinUntilCompleted
+LDIFF_SYM5806=Lme_3df - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_TResult_BOOL__ctor_System_Threading_Tasks_Task_1_TResult_BOOL_bool
 	.long LDIFF_SYM5806
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
@@ -103785,66 +103820,105 @@ Lfde924_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
+	.asciz "System.Threading.Tasks.TaskCompletionSource`1<TResult_REF>:SpinUntilCompleted"
+	.asciz "System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_SpinUntilCompleted"
+
+	.byte 6,129,1
+	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_SpinUntilCompleted
+	.quad Lme_3e0
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM5807=LTDIE_282_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5807
+	.byte 2,141,16,11
+	.asciz "sw"
+
+LDIFF_SYM5808=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5808
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM5809=Lfde925_end - Lfde925_start
+	.long LDIFF_SYM5809
+Lfde925_start:
+
+	.long 0
+	.align 3
+	.quad System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_SpinUntilCompleted
+
+LDIFF_SYM5810=Lme_3e0 - System_Threading_Tasks_TaskCompletionSource_1_TResult_REF_SpinUntilCompleted
+	.long LDIFF_SYM5810
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde925_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`1<System.Threading.Tasks.VoidTaskResult>:invoke_TResult"
 	.asciz "wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
-	.quad Lme_3e4
+	.quad Lme_3e5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5807=LTDIE_303_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5807
+LDIFF_SYM5811=LTDIE_303_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5811
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM5808=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5808
+LDIFF_SYM5812=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5812
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM5809=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5809
+LDIFF_SYM5813=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5813
 	.byte 1,106,11
 	.asciz "V_2"
 
-LDIFF_SYM5810=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5810
+LDIFF_SYM5814=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5814
 	.byte 1,105,11
 	.asciz "V_3"
 
-LDIFF_SYM5811=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5811
+LDIFF_SYM5815=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5815
 	.byte 1,103,11
 	.asciz "V_4"
 
-LDIFF_SYM5812=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5812
+LDIFF_SYM5816=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5816
 	.byte 1,105,11
 	.asciz "V_5"
 
-LDIFF_SYM5813=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5813
+LDIFF_SYM5817=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5817
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5814=Lfde925_end - Lfde925_start
-	.long LDIFF_SYM5814
-Lfde925_start:
+LDIFF_SYM5818=Lfde926_end - Lfde926_start
+	.long LDIFF_SYM5818
+Lfde926_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
 
-LDIFF_SYM5815=Lme_3e4 - wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
-	.long LDIFF_SYM5815
+LDIFF_SYM5819=Lme_3e5 - wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
+	.long LDIFF_SYM5819
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,153,10,154,9
 	.align 3
-Lfde925_end:
+Lfde926_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_311:
@@ -103853,64 +103927,64 @@ LTDIE_311:
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
 	.byte 24,16
-LDIFF_SYM5816=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM5816
+LDIFF_SYM5820=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM5820
 	.byte 2,35,0,6
 	.asciz "m_task"
 
-LDIFF_SYM5817=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5817
+LDIFF_SYM5821=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5821
 	.byte 2,35,16,0,7
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
-LDIFF_SYM5818=LTDIE_311 - Ldebug_info_start
-	.long LDIFF_SYM5818
+LDIFF_SYM5822=LTDIE_311 - Ldebug_info_start
+	.long LDIFF_SYM5822
 LTDIE_311_POINTER:
 
 	.byte 13
-LDIFF_SYM5819=LTDIE_311 - Ldebug_info_start
-	.long LDIFF_SYM5819
+LDIFF_SYM5823=LTDIE_311 - Ldebug_info_start
+	.long LDIFF_SYM5823
 LTDIE_311_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5820=LTDIE_311 - Ldebug_info_start
-	.long LDIFF_SYM5820
+LDIFF_SYM5824=LTDIE_311 - Ldebug_info_start
+	.long LDIFF_SYM5824
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult"
 
 	.byte 7,143,2
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_3e5
+	.quad Lme_3e6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5821=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5821
+LDIFF_SYM5825=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5825
 	.byte 2,141,16,3
 	.asciz "task"
 
-LDIFF_SYM5822=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5822
+LDIFF_SYM5826=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5826
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5823=Lfde926_end - Lfde926_start
-	.long LDIFF_SYM5823
-Lfde926_start:
+LDIFF_SYM5827=Lfde927_end - Lfde927_start
+	.long LDIFF_SYM5827
+Lfde927_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM5824=Lme_3e5 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM5824
+LDIFF_SYM5828=Lme_3e6 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM5828
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
 	.align 3
-Lfde926_end:
+Lfde927_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -103920,53 +103994,14 @@ Lfde926_end:
 
 	.byte 7,151,2
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
-	.quad Lme_3e6
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM5825=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5825
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM5826=Lfde927_end - Lfde927_start
-	.long LDIFF_SYM5826
-Lfde927_start:
-
-	.long 0
-	.align 3
-	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
-
-LDIFF_SYM5827=Lme_3e6 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
-	.long LDIFF_SYM5827
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde927_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.VoidTaskResult>:OnCompleted"
-	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action"
-
-	.byte 7,161,2
-	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
 	.quad Lme_3e7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5828=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5828
-	.byte 2,141,16,3
-	.asciz "continuation"
-
-LDIFF_SYM5829=LTDIE_28_REFERENCE - Ldebug_info_start
+LDIFF_SYM5829=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM5829
-	.byte 2,141,24,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -103976,23 +104011,23 @@ Lfde928_start:
 
 	.long 0
 	.align 3
-	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
+	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
 
-LDIFF_SYM5831=Lme_3e7 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
+LDIFF_SYM5831=Lme_3e7 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
 	.long LDIFF_SYM5831
 	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde928_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.VoidTaskResult>:UnsafeOnCompleted"
-	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action"
+	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.VoidTaskResult>:OnCompleted"
+	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action"
 
-	.byte 7,171,2
-	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
+	.byte 7,161,2
+	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
 	.quad Lme_3e8
 
 	.byte 2,118,16,3
@@ -104015,9 +104050,9 @@ Lfde929_start:
 
 	.long 0
 	.align 3
-	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
+	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
 
-LDIFF_SYM5835=Lme_3e8 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
+LDIFF_SYM5835=Lme_3e8 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
 	.long LDIFF_SYM5835
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -104027,11 +104062,11 @@ Lfde929_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.VoidTaskResult>:GetResult"
-	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult"
+	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.VoidTaskResult>:UnsafeOnCompleted"
+	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action"
 
-	.byte 7,182,2
-	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
+	.byte 7,171,2
+	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
 	.quad Lme_3e9
 
 	.byte 2,118,16,3
@@ -104039,24 +104074,63 @@ Lfde929_end:
 
 LDIFF_SYM5836=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM5836
+	.byte 2,141,16,3
+	.asciz "continuation"
+
+LDIFF_SYM5837=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5837
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM5838=Lfde930_end - Lfde930_start
+	.long LDIFF_SYM5838
+Lfde930_start:
+
+	.long 0
+	.align 3
+	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
+
+LDIFF_SYM5839=Lme_3e9 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
+	.long LDIFF_SYM5839
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde930_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.VoidTaskResult>:GetResult"
+	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult"
+
+	.byte 7,182,2
+	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
+	.quad Lme_3ea
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM5840=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5840
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5837=Lfde930_end - Lfde930_start
-	.long LDIFF_SYM5837
-Lfde930_start:
+LDIFF_SYM5841=Lfde931_end - Lfde931_start
+	.long LDIFF_SYM5841
+Lfde931_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
 
-LDIFF_SYM5838=Lme_3e9 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
-	.long LDIFF_SYM5838
+LDIFF_SYM5842=Lme_3ea - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
+	.long LDIFF_SYM5842
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde930_end:
+Lfde931_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_312:
@@ -104065,69 +104139,69 @@ LTDIE_312:
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable`1"
 
 	.byte 32,16
-LDIFF_SYM5839=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM5839
+LDIFF_SYM5843=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM5843
 	.byte 2,35,0,6
 	.asciz "m_configuredTaskAwaiter"
 
-LDIFF_SYM5840=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5840
+LDIFF_SYM5844=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5844
 	.byte 2,35,16,0,7
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable`1"
 
-LDIFF_SYM5841=LTDIE_312 - Ldebug_info_start
-	.long LDIFF_SYM5841
+LDIFF_SYM5845=LTDIE_312 - Ldebug_info_start
+	.long LDIFF_SYM5845
 LTDIE_312_POINTER:
 
 	.byte 13
-LDIFF_SYM5842=LTDIE_312 - Ldebug_info_start
-	.long LDIFF_SYM5842
+LDIFF_SYM5846=LTDIE_312 - Ldebug_info_start
+	.long LDIFF_SYM5846
 LTDIE_312_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5843=LTDIE_312 - Ldebug_info_start
-	.long LDIFF_SYM5843
+LDIFF_SYM5847=LTDIE_312 - Ldebug_info_start
+	.long LDIFF_SYM5847
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool"
 
 	.byte 7,161,3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.quad Lme_3ea
+	.quad Lme_3eb
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5844=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5844
+LDIFF_SYM5848=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5848
 	.byte 2,141,16,3
 	.asciz "task"
 
-LDIFF_SYM5845=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5845
+LDIFF_SYM5849=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5849
 	.byte 2,141,24,3
 	.asciz "continueOnCapturedContext"
 
-LDIFF_SYM5846=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM5846
+LDIFF_SYM5850=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM5850
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5847=Lfde931_end - Lfde931_start
-	.long LDIFF_SYM5847
-Lfde931_start:
+LDIFF_SYM5851=Lfde932_end - Lfde932_start
+	.long LDIFF_SYM5851
+Lfde932_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 
-LDIFF_SYM5848=Lme_3ea - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.long LDIFF_SYM5848
+LDIFF_SYM5852=Lme_3eb - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+	.long LDIFF_SYM5852
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde931_end:
+Lfde932_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -104137,31 +104211,31 @@ Lfde931_end:
 
 	.byte 7,168,3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
-	.quad Lme_3eb
+	.quad Lme_3ec
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5849=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5849
+LDIFF_SYM5853=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5853
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5850=Lfde932_end - Lfde932_start
-	.long LDIFF_SYM5850
-Lfde932_start:
+LDIFF_SYM5854=Lfde933_end - Lfde933_start
+	.long LDIFF_SYM5854
+Lfde933_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
 
-LDIFF_SYM5851=Lme_3eb - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
-	.long LDIFF_SYM5851
+LDIFF_SYM5855=Lme_3ec - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
+	.long LDIFF_SYM5855
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde932_end:
+Lfde933_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_313:
@@ -104170,74 +104244,74 @@ LTDIE_313:
 	.asciz "_ConfiguredTaskAwaiter"
 
 	.byte 32,16
-LDIFF_SYM5852=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM5852
+LDIFF_SYM5856=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM5856
 	.byte 2,35,0,6
 	.asciz "m_task"
 
-LDIFF_SYM5853=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5853
+LDIFF_SYM5857=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5857
 	.byte 2,35,16,6
 	.asciz "m_continueOnCapturedContext"
 
-LDIFF_SYM5854=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM5854
+LDIFF_SYM5858=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM5858
 	.byte 2,35,24,0,7
 	.asciz "_ConfiguredTaskAwaiter"
 
-LDIFF_SYM5855=LTDIE_313 - Ldebug_info_start
-	.long LDIFF_SYM5855
+LDIFF_SYM5859=LTDIE_313 - Ldebug_info_start
+	.long LDIFF_SYM5859
 LTDIE_313_POINTER:
 
 	.byte 13
-LDIFF_SYM5856=LTDIE_313 - Ldebug_info_start
-	.long LDIFF_SYM5856
+LDIFF_SYM5860=LTDIE_313 - Ldebug_info_start
+	.long LDIFF_SYM5860
 LTDIE_313_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5857=LTDIE_313 - Ldebug_info_start
-	.long LDIFF_SYM5857
+LDIFF_SYM5861=LTDIE_313 - Ldebug_info_start
+	.long LDIFF_SYM5861
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool"
 
 	.byte 7,188,3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.quad Lme_3ec
+	.quad Lme_3ed
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5858=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5858
+LDIFF_SYM5862=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5862
 	.byte 2,141,16,3
 	.asciz "task"
 
-LDIFF_SYM5859=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5859
+LDIFF_SYM5863=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5863
 	.byte 2,141,24,3
 	.asciz "continueOnCapturedContext"
 
-LDIFF_SYM5860=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM5860
+LDIFF_SYM5864=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM5864
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5861=Lfde933_end - Lfde933_start
-	.long LDIFF_SYM5861
-Lfde933_start:
+LDIFF_SYM5865=Lfde934_end - Lfde934_start
+	.long LDIFF_SYM5865
+Lfde934_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 
-LDIFF_SYM5862=Lme_3ec - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.long LDIFF_SYM5862
+LDIFF_SYM5866=Lme_3ed - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+	.long LDIFF_SYM5866
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde933_end:
+Lfde934_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -104247,53 +104321,14 @@ Lfde933_end:
 
 	.byte 7,197,3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
-	.quad Lme_3ed
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM5863=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5863
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM5864=Lfde934_end - Lfde934_start
-	.long LDIFF_SYM5864
-Lfde934_start:
-
-	.long 0
-	.align 3
-	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
-
-LDIFF_SYM5865=Lme_3ed - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
-	.long LDIFF_SYM5865
-	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
-	.align 3
-Lfde934_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Threading.Tasks.VoidTaskResult>:OnCompleted"
-	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action"
-
-	.byte 7,207,3
-	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
 	.quad Lme_3ee
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5866=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM5866
-	.byte 2,141,16,3
-	.asciz "continuation"
-
-LDIFF_SYM5867=LTDIE_28_REFERENCE - Ldebug_info_start
+LDIFF_SYM5867=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM5867
-	.byte 2,141,24,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -104303,23 +104338,23 @@ Lfde935_start:
 
 	.long 0
 	.align 3
-	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
+	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
 
-LDIFF_SYM5869=Lme_3ee - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
+LDIFF_SYM5869=Lme_3ee - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
 	.long LDIFF_SYM5869
 	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde935_end:
 
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Threading.Tasks.VoidTaskResult>:UnsafeOnCompleted"
-	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action"
+	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Threading.Tasks.VoidTaskResult>:OnCompleted"
+	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action"
 
-	.byte 7,217,3
-	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
+	.byte 7,207,3
+	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
 	.quad Lme_3ef
 
 	.byte 2,118,16,3
@@ -104342,9 +104377,9 @@ Lfde936_start:
 
 	.long 0
 	.align 3
-	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
+	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
 
-LDIFF_SYM5873=Lme_3ef - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
+LDIFF_SYM5873=Lme_3ef - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
 	.long LDIFF_SYM5873
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -104354,11 +104389,11 @@ Lfde936_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Threading.Tasks.VoidTaskResult>:GetResult"
-	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult"
+	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Threading.Tasks.VoidTaskResult>:UnsafeOnCompleted"
+	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action"
 
-	.byte 7,228,3
-	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
+	.byte 7,217,3
+	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
 	.quad Lme_3f0
 
 	.byte 2,118,16,3
@@ -104366,24 +104401,63 @@ Lfde936_end:
 
 LDIFF_SYM5874=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM5874
+	.byte 2,141,16,3
+	.asciz "continuation"
+
+LDIFF_SYM5875=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5875
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM5876=Lfde937_end - Lfde937_start
+	.long LDIFF_SYM5876
+Lfde937_start:
+
+	.long 0
+	.align 3
+	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
+
+LDIFF_SYM5877=Lme_3f0 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
+	.long LDIFF_SYM5877
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde937_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Threading.Tasks.VoidTaskResult>:GetResult"
+	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult"
+
+	.byte 7,228,3
+	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
+	.quad Lme_3f1
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM5878=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM5878
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5875=Lfde937_end - Lfde937_start
-	.long LDIFF_SYM5875
-Lfde937_start:
+LDIFF_SYM5879=Lfde938_end - Lfde938_start
+	.long LDIFF_SYM5879
+Lfde938_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
 
-LDIFF_SYM5876=Lme_3f0 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
-	.long LDIFF_SYM5876
+LDIFF_SYM5880=Lme_3f1 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
+	.long LDIFF_SYM5880
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde937_end:
+Lfde938_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -104393,61 +104467,61 @@ Lfde937_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_3f1
+	.quad Lme_3f2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5877=LTDIE_305_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5877
+LDIFF_SYM5881=LTDIE_305_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5881
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM5878=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5878
+LDIFF_SYM5882=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5882
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM5879=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5879
+LDIFF_SYM5883=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5883
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM5880=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5880
+LDIFF_SYM5884=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5884
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM5881=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5881
+LDIFF_SYM5885=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5885
 	.byte 1,104,11
 	.asciz "V_3"
 
-LDIFF_SYM5882=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5882
+LDIFF_SYM5886=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5886
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM5883=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5883
+LDIFF_SYM5887=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5887
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5884=Lfde938_end - Lfde938_start
-	.long LDIFF_SYM5884
-Lfde938_start:
+LDIFF_SYM5888=Lfde939_end - Lfde939_start
+	.long LDIFF_SYM5888
+Lfde939_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM5885=Lme_3f1 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM5885
+LDIFF_SYM5889=Lme_3f2 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM5889
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,150,8,151,7,68,152,6,153,5,68,154,4
 	.align 3
-Lfde938_end:
+Lfde939_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_314:
@@ -104456,89 +104530,89 @@ LTDIE_314:
 	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask`1"
 
 	.byte 80,16
-LDIFF_SYM5886=LTDIE_67 - Ldebug_info_start
-	.long LDIFF_SYM5886
+LDIFF_SYM5890=LTDIE_67 - Ldebug_info_start
+	.long LDIFF_SYM5890
 	.byte 2,35,0,6
 	.asciz "m_antecedent"
 
-LDIFF_SYM5887=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5887
+LDIFF_SYM5891=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5891
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask`1"
 
-LDIFF_SYM5888=LTDIE_314 - Ldebug_info_start
-	.long LDIFF_SYM5888
+LDIFF_SYM5892=LTDIE_314 - Ldebug_info_start
+	.long LDIFF_SYM5892
 LTDIE_314_POINTER:
 
 	.byte 13
-LDIFF_SYM5889=LTDIE_314 - Ldebug_info_start
-	.long LDIFF_SYM5889
+LDIFF_SYM5893=LTDIE_314 - Ldebug_info_start
+	.long LDIFF_SYM5893
 LTDIE_314_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5890=LTDIE_314 - Ldebug_info_start
-	.long LDIFF_SYM5890
+LDIFF_SYM5894=LTDIE_314 - Ldebug_info_start
+	.long LDIFF_SYM5894
 	.byte 2
 	.asciz "System.Threading.Tasks.ContinuationTaskFromResultTask`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions"
 
 	.byte 8,130,1
 	.quad System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
-	.quad Lme_3f2
+	.quad Lme_3f3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5891=LTDIE_314_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5891
+LDIFF_SYM5895=LTDIE_314_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5895
 	.byte 1,101,3
 	.asciz "antecedent"
 
-LDIFF_SYM5892=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5892
+LDIFF_SYM5896=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5896
 	.byte 2,141,40,3
 	.asciz "action"
 
-LDIFF_SYM5893=LTDIE_8_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5893
+LDIFF_SYM5897=LTDIE_8_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5897
 	.byte 2,141,48,3
 	.asciz "state"
 
-LDIFF_SYM5894=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5894
+LDIFF_SYM5898=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5898
 	.byte 1,104,3
 	.asciz "creationOptions"
 
-LDIFF_SYM5895=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM5895
+LDIFF_SYM5899=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM5899
 	.byte 2,141,56,3
 	.asciz "internalOptions"
 
-LDIFF_SYM5896=LTDIE_232 - Ldebug_info_start
-	.long LDIFF_SYM5896
+LDIFF_SYM5900=LTDIE_232 - Ldebug_info_start
+	.long LDIFF_SYM5900
 	.byte 3,141,192,0,11
 	.asciz "V_0"
 
-LDIFF_SYM5897=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5897
+LDIFF_SYM5901=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5901
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5898=Lfde939_end - Lfde939_start
-	.long LDIFF_SYM5898
-Lfde939_start:
+LDIFF_SYM5902=Lfde940_end - Lfde940_start
+	.long LDIFF_SYM5902
+Lfde940_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
 
-LDIFF_SYM5899=Lme_3f2 - System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
-	.long LDIFF_SYM5899
+LDIFF_SYM5903=Lme_3f3 - System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
+	.long LDIFF_SYM5903
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,68,151,11,152,10
 	.align 3
-Lfde939_end:
+Lfde940_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_315:
@@ -104547,69 +104621,69 @@ LTDIE_315:
 	.asciz "System_Action`2"
 
 	.byte 112,16
-LDIFF_SYM5900=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM5900
+LDIFF_SYM5904=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM5904
 	.byte 2,35,0,0,7
 	.asciz "System_Action`2"
 
-LDIFF_SYM5901=LTDIE_315 - Ldebug_info_start
-	.long LDIFF_SYM5901
+LDIFF_SYM5905=LTDIE_315 - Ldebug_info_start
+	.long LDIFF_SYM5905
 LTDIE_315_POINTER:
 
 	.byte 13
-LDIFF_SYM5902=LTDIE_315 - Ldebug_info_start
-	.long LDIFF_SYM5902
+LDIFF_SYM5906=LTDIE_315 - Ldebug_info_start
+	.long LDIFF_SYM5906
 LTDIE_315_REFERENCE:
 
 	.byte 14
-LDIFF_SYM5903=LTDIE_315 - Ldebug_info_start
-	.long LDIFF_SYM5903
+LDIFF_SYM5907=LTDIE_315 - Ldebug_info_start
+	.long LDIFF_SYM5907
 	.byte 2
 	.asciz "System.Threading.Tasks.ContinuationTaskFromResultTask`1<System.Threading.Tasks.VoidTaskResult>:InnerInvoke"
 	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke"
 
 	.byte 8,145,1
 	.quad System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
-	.quad Lme_3f3
+	.quad Lme_3f4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5904=LTDIE_314_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5904
+LDIFF_SYM5908=LTDIE_314_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5908
 	.byte 1,106,11
 	.asciz "antecedent"
 
-LDIFF_SYM5905=LTDIE_302_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5905
+LDIFF_SYM5909=LTDIE_302_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5909
 	.byte 1,105,11
 	.asciz "action"
 
-LDIFF_SYM5906=LTDIE_305_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5906
+LDIFF_SYM5910=LTDIE_305_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5910
 	.byte 1,104,11
 	.asciz "actionWithState"
 
-LDIFF_SYM5907=LTDIE_315_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5907
+LDIFF_SYM5911=LTDIE_315_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5911
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5908=Lfde940_end - Lfde940_start
-	.long LDIFF_SYM5908
-Lfde940_start:
+LDIFF_SYM5912=Lfde941_end - Lfde941_start
+	.long LDIFF_SYM5912
+Lfde941_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
 
-LDIFF_SYM5909=Lme_3f3 - System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
-	.long LDIFF_SYM5909
+LDIFF_SYM5913=Lme_3f4 - System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
+	.long LDIFF_SYM5913
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,152,4,153,3,68,154,2
 	.align 3
-Lfde940_end:
+Lfde941_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -104619,66 +104693,66 @@ Lfde940_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
-	.quad Lme_3f8
+	.quad Lme_3f9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5910=LTDIE_304_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5910
+LDIFF_SYM5914=LTDIE_304_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5914
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM5911=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5911
+LDIFF_SYM5915=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5915
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM5912=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5912
+LDIFF_SYM5916=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5916
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM5913=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5913
+LDIFF_SYM5917=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5917
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM5914=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5914
+LDIFF_SYM5918=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5918
 	.byte 1,104,11
 	.asciz "V_3"
 
-LDIFF_SYM5915=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5915
+LDIFF_SYM5919=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5919
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM5916=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5916
+LDIFF_SYM5920=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5920
 	.byte 1,104,11
 	.asciz "V_5"
 
-LDIFF_SYM5917=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5917
+LDIFF_SYM5921=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5921
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5918=Lfde941_end - Lfde941_start
-	.long LDIFF_SYM5918
-Lfde941_start:
+LDIFF_SYM5922=Lfde942_end - Lfde942_start
+	.long LDIFF_SYM5922
+Lfde942_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
 
-LDIFF_SYM5919=Lme_3f8 - wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
-	.long LDIFF_SYM5919
+LDIFF_SYM5923=Lme_3f9 - wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
+	.long LDIFF_SYM5923
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12,151,11,68,152,10,153,9,68,154,8
 	.align 3
-Lfde941_end:
+Lfde942_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -104688,66 +104762,66 @@ Lfde941_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
-	.quad Lme_3fd
+	.quad Lme_3fe
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5920=LTDIE_307_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5920
+LDIFF_SYM5924=LTDIE_307_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5924
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM5921=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5921
+LDIFF_SYM5925=LTDIE_219_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5925
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM5922=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5922
+LDIFF_SYM5926=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5926
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM5923=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5923
+LDIFF_SYM5927=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5927
 	.byte 1,105,11
 	.asciz "V_2"
 
-LDIFF_SYM5924=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5924
+LDIFF_SYM5928=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5928
 	.byte 1,104,11
 	.asciz "V_3"
 
-LDIFF_SYM5925=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5925
+LDIFF_SYM5929=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM5929
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM5926=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM5926
+LDIFF_SYM5930=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM5930
 	.byte 1,104,11
 	.asciz "V_5"
 
-LDIFF_SYM5927=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5927
+LDIFF_SYM5931=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5931
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM5928=Lfde942_end - Lfde942_start
-	.long LDIFF_SYM5928
-Lfde942_start:
+LDIFF_SYM5932=Lfde943_end - Lfde943_start
+	.long LDIFF_SYM5932
+Lfde943_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
 
-LDIFF_SYM5929=Lme_3fd - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM5929
+LDIFF_SYM5933=Lme_3fe - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM5933
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12,151,11,68,152,10,153,9,68,154,8
 	.align 3
-Lfde942_end:
+Lfde943_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -104757,53 +104831,14 @@ Lfde942_end:
 
 	.byte 0,0
 	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
-	.quad Lme_3fe
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM5930=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM5930
-	.byte 0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM5931=Lfde943_end - Lfde943_start
-	.long LDIFF_SYM5931
-Lfde943_start:
-
-	.long 0
-	.align 3
-	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
-
-LDIFF_SYM5932=Lme_3fe - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
-	.long LDIFF_SYM5932
-	.long 0
-	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
-	.align 3
-Lfde943_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Threading.Tasks.TaskFactory`1/<>c__DisplayClass35_0<System.Threading.Tasks.VoidTaskResult>:<FromAsyncImpl>b__0"
-	.asciz "System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult"
-
-	.byte 4,150,6
-	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
 	.quad Lme_3ff
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM5933=LTDIE_308_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM5933
-	.byte 2,141,16,3
-	.asciz "iar"
-
-LDIFF_SYM5934=LTDIE_219_REFERENCE - Ldebug_info_start
+LDIFF_SYM5934=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM5934
-	.byte 2,141,24,0
+	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -104813,9 +104848,9 @@ Lfde944_start:
 
 	.long 0
 	.align 3
-	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
+	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
 
-LDIFF_SYM5936=Lme_3ff - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
+LDIFF_SYM5936=Lme_3ff - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
 	.long LDIFF_SYM5936
 	.long 0
 	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
@@ -104825,24 +104860,24 @@ Lfde944_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Runtime.CompilerServices.AsyncTaskCache:CreateCacheableTask<System.Threading.Tasks.VoidTaskResult>"
-	.asciz "System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult"
+	.asciz "System.Threading.Tasks.TaskFactory`1/<>c__DisplayClass35_0<System.Threading.Tasks.VoidTaskResult>:<FromAsyncImpl>b__0"
+	.asciz "System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult"
 
-	.byte 2,198,6
-	.quad System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
+	.byte 4,150,6
+	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
 	.quad Lme_400
 
 	.byte 2,118,16,3
-	.asciz "result"
+	.asciz "this"
 
-LDIFF_SYM5937=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM5937=LTDIE_308_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM5937
-	.byte 2,141,16,11
-	.asciz "V_0"
+	.byte 2,141,16,3
+	.asciz "iar"
 
-LDIFF_SYM5938=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM5938=LTDIE_219_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM5938
-	.byte 0,0
+	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -104852,14 +104887,53 @@ Lfde945_start:
 
 	.long 0
 	.align 3
+	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
+
+LDIFF_SYM5940=Lme_400 - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
+	.long LDIFF_SYM5940
+	.long 0
+	.byte 12,31,0,68,14,32,157,4,158,3,68,13,29
+	.align 3
+Lfde945_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.AsyncTaskCache:CreateCacheableTask<System.Threading.Tasks.VoidTaskResult>"
+	.asciz "System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult"
+
+	.byte 2,198,6
+	.quad System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
+	.quad Lme_401
+
+	.byte 2,118,16,3
+	.asciz "result"
+
+LDIFF_SYM5941=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5941
+	.byte 2,141,16,11
+	.asciz "V_0"
+
+LDIFF_SYM5942=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM5942
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM5943=Lfde946_end - Lfde946_start
+	.long LDIFF_SYM5943
+Lfde946_start:
+
+	.long 0
+	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM5940=Lme_400 - System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM5940
+LDIFF_SYM5944=Lme_401 - System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM5944
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde945_end:
+Lfde946_end:
 
 .section __DWARF, __debug_info,regular,debug
 

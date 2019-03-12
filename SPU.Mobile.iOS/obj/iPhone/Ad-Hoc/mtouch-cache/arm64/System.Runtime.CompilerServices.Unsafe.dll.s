@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.14.0 (explicit/000780ca82c Fri Jan 11 12:38:08 EST 2019)"
+	.asciz "Mono AOT Compiler 5.14.0 (explicit/b538187892a Fri Feb  1 12:00:36 EST 2019)"
 	.asciz "System.Runtime.CompilerServices.Unsafe.dll"
 	.asciz ""
 
@@ -1737,7 +1737,7 @@ _mono_aot_file_info:
 	.long 96,1200,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 43,57,26,67,189,255,79,21,94,176,200,238,212,50,4,237
+	.byte 232,10,60,103,74,148,173,130,51,237,68,194,235,162,121,211
 	.globl _mono_aot_module_System_Runtime_CompilerServices_Unsafe_info
 	.align 3
 _mono_aot_module_System_Runtime_CompilerServices_Unsafe_info:

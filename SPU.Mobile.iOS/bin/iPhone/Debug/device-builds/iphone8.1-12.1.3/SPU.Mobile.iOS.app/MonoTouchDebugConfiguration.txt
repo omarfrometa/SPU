@@ -1,8 +1,0 @@
-IP: 10.0.0.3
-IP: fe80::497:c99c:e806:f26b
-IP: fe80::347f:ceff:fe6f:80b1
-IP: fe80::e926:f399:b33c:4876
-IP: fe80::1ce2:b6cd:3a17:411e
-IP: fe80::c797:d85f:3b8:7890
-IP: fe80::1319:c524:eb49:1f81
-Port: 10000

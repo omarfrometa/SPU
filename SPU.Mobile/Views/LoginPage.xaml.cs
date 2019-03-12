@@ -10,6 +10,9 @@ namespace SPU.Mobile.Views
         public LoginPage()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
+            NavigationPage.SetHasBackButton(this, false);
+            NavigationPage.SetBackButtonTitle(this, "Login");
         }
     }
 }

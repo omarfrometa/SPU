@@ -18,6 +18,9 @@ extern void *mono_aot_module_System_ServiceModel_Internals_info;
 extern void *mono_aot_module_System_Web_Services_info;
 extern void *mono_aot_module_System_Xml_Linq_info;
 extern void *mono_aot_module_Xamarin_Forms_Platform_info;
+extern void *mono_aot_module_Firebase_CloudMessaging_info;
+extern void *mono_aot_module_Firebase_Core_info;
+extern void *mono_aot_module_Firebase_InstanceID_info;
 extern void *mono_aot_module_Prism_Forms_info;
 extern void *mono_aot_module_Prism_info;
 extern void *mono_aot_module_Syncfusion_Core_XForms_iOS_info;
@@ -35,11 +38,17 @@ extern void *mono_aot_module_Realm_info;
 extern void *mono_aot_module_Remotion_Linq_info;
 extern void *mono_aot_module_System_Reflection_TypeExtensions_info;
 extern void *mono_aot_module_System_Runtime_CompilerServices_Unsafe_info;
+extern void *mono_aot_module_Plugin_FirebasePushNotification_Abstractions_info;
 extern void *mono_aot_module_Acr_UserDialogs_info;
 extern void *mono_aot_module_BTProgressHUD_info;
+extern void *mono_aot_module_Plugin_FilePicker_Abstractions_info;
+extern void *mono_aot_module_Plugin_Media_info;
+extern void *mono_aot_module_Plugin_Permissions_info;
 extern void *mono_aot_module_Newtonsoft_Json_info;
 extern void *mono_aot_module_Microsoft_CSharp_info;
+extern void *mono_aot_module_Plugin_FirebasePushNotification_info;
 extern void *mono_aot_module_Xamarin_Essentials_info;
+extern void *mono_aot_module_Plugin_FilePicker_info;
 extern void *mono_aot_module_Realm_DataBinding_info;
 
 void xamarin_register_modules_impl ()
@@ -62,6 +71,9 @@ void xamarin_register_modules_impl ()
 	mono_aot_register_module (mono_aot_module_System_Web_Services_info);
 	mono_aot_register_module (mono_aot_module_System_Xml_Linq_info);
 	mono_aot_register_module (mono_aot_module_Xamarin_Forms_Platform_info);
+	mono_aot_register_module (mono_aot_module_Firebase_CloudMessaging_info);
+	mono_aot_register_module (mono_aot_module_Firebase_Core_info);
+	mono_aot_register_module (mono_aot_module_Firebase_InstanceID_info);
 	mono_aot_register_module (mono_aot_module_Prism_Forms_info);
 	mono_aot_register_module (mono_aot_module_Prism_info);
 	mono_aot_register_module (mono_aot_module_Syncfusion_Core_XForms_iOS_info);
@@ -79,11 +91,17 @@ void xamarin_register_modules_impl ()
 	mono_aot_register_module (mono_aot_module_Remotion_Linq_info);
 	mono_aot_register_module (mono_aot_module_System_Reflection_TypeExtensions_info);
 	mono_aot_register_module (mono_aot_module_System_Runtime_CompilerServices_Unsafe_info);
+	mono_aot_register_module (mono_aot_module_Plugin_FirebasePushNotification_Abstractions_info);
 	mono_aot_register_module (mono_aot_module_Acr_UserDialogs_info);
 	mono_aot_register_module (mono_aot_module_BTProgressHUD_info);
+	mono_aot_register_module (mono_aot_module_Plugin_FilePicker_Abstractions_info);
+	mono_aot_register_module (mono_aot_module_Plugin_Media_info);
+	mono_aot_register_module (mono_aot_module_Plugin_Permissions_info);
 	mono_aot_register_module (mono_aot_module_Newtonsoft_Json_info);
 	mono_aot_register_module (mono_aot_module_Microsoft_CSharp_info);
+	mono_aot_register_module (mono_aot_module_Plugin_FirebasePushNotification_info);
 	mono_aot_register_module (mono_aot_module_Xamarin_Essentials_info);
+	mono_aot_register_module (mono_aot_module_Plugin_FilePicker_info);
 	mono_aot_register_module (mono_aot_module_Realm_DataBinding_info);
 
 }
@@ -92,6 +110,12 @@ void xamarin_register_assemblies_impl ()
 {
 	guint32 exception_gchandle = 0;
 	xamarin_open_and_register ("Xamarin.Forms.Platform.iOS.dll", &exception_gchandle);
+	xamarin_process_managed_exception_gchandle (exception_gchandle);
+	xamarin_open_and_register ("Firebase.CloudMessaging.dll", &exception_gchandle);
+	xamarin_process_managed_exception_gchandle (exception_gchandle);
+	xamarin_open_and_register ("Firebase.Core.dll", &exception_gchandle);
+	xamarin_process_managed_exception_gchandle (exception_gchandle);
+	xamarin_open_and_register ("Firebase.InstanceID.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
 	xamarin_open_and_register ("Syncfusion.Core.XForms.iOS.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
@@ -103,7 +127,13 @@ void xamarin_register_assemblies_impl ()
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
 	xamarin_open_and_register ("BTProgressHUD.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
+	xamarin_open_and_register ("Plugin.Media.dll", &exception_gchandle);
+	xamarin_process_managed_exception_gchandle (exception_gchandle);
+	xamarin_open_and_register ("Plugin.FirebasePushNotification.dll", &exception_gchandle);
+	xamarin_process_managed_exception_gchandle (exception_gchandle);
 	xamarin_open_and_register ("Xamarin.Essentials.dll", &exception_gchandle);
+	xamarin_process_managed_exception_gchandle (exception_gchandle);
+	xamarin_open_and_register ("Plugin.FilePicker.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
 
 }

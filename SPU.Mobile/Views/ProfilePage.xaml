@@ -5,6 +5,9 @@
              xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
              Title="Mi Perfil"
              IsBusy="{Binding IsBusy}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="inicio.png" Priority="1"/>
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <TableView Intent="Form" HasUnevenRows="true">
             <TableRoot>
@@ -89,7 +92,7 @@
                                <StackLayout Padding="10" Grid.Row="0" Grid.Column="1">
                                     <Label Text="Mis casos" StyleClass="ProfileOptionLabel"/>
                                     <StackLayout.GestureRecognizers>
-                                       <TapGestureRecognizer Command="{Binding GoToMyCasesCommand}"/>
+                                       <TapGestureRecognizer Command="{Binding GoToMyClaimsCommand}"/>
                                     </StackLayout.GestureRecognizers>
                                 </StackLayout>
                                 <BoxView Grid.Row="1" Grid.ColumnSpan="2" HeightRequest="0.3" Margin="10,0,0,0"

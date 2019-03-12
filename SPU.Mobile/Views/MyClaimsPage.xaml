@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="SPU.Mobile.Views.MyClaimsPage"
+             xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+             x:Name="claimspage"
+             Title="{Binding Title}">
+   <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="inicio.png" Priority="1"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <Grid>
+           <!-- <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>-->
+            <StackLayout IsVisible="{Binding HasNoData}" Padding="30,0" VerticalOptions="CenterAndExpand">
+                <Image Source="reclamacioni" HorizontalOptions="CenterAndExpand" HeightRequest="{OnIdiom Phone=60,Tablet=85}" Aspect="AspectFit"/>
+                <Label TextColor="{StaticResource SPUColor}" FontSize="{OnIdiom Phone=25,Tablet=35}" Text="No hay Reclamaciones Disponibles"
+                       VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+            </StackLayout>
+            <ListView Grid.Row="0" ItemsSource="{Binding MyClaims}" IsVisible="{Binding HasData}" IsRefreshing="{Binding IsBusy}" SelectedItem="{Binding ClaimSelected}" 
+                              BackgroundColor="Transparent" SeparatorVisibility="None" HasUnevenRows="true" ItemSelected="Handle_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="20,15,10,0" RowSpacing="5">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="1"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="65"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <border:SfBorder BorderColor="{StaticResource SPUTags}" VerticalOptions="CenterAndExpand" CornerRadius="{OnIdiom Phone=50,Tablet=60}" 
+                                     HorizontalOptions="CenterAndExpand" Grid.RowSpan="3"  BorderWidth="1">
+                                    <StackLayout BackgroundColor="{StaticResource SPUTags}" HeightRequest="{OnIdiom Phone=25,Tablet=30}" WidthRequest="{OnIdiom Phone=25,Tablet=30}">
+                                        <Label Text="{Binding RowCount}" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"
+                                               FontAttributes="Bold" TextColor="White"/>
+                                    </StackLayout>
+                                </border:SfBorder>
+                                
+                                <StackLayout Orientation="Horizontal" Grid.Row="0" Grid.Column="1">
+                                    <Label  Text="No. de caso:" StyleClass="ImportantLabel"/>
+                                    <Label Text="{Binding ClaimNo}" StyleClass="SpuLabel" TextColor="{StaticResource BlueColor}"/>
+                                </StackLayout>
+                                
+                                <StackLayout Orientation="Horizontal" Grid.Row="1" Grid.Column="1">
+                                    <Label  Text="Motivo:" StyleClass="ImportantLabel"/>
+                                    <Label Text="{Binding ClaimMotiveTypeDescription}" StyleClass="SpuLabel" TextColor="{StaticResource BlueColor}"/>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal" Grid.Row="2" Grid.Column="1">
+                                    <Label  Text="Estatus:" StyleClass="ImportantLabel"/>
+                                    <Label Text="{Binding ClaimEstatus}" StyleClass="SpuLabel" TextColor="{StaticResource RedColor}"/>
+                                </StackLayout>
+                               <!-- <Label Grid.Row="1" Text="{Binding ProviderTicketNo}" VerticalTextAlignment="Center" 
+                                       FontSize="{OnIdiom Phone=16,Tablet=20}" TextColor="Green"/>-->
+                                <!--<Label Grid.Row="1" Text="Pendiente Docu" VerticalTextAlignment="Center" 
+                                       FontSize="{OnIdiom Phone=16,Tablet=20}" TextColor="DarkRed"/>-->
+                                
+                                <BoxView Grid.Row="3" Margin="5,0,8,0" Grid.ColumnSpan="2"  HeightRequest="0.5" HorizontalOptions="FillAndExpand" 
+                                                 BackgroundColor="{StaticResource SPUColor}" VerticalOptions="EndAndExpand"/>
+                                
+                                <!--<StackLayout Grid.Column="1" IsVisible="{Binding ShowBtnCompletar}" Grid.RowSpan="3">
+                                    <Label Text="Completar" VerticalTextAlignment="Center" Margin="0,3,0,0"
+                                       FontSize="{OnIdiom Phone=16,Tablet=20}" HorizontalTextAlignment="Center" TextColor="Green"/>
+                                    <StackLayout.GestureRecognizers>
+                                        <TapGestureRecognizer  Command="{Binding Path=BindingContext.CompleteTheProcessCommand, Source={x:Reference claimspage}}" 
+                                                CommandParameter="{Binding .}" />
+                                    </StackLayout.GestureRecognizers>
+                                </StackLayout>-->
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+            <StackLayout VerticalOptions="EndAndExpand" Spacing="0" HorizontalOptions="EndAndExpand" Margin="0,0,20,20">
+                <Image Source="masreclama.png" HorizontalOptions="CenterAndExpand" VerticalOptions="End" HeightRequest="{OnIdiom Phone=50,Tablet=80}" Aspect="AspectFill"/>
+                <Label TextColor="{StaticResource SPUColor}" FontSize="{OnIdiom Phone=12,Tablet=18}" Text="Nueva reclamacion" VerticalTextAlignment="Start" HorizontalTextAlignment="Center"/>
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer  Command="{Binding CreateNewClaimCommand}" />
+                </StackLayout.GestureRecognizers>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

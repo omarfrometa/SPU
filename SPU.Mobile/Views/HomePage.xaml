@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SPU.Mobile.Views.HomePage"
+             xmlns:rotator="clr-namespace:Syncfusion.SfRotator.XForms;assembly=Syncfusion.SfRotator.XForms"
+             Title="{Binding Title}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="inicio.png" Priority="1"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+    <ScrollView>
+        <Grid Padding="{OnIdiom Phone=5,0,5,0,Tablet=5,0,5,0}" RowSpacing="{OnIdiom Phone=10,Tablet=25}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Frame Grid.Row="0" HasShadow="true" Margin="10"  IsVisible="{Binding HasData}"
+                   Padding="10" BorderColor="{StaticResource SPUColor}">
+                    <Grid VerticalOptions="StartAndExpand"   Padding="{OnIdiom Phone=10,0,Tablet=15,0}"
+                      RowSpacing="{OnIdiom Phone=5,Tablet=15}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <StackLayout Grid.Row="0" Orientation="Horizontal" Spacing="5">
+                        <Image Source="mcasos" HeightRequest="25" WidthRequest="25" HorizontalOptions="Start"/>
+                        <Label Text="Mis casos" StyleClass="HomeLabel"/>
+                    </StackLayout>
+                    <StackLayout Grid.Row="1" Padding="15,5,15,0" VerticalOptions="CenterAndExpand">
+                        <Image Source="reclamacioni" HorizontalOptions="CenterAndExpand" HeightRequest="{OnIdiom Phone=45,Tablet=60}" Aspect="AspectFit"/>
+                        <Label TextColor="{StaticResource SPUColor}" FontSize="{OnIdiom Phone=18,Tablet=25}" Text="No hay Reclamaciones Disponibles" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                    </StackLayout>
+                    <ListView  Grid.Row="1" HeightRequest="{OnIdiom Phone=120,Tablet=140}" ItemsSource="{Binding MyClaims}" 
+                               IsRefreshing="{Binding IsBusy}" IsVisible="{Binding HasData}" ItemSelected="Handle_ItemSelected"
+                               SelectedItem="{Binding ClaimSelected}" SeparatorVisibility="None" HasUnevenRows="true">
+                        <ListView.Header>
+                            <Grid Padding="5,0,5,0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="1"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Grid.Column="0" Text="No." FontAttributes="Bold" FontSize="15" HorizontalTextAlignment="Start" TextColor="{StaticResource SPUColor}" VerticalTextAlignment="Center"/>
+                                <Label Grid.Column="1" Text="Nombre" FontAttributes="Bold" FontSize="15" HorizontalTextAlignment="Center" TextColor="{StaticResource SPUColor}" VerticalTextAlignment="Center"/>
+                                <Label Grid.Column="2" Text="Estatus" FontAttributes="Bold" FontSize="15" HorizontalTextAlignment="End" TextColor="{StaticResource SPUColor}" VerticalTextAlignment="Center"/>
+                                <BoxView Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,8,0" HeightRequest="0.5" HorizontalOptions="FillAndExpand" 
+                                                     BackgroundColor="{StaticResource SPUColor}" VerticalOptions="StartAndExpand"/>
+                            
+                            </Grid>
+                        </ListView.Header>
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <Grid Padding="5,10,5,0" RowSpacing="4">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="1"/>
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto"/>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="Auto"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Label Text="{Binding ClaimNo}" Grid.Column="0" FontAttributes="Bold" VerticalTextAlignment="Center" 
+                                               FontSize="{OnIdiom Phone=11,Tablet=20}" TextColor="{StaticResource SPUColor}"/>
+                                       <!-- <Label Grid.Row="1" Text="{Binding ProviderTicketNo}" VerticalTextAlignment="Center" 
+                                               FontSize="{OnIdiom Phone=16,Tablet=20}" TextColor="Green"/>-->
+                                        <Label Grid.Column="1" Text="{Binding ServiceHolderName}" VerticalTextAlignment="Center" 
+                                               FontSize="{OnIdiom Phone=11,Tablet=20}" HorizontalTextAlignment="Center" TextColor="{StaticResource SPUColor}"/>
+                                        <Label Grid.Column="2" Text="{Binding ClaimEstatus}" VerticalTextAlignment="Center" 
+                                               FontSize="{OnIdiom Phone=10,Tablet=20}" TextColor="DarkRed"/>
+                                        
+                                        <BoxView Grid.Row="1" Grid.ColumnSpan="3" Margin="0,0,8,0" HeightRequest="0.5" HorizontalOptions="FillAndExpand" 
+                                                         BackgroundColor="{StaticResource SPUColor}" VerticalOptions="EndAndExpand"/>
+                                        
+                                       <!-- <StackLayout Grid.Column="1" IsVisible="{Binding ShowBtnCompletar}" Grid.RowSpan="3">
+                                            <Label Text="Completar" VerticalTextAlignment="Center" Margin="0,3,0,0"
+                                               FontSize="{OnIdiom Phone=16,Tablet=20}" HorizontalTextAlignment="Center" TextColor="Green"/>
+                                            <StackLayout.GestureRecognizers>
+                                                <TapGestureRecognizer  Command="{Binding Path=BindingContext.CompleteTheProcessCommand, Source={x:Reference claimspage}}" 
+                                                        CommandParameter="{Binding .}" />
+                                            </StackLayout.GestureRecognizers>
+                                        </StackLayout>-->
+                                    </Grid>
+                                 </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>            
+                    </ListView>
+                </Grid>
+            </Frame>
+            
+            <Frame Grid.Row="1"  HasShadow="true" Margin="10" IsVisible="false"
+               Padding="10" BorderColor="{StaticResource SPUColor}">
+                    <Grid VerticalOptions="StartAndExpand"  Padding="{OnIdiom Phone=10,0,Tablet=15,0}"
+                      RowSpacing="{OnIdiom Phone=5,Tablet=15}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <StackLayout Grid.Row="0" Orientation="Horizontal" Spacing="5">
+                        <Image Source="proxconciliacion" HeightRequest="25" WidthRequest="25" HorizontalOptions="Start"/>
+                        <Label Text="Mi proxima conciliacion" StyleClass="HomeLabel"/>
+                    </StackLayout>
+                    <Grid Grid.Row="1" RowSpacing="1" HorizontalOptions="CenterAndExpand" Margin="20,10,20,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="15" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="15" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Label 
+                            Grid.Column="0"
+                            Grid.Row="0"
+                            Text="{Binding Days, StringFormat='{0:D2}'}"
+                            StyleClass="BigCountdownStyle"/>
+                        <Label 
+                            Grid.Column="0"
+                            Grid.Row="1"
+                            Text="Dias"
+                            StyleClass="SmallCountdownStyle"/>
+                        <Label 
+                            Grid.Column="1"
+                            Grid.Row="0"
+                            Text=":"
+                            StyleClass="BigCountdownStyle"/>
+                        <Label 
+                            Grid.Column="2"
+                            Grid.Row="0"
+                            Text="{Binding Hours, StringFormat='{0:D2}'}"
+                            StyleClass="BigCountdownStyle"/>
+                        <Label 
+                            Grid.Column="2"
+                            Grid.Row="1"
+                            Text="Horas"
+                            StyleClass="SmallCountdownStyle"/>
+                        <Label 
+                            Grid.Column="3"
+                            Grid.Row="0"
+                            Text=":"
+                            StyleClass="BigCountdownStyle"/>
+                        <Label 
+                            Grid.Column="4"
+                            Grid.Row="0"
+                            Text="{Binding Minutes, StringFormat='{0:D2}'}"
+                            StyleClass="BigCountdownStyle"/>
+                        <Label 
+                            Grid.Column="4"
+                            Grid.Row="1"
+                            Text="Minutos"  
+                            StyleClass="SmallCountdownStyle"/>
+                    </Grid>
+                </Grid>
+            </Frame>
+            
+            <Grid VerticalOptions="StartAndExpand" Grid.Row="2" Padding="{OnIdiom Phone=10,0,Tablet=15,0}"
+                  RowSpacing="{OnIdiom Phone=5,Tablet=15}" ColumnSpacing="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="{OnIdiom Phone=175,Tablet=250}"/>
+                </Grid.RowDefinitions>
+                <StackLayout Grid.Row="0" Orientation="Horizontal" Spacing="5">
+                    <Image Source="misderechos" HeightRequest="25" WidthRequest="25" HorizontalOptions="Start"/>
+                    <Label Text="Mis derechos" StyleClass="HomeLabel"/>
+                </StackLayout>
+                    <Image Grid.Row="1" Aspect="AspectFill" HeightRequest="160" Source="image2.png"/>
+               <!-- <StackLayout Grid.Row="1" Padding="0">
+                    <rotator:SfRotator x:Name="rotator" NavigationDelay="2000" HeightRequest="{OnIdiom Phone=175,Tablet=250}"
+                                       ItemsSource="{Binding ImageCollection}" SelectedIndex="0" 
+                                       NavigationDirection="Horizontal" NavigationStripMode="Dots" 
+                                       NavigationStripPosition="Bottom" EnableAutoPlay="true">
+                        <rotator:SfRotator.ItemTemplate>
+                            <DataTemplate>
+                              <Image  Source="{Binding Image}" Aspect="AspectFill"/>
+                            </DataTemplate>
+                        </rotator:SfRotator.ItemTemplate>
+                    </rotator:SfRotator>
+                </StackLayout>-->
+            </Grid>
+            
+            <Grid VerticalOptions="StartAndExpand" Grid.Row="3" Padding="{OnIdiom Phone=10,0,Tablet=15,0}"
+                  RowSpacing="{OnIdiom Phone=5,Tablet=15}" ColumnSpacing="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Row="0" Grid.ColumnSpan="3" Padding="{OnIdiom Phone=10,5,Tablet=25,0}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <BoxView Grid.Column="0" HeightRequest="0.5" VerticalOptions="CenterAndExpand" BackgroundColor="{StaticResource SPUColor}" />
+                    <Label Grid.Column="1" Text="Tus Servicios" TextColor="{StaticResource SPUColor}" FontAttributes="Bold" FontSize="15" VerticalTextAlignment="Center"/>
+                    <BoxView Grid.Column="2" HeightRequest="0.5" VerticalOptions="CenterAndExpand" BackgroundColor="{StaticResource SPUColor}" />
+                </Grid>
+                    
+                <StackLayout Grid.Row="1" Grid.Column="0">
+                    <Image Source="averiaround" HeightRequest="70" WidthRequest="70" HorizontalOptions="CenterAndExpand"/>
+                    <Label Text="Reportar averia" StyleClass="HomeTags" LineBreakMode="WordWrap"/>
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding GoToClaimReportCommand}"/>
+                    </StackLayout.GestureRecognizers>
+                </StackLayout>
+                <StackLayout Grid.Row="1" Grid.Column="1">
+                    <Image Source="simuladorround" HeightRequest="70" WidthRequest="70" HorizontalOptions="CenterAndExpand"/>
+                    <Label Text="Simulador de consumo" StyleClass="HomeTags" LineBreakMode="WordWrap"/>
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding GoToSimulatorCommand}"/>
+                    </StackLayout.GestureRecognizers>
+                </StackLayout>
+                <StackLayout Grid.Row="1" Grid.Column="2">
+                    <Image Source="comparadorround" HeightRequest="70" WidthRequest="70" HorizontalOptions="CenterAndExpand"/>
+                    <Label Text="Comparador de tarifas" StyleClass="HomeTags" LineBreakMode="WordWrap"/>
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer />
+                    </StackLayout.GestureRecognizers>
+                </StackLayout>
+            </Grid>
+        </Grid>
+    </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

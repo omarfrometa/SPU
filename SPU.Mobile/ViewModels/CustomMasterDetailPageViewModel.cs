@@ -15,6 +15,8 @@ namespace SPU.Mobile.ViewModels
     {
         public ObservableCollection<SideMenuItem> MenuItems { get; set; }
 
+        public bool ShowGoToProfile { get; set; }
+        public string LocalDisplayName { get; set; }
         SideMenuItem _menuItemSelected;
         public SideMenuItem MenuItemSelected
         {
@@ -36,88 +38,116 @@ namespace SPU.Mobile.ViewModels
 
             GoToProfileCommand = new DelegateCommand(GoToProfile);
             BuildMenu();
-            ActiveUser = new UserResult();
+
 
         }
 
         private async void GoToProfile()
         {
             var navparam = new NavigationParameters();
-            var activeuser = _SPUDatabase.GetActiveUser();
-            navparam.Add("loggeduser", activeuser);
-
+            navparam.Add("loggeduser", App.ActiveUser);
+            var nv = _navigationService.GetNavigationUriPath();
             await _navigationService.NavigateAsync(NavigationConstants.ProfilePage, navparam);
         }
 
         async void NavigateToSelectedItem(SideMenuItem menuItemSelected)
         {
-            if (menuItemSelected.Title == "Home")
+            if (menuItemSelected.Title == "Llamada gratuita")
             {
-                await _navigationService.NavigateAsync(menuItemSelected.Route);
+                Xamarin.Forms.Device.OpenUri(new Uri("tel:18092009707"));
+                return;
+            }
+
+            if (menuItemSelected.Title == "Chat en linea")
+            {
+                Xamarin.Forms.Device.OpenUri(new Uri("https://indotel.gob.do"));
+                return;
+            }
+
+            if (menuItemSelected.Title == "Mis casos" && App.ActiveUser != null && App.ActiveUser.IsLogged)
+            {
+                await _navigationService.NavigateAsync(new Uri("/CustomMasterDetailsPage/CustomTabbedPage?selectedTab=MyClaimsPage", UriKind.Absolute));
+                var r = _navigationService.GetNavigationUriPath();
+            }
+            else if (string.IsNullOrEmpty(menuItemSelected.Title))
+            {
+
+                await _navigationService.NavigateAsync(new Uri("/CustomMasterDetailsPage/CustomTabbedPage?selectedTab=HomePage", UriKind.Absolute));
             }
             else
             {
-                await _navigationService.NavigateAsync("NavigationPage" + NavigationConstants.LoginPage);
-            }
+                var navparam = new NavigationParameters();
+                navparam.Add("keepnavigating", menuItemSelected.Route);
+                await _navigationService.NavigateAsync(new Uri("/CustomMasterDetailsPage/CustomTabbedPage?selectedTab=HomePage" + menuItemSelected.Route, UriKind.Absolute), navparam);
 
+            }
         }
 
         void BuildMenu()
         {
             var itemsMenu = new List<SideMenuItem>()
             {
-
+                //new SideMenuItem()
+                //{
+                //    Title = "Inicio",
+                //    Route = "",
+                //    IconSource="mhome"
+                //},
                 new SideMenuItem()
                 {
-                    Title = "Home",
-                    Route = Helpers.NavigationConstants.HomePage,
-                    IconSource="home"
+                    Title = "Mis casos",
+                    Route = "",
+                    IconSource="mcasos"
+                },
+                new SideMenuItem()
+                {
+                    Title = "Tus derechos",
+                    Route = "",
+                    IconSource="misderechos"
+                },
+                new SideMenuItem()
+                {
+                    Title = "Chat en linea",
+                    Route = "",
+                    IconSource="chat"
+                },
+                new SideMenuItem()
+                {
+                    Title = "Conciliacion en linea",
+                    Route = "",
+                    IconSource="proxconciliacion"
+                },
+                new SideMenuItem()
+                {
+                    Title = "Tus documentos",
+                    Route = "",
+                    IconSource="depositodocu"
                 },
                 new SideMenuItem()
                 {
                     Title = "Simulador de Consumo",
-                    Route = "",
-                    IconSource="simulator"
+                    Route = NavigationConstants.SimulatorPage,
+                    IconSource="simulador2"
                 },
                 new SideMenuItem()
                 {
-                    Title = "Comparador de tarifas",
+                    Title = "Comparador de Tarifas",
                     Route = "",
-                    IconSource="compare"
+                    IconSource="comparadormain"
                 },
                 new SideMenuItem()
                 {
-                    Title = "Reclamacion",
+                    Title = "Llamada gratuita",
                     Route = "",
-                    IconSource="casee"
+                    IconSource="llamada"
                 },
                 new SideMenuItem()
                 {
-                    Title = "Consulta tu caso",
-                    Route = "",
-                    IconSource="book"
-                },
-                new SideMenuItem()
-                {
-                    Title = "Conciliar",
-                    Route = "",
-                    IconSource="hands"
-                },
-                new SideMenuItem()
-                {
-                    Title = "Preguntas frecuentes",
-                    Route = "",
-                    IconSource="faq"
-                },
-                new SideMenuItem()
-                {
-                    Title = "Contacto",
-                    Route = "",
-                    IconSource="contactus"
+                    Title = "FAQs",
+                    Route = NavigationConstants.FAQPage,
+                    IconSource="faqs"
                 }
-
             };
-
 
             MenuItems = new ObservableCollection<SideMenuItem>(itemsMenu);
 
@@ -129,11 +159,17 @@ namespace SPU.Mobile.ViewModels
             {
 
             }
-            if (parameters.ContainsKey("loggeduser"))
+
+            //App.ActiveUser = _SPUDatabase.GetActiveUser();
+            ShowGoToProfile = App.ActiveUser != null && App.ActiveUser.IsLogged;
+            if (App.ActiveUser == null || string.IsNullOrEmpty(App.ActiveUser.Id) || !App.ActiveUser.IsLogged)
             {
-                ActiveUser = parameters["loggeduser"] as UserResult;
+                LocalDisplayName = "Usuario no registrado";
+            }
+            else
+            {
+                LocalDisplayName = App.ActiveUser.DisplayName;
             }
         }
     }
 }
-

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" 
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+            x:Class="SPU.Mobile.Views.CustomTabbedPage"
+            xmlns:helper="clr-namespace:SPU.Mobile.Helpers;assembly=SPU.Mobile"
+            xmlns:local="clr-namespace:SPU.Mobile.Views;assembly=SPU.Mobile"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement="Bottom">
+    <TabbedPage.Effects>
+        <helper:NoShiftEffect />
+    </TabbedPage.Effects>
+    <TabbedPage.Children>
+        <NavigationPage Icon="inicio" Title="Inicio">
+            <x:Arguments>
+                <local:HomePage />
+            </x:Arguments>
+        </NavigationPage> 
+        
+        <NavigationPage Icon="nuevareclamacion" Title="Reclamacion">
+            <x:Arguments>
+                <local:ClaimRegistrationPage />
+            </x:Arguments>
+        </NavigationPage>   
+        
+        <NavigationPage Icon="casos" Title="Mis Casos">
+            <x:Arguments>
+                <local:MyClaimsPage />
+            </x:Arguments>
+        </NavigationPage>   
+        
+        <NavigationPage Icon="contactos" Title="Contactos">
+            <x:Arguments>
+                <local:ContactPage />
+            </x:Arguments>
+        </NavigationPage>  
+        
+        <NavigationPage Icon="mas" Title="Mas">
+            <x:Arguments>
+                <local:HomePage />
+            </x:Arguments>
+        </NavigationPage>   
+    </TabbedPage.Children>
+</TabbedPage>

@@ -12,12 +12,12 @@ using System.Threading.Tasks;
 namespace SPU.Mobile.ViewModels
 {
     [AddINotifyPropertyChangedInterface]
-    public class BasePageViewModel
+    public class BasePageViewModel : IDestructible
     {
         public bool IsBusy { get; set; }
         public bool IsNotBusy => !IsBusy;
 
-        public UserResult ActiveUser { get; set; }
+        public string Title { get; set; }
 
         protected IApiManager _apiManager;
         protected IUserDialogs _userDialogs;
@@ -26,6 +26,7 @@ namespace SPU.Mobile.ViewModels
 
         public BasePageViewModel(IApiManager apiManager, IUserDialogs userDialogs, INavigationService navigationService, ISPUDatabase SPUDatabase)
         {
+            Title = "#TuCuentasConElINDOTEL";
             _apiManager = apiManager;
             _userDialogs = userDialogs;
             _navigationService = navigationService;
@@ -34,11 +35,22 @@ namespace SPU.Mobile.ViewModels
 
         }
 
-        public async Task NavigateToHome(NavigationParameters navparam)
+        public async Task NavigateToLogin()
         {
-            await _navigationService.NavigateAsync(new Uri("/CustomMasterDetailsPage/NavigationPage/SUPHomePage", UriKind.Absolute), navparam);
+            await _navigationService.NavigateAsync(new Uri("/LoginPage", UriKind.Absolute));
         }
 
+        public async Task NavigateToHome(NavigationParameters navparam = null)
+        {
+            await _navigationService.NavigateAsync(new Uri("/CustomMasterDetailsPage/CustomTabbedPage?selectedTab=HomePage", UriKind.Absolute), navparam);
+            //await _navigationService.NavigateAsync(new Uri("/CustomMasterDetailsPage/NavigationPage/SUPHomePage", UriKind.Absolute), navparam);
+        }
+
+        public void Destroy()
+        {
+
+
+        }
     }
 }
 

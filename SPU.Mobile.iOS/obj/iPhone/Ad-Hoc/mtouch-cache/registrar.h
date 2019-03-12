@@ -7,23 +7,40 @@
 #include <objc/message.h>
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <Speech/Speech.h>
+#import <UserNotifications/UserNotifications.h>
+#import <Photos/Photos.h>
+#import <MediaPlayer/MediaPlayer.h>
 #import <GLKit/GLKit.h>
 #import <CoreSpotlight/CoreSpotlight.h>
+#import <CoreMotion/CoreMotion.h>
 #import <CoreLocation/CoreLocation.h>
+#import <CoreImage/CoreImage.h>
 #import <QuartzCore/QuartzCore.h>
 #import <WebKit/WebKit.h>
+#import <EventKit/EventKit.h>
+#import <AssetsLibrary/AssetsLibrary.h>
+#import <AVFoundation/AVFoundation.h>
 #import <CoreGraphics/CoreGraphics.h>
 
 @class UIApplicationDelegate;
 @class GLKViewDelegate;
 @class CLLocationManagerDelegate;
+@class CoreImage_CILanczosScaleTransform;
 @class WKNavigationDelegate;
+@class WKUIDelegate;
 @class UIKit_UIControlEventProxy;
 @class UIActionSheetDelegate;
 @class UIActivityItemSource;
 @class UICollectionViewDataSource;
+@class UICollectionViewDelegateFlowLayout;
+@class UIGestureRecognizerDelegate;
+@class UINavigationControllerDelegate;
+@class UIImagePickerControllerDelegate;
 @class UIPickerViewModel;
+@class UIPopoverControllerDelegate;
 @class UIScrollViewDelegate;
+@class UISearchResultsUpdating;
 @class UISplitViewControllerDelegate;
 @class UITableViewSource;
 @class UIWebViewDelegate;
@@ -36,12 +53,15 @@
 @class __MonoMac_NSAsyncActionDispatcher;
 @class __MonoMac_NSAsyncSynchronizationContextDispatcher;
 @class Xamarin_Forms_Platform_iOS_FormsApplicationDelegate;
+@protocol FIRMessagingDelegate;
 @class AppDelegate;
 @class GLKit_GLKView__GLKViewDelegate;
+@class CoreLocation_CLLocationManager__CLLocationManagerDelegate;
 @class UIKit_UIBarButtonItem_Callback;
 @class UIKit_UIView_UIViewAppearance;
 @class UIKit_UIControl_UIControlAppearance;
 @class UIKit_UIButton_UIButtonAppearance;
+@class UIKit_UIDocumentPickerViewController__UIDocumentPickerDelegate;
 @class __UIGestureRecognizerToken;
 @class __UIGestureRecognizerParameterlessToken;
 @class UIKit_UIGestureRecognizer__UIGestureRecognizerDelegate;
@@ -50,12 +70,15 @@
 @class __UIPanGestureRecognizer;
 @class __UIPinchGestureRecognizer;
 @class UIKit_UINavigationBar_UINavigationBarAppearance;
+@class UIKit_UIPopoverController__UIPopoverControllerDelegate;
 @class UIKit_UISearchBar__UISearchBarDelegate;
+@class UIKit_UISearchController___Xamarin_UISearchResultsUpdating;
 @class UIKit_UITextField__UITextFieldDelegate;
 @class UIKit_UIScrollView__UIScrollViewDelegate;
 @class UIKit_UITextView__UITextViewDelegate;
 @class UIKit_UISplitViewController__UISplitViewControllerDelegate;
 @class UIKit_UISwitch_UISwitchAppearance;
+@class UIKit_UITabBar_UITabBarAppearance;
 @class UIKit_UITabBarController__UITabBarControllerDelegate;
 @class UIKit_UIWebView__UIWebViewDelegate;
 @class __NSObject_Disposer;
@@ -87,7 +110,30 @@
 @class Xamarin_Forms_Platform_iOS_TableViewRenderer;
 @class Xamarin_Forms_Platform_iOS_ChildViewController;
 @class Xamarin_Forms_Platform_iOS_EventedViewController;
+@class Xamarin_Forms_Platform_iOS_ItemsViewRenderer;
+@class Xamarin_Forms_Platform_iOS_SelectableItemsViewRenderer;
+@class Xamarin_Forms_Platform_iOS_CollectionViewRenderer;
+@class Xamarin_Forms_Platform_iOS_ItemsViewCell;
+@class Xamarin_Forms_Platform_iOS_DefaultCell;
+@class Xamarin_Forms_Platform_iOS_HorizontalDefaultCell;
+@class Xamarin_Forms_Platform_iOS_ItemsViewController;
+@class Xamarin_Forms_Platform_iOS_SelectableItemsViewController;
+@class Xamarin_Forms_Platform_iOS_UICollectionViewDelegator;
+@class Xamarin_Forms_Platform_iOS_VerticalDefaultCell;
+@class Xamarin_Forms_Platform_iOS_ItemsViewLayout;
+@class Xamarin_Forms_Platform_iOS_GridViewLayout;
+@class Xamarin_Forms_Platform_iOS_ListViewLayout;
+@class Xamarin_Forms_Platform_iOS_TemplatedCell;
+@class Xamarin_Forms_Platform_iOS_HorizontalTemplatedCell;
+@class Xamarin_Forms_Platform_iOS_VerticalTemplatedCell;
 @class Xamarin_Forms_Platform_iOS_NativeViewWrapperRenderer;
+@class Xamarin_Forms_Platform_iOS_ShellFlyoutContentRenderer;
+@class Xamarin_Forms_Platform_iOS_ShellItemRenderer;
+@class Xamarin_Forms_Platform_iOS_ShellSearchResultsRenderer;
+@class Xamarin_Forms_Platform_iOS_ShellTableViewController;
+@class Xamarin_Forms_Platform_iOS_TabletShellFlyoutRenderer;
+@class Xamarin_Forms_Platform_iOS_UIContainerCell;
+@class Xamarin_Forms_Platform_iOS_UIContainerView;
 @class Xamarin_Forms_Platform_iOS_NativeViewPropertyListener;
 @class Xamarin_Forms_Platform_iOS_ContextActionsCell_SelectGestureRecognizer;
 @class Xamarin_Forms_Platform_iOS_ContextActionsCell_MoreActionSheetController;
@@ -127,16 +173,38 @@
 @class Xamarin_Forms_Platform_iOS_TimePickerRenderer;
 @class Xamarin_Forms_Platform_iOS_WebViewRenderer_CustomWebViewDelegate;
 @class Xamarin_Forms_Platform_iOS_WebViewRenderer;
-@class Xamarin_Forms_Platform_iOS_WkWebViewRenderer_CustomWebViewDelegate;
+@class Xamarin_Forms_Platform_iOS_WkWebViewRenderer_CustomWebViewNavigationDelegate;
 @class Xamarin_Forms_Platform_iOS_WkWebViewRenderer;
+@class Xamarin_Forms_Platform_iOS_ShellFlyoutRenderer;
+@class Xamarin_Forms_Platform_iOS_ShellPageRendererTracker_TitleViewContainer;
+@class Xamarin_Forms_Platform_iOS_ShellRenderer;
+@class Xamarin_Forms_Platform_iOS_ShellSectionRootHeader_ShellSectionHeaderCell;
+@class Xamarin_Forms_Platform_iOS_ShellSectionRootHeader;
+@class Xamarin_Forms_Platform_iOS_ShellSectionRootRenderer;
+@class Xamarin_Forms_Platform_iOS_ShellSectionRenderer_GestureDelegate;
+@class Xamarin_Forms_Platform_iOS_ShellSectionRenderer_NavDelegate;
+@class Xamarin_Forms_Platform_iOS_ShellSectionRenderer;
+@class Xamarin_Forms_Platform_iOS_ShellTableViewSource_SeparatorView;
+@class Xamarin_Forms_Platform_iOS_ShellTableViewSource;
+@class Xamarin_Forms_Platform_iOS_ImageButtonRenderer;
 @class Xamarin_Forms_Platform_iOS_ToolbarItemExtensions_PrimaryToolbarItem;
 @class Xamarin_Forms_Platform_iOS_ToolbarItemExtensions_SecondaryToolbarItem_SecondaryToolbarItemContent;
 @class Xamarin_Forms_Platform_iOS_ToolbarItemExtensions_SecondaryToolbarItem;
 @class Xamarin_Forms_Platform_iOS_NavigationMenuRenderer_DataSource;
 @class Xamarin_Forms_Platform_iOS_NavigationRenderer_SecondaryToolbar;
 @class Xamarin_Forms_Platform_iOS_NavigationRenderer_ParentingViewController;
+@class Xamarin_Forms_Platform_iOS_WkWebViewRenderer_CustomWebViewUIDelegate;
 @class OpenTK_Platform_iPhoneOS_CADisplayLinkTimeSource;
 @class OpenTK_Platform_iPhoneOS_iPhoneOSGameView;
+@class FIRMessagingMessageInfo;
+@class ApiDefinition__Firebase_CloudMessaging_MessagingDelegate;
+@class FIRMessagingRemoteMessage;
+@class FIRMessaging;
+@class FIRApp;
+@class FIRAnalyticsConfiguration;
+@class FIRConfiguration;
+@class FIROptions;
+@class FIRInstanceID;
 @class Syncfusion_XForms_iOS_Border_SfBorderRenderer;
 @class Syncfusion_XForms_iOS_TextInputLayout_InputLayoutBorder;
 @class Syncfusion_XForms_iOS_TextInputLayout_InputLayoutBorderRenderer;
@@ -152,8 +220,13 @@
 @class TTG_TTGSnackbar;
 @class AIDatePickerController;
 @class BigTed_ProgressHUD;
+@class Plugin_Media_MediaPickerController;
+@class Plugin_Media_MediaPickerPopoverDelegate;
+@class Plugin_Media_MediaPickerDelegate;
+@class Plugin_FirebasePushNotification_FirebasePushNotificationManager;
 @class Xamarin_Essentials_SingleLocationListener;
 @class Xamarin_Essentials_ShareActivityItemSource;
+@class Plugin_FilePicker_FilePickerImplementation;
 
 @interface UIApplicationDelegate : NSObject<UIApplicationDelegate> {
 }
@@ -170,7 +243,22 @@
 	-(id) init;
 @end
 
+@interface CoreImage_CILanczosScaleTransform : CIFilter {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) init;
+@end
+
 @interface WKNavigationDelegate : NSObject<WKNavigationDelegate> {
+}
+	-(id) init;
+@end
+
+@interface WKUIDelegate : NSObject<WKUIDelegate> {
 }
 	-(id) init;
 @end
@@ -190,12 +278,42 @@
 	-(id) init;
 @end
 
+@interface UICollectionViewDelegateFlowLayout : NSObject<UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, UICollectionViewDelegate> {
+}
+	-(id) init;
+@end
+
+@interface UIGestureRecognizerDelegate : NSObject<UIGestureRecognizerDelegate> {
+}
+	-(id) init;
+@end
+
+@interface UINavigationControllerDelegate : NSObject<UINavigationControllerDelegate> {
+}
+	-(id) init;
+@end
+
+@interface UIImagePickerControllerDelegate : NSObject<UINavigationControllerDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate> {
+}
+	-(id) init;
+@end
+
 @interface UIPickerViewModel : NSObject<UIPickerViewDataSource, UIPickerViewDelegate> {
 }
 	-(id) init;
 @end
 
+@interface UIPopoverControllerDelegate : NSObject<UIPopoverControllerDelegate> {
+}
+	-(id) init;
+@end
+
 @interface UIScrollViewDelegate : NSObject<UIScrollViewDelegate> {
+}
+	-(id) init;
+@end
+
+@interface UISearchResultsUpdating : NSObject<UISearchResultsUpdating> {
 }
 	-(id) init;
 @end
@@ -236,9 +354,17 @@
 	-(id) init;
 @end
 
-@interface AppDelegate : Xamarin_Forms_Platform_iOS_FormsApplicationDelegate<UIApplicationDelegate> {
+@protocol FIRMessagingDelegate
+	@optional -(void) messaging:(id)p0 didReceiveRegistrationToken:(NSString *)p1;
+	@optional -(void) messaging:(id)p0 didReceiveMessage:(id)p1;
+@end
+
+@interface AppDelegate : Xamarin_Forms_Platform_iOS_FormsApplicationDelegate<UNUserNotificationCenterDelegate, FIRMessagingDelegate, UIApplicationDelegate> {
 }
 	-(BOOL) application:(UIApplication *)p0 didFinishLaunchingWithOptions:(NSDictionary *)p1;
+	-(void) application:(UIApplication *)p0 didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)p1;
+	-(void) application:(UIApplication *)p0 didFailToRegisterForRemoteNotificationsWithError:(NSError *)p1;
+	-(void) application:(UIApplication *)p0 didReceiveRemoteNotification:(NSDictionary *)p1 fetchCompletionHandler:(id)p2;
 	-(id) init;
 @end
 
@@ -248,6 +374,7 @@
 	-(id) retain;
 	-(int) xamarinGetGCHandle;
 	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) setBackgroundColor:(UIColor *)p0;
 	-(UIColor *) tintColor;
 	-(BOOL) conformsToProtocol:(void *)p0;
 @end
@@ -283,11 +410,17 @@
 	-(UIColor *) barTintColor;
 	-(NSDictionary *) largeTitleTextAttributes;
 	-(NSDictionary *) titleTextAttributes;
+	-(void) setTitleTextAttributes:(NSDictionary *)p0;
 @end
 
 @interface UIKit_UISwitch_UISwitchAppearance : UIKit_UIControl_UIControlAppearance {
 }
 	-(UIColor *) onTintColor;
+@end
+
+@interface UIKit_UITabBar_UITabBarAppearance : UIKit_UIView_UIViewAppearance {
+}
+	-(void) setSelectedImageTintColor:(UIColor *)p0;
 @end
 
 @interface Xamarin_Forms_Platform_iOS_VisualElementRenderer_1 : UIView {
@@ -410,6 +543,7 @@
 	-(UITableViewCell *) tableView:(UITableView *)p0 cellForRowAtIndexPath:(NSIndexPath *)p1;
 	-(CGFloat) tableView:(UITableView *)p0 heightForHeaderInSection:(NSInteger)p1;
 	-(UIView *) tableView:(UITableView *)p0 viewForHeaderInSection:(NSInteger)p1;
+	-(void) tableView:(UITableView *)p0 willDisplayHeaderView:(UIView *)p1 forSection:(NSInteger)p2;
 	-(NSInteger) numberOfSectionsInTableView:(UITableView *)p0;
 	-(void) tableView:(UITableView *)p0 didSelectRowAtIndexPath:(NSIndexPath *)p1;
 	-(NSInteger) tableView:(UITableView *)p0 numberOfRowsInSection:(NSInteger)p1;
@@ -429,11 +563,174 @@
 	-(id) init;
 @end
 
+@interface Xamarin_Forms_Platform_iOS_ItemsViewRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
+}
+	-(id) init;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_SelectableItemsViewRenderer : Xamarin_Forms_Platform_iOS_ItemsViewRenderer {
+}
+	-(id) init;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_CollectionViewRenderer : Xamarin_Forms_Platform_iOS_SelectableItemsViewRenderer {
+}
+	-(id) init;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_ItemsViewCell : UICollectionViewCell {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) initWithFrame:(CGRect)p0;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_DefaultCell : Xamarin_Forms_Platform_iOS_ItemsViewCell {
+}
+	-(id) initWithFrame:(CGRect)p0;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_ItemsViewController : UICollectionViewController {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(UICollectionViewCell *) collectionView:(UICollectionView *)p0 cellForItemAtIndexPath:(NSIndexPath *)p1;
+	-(NSInteger) collectionView:(UICollectionView *)p0 numberOfItemsInSection:(NSInteger)p1;
+	-(void) viewDidLoad;
+	-(void) viewWillLayoutSubviews;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_SelectableItemsViewController : Xamarin_Forms_Platform_iOS_ItemsViewController {
+}
+	-(void) collectionView:(UICollectionView *)p0 didSelectItemAtIndexPath:(NSIndexPath *)p1;
+	-(void) collectionView:(UICollectionView *)p0 didDeselectItemAtIndexPath:(NSIndexPath *)p1;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_UICollectionViewDelegator : NSObject<UICollectionViewDelegateFlowLayout, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, UICollectionViewDelegate> {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) collectionView:(UICollectionView *)p0 willDisplayCell:(UICollectionViewCell *)p1 forItemAtIndexPath:(NSIndexPath *)p2;
+	-(UIEdgeInsets) collectionView:(UICollectionView *)p0 layout:(UICollectionViewLayout *)p1 insetForSectionAtIndex:(NSInteger)p2;
+	-(CGFloat) collectionView:(UICollectionView *)p0 layout:(UICollectionViewLayout *)p1 minimumInteritemSpacingForSectionAtIndex:(NSInteger)p2;
+	-(CGFloat) collectionView:(UICollectionView *)p0 layout:(UICollectionViewLayout *)p1 minimumLineSpacingForSectionAtIndex:(NSInteger)p2;
+	-(void) collectionView:(UICollectionView *)p0 didSelectItemAtIndexPath:(NSIndexPath *)p1;
+	-(void) collectionView:(UICollectionView *)p0 didDeselectItemAtIndexPath:(NSIndexPath *)p1;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_ItemsViewLayout : UICollectionViewFlowLayout {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(BOOL) shouldInvalidateLayoutForBoundsChange:(CGRect)p0;
+	-(CGPoint) targetContentOffsetForProposedContentOffset:(CGPoint)p0 withScrollingVelocity:(CGPoint)p1;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_TemplatedCell : Xamarin_Forms_Platform_iOS_ItemsViewCell {
+}
+	-(UICollectionViewLayoutAttributes *) preferredLayoutAttributesFittingAttributes:(UICollectionViewLayoutAttributes *)p0;
+	-(BOOL) isSelected;
+	-(void) setSelected:(BOOL)p0;
+	-(id) initWithFrame:(CGRect)p0;
+@end
+
 @interface Xamarin_Forms_Platform_iOS_NativeViewWrapperRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
 }
 	-(void) layoutSubviews;
 	-(CGSize) sizeThatFits:(CGSize)p0;
 	-(id) init;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_ShellFlyoutContentRenderer : UIViewController {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) viewDidLayoutSubviews;
+	-(void) viewDidLoad;
+	-(void) viewWillAppear:(BOOL)p0;
+	-(void) viewWillDisappear:(BOOL)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_ShellItemRenderer : UITabBarController {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(UIViewController *) selectedViewController;
+	-(void) setSelectedViewController:(UIViewController *)p0;
+	-(void) viewDidLayoutSubviews;
+	-(void) viewDidLoad;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_ShellSearchResultsRenderer : UITableViewController {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(UITableViewCell *) tableView:(UITableView *)p0 cellForRowAtIndexPath:(NSIndexPath *)p1;
+	-(void) tableView:(UITableView *)p0 didSelectRowAtIndexPath:(NSIndexPath *)p1;
+	-(NSInteger) numberOfSectionsInTableView:(UITableView *)p0;
+	-(NSInteger) tableView:(UITableView *)p0 numberOfRowsInSection:(NSInteger)p1;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_ShellTableViewController : UITableViewController {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) viewDidLoad;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_TabletShellFlyoutRenderer : UISplitViewController {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) viewDidLoad;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) init;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_UIContainerCell : UITableViewCell {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) layoutSubviews;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_UIContainerView : UIView {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) layoutSubviews;
+	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 
 @interface Xamarin_Forms_Platform_iOS_ButtonRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
@@ -510,6 +807,7 @@
 	-(id) retain;
 	-(int) xamarinGetGCHandle;
 	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) viewDidLayoutSubviews;
 	-(void) viewSafeAreaInsetsDidChange;
 	-(void) viewDidAppear:(BOOL)p0;
 	-(void) viewDidDisappear:(BOOL)p0;
@@ -610,6 +908,116 @@
 	-(id) init;
 @end
 
+@interface Xamarin_Forms_Platform_iOS_ShellFlyoutRenderer : UIViewController {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) viewDidLayoutSubviews;
+	-(void) viewDidLoad;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) init;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_ShellPageRendererTracker_TitleViewContainer : Xamarin_Forms_Platform_iOS_UIContainerView {
+}
+	-(CGRect) frame;
+	-(void) setFrame:(CGRect)p0;
+	-(CGSize) intrinsicContentSize;
+	-(CGSize) sizeThatFits:(CGSize)p0;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_ShellRenderer : UIViewController {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) viewDidLayoutSubviews;
+	-(void) viewDidLoad;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) init;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_ShellSectionRootHeader_ShellSectionHeaderCell : UICollectionViewCell {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) layoutSubviews;
+	-(CGSize) sizeThatFits:(CGSize)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) initWithFrame:(CGRect)p0;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_ShellSectionRootHeader : UICollectionViewController {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(BOOL) collectionView:(UICollectionView *)p0 canMoveItemAtIndexPath:(NSIndexPath *)p1;
+	-(UICollectionViewCell *) collectionView:(UICollectionView *)p0 cellForItemAtIndexPath:(NSIndexPath *)p1;
+	-(NSInteger) collectionView:(UICollectionView *)p0 numberOfItemsInSection:(NSInteger)p1;
+	-(void) collectionView:(UICollectionView *)p0 didDeselectItemAtIndexPath:(NSIndexPath *)p1;
+	-(void) collectionView:(UICollectionView *)p0 didSelectItemAtIndexPath:(NSIndexPath *)p1;
+	-(NSInteger) numberOfSectionsInCollectionView:(UICollectionView *)p0;
+	-(BOOL) collectionView:(UICollectionView *)p0 shouldSelectItemAtIndexPath:(NSIndexPath *)p1;
+	-(void) viewDidLayoutSubviews;
+	-(void) viewDidLoad;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_ShellSectionRootRenderer : UIViewController {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) viewDidLayoutSubviews;
+	-(void) viewDidLoad;
+	-(void) viewSafeAreaInsetsDidChange;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_ShellSectionRenderer : UINavigationController {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(UIViewController *) popViewControllerAnimated:(BOOL)p0;
+	-(BOOL) navigationBar:(UINavigationBar *)p0 shouldPopItem:(UINavigationItem *)p1;
+	-(void) viewDidLayoutSubviews;
+	-(void) viewDidLoad;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_ShellTableViewSource : NSObject<UIScrollViewDelegate> {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(UITableViewCell *) tableView:(UITableView *)p0 cellForRowAtIndexPath:(NSIndexPath *)p1;
+	-(CGFloat) tableView:(UITableView *)p0 heightForFooterInSection:(NSInteger)p1;
+	-(UIView *) tableView:(UITableView *)p0 viewForFooterInSection:(NSInteger)p1;
+	-(NSInteger) numberOfSectionsInTableView:(UITableView *)p0;
+	-(void) tableView:(UITableView *)p0 didSelectRowAtIndexPath:(NSIndexPath *)p1;
+	-(NSInteger) tableView:(UITableView *)p0 numberOfRowsInSection:(NSInteger)p1;
+	-(void) scrollViewDidScroll:(UIScrollView *)p0;
+	-(void) tableView:(UITableView *)p0 willDisplayCell:(UITableViewCell *)p1 forRowAtIndexPath:(NSIndexPath *)p2;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
+@interface Xamarin_Forms_Platform_iOS_ImageButtonRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
+}
+	-(CGSize) sizeThatFits:(CGSize)p0;
+	-(id) init;
+@end
+
 @interface OpenTK_Platform_iPhoneOS_iPhoneOSGameView : UIView {
 }
 	-(void) release;
@@ -622,6 +1030,110 @@
 	-(BOOL) conformsToProtocol:(void *)p0;
 	-(id) initWithCoder:(NSCoder *)p0;
 	-(id) initWithFrame:(CGRect)p0;
+@end
+
+@interface FIRMessagingMessageInfo : NSObject {
+}
+	-(NSInteger) status;
+	-(id) init;
+@end
+
+@interface ApiDefinition__Firebase_CloudMessaging_MessagingDelegate : NSObject<FIRMessagingDelegate> {
+}
+	-(void) messaging:(id)p0 didReceiveMessage:(id)p1;
+	-(void) messaging:(id)p0 didReceiveRegistrationToken:(NSString *)p1;
+	-(id) init;
+@end
+
+@interface FIRMessagingRemoteMessage : NSObject {
+}
+	-(NSDictionary *) appData;
+@end
+
+@interface FIRMessaging : NSObject {
+}
+	-(id) appDidReceiveMessage:(NSDictionary *)p0;
+	-(void) connectWithCompletion:(id)p0;
+	-(void) deleteFCMTokenForSenderID:(NSString *)p0 completion:(id)p1;
+	-(void) disconnect;
+	-(void) retrieveFCMTokenForSenderID:(NSString *)p0 completion:(id)p1;
+	-(void) sendMessage:(NSDictionary *)p0 to:(NSString *)p1 withMessageID:(NSString *)p2 timeToLive:(long long)p3;
+	-(void) setAPNSToken:(NSData *)p0 type:(NSInteger)p1;
+	-(void) subscribeToTopic:(NSString *)p0;
+	-(void) subscribeToTopic:(NSString *)p0 completion:(id)p1;
+	-(void) unsubscribeFromTopic:(NSString *)p0;
+	-(void) unsubscribeFromTopic:(NSString *)p0 completion:(id)p1;
+	-(NSData *) APNSToken;
+	-(void) setAPNSToken:(NSData *)p0;
+	-(BOOL) isAutoInitEnabled;
+	-(void) setAutoInitEnabled:(BOOL)p0;
+	-(id) delegate;
+	-(void) setDelegate:(id)p0;
+	-(NSString *) FCMToken;
+	-(BOOL) isDirectChannelEstablished;
+	-(BOOL) shouldEstablishDirectChannel;
+	-(void) setShouldEstablishDirectChannel:(BOOL)p0;
+@end
+
+@interface FIRApp : NSObject {
+}
+	-(void) deleteApp:(id)p0;
+	-(BOOL) isDataCollectionDefaultEnabled;
+	-(void) setDataCollectionDefaultEnabled:(BOOL)p0;
+	-(NSString *) name;
+	-(id) options;
+@end
+
+@interface FIRAnalyticsConfiguration : NSObject {
+}
+	-(void) setAnalyticsCollectionEnabled:(BOOL)p0;
+	-(void) setMinimumSessionInterval:(double)p0;
+	-(void) setSessionTimeoutInterval:(double)p0;
+@end
+
+@interface FIRConfiguration : NSObject {
+}
+	-(void) setLoggerLevel:(NSInteger)p0;
+	-(id) analyticsConfiguration;
+	-(void) setAnalyticsConfiguration:(id)p0;
+@end
+
+@interface FIROptions : NSObject {
+}
+	-(NSObject *) copyWithZone:(id)p0;
+	-(NSString *) androidClientID;
+	-(void) setAndroidClientID:(NSString *)p0;
+	-(NSString *) APIKey;
+	-(void) setAPIKey:(NSString *)p0;
+	-(NSString *) bundleID;
+	-(void) setBundleID:(NSString *)p0;
+	-(NSString *) clientID;
+	-(void) setClientID:(NSString *)p0;
+	-(NSString *) databaseURL;
+	-(void) setDatabaseURL:(NSString *)p0;
+	-(NSString *) deepLinkURLScheme;
+	-(void) setDeepLinkURLScheme:(NSString *)p0;
+	-(NSString *) GCMSenderID;
+	-(void) setGCMSenderID:(NSString *)p0;
+	-(NSString *) googleAppID;
+	-(void) setGoogleAppID:(NSString *)p0;
+	-(NSString *) projectID;
+	-(void) setProjectID:(NSString *)p0;
+	-(NSString *) storageBucket;
+	-(void) setStorageBucket:(NSString *)p0;
+	-(NSString *) trackingID;
+	-(void) setTrackingID:(NSString *)p0;
+	-(id) initWithContentsOfFile:(NSString *)p0;
+	-(id) initWithGoogleAppID:(NSString *)p0 GCMSenderID:(NSString *)p1;
+@end
+
+@interface FIRInstanceID : NSObject {
+}
+	-(void) deleteIDWithHandler:(id)p0;
+	-(void) deleteTokenWithAuthorizedEntity:(NSString *)p0 scope:(NSString *)p1 handler:(id)p2;
+	-(void) getIDWithHandler:(id)p0;
+	-(void) tokenWithAuthorizedEntity:(NSString *)p0 scope:(NSString *)p1 options:(NSDictionary *)p2 handler:(id)p3;
+	-(NSString *) token;
 @end
 
 @interface Syncfusion_XForms_iOS_Border_SfBorderRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer {
@@ -764,6 +1276,40 @@
 	-(int) xamarinGetGCHandle;
 	-(void) xamarinSetGCHandle: (int) gchandle;
 	-(void) drawRect:(CGRect)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) init;
+@end
+
+@interface Plugin_Media_MediaPickerController : UIImagePickerController {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(NSObject *) delegate;
+	-(void) setDelegate:(NSObject *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
+@interface Plugin_FirebasePushNotification_FirebasePushNotificationManager : NSObject<UNUserNotificationCenterDelegate, FIRMessagingDelegate> {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) userNotificationCenter:(UNUserNotificationCenter *)p0 willPresentNotification:(UNNotification *)p1 withCompletionHandler:(id)p2;
+	-(void) userNotificationCenter:(UNUserNotificationCenter *)p0 didReceiveNotificationResponse:(UNNotificationResponse *)p1 withCompletionHandler:(id)p2;
+	-(void) messaging:(id)p0 didReceiveRegistrationToken:(NSString *)p1;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) init;
+@end
+
+@interface Plugin_FilePicker_FilePickerImplementation : NSObject {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
 	-(BOOL) conformsToProtocol:(void *)p0;
 	-(id) init;
 @end

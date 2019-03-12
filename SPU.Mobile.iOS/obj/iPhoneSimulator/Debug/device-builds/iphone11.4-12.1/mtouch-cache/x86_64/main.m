@@ -11,6 +11,12 @@ void xamarin_register_assemblies_impl ()
 	guint32 exception_gchandle = 0;
 	xamarin_open_and_register ("Xamarin.Forms.Platform.iOS.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
+	xamarin_open_and_register ("Firebase.CloudMessaging.dll", &exception_gchandle);
+	xamarin_process_managed_exception_gchandle (exception_gchandle);
+	xamarin_open_and_register ("Firebase.Core.dll", &exception_gchandle);
+	xamarin_process_managed_exception_gchandle (exception_gchandle);
+	xamarin_open_and_register ("Firebase.InstanceID.dll", &exception_gchandle);
+	xamarin_process_managed_exception_gchandle (exception_gchandle);
 	xamarin_open_and_register ("Syncfusion.Core.XForms.iOS.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
 	xamarin_open_and_register ("Syncfusion.SfRotator.XForms.iOS.dll", &exception_gchandle);
@@ -21,15 +27,21 @@ void xamarin_register_assemblies_impl ()
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
 	xamarin_open_and_register ("BTProgressHUD.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
+	xamarin_open_and_register ("Plugin.Media.dll", &exception_gchandle);
+	xamarin_process_managed_exception_gchandle (exception_gchandle);
+	xamarin_open_and_register ("Plugin.FirebasePushNotification.dll", &exception_gchandle);
+	xamarin_process_managed_exception_gchandle (exception_gchandle);
 	xamarin_open_and_register ("Xamarin.Essentials.dll", &exception_gchandle);
+	xamarin_process_managed_exception_gchandle (exception_gchandle);
+	xamarin_open_and_register ("Plugin.FilePicker.dll", &exception_gchandle);
 	xamarin_process_managed_exception_gchandle (exception_gchandle);
 
 }
 
-extern "C" void xamarin_create_classes_Xamarin_iOS();
+extern "C" void xamarin_create_classes();
 void xamarin_setup_impl ()
 {
-	xamarin_create_classes_Xamarin_iOS();
+	xamarin_create_classes();
 	xamarin_gc_pump = FALSE;
 	xamarin_init_mono_debug = TRUE;
 	xamarin_executable_name = "SPU.Mobile.iOS.exe";

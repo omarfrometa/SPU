@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.14.0 (explicit/000780ca82c Fri Jan 11 12:38:08 EST 2019)"
+	.asciz "Mono AOT Compiler 5.14.0 (explicit/b538187892a Fri Feb  1 12:00:36 EST 2019)"
 	.asciz "System.Xml.Linq.dll"
 	.asciz ""
 
@@ -121,7 +121,7 @@ jit_code_start:
 	.align 4
 	.no_dead_strip MS_Internal_Xml_Linq_ComponentModel_XTypeDescriptionProvider_1_T_REF_GetTypeDescriptor_System_Type_object
 MS_Internal_Xml_Linq_ComponentModel_XTypeDescriptionProvider_1_T_REF_GetTypeDescriptor_System_Type_object:
-.file 1 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/src/Xamarin.iOS/mcs/class/referencesource/System.Xml.Linq/System/Xml/Linq/XComponentModel.cs"
+.file 1 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.15/src/Xamarin.iOS/mcs/class/referencesource/System.Xml.Linq/System/Xml/Linq/XComponentModel.cs"
 .loc 1 19 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -709,7 +709,7 @@ ldr x3, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2801560
@@ -915,7 +915,7 @@ ldr x3, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2801560
@@ -1134,7 +1134,7 @@ ldr x3, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2801560
@@ -1340,7 +1340,7 @@ ldr x3, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2801560
@@ -2070,7 +2070,7 @@ Lme_2b:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XName__ctor_System_Xml_Linq_XNamespace_string
 System_Xml_Linq_XName__ctor_System_Xml_Linq_XNamespace_string:
-.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/src/Xamarin.iOS/mcs/class/referencesource/System.Xml.Linq/System/Xml/Linq/XLinq.cs"
+.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.15/src/Xamarin.iOS/mcs/class/referencesource/System.Xml.Linq/System/Xml/Linq/XLinq.cs"
 .loc 2 47 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -2633,7 +2633,7 @@ System_Xml_Linq_NameSerializer_System_Runtime_Serialization_ISerializable_GetObj
 .word 0xf9000fa1
 .word 0xf90013a2
 .word 0xf90017a3
-.word 0xd2802240
+.word 0xd2802260
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_40
@@ -3902,7 +3902,7 @@ bl _p_83
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .loc 2 713 0
-.word 0xd2802340
+.word 0xd2802360
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_40
@@ -4215,7 +4215,7 @@ ldr x2, [x16, #16]
 .word 0xd2801fc0
 .word 0xaa1103e1
 bl _p_18
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_18
 
@@ -5771,7 +5771,7 @@ System_Xml_Linq_XObject__Annotationsd__16_1_T_REF_System_Collections_IEnumerator
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_40
@@ -7042,7 +7042,7 @@ ldr x1, [x16, #1072]
 .word 0xd2802080
 .word 0xaa1103e1
 bl _p_18
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_18
 
@@ -11191,7 +11191,7 @@ System_Xml_Linq_XContainer__Nodesd__18_System_Collections_IEnumerator_Reset:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_40
@@ -11610,7 +11610,7 @@ System_Xml_Linq_XContainer__GetDescendantsd__39_System_Collections_IEnumerator_R
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_40
@@ -11910,7 +11910,7 @@ System_Xml_Linq_XContainer__GetElementsd__40_System_Collections_IEnumerator_Rese
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_40
@@ -14239,7 +14239,7 @@ System_Xml_Linq_XElement__GetAttributesd__105_System_Collections_IEnumerator_Res
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2802240
+.word 0xd2802260
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_40
@@ -21686,7 +21686,7 @@ bl _p_290
 .word 0xa8c67bfd
 .word 0xd65f03c0
 .loc 2 713 0
-.word 0xd2802340
+.word 0xd2802360
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_40
@@ -22134,7 +22134,7 @@ bl _mono_gsharedvt_value_copy
 .word 0xd2801fc0
 .word 0xaa1103e1
 bl _p_18
-.word 0xd2802260
+.word 0xd2802280
 .word 0xaa1103e1
 bl _p_18
 
@@ -23418,7 +23418,7 @@ bl _p_321
 .word 0xf9400fa0
 .word 0xb9800000
 .word 0xf9000fbf
-.word 0xd2802240
+.word 0xd2802260
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_40
@@ -24293,7 +24293,7 @@ Lme_178:
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
-.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.13/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
+.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.15/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
 .loc 3 70 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -24395,7 +24395,7 @@ System_Array_InternalArray__ICollection_Clear:
 .word 0xd28900a0
 bl _p_339
 .word 0xaa0003e1
-.word 0xd2802240
+.word 0xd2802260
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_40
@@ -24417,7 +24417,7 @@ System_Array_InternalArray__ICollection_Add_T_REF_T_REF:
 .word 0xd28906a0
 bl _p_339
 .word 0xaa0003e1
-.word 0xd2802240
+.word 0xd2802260
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_40
@@ -24439,7 +24439,7 @@ System_Array_InternalArray__ICollection_Remove_T_REF_T_REF:
 .word 0xd28906a0
 bl _p_339
 .word 0xaa0003e1
-.word 0xd2802240
+.word 0xd2802260
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_40
@@ -24513,7 +24513,7 @@ bl _p_340
 .word 0xd2890e20
 bl _p_339
 .word 0xaa0003e1
-.word 0xd28023e0
+.word 0xd2802400
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_40
@@ -28357,7 +28357,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "5BF923BA-3F31-412F-BC61-0A2FB67BEA77"
+	.asciz "AAC11B57-D036-4685-A780-8DB16BEBE8CD"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -28442,7 +28442,7 @@ _mono_aot_file_info:
 	.long 552,4456,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0
-	.byte 195,215,70,164,254,128,135,176,221,4,240,42,143,204,159,89
+	.byte 200,121,101,196,21,67,10,172,126,215,61,15,192,41,84,240
 	.globl _mono_aot_module_System_Xml_Linq_info
 	.align 3
 _mono_aot_module_System_Xml_Linq_info:
