@@ -1,4 +1,0 @@
-# Version: 12.2.1.15 (d15-9: d60abd198)
-# [first argument, ignore] # @/Users/arieldelossantos/Projects/XAM-Frometa/SPU/SPU.Mobile.iOS/obj/iPhone/Ad-Hoc/response-file.rsp
-/Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.15/lib/mtouch/mtouch.exe \
-	'--gcc_flags=-ObjC -ObjC -lc++ -lsqlite3 -lz -ObjC -lc++ -lsqlite3 -lz -L/Users/arieldelossantos/.nuget/packages/realm/3.4.0/build/../native/ios/universal -lrealm-wrappers -lz -framework Security' \
