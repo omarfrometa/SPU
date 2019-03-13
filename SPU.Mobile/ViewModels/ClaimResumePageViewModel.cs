@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Acr.UserDialogs;
 using Prism.Commands;
@@ -28,9 +29,9 @@ namespace SPU.Mobile.ViewModels
 
                 IsBusy = true;
 
-                var docList = UserClaim.UserClaimDocumentDto;
+                var docList = new List<UserClaimDocumentDto>(UserClaim.UserClaimDocumentDto);
 
-                UserClaim.UserClaimDocumentDto = new System.Collections.Generic.List<UserClaimDocumentDto>();
+                UserClaim.UserClaimDocumentDto.Clear();
 
                 var sentClaim = await _apiManager.PostCompleteClaimAsync(UserClaim);
 

@@ -4,10 +4,9 @@
              x:Class="SPU.Mobile.Views.SimulatorPage"
              Title="{Binding Title}">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Icon="inicio.png" Priority="1"/>
+        <ToolbarItem Icon="idt.png" Priority="1"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
-    
             <Grid VerticalOptions="StartAndExpand" Padding="10,0,5,0" RowSpacing="0">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />
@@ -31,7 +30,7 @@
                 <ListView Grid.Row="1" VerticalOptions="StartAndExpand" VerticalScrollBarVisibility="Never" HeightRequest="450" ItemsSource="{Binding Services}" 
                                   ItemSelected="Handle_ItemSelected" IsRefreshing="{Binding IsBusy}"  HasUnevenRows="true">
                     <ListView.Header>
-                        <Label Text="Estimado de uso (DIARIO)" FontSize="{OnIdiom Phone=25,Tablet=30}"
+                        <Label Text="Ingrese el estimado de uso diario" FontSize="{OnIdiom Phone=23,Tablet=28}"
                                TextColor="{StaticResource SPUColor}" HorizontalTextAlignment="Center"
                                VerticalTextAlignment="Center"/>
                     </ListView.Header>
@@ -55,7 +54,7 @@
                                             MinimumTrackColor="{StaticResource RedColor}" Minimum="0" Maximum="{Binding Max}"
                                             Value="{Binding SliderVal}"/>
                                     <StackLayout Grid.Row="1" Grid.Column="2" Padding="0,0,3,0" Spacing="1">
-                                        <Label Grid.Column="2" Text="{Binding Source={x:Reference slider},
+                                        <Label Text="{Binding Source={x:Reference slider},
                                             Path=Value,StringFormat='{0:F0}'}" HorizontalTextAlignment="Center" StyleClass="SpuLabel"/>
                                         <Label  Text="{Binding UnitMeter}" StyleClass="SpuLabel"/>
                                     </StackLayout>
@@ -107,14 +106,21 @@
                             <RowDefinition Height="Auto"/>
                         </Grid.RowDefinitions>
                         <Grid Grid.Row="0" Grid.ColumnSpan="3" Padding=" 10,0,10,10" >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="Auto"/>
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
                             <BoxView Grid.Column="0" HeightRequest="0.5" VerticalOptions="CenterAndExpand" BackgroundColor="{StaticResource BlueColor}" />
-                            <Label Grid.Column="1" Text="Resultados" TextColor="{StaticResource BlueColor}" FontAttributes="Bold" FontSize="15" VerticalTextAlignment="Center"/>
+                            <Label Grid.Column="1" Text="Resultado" TextColor="{StaticResource BlueColor}" FontAttributes="Bold" FontSize="15" VerticalTextAlignment="Center"/>
                             <BoxView Grid.Column="2" HeightRequest="0.5" VerticalOptions="CenterAndExpand" BackgroundColor="{StaticResource BlueColor}" />
+                            
+                            <Label Grid.Row="1" Grid.ColumnSpan="3" Text="Tu Consumo Mensual Es" TextColor="{StaticResource BlueColor}" 
+                               FontAttributes="Bold" FontSize="14" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
                         </Grid>
                         
                         <Frame Grid.Row="1" Grid.Column="0" HeightRequest="45" BackgroundColor="Transparent" BorderColor="{StaticResource SPUColor}" 

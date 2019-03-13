@@ -6,8 +6,7 @@
              xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
              Title="{Binding Title}">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Icon="inicio.png" Priority="1"/>
-        <!--<ToolbarItem Text="Limpiar" Priority="0" Command="{Binding DoCleanFieldsCommand}"/>-->
+        <ToolbarItem Icon="idt.png" Priority="1"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <ScrollView>
@@ -144,9 +143,9 @@
                         <Label Grid.Row="0" Text="@IndotelRD" HorizontalTextAlignment="Center" Grid.ColumnSpan="3" 
                                TextColor="{StaticResource SPUTags}"/>
                      
-                        <Image Source="facebookicon.png" HeightRequest="20" Aspect="AspectFit" Grid.Row="1" Grid.Column="0"/>
-                        <Image Source="twitterIcon.png" HeightRequest="20" Aspect="AspectFit" Grid.Row="1" Grid.Column="1"/>
-                        <Image Source="googleicon.png" HeightRequest="20" Aspect="AspectFit" Grid.Row="1" Grid.Column="2"/>
+                        <Image Source="fbcontact.png" HeightRequest="25" HorizontalOptions="EndAndExpand" Aspect="AspectFit" Grid.Row="1" Grid.Column="0"/>
+                        <Image Source="twcontact.png" HeightRequest="25" HorizontalOptions="CenterAndExpand" Aspect="AspectFit" Grid.Row="1" Grid.Column="1"/>
+                        <Image Source="instcontact.png" HeightRequest="25" HorizontalOptions="StartAndExpand" Aspect="AspectFit" Grid.Row="1" Grid.Column="2"/>
                         
                         <Label Grid.Row="2" Text="www.indotel.gob.do" HorizontalTextAlignment="Center" 
                                Grid.ColumnSpan="3" TextColor="{StaticResource SPUTags}"/>

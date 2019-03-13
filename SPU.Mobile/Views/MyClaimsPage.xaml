@@ -5,8 +5,8 @@
              xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
              x:Name="claimspage"
              Title="{Binding Title}">
-   <ContentPage.ToolbarItems>
-        <ToolbarItem Icon="inicio.png" Priority="1"/>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="idt.png" Priority="1"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <Grid>

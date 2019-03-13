@@ -6,8 +6,7 @@
              xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
              IsBusy="{Binding IsBusy}">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Icon="inicio.png" Priority="1"/>
-        <!--<ToolbarItem Text="Limpiar" Priority="0" Command="{Binding DoCleanFieldsCommand}"/>-->
+        <ToolbarItem Icon="idt.png" Priority="1"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
        <!-- <Grid Padding="0" RowSpacing="5">

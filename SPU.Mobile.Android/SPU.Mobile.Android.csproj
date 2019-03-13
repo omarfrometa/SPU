@@ -326,6 +326,54 @@
         <AndroidResource Include="Resources\drawable-xxhdpi\back.png" />
         <AndroidResource Include="Resources\drawable-xxxhdpi\back.png" />
         <AndroidResource Include="Resources\drawable\masreclama.png" />
+        <AndroidResource Include="Resources\drawable-mdpi\arrobalogin.png" />
+        <AndroidResource Include="Resources\drawable-ldpi\arrobalogin.png" />
+        <AndroidResource Include="Resources\drawable-mdpi\averiaround.png" />
+        <AndroidResource Include="Resources\drawable-ldpi\averiaround.png" />
+        <AndroidResource Include="Resources\drawable-mdpi\casos.png" />
+        <AndroidResource Include="Resources\drawable-ldpi\casos.png" />
+        <AndroidResource Include="Resources\drawable-mdpi\contactos.png" />
+        <AndroidResource Include="Resources\drawable-ldpi\contactos.png" />
+        <AndroidResource Include="Resources\drawable-mdpi\home.png" />
+        <AndroidResource Include="Resources\drawable-ldpi\home.png" />
+        <AndroidResource Include="Resources\drawable-mdpi\idt.png" />
+        <AndroidResource Include="Resources\drawable-ldpi\idt.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\nuevareclama.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\nuevareclama.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\nuevareclama.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\nuevareclama.png" />
+        <AndroidResource Include="Resources\drawable-mdpi\nuevareclama.png" />
+        <AndroidResource Include="Resources\drawable-ldpi\nuevareclama.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\ayuda.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\ayuda.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\ayuda.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\ayuda.png" />
+        <AndroidResource Include="Resources\drawable-mdpi\ayuda.png" />
+        <AndroidResource Include="Resources\drawable-ldpi\ayuda.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\fbcontact.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\fbcontact.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\fbcontact.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\fbcontact.png" />
+        <AndroidResource Include="Resources\drawable-mdpi\fbcontact.png" />
+        <AndroidResource Include="Resources\drawable-ldpi\fbcontact.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\twcontact.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\twcontact.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\twcontact.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\twcontact.png" />
+        <AndroidResource Include="Resources\drawable-mdpi\twcontact.png" />
+        <AndroidResource Include="Resources\drawable-ldpi\twcontact.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\instcontact.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\instcontact.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\instcontact.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\instcontact.png" />
+        <AndroidResource Include="Resources\drawable-mdpi\instcontact.png" />
+        <AndroidResource Include="Resources\drawable-ldpi\instcontact.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\search.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\search.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\search.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\search.png" />
+        <AndroidResource Include="Resources\drawable-mdpi\search.png" />
+        <AndroidResource Include="Resources\drawable-ldpi\search.png" />
     </ItemGroup>
     <ItemGroup>
         <Folder Include="Resources\drawable\" />
@@ -334,6 +382,8 @@
         <Folder Include="Resources\drawable-xxhdpi\" />
         <Folder Include="Resources\drawable-xxxhdpi\" />
         <Folder Include="Resources\xml\" />
+        <Folder Include="Resources\drawable-mdpi\" />
+        <Folder Include="Resources\drawable-ldpi\" />
     </ItemGroup>
     <ItemGroup>
         <ProjectReference Include="..\SPU.Mobile\SPU.Mobile.csproj">

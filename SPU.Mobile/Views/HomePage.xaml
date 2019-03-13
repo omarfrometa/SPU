@@ -5,7 +5,7 @@
              xmlns:rotator="clr-namespace:Syncfusion.SfRotator.XForms;assembly=Syncfusion.SfRotator.XForms"
              Title="{Binding Title}">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Icon="inicio.png" Priority="1"/>
+        <ToolbarItem Icon="idt.png" Priority="1"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
     <ScrollView>

@@ -3,6 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="SPU.Mobile.Views.ClaimResumePage"
              Title="{Binding Title}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="idt.png" Priority="1"/>
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <ScrollView>
             <Grid VerticalOptions="StartAndExpand" Padding="20,0" RowSpacing="5">

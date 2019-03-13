@@ -6,7 +6,7 @@
              Title="{Binding Title}"
              IsBusy="{Binding IsBusy}">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Icon="inicio.png" Priority="1"/>
+        <ToolbarItem Icon="idt.png" Priority="1"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
     <ScrollView>

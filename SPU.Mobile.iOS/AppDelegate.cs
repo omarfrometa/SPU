@@ -53,6 +53,7 @@ namespace SPU.Mobile.iOS
             UINavigationBar.Appearance.TitleTextAttributes = new UIStringAttributes
             {
                 ForegroundColor = UIColor.FromRGB(84, 121, 154)
+
             };
         }
 

@@ -10,13 +10,13 @@
         <helper:NoShiftEffect />
     </TabbedPage.Effects>
     <TabbedPage.Children>
-        <NavigationPage Icon="inicio" Title="Inicio">
+        <NavigationPage Icon="home" Title="Inicio">
             <x:Arguments>
                 <local:HomePage />
             </x:Arguments>
         </NavigationPage> 
         
-        <NavigationPage Icon="nuevareclamacion" Title="Reclamacion">
+        <NavigationPage Icon="nuevareclama" Title="Reclamacion">
             <x:Arguments>
                 <local:ClaimRegistrationPage />
             </x:Arguments>

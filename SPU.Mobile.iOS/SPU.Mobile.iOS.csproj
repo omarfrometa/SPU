@@ -287,6 +287,27 @@
       <BundleResource Include="Resources\back%403x.png" />
       <BundleResource Include="Resources\masreclama.png" />
       <BundleResource Include="GoogleService-Info.plist" />
+      <BundleResource Include="Resources\home%403x.png" />
+      <BundleResource Include="Resources\home%402x.png" />
+      <BundleResource Include="Resources\home.png" />
+      <BundleResource Include="Resources\nuevareclama%403x.png" />
+      <BundleResource Include="Resources\nuevareclama%402x.png" />
+      <BundleResource Include="Resources\nuevareclama.png" />
+      <BundleResource Include="Resources\ayuda%403x.png" />
+      <BundleResource Include="Resources\ayuda%402x.png" />
+      <BundleResource Include="Resources\ayuda.png" />
+      <BundleResource Include="Resources\fbcontact%403x.png" />
+      <BundleResource Include="Resources\fbcontact%402x.png" />
+      <BundleResource Include="Resources\fbcontact.png" />
+      <BundleResource Include="Resources\twcontact%403x.png" />
+      <BundleResource Include="Resources\twcontact%402x.png" />
+      <BundleResource Include="Resources\twcontact.png" />
+      <BundleResource Include="Resources\instcontact%403x.png" />
+      <BundleResource Include="Resources\instcontact%402x.png" />
+      <BundleResource Include="Resources\instcontact.png" />
+      <BundleResource Include="Resources\search%403x.png" />
+      <BundleResource Include="Resources\search%402x.png" />
+      <BundleResource Include="Resources\search.png" />
     </ItemGroup>
     <ItemGroup>
       <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
@@ -304,5 +325,8 @@
       <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\167.png" />
       <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\1024.png" />
       <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\100.png" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Resources\" />
     </ItemGroup>
 </Project>

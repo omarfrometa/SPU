@@ -6,8 +6,7 @@
              xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
              Title="{Binding Title}">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Icon="inicio.png" Priority="1"/>
-        <!--<ToolbarItem Text="Limpiar" Priority="0" Command="{Binding DoCleanFieldsCommand}"/>-->
+        <ToolbarItem Icon="idt.png" Priority="1"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
             <Grid VerticalOptions="StartAndExpand" RowSpacing="5">
@@ -41,9 +40,9 @@
                                                    FocusedColor="{StaticResource SPUColor}" 
                                                    FocusedStrokeWidth="2" LeadingViewPosition="Inside" ReserveSpaceForAssistiveLabels="false" UnfocusedStrokeWidth="1">
                         <Entry  FontSize="{OnIdiom Phone=16,Tablet=18}" />
-                        <!--<inputLayout:SfTextInputLayout.LeadingView>
-                            <Image HeightRequest="25" WidthRequest="25" Source=""/>
-                        </inputLayout:SfTextInputLayout.LeadingView>-->
+                        <inputLayout:SfTextInputLayout.LeadingView>
+                            <Image HeightRequest="25" WidthRequest="25" Source="search.png"/>
+                        </inputLayout:SfTextInputLayout.LeadingView>
                     </inputLayout:SfTextInputLayout>
                     
                     <Button Grid.Column="1" Text="Buscar" TextColor="White" HeightRequest="50" VerticalOptions="EndAndExpand" IsVisible="{Binding IsNotBusy}" BackgroundColor="{StaticResource Blue2Color}" />
