@@ -15,11 +15,15 @@
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
             <Image Grid.Row="0" Source="logohashtag.png" HeightRequest="{OnIdiom Phone=150,Tablet=250}"
                        Aspect="AspectFit" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand"/>
+                
+            <Label Text="{Binding TitlePage}" Grid.Row="1" FontSize="22" TextColor="{StaticResource BlueColor}" 
+                       HorizontalTextAlignment="Center" StyleClass="SpuTitle" />
             <!--      Login Redes Sociales          -->
-            <Grid Grid.Row="1" ColumnSpacing="20" IsVisible="{Binding IsStepOne}" Padding="{OnIdiom Phone=20,0,Tablet=30,0}" VerticalOptions="StartAndExpand">
+            <Grid Grid.Row="2" ColumnSpacing="20" IsVisible="{Binding IsStepOne}" Padding="{OnIdiom Phone=20,0,Tablet=30,0}" VerticalOptions="StartAndExpand">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="*"/>
@@ -27,8 +31,8 @@
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
+                   <!-- <ColumnDefinition Width="*"/>-->
                     <ColumnDefinition Width="*"/>
-                   
                 </Grid.ColumnDefinitions>
                 <Grid Grid.Row="0" Grid.ColumnSpan="2" >
                     <Grid.ColumnDefinitions>
@@ -37,26 +41,32 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                     <BoxView Grid.Column="0" HeightRequest="0.5" VerticalOptions="CenterAndExpand" BackgroundColor="{StaticResource BlueColor}" />
-                    <Label Grid.Column="1" Text="Inicia sesion con tu red social" TextColor="{StaticResource BlueColor}" FontAttributes="Bold" FontSize="15" VerticalTextAlignment="Center"/>
+                    <Label Grid.Column="1" Text="Iniciar sesión con red social" TextColor="{StaticResource BlueColor}" FontAttributes="Bold" FontSize="15" VerticalTextAlignment="Center"/>
                     <BoxView Grid.Column="2" HeightRequest="0.5" VerticalOptions="CenterAndExpand" BackgroundColor="{StaticResource BlueColor}" />
                 </Grid>
                 <StackLayout Padding="15,0" Grid.Row="1" Grid.Column="0" >
-                    <Image Source="facebookicon.png" VerticalOptions="CenterAndExpand" 
-                           HorizontalOptions="EndAndExpand" Aspect="AspectFit" HeightRequest="{OnIdiom Phone=50,Tablet=70}"/>
+                    <Image Source="fbcontact.png" VerticalOptions="CenterAndExpand" 
+                           HorizontalOptions="EndAndExpand" Aspect="AspectFit" HeightRequest="{OnIdiom Phone=65,Tablet=80}"/>
                     
                     <StackLayout.GestureRecognizers>
-                        <TapGestureRecognizer NumberOfTapsRequired="1"/>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding FacebookLoginCommand}"/>
                     </StackLayout.GestureRecognizers>
                 </StackLayout>
-                <StackLayout Padding="15,0" Grid.Row="1" Grid.Column="1" >
-                    <Image Source="twitterIcon.png" VerticalOptions="CenterAndExpand" 
+                <!--<StackLayout Padding="15,0" Grid.Row="1" Grid.Column="1" >
+                    <Image Source="microsoft.png" VerticalOptions="CenterAndExpand" 
                            HorizontalOptions="StartAndExpand" Aspect="AspectFit" 
-                           HeightRequest="{OnIdiom Phone=50,Tablet=70}"/>
+                           HeightRequest="{OnIdiom Phone=45,Tablet=60}"/>
                     <StackLayout.GestureRecognizers>
                         <TapGestureRecognizer NumberOfTapsRequired="1"/>
                     </StackLayout.GestureRecognizers>
-                </StackLayout>
-                
+                </StackLayout>-->
+                <StackLayout Grid.Row="1" Grid.Column="1" >
+                        <Image Source="google.png" VerticalOptions="CenterAndExpand" 
+                               HorizontalOptions="StartAndExpand" Aspect="AspectFit" HeightRequest="{OnIdiom Phone=65,Tablet=80}"/>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding GoogleLoginCommand}"/>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
                 <BoxView HeightRequest="0.5" Grid.Row="2" Grid.ColumnSpan="2" VerticalOptions="EndAndExpand" 
                          BackgroundColor="{StaticResource BlueColor}" />
                <!-- 
@@ -70,53 +80,86 @@
             </Grid>
             <!--    END  Login Redes Sociales          -->
             <!--    STEP 1 Registration       -->
-            <Grid Grid.Row="2" VerticalOptions="StartAndExpand" Padding="{OnIdiom Phone=20,0,20,0,Tablet=40,5,40,0}" 
+            <Grid Grid.Row="3" VerticalOptions="StartAndExpand" Padding="{OnIdiom Phone=20,0,20,0,Tablet=40,5,40,0}" 
                         RowSpacing="{OnIdiom Phone=5,Tablet=25}" IsVisible="{Binding IsStepOne}" >
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
-                <StackLayout Grid.Row="0" Spacing="2" VerticalOptions="CenterAndExpand" >
+                
+                <StackLayout Grid.Row="0" Spacing="8" VerticalOptions="CenterAndExpand" >
                         
                     <inputLayout:SfTextInputLayout  Hint="Nombres" ContainerType="Outlined" FocusedColor="{StaticResource SPUColor}" 
-                                                    FocusedStrokeWidth="2" UnfocusedStrokeWidth="1" ReserveSpaceForAssistiveLabels="false">
-                    <Entry Text="{Binding UserRequestDTO.FirstName}" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                                                    FocusedStrokeWidth="0.8" UnfocusedStrokeWidth="0.4" LeadingViewPosition="Inside"
+                                                    ReserveSpaceForAssistiveLabels="false">
+                        <Entry Text="{Binding UserRequestDTO.FirstName}" FontSize="{OnIdiom Phone=15,Tablet=17}" />
+                        <inputLayout:SfTextInputLayout.LeadingView>
+                            <Label Text="*" VerticalOptions="CenterAndExpand" TextColor="{StaticResource RedColor}"/>
+                        </inputLayout:SfTextInputLayout.LeadingView>
                     </inputLayout:SfTextInputLayout>
                         
                     <inputLayout:SfTextInputLayout Hint="Apellidos" ContainerType="Outlined" FocusedColor="{StaticResource SPUColor}" 
-                                                   FocusedStrokeWidth="2" UnfocusedStrokeWidth="1" ReserveSpaceForAssistiveLabels="false">
-                        <Entry Text="{Binding UserRequestDTO.LastName}" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                                                   FocusedStrokeWidth="0.8" UnfocusedStrokeWidth="0.4" LeadingViewPosition="Inside"
+                                                   ReserveSpaceForAssistiveLabels="false">
+                        <Entry Text="{Binding UserRequestDTO.LastName}" FontSize="{OnIdiom Phone=15,Tablet=17}" />
+                            <inputLayout:SfTextInputLayout.LeadingView>
+                                <Label Text="*" VerticalOptions="CenterAndExpand" TextColor="{StaticResource RedColor}"/>
+                            </inputLayout:SfTextInputLayout.LeadingView>
                     </inputLayout:SfTextInputLayout>
                         
-                    <inputLayout:SfTextInputLayout Hint="Correo Electronico" ContainerType="Outlined" FocusedColor="{StaticResource SPUColor}" 
-                                                   FocusedStrokeWidth="2" UnfocusedStrokeWidth="1" ReserveSpaceForAssistiveLabels="false">
-                        <Entry Text="{Binding UserRequestDTO.Email}" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                    <inputLayout:SfTextInputLayout Hint="Correo Electrónico" ContainerType="Outlined" FocusedColor="{StaticResource SPUColor}" 
+                                                   FocusedStrokeWidth="0.8" UnfocusedStrokeWidth="0.4" LeadingViewPosition="Inside"
+                                                   ReserveSpaceForAssistiveLabels="false">
+                        <Entry Text="{Binding UserRequestDTO.Email}" Keyboard="Email" FontSize="{OnIdiom Phone=15,Tablet=17}" />
+                            <inputLayout:SfTextInputLayout.LeadingView>
+                                <Label Text="*" VerticalOptions="CenterAndExpand" TextColor="{StaticResource RedColor}"/>
+                            </inputLayout:SfTextInputLayout.LeadingView>
                     </inputLayout:SfTextInputLayout>
                             
                      <inputLayout:SfTextInputLayout Hint="Celular" FocusedColor="{StaticResource SPUColor}" ContainerType="Outlined" 
-                                                    FocusedStrokeWidth="2" UnfocusedStrokeWidth="1" HelperText="8095557281" >
-                        <Entry Text="{Binding UserRequestDTO.Phone}" Keyboard="Telephone" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                                                    FocusedStrokeWidth="0.8" LeadingViewPosition="Inside" UnfocusedStrokeWidth="0.4"
+                                                    ReserveSpaceForAssistiveLabels="false">
+                        <Entry Text="{Binding UserRequestDTO.Phone}" Keyboard="Telephone" FontSize="{OnIdiom Phone=15,Tablet=17}" />
+                            <inputLayout:SfTextInputLayout.LeadingView>
+                                <Label Text="*" VerticalOptions="CenterAndExpand" TextColor="{StaticResource RedColor}"/>
+                            </inputLayout:SfTextInputLayout.LeadingView>
                     </inputLayout:SfTextInputLayout>
                         
-                        
-                        
-                    <inputLayout:SfTextInputLayout  Hint="Contraseña" EnablePasswordVisibilityToggle="true" ContainerType="Outlined" FocusedColor="{StaticResource SPUColor}" 
-                                                    FocusedStrokeWidth="2" UnfocusedStrokeWidth="1">
-                        <Entry Text="{Binding Password}" IsPassword="true" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                    <inputLayout:SfTextInputLayout  Hint="Contraseña" EnablePasswordVisibilityToggle="true" ContainerType="Outlined"
+                                                    FocusedColor="{StaticResource SPUColor}" FocusedStrokeWidth="0.8" LeadingViewPosition="Inside" 
+                                                    UnfocusedStrokeWidth="0.4" ReserveSpaceForAssistiveLabels="false">
+                        <Entry Text="{Binding Password}" IsPassword="true" FontSize="{OnIdiom Phone=15,Tablet=17}" />
+                            <inputLayout:SfTextInputLayout.LeadingView>
+                                <Label Text="*" VerticalOptions="CenterAndExpand" TextColor="{StaticResource RedColor}"/>
+                            </inputLayout:SfTextInputLayout.LeadingView>
                     </inputLayout:SfTextInputLayout>
                     <inputLayout:SfTextInputLayout  Hint="Confirma tu Contraseña" EnablePasswordVisibilityToggle="true" ContainerType="Outlined" FocusedColor="{StaticResource SPUColor}" 
-                                                    FocusedStrokeWidth="2" UnfocusedStrokeWidth="1">
-                        <Entry Text="{Binding PasswordConfirm}" IsPassword="true" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                                                    FocusedStrokeWidth="0.8" LeadingViewPosition="Inside" UnfocusedStrokeWidth="0.4">
+                        <Entry Text="{Binding PasswordConfirm}" IsPassword="true" FontSize="{OnIdiom Phone=15,Tablet=17}" />
+                            <inputLayout:SfTextInputLayout.LeadingView>
+                                <Label Text="*" VerticalOptions="CenterAndExpand" TextColor="{StaticResource RedColor}"/>
+                            </inputLayout:SfTextInputLayout.LeadingView>
                     </inputLayout:SfTextInputLayout>
                 </StackLayout>
-                    
-                <ActivityIndicator Grid.Row="1" IsVisible="{Binding IsBusy}" VerticalOptions="StartAndExpand" IsRunning="{Binding IsBusy}" 
+                <StackLayout Grid.Row="1" Orientation="Horizontal" 
+                              VerticalOptions="StartAndExpand" Spacing="20" Padding="0,10,0,10">
+                    <Switch VerticalOptions="CenterAndExpand" IsToggled="{Binding TermsAccepted}" />
+                    <Label TextColor="{StaticResource Blue2Color}" 
+                           FontSize="15" VerticalTextAlignment="Center" StyleClass="NexusLightFont" TextDecorations="Underline" 
+                           Text="Aceptar términos y condiciones">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding GoToTermAndConditionsCommand}"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                </StackLayout>
+                <ActivityIndicator Grid.Row="2" IsVisible="{Binding IsBusy}" VerticalOptions="StartAndExpand" IsRunning="{Binding IsBusy}" 
                                    HeightRequest="40" WidthRequest="40" Color="{StaticResource BlueColor}"/>
                 
-                <Frame Grid.Row="1" BackgroundColor="{StaticResource RedColor}" HeightRequest="{OnPlatform Android=50,iOS=45}" 
-                       IsVisible="{Binding IsNotBusy}"
-                       Padding="{OnIdiom Phone=20,8,Tablet=20,10}" HasShadow="false" VerticalOptions="StartAndExpand" CornerRadius="8">
-                    <Label Text="Registrate" StyleClass="ButtonTextLabel" />
+                <Frame Grid.Row="2" BackgroundColor="{StaticResource RedColor}" 
+                       IsVisible="{Binding IsNotBusy}" HeightRequest="35"
+                       Padding="{OnIdiom Phone=10,4,Tablet=15,5}" HasShadow="false" VerticalOptions="StartAndExpand" CornerRadius="5">
+                    <Label Text="Regístrate"  StyleClass="ButtonTextLabel" />
                     <Frame.GestureRecognizers>
                         <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding DoRegistrationCommand}"/>
                     </Frame.GestureRecognizers>
@@ -133,7 +176,7 @@
             <!--  END  STEP 1 Registration --> 
                 
             <!--  STEP 2 Verification Code  -->
-           <Grid Grid.Row="1" VerticalOptions="StartAndExpand" Padding="{OnIdiom Phone=25,0,25,5,Tablet=70,0,70,5}" 
+           <Grid Grid.Row="3" VerticalOptions="StartAndExpand" Padding="{OnIdiom Phone=15,0,15,5,Tablet=40,0,40,5}" 
                   RowSpacing="{OnIdiom Phone=10,Tablet=25}" IsVisible="{Binding IsStepTwo}">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
@@ -142,33 +185,80 @@
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
                     
-                <inputLayout:SfTextInputLayout Grid.Row="0" Hint="Codigo de verificacion" ContainerType="Outlined"
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <inputLayout:SfTextInputLayout Grid.Column="0"  ContainerType="Outlined"
                                                FocusedColor="{StaticResource SPUColor}" 
-                                               FocusedStrokeWidth="4" UnfocusedStrokeWidth="2">
-                    <Entry Text="{Binding VerificationCode}" FontSize="{OnIdiom Phone=16,Tablet=18}" />
-                </inputLayout:SfTextInputLayout>
+                                               FocusedStrokeWidth="0.8" UnfocusedStrokeWidth="0.4">
+                            <Entry Text="{Binding VerCode1}" MaxLength="1" FontSize="{OnIdiom Phone=15,Tablet=17}" />
+                        </inputLayout:SfTextInputLayout>
+                        <inputLayout:SfTextInputLayout Grid.Column="1"  ContainerType="Outlined"
+                                               FocusedColor="{StaticResource SPUColor}" 
+                                               FocusedStrokeWidth="0.8" UnfocusedStrokeWidth="0.4">
+                            <Entry Text="{Binding VerCode2}" MaxLength="1" FontSize="{OnIdiom Phone=15,Tablet=17}" />
+                        </inputLayout:SfTextInputLayout>
+                        <inputLayout:SfTextInputLayout Grid.Column="2"  ContainerType="Outlined"
+                                               FocusedColor="{StaticResource SPUColor}" 
+                                               FocusedStrokeWidth="0.8" UnfocusedStrokeWidth="0.4">
+                            <Entry Text="{Binding VerCode3}" MaxLength="1" FontSize="{OnIdiom Phone=15,Tablet=17}" />
+                        </inputLayout:SfTextInputLayout>
                         
+                        
+                        <Label Grid.Column="3" Text=" - " StyleClass="NexusBoldFont" VerticalTextAlignment="Center"
+                               HorizontalTextAlignment="Center" TextColor="{StaticResource SPUTags}" />
+                        
+                        
+                        <inputLayout:SfTextInputLayout Grid.Column="4"  ContainerType="Outlined"
+                                               FocusedColor="{StaticResource SPUColor}" 
+                                               FocusedStrokeWidth="0.8" UnfocusedStrokeWidth="0.4">
+                            <Entry Text="{Binding VerCode4}" MaxLength="1" FontSize="{OnIdiom Phone=15,Tablet=17}" />
+                        </inputLayout:SfTextInputLayout>
+                        <inputLayout:SfTextInputLayout Grid.Column="5"  ContainerType="Outlined"
+                                               FocusedColor="{StaticResource SPUColor}" 
+                                               FocusedStrokeWidth="0.8" UnfocusedStrokeWidth="0.4">
+                            <Entry Text="{Binding VerCode5}" MaxLength="1" FontSize="{OnIdiom Phone=15,Tablet=17}" />
+                        </inputLayout:SfTextInputLayout>
+                        <inputLayout:SfTextInputLayout Grid.Column="6"  ContainerType="Outlined"
+                                               FocusedColor="{StaticResource SPUColor}" 
+                                               FocusedStrokeWidth="0.8" UnfocusedStrokeWidth="0.4">
+                            <Entry Text="{Binding VerCode6}" MaxLength="1" FontSize="{OnIdiom Phone=15,Tablet=17}" />
+                        </inputLayout:SfTextInputLayout>
+                    </Grid>
+               <!-- <inputLayout:SfTextInputLayout Grid.Row="0" Hint="Codigo de verificacion" ContainerType="Outlined"
+                                               FocusedColor="{StaticResource SPUColor}" 
+                                               FocusedStrokeWidth="0.8" UnfocusedStrokeWidth="0.4">
+                    <Entry Text="{Binding VerificationCode}" FontSize="{OnIdiom Phone=15,Tablet=17}" />
+                </inputLayout:SfTextInputLayout>
+                        -->
                 <ActivityIndicator Grid.Row="1" IsVisible="{Binding IsBusy}" VerticalOptions="StartAndExpand" IsRunning="{Binding IsBusy}" 
                                    HeightRequest="40" WidthRequest="40" Color="{StaticResource BlueColor}"/>
                 
-                <Frame Grid.Row="1" BackgroundColor="{StaticResource RedColor}" IsVisible="{Binding IsNotBusy}" 
-                       Padding="{OnIdiom Phone=20,5,Tablet=20,10}" HasShadow="false" VerticalOptions="StartAndExpand" CornerRadius="8">
-                    <Label Text="Confirmar" StyleClass="ButtonTextLabel" />
+                <Frame Grid.Row="1" BackgroundColor="{StaticResource Blue2Color}" IsVisible="{Binding IsNotBusy}" 
+                       Padding="{OnIdiom Phone=10,5,Tablet=15,8}" HasShadow="false" VerticalOptions="StartAndExpand" CornerRadius="8">
+                    <Label Text="Validar" StyleClass="ButtonTextLabel" />
                     <Frame.GestureRecognizers>
                         <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding DoCodeVerificationCommand}"/>
                     </Frame.GestureRecognizers>
                 </Frame>
                     
                 <Frame Grid.Row="2" BackgroundColor="{StaticResource SPUColor}" IsVisible="{Binding IsNotBusy}" 
-                       Padding="{OnIdiom Phone=20,5,Tablet=20,10}" HasShadow="false" VerticalOptions="StartAndExpand" CornerRadius="8">
+                       Padding="{OnIdiom Phone=10,5,Tablet=15,8}" HasShadow="false" VerticalOptions="StartAndExpand" CornerRadius="8">
                     <Label Text="{Binding BackText}" StyleClass="ButtonTextLabel" />
                     <Frame.GestureRecognizers>
                         <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding GoToStepOneCommand}"/>
                     </Frame.GestureRecognizers>
                 </Frame>
                 <StackLayout Grid.Row="3">
-                    <Label Text="Reenviar Codigo" StyleClass="ImportantLabel"
-                       TextColor="RoyalBlue" HorizontalTextAlignment="Center" VerticalTextAlignment="End" 
+                    <Label Text="Reenviar Código" StyleClass="ImportantLabel"
+                       TextColor="{StaticResource Blue2Color}" HorizontalTextAlignment="Center" VerticalTextAlignment="End" 
                        VerticalOptions="EndAndExpand"/>
                     <StackLayout.GestureRecognizers>
                         <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding DoResendVerificationCodeCommand}"/>
@@ -189,8 +279,8 @@
                 <StackLayout Grid.Row="0">
                     <inputLayout:SfTextInputLayout  Hint="Nombre de Usuario" ContainerType="Outlined"
                                            FocusedColor="{StaticResource SPUColor}" 
-                                           FocusedStrokeWidth="4" UnfocusedStrokeWidth="2">
-                        <Entry Text="{Binding DisplayName}" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                                           FocusedStrokeWidth="0.8" UnfocusedStrokeWidth="0.4">
+                        <Entry Text="{Binding DisplayName}" FontSize="{OnIdiom Phone=15,Tablet=17}" />
                     </inputLayout:SfTextInputLayout>
                     
                     
@@ -212,14 +302,14 @@
                         
                     <inputLayout:SfTextInputLayout  Hint="No. Identificacion" ContainerType="Outlined"
                                    FocusedColor="{StaticResource SPUColor}" 
-                                   FocusedStrokeWidth="4" UnfocusedStrokeWidth="2">
-                        <Entry Text="{Binding IdentificationNo}" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                                   FocusedStrokeWidth="0.8" UnfocusedStrokeWidth="0.4">
+                        <Entry Text="{Binding IdentificationNo}" FontSize="{OnIdiom Phone=15,Tablet=17}" />
                     </inputLayout:SfTextInputLayout>
                         
                     <inputLayout:SfTextInputLayout  Hint="Contraseña" EnablePasswordVisibilityToggle="true" ContainerType="Outlined"
                                                    FocusedColor="{StaticResource SPUColor}" 
-                                                   FocusedStrokeWidth="4" UnfocusedStrokeWidth="2">
-                        <Entry Text="{Binding Password}" IsPassword="true" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                                                   FocusedStrokeWidth="0.8" UnfocusedStrokeWidth="0.4">
+                        <Entry Text="{Binding Password}" IsPassword="true" FontSize="{OnIdiom Phone=15,Tablet=17}" />
                     </inputLayout:SfTextInputLayout>
                 </StackLayout>
                 

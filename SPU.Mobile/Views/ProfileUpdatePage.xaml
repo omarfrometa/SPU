@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+             xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+             x:Class="SPU.Mobile.Views.ProfileUpdatePage"
+             Title="{Binding Title}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="idt.png" Priority="1"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+        <Grid VerticalOptions="CenterAndExpand" Padding="{OnIdiom Phone=20,20,20,0,Tablet=70,40,70,5}" RowSpacing="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <StackLayout Grid.Row="0" Padding="{OnIdiom Phone=20,0,20,0,Tablet=40,5,40,0}" HorizontalOptions="StartAndExpand" 
+                         Orientation="Horizontal" Spacing="8">
+                <Image Source="editarperfil.png" HeightRequest="{OnIdiom Phone=30,Tablet=40}"
+                   Aspect="AspectFit" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand"/>
+                <Label Text="Actualizar mis datos" StyleClass="SpuTitle"/>
+            </StackLayout>
+           
+            <Grid Grid.Row="1" VerticalOptions="StartAndExpand" Padding="{OnIdiom Phone=20,0,20,0,Tablet=40,5,40,0}" 
+                        RowSpacing="{OnIdiom Phone=5,Tablet=25}" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <StackLayout Grid.Row="0" Spacing="2" Padding="0,0,0,5" VerticalOptions="CenterAndExpand" >
+                        
+                    <inputLayout:SfTextInputLayout  Hint="Nombres" ContainerType="Outlined" FocusedColor="{StaticResource SPUColor}" 
+                                                    FocusedStrokeWidth="2" UnfocusedStrokeWidth="1" ReserveSpaceForAssistiveLabels="false">
+                    <Entry Text="{Binding UserProfile.FirstName}" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                    </inputLayout:SfTextInputLayout>
+                        
+                    <inputLayout:SfTextInputLayout Hint="Apellidos" ContainerType="Outlined" FocusedColor="{StaticResource SPUColor}" 
+                                                   FocusedStrokeWidth="2" UnfocusedStrokeWidth="1" ReserveSpaceForAssistiveLabels="false">
+                        <Entry Text="{Binding UserProfile.LastName}" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                    </inputLayout:SfTextInputLayout>
+                        
+                    <inputLayout:SfTextInputLayout Hint="Teléfono Residencial" ContainerType="Outlined" FocusedColor="{StaticResource SPUColor}" 
+                                                   FocusedStrokeWidth="2" UnfocusedStrokeWidth="1" ReserveSpaceForAssistiveLabels="false">
+                        <Entry Text="{Binding UserProfile.PhoneHome}" Keyboard="Telephone" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                    </inputLayout:SfTextInputLayout>
+                            
+                    <inputLayout:SfTextInputLayout Hint="Celular" FocusedColor="{StaticResource SPUColor}" ContainerType="Outlined" 
+                                                    FocusedStrokeWidth="2" UnfocusedStrokeWidth="1" >
+                        <Entry Text="{Binding UserProfile.Phone}" Keyboard="Telephone" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                    </inputLayout:SfTextInputLayout>
+                        
+                    <inputLayout:SfTextInputLayout Hint="Teléfono Oficina" FocusedColor="{StaticResource SPUColor}" ContainerType="Outlined" 
+                                                    FocusedStrokeWidth="2" UnfocusedStrokeWidth="1" >
+                        <Entry Text="{Binding UserProfile.PhoneOffice}" Keyboard="Telephone" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                    </inputLayout:SfTextInputLayout>
+                      
+                        
+                    <Grid ColumnSpacing="3">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="3.5*"/>
+                            <ColumnDefinition Width="6.5*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackLayout Orientation="Vertical">
+                            <Label Text="Género" StyleClass="ImportantLabel"/>
+                            <Picker Title="Seleccione el Genero" HeightRequest="40" VerticalOptions="CenterAndExpand" SelectedItem="{Binding SelectedGender}">
+                                <Picker.Items>
+                                    <x:String>M</x:String>
+                                    <x:String>F</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+                        <StackLayout Grid.Column="1" Orientation="Vertical">
+                            <Label Text="Fecha de Nacimiento" StyleClass="ImportantLabel"/>
+                            <DatePicker Date="{Binding SelectedDate}" Format="dd/MM/yyyy" HeightRequest="40" VerticalOptions="CenterAndExpand" HorizontalOptions="Fill" />
+                        </StackLayout>
+                    </Grid>
+                   
+                    <StackLayout Orientation="Vertical" Padding="0,5">
+                        <Label Text="Provincia" StyleClass="ImportantLabel"/>
+                        <Picker Title=" Seleccione " ItemsSource="{Binding Provinces}" TextColor="{StaticResource BlueColor}" 
+                                HeightRequest="40" VerticalOptions="CenterAndExpand" SelectedItem="{Binding SelectedProvince}"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical" Padding="0,5">
+                        <Label Text="Municipio" StyleClass="ImportantLabel"/>
+                        <Picker Title=" Seleccione " ItemsSource="{Binding Municipalities}" TextColor="{StaticResource BlueColor}" 
+                                HeightRequest="40" VerticalOptions="CenterAndExpand" SelectedItem="{Binding SelectedMunicipality}"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical" Padding="0,5">
+                        <Label Text="Sector" StyleClass="ImportantLabel"/>
+                        <Picker Title=" Seleccione " ItemsSource="{Binding Sectors}" TextColor="{StaticResource BlueColor}" 
+                                HeightRequest="40" VerticalOptions="CenterAndExpand" SelectedItem="{Binding SelectedSector}"/>
+                    </StackLayout>
+                   
+                    <inputLayout:SfTextInputLayout  Hint="Dirección" ContainerType="Outlined" FocusedColor="{StaticResource SPUColor}" 
+                                                    FocusedStrokeWidth="2" UnfocusedStrokeWidth="1" ReserveSpaceForAssistiveLabels="false">
+                    <Entry Text="{Binding UserProfile.Address}" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                    </inputLayout:SfTextInputLayout>
+                   
+                    
+                   <!-- <StackLayout Orientation="Vertical" Spacing="2" Padding="0,5" >
+                        <Label Text="Comentario" StyleClass="ImportantLabel"/>
+                        <Frame BackgroundColor="Transparent" BorderColor="{StaticResource SPUColor}"  Margin="0"
+                                Padding="{OnIdiom Phone=5,Tablet=10}" HasShadow="false" CornerRadius="8">
+                                <Editor Text="{Binding UserProfile.Comentarios}" TextColor="{StaticResource BlueColor}" 
+                                        HeightRequest="{OnIdiom Phone=100,Tablet=200}"/>
+                        </Frame>
+                    </StackLayout>-->
+                </StackLayout>
+                    
+                <ActivityIndicator Grid.Row="1" IsVisible="{Binding IsBusy}" VerticalOptions="StartAndExpand" IsRunning="{Binding IsBusy}" 
+                        HeightRequest="40" WidthRequest="40" Color="{StaticResource BlueColor}"/>
+            
+                <Frame Grid.Row="1" BackgroundColor="{StaticResource RedColor}" IsVisible="{Binding IsNotBusy}"
+                       Padding="{OnIdiom Phone=20,8,Tablet=20,10}" HasShadow="false" VerticalOptions="StartAndExpand" CornerRadius="8">
+                    <Label Text="Actualizar" StyleClass="ButtonTextLabel" />
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding DoUpdateProfileCommand}"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+               
+            </Grid>
+                
+           
+                
+        </Grid>
+    </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

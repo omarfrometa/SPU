@@ -12,6 +12,14 @@ using Acr.UserDialogs;
 using Plugin.CurrentActivity;
 
 using Android.Gms.Common;
+using SPU.Mobile.Services;
+using Plugin.Fingerprint;
+using Xamarin.Facebook;
+using Xamarin.Forms;
+using Android.Content;
+using SPU.Mobile.Droid.Services;
+using Android.Gms.Auth.Api.SignIn;
+using Android.Gms.Auth.Api;
 
 namespace SPU.Mobile.Droid
 {
@@ -24,13 +32,17 @@ namespace SPU.Mobile.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(savedInstanceState);
-
+            global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            FacebookSdk.SdkInitialize(this);
             CrossCurrentActivity.Current.Init(this, savedInstanceState);
+            FFImageLoading.Forms.Platform.CachedImageRenderer.Init(true);
+            CrossFingerprint.SetCurrentActivityResolver(() => CrossCurrentActivity.Current.Activity);
+
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             UserDialogs.Init(this);
 
-            global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
-            LoadApplication(new App());
+
+            LoadApplication(new App(new AndroidInitializer()));
             CheckForGoogleServices();
 
         }
@@ -54,6 +66,21 @@ namespace SPU.Mobile.Droid
             return true;
         }
 
+        protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
+        {
+            base.OnActivityResult(requestCode, resultCode, data);
+            if (requestCode == 1)
+            {
+                GoogleSignInResult result = Auth.GoogleSignInApi.GetSignInResultFromIntent(data);
+                GoogleManager.Instance.OnAuthCompleted(result);
+            }
+            var manager = DependencyService.Get<IFacebookManager>();
+            if (manager != null)
+            {
+                (manager as FacebookManager)._callbackManager.OnActivityResult(requestCode, (int)resultCode, data);
+            }
+        }
+
 
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
@@ -67,7 +94,8 @@ namespace SPU.Mobile.Droid
     {
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            // Register any platform specific implementations
+            containerRegistry.Register<IFacebookManager, FacebookManager>();
+            containerRegistry.Register<IGoogleManager, GoogleManager>();
         }
     }
 }

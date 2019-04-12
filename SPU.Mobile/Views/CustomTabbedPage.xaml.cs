@@ -11,5 +11,7 @@ namespace SPU.Mobile.Views
         {
             InitializeComponent();
         }
+
+
     }
 }

@@ -20,6 +20,34 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb382744535666571</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.263192624846-p149tom5590aeo1lj21qfmgrokmg1b9c</string>
+			</array>
+			<key>CFBundleURLTypes</key>
+			<string>Editor</string>
+		</dict>
+	</array>
+	<key>FacebookAppID</key>
+	<string>382744535666571</string>
+	<key>FacebookDisplayName</key>
+	<string>INDOTEL</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+	</array>
 	<key>NSCameraUsageDescription</key>
 	<string>This app needs access to the camera to take photos.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
@@ -38,17 +66,22 @@
 	<string>LaunchScreen</string>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
-	<key>CFBundleName</key>
-	<string>SPU</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.28</string>
-	<key>CFBundleVersion</key>
-	<string>28</string>
+	<string>1.0.74</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>remote-notification</string>
 	</array>
 	<key>FirebaseAppDelegateProxyEnabled</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>NexaDemo-Bold.otf</string>
+		<string>NexaDemo-Light.otf</string>
+	</array>
+	<key>CFBundleName</key>
+	<string>INDOTEL</string>
+	<key>CFBundleVersion</key>
+	<string>74</string>
 </dict>
 </plist>

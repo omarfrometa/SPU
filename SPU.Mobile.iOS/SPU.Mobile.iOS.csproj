@@ -15,6 +15,7 @@
         <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
         <NuGetPackageImportStamp>
         </NuGetPackageImportStamp>
+        <ReleaseVersion>1.0</ReleaseVersion>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
         <DebugSymbols>true</DebugSymbols>
@@ -28,10 +29,11 @@
         <MtouchArch>x86_64</MtouchArch>
         <MtouchLink>None</MtouchLink>
         <MtouchDebug>true</MtouchDebug>
-        <CodesignKey>iPhone Developer</CodesignKey>
+        <CodesignKey>iPhone Developer: Ariel De los santos (GCHT6F77JK)</CodesignKey>
         <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
-        <CodesignProvision>SUPProvProf</CodesignProvision>
+        <CodesignProvision>VS: WildCard Development</CodesignProvision>
         <MtouchExtraArgs>--registrar:static</MtouchExtraArgs>
+        <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
         <DebugType>none</DebugType>
@@ -43,6 +45,8 @@
         <MtouchArch>x86_64</MtouchArch>
         <ConsolePause>false</ConsolePause>
         <MtouchExtraArgs>--registrar:static</MtouchExtraArgs>
+        <CodesignProvision>VS: WildCard Development</CodesignProvision>
+        <CodesignKey>iPhone Developer: Ariel De los santos (GCHT6F77JK)</CodesignKey>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
         <DebugSymbols>true</DebugSymbols>
@@ -54,10 +58,10 @@
         <WarningLevel>4</WarningLevel>
         <ConsolePause>false</ConsolePause>
         <MtouchArch>ARM64</MtouchArch>
-        <CodesignKey>iPhone Developer</CodesignKey>
+        <CodesignKey>iPhone Developer: Ariel De los santos (GCHT6F77JK)</CodesignKey>
         <MtouchDebug>true</MtouchDebug>
         <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
-        <CodesignProvision>SUPProvProf</CodesignProvision>
+        <CodesignProvision>VS: WildCard Development</CodesignProvision>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
         <DebugType>none</DebugType>
@@ -67,8 +71,9 @@
         <WarningLevel>4</WarningLevel>
         <MtouchArch>ARM64</MtouchArch>
         <ConsolePause>false</ConsolePause>
-        <CodesignKey>iPhone Developer</CodesignKey>
+        <CodesignKey>iPhone Developer: Ariel De los santos (GCHT6F77JK)</CodesignKey>
         <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+        <CodesignProvision>VS: WildCard Development</CodesignProvision>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
         <DebugType>none</DebugType>
@@ -91,8 +96,8 @@
         <WarningLevel>4</WarningLevel>
         <ConsolePause>False</ConsolePause>
         <MtouchArch>ARM64</MtouchArch>
-        <CodesignProvision>Automatic:AppStore</CodesignProvision>
-        <CodesignKey>iPhone Distribution</CodesignKey>
+        <CodesignProvision>VS: WildCard Development</CodesignProvision>
+        <CodesignKey>iPhone Developer: Ariel De los santos (GCHT6F77JK)</CodesignKey>
         <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     </PropertyGroup>
     <ItemGroup>
@@ -102,6 +107,9 @@
         <None Include="Info.plist" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <None Include="FodyWeavers.xml" />
+        <Compile Include="Services\DeviceInfo.cs" />
+        <Compile Include="Services\FacebookManager.cs" />
+        <Compile Include="Services\GoogleManager.cs" />
     </ItemGroup>
     <ItemGroup>
         <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -113,7 +121,7 @@
         <Reference Include="Xamarin.iOS" />
     </ItemGroup>
     <ItemGroup>
-        <PackageReference Include="Xamarin.Forms" Version="3.5.0.169047" />
+        <PackageReference Include="Xamarin.Forms" Version="3.6.0.293080" />
         <PackageReference Include="Acr.UserDialogs">
             <Version>7.0.1</Version>
         </PackageReference>
@@ -127,16 +135,16 @@
             <Version>7.0.0.396</Version>
         </PackageReference>
         <PackageReference Include="Xamarin.Essentials">
-            <Version>1.0.1</Version>
+            <Version>1.1.0</Version>
         </PackageReference>
         <PackageReference Include="Syncfusion.Xamarin.Core">
-          <Version>16.4.0.48</Version>
+          <Version>17.1.0.40</Version>
         </PackageReference>
         <PackageReference Include="Realm">
           <Version>3.4.0</Version>
         </PackageReference>
         <PackageReference Include="Syncfusion.Xamarin.SfRotator">
-          <Version>16.4.0.48</Version>
+          <Version>17.1.0.40</Version>
         </PackageReference>
         <PackageReference Include="Xamarin.Plugin.FilePicker">
           <Version>2.0.135</Version>
@@ -159,6 +167,24 @@
         <PackageReference Include="Xamarin.Firebase.iOS.Analytics">
           <Version>5.5.0</Version>
         </PackageReference>
+        <PackageReference Include="Plugin.Fingerprint">
+          <Version>1.4.9</Version>
+        </PackageReference>
+        <PackageReference Include="Syncfusion.Xamarin.SfListView">
+          <Version>17.1.0.40</Version>
+        </PackageReference>
+        <PackageReference Include="Xamarin.Facebook.iOS">
+          <Version>4.40.0</Version>
+        </PackageReference>
+        <PackageReference Include="Xamarin.Google.iOS.SignIn">
+          <Version>4.4.0</Version>
+        </PackageReference>
+        <PackageReference Include="Xamarin.FFImageLoading.Svg.Forms">
+          <Version>2.4.5.870-pre</Version>
+        </PackageReference>
+        <PackageReference Include="Xamarin.FFImageLoading.Forms">
+          <Version>2.4.5.880-pre</Version>
+        </PackageReference>
     </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
     <ItemGroup>
@@ -177,9 +203,6 @@
       <BundleResource Include="Resources\twitterIcon.png" />
       <BundleResource Include="Resources\twitterIcon%402x.png" />
       <BundleResource Include="Resources\twitterIcon%403x.png" />
-      <BundleResource Include="Resources\emptyprofile.png" />
-      <BundleResource Include="Resources\emptyprofile%402x.png" />
-      <BundleResource Include="Resources\emptyprofile%403x.png" />
       <BundleResource Include="Resources\menu.png" />
       <BundleResource Include="Resources\menu%402x.png" />
       <BundleResource Include="Resources\menu%403x.png" />
@@ -225,9 +248,6 @@
       <BundleResource Include="Resources\faqs.png" />
       <BundleResource Include="Resources\faqs%402x.png" />
       <BundleResource Include="Resources\faqs%403x.png" />
-      <BundleResource Include="Resources\hashtag.png" />
-      <BundleResource Include="Resources\hashtag%402x.png" />
-      <BundleResource Include="Resources\hashtag%403x.png" />
       <BundleResource Include="Resources\idt.png" />
       <BundleResource Include="Resources\idt%402x.png" />
       <BundleResource Include="Resources\idt%403x.png" />
@@ -240,18 +260,9 @@
       <BundleResource Include="Resources\locklogin.png" />
       <BundleResource Include="Resources\locklogin%402x.png" />
       <BundleResource Include="Resources\locklogin%403x.png" />
-      <BundleResource Include="Resources\logowhite.png" />
-      <BundleResource Include="Resources\logowhite%402x.png" />
-      <BundleResource Include="Resources\logowhite%403x.png" />
-      <BundleResource Include="Resources\mas.png" />
-      <BundleResource Include="Resources\mas%402x.png" />
-      <BundleResource Include="Resources\mas%403x.png" />
       <BundleResource Include="Resources\misderechos.png" />
       <BundleResource Include="Resources\misderechos%402x.png" />
       <BundleResource Include="Resources\misderechos%403x.png" />
-      <BundleResource Include="Resources\nuevareclamacion.png" />
-      <BundleResource Include="Resources\nuevareclamacion%402x.png" />
-      <BundleResource Include="Resources\nuevareclamacion%403x.png" />
       <BundleResource Include="Resources\proxconciliacion.png" />
       <BundleResource Include="Resources\proxconciliacion%402x.png" />
       <BundleResource Include="Resources\proxconciliacion%403x.png" />
@@ -270,18 +281,6 @@
       <BundleResource Include="Resources\logohashtag.png" />
       <BundleResource Include="Resources\logohashtag%402x.png" />
       <BundleResource Include="Resources\logohashtag%403x.png" />
-      <BundleResource Include="Resources\inicio.png" />
-      <BundleResource Include="Resources\inicio%402x.png" />
-      <BundleResource Include="Resources\inicio%403x.png" />
-      <BundleResource Include="Resources\mcasos.png" />
-      <BundleResource Include="Resources\mcasos%402x.png" />
-      <BundleResource Include="Resources\mcasos%403x.png" />
-      <BundleResource Include="Resources\mcontactos.png" />
-      <BundleResource Include="Resources\mcontactos%402x.png" />
-      <BundleResource Include="Resources\mcontactos%403x.png" />
-      <BundleResource Include="Resources\mhome.png" />
-      <BundleResource Include="Resources\mhome%402x.png" />
-      <BundleResource Include="Resources\mhome%403x.png" />
       <BundleResource Include="Resources\back.png" />
       <BundleResource Include="Resources\back%402x.png" />
       <BundleResource Include="Resources\back%403x.png" />
@@ -308,6 +307,168 @@
       <BundleResource Include="Resources\search%403x.png" />
       <BundleResource Include="Resources\search%402x.png" />
       <BundleResource Include="Resources\search.png" />
+      <BundleResource Include="Resources\tpcasos%403x.png" />
+      <BundleResource Include="Resources\tpcasos%402x.png" />
+      <BundleResource Include="Resources\tpcasos.png" />
+      <BundleResource Include="Resources\tpcontactos%403x.png" />
+      <BundleResource Include="Resources\tpcontactos%402x.png" />
+      <BundleResource Include="Resources\tpcontactos.png" />
+      <BundleResource Include="Resources\tphome%403x.png" />
+      <BundleResource Include="Resources\tphome%402x.png" />
+      <BundleResource Include="Resources\tphome.png" />
+      <BundleResource Include="Resources\tpmas%403x.png" />
+      <BundleResource Include="Resources\tpmas%402x.png" />
+      <BundleResource Include="Resources\tpmas.png" />
+      <BundleResource Include="Resources\tpnuevareclama%403x.png" />
+      <BundleResource Include="Resources\tpnuevareclama%402x.png" />
+      <BundleResource Include="Resources\tpnuevareclama.png" />
+      <BundleResource Include="Resources\miscasos2%403x.png" />
+      <BundleResource Include="Resources\miscasos2%402x.png" />
+      <BundleResource Include="Resources\miscasos2.png" />
+      <BundleResource Include="Resources\masreclama%403x.png" />
+      <BundleResource Include="Resources\masreclama%402x.png" />
+      <BundleResource Include="Resources\htindotel%403x.png" />
+      <BundleResource Include="Resources\htindotel%402x.png" />
+      <BundleResource Include="Resources\htindotel.png" />
+      <BundleResource Include="Resources\location%403x.png" />
+      <BundleResource Include="Resources\location%402x.png" />
+      <BundleResource Include="Resources\location.png" />
+      <BundleResource Include="Resources\location2%403x.png" />
+      <BundleResource Include="Resources\location2%402x.png" />
+      <BundleResource Include="Resources\location2.png" />
+      <BundleResource Include="Resources\NexaDemo-Bold.otf" />
+      <BundleResource Include="Resources\NexaDemo-Light.otf" />
+      <BundleResource Include="Resources\derechos1%403x.png" />
+      <BundleResource Include="Resources\derechos1%402x.png" />
+      <BundleResource Include="Resources\derechos1.png" />
+      <BundleResource Include="Resources\derechos2%403x.png" />
+      <BundleResource Include="Resources\derechos2%402x.png" />
+      <BundleResource Include="Resources\derechos2.png" />
+      <BundleResource Include="Resources\derechos3%403x.png" />
+      <BundleResource Include="Resources\derechos3%402x.png" />
+      <BundleResource Include="Resources\derechos3.png" />
+      <BundleResource Include="Resources\derechos4%403x.png" />
+      <BundleResource Include="Resources\derechos4%402x.png" />
+      <BundleResource Include="Resources\derechos4.png" />
+      <BundleResource Include="Resources\derechos5%403x.png" />
+      <BundleResource Include="Resources\derechos5%402x.png" />
+      <BundleResource Include="Resources\derechos5.png" />
+      <BundleResource Include="Resources\derechos6%403x.png" />
+      <BundleResource Include="Resources\derechos6%402x.png" />
+      <BundleResource Include="Resources\derechos6.png" />
+      <BundleResource Include="Resources\derechos7%403x.png" />
+      <BundleResource Include="Resources\derechos7%402x.png" />
+      <BundleResource Include="Resources\derechos7.png" />
+      <BundleResource Include="Resources\derechos8%403x.png" />
+      <BundleResource Include="Resources\derechos8%402x.png" />
+      <BundleResource Include="Resources\derechos8.png" />
+      <BundleResource Include="Resources\derechos9%403x.png" />
+      <BundleResource Include="Resources\derechos9%402x.png" />
+      <BundleResource Include="Resources\derechos9.png" />
+      <BundleResource Include="Resources\derechos10%403x.png" />
+      <BundleResource Include="Resources\derechos10%402x.png" />
+      <BundleResource Include="Resources\derechos10.png" />
+      <BundleResource Include="Resources\derechos11%403x.png" />
+      <BundleResource Include="Resources\derechos11%402x.png" />
+      <BundleResource Include="Resources\derechos11.png" />
+      <BundleResource Include="Resources\derechos12%403x.png" />
+      <BundleResource Include="Resources\derechos12%402x.png" />
+      <BundleResource Include="Resources\derechos12.png" />
+      <BundleResource Include="Resources\derechos13%403x.png" />
+      <BundleResource Include="Resources\derechos13%402x.png" />
+      <BundleResource Include="Resources\derechos13.png" />
+      <BundleResource Include="Resources\derechos14%403x.png" />
+      <BundleResource Include="Resources\derechos14%402x.png" />
+      <BundleResource Include="Resources\derechos14.png" />
+      <BundleResource Include="Resources\deberes1%403x.png" />
+      <BundleResource Include="Resources\deberes1%402x.png" />
+      <BundleResource Include="Resources\deberes1.png" />
+      <BundleResource Include="Resources\deberes2%403x.png" />
+      <BundleResource Include="Resources\deberes2%402x.png" />
+      <BundleResource Include="Resources\deberes2.png" />
+      <BundleResource Include="Resources\deberes3%403x.png" />
+      <BundleResource Include="Resources\deberes3%402x.png" />
+      <BundleResource Include="Resources\deberes3.png" />
+      <BundleResource Include="Resources\deberes4%403x.png" />
+      <BundleResource Include="Resources\deberes4%402x.png" />
+      <BundleResource Include="Resources\deberes4.png" />
+      <BundleResource Include="Resources\deberes5%403x.png" />
+      <BundleResource Include="Resources\deberes5%402x.png" />
+      <BundleResource Include="Resources\deberes5.png" />
+      <BundleResource Include="Resources\deberes6%403x.png" />
+      <BundleResource Include="Resources\deberes6%402x.png" />
+      <BundleResource Include="Resources\deberes6.png" />
+      <BundleResource Include="Resources\deberes7%403x.png" />
+      <BundleResource Include="Resources\deberes7%402x.png" />
+      <BundleResource Include="Resources\deberes7.png" />
+      <BundleResource Include="Resources\deberes8%403x.png" />
+      <BundleResource Include="Resources\deberes8%402x.png" />
+      <BundleResource Include="Resources\deberes8.png" />
+      <BundleResource Include="Resources\deberes9%403x.png" />
+      <BundleResource Include="Resources\deberes9%402x.png" />
+      <BundleResource Include="Resources\deberes9.png" />
+      <BundleResource Include="Resources\deberes10%403x.png" />
+      <BundleResource Include="Resources\deberes10%402x.png" />
+      <BundleResource Include="Resources\deberes10.png" />
+      <BundleResource Include="Resources\deberes11%403x.png" />
+      <BundleResource Include="Resources\deberes11%402x.png" />
+      <BundleResource Include="Resources\deberes11.png" />
+      <BundleResource Include="Resources\comment%403x.png" />
+      <BundleResource Include="Resources\comment%402x.png" />
+      <BundleResource Include="Resources\comment.png" />
+      <BundleResource Include="Resources\reclamaccom%403x.png" />
+      <BundleResource Include="Resources\reclamaccom%402x.png" />
+      <BundleResource Include="Resources\reclamaccom.png" />
+      <BundleResource Include="Resources\gracias%403x.png" />
+      <BundleResource Include="Resources\gracias%402x.png" />
+      <BundleResource Include="Resources\gracias.png" />
+      <BundleResource Include="Resources\info%403x.png" />
+      <BundleResource Include="Resources\info%402x.png" />
+      <BundleResource Include="Resources\info.png" />
+      <BundleResource Include="Resources\satisfecho%403x.png" />
+      <BundleResource Include="Resources\satisfecho%402x.png" />
+      <BundleResource Include="Resources\satisfecho.png" />
+      <BundleResource Include="Resources\avatar%403x.png" />
+      <BundleResource Include="Resources\avatar%402x.png" />
+      <BundleResource Include="Resources\avatar.png" />
+      <BundleResource Include="Resources\huella%403x.png" />
+      <BundleResource Include="Resources\huella%402x.png" />
+      <BundleResource Include="Resources\huella.png" />
+      <BundleResource Include="Resources\logout%403x.png" />
+      <BundleResource Include="Resources\logout%402x.png" />
+      <BundleResource Include="Resources\logout.png" />
+      <BundleResource Include="Resources\notificacion%403x.png" />
+      <BundleResource Include="Resources\notificacion%402x.png" />
+      <BundleResource Include="Resources\notificacion.png" />
+      <BundleResource Include="Resources\splashind%403x.png" />
+      <BundleResource Include="Resources\splashind%402x.png" />
+      <BundleResource Include="Resources\splashind.png" />
+      <BundleResource Include="Resources\logowhite%403x.png" />
+      <BundleResource Include="Resources\logowhite%402x.png" />
+      <BundleResource Include="Resources\logowhite.png" />
+      <BundleResource Include="Resources\logowhite2%403x.png" />
+      <BundleResource Include="Resources\logowhite2%402x.png" />
+      <BundleResource Include="Resources\logowhite2.png" />
+      <BundleResource Include="Resources\google%403x.png" />
+      <BundleResource Include="Resources\google%402x.png" />
+      <BundleResource Include="Resources\google.png" />
+      <BundleResource Include="Resources\share%403x.png" />
+      <BundleResource Include="Resources\share%402x.png" />
+      <BundleResource Include="Resources\share.png" />
+      <BundleResource Include="Resources\splash3.png" />
+      <BundleResource Include="Resources\splash4.png" />
+      <BundleResource Include="Resources\microsoft%403x.png" />
+      <BundleResource Include="Resources\microsoft%402x.png" />
+      <BundleResource Include="Resources\microsoft.png" />
+      <BundleResource Include="Resources\pngicon%403x.png" />
+      <BundleResource Include="Resources\pngicon%402x.png" />
+      <BundleResource Include="Resources\pngicon.png" />
+      <BundleResource Include="Resources\jpgicon%403x.png" />
+      <BundleResource Include="Resources\jpgicon%402x.png" />
+      <BundleResource Include="Resources\jpgicon.png" />
+      <BundleResource Include="Resources\pdficon%403x.png" />
+      <BundleResource Include="Resources\pdficon%402x.png" />
+      <BundleResource Include="Resources\pdficon.png" />
     </ItemGroup>
     <ItemGroup>
       <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
@@ -328,5 +489,6 @@
     </ItemGroup>
     <ItemGroup>
       <Folder Include="Resources\" />
+      <Folder Include="Services\" />
     </ItemGroup>
 </Project>

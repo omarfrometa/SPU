@@ -1,23 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.IO;
 using Acr.UserDialogs;
+using Prism.AppModel;
 using Prism.Commands;
+using Prism.Events;
 using Prism.Navigation;
 using SPU.Mobile.Helpers;
 using SPU.Mobile.Models;
 using SPU.Mobile.Services;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace SPU.Mobile.ViewModels
 {
-    public class CustomMasterDetailPageViewModel : BasePageViewModel, INavigatingAware
+    public class CustomMasterDetailPageViewModel : BasePageViewModel, INavigatingAware, IPageLifecycleAware, IDestructible
     {
         public ObservableCollection<SideMenuItem> MenuItems { get; set; }
 
         public bool ShowGoToProfile { get; set; }
         public string LocalDisplayName { get; set; }
+        public string LocalPic { get; set; }
         SideMenuItem _menuItemSelected;
+        IEventAggregator _eventAggregator;
         public SideMenuItem MenuItemSelected
         {
             get { return _menuItemSelected; }
@@ -33,53 +39,125 @@ namespace SPU.Mobile.ViewModels
 
         public DelegateCommand GoToProfileCommand { get; set; }
 
-        public CustomMasterDetailPageViewModel(IApiManager apiManager, IUserDialogs userDialogs, INavigationService navigationService, ISPUDatabase SPUDatabase) : base(apiManager, userDialogs, navigationService, SPUDatabase)
+        public CustomMasterDetailPageViewModel(IApiManager apiManager, IUserDialogs userDialogs, INavigationService navigationService, ISPUDatabase SPUDatabase, IEventAggregator eventAggregator) : base(apiManager, userDialogs, navigationService, SPUDatabase)
         {
+            _eventAggregator = eventAggregator;
 
+            _eventAggregator.GetEvent<Helpers.ProfilePicUpdated>().Subscribe(OnPicUdated);
             GoToProfileCommand = new DelegateCommand(GoToProfile);
             BuildMenu();
 
 
         }
 
+        private void OnPicUdated()
+        {
+            //var pic = _SPUDatabase.GetActiveUserLocalPic();
+
+            //if (pic != null && pic.Length > 0)
+            //{
+
+            //    LocalPic = ImageSource.FromStream(() =>
+            //    {
+            //        Stream stream = new MemoryStream(pic);
+            //        return stream;
+            //    });
+            //}
+            //else
+            //{
+            //    LocalPic = ImageSource.FromFile("avatar.png");
+            //}
+
+            var pic = _SPUDatabase.GetActiveUserLocalPic();
+            LocalPic = !string.IsNullOrEmpty(pic) ? pic : "avatar.png";
+
+        }
+
         private async void GoToProfile()
         {
-            var navparam = new NavigationParameters();
-            navparam.Add("loggeduser", App.ActiveUser);
-            var nv = _navigationService.GetNavigationUriPath();
-            await _navigationService.NavigateAsync(NavigationConstants.ProfilePage, navparam);
+
+            var navparam = new NavigationParameters
+            {
+                { "keepnavigating", NavigationConstants.ProfilePage },
+                { "loggeduser", App.ActiveUser }
+            };
+            //await _navigationService.NavigateAsync(new Uri("/CustomMasterDetailsPage/CustomTabbedPage?selectedTab=HomePage" + menuItemSelected.Route, UriKind.Absolute), navparam);
+            await _navigationService.NavigateAsync($"CustomTabbedPage?selectedTab=HomePage", navparam);
         }
 
         async void NavigateToSelectedItem(SideMenuItem menuItemSelected)
         {
-            if (menuItemSelected.Title == "Llamada gratuita")
-            {
-                Xamarin.Forms.Device.OpenUri(new Uri("tel:18092009707"));
-                return;
-            }
-
-            if (menuItemSelected.Title == "Chat en linea")
-            {
-                Xamarin.Forms.Device.OpenUri(new Uri("https://indotel.gob.do"));
-                return;
-            }
-
-            if (menuItemSelected.Title == "Mis casos" && App.ActiveUser != null && App.ActiveUser.IsLogged)
-            {
-                await _navigationService.NavigateAsync(new Uri("/CustomMasterDetailsPage/CustomTabbedPage?selectedTab=MyClaimsPage", UriKind.Absolute));
-                var r = _navigationService.GetNavigationUriPath();
-            }
-            else if (string.IsNullOrEmpty(menuItemSelected.Title))
+            try
             {
 
-                await _navigationService.NavigateAsync(new Uri("/CustomMasterDetailsPage/CustomTabbedPage?selectedTab=HomePage", UriKind.Absolute));
-            }
-            else
-            {
-                var navparam = new NavigationParameters();
-                navparam.Add("keepnavigating", menuItemSelected.Route);
-                await _navigationService.NavigateAsync(new Uri("/CustomMasterDetailsPage/CustomTabbedPage?selectedTab=HomePage" + menuItemSelected.Route, UriKind.Absolute), navparam);
 
+                if (IsBusy) return;
+                IsBusy = true;
+                if (menuItemSelected.Title == "Llamada gratuita")
+                {
+                    Xamarin.Forms.Device.OpenUri(new Uri("tel:18092009707"));
+                    IsBusy = false;
+                    return;
+                }
+
+                if (menuItemSelected.Title == "Chat en línea")
+                {
+                    await Browser.OpenAsync("https://dau.indotel.gob.do", BrowserLaunchMode.SystemPreferred);
+                    IsBusy = false;
+                    return;
+                }
+
+
+                if (menuItemSelected.Title == "Tus derechos")
+                {
+                    await _navigationService.NavigateAsync(NavigationConstants.DerechosDeberesPage, null, true);
+                    IsBusy = false;
+                    return;
+                }
+
+                //if (menuItemSelected.Title == "Tus documentos")
+                //{
+                //    await _navigationService.NavigateAsync(NavigationConstants.MyDocumentsPage, null, true);
+                //    IsBusy = false;
+                //    return;
+                //}
+                //if (menuItemSelected.Title == "Mis casos")
+                //{
+                //    await _navigationService.NavigateAsync(new Uri("/CustomMasterDetailsPage/CustomTabbedPage?selectedTab=MyClaimsPage", UriKind.Absolute));
+                //    var r = _navigationService.GetNavigationUriPath();
+                //}
+                //else
+
+                if (string.IsNullOrEmpty(menuItemSelected.Title))
+                {
+
+                    await _navigationService.NavigateAsync(new Uri("/CustomMasterDetailsPage/CustomTabbedPage?selectedTab=HomePage", UriKind.Absolute));
+                }
+                else
+                {
+                    //var ff = _navigationService.GetNavigationUriPath();
+                    var navparam = new NavigationParameters();
+                    navparam.Add("keepnavigating", menuItemSelected.Route);
+                    //await _navigationService.NavigateAsync(new Uri("/CustomMasterDetailsPage/CustomTabbedPage?selectedTab=HomePage" + menuItemSelected.Route, UriKind.Absolute), navparam);
+                    await _navigationService.NavigateAsync($"CustomTabbedPage?selectedTab={App.ActiveTab}", navparam);
+                    //var ff2 = _navigationService.GetNavigationUriPath();
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                var tc = new ToastConfig("Error navegando.")
+                {
+                    BackgroundColor = Color.FromHex("#54799a"),
+                    MessageTextColor = Color.White
+                };
+
+                Acr.UserDialogs.UserDialogs.Instance.Toast(tc);
+            }
+            finally
+            {
+                IsBusy = false;
             }
         }
 
@@ -96,8 +174,8 @@ namespace SPU.Mobile.ViewModels
                 new SideMenuItem()
                 {
                     Title = "Mis casos",
-                    Route = "",
-                    IconSource="mcasos"
+                    Route = NavigationConstants.MyClaimsPage,
+                    IconSource="casos"
                 },
                 new SideMenuItem()
                 {
@@ -107,34 +185,34 @@ namespace SPU.Mobile.ViewModels
                 },
                 new SideMenuItem()
                 {
-                    Title = "Chat en linea",
+                    Title = "Chat en línea",
                     Route = "",
                     IconSource="chat"
                 },
-                new SideMenuItem()
-                {
-                    Title = "Conciliacion en linea",
-                    Route = "",
-                    IconSource="proxconciliacion"
-                },
+                //new SideMenuItem()
+                //{
+                //    Title = "Conciliacion en linea",
+                //    Route = "",
+                //    IconSource="proxconciliacion"
+                //},
                 new SideMenuItem()
                 {
                     Title = "Tus documentos",
-                    Route = "",
+                    Route =NavigationConstants.MyDocumentsPage,
                     IconSource="depositodocu"
                 },
                 new SideMenuItem()
                 {
                     Title = "Simulador de Consumo",
-                    Route = NavigationConstants.SimulatorPage,
+                    Route =NavigationConstants.SimulatorPage,
                     IconSource="simulador2"
                 },
-                new SideMenuItem()
-                {
-                    Title = "Comparador de Tarifas",
-                    Route = "",
-                    IconSource="comparadormain"
-                },
+                //new SideMenuItem()
+                //{
+                //    Title = "Comparador de Tarifas",
+                //    Route = "",
+                //    IconSource="comparadormain"
+                //},
                 new SideMenuItem()
                 {
                     Title = "Llamada gratuita",
@@ -146,6 +224,12 @@ namespace SPU.Mobile.ViewModels
                     Title = "FAQs",
                     Route = NavigationConstants.FAQPage,
                     IconSource="faqs"
+                },
+                new SideMenuItem()
+                {
+                    Title = "Contactos",
+                    Route = NavigationConstants.ContactPage,
+                    IconSource="contactos"
                 }
             };
 
@@ -155,7 +239,7 @@ namespace SPU.Mobile.ViewModels
 
         public void OnNavigatingTo(NavigationParameters parameters)
         {
-            if (parameters.GetNavigationMode() == NavigationMode.New)
+            if (parameters.GetNavigationMode() == Prism.Navigation.NavigationMode.New)
             {
 
             }
@@ -165,11 +249,54 @@ namespace SPU.Mobile.ViewModels
             if (App.ActiveUser == null || string.IsNullOrEmpty(App.ActiveUser.Id) || !App.ActiveUser.IsLogged)
             {
                 LocalDisplayName = "Usuario no registrado";
+                LocalPic = "avatar.png";
             }
             else
             {
                 LocalDisplayName = App.ActiveUser.DisplayName;
             }
+        }
+
+        public void OnNavigatedFrom(NavigationParameters parameters)
+        {
+
+        }
+
+        public void OnNavigatedTo(NavigationParameters parameters)
+        {
+
+        }
+
+        public void OnAppearing()
+        {
+            //var pic = _SPUDatabase.GetActiveUserLocalPic();
+
+            //if (pic != null && pic.Length > 0)
+            //{
+
+            //    LocalPic = ImageSource.FromStream(() =>
+            //    {
+            //        Stream stream = new MemoryStream(pic);
+            //        return stream;
+            //    });
+            //}
+            //else
+            //{
+            //    LocalPic = ImageSource.FromFile("avatar.png");
+            //}
+            var pic = _SPUDatabase.GetActiveUserLocalPic();
+
+            LocalPic = !string.IsNullOrEmpty(pic) ? pic : "avatar.png";
+        }
+
+        public void OnDisappearing()
+        {
+
+        }
+
+        public void Destroy()
+        {
+            _eventAggregator.GetEvent<Helpers.ProfilePicUpdated>().Unsubscribe(OnPicUdated);
         }
     }
 }

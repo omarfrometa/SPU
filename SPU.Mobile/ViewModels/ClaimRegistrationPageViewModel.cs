@@ -17,8 +17,14 @@ using Xamarin.Forms;
 
 namespace SPU.Mobile.ViewModels
 {
+    public class UploadModel
+    {
+        public string Filename { get; set; }
+        public byte[] FileToUpload { get; set; }
+    }
     public class ClaimRegistrationPageViewModel : BasePageViewModel, INavigatedAware, INavigatingAware, IActiveAware
     {
+        //public List<UploadModel> UploadModelList { get; set; }
         public string ClaimSteps { get; set; }
         public ClaimModel ClaimInfo { get; set; }
         public bool IsStepOne { get; set; }
@@ -27,6 +33,7 @@ namespace SPU.Mobile.ViewModels
         public string BackText { get; set; }
         public DateTime MaxDate { get; set; }
         public DelegateCommand DoCleanFieldsCommand { get; set; }
+        public Xamarin.Forms.Keyboard KeyboardType { get; set; }
 
         #region Step 1
         public DelegateCommand DoContinueStepTwoCommand { get; set; }
@@ -43,7 +50,36 @@ namespace SPU.Mobile.ViewModels
         public DelegateCommand<string> UpLoadIdentificationCommand { get; set; }
         public bool Doc2Uploaded { get; set; }
         public string Doc2Info { get; set; }
-        public string SelectedIdentification { get; set; }
+        public int IdentificationMaxLength { get; set; }
+        string _selectedIdentification;
+        public string SelectedIdentification
+        {
+            get { return _selectedIdentification; }
+            set
+            {
+                _selectedIdentification = value;
+                if (!string.IsNullOrEmpty(_selectedIdentification))
+                {
+                    if (_selectedIdentification.ToLower() == "rnc")
+                    {
+                        IdentificationMaxLength = 9;
+                        KeyboardType = Xamarin.Forms.Keyboard.Numeric;
+                        return;
+                    }
+
+                    if (_selectedIdentification.ToLower() == "pasaporte")
+                    {
+                        KeyboardType = Xamarin.Forms.Keyboard.Default;
+                        IdentificationMaxLength = 15;
+                    }
+                    else
+                    {
+                        KeyboardType = Xamarin.Forms.Keyboard.Numeric;
+                        IdentificationMaxLength = 11;
+                    }
+                }
+            }
+        }
         public List<string> IdentificationTypes { get; set; }
         #endregion
 
@@ -54,16 +90,39 @@ namespace SPU.Mobile.ViewModels
         public List<string> ProviderTypes { get; set; }
 
         public string SelectedServiceType { get; set; }
+        string _selectedClaimMotive;
+        public string SelectedClaimMotive
+        {
+            get { return _selectedClaimMotive; }
+
+            set
+            {
+                _selectedClaimMotive = value;
+                if (_selectedClaimMotive == "Facturación")
+                {
+                    SendClaimAmount = true;
+                }
+                else
+                {
+                    SendClaimAmount = false;
+                    ClaimInfo.ProviderReclaimedAmount = 0;
+                }
+
+            }
+        }
+
+        public bool SendClaimAmount { get; set; }
+
         public string SelectedProvider { get; set; }
 
-        public string SelectedClaimMotive { get; set; }
+
         public string SelectedEspecification { get; set; }
         public DelegateCommand GoToStepTwoCommand { get; set; }
         public DelegateCommand DoCompleteClaimFormCommand { get; set; }
         public DelegateCommand<string> UpLoadDocumentsCommand { get; set; }
         public bool HasDocuments { get; set; }
         //List<DocumentsModelR> _localDocument { get; set; }
-        public ObservableCollection<UserClaimDocumentDto> LoadedDocuments { get; set; }
+        public ObservableCollection<UserClaimDocumentDtoPost> LoadedDocuments { get; set; }
 
 
         bool _isActive;
@@ -78,7 +137,7 @@ namespace SPU.Mobile.ViewModels
                 _isActive = value;
                 if (_isActive)
                 {
-                    //LoadDDLs;
+                    App.ActiveTab = "ClaimRegistrationPage";
                 }
             }
         }
@@ -144,7 +203,8 @@ namespace SPU.Mobile.ViewModels
         public ClaimRegistrationPageViewModel(IApiManager apiManager, IUserDialogs userDialogs, INavigationService navigationService, ISPUDatabase SPUDatabase) : base(apiManager, userDialogs, navigationService, SPUDatabase)
         {
             Title = "#TuCuentasConElINDOTEL";
-
+            IdentificationMaxLength = 11;
+            //UploadModelList = new List<UploadModel>();
             //LoadedDocuments = new ObservableCollection<UserClaimDocumentDto>();
             InitClaim();
             IdentificationTypes = new List<string>();
@@ -202,17 +262,33 @@ namespace SPU.Mobile.ViewModels
 
         private async void UpLoadServiceHolder(string type)
         {
-            var option = await _userDialogs.ActionSheetAsync("Seleccione una accion", "Cancel", null, null, new string[] { "Capturar Imagen", "Cargar Documento" });
+            var option = await _userDialogs.ActionSheetAsync("Seleccione una accion", "Cancel", null, null, new string[] { "Cargar Imagen", "Cargar Documento" });
 
             if (option == "Cancel") return;
 
             switch (option)
             {
-                case "Capturar Imagen":
-                    await TakePhoto(type);
+                case "Cargar Imagen":
+                    var option2 = await _userDialogs.ActionSheetAsync("Opcion de Imagen", "Cancel", null, null, new string[] { "Tomar Foto", "Seleccionar existente" });
+
+                    if (option2 == "Cancel") return;
+
+                    switch (option2)
+                    {
+                        case "Tomar Foto":
+                            await TakePhoto(type);
+
+                            break;
+                        case "Seleccionar existente":
+                            await PickPhoto(type);
+
+                            break;
+                    }
+
                     break;
                 case "Cargar Documento":
                     await FilePicking(type);
+
                     break;
             }
         }
@@ -231,7 +307,7 @@ namespace SPU.Mobile.ViewModels
             {
                 if (IsBusy) return;
 
-                IsBusy = true;
+
                 var hasError = false;
 
                 if (string.IsNullOrEmpty(ClaimInfo.ProviderTicketNo))
@@ -266,7 +342,7 @@ namespace SPU.Mobile.ViewModels
                     GoToStep3();
                     return;
                 }
-
+                IsBusy = true;
                 IsStepOne = false;
                 IsStepTwo = true;
                 IsStepThree = false;
@@ -298,14 +374,29 @@ namespace SPU.Mobile.ViewModels
 
         private async void UpLoadIdentification(string type)
         {
-            var option = await _userDialogs.ActionSheetAsync("Seleccione una accion", "Cancel", null, null, new string[] { "Capturar Imagen", "Cargar Documento" });
+
+            var option = await _userDialogs.ActionSheetAsync("Seleccione una acción", "Cancel", null, null, new string[] { "Cargar Imagen", "Cargar Documento" });
 
             if (option == "Cancel") return;
 
             switch (option)
             {
-                case "Capturar Imagen":
-                    await TakePhoto(type);
+                case "Cargar Imagen":
+                    var option2 = await _userDialogs.ActionSheetAsync("Opción de Imagen", "Cancel", null, null, new string[] { "Tomar Foto", "Seleccionar existente" });
+
+                    if (option2 == "Cancel") return;
+
+                    switch (option2)
+                    {
+                        case "Tomar Foto":
+                            await TakePhoto(type);
+
+                            break;
+                        case "Seleccionar existente":
+                            await PickPhoto(type);
+
+                            break;
+                    }
 
                     break;
                 case "Cargar Documento":
@@ -313,13 +404,16 @@ namespace SPU.Mobile.ViewModels
 
                     break;
             }
+
         }
+
+
 
         bool HasIdentificationLoaded()
         {
             var userProf = _SPUDatabase.GetUserProfile(App.ActiveUser.Id);
 
-            return !string.IsNullOrEmpty(userProf.IdentificationPath);
+            return !string.IsNullOrEmpty(userProf.IdentificationFilePath);
         }
 
         void GoBackToStep1()
@@ -346,12 +440,14 @@ namespace SPU.Mobile.ViewModels
         {
             try
             {
-                IsBusy = true;
+                if (IsBusy) return;
+
+
                 var hasError = false;
                 var id = _SPUDatabase.GetIdentificationTypeId(SelectedIdentification);
 
                 ClaimInfo.IdentificationTypeId = !string.IsNullOrEmpty(id) ? int.Parse(id) : 0;
-                ClaimInfo.IdentificationTypeDescription = SelectedIdentification;
+                //ClaimInfo. = SelectedIdentification;
 
                 if (ClaimInfo.IdentificationTypeId == 0)
                 {
@@ -364,8 +460,17 @@ namespace SPU.Mobile.ViewModels
                     hasError = true;
                 }
 
-                if (hasError) return;
+                if (SelectedIdentification.ToLower() == "cédula")
+                {
+                    if (!AppHelpers.CedulaIsValid(ClaimInfo.IdentificationNumber))
+                    {
+                        _userDialogs.Alert("Digite una cédula valida.", "Cédula invalida.", "Aceptar");
+                        hasError = true;
+                    }
+                }
 
+                if (hasError) return;
+                IsBusy = true;
                 IsStepOne = false;
                 IsStepTwo = false;
                 IsStepThree = true;
@@ -404,14 +509,29 @@ namespace SPU.Mobile.ViewModels
 
         private async void UpLoadDocuments(string type)
         {
-            var option = await _userDialogs.ActionSheetAsync("Seleccione una accion", "Cancel", null, null, new string[] { "Capturar Imagen", "Cargar Documento" });
+
+            var option = await _userDialogs.ActionSheetAsync("Seleccione una accion", "Cancel", null, null, new string[] { "Cargar Imagen", "Cargar Documento" });
 
             if (option == "Cancel") return;
 
             switch (option)
             {
-                case "Capturar Imagen":
-                    await TakePhoto(type);
+                case "Cargar Imagen":
+                    var option2 = await _userDialogs.ActionSheetAsync("Opcion de Imagen", "Cancel", null, null, new string[] { "Tomar Foto", "Seleccionar existente" });
+
+                    if (option2 == "Cancel") return;
+
+                    switch (option2)
+                    {
+                        case "Tomar Foto":
+                            await TakePhoto(type);
+
+                            break;
+                        case "Seleccionar existente":
+                            await PickPhoto(type);
+
+                            break;
+                    }
 
                     break;
                 case "Cargar Documento":
@@ -419,6 +539,8 @@ namespace SPU.Mobile.ViewModels
 
                     break;
             }
+
+
         }
 
 
@@ -426,6 +548,15 @@ namespace SPU.Mobile.ViewModels
         {
             try
             {
+                //foreach (var item in ClaimInfo.UserClaimDocumentDto)
+                //{
+                //    await _apiManager.PostUploadDocumentAsync("", "", item.FilePath);
+                //}
+                //return;
+
+                if (IsBusy) return;
+
+
                 if (ClaimInfo.ServiceHolder)
                 {
                     ClaimInfo.ServiceHolderName = App.ActiveUser.DisplayName;
@@ -439,7 +570,7 @@ namespace SPU.Mobile.ViewModels
                     _userDialogs.Alert("Seleccione...", "Indique el Tipo de Servicio", "Aceptar");
                     return;
                 }
-                ClaimInfo.ServiceDescription = SelectedServiceType;
+                //ClaimInfo.ServiceDescription = SelectedServiceType;
 
                 //
                 var providerId = _SPUDatabase.GetProviderTypeId(SelectedProvider);
@@ -449,7 +580,7 @@ namespace SPU.Mobile.ViewModels
                     _userDialogs.Alert("Seleccione...", "Indique la Prestadores de Servicio", "Aceptar");
                     return;
                 }
-                ClaimInfo.ProviderDescription = SelectedProvider;
+                //ClaimInfo.ProviderDescription = SelectedProvider;
 
                 //
                 var claimMotive = _SPUDatabase.GetClaimMotiveTypeId(SelectedClaimMotive);
@@ -481,13 +612,16 @@ namespace SPU.Mobile.ViewModels
                 }
                 if (hasError) return;
 
+                IsBusy = true;
                 ClaimInfo.ProviderCreatedDate = SelectedDate;
 
                 ClaimInfo.UserId = App.ActiveUser.Id;
                 ClaimInfo.OwnerUserId = App.ActiveUser.Id;
                 ClaimInfo.CanalTypeId = 2;
+
                 var navparam = new NavigationParameters();
                 navparam.Add("claim", ClaimInfo);
+                //navparam.Add("filetoupload", UploadModelList);
                 await _navigationService.NavigateAsync(NavigationConstants.ClaimResumePage, navparam);
                 //await _userDialogs.AlertAsync("Reclamacion creada y enviada exitosamente.", "Alerta", "Aceptar");
                 //await _navigationService.GoBackAsync();
@@ -505,15 +639,28 @@ namespace SPU.Mobile.ViewModels
         }
         #endregion
 
-        void LoadData(UserClaimDocumentDto documentDto)
+        void LoadData(UserClaimDocumentDtoPost documentDto)
         {
             if (documentDto != null)
                 ClaimInfo.UserClaimDocumentDto.Add(documentDto);
 
             HasDocuments = ClaimInfo.UserClaimDocumentDto.Any();
-            LoadedDocuments = new ObservableCollection<UserClaimDocumentDto>(ClaimInfo.UserClaimDocumentDto);
+            LoadedDocuments = new ObservableCollection<UserClaimDocumentDtoPost>(ClaimInfo.UserClaimDocumentDto);
         }
 
+        string GetExtension(string filename)
+        {
+            var ext = string.Empty;
+            if (!string.IsNullOrEmpty(filename))
+            {
+                var file = filename.Split('.');
+                if (file.Any() && file.Count() > 1)
+                {
+                    ext = file[1];
+                }
+            }
+            return !string.IsNullOrEmpty(ext) ? "." + ext : ".pdf";
+        }
         private async Task FilePicking(string type)
         {
             try
@@ -522,22 +669,49 @@ namespace SPU.Mobile.ViewModels
                 if (fileData == null)
                     return; // user canceled file picking
 
-                var docu = new UserClaimDocumentDto();
-                docu.FileContent = System.Text.Encoding.UTF8.GetString(fileData.DataArray);
-                docu.Title = fileData.FileName;
-                docu.UserClaimDocTypeId = int.Parse(type);
+                var docu = new UserClaimDocumentDtoPost
+                {
+                    FileInBytes = fileData.DataArray,// System.Text.Encoding.UTF8.GetString(fileData.DataArray);
+                    FileName = fileData.FileName,
+                    FileSize = fileData.DataArray.Length.ToString(),
+                    Title = fileData.FileName,
+                    FileContentType = "file",
+                    FileExt = GetExtension(fileData.FileName),
+                    UserClaimDocTypeId = int.Parse(type),
+                    CanalTypeId = 2,
+                    UserId = App.ActiveUser.Id
+                };
+
 
                 LoadData(docu);
+
+
+                //UploadModelList.Add(new UploadModel()
+                //{
+                //    Filename = fileData.FileName,
+                //    FileToUpload = fileData.DataArray
+
+                //});
 
                 switch (type)
                 {
                     case "1":
-                        ClaimInfo.PowerLetterContent = System.Text.Encoding.UTF8.GetString(fileData.DataArray);
+                        ClaimInfo.PowerLetterFileInBytes = fileData.DataArray;
+                        ClaimInfo.PowerLetterName = fileData.FileName;
+                        ClaimInfo.PowerLetterExt = GetExtension(fileData.FileName);
+                        ClaimInfo.PowerLetterSize = fileData.DataArray.Length.ToString();
+                        ClaimInfo.PowerLetterContentType = "file";
                         Doc1Info = fileData.FileName;
                         Doc1Uploaded = true;
                         break;
                     case "2":
-                        ClaimInfo.IdentificationContent = System.Text.Encoding.UTF8.GetString(fileData.DataArray);
+                        ClaimInfo.IdentificationFileInBytes = fileData.DataArray;
+                        ClaimInfo.Identification = true;
+                        ClaimInfo.IdentificationFileName = fileData.FileName;
+                        ClaimInfo.IdentificationFileExt = GetExtension(fileData.FileName);
+                        ClaimInfo.IdentificationFileSize = fileData.DataArray.Length.ToString();
+                        ClaimInfo.IdentificationFileContentType = "file";
+
                         Doc2Info = fileData.FileName;
                         Doc2Uploaded = true;
                         break;
@@ -551,6 +725,125 @@ namespace SPU.Mobile.ViewModels
                 return;
             }
         }
+
+        private async Task PickPhoto(string type)
+        {
+            if (CrossMedia.Current.IsPickPhotoSupported)
+            {
+                switch (type)
+                {
+                    case "1":
+                        var cartaExist = ClaimInfo.UserClaimDocumentDto.Any(x => x.UserClaimDocTypeId == 1);
+                        if (cartaExist)
+                        {
+                            var optCarta = await _userDialogs.ConfirmAsync("Deseas Reemplazarla?", "Ya Cargaste la Carta de Poder.", "Si", "No");
+
+                            if (!optCarta) return;
+
+                            var carta = ClaimInfo.UserClaimDocumentDto.FirstOrDefault(x => x.UserClaimDocTypeId == 1);
+                            ClaimInfo.UserClaimDocumentDto.Remove(carta);
+                            Doc1Uploaded = false;
+                        }
+                        break;
+                    case "2":
+                        var IdentExist = ClaimInfo.UserClaimDocumentDto.Any(x => x.UserClaimDocTypeId == 2);
+                        if (IdentExist)
+                        {
+                            var optIdentif = await _userDialogs.ConfirmAsync("Deseas Reemplazarla?", "Ya Cargaste la Identificacion.", "Si", "No");
+
+                            if (!optIdentif) return;
+
+                            var identif = ClaimInfo.UserClaimDocumentDto.FirstOrDefault(x => x.UserClaimDocTypeId == 2);
+                            ClaimInfo.UserClaimDocumentDto.Remove(identif);
+                            Doc2Uploaded = false;
+                        }
+                        break;
+                }
+
+                var response = await CrossMedia.Current.PickPhotoAsync(new Plugin.Media.Abstractions.PickMediaOptions
+                {
+
+                    PhotoSize = Plugin.Media.Abstractions.PhotoSize.Small,
+
+                    MaxWidthHeight = 100
+
+                });
+
+                if (response == null)
+                    return;
+
+                var filename = await _userDialogs.PromptAsync("Escriba el nombre del documento.", "Nombre del Archivo",
+                                                       "Aceptar", "Cancelar", "Documento", InputType.Name);
+                if (!filename.Ok)
+                {
+                    _userDialogs.Alert("Se cancelo la operacion.", "Alerta", "OK");
+                    return;
+                }
+                else
+                {
+                    var content = AppHelpers.ConvertToByteArray(response.GetStream());
+                    //var source = ImageSource.FromStream(() =>
+                    //{
+                    //    var stream = file.GetStream();
+                    //    return stream;
+                    //});
+
+
+                    //UploadModelList.Add(new UploadModel()
+                    //{
+                    //    Filename = filename.Text,
+                    //    FileToUpload = content
+
+                    //});
+
+
+                    var docu = new UserClaimDocumentDtoPost
+                    {
+                        FileInBytes = content,// System.Text.Encoding.UTF8.GetString(fileData.DataArray);
+                        FileName = filename.Text,
+                        FileSize = content.Length.ToString(),
+                        Title = filename.Text,
+                        FileContentType = "image",
+                        FileExt = ".jpg",
+                        UserClaimDocTypeId = int.Parse(type),
+                        CanalTypeId = 2,
+                        UserId = App.ActiveUser.Id
+                    };
+
+
+                    LoadData(docu);
+
+                    switch (type)
+                    {
+                        case "1":
+                            ClaimInfo.PowerLetterFileInBytes = content;
+                            ClaimInfo.PowerLetterName = filename.Text;
+                            ClaimInfo.PowerLetterExt = ".jpg";
+                            ClaimInfo.PowerLetterSize = content.Length.ToString();
+                            ClaimInfo.PowerLetterContentType = "image";
+                            Doc1Info = filename.Text;
+                            Doc1Uploaded = true;
+                            break;
+                        case "2":
+                            ClaimInfo.IdentificationFileInBytes = content;
+                            ClaimInfo.Identification = true;
+                            ClaimInfo.IdentificationFileName = filename.Text;
+                            ClaimInfo.IdentificationFileExt = ".jpg";
+                            ClaimInfo.IdentificationFileSize = content.Length.ToString();
+                            ClaimInfo.IdentificationFileContentType = "image";
+
+                            Doc2Info = filename.Text;
+                            Doc2Uploaded = true;
+                            break;
+                    }
+
+                    return;
+                }
+
+            }
+        }
+
+
         async Task TakePhoto(string type)
         {
             await CrossMedia.Current.Initialize();
@@ -595,7 +888,8 @@ namespace SPU.Mobile.ViewModels
             {
                 Directory = "Sample",
                 Name = "test.jpg",
-                PhotoSize = Plugin.Media.Abstractions.PhotoSize.Large
+                PhotoSize = Plugin.Media.Abstractions.PhotoSize.Small,
+                MaxWidthHeight = 100
             });
 
             if (file == null)
@@ -617,22 +911,48 @@ namespace SPU.Mobile.ViewModels
                 //    return stream;
                 //});
 
-                var docu = new UserClaimDocumentDto();
-                docu.FileContent = System.Text.Encoding.UTF8.GetString(content);
-                docu.Title = filename.Text;
-                docu.UserClaimDocTypeId = int.Parse(type);
+
+                //UploadModelList.Add(new UploadModel()
+                //{
+                //    Filename = filename.Text,
+                //    FileToUpload = content
+
+                //});
+
+                var docu = new UserClaimDocumentDtoPost
+                {
+                    FileInBytes = content,// System.Text.Encoding.UTF8.GetString(fileData.DataArray);
+                    FileName = filename.Text,
+                    FileSize = content.Length.ToString(),
+                    Title = filename.Text,
+                    FileContentType = "image",
+                    FileExt = ".jpg",
+                    UserClaimDocTypeId = int.Parse(type),
+                    CanalTypeId = 2,
+                    UserId = App.ActiveUser.Id
+                };
 
                 LoadData(docu);
 
                 switch (type)
                 {
                     case "1":
-                        ClaimInfo.PowerLetterContent = System.Text.Encoding.UTF8.GetString(content);
+                        ClaimInfo.PowerLetterFileInBytes = content;
+                        ClaimInfo.PowerLetterName = filename.Text;
+                        ClaimInfo.PowerLetterExt = ".jpg";
+                        ClaimInfo.PowerLetterSize = content.Length.ToString();
+                        ClaimInfo.PowerLetterContentType = "image";
                         Doc1Info = filename.Text;
                         Doc1Uploaded = true;
                         break;
                     case "2":
-                        ClaimInfo.IdentificationContent = System.Text.Encoding.UTF8.GetString(content);
+                        ClaimInfo.IdentificationFileInBytes = content;
+                        ClaimInfo.Identification = true;
+                        ClaimInfo.IdentificationFileName = filename.Text;
+                        ClaimInfo.IdentificationFileExt = ".jpg";
+                        ClaimInfo.IdentificationFileSize = content.Length.ToString();
+                        ClaimInfo.IdentificationFileContentType = "image";
+
                         Doc2Info = filename.Text;
                         Doc2Uploaded = true;
                         break;
@@ -664,15 +984,21 @@ namespace SPU.Mobile.ViewModels
 
         public async void OnNavigatingTo(NavigationParameters parameters)
         {
+            if (parameters.ContainsKey("keepnavigating") && App.ActiveTab == "ClaimRegistrationPage")
+            {
+                var route = parameters["keepnavigating"] as string;
+                await _navigationService.NavigateAsync(route);
+                return;
+            }
 
             if (parameters.ContainsKey("fromhome"))
             {
-                HeaderText = "Reclamación - Averías";
+                HeaderText = "Reclamaciones - Avería";
                 _fromHome = true;
                 return;
             }
 
-            HeaderText = "Reclamación";
+            HeaderText = "Reclamaciones";
             if (parameters.ContainsKey("claimcompleted"))
             {
                 InitClaim();

@@ -1,11 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item>
+    <!--<item>
         <shape android:shape="rectangle">
             <solid android:color="@color/launcher_background" />
         </shape>
+    </item>-->
+    <item>
+        <bitmap android:src="@@drawable/splash3_android" android:tileMode="disabled" android:gravity="fill" />
     </item>
     <item>
-        <bitmap android:src="@drawable/logowhite" android:tileMode="disabled" android:gravity="center" />
+        <bitmap android:src="@drawable/logowhite2" android:tileMode="disabled" android:gravity="center" />
     </item>
 </layer-list>

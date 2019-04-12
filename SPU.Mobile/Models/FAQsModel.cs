@@ -1,6 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using PropertyChanged;
+
 namespace SPU.Mobile.Models
 {
+    [AddINotifyPropertyChangedInterface]
     public class FAQsModel
     {
         public int Id { get; set; }
@@ -15,4 +19,16 @@ namespace SPU.Mobile.Models
         public DateTime? ModifiedDate { get; set; }
 
     }
+
+    [AddINotifyPropertyChangedInterface]
+    public class FAQsByCategoryModel
+    {
+        public int CategoryId { get; set; }
+
+        public string CategoryName { get; set; }
+        public List<FAQsModel> FAQList { get; set; }
+
+
+    }
+
 }

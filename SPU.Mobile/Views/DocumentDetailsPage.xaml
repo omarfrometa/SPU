@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  x:Class="SPU.Mobile.Views.DocumentDetailsPage"
+  Title="{Binding Title}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="idt.png" Priority="1"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <Grid VerticalOptions="CenterAndExpand" RowSpacing="10" Padding="{OnIdiom Phone=20,5,Tablet=30,0}">
+                <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Image Source="{Binding DocumentModel.IconSource}"
+                  HorizontalOptions="CenterAndExpand"
+                  Grid.ColumnSpan="2"
+                  HeightRequest="100"
+                  Aspect="AspectFit"/>
+                
+                <StackLayout Grid.Row="1" Padding="0,10" HorizontalOptions="CenterAndExpand" Grid.ColumnSpan="2" Orientation="Horizontal">
+                   <Label Text="{Binding DocumentModel.FileName}" TextColor="{StaticResource SPUTags}" 
+                         StyleClass="SpuTitle" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                </StackLayout>
+                    
+                <Label Grid.Row="2" Grid.Column="0" Text="Fecha:" HorizontalTextAlignment="Start" StyleClass="myClaimTag"/>
+                <Label Grid.Row="2" Grid.Column="1" HorizontalTextAlignment="Start" Text="{Binding DocumentModel.DisplayDate}" StyleClass="myClaiminfolbl"/>
+               
+                <Label Grid.Row="3" Grid.Column="0" Text="Documento:" HorizontalTextAlignment="Start" StyleClass="myClaimTag"/>
+                <Label Grid.Row="3" Grid.Column="1" HorizontalTextAlignment="Start" Text="{Binding DocumentModel.UserClaimDocTypeText}" StyleClass="myClaiminfolbl"/>
+                
+                <Label Grid.Row="4" Grid.Column="0" Text="Estatus:" HorizontalTextAlignment="Start" StyleClass="myClaimTag"/>
+                <Label Grid.Row="4" Grid.Column="1" HorizontalTextAlignment="Start" MaxLines="1" Text="{Binding DocumentModel.StatusDocumentText}" StyleClass="myClaiminfolbl"/>
+    
+                <Label Grid.Row="5" Grid.Column="0" Text="Descarga:" HorizontalTextAlignment="Start" StyleClass="myClaimTag"/>
+                
+                <Label Grid.Row="5"
+                  Grid.Column="1"
+                  HorizontalTextAlignment="Start"
+                  MaxLines="1"
+                  Text="{Binding DocumentModel.WebUrl}"
+                  StyleClass="myClaiminfolbl">
+                
+                  <Label.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding GoToFileCommand}" NumberOfTapsRequired="1"  />
+                    </Label.GestureRecognizers>
+               
+                </Label>
+     
+            </Grid> 
+        
+    </ContentPage.Content>
+</ContentPage>

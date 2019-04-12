@@ -15,8 +15,12 @@
       },
       "oauth_client": [
         {
-          "client_id": "263192624846-3dfc1qq822bpd7cd112gv5fpvlatnlb9.apps.googleusercontent.com",
-          "client_type": 3
+          "client_id": "263192624846-j9d0vgeo59gu9d3bvg7gkn7lm5v4ror0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Indotel.SPU_Mobile",
+            "certificate_hash": "f45f3900d62b09163a5803a5d1fa673c62fc79f7"
+          }
         }
       ],
       "api_key": [
@@ -25,15 +29,20 @@
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263192624846-3dfc1qq822bpd7cd112gv5fpvlatnlb9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "263192624846-p149tom5590aeo1lj21qfmgrokmg1b9c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Indotel.SPU-Mobile"
+              }
+            }
+          ]
         }
       }
     }

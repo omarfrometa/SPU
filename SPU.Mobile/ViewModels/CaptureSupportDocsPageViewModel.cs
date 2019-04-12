@@ -78,10 +78,10 @@ namespace SPU.Mobile.ViewModels
 
                 var docu = new DocumentsModelR();
 
-                docu.FileName = fileData.FileName;
-                docu.contents = System.Text.Encoding.UTF8.GetString(fileData.DataArray);
-                docu.File = fileData.DataArray;
-                docu.FileExtension = "";
+                //docu.FileName = fileData.FileName;
+                //docu.contents = System.Text.Encoding.UTF8.GetString(fileData.DataArray);
+                //docu.File = fileData.DataArray;
+                //docu.FileExtension = "";
 
                 LoadData(docu);
 
@@ -140,13 +140,13 @@ namespace SPU.Mobile.ViewModels
                 //    return stream;
                 //});
 
-                var docu = new DocumentsModelR();
-                docu.FileName = filename.Text;
-                docu.contents = System.Text.Encoding.UTF8.GetString(content);
-                docu.File = content;
+                //var docu = new DocumentsModelR();
+                //docu.FileName = filename.Text;
+                //docu.contents = System.Text.Encoding.UTF8.GetString(content);
+                //docu.File = content;
                 //docu.FileExtension = "jpg";
 
-                LoadData(docu);
+                //LoadData(docu);
 
             }
 

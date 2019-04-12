@@ -36,7 +36,7 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                     <BoxView Grid.Column="0" HeightRequest="0.5" VerticalOptions="CenterAndExpand" BackgroundColor="{StaticResource SPUColor}" />
-                    <Label Grid.Column="1" Text=" Reclamo Prestadora" TextColor="{StaticResource SPUColor}" FontAttributes="Bold" FontSize="15" VerticalTextAlignment="Center"/>
+                    <Label Grid.Column="1" Text=" Reclamo Prestadora" TextColor="{StaticResource SPUColor}" StyleClass="NexusBoldFont" FontSize="15" VerticalTextAlignment="Center"/>
                     <BoxView Grid.Column="2" HeightRequest="0.5" VerticalOptions="CenterAndExpand" BackgroundColor="{StaticResource SPUColor}" />
                 </Grid>
                 
@@ -53,20 +53,20 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                    
-                    <Label Grid.Row="0" Grid.Column="0" Text="No. de caso" TextColor="{StaticResource BlueColor}" class="ImportantLabel"/>
-                    <Label Grid.Row="0" Grid.Column="1" Text="{Binding UserClaim.ProviderTicketNo}"  class="ImportantLabel"/>
+                    <Label Grid.Row="0" Grid.Column="0" Text="No. de caso" TextColor="{StaticResource BlueColor}" StyleClass="ImportantLabel"/>
+                    <Label Grid.Row="0" Grid.Column="1" Text="{Binding UserClaim.ProviderTicketNo}"  StyleClass="ImportantLabel"/>
                     
-                    <Label Grid.Row="1" Grid.Column="0" Text="Nombre del agente" TextColor="{StaticResource BlueColor}" class="ImportantLabel"/>
-                    <Label Grid.Row="1" Grid.Column="1" Text="{Binding UserClaim.ProviderAgentName}"  class="ImportantLabel"/>
+                    <Label Grid.Row="1" Grid.Column="0" Text="Nombre del agente" TextColor="{StaticResource BlueColor}" StyleClass="ImportantLabel"/>
+                    <Label Grid.Row="1" Grid.Column="1" Text="{Binding UserClaim.ProviderAgentName}"  StyleClass="ImportantLabel"/>
                     
-                    <Label Grid.Row="2" Grid.Column="0" Text="Fecha" TextColor="{StaticResource BlueColor}" class="ImportantLabel"/>
-                    <Label Grid.Row="2" Grid.Column="1" Text="{Binding UserClaim.ProviderDate}"  class="ImportantLabel"/>
+                    <Label Grid.Row="2" Grid.Column="0" Text="Fecha" TextColor="{StaticResource BlueColor}" StyleClass="ImportantLabel"/>
+                    <Label Grid.Row="2" Grid.Column="1" Text="{Binding UserClaim.ProviderDate}"  StyleClass="ImportantLabel"/>
                     
-                    <Label Grid.Row="3" Grid.Column="0" Text="No. de Contrato" TextColor="{StaticResource BlueColor}" class="ImportantLabel"/>
-                    <Label Grid.Row="3" Grid.Column="1" Text="{Binding UserClaim.PhoneOrContractNo}"  class="ImportantLabel"/>
+                    <Label Grid.Row="3" Grid.Column="0" Text="No. de Contrato" TextColor="{StaticResource BlueColor}" StyleClass="ImportantLabel"/>
+                    <Label Grid.Row="3" Grid.Column="1" Text="{Binding UserClaim.PhoneOrContractNo}"  StyleClass="ImportantLabel"/>
  
-                    <Label Grid.Row="4" Grid.Column="0" Text="Motivo del Reclamo" TextColor="{StaticResource BlueColor}" class="ImportantLabel"/>
-                    <Label Grid.Row="4" Grid.Column="1" Text="{Binding UserClaim.MotiveOfClaimTypeDescription}"  class="ImportantLabel"/>
+                    <Label Grid.Row="4" Grid.Column="0" Text="Motivo del Reclamo" TextColor="{StaticResource BlueColor}" StyleClass="ImportantLabel"/>
+                    <Label Grid.Row="4" Grid.Column="1" Text="{Binding UserClaim.MotiveOfClaimTypeDescription}"  StyleClass="ImportantLabel"/>
                 </Grid>
                 
 
@@ -77,7 +77,7 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                     <BoxView Grid.Column="0" HeightRequest="0.5" VerticalOptions="CenterAndExpand" BackgroundColor="{StaticResource SPUColor}" />
-                    <Label Grid.Column="1" Text="Documentos" TextColor="{StaticResource SPUColor}" FontAttributes="Bold" FontSize="15" VerticalTextAlignment="Center"/>
+                    <Label Grid.Column="1" Text="Documentos" TextColor="{StaticResource SPUColor}" StyleClass="NexusBoldFont" FontSize="15" VerticalTextAlignment="Center"/>
                     <BoxView Grid.Column="2" HeightRequest="0.5" VerticalOptions="CenterAndExpand" BackgroundColor="{StaticResource SPUColor}" />
                 </Grid>
                 
@@ -86,7 +86,7 @@
                                   ItemSelected="Handle_ItemSelected" HeightRequest="150" HasUnevenRows="false">
                     <ListView.Header>
                         <Label Text="Documentos Cargados" FontSize="{OnIdiom Phone=20,Tablet=30}"
-                               TextColor="{StaticResource RedColor}" HorizontalTextAlignment="Center"
+                               TextColor="{StaticResource RedColor}" StyleClass="NexusLightFont" HorizontalTextAlignment="Center"
                                VerticalTextAlignment="Center"/>
                     </ListView.Header>
                     <ListView.ItemTemplate>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="SPU.Mobile.Views.DebDerDetallePage"
+             xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+             Title="{Binding Title}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="idt.png" Priority="1"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid RowSpacing="0" Padding="20,20,20,5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                
+                <Label Grid.Row="0" Text="{Binding DebDer.Type}" FontSize="26" 
+                       HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" StyleClass="ImportantLabel"/>
+                
+                
+                <Image Grid.Row="1" HorizontalOptions="CenterAndExpand"
+                           Aspect="AspectFit" HeightRequest="200" Source="{Binding DebDer.IconSource}"/>
+                    
+                
+                <StackLayout Grid.Row="2" Orientation="Horizontal" Padding="0,10" HorizontalOptions="CenterAndExpand" >
+                    <border:SfBorder BorderColor="{Binding DebDer.TextColor}" VerticalOptions="CenterAndExpand" CornerRadius="{OnIdiom Phone=60,Tablet=80}" 
+                         HorizontalOptions="Start" BorderWidth="1">
+                        <StackLayout BackgroundColor="{Binding DebDer.TextColor}" HeightRequest="{OnIdiom Phone=30,Tablet=40}" WidthRequest="{OnIdiom Phone=30,Tablet=40}">
+                            <Label Text="{Binding DebDer.RowNo}" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center"
+                                   FontAttributes="Bold" TextColor="White"/>
+                        </StackLayout>
+                    </border:SfBorder>
+                    <Label Text="{Binding DebDer.Title}" FontSize="21" HorizontalTextAlignment="Start" VerticalOptions="CenterAndExpand" StyleClass="ImportantLabel"/>
+                
+                </StackLayout>
+                
+                <Label Grid.Row="3" FontSize="18" Text="{Binding DebDer.Text}" HorizontalTextAlignment="Center" StyleClass="labelLight"/>
+                
+                <Grid Grid.Row="4" Padding="10,10,10,0" ColumnSpacing="0" RowSpacing="10" VerticalOptions="EndAndExpand" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="1"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    
+                    <BoxView Grid.Row="0" Grid.ColumnSpan="3" VerticalOptions="CenterAndExpand" Margin="30,0" HeightRequest="0.5" BackgroundColor="{StaticResource SPUTags}"/>
+                        
+                    <Image Source="fbcontact.png" HeightRequest="40" HorizontalOptions="EndAndExpand" Aspect="AspectFit" Grid.Row="1" Grid.Column="0">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding GoToSocialMediaCommand}" CommandParameter="facebook" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Image Source="twcontact.png" HeightRequest="40" HorizontalOptions="CenterAndExpand" Aspect="AspectFit" Grid.Row="1" Grid.Column="1">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding GoToSocialMediaCommand}" CommandParameter="twitter" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Image Source="instcontact.png" HeightRequest="40" HorizontalOptions="StartAndExpand" Aspect="AspectFit" Grid.Row="1" Grid.Column="2">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding GoToSocialMediaCommand}" CommandParameter="instagram"  />
+                        </Image.GestureRecognizers>
+                    </Image>
+                     
+                    <BoxView Grid.Row="2" Grid.ColumnSpan="3" VerticalOptions="CenterAndExpand" Margin="30,0" HeightRequest="0.5"  BackgroundColor="{StaticResource SPUTags}"/>
+                        
+                    <StackLayout Grid.Row="3" Grid.ColumnSpan="3" Orientation="Horizontal" HeightRequest="40" HorizontalOptions="CenterAndExpand"
+                                          VerticalOptions="StartAndExpand" Padding="0">
+                        <Label Text="Sigues necesitando ayuda" StyleClass="NexusLightFont" TextColor="{StaticResource SPUColor}" 
+                               FontSize="14" VerticalTextAlignment="Center" /> 
+                        <Image Source="ayuda.png" VerticalOptions="CenterAndExpand" 
+                                   HorizontalOptions="StartAndExpand" Aspect="AspectFit" 
+                                   HeightRequest="{OnIdiom Phone=15,Tablet=25}"/>
+                        <Label Text="Contáctanos" TextColor="{StaticResource LightBlue}" 
+                               FontSize="15" StyleClass="NexusBoldFont" VerticalTextAlignment="Center" /> 
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding GoToContactCommand}" />
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                    
+                    
+                </Grid> 
+                <StackLayout Grid.Row="5" Orientation="Horizontal" HeightRequest="35" HorizontalOptions="EndAndExpand"
+                                      VerticalOptions="EndAndExpand" Padding="0,0,10,20">
+                    
+                    <Image Source="share.png" VerticalOptions="CenterAndExpand" 
+                               HorizontalOptions="EndAndExpand" Aspect="AspectFit" 
+                               HeightRequest="{OnIdiom Phone=30,Tablet=35}"/>
+                    
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding ShareDebDerCommand}" />
+                    </StackLayout.GestureRecognizers>
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

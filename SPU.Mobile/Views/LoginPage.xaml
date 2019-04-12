@@ -15,53 +15,55 @@
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
                 
                 <Image Grid.Row="0" Source="logohashtag.png" HeightRequest="{OnIdiom Phone=150,Tablet=250}"
                        Aspect="AspectFit" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand"/>
                 
-                <StackLayout Grid.Row="1" Spacing="0" VerticalOptions="CenterAndExpand" Padding="{OnIdiom Phone=20,0,20,0,Tablet=40,5,40,0}" >
-                    <inputLayout:SfTextInputLayout Hint="Correo Electronico" ContainerType="Outlined" FocusedColor="{StaticResource SPUColor}" 
-                                                   FocusedStrokeWidth="2" LeadingViewPosition="Inside" UnfocusedStrokeWidth="1">
-                        <Entry Text="{Binding UserLogin.Email}" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                 <Label Text="Iniciar Sesión" Grid.Row="1" FontSize="24" TextColor="{StaticResource BlueColor}" HorizontalTextAlignment="Center" StyleClass="SpuTitle" />
+                <StackLayout Grid.Row="2" Spacing="0" VerticalOptions="CenterAndExpand" Padding="{OnIdiom Phone=20,0,20,0,Tablet=40,5,40,0}" >
+                    <inputLayout:SfTextInputLayout Hint="Correo Electrónico" ContainerType="Outlined" FocusedColor="{StaticResource SPUColor}" 
+                                                   FocusedStrokeWidth="0.8" LeadingViewPosition="Inside" UnfocusedStrokeWidth="0.4">
+                        <Entry Text="{Binding UserLogin.Email}" Keyboard="Email" FontSize="{OnIdiom Phone=15,Tablet=17}" />
                         <inputLayout:SfTextInputLayout.LeadingView>
-                            <Image HeightRequest="25" WidthRequest="25" Source="arrobalogin"/>
+                            <Image HeightRequest="20" WidthRequest="20" Source="arrobalogin"/>
                         </inputLayout:SfTextInputLayout.LeadingView>
                     </inputLayout:SfTextInputLayout>
                     
                     <inputLayout:SfTextInputLayout Hint="Contraseña" EnablePasswordVisibilityToggle="true" FocusedColor="{StaticResource SPUColor}"
-                                                   ContainerType="Outlined" LeadingViewPosition="Inside" FocusedStrokeWidth="2" UnfocusedStrokeWidth="1">
-                        <Entry Text="{Binding UserLogin.Password}" IsPassword="true" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                                                   ContainerType="Outlined" LeadingViewPosition="Inside" FocusedStrokeWidth="0.8" UnfocusedStrokeWidth="0.4">
+                        <Entry Text="{Binding UserLogin.Password}" IsPassword="true" FontSize="{OnIdiom Phone=15,Tablet=17}" />
                         <inputLayout:SfTextInputLayout.LeadingView>
-                            <Image HeightRequest="25" WidthRequest="25" Source="locklogin"/>
+                            <Image HeightRequest="20" WidthRequest="20" Source="locklogin"/>
                         </inputLayout:SfTextInputLayout.LeadingView>
                     </inputLayout:SfTextInputLayout>
                     <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand"
                                   VerticalOptions="StartAndExpand" Spacing="20" Padding="0,10,0,15">
                        <Switch VerticalOptions="CenterAndExpand" IsToggled="{Binding RememberMe}" />
-                        <Label TextColor="{StaticResource BlueColor}" 
-                               FontSize="18" VerticalTextAlignment="Center" Text="Recuerdame"/> 
+                        <Label TextColor="{StaticResource Blue2Color}" 
+                               FontSize="16" VerticalTextAlignment="Center" StyleClass="NexusLightFont" Text="Recuérdame"/> 
                     </StackLayout>
-                    <Label Text="Olvide mi contraseña?" TextDecorations="Underline" FontSize="15"
-                       TextColor="{StaticResource BlueColor}" HorizontalTextAlignment="End" VerticalTextAlignment="Center">
+                    <Label Text="Olvidé mi contraseña?" TextDecorations="Underline" FontSize="15"
+                       TextColor="{StaticResource Blue2Color}" StyleClass="NexusLightFont" HorizontalTextAlignment="End" VerticalTextAlignment="Center">
                          <Label.GestureRecognizers>
                             <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding GoToPasswordRecoveryCommand}"/>
                         </Label.GestureRecognizers>
                     </Label>
                 </StackLayout>
                 
-                <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}" Grid.Row="2"
+                <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}" Grid.Row="3"
                                    HeightRequest="40" WidthRequest="40" Color="{StaticResource SPUColor}"/>
-                <Frame Grid.Row="2" Margin="{OnIdiom Phone=20,0,Tablet=40,0}" BackgroundColor="{StaticResource BlueColor}" IsVisible="{Binding IsNotBusy}" 
-                       Padding="{OnIdiom Phone=15,12,Tablet=20}" HasShadow="false" CornerRadius="8">
-                    <Label Text="Ingresar" StyleClass="ButtonTextLabel" />
+                <Frame Grid.Row="3" Margin="{OnIdiom Phone=20,0,Tablet=40,0}" BackgroundColor="{StaticResource Blue2Color}" IsVisible="{Binding IsNotBusy}" 
+                       Padding="{OnIdiom Phone=10,5,10,4,Tablet=15,10}" HasShadow="false" CornerRadius="5">
+                    <Label Text="Ingresa" StyleClass="ButtonTextLabel" />
                     <Frame.GestureRecognizers>
                         <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding DoLoginCommand}"/>
                     </Frame.GestureRecognizers>
                 </Frame>
                 
                 <!--      Login Redes Sociales          -->
-                <Grid Grid.Row="3" RowSpacing="5" ColumnSpacing="20" Padding="{OnIdiom Phone=15,5,Tablet=30,0}" VerticalOptions="StartAndExpand">
+                <Grid Grid.Row="4" RowSpacing="5" ColumnSpacing="20" Padding="{OnIdiom Phone=15,5,Tablet=30,0}" VerticalOptions="StartAndExpand">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="*"/>
@@ -69,69 +71,69 @@
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
+                       <!-- <ColumnDefinition Width="*"/>-->
                         <ColumnDefinition Width="*"/>
-                       
                     </Grid.ColumnDefinitions>
-                    <Grid Grid.Row="0" Grid.ColumnSpan="2" >
+                    <Grid Grid.Row="0" HorizontalOptions="FillAndExpand" Grid.ColumnSpan="2" >
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*"/>
                             <ColumnDefinition Width="Auto"/>
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
                         <BoxView Grid.Column="0" HeightRequest="0.5" VerticalOptions="CenterAndExpand" BackgroundColor="{StaticResource BlueColor}" />
-                        <Label Grid.Column="1" Text="Inicia sesion con tu red social" TextColor="{StaticResource BlueColor}" FontAttributes="Bold" FontSize="15" VerticalTextAlignment="Center"/>
+                        <Label Grid.Column="1" Text="Iniciar sesión con red social" TextColor="{StaticResource BlueColor}" StyleClass="NexusBoldFont" FontSize="15" VerticalTextAlignment="Center"/>
                         <BoxView Grid.Column="2" HeightRequest="0.5" VerticalOptions="CenterAndExpand" BackgroundColor="{StaticResource BlueColor}" />
                     </Grid>
                     <StackLayout Padding="15,0" Grid.Row="1" Grid.Column="0" >
-                        <Image Source="facebookicon.png" VerticalOptions="CenterAndExpand" 
-                               HorizontalOptions="EndAndExpand" Aspect="AspectFit" HeightRequest="{OnIdiom Phone=50,Tablet=70}"/>
+                        <Image Source="fbcontact.png" VerticalOptions="CenterAndExpand" 
+                               HorizontalOptions="EndAndExpand" Aspect="AspectFit" HeightRequest="{OnIdiom Phone=65,Tablet=80}"/>
                         
                         <StackLayout.GestureRecognizers>
-                            <TapGestureRecognizer NumberOfTapsRequired="1"/>
+                            <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding FacebookLoginCommand}"/>
                         </StackLayout.GestureRecognizers>
                     </StackLayout>
-                    <StackLayout Padding="15,0" Grid.Row="1" Grid.Column="1" >
-                        <Image Source="twitterIcon.png" VerticalOptions="CenterAndExpand" 
-                               HorizontalOptions="StartAndExpand" Aspect="AspectFit" 
-                               HeightRequest="{OnIdiom Phone=50,Tablet=70}"/>
-                        <StackLayout.GestureRecognizers>
-                            <TapGestureRecognizer NumberOfTapsRequired="1"/>
-                        </StackLayout.GestureRecognizers>
-                    </StackLayout>
-                    
-                    <BoxView HeightRequest="0.5" Grid.Row="2" Grid.ColumnSpan="2" VerticalOptions="EndAndExpand" 
-                             BackgroundColor="{StaticResource BlueColor}"/>
-                   <!-- 
-                    <StackLayout Grid.Row="1" Grid.Column="2" >
-                        <Image Source="googleicon.png" VerticalOptions="StartAndExpand" 
-                               HorizontalOptions="CenterAndExpand" Aspect="AspectFit" HeightRequest="{OnIdiom Phone=50,Tablet=100}"/>
+                    <!--<StackLayout Padding="15,0" Grid.Row="1" Grid.Column="1" >
+                        <Image Source="microsoft.png" VerticalOptions="CenterAndExpand" 
+                               HorizontalOptions="CenterAndExpand" Aspect="AspectFit" 
+                               HeightRequest="{OnIdiom Phone=45,Tablet=60}"/>
                         <StackLayout.GestureRecognizers>
                             <TapGestureRecognizer NumberOfTapsRequired="1"/>
                         </StackLayout.GestureRecognizers>
                     </StackLayout>-->
+                    
+                    <StackLayout Grid.Row="1" Grid.Column="1" >
+                        <Image Source="google.png" VerticalOptions="CenterAndExpand" 
+                               HorizontalOptions="StartAndExpand" Aspect="AspectFit" HeightRequest="{OnIdiom Phone=65,Tablet=80}"/>
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding GoogleLoginCommand}"/>
+                        </StackLayout.GestureRecognizers>
+                    </StackLayout>
+                    <BoxView HeightRequest="0.5" Grid.Row="2" Grid.ColumnSpan="2" VerticalOptions="EndAndExpand" 
+                             BackgroundColor="{StaticResource BlueColor}"/>
                 </Grid>
                 <!--    END  Login Redes Sociales          -->
                 
-                <Frame Grid.Row="4" Margin="{OnIdiom Phone=20,0,20,0,Tablet=40,5,40,0}" 
+                <Frame Grid.Row="5" Margin="{OnIdiom Phone=20,0,20,0,Tablet=40,5,40,0}" 
                        BackgroundColor="{StaticResource RedColor}" IsVisible="{Binding IsNotBusy}" 
-                       Padding="{OnIdiom Phone=7,12,Tablet=10}" HasShadow="false" CornerRadius="8">
-                    <Label Text=" No tengo cuenta? Registrarme " FontSize="15" TextColor="White" 
-                           HorizontalTextAlignment="Center" VerticalTextAlignment="End" VerticalOptions="EndAndExpand"/>
+                       Padding="{OnIdiom Phone=10,4,Tablet=15,5}" HasShadow="false" CornerRadius="5">
+                    <Label Text=" No tengo cuenta? Registrarme " StyleClass="NexusLightFont" FontSize="15" TextColor="White" 
+                           HorizontalTextAlignment="Center" VerticalTextAlignment="Start"/>
                     <Frame.GestureRecognizers>
                         <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding GoToRegistrationCommand}"/>
                     </Frame.GestureRecognizers>
                 </Frame>
                 
-                <StackLayout Grid.Row="5" Orientation="Horizontal" HeightRequest="40" HorizontalOptions="CenterAndExpand"
-                                  VerticalOptions="StartAndExpand" Padding="0">
-                       
+                <StackLayout Grid.Row="6" Orientation="Horizontal" HeightRequest="40" HorizontalOptions="CenterAndExpand"
+                                  VerticalOptions="StartAndExpand" Padding="0,0,0,5">
                     <Label Text="Ayuda" TextColor="{StaticResource BlueColor}" 
-                           FontSize="18" VerticalTextAlignment="Center" /> 
+                           FontSize="16" VerticalTextAlignment="Center" StyleClass="NexusLightFont" /> 
+                    <Image Source="ayuda.png" VerticalOptions="CenterAndExpand" 
+                               HorizontalOptions="StartAndExpand" Aspect="AspectFit" 
+                               HeightRequest="{OnIdiom Phone=20,Tablet=35}"/>
                     <StackLayout.GestureRecognizers>
-                        <TapGestureRecognizer NumberOfTapsRequired="1" />
+                        <TapGestureRecognizer NumberOfTapsRequired="1"  />
                     </StackLayout.GestureRecognizers>
                 </StackLayout>
-                
             </Grid>
         </ScrollView>
     </ContentPage.Content>

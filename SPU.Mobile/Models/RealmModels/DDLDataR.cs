@@ -55,4 +55,28 @@ namespace SPU.Mobile.Models
         public string Text { get; set; }
         public string Value { get; set; }
     }
+
+    [AddINotifyPropertyChangedInterface]
+    public class DDLProvinceR : RealmObject
+    {
+        [PrimaryKey]
+        public string Text { get; set; }
+        public string Value { get; set; }
+    }
+
+    [AddINotifyPropertyChangedInterface]
+    public class DDLMunicipalityR : RealmObject
+    {
+        [PrimaryKey]
+        public string Text { get; set; }
+        public string Value { get; set; }
+    }
+
+    [AddINotifyPropertyChangedInterface]
+    public class DDLSectorR : RealmObject
+    {
+        [PrimaryKey]
+        public string Text { get; set; }
+        public string Value { get; set; }
+    }
 }

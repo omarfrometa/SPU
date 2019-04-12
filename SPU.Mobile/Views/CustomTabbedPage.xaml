@@ -10,34 +10,34 @@
         <helper:NoShiftEffect />
     </TabbedPage.Effects>
     <TabbedPage.Children>
-        <NavigationPage Icon="home" Title="Inicio">
+        <NavigationPage Icon="tphome" Title="Inicio">
             <x:Arguments>
                 <local:HomePage />
             </x:Arguments>
         </NavigationPage> 
         
-        <NavigationPage Icon="nuevareclama" Title="Reclamacion">
+        <NavigationPage Icon="tpnuevareclama" Title="Reclamacion">
             <x:Arguments>
                 <local:ClaimRegistrationPage />
             </x:Arguments>
         </NavigationPage>   
         
-        <NavigationPage Icon="casos" Title="Mis Casos">
+        <NavigationPage Icon="tpcasos" Title="Mis Casos">
             <x:Arguments>
                 <local:MyClaimsPage />
             </x:Arguments>
         </NavigationPage>   
         
-        <NavigationPage Icon="contactos" Title="Contactos">
+        <NavigationPage Icon="tpcontactos" Title="Contactos">
             <x:Arguments>
                 <local:ContactPage />
             </x:Arguments>
         </NavigationPage>  
         
-        <NavigationPage Icon="mas" Title="Mas">
+        <!--<NavigationPage Icon="tpmas" Title="Mas">
             <x:Arguments>
-                <local:HomePage />
+               <<local:HomePage />
             </x:Arguments>
-        </NavigationPage>   
+        </NavigationPage> -->  
     </TabbedPage.Children>
 </TabbedPage>

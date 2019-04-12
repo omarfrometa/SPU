@@ -23,7 +23,7 @@ namespace SPU.Mobile.Models
         public DateTime? ConfirmedDate { get; set; }
         public DateTime? ModifiedDate { get; set; }
         public string ModifiedByUserId { get; set; }
-
+        public string DeviceId { get; set; }
 
     }
 
@@ -37,7 +37,8 @@ namespace SPU.Mobile.Models
         public string Password { get; set; }
         public string PasswordConfirm { get; set; }
         public int? CanalTypeId { get; set; }
-
+        public string DeviceId { get; set; }
+        public string Token { get; set; }
 
     }
 }

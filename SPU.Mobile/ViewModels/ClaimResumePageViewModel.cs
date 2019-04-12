@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using Acr.UserDialogs;
 using Prism.Commands;
@@ -15,12 +16,54 @@ namespace SPU.Mobile.ViewModels
         public DelegateCommand DoSendClaimFormCommand { get; set; }
         public ClaimModel UserClaim { get; set; }
         public bool HasDocuments { get; set; }
+        //public List<UploadModel> UploadModelList { get; set; }
+
         public ClaimResumePageViewModel(IApiManager apiManager, IUserDialogs userDialogs, INavigationService navigationService, ISPUDatabase SPUDatabase) : base(apiManager, userDialogs, navigationService, SPUDatabase)
         {
             DoSendClaimFormCommand = new DelegateCommand(DoSendClaimForm);
             Title = "#TuCuentasConElINDOTEL";
         }
+        async void SendDocuments(List<UserClaimDocumentDtoPost> userClaimDocuments, string userClaimId)
+        {
+            try
+            {
+                foreach (var item in userClaimDocuments)
+                {
+                    item.UserClaimId = userClaimId;
+                    var docu = await _SPUDatabase.PostDocumentsAsync(_apiManager, item);
 
+                    _SPUDatabase.UpdateDocumentAsync(docu);
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.Write(ex);
+            }
+        }
+
+        async void UpdateProfile(string userId)
+        {
+            await _SPUDatabase.UpdateUserProfile(_apiManager, userId);
+        }
+
+
+        async void UploadDocuments(List<UploadModel> _uploadModelList, string userClaimId)
+        {
+            try
+            {
+
+                foreach (var item in _uploadModelList)
+                {
+
+                    await _apiManager.PostUploadDocumentAsync(userClaimId, item.Filename, item.FileToUpload);
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Debug.Write(ex);
+            }
+        }
         private async void DoSendClaimForm()
         {
             try
@@ -29,34 +72,43 @@ namespace SPU.Mobile.ViewModels
 
                 IsBusy = true;
 
-                var docList = new List<UserClaimDocumentDto>(UserClaim.UserClaimDocumentDto);
-
-                UserClaim.UserClaimDocumentDto.Clear();
-
                 var sentClaim = await _apiManager.PostCompleteClaimAsync(UserClaim);
 
-                sentClaim.ServiceDescription = UserClaim.ServiceDescription;
-                sentClaim.ProviderDescription = UserClaim.ProviderDescription;
-                sentClaim.ClaimMotiveTypeDescription = UserClaim.MotiveOfClaimTypeDescription;
-                sentClaim.IdentificationTypeDescription = UserClaim.IdentificationTypeDescription;
-                sentClaim.ClaimSubMotiveTypeDescription = UserClaim.SpecifyMotiveClaimTypeDescription;
+                //sentClaim.ServiceDescription = UserClaim.ServiceDescription;
+                //sentClaim.ProviderDescription = UserClaim.ProviderDescription;
+                //sentClaim.ClaimMotiveTypeDescription = UserClaim.MotiveOfClaimTypeDescription;
+                //sentClaim.IdentificationTypeDescription = UserClaim.IdentificationTypeDescription;
+                //sentClaim.ClaimSubMotiveTypeDescription = UserClaim.SpecifyMotiveClaimTypeDescription;
 
                 _SPUDatabase.SaveUserClaim(sentClaim);
 
-                if (docList.Any())
+
+                //if (UploadModelList.Any())
+                //{
+                //    UploadDocuments(UploadModelList, sentClaim.Id);
+                //}
+
+                //if (UserClaim.UserClaimDocumentDto.Any())
+                //{
+                //    //foreach (var item in UserClaim.UserClaimDocumentDto)
+                //    //{
+                //    //    item.ClaimNo = sentClaim.ClaimNo;
+                //    //    item.UserClaimId = sentClaim.Id;
+                //    //}
+
+                SendDocuments(UserClaim.UserClaimDocumentDto, sentClaim.Id);
+                //    _SPUDatabase.SaveSupportDocuments(UserClaim.UserClaimDocumentDto);
+                //}
+
+                await _userDialogs.AlertAsync("Su reclamación fué creada y enviada correctamente.", "Reclamación Enviada", "Aceptar");
+
+                UpdateProfile(App.ActiveUser.Id);
+
+                var navparam = new NavigationParameters
                 {
-                    foreach (var item in docList)
-                    {
-                        item.ClaimNo = sentClaim.ClaimNo;
-                    }
+                    { "claimcompleted", "" }
+                };
 
-                    _SPUDatabase.SaveSupportDocuments(docList);
-                }
-
-                await _userDialogs.AlertAsync("Su reclamacion fue creada y enviada correctamente.", "Reclamacion Enviada", "Aceptar");
-
-                var navparam = new NavigationParameters();
-                navparam.Add("claimcompleted", "");
                 await _navigationService.GoBackToRootAsync(navparam);
             }
             catch (Exception ex)
@@ -82,6 +134,14 @@ namespace SPU.Mobile.ViewModels
                 UserClaim = parameters["claim"] as ClaimModel;
                 HasDocuments = UserClaim.UserClaimDocumentDto.Any();
             }
+
+            //if (parameters.ContainsKey("filetoupload"))
+            //{
+            //    UploadModelList = parameters["filetoupload"] as List<UploadModel>;
+            //    HasDocuments = UploadModelList.Any();
+            //}
+
+
 
         }
     }

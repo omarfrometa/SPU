@@ -12,108 +12,215 @@
             <Color x:Key="SPUColor">#54799a</Color>
             <Color x:Key="Blue2Color">#1B375E</Color>
             <Color x:Key="SPUTags">#7D9ABA</Color>
+            <Color x:Key="LightBlue">#249CD5</Color>
+            <Color x:Key="SPUGray">#B3B3B3</Color>
+            <Color x:Key="Yellow">#FCB813</Color>
             <Style TargetType="Label" Class="ButtonTextLabel" >
-                <!--<Setter Property="Label.FontFamily">
+                <Setter Property="Label.FontFamily">
                     <Setter.Value>
                         <OnPlatform x:TypeArguments="x:String">
-                            <On Platform="Android">OpenSans-Bold.ttf#OpenSans-Bold</On>
-                            <On Platform="iOS">OpenSans-Bold</On>
+                            <On Platform="Android">NexaDemo-Bold.otf#NexaDemo-Bold</On>
+                            <On Platform="iOS">NexaDemo-Bold</On>
                         </OnPlatform>
                     </Setter.Value>
-                </Setter>-->
-                <Setter Property="FontSize" Value="18" />
-                <Setter Property="FontAttributes" Value="Bold"/>
+                </Setter>
+                <Setter Property="FontSize" Value="16" />
+                <!--<Setter Property="FontAttributes" Value="Bold"/>-->
                 <Setter Property="TextColor" Value="{StaticResource WhiteColor}" />
-                <Setter Property="VerticalTextAlignment" Value="Center" />
+                
+                <Setter Property="VerticalTextAlignment" Value="Start" />
                 <Setter Property="HorizontalTextAlignment" Value="Center" />
             </Style>
-            <Style TargetType="Label" Class="ImportantLabel" >
-                <!--<Setter Property="Label.FontFamily">
+            <Style TargetType="Label" Class="NexusBoldFont" >
+                <Setter Property="Label.FontFamily">
                     <Setter.Value>
                         <OnPlatform x:TypeArguments="x:String">
-                            <On Platform="Android">OpenSans-Bold.ttf#OpenSans-Bold</On>
-                            <On Platform="iOS">OpenSans-Bold</On>
+                            <On Platform="Android">NexaDemo-Bold.otf#NexaDemo-Bold</On>
+                            <On Platform="iOS">NexaDemo-Bold</On>
                         </OnPlatform>
                     </Setter.Value>
-                </Setter>-->
+                </Setter>
+               
+            </Style>
+            <Style TargetType="Label" Class="NexusLightFont" >
+                <Setter Property="Label.FontFamily">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="Android">NexaDemo-Light.otf#NexaDemo-Light</On>
+                            <On Platform="iOS">NexaDemo-Light</On>
+                        </OnPlatform>
+                    </Setter.Value>
+                </Setter>
+               
+            </Style>
+            <Style TargetType="Label" Class="ImportantLabel" >
+                <Setter Property="Label.FontFamily">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="Android">NexaDemo-Bold.otf#NexaDemo-Bold</On>
+                            <On Platform="iOS">NexaDemo-Bold</On>
+                        </OnPlatform>
+                    </Setter.Value>
+                </Setter>
                 <Setter Property="FontSize" Value="16" />
                 <Setter Property="TextColor" Value="{StaticResource SPUTags}"/>
-                <Setter Property="FontAttributes" Value="Bold"/>
+               <!-- <Setter Property="FontAttributes" Value="Bold"/>-->
                 <Setter Property="VerticalTextAlignment" Value="Center" />
                 <Setter Property="HorizontalTextAlignment" Value="Start" />
             </Style>
             
             <Style TargetType="Label" Class="HomeLabel" >
-                <!--<Setter Property="Label.FontFamily">
+                <Setter Property="Label.FontFamily">
                     <Setter.Value>
                         <OnPlatform x:TypeArguments="x:String">
-                            <On Platform="Android">OpenSans-Bold.ttf#OpenSans-Bold</On>
-                            <On Platform="iOS">OpenSans-Bold</On>
+                            <On Platform="Android">NexaDemo-Bold.otf#NexaDemo-Bold</On>
+                            <On Platform="iOS">NexaDemo-Bold</On>
                         </OnPlatform>
                     </Setter.Value>
-                </Setter>-->
+                </Setter>
                 <Setter Property="FontSize" Value="18" />
                 <Setter Property="TextColor" Value="{StaticResource SPUColor}"/>
-                <Setter Property="FontAttributes" Value="Bold"/>
+                <!--<Setter Property="FontAttributes" Value="Bold"/>-->
                 <Setter Property="VerticalTextAlignment" Value="Center" />
                 <Setter Property="HorizontalTextAlignment" Value="Start" />
             </Style>
             <Style TargetType="Label" Class="HomeTags" >
-                <!--<Setter Property="Label.FontFamily">
+                <Setter Property="Label.FontFamily">
                     <Setter.Value>
                         <OnPlatform x:TypeArguments="x:String">
-                            <On Platform="Android">OpenSans-Bold.ttf#OpenSans-Bold</On>
-                            <On Platform="iOS">OpenSans-Bold</On>
+                            <On Platform="Android">NexaDemo-Light.otf#NexaDemo-Light</On>
+                            <On Platform="iOS">NexaDemo-Light</On>
                         </OnPlatform>
                     </Setter.Value>
-                </Setter>-->
+                </Setter>
                 <Setter Property="FontSize" Value="18" />
                 <Setter Property="TextColor" Value="{StaticResource SPUColor}"/>
-                <Setter Property="FontAttributes" Value="Bold"/>
+                <!--<Setter Property="FontAttributes" Value="Bold"/>-->
                 <Setter Property="VerticalTextAlignment" Value="Center" />
                 <Setter Property="HorizontalTextAlignment" Value="Center" />
             </Style>
-            <Style TargetType="Label" Class="ProfileOptionLabel" >
-                <!--<Setter Property="Label.FontFamily">
+            <Style TargetType="Label" Class="labelLight" >
+                <Setter Property="Label.FontFamily">
                     <Setter.Value>
                         <OnPlatform x:TypeArguments="x:String">
-                            <On Platform="Android">OpenSans-Bold.ttf#OpenSans-Bold</On>
-                            <On Platform="iOS">OpenSans-Bold</On>
+                            <On Platform="Android">NexaDemo-Light.otf#NexaDemo-Light</On>
+                            <On Platform="iOS">NexaDemo-Light</On>
                         </OnPlatform>
                     </Setter.Value>
-                </Setter>-->
+                </Setter>
+                <Setter Property="FontSize" Value="15" />
+                <Setter Property="TextColor" Value="{StaticResource SPUColor}"/>
+                <!--<Setter Property="FontAttributes" Value="Bold"/>-->
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+                <Setter Property="HorizontalTextAlignment" Value="Start" />
+            </Style>
+            <Style TargetType="Label" Class="ProfileOptionLabel" >
+               <Setter Property="Label.FontFamily">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="Android">NexaDemo-Bold.otf#NexaDemo-Bold</On>
+                            <On Platform="iOS">NexaDemo-Bold</On>
+                        </OnPlatform>
+                    </Setter.Value>
+                </Setter>
                 <Setter Property="FontSize" Value="17" />
-                <Setter Property="TextColor" Value="{StaticResource BlueColor}"/>
-                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="TextColor" Value="{StaticResource SPUColor}"/>
+                <!--<Setter Property="FontAttributes" Value="Bold"/>-->
                 <Setter Property="VerticalTextAlignment" Value="Center" />
                 <Setter Property="HorizontalTextAlignment" Value="Start" />
             </Style>
             
             <Style TargetType="Label" Class="SpuLabel" >
-                <!--<Setter Property="Label.FontFamily">
+                <Setter Property="Label.FontFamily">
                     <Setter.Value>
                         <OnPlatform x:TypeArguments="x:String">
-                            <On Platform="Android">OpenSans-Bold.ttf#OpenSans-Bold</On>
-                            <On Platform="iOS">OpenSans-Bold</On>
+                            <On Platform="Android">NexaDemo-Light.otf#NexaDemo-Light</On>
+                            <On Platform="iOS">NexaDemo-Light</On>
                         </OnPlatform>
                     </Setter.Value>
-                </Setter>-->
+                </Setter>
                 <Setter Property="FontSize" Value="16" />
                 <Setter Property="TextColor" Value="{StaticResource SPUTags}"/>
                 <Setter Property="VerticalTextAlignment" Value="Center" />
             </Style>
-            <Style TargetType="Label" Class="SpuTitle" >
-                <!--<Setter Property="Label.FontFamily">
+            <Style TargetType="Label" Class="myClaimTag" >
+                <Setter Property="Label.FontFamily">
                     <Setter.Value>
                         <OnPlatform x:TypeArguments="x:String">
-                            <On Platform="Android">OpenSans-Bold.ttf#OpenSans-Bold</On>
-                            <On Platform="iOS">OpenSans-Bold</On>
+                            <On Platform="Android">NexaDemo-Light.otf#NexaDemo-Light</On>
+                            <On Platform="iOS">NexaDemo-Light</On>
                         </OnPlatform>
                     </Setter.Value>
-                </Setter>-->
+                </Setter>
+                <Setter Property="FontSize" Value="15" />
+                <Setter Property="TextColor" Value="{StaticResource SPUTags}"/>
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+            </Style>
+            <Style TargetType="Label" Class="myClaiminfolbl" >
+                <Setter Property="Label.FontFamily">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="Android">NexaDemo-Light.otf#NexaDemo-Light</On>
+                            <On Platform="iOS">NexaDemo-Light</On>
+                        </OnPlatform>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="FontSize" Value="15" />
+                <Setter Property="TextColor" Value="{StaticResource Blue2Color}"/>
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+            </Style>
+            
+            <Style TargetType="Label" Class="docuTaglbl" >
+                <Setter Property="Label.FontFamily">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="Android">NexaDemo-Bold.otf#NexaDemo-Bold</On>
+                            <On Platform="iOS">NexaDemo-Bold</On>
+                        </OnPlatform>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="FontSize" Value="14" />
+                <Setter Property="TextColor" Value="{StaticResource SPUTags}"/>
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+            </Style>
+            <Style TargetType="Label" Class="docuInfolbl" >
+                <Setter Property="Label.FontFamily">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="Android">NexaDemo-Light.otf#NexaDemo-Light</On>
+                            <On Platform="iOS">NexaDemo-Light</On>
+                        </OnPlatform>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="FontSize" Value="14" />
+                <Setter Property="TextColor" Value="{StaticResource SPUTags}"/>
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+            </Style>
+            <Style TargetType="Label" Class="SpuTitle" >
+                <Setter Property="Label.FontFamily">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="Android">NexaDemo-Bold.otf#NexaDemo-Bold</On>
+                            <On Platform="iOS">NexaDemo-Bold</On>
+                        </OnPlatform>
+                    </Setter.Value>
+                </Setter>
                 <Setter Property="FontSize" Value="20" />
                 <Setter Property="TextColor" Value="{StaticResource SPUColor}"/>
-                <Setter Property="FontAttributes" Value="Bold"/>
+               <!-- <Setter Property="FontAttributes" Value="Bold"/>-->
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+            </Style>
+            <Style TargetType="Label" Class="SpuSubTitle" >
+                <Setter Property="Label.FontFamily">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="Android">NexaDemo-Light.otf#NexaDemo-Light</On>
+                            <On Platform="iOS">NexaDemo-Light</On>
+                        </OnPlatform>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="FontSize" Value="15" />
+                <Setter Property="TextColor" Value="{StaticResource SPUTags}"/>
                 <Setter Property="VerticalTextAlignment" Value="Center" />
             </Style>
             <Style Class="BigCountdownStyle" TargetType="Label">

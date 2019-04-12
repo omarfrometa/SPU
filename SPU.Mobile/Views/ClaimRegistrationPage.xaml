@@ -3,322 +3,318 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="SPU.Mobile.Views.ClaimRegistrationPage"
              Title="{Binding Title}"
+             xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
              xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
              IsBusy="{Binding IsBusy}">
     <ContentPage.ToolbarItems>
         <ToolbarItem Icon="idt.png" Priority="1"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
-       <!-- <Grid Padding="0" RowSpacing="5">
+    <ScrollView>
+        <Grid RowSpacing="5">
             <Grid.RowDefinitions>
-                <RowDefinition Height="70"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-            
-            <Grid  x:Name="MyToolbar" Grid.Row="0" >
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="Auto"/>
-                </Grid.ColumnDefinitions>
-                <Image Source="back.png" Grid.Column="0" HeightRequest="{OnIdiom Phone=30,Tablet=50}" Margin="0"
-                       Aspect="AspectFill" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand"/>
-                <Label Text="{Binding Title}" Grid.Column="1" FontSize="15" HorizontalTextAlignment="Center" 
-                       VerticalTextAlignment="Center" StyleClass="SpuLabel" />
-                <Image Source="idt.png" Grid.Column="2" HeightRequest="{OnIdiom Phone=60,Tablet=100}" Margin="0"
-                       Aspect="AspectFill" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand"/>
-            </Grid>
-            -->
-        <ScrollView >
-            <Grid VerticalOptions="StartAndExpand" RowSpacing="5">
+            <Grid Grid.Row="0" RowSpacing="5" Padding="25,10,5,0">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
-                <Grid Grid.Row="0" RowSpacing="5" Padding="25,10,5,0">
-                    <Grid.RowDefinitions>
-                        <!--<RowDefinition Height="Auto"/>-->
-                        <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="Auto"/>
-                    </Grid.RowDefinitions>
-                    <!--<Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="Auto"/>
-                    </Grid.ColumnDefinitions>-->
-                    <!--<StackLayout  Grid.Row="0" Padding="0,5" HorizontalOptions="EndAndExpand" >
-                        <Image Source="idt.png" HeightRequest="{OnIdiom Phone=60,Tablet=100}" Margin="0"
-                       Aspect="AspectFill" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand"/>
-                    </StackLayout>-->
-                   
-                    <StackLayout Grid.Row="0" Padding="0,5" HorizontalOptions="StartAndExpand" Orientation="Horizontal" Spacing="1">
-                        <Image Source="reclamacioni.png" HeightRequest="{OnIdiom Phone=30,Tablet=40}"
-                           Aspect="AspectFit" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand"/>
-                        <Label Text="{Binding HeaderText}" StyleClass="SpuTitle"/>
-                    </StackLayout>
-                    
-                    <Label Text="{Binding ClaimSteps}" Grid.Row="1" HorizontalTextAlignment="Start" StyleClass="SpuLabel" />
-                </Grid>
+                <StackLayout Grid.Row="0" Padding="0,5" HorizontalOptions="StartAndExpand" Orientation="Horizontal" Spacing="8">
+                    <Image Source="reclamacioni.png" HeightRequest="{OnIdiom Phone=30,Tablet=40}"
+                       Aspect="AspectFit" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand"/>
+                    <Label Text="{Binding HeaderText}" StyleClass="SpuTitle"/>
+                </StackLayout>
                 
+                <Label Text="{Binding ClaimSteps}" Grid.Row="1" HorizontalTextAlignment="Start" StyleClass="SpuLabel" FontSize="15" />
+            </Grid>
+            <ActivityIndicator Grid.Row="1" IsVisible="{Binding IsBusy}" VerticalOptions="StartAndExpand" IsRunning="{Binding IsBusy}" 
+                               HeightRequest="40" WidthRequest="40" Color="{StaticResource SPUColor}"/>
+            <!--    STEP 1 Claim Verification       -->
+            <Grid Grid.Row="2" VerticalOptions="StartAndExpand" Padding="{OnIdiom Phone=25,0,25,5,Tablet=70,0,70,5}" 
+                        RowSpacing="{OnIdiom Phone=15,Tablet=25}" IsVisible="{Binding IsStepOne}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <StackLayout Grid.Row="0" Spacing="3" VerticalOptions="CenterAndExpand" >
+                    <inputLayout:SfTextInputLayout  Hint="No. Caso Prestadora" x:Name="lblNoCaso" ContainerType="Outlined"
+                                                FocusedColor="{StaticResource SPUColor}" ErrorText="Numero de caso es Requerido" 
+                                                 HasError="{Binding CasoPrestadoraHasError}" ErrorColor="{StaticResource RedColor}"
+                                                FocusedStrokeWidth="0.8" UnfocusedColor="{StaticResource SPUColor}" LeadingViewPosition="Inside"
+                                                    UnfocusedStrokeWidth="0.4">
+                    <Entry Text="{Binding ClaimInfo.ProviderTicketNo}" Keyboard="Numeric" TextColor="{StaticResource BlueColor}" 
+                           Focused="HandleLblNoCaso_Focused" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                            <inputLayout:SfTextInputLayout.LeadingView>
+                                <Label Text="*" VerticalOptions="CenterAndExpand" TextColor="{StaticResource RedColor}"/>
+                            </inputLayout:SfTextInputLayout.LeadingView>
+                    </inputLayout:SfTextInputLayout>
+                    <inputLayout:SfTextInputLayout Hint="Nombre del agente" x:Name="lblNombreAgente" ContainerType="Outlined"
+                                                   ErrorText="Nombre del agente es Requerido" LeadingViewPosition="Inside"
+                                                   HasError="{Binding NombreAgenteHasError}" ErrorColor="{StaticResource RedColor}"
+                                                   FocusedColor="{StaticResource SPUColor}" UnfocusedColor="{StaticResource SPUColor}" 
+                                                   FocusedStrokeWidth="0.8" UnfocusedStrokeWidth="0.4">
+                        <Entry Text="{Binding ClaimInfo.ProviderAgentName}" Keyboard="Text" TextColor="{StaticResource BlueColor}"
+                               Focused="HandleNombreAgente_Focused" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                            <inputLayout:SfTextInputLayout.LeadingView>
+                            <Label Text="*" VerticalOptions="CenterAndExpand" TextColor="{StaticResource RedColor}"/>
+                        </inputLayout:SfTextInputLayout.LeadingView>
+                    </inputLayout:SfTextInputLayout>
+                        
+                    <StackLayout Orientation="Horizontal" Spacing="15">
+                        <Label Text="Fecha del Caso" StyleClass="ImportantLabel"/>
+                        <DatePicker Date="{Binding SelectedDate}" Format="dd/MM/yyyy" TextColor="{StaticResource BlueColor}" 
+                                    MaximumDate="{Binding MaxDate}" WidthRequest="150" HeightRequest="40" FontSize="17" VerticalOptions="CenterAndExpand"/>
+                    </StackLayout>  
+                     
+                        
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Spacing="20" Padding="0,10,0,15">
+                        <Label StyleClass="ImportantLabel" Text="Soy el titular del servicio "/> 
+                        <Switch VerticalOptions="CenterAndExpand" IsToggled="{Binding ClaimInfo.ServiceHolder}" />
+                    </StackLayout>
+                        
+                    <inputLayout:SfTextInputLayout Hint="Titular del servicio" x:Name="lblTitular" UnfocusedColor="{StaticResource SPUColor}"
+                                                   IsVisible="{Binding ClaimInfo.NotServiceHolder}" ContainerType="Outlined"
+                                                   FocusedColor="{StaticResource SPUColor}" ErrorText="Nombre del Titular es Requerido" 
+                                                   HasError="{Binding TitularHasError}" ErrorColor="{StaticResource RedColor}"
+                                                   FocusedStrokeWidth="0.8" UnfocusedStrokeWidth="0.4">
+                        <Entry Text="{Binding ClaimInfo.ServiceHolderName}" Keyboard="Text" TextColor="{StaticResource BlueColor}" Focused="HandleTitular_Focused" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                    </inputLayout:SfTextInputLayout>  
+                    
+                    <border:SfBorder CornerRadius="8" BorderColor="{StaticResource SPUColor}" IsVisible="{Binding ClaimInfo.NotServiceHolder}"
+                                     VerticalOptions="Center" Padding="0,10,0,5" BorderWidth="0.5">
+                        <StackLayout Padding="5,0" HorizontalOptions="CenterAndExpand"  
+                                     Orientation="Horizontal" Spacing="3">
+                            <Image Source="depositodocu" HeightRequest="{OnIdiom Phone=30,Tablet=50}" 
+                                   Aspect="AspectFit" HorizontalOptions="StartAndExpand" VerticalOptions="EndAndExpand"/>
+                            <Label Text="Cargar Carta Poder" StyleClass="NexusLightFont" VerticalTextAlignment="Center" 
+                                   FontSize="{OnIdiom Phone=15,Tablet=18}" HorizontalTextAlignment="Start"
+                                   TextColor="{StaticResource SPUColor}"/>
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding UpLoadServiceHolderCommand}" CommandParameter="1"/>
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
+                    </border:SfBorder>
+                   
+                    <StackLayout Padding="25,5" IsVisible="{Binding Doc1Uploaded}" >
+                        <Label Text="Carta de Poder Cargada" StyleClass="ImportantLabel" HorizontalTextAlignment="Center"  />
+                        <Label Text="{Binding Doc1Info}" FontSize="17" StyleClass="NexusLightFont" TextColor="{StaticResource BlueColor}" VerticalTextAlignment="End"  />
+                    </StackLayout>
+                </StackLayout>
                 <ActivityIndicator Grid.Row="1" IsVisible="{Binding IsBusy}" VerticalOptions="StartAndExpand" IsRunning="{Binding IsBusy}" 
                                    HeightRequest="40" WidthRequest="40" Color="{StaticResource SPUColor}"/>
-                    
-                <!--    STEP 1 Claim Verification       -->
-                <Grid Grid.Row="2" VerticalOptions="StartAndExpand" Padding="{OnIdiom Phone=25,0,25,5,Tablet=70,0,70,5}" 
-                            RowSpacing="{OnIdiom Phone=15,Tablet=25}" IsVisible="{Binding IsStepOne}">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="*"/>
-                    </Grid.RowDefinitions>
-                    <StackLayout Grid.Row="0" Spacing="3" VerticalOptions="CenterAndExpand" >
-                        <inputLayout:SfTextInputLayout  Hint="No. Caso Prestadora" x:Name="lblNoCaso" ContainerType="Outlined"
-                                                    FocusedColor="{StaticResource SPUColor}" ErrorText="Numero de caso es Requerido" 
-                                                     HasError="{Binding CasoPrestadoraHasError}" ErrorColor="{StaticResource RedColor}"
-                                                    FocusedStrokeWidth="2" UnfocusedStrokeWidth="1">
-                        <Entry Text="{Binding ClaimInfo.ProviderTicketNo}" Keyboard="Numeric" TextColor="{StaticResource BlueColor}" Focused="HandleLblNoCaso_Focused" FontSize="{OnIdiom Phone=16,Tablet=18}" />
-                        </inputLayout:SfTextInputLayout>
-                        <inputLayout:SfTextInputLayout Hint="Nombre del agente" x:Name="lblNombreAgente" ContainerType="Outlined"
-                                                       ErrorText="Nombre del agente es Requerido" 
-                                                       HasError="{Binding NombreAgenteHasError}" ErrorColor="{StaticResource RedColor}"
-                                                       FocusedColor="{StaticResource SPUColor}" 
-                                                       FocusedStrokeWidth="2" UnfocusedStrokeWidth="1">
-                            <Entry Text="{Binding ClaimInfo.ProviderAgentName}" Keyboard="Text" TextColor="{StaticResource BlueColor}" Focused="HandleNombreAgente_Focused" FontSize="{OnIdiom Phone=16,Tablet=18}" />
-                        </inputLayout:SfTextInputLayout>
-                            
-                        <StackLayout Orientation="Horizontal" Spacing="15">
-                            <Label Text="Fecha del Caso" class="ImportantLabel"/>
-                            <DatePicker Date="{Binding SelectedDate}" Format="dd/MM/yyyy" TextColor="{StaticResource BlueColor}" MaximumDate="{Binding MaxDate}" WidthRequest="150" HeightRequest="40" FontSize="17" VerticalOptions="CenterAndExpand"/>
-                        </StackLayout>  
-                         
-                            
-                        <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Spacing="20" Padding="0,10,0,15">
-                            <Label class="ImportantLabel" Text="Soy el titular del servicio "/> 
-                            <Switch VerticalOptions="CenterAndExpand" OnColor="{StaticResource BlueColor}" IsToggled="{Binding ClaimInfo.ServiceHolder}" />
-                        </StackLayout>
-                            
-                        <inputLayout:SfTextInputLayout Hint="Titular del servicio" x:Name="lblTitular"  
-                                                       IsVisible="{Binding ClaimInfo.NotServiceHolder}" ContainerType="Outlined"
-                                                       FocusedColor="{StaticResource SPUColor}" ErrorText="Nombre del Titular es Requerido" 
-                                                       HasError="{Binding TitularHasError}" ErrorColor="{StaticResource RedColor}"
-                                                       FocusedStrokeWidth="2" UnfocusedStrokeWidth="1">
-                            <Entry Text="{Binding ClaimInfo.ServiceHolderName}" Keyboard="Text" TextColor="{StaticResource BlueColor}" Focused="HandleTitular_Focused" FontSize="{OnIdiom Phone=16,Tablet=18}" />
-                        </inputLayout:SfTextInputLayout>  
-                        
-                        <StackLayout Padding="10,25,5,10" HorizontalOptions="CenterAndExpand" IsVisible="{Binding ClaimInfo.NotServiceHolder}" 
-                                     Orientation="Horizontal" Spacing="3">
-                            <Image Source="depositodocu" HeightRequest="{OnIdiom Phone=40,Tablet=60}" 
-                                   Aspect="AspectFit" HorizontalOptions="StartAndExpand" VerticalOptions="EndAndExpand"/>
-                            <Label Text="Cargar Carta Poder" VerticalTextAlignment="Center" 
-                                   FontSize="{OnIdiom Phone=18,Tablet=20}" HorizontalTextAlignment="Start"
-                                   TextColor="{StaticResource SPUColor}"/>
-                            <Frame.GestureRecognizers>
-                                <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding UpLoadServiceHolderCommand}" CommandParameter="1"/>
-                            </Frame.GestureRecognizers>
-                        </StackLayout>
-                        <StackLayout Padding="25,5" IsVisible="{Binding Doc1Uploaded}" >
-                            <Label Text="Carta de Poder Cargada" StyleClass="ImportantLabel" HorizontalTextAlignment="Center"  />
-                            <Label Text="{Binding Doc1Info}" FontSize="17" TextColor="{StaticResource BlueColor}" VerticalTextAlignment="End"  />
-                        </StackLayout>
-                    </StackLayout>
-                    <ActivityIndicator Grid.Row="1" IsVisible="{Binding IsBusy}" VerticalOptions="StartAndExpand" IsRunning="{Binding IsBusy}" 
-                                       HeightRequest="40" WidthRequest="40" Color="{StaticResource SPUColor}"/>
-                    
-                    <Frame Grid.Row="1" BackgroundColor="{StaticResource BlueColor}" IsVisible="{Binding IsNotBusy}" 
-                           Padding="{OnIdiom Phone=20,5,Tablet=20,10}" HasShadow="false" VerticalOptions="StartAndExpand" CornerRadius="8">
-                        <Label Text="Continuar" StyleClass="ButtonTextLabel" />
-                        <Frame.GestureRecognizers>
-                            <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding DoContinueStepTwoCommand}"/>
-                        </Frame.GestureRecognizers>
-                    </Frame>
-                </Grid>
-                <!--  END  STEP 1 Claim Verification --> 
-                    
-                <!--  STEP 2 General Info and contact  -->
-                <Grid Grid.Row="2" VerticalOptions="StartAndExpand" Padding="{OnIdiom Phone=25,0,25,5,Tablet=70,0,70,5}" 
-                      RowSpacing="{OnIdiom Phone=10,Tablet=25}" IsVisible="{Binding IsStepTwo}">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="Auto"/>
-                    </Grid.RowDefinitions>
-                        
-                    <StackLayout Grid.Row="0" Spacing="3" VerticalOptions="CenterAndExpand" >
-                       <Picker Title="Tipo de Identificacion" ItemsSource="{Binding IdentificationTypes}" HeightRequest="40" TextColor="{StaticResource BlueColor}" 
-                               VerticalOptions="CenterAndExpand" SelectedItem="{Binding SelectedIdentification}"/>
-                           <!-- <Picker.Items>
-                                <x:String>Cedula</x:String>
-                                <x:String>RNC</x:String>
-                                <x:String>Pasaporte</x:String>
-                           </Picker.Items>
-                        </Picker>-->
-                        <inputLayout:SfTextInputLayout x:Name="lblIdent" Hint="Identificacion" ContainerType="Outlined"
-                                                    FocusedColor="{StaticResource SPUColor}" ErrorText="Numero de identificacion es requerido" 
-                                                    HasError="{Binding IdentificacionHasError}" ErrorColor="{StaticResource RedColor}"
-                                                    FocusedStrokeWidth="2" UnfocusedStrokeWidth="1">
-                            <Entry Text="{Binding ClaimInfo.IdentificationNumber}" Keyboard="Numeric" TextColor="{StaticResource BlueColor}" 
-                                   Focused="HandleIdentificacion_Focused" FontSize="{OnIdiom Phone=16,Tablet=18}" />
-                        </inputLayout:SfTextInputLayout>
-                        
-                        <StackLayout Padding="10,25,5,10" HorizontalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="3">
-                            <Image Source="depositodocu" HeightRequest="{OnIdiom Phone=40,Tablet=60}" 
-                                   Aspect="AspectFit" HorizontalOptions="StartAndExpand" VerticalOptions="EndAndExpand"/>
-                            <Label Text="Cargar Documento Identificacion" VerticalTextAlignment="Center" 
-                                   FontSize="{OnIdiom Phone=18,Tablet=20}" HorizontalTextAlignment="Start"
-                                   TextColor="{StaticResource SPUColor}"/>
-                            <Frame.GestureRecognizers>
-                                <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding UpLoadIdentificationCommand}" CommandParameter="2"/>
-                            </Frame.GestureRecognizers>
-                        </StackLayout>
-                        <StackLayout Padding="25,5" IsVisible="{Binding Doc2Uploaded}" >
-                            <Label Text="Identificacion Cargada" StyleClass="ImportantLabel" HorizontalTextAlignment="Center"  />
-                            <Label Text="{Binding Doc2Info}" FontSize="17" TextColor="{StaticResource BlueColor}" VerticalTextAlignment="End"  />
-                        </StackLayout>
-                    </StackLayout>
-                    <ActivityIndicator Grid.Row="1" IsVisible="{Binding IsBusy}" VerticalOptions="StartAndExpand" IsRunning="{Binding IsBusy}" 
-                                       HeightRequest="40" WidthRequest="40" Color="{StaticResource SPUColor}"/>
-                    
-                    <Frame Grid.Row="1" BackgroundColor="{StaticResource BlueColor}" IsVisible="{Binding IsNotBusy}" 
-                           Padding="{OnIdiom Phone=20,5,Tablet=20,10}" HasShadow="false" VerticalOptions="StartAndExpand" CornerRadius="8">
-                        <Label Text="Continuar" StyleClass="ButtonTextLabel" />
-                        <Frame.GestureRecognizers>
-                            <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding ContinueToStepThreeCommand}"/>
-                        </Frame.GestureRecognizers>
-                    </Frame>
-                        
-                    <Frame Grid.Row="2" BackgroundColor="{StaticResource SPUColor}" IsVisible="{Binding IsNotBusy}" 
-                           Padding="{OnIdiom Phone=20,5,Tablet=20,10}" HasShadow="false" VerticalOptions="StartAndExpand" CornerRadius="8">
-                        <Label Text="{Binding BackText}" StyleClass="ButtonTextLabel" />
-                        <Frame.GestureRecognizers>
-                            <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding GoToStepOneCommand}"/>
-                        </Frame.GestureRecognizers>
-                    </Frame>
-                   
-                </Grid>
-                <!--  END STEP 2 General Info and contact  -->
-               
-                <!--  STEP 3 Complete Claim  -->
-                <Grid Grid.Row="2" VerticalOptions="StartAndExpand" Padding="{OnIdiom Phone=25,0,25,5,Tablet=70,0,70,5}" 
-                      RowSpacing="{OnIdiom Phone=10,Tablet=25}" IsVisible="{Binding IsStepThree}">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="Auto"/>
-                    </Grid.RowDefinitions>
-                     <StackLayout Grid.Row="0" Spacing="3" VerticalOptions="CenterAndExpand" >
-                        <StackLayout Orientation="Vertical">
-                            <Label Text="Tipo de servicio" class="ImportantLabel"/>
-                            <Picker Title="Tipo de servicio" HeightRequest="40" ItemsSource="{Binding ServiceTypes}" TextColor="{StaticResource BlueColor}" 
-                                    VerticalOptions="CenterAndExpand" SelectedItem="{Binding SelectedServiceType}"/>
-                                <!--<Picker.Items>
-                                    <x:String>Residencial</x:String>
-                                    <x:String>Internet</x:String>
-                                    <x:String>Movil</x:String>
-                               </Picker.Items>
-                            </Picker>-->
-                        </StackLayout>
-                        
-                        <StackLayout Orientation="Vertical">
-                            <Label Text="Prestadora de servicios" class="ImportantLabel"/>
-                            <Picker Title="Prestadora de servicio" HeightRequest="40" ItemsSource="{Binding ProviderTypes}" TextColor="{StaticResource BlueColor}" 
-                                    VerticalOptions="CenterAndExpand" SelectedItem="{Binding SelectedProvider}"/>
-                     <!--           <Picker.Items>
-                                    <x:String>Claro</x:String>
-                                    <x:String>Altice</x:String>
-                                    <x:String>Viva</x:String>
-                               </Picker.Items>
-                            </Picker>-->
-                        </StackLayout>
-                            
-                        <inputLayout:SfTextInputLayout  Hint="No. de contrato o Telefono" ContainerType="Outlined"
-                                       FocusedColor="{StaticResource SPUColor}" ErrorText="El Contrato o Telefono es requerido" 
-                                                    HasError="{Binding PhoneOrContractNoHasError}" ErrorColor="{StaticResource RedColor}"
-                                       FocusedStrokeWidth="2" UnfocusedStrokeWidth="1">
-                            <Entry Text="{Binding ClaimInfo.PhoneOrContractNo}" Focused="HandlePhoneContract_Focused" 
-                                   TextColor="{StaticResource BlueColor}" Keyboard="Numeric" FontSize="{OnIdiom Phone=16,Tablet=18}" />
-                        </inputLayout:SfTextInputLayout>
-                            
-                        <StackLayout Orientation="Vertical">
-                            <Label Text="Motivo del Reclamo" class="ImportantLabel"/>
-                            <Picker Title="Seleccione el motivo de su reclamacion" ItemsSource="{Binding ClaimMotiveTypes}" TextColor="{StaticResource BlueColor}" 
-                                    HeightRequest="40" VerticalOptions="CenterAndExpand" SelectedItem="{Binding SelectedClaimMotive}"/>
-                               <!-- <Picker.Items>
-                                    <x:String>Motivo 1</x:String>
-                                    <x:String>Motivo 2</x:String>
-                                    <x:String>Motivo 3</x:String>
-                               </Picker.Items>
-                            </Picker>-->
-                        </StackLayout>
-                            
-                        <StackLayout Orientation="Vertical">
-                            <Label Text="Especificar Motivo" class="ImportantLabel"/>
-                            <Picker Title="Especifique el motivo" HeightRequest="40" ItemsSource="{Binding ClaimSubMotiveTypes}" TextColor="{StaticResource BlueColor}"
-                                    VerticalOptions="CenterAndExpand" SelectedItem="{Binding SelectedEspecification}"/>
-                                <!--<Picker.Items>
-                                    <x:String>Especificacion 1</x:String>
-                                    <x:String>Especificacion 2</x:String>
-                                    <x:String>Especificacion 3</x:String>
-                               </Picker.Items>
-                            </Picker>-->
-                        </StackLayout>
-                        
-                        <StackLayout Orientation="Vertical" Spacing="2" Padding="0" >
-                            <Label Text="Descripcion del Caso" class="ImportantLabel"/>
-                            <Frame BackgroundColor="Transparent" BorderColor="{StaticResource SPUColor}"  Margin="0"
-                                    Padding="{OnIdiom Phone=5,Tablet=10}" HasShadow="false" CornerRadius="8">
-                                    <Editor Text="{Binding ClaimInfo.UserClaimDetails}" TextColor="{StaticResource BlueColor}" 
-                                            HeightRequest="{OnIdiom Phone=100,Tablet=200}"/>
-                            </Frame>
-                        </StackLayout>
-                        
-                        <StackLayout Padding="10,25,5,10" HorizontalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="3">
-                            <Image Source="depositodocu" HeightRequest="{OnIdiom Phone=40,Tablet=60}" 
-                                   Aspect="AspectFit" HorizontalOptions="StartAndExpand" VerticalOptions="EndAndExpand"/>
-                            <Label Text="Cargar Documentos" VerticalTextAlignment="Center" 
-                                   FontSize="{OnIdiom Phone=18,Tablet=20}" HorizontalTextAlignment="Start"
-                                   TextColor="{StaticResource SPUColor}"/>
-                            <Frame.GestureRecognizers>
-                                <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding UpLoadDocumentsCommand}" CommandParameter="3"/>
-                            </Frame.GestureRecognizers>
-                        </StackLayout>
-                        
-                        <ListView IsVisible="{Binding HasDocuments}" ItemsSource="{Binding LoadedDocuments}" 
-                                  ItemSelected="Handle_ItemSelected" HeightRequest="150" HasUnevenRows="false">
-                            <ListView.Header>
-                                <Label Text="Documentos Cargados" FontSize="{OnIdiom Phone=20,Tablet=30}"
-                                       TextColor="{StaticResource BlueColor}" FontAttributes="Bold" HorizontalTextAlignment="Center"
-                                       VerticalTextAlignment="Center"/>
-                            </ListView.Header>
-                            <ListView.ItemTemplate>
-                                <DataTemplate>
-                                    <TextCell Text="{Binding Title}" 
-                                              TextColor="{StaticResource BlueColor}" DetailColor="Gray"/>
-                                </DataTemplate>
-                            </ListView.ItemTemplate>
-                        </ListView>
-                    </StackLayout>
-                    <ActivityIndicator Grid.Row="1" IsVisible="{Binding IsBusy}" VerticalOptions="StartAndExpand" IsRunning="{Binding IsBusy}" 
-                                       HeightRequest="40" WidthRequest="40" Color="{StaticResource SPUColor}"/>
-
-                    <Frame Grid.Row="1" BackgroundColor="{StaticResource BlueColor}" IsVisible="{Binding IsNotBusy}" 
-                           Padding="{OnIdiom Phone=20,5,Tablet=20,10}" HasShadow="false" VerticalOptions="StartAndExpand" CornerRadius="8">
-                        <Label Text="Ver Resumen" StyleClass="ButtonTextLabel" />
-                        <Frame.GestureRecognizers>
-                            <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding DoCompleteClaimFormCommand}"/>
-                        </Frame.GestureRecognizers>
-                    </Frame>
-                    <Frame Grid.Row="2" BackgroundColor="{StaticResource SPUColor}" IsVisible="{Binding IsNotBusy}" 
-                           Padding="{OnIdiom Phone=20,5,Tablet=20,10}" HasShadow="false" VerticalOptions="StartAndExpand" CornerRadius="8">
-                        <Label Text="{Binding BackText}" StyleClass="ButtonTextLabel" />
-                        <Frame.GestureRecognizers>
-                            <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding GoToStepTwoCommand}"/>
-                        </Frame.GestureRecognizers>
-                    </Frame>
-                </Grid>
-                <!--  END STEP 3 Complete Claim  -->
+                
+                <Frame Grid.Row="1" BackgroundColor="{StaticResource Blue2Color}" IsVisible="{Binding IsNotBusy}" 
+                       Padding="{OnIdiom Phone=10,5,Tablet=16,7}" HasShadow="false" VerticalOptions="StartAndExpand" CornerRadius="8">
+                    <Label Text="Continuar" StyleClass="ButtonTextLabel" />
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding DoContinueStepTwoCommand}"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
             </Grid>
-        </ScrollView>
+            <!--  END  STEP 1 Claim Verification --> 
+                
+            <!--  STEP 2 General Info and contact  -->
+            <Grid Grid.Row="2" VerticalOptions="StartAndExpand" Padding="{OnIdiom Phone=25,0,25,5,Tablet=70,0,70,5}" 
+                  RowSpacing="{OnIdiom Phone=10,Tablet=25}" IsVisible="{Binding IsStepTwo}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                    
+                <StackLayout Grid.Row="0" Spacing="3" VerticalOptions="CenterAndExpand" >
+                    <Picker Title="Tipo de Identificacion" ItemsSource="{Binding IdentificationTypes}" HeightRequest="40" TextColor="{StaticResource BlueColor}" 
+                           VerticalOptions="CenterAndExpand" SelectedItem="{Binding SelectedIdentification}"/>
+                   
+                    <inputLayout:SfTextInputLayout x:Name="lblIdent" Hint="Identificacion" ContainerType="Outlined"
+                                                FocusedColor="{StaticResource SPUColor}" UnfocusedColor="{StaticResource SPUColor}" ErrorText="Numero de identificacion es requerido" 
+                                                HasError="{Binding IdentificacionHasError}"  LeadingViewPosition="Inside" ErrorColor="{StaticResource RedColor}"
+                                                FocusedStrokeWidth="0.8" UnfocusedStrokeWidth="0.4" >
+                        <Entry Text="{Binding ClaimInfo.IdentificationNumber}" MaxLength="{Binding IdentificationMaxLength}"
+                               Keyboard="{Binding KeyboardType}" TextColor="{StaticResource BlueColor}"
+                               Focused="HandleIdentificacion_Focused" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                             <inputLayout:SfTextInputLayout.LeadingView>
+                                <Label Text="*" VerticalOptions="CenterAndExpand" TextColor="{StaticResource RedColor}"/>
+                            </inputLayout:SfTextInputLayout.LeadingView>
+                    </inputLayout:SfTextInputLayout>
+                    
+                    <border:SfBorder CornerRadius="8" BorderColor="{StaticResource SPUColor}"
+                                 VerticalOptions="Center" Padding="0,10,0,5" BorderWidth="0.5">
+                        <StackLayout Padding="5,0" HorizontalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="3">
+                            <Image Source="depositodocu" HeightRequest="{OnIdiom Phone=35,Tablet=50}" 
+                                   Aspect="AspectFit" HorizontalOptions="StartAndExpand" VerticalOptions="EndAndExpand"/>
+                            <Label Text="Cargar Documento Identificación" VerticalTextAlignment="Center" 
+                                   FontSize="{OnIdiom Phone=15,Tablet=17}" StyleClass="NexusLightFont" HorizontalTextAlignment="Start"
+                                   TextColor="{StaticResource SPUColor}"/>
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding UpLoadIdentificationCommand}" CommandParameter="2"/>
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
+                    </border:SfBorder>
+                    
+                    <StackLayout Padding="25,5" IsVisible="{Binding Doc2Uploaded}" >
+                        <Label Text="Identificacion Cargada" StyleClass="ImportantLabel" HorizontalTextAlignment="Center"  />
+                        <Label Text="{Binding Doc2Info}" FontSize="17" TextColor="{StaticResource BlueColor}" 
+                               StyleClass="NexusLightFont" VerticalTextAlignment="End"  />
+                    </StackLayout>
+                </StackLayout>
+                <ActivityIndicator Grid.Row="1" IsVisible="{Binding IsBusy}" VerticalOptions="StartAndExpand" IsRunning="{Binding IsBusy}" 
+                                   HeightRequest="40" WidthRequest="40" Color="{StaticResource SPUColor}"/>
+                
+                <Frame Grid.Row="1" BackgroundColor="{StaticResource BlueColor}" IsVisible="{Binding IsNotBusy}" 
+                       Padding="{OnIdiom Phone=10,5,Tablet=16,7}" HasShadow="false" VerticalOptions="StartAndExpand" CornerRadius="8">
+                    <Label Text="Continuar" StyleClass="ButtonTextLabel" />
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding ContinueToStepThreeCommand}"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+                    
+                <Frame Grid.Row="2" BackgroundColor="{StaticResource SPUColor}" IsVisible="{Binding IsNotBusy}" 
+                       Padding="{OnIdiom Phone=10,5,Tablet=16,7}" HasShadow="false" VerticalOptions="StartAndExpand" CornerRadius="8">
+                    <Label Text="{Binding BackText}" StyleClass="ButtonTextLabel" />
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding GoToStepOneCommand}"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+               
+            </Grid>
+            <!--  END STEP 2 General Info and contact  -->
+           
+            <!--  STEP 3 Complete Claim  -->
+            <Grid Grid.Row="2" VerticalOptions="StartAndExpand" Padding="{OnIdiom Phone=25,0,25,5,Tablet=70,0,70,5}" 
+                  RowSpacing="{OnIdiom Phone=10,Tablet=25}" IsVisible="{Binding IsStepThree}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                 <StackLayout Grid.Row="0" Spacing="3" VerticalOptions="CenterAndExpand" >
+                    <StackLayout Orientation="Vertical">
+                        <StackLayout Padding="0" Spacing="3" Orientation="Horizontal">
+                          <Label Text="*" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" TextColor="{StaticResource RedColor}"/> <Label Text="Tipo de servicio" StyleClass="ImportantLabel"/>
+                        </StackLayout>
+                        
+                        <Picker Title="Tipo de servicio" HeightRequest="40" ItemsSource="{Binding ServiceTypes}" TextColor="{StaticResource BlueColor}" 
+                                VerticalOptions="CenterAndExpand" SelectedItem="{Binding SelectedServiceType}"/>
+                    </StackLayout>
+                    
+                    <StackLayout>
+                        <StackLayout Padding="0" Spacing="3" Orientation="Horizontal">
+                            <Label Text="*" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" TextColor="{StaticResource RedColor}"/> <Label Text="Prestadora de servicios" StyleClass="ImportantLabel"/>
+                        </StackLayout>
+                        <Picker Title="Prestadora de servicio" HeightRequest="40" ItemsSource="{Binding ProviderTypes}" TextColor="{StaticResource BlueColor}" 
+                                VerticalOptions="CenterAndExpand" SelectedItem="{Binding SelectedProvider}"/>
+                    </StackLayout>
+                        
+                    <inputLayout:SfTextInputLayout  Hint="No. de contrato o Telefono" ContainerType="Outlined"
+                                   FocusedColor="{StaticResource SPUColor}" ErrorText="El Contrato o Telefono es requerido" 
+                                   UnfocusedColor="{StaticResource SPUColor}" HasError="{Binding PhoneOrContractNoHasError}" ErrorColor="{StaticResource RedColor}"
+                                   FocusedStrokeWidth="0.8" UnfocusedStrokeWidth="0.4" LeadingViewPosition="Inside">
+                        <Entry Text="{Binding ClaimInfo.PhoneOrContractNo}" Focused="HandlePhoneContract_Focused" 
+                               TextColor="{StaticResource BlueColor}" Keyboard="Numeric" MaxLength="20" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                        <inputLayout:SfTextInputLayout.LeadingView>
+                            <Label Text="*" VerticalOptions="CenterAndExpand" TextColor="{StaticResource RedColor}"/>
+                        </inputLayout:SfTextInputLayout.LeadingView>
+                    </inputLayout:SfTextInputLayout>
+                        
+                    <StackLayout Orientation="Vertical" Padding="0,5">
+                        <Label Text="Motivo del Reclamo" StyleClass="ImportantLabel"/>
+                        <Picker Title="Seleccione el motivo de su reclamacion" ItemsSource="{Binding ClaimMotiveTypes}" TextColor="{StaticResource BlueColor}" 
+                                HeightRequest="40" VerticalOptions="CenterAndExpand" SelectedItem="{Binding SelectedClaimMotive}"/>
+                    </StackLayout>
+                        
+                    <inputLayout:SfTextInputLayout  Hint="Monto de la reclamación" IsVisible="{Binding SendClaimAmount}" ContainerType="Outlined"
+                               FocusedColor="{StaticResource SPUColor}" UnfocusedColor="{StaticResource SPUColor}"
+                               FocusedStrokeWidth="0.8" UnfocusedStrokeWidth="0.4" LeadingViewPosition="Inside">
+                        <Entry Text="{Binding ClaimInfo.ProviderReclaimedAmount, StringFormat='{0:N}' }" Focused="HandlePhoneContract_Focused" 
+                               TextColor="{StaticResource BlueColor}" Keyboard="Numeric" MaxLength="10" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                        <inputLayout:SfTextInputLayout.LeadingView>
+                            <Label Text="$" VerticalOptions="CenterAndExpand" TextColor="{StaticResource BlueColor}"/>
+                        </inputLayout:SfTextInputLayout.LeadingView>
+                    </inputLayout:SfTextInputLayout>
+                        
+                    <StackLayout Orientation="Vertical" Padding="0,5">
+                        <Label Text="Especificar Motivo" StyleClass="ImportantLabel"/>
+                        <Picker Title="Especifique el motivo" HeightRequest="40" ItemsSource="{Binding ClaimSubMotiveTypes}" TextColor="{StaticResource BlueColor}"
+                                VerticalOptions="CenterAndExpand" SelectedItem="{Binding SelectedEspecification}"/>
+                    </StackLayout>
+                    
+                    <StackLayout Orientation="Vertical" Spacing="2" Padding="0,5" >
+                        <Label Text="Descripcion del Caso" StyleClass="ImportantLabel"/>
+                        <Frame BackgroundColor="Transparent" BorderColor="{StaticResource SPUColor}"  Margin="0"
+                                Padding="{OnIdiom Phone=5,Tablet=10}" HasShadow="false" CornerRadius="8">
+                                <Editor Text="{Binding ClaimInfo.UserClaimDetails}" TextColor="{StaticResource BlueColor}" 
+                                        HeightRequest="{OnIdiom Phone=75,Tablet=150}"/>
+                        </Frame>
+                    </StackLayout>
+                    
+                        
+                    <border:SfBorder CornerRadius="8" BorderColor="{StaticResource SPUColor}"
+                                 VerticalOptions="Center" Padding="0,5,0,5" BorderWidth="0.5">
+                        <StackLayout Padding="5,0" HorizontalOptions="CenterAndExpand" Orientation="Horizontal" Spacing="3">
+                            <Image Source="depositodocu" HeightRequest="{OnIdiom Phone=35,Tablet=50}" 
+                                   Aspect="AspectFit" HorizontalOptions="StartAndExpand" VerticalOptions="EndAndExpand"/>
+                            <Label Text="Cargar Documentos" StyleClass="NexusLightFont" VerticalTextAlignment="Center" 
+                                   FontSize="{OnIdiom Phone=16,Tablet=18}" HorizontalTextAlignment="Start"
+                                   TextColor="{StaticResource SPUColor}"/>
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding UpLoadDocumentsCommand}" CommandParameter="3"/>
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
+                    </border:SfBorder>
+                    
+                    
+                    <ListView IsVisible="{Binding HasDocuments}" ItemsSource="{Binding LoadedDocuments}" 
+                              ItemSelected="Handle_ItemSelected" HeightRequest="150" HasUnevenRows="false">
+                        <ListView.Header>
+                            <Label Text="Documentos Cargados" FontSize="{OnIdiom Phone=20,Tablet=30}"
+                                   TextColor="{StaticResource BlueColor}" StyleClass="NexusBoldFont" HorizontalTextAlignment="Center"
+                                   VerticalTextAlignment="Center"/>
+                        </ListView.Header>
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <TextCell Text="{Binding Title}" 
+                                          TextColor="{StaticResource BlueColor}" DetailColor="Gray"/>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+                <ActivityIndicator Grid.Row="1" IsVisible="{Binding IsBusy}" VerticalOptions="StartAndExpand" IsRunning="{Binding IsBusy}" 
+                                   HeightRequest="40" WidthRequest="40" Color="{StaticResource SPUColor}"/>
+
+                <Frame Grid.Row="1" BackgroundColor="{StaticResource BlueColor}" IsVisible="{Binding IsNotBusy}" 
+                       Padding="{OnIdiom Phone=10,5,Tablet=16,7}" HasShadow="false" VerticalOptions="StartAndExpand" CornerRadius="8">
+                    <Label Text="Ver Resumen" StyleClass="ButtonTextLabel" />
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding DoCompleteClaimFormCommand}"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+                <Frame Grid.Row="2" BackgroundColor="{StaticResource SPUColor}" IsVisible="{Binding IsNotBusy}" 
+                       Padding="{OnIdiom Phone=10,5,Tablet=16,7}" HasShadow="false" VerticalOptions="StartAndExpand" CornerRadius="8">
+                    <Label Text="{Binding BackText}" StyleClass="ButtonTextLabel" />
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding GoToStepTwoCommand}"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+            </Grid>
+            <!--  END STEP 3 Complete Claim  -->
+            <StackLayout Grid.Row="3" Orientation="Horizontal" HeightRequest="40" HorizontalOptions="CenterAndExpand"
+                              VerticalOptions="EndAndExpand" Padding="0,0,0,10">
+                <Label Text="Ayuda" TextColor="{StaticResource BlueColor}" 
+                       FontSize="18" StyleClass="NexusLightFont" VerticalTextAlignment="Center" /> 
+                <Image Source="ayuda.png" VerticalOptions="CenterAndExpand" 
+                           HorizontalOptions="StartAndExpand" Aspect="AspectFit" 
+                           HeightRequest="{OnIdiom Phone=20,Tablet=35}"/>
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" />
+                </StackLayout.GestureRecognizers>
+            </StackLayout>
+        </Grid>
+    </ScrollView>
    <!-- </Grid>-->
-   
     </ContentPage.Content>
 </ContentPage>

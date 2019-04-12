@@ -3,94 +3,159 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SPU.Mobile.Views.FAQPage"
              xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+             xmlns:data="clr-namespace:Syncfusion.DataSource;assembly=Syncfusion.DataSource.Portable"
+             xmlns:sfListview="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
              xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
              Title="{Binding Title}">
     <ContentPage.ToolbarItems>
         <ToolbarItem Icon="idt.png" Priority="1"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
-            <Grid VerticalOptions="StartAndExpand" RowSpacing="5">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="*"/>
-                </Grid.RowDefinitions>
-                <Grid Grid.Row="0" RowSpacing="5" Padding="15,10,5,0">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="Auto"/>
-                    </Grid.RowDefinitions>
-          
-                    <StackLayout Grid.Row="0" Padding="0,5" HorizontalOptions="StartAndExpand" Orientation="Horizontal" Spacing="1">
-                        <Image Source="faqs.png" HeightRequest="{OnIdiom Phone=30,Tablet=40}"
-                           Aspect="AspectFit" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand"/>
-                        <Label Text="Preguntas Frecuentes" StyleClass="SpuTitle"/>
-                    </StackLayout>
-                </Grid>
-                
-                
-                <Grid Grid.Row="1" Padding="15,10,5,0" ColumnSpacing="5">
+    <Grid VerticalOptions="StartAndExpand" RowSpacing="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" RowSpacing="5" Padding="15,10,5,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+  
+            <StackLayout Grid.Row="0" Padding="0,5" HorizontalOptions="StartAndExpand" Orientation="Horizontal" Spacing="10">
+                <Image Source="faqs.png" HeightRequest="{OnIdiom Phone=30,Tablet=40}"
+                   Aspect="AspectFit" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand"/>
+                <Label Text="Preguntas Frecuentes" StyleClass="SpuTitle"/>
+            </StackLayout>
+        </Grid>
+        
+        
+        <Grid Grid.Row="1" Padding="15,10,5,15" ColumnSpacing="5">
+       
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="7.5*"/>
+                <ColumnDefinition Width="2.5*"/>
+            </Grid.ColumnDefinitions>
+        
+            <inputLayout:SfTextInputLayout Hint="Como te podemos ayudar?" ContainerType="Outlined"
+                                           FocusedColor="{StaticResource SPUColor}" LeadingViewPosition="Inside" 
+                                           FocusedStrokeWidth="0.8" ReserveSpaceForAssistiveLabels="false" UnfocusedStrokeWidth="0.4">
+                <Entry Text="{Binding SearchParam}" FontSize="{OnIdiom Phone=15,Tablet=17}" />
+                <inputLayout:SfTextInputLayout.LeadingView>
+                    <Image HeightRequest="22" WidthRequest="22" Source="search.png"/>
+                </inputLayout:SfTextInputLayout.LeadingView>
+            </inputLayout:SfTextInputLayout>
+            
+            <Button Grid.Column="1" Text="Buscar" TextColor="White" HeightRequest="45" VerticalOptions="EndAndExpand"
+                    IsVisible="{Binding IsNotBusy}" Command="{Binding DoFaqSearchCommand}" BackgroundColor="{StaticResource LightBlue}" />
+           
+        </Grid>
+        <sfListview:SfListView Grid.Row="2" SelectedItem="{Binding SelectedQ}" AutoFitMode="DynamicHeight" AllowGroupExpandCollapse="true" ItemsSource="{Binding FAQs}" >
+            <sfListview:SfListView.DataSource>
+                <data:DataSource>
+                    <data:DataSource.GroupDescriptors>
+                      <data:GroupDescriptor PropertyName="CategoryName"/>
+                    </data:DataSource.GroupDescriptors>
+                </data:DataSource>
+            </sfListview:SfListView.DataSource>
+            <sfListview:SfListView.GroupHeaderTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <Grid Padding="10,5,5,0" RowSpacing="2">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="35"/>
+                                    <RowDefinition Height="1"/>
+                                </Grid.RowDefinitions>
+                                <Label Text="{Binding Key}" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" 
+                                       TextColor="{StaticResource BlueColor}" FontSize="16" StyleClass="NexusBoldFont" />
+                                <BoxView Grid.Row="1" HeightRequest="0.5" HorizontalOptions="FillAndExpand" 
+                                     BackgroundColor="{StaticResource SPUColor}" VerticalOptions="EndAndExpand"/>
+                            </Grid>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </sfListview:SfListView.GroupHeaderTemplate>
                
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="7.5*"/>
-                        <ColumnDefinition Width="2.5*"/>
-                    </Grid.ColumnDefinitions>
-                
-                    <inputLayout:SfTextInputLayout Hint="Como te podemos ayudar?" ContainerType="Outlined"
-                                                   FocusedColor="{StaticResource SPUColor}" 
-                                                   FocusedStrokeWidth="2" LeadingViewPosition="Inside" ReserveSpaceForAssistiveLabels="false" UnfocusedStrokeWidth="1">
-                        <Entry  FontSize="{OnIdiom Phone=16,Tablet=18}" />
-                        <inputLayout:SfTextInputLayout.LeadingView>
-                            <Image HeightRequest="25" WidthRequest="25" Source="search.png"/>
-                        </inputLayout:SfTextInputLayout.LeadingView>
-                    </inputLayout:SfTextInputLayout>
-                    
-                    <Button Grid.Column="1" Text="Buscar" TextColor="White" HeightRequest="50" VerticalOptions="EndAndExpand" IsVisible="{Binding IsNotBusy}" BackgroundColor="{StaticResource Blue2Color}" />
-                   
-                </Grid>
-               
-                <ListView Grid.Row="2" ItemsSource="{Binding FAQs}" SelectedItem="{Binding SelectedQ}" 
-                          SeparatorVisibility="None" HasUnevenRows="true" ItemSelected="Handle_ItemSelected">
-                    <ListView.ItemTemplate>
-                        <DataTemplate>
-                            <ViewCell>
-                                <Grid Padding="10,15,10,0" RowSpacing="5">
-                                    <Grid.RowDefinitions>
-                                        <RowDefinition Height="45"/>
-                                       <!-- <RowDefinition Height="40"/>-->
-                                        <!--<RowDefinition Height="1"/>-->
-                                    </Grid.RowDefinitions>
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="40"/>
-                                        <ColumnDefinition Width="*"/>
-                                    </Grid.ColumnDefinitions>
-                                
-                                    <border:SfBorder BorderColor="{StaticResource SPUTags}" VerticalOptions="CenterAndExpand" 
-                                                     CornerRadius="{OnIdiom Phone=20,Tablet=30}" 
-                                         HorizontalOptions="CenterAndExpand"  BorderWidth="2">
-                                        <StackLayout BackgroundColor="Transparent" HeightRequest="{OnIdiom Phone=10,Tablet=15}" WidthRequest="{OnIdiom Phone=10,Tablet=15}">
+            <sfListview:SfListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <Grid Padding="15,8,5,0" RowSpacing="5">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="45"/>
+                                </Grid.RowDefinitions>
+                              
+                                <StackLayout Grid.Row="0" Spacing="5" Orientation="Horizontal" Padding="5,0,0,0" >
+                                    <border:SfBorder BorderColor="{StaticResource Blue2Color}" Margin="5,0,0,0" VerticalOptions="CenterAndExpand" 
+                                                 CornerRadius="{OnIdiom Phone=11,Tablet=19}" 
+                                         HorizontalOptions="Start"  BorderWidth="1">
+                                        <StackLayout BackgroundColor="Transparent" HeightRequest="{OnIdiom Phone=6,Tablet=10}" WidthRequest="{OnIdiom Phone=6,Tablet=10}">
                                           
                                         </StackLayout>
                                     </border:SfBorder>
                                     
-                                    <StackLayout Grid.Row="0" Grid.Column="1" VerticalOptions="CenterAndExpand" >
-                                         <Label  Text="{Binding Title}" StyleClass="SpuLabel" TextColor="{StaticResource BlueColor}"/>
-                         
-                                    </StackLayout>
-                                    
-                                   <!-- <StackLayout Grid.Row="1" Padding="15,10,5,5" Grid.Column="1" IsVisible="{Binding ShowAnswer}">
-                                         <Label  Text="{Binding Description}"  StyleClass="SpuLabel" TextColor="{StaticResource BlueColor}"/>
+                                   <Label Text="{Binding Title}" StyleClass="SpuLabel" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"/>
+                                   
+                                </StackLayout>
+                                
                              
-                                    </StackLayout>-->
-                                    
-                                   <!-- <BoxView Grid.Row="2"  Grid.ColumnSpan="2"  HeightRequest="0.5" HorizontalOptions="FillAndExpand" 
-                                                     BackgroundColor="{StaticResource SPUColor}" VerticalOptions="EndAndExpand"/>
-                            -->
-                                </Grid>
-                            </ViewCell>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
-            </Grid>
+                            </Grid>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </sfListview:SfListView.ItemTemplate>
+        </sfListview:SfListView>
+            
+            
+      <!--  <ListView Grid.Row="2" SeparatorVisibility="None" ItemsSource="{Binding FAQsGrouped}"  IsGroupingEnabled="true" 
+                          ItemSelected="Handle_ItemSelected"  SelectedItem="{Binding SelectedQ}" HasUnevenRows="true">
+            <ListView.GroupHeaderTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="10,5,5,0" RowSpacing="2">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="35"/>
+                                <RowDefinition Height="1"/>
+                            </Grid.RowDefinitions>
+                            <Label Text="{Binding Key}" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" 
+                                   TextColor="{StaticResource BlueColor}" FontSize="16" StyleClass="NexusBoldFont" />
+                            <BoxView Grid.Row="1" HeightRequest="0.5" HorizontalOptions="FillAndExpand" 
+                                 BackgroundColor="{StaticResource SPUColor}" VerticalOptions="EndAndExpand"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.GroupHeaderTemplate>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                       <Grid Padding="15,8,5,0" RowSpacing="5">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="45"/>
+                        </Grid.RowDefinitions>
+                      
+                        <StackLayout Grid.Row="0" Spacing="5" Orientation="Horizontal" Padding="5,0,0,0" >
+                            <border:SfBorder BorderColor="{StaticResource Blue2Color}" Margin="5,0,0,0" VerticalOptions="CenterAndExpand" 
+                                         CornerRadius="{OnIdiom Phone=11,Tablet=19}" 
+                                 HorizontalOptions="Start"  BorderWidth="1">
+                                <StackLayout BackgroundColor="Transparent" HeightRequest="{OnIdiom Phone=6,Tablet=10}" WidthRequest="{OnIdiom Phone=6,Tablet=10}">
+                                  
+                                </StackLayout>
+                            </border:SfBorder>
+                            
+                           <Label Text="{Binding Title}" StyleClass="SpuLabel" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"/>
+                           
+                        </StackLayout>
+                        
+                     
+                    </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>-->
+       
+    </Grid>
     </ContentPage.Content>
 </ContentPage>

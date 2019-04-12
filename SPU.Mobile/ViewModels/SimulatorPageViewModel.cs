@@ -10,6 +10,7 @@ using PropertyChanged;
 using System.Collections.ObjectModel;
 using SPU.Mobile.Models;
 using Prism.AppModel;
+using Realms;
 
 namespace SPU.Mobile.ViewModels
 {
@@ -25,49 +26,18 @@ namespace SPU.Mobile.ViewModels
         public DelegateCommand DoConsumptionCalculationCommand { get; set; }
         public DelegateCommand DoResetConsumptionCommand { get; set; }
 
-        public List<SimulatorActivityDto> Services { get; set; }
+        public List<SimulatorActivityR> Services { get; set; }
 
         public double TotalConsumptionMB { get; set; }
         public double TotalConsumptionGB { get; set; }
+        public double TotalConsumptionVoice { get; set; }
 
         public SimulatorPageViewModel(IApiManager apiManager, IUserDialogs userDialogs, INavigationService navigationService, ISPUDatabase SPUDatabase) : base(apiManager, userDialogs, navigationService, SPUDatabase)
         {
             DoConsumptionCalculationCommand = new DelegateCommand(DoConsumptionCalculation);
             DoResetConsumptionCommand = new DelegateCommand(DoResetConsumption);
             Title = "#TuCuentasConElINDOTEL";
-            //Services = new List<OnlineService>()
-            //{
-            //    new OnlineService()
-            //    {
-            //        Service="Netflix",
-            //        Consumption=50
 
-            //    },
-            //    new OnlineService()
-            //    {
-            //        Service="Facebook",
-            //        Consumption=20
-
-            //    },
-            //    new OnlineService()
-            //    {
-            //        Service="Instagram",
-            //        Consumption=100
-
-            //    },
-            //    new OnlineService()
-            //    {
-            //        Service="Spotify",
-            //        Consumption=0
-
-            //    },
-            //    new OnlineService()
-            //    {
-            //        Service="Juegos",
-            //        Consumption=0
-
-            //    }
-            //};
         }
 
         private void DoResetConsumption()
@@ -80,22 +50,37 @@ namespace SPU.Mobile.ViewModels
                 }
                 TotalConsumptionMB = 0;
                 TotalConsumptionGB = 0;
+                TotalConsumptionVoice = 0;
             }
         }
 
         private void DoConsumptionCalculation()
         {
+
             TotalConsumptionMB = 0;
             TotalConsumptionGB = 0;
+            TotalConsumptionVoice = 0;
+            //_SPUDatabase.GetSPUDBConnection().Write(() =>
+            //{
             if (Services != null && Services.Any())
             {
                 foreach (var item in Services)
                 {
-                    var result = Math.Round(item.UnitValue * item.MBValue * item.SliderVal);
-                    TotalConsumptionMB += result;
+                    //if (!string.IsNullOrEmpty(item.UnitMeter) && item.UnitMeter.ToLower() == "min")
+                    if (item.UnitMeterTypeId == 7)
+                    {
+                        var resultVoice = 30 * item.SliderVal;
+                        TotalConsumptionVoice += resultVoice;
+                    }
+                    else
+                    {
+                        var resultmb = item.UnitValue * item.MBValue * item.SliderVal;
+                        TotalConsumptionMB += resultmb;
+                    }
                 }
-                TotalConsumptionGB = Math.Round(TotalConsumptionMB / 1000, 2);
+                TotalConsumptionGB = Math.Round(TotalConsumptionMB / 1024, 2);
             }
+            //});
         }
         async void LoadServicesTable()
         {
@@ -103,9 +88,9 @@ namespace SPU.Mobile.ViewModels
             {
                 IsBusy = true;
 
-                var data = await _apiManager.GetSimulatorServicesTableAsync();
+                //Services = _SPUDatabase.GetSPUDBConnection().All<SimulatorActivityR>().AsRealmCollection();
 
-                Services = new List<SimulatorActivityDto>(data);
+                Services = _SPUDatabase.GetSimulatorActivitiesData();
 
             }
             catch (Exception ex)
@@ -133,6 +118,7 @@ namespace SPU.Mobile.ViewModels
 
         public void OnAppearing()
         {
+            _userDialogs.Alert("Los datos aquí presentados son con fines informativos, la cobertura de los productos aquí mencionados puede variar.\nAcércate a tu prestadora de servicios para consultar la cobertura de los servicios.", "ALERTA - INDOTEL", "Aceptar");
 
         }
 

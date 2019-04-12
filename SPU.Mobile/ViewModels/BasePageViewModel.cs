@@ -8,11 +8,13 @@ using Prism.Navigation;
 using Realms;
 using SPU.Mobile.Models;
 using System.Threading.Tasks;
+using System.Collections.ObjectModel;
+using System.Collections.Generic;
 
 namespace SPU.Mobile.ViewModels
 {
     [AddINotifyPropertyChangedInterface]
-    public class BasePageViewModel : IDestructible
+    public class BasePageViewModel
     {
         public bool IsBusy { get; set; }
         public bool IsNotBusy => !IsBusy;
@@ -46,10 +48,18 @@ namespace SPU.Mobile.ViewModels
             //await _navigationService.NavigateAsync(new Uri("/CustomMasterDetailsPage/NavigationPage/SUPHomePage", UriKind.Absolute), navparam);
         }
 
-        public void Destroy()
+
+    }
+    [AddINotifyPropertyChangedInterface]
+    public class Grouping<K, T> : ObservableCollection<T>
+    {
+        public K Key { get; private set; }
+
+        public Grouping(K key, IEnumerable<T> items)
         {
-
-
+            Key = key;
+            foreach (var item in items)
+                this.Items.Add(item);
         }
     }
 }

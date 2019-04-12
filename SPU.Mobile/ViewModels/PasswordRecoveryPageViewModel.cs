@@ -28,6 +28,7 @@ namespace SPU.Mobile.ViewModels
         {
             try
             {
+                if (IsBusy) return;
                 IsBusy = true;
                 if (string.IsNullOrWhiteSpace(EmailorPhone))
                 {

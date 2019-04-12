@@ -9,6 +9,8 @@ namespace SPU.Mobile.Models
         public string Id { get; set; }
         public string UserRequestId { get; set; }
 
+        public string DeviceId { get; set; }
+
         public string Email { get; set; }
         public string Phone { get; set; }
         public string Password { get; set; }
@@ -30,5 +32,16 @@ namespace SPU.Mobile.Models
 
         public bool PhoneConfirmed { get; set; }
         public DateTime? PhoneConfirmedDate { get; set; }
+    }
+
+    [AddINotifyPropertyChangedInterface]
+    public class ChangePassword
+    {
+        public string UserId { get; set; }
+        public string Password { get; set; }
+        public string PasswordConfirm { get; set; }
+        public int CanalTypeId { get; set; }
+        public string OldPassword { get; set; }
+
     }
 }
