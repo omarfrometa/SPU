@@ -21,7 +21,7 @@
         </NuGetPackageImportStamp>
         <JavaMaximumHeapSize>3G</JavaMaximumHeapSize>
         <AndroidEnableMultiDex>true</AndroidEnableMultiDex>
-        <ReleaseVersion>1.0</ReleaseVersion>
+        <ReleaseVersion>1.1</ReleaseVersion>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
         <DebugSymbols>true</DebugSymbols>
@@ -148,6 +148,12 @@
         </PackageReference>
         <PackageReference Include="Xamarin.FFImageLoading.Forms">
           <Version>2.4.5.880-pre</Version>
+        </PackageReference>
+        <PackageReference Include="Syncfusion.Xamarin.SfTabView">
+          <Version>17.1.0.40</Version>
+        </PackageReference>
+        <PackageReference Include="Syncfusion.Xamarin.SfComboBox">
+          <Version>17.1.0.40</Version>
         </PackageReference>
     </ItemGroup>
     <ItemGroup>
@@ -393,12 +399,6 @@
         <AndroidResource Include="Resources\drawable-hdpi\tpnuevareclama.png" />
         <AndroidResource Include="Resources\drawable-mdpi\tpnuevareclama.png" />
         <AndroidResource Include="Resources\drawable-ldpi\tpnuevareclama.png" />
-        <AndroidResource Include="Resources\drawable-xxxhdpi\miscasos2.png" />
-        <AndroidResource Include="Resources\drawable-xxhdpi\miscasos2.png" />
-        <AndroidResource Include="Resources\drawable-xhdpi\miscasos2.png" />
-        <AndroidResource Include="Resources\drawable-hdpi\miscasos2.png" />
-        <AndroidResource Include="Resources\drawable-mdpi\miscasos2.png" />
-        <AndroidResource Include="Resources\drawable-ldpi\miscasos2.png" />
         <AndroidResource Include="Resources\drawable-mdpi\averiamain.png" />
         <AndroidResource Include="Resources\drawable-ldpi\averiamain.png" />
         <AndroidResource Include="Resources\drawable-mdpi\chat.png" />
@@ -720,6 +720,36 @@
         <AndroidResource Include="Resources\drawable-hdpi\pdficon.png" />
         <AndroidResource Include="Resources\drawable-mdpi\pdficon.png" />
         <AndroidResource Include="Resources\drawable-ldpi\pdficon.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\centroidt.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\centroidt.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\centroidt.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\centroidt.png" />
+        <AndroidResource Include="Resources\drawable-mdpi\centroidt.png" />
+        <AndroidResource Include="Resources\drawable-ldpi\centroidt.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\loght.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\loght.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\loght.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\loght.png" />
+        <AndroidResource Include="Resources\drawable-mdpi\loght.png" />
+        <AndroidResource Include="Resources\drawable-ldpi\loght.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\loght2.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\loght2.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\loght2.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\loght2.png" />
+        <AndroidResource Include="Resources\drawable-mdpi\loght2.png" />
+        <AndroidResource Include="Resources\drawable-ldpi\loght2.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\gob2.png" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\gob2.png" />
+        <AndroidResource Include="Resources\drawable-xhdpi\gob2.png" />
+        <AndroidResource Include="Resources\drawable-hdpi\gob2.png" />
+        <AndroidResource Include="Resources\drawable-mdpi\gob2.png" />
+        <AndroidResource Include="Resources\drawable-ldpi\gob2.png" />
+        <AndroidResource Include="Resources\drawable-xxxhdpi\planbg.jpg" />
+        <AndroidResource Include="Resources\drawable-xxhdpi\planbg.jpg" />
+        <AndroidResource Include="Resources\drawable-xhdpi\planbg.jpg" />
+        <AndroidResource Include="Resources\drawable-hdpi\planbg.jpg" />
+        <AndroidResource Include="Resources\drawable-mdpi\planbg.jpg" />
+        <AndroidResource Include="Resources\drawable-ldpi\planbg.jpg" />
     </ItemGroup>
     <ItemGroup>
         <Folder Include="Resources\drawable\" />

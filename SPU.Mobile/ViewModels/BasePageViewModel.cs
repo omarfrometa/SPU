@@ -33,8 +33,6 @@ namespace SPU.Mobile.ViewModels
             _userDialogs = userDialogs;
             _navigationService = navigationService;
             _SPUDatabase = SPUDatabase;
-
-
         }
 
         public async Task NavigateToLogin()

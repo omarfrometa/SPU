@@ -32,6 +32,10 @@ namespace SPU.Mobile.Helpers
         public static string DebDerDetallePage => "DebDerDetallePage";
         public static string FAQDetailsPage => "FAQDetailsPage";
         public static string DocumentDetailsPage => "DocumentDetailsPage";
+        public static string ClaimCommentDetailsPage => "CommentDetailsPage";
+        public static string ComparadorPage => "ComparadorPage";
+        public static string ComparadorFilterPage => "ComparadorFilterPage";
+
 
     }
 }

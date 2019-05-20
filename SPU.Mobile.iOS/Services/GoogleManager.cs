@@ -48,6 +48,7 @@ namespace SPU.Mobile.iOS.Services
                     Email = user.Profile.Email,
                     Lastname = user.Profile.FamilyName,
                     Token = user.Authentication.IdToken,
+                    UserId = user.UserID,
                     Picture = user.Profile.HasImage ? new Uri(user.Profile.GetImageUrl(500).ToString()) : new Uri(string.Empty)
                 }, string.Empty);
             else

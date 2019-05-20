@@ -14,7 +14,7 @@ namespace SPU.Mobile.Services
 
         public SPUDatabase()
         {
-            _RealmSPU = Realm.GetInstance(new RealmConfiguration("spudatabase.realm") { SchemaVersion = 42 });
+            _RealmSPU = Realm.GetInstance(new RealmConfiguration("spudatabase.realm") { SchemaVersion = 48 });
         }
 
 
@@ -89,7 +89,8 @@ namespace SPU.Mobile.Services
                 userProf.MunicipalityId = userProfile.MunicipalityId;
                 userProf.SectorId = userProfile.SectorId;
                 userProf.Address = userProfile.Address;
-
+                userProf.IdentificationNumber = userProfile.IdentificationNumber;
+                userProf.IdentificationTypeId = userProfile.IdentificationTypeId;
                 _RealmSPU.Add(userProf, true);
             });
             return;
@@ -209,6 +210,16 @@ namespace SPU.Mobile.Services
             return _RealmSPU.All<UserClaimsResultR>().Where(u => u.Id == userClaimId).FirstOrDefault();
         }
 
+        public async Task<List<RateComparator>> GetRateComparatorDataAsync(IApiManager apiManager, string prices, string providers, string services, string cycles)
+        {
+            return await apiManager.GetRateComparatorDataAsync(prices, providers, services, cycles);
+        }
+
+        public async Task<List<Product>> GetProductDataAsync(IApiManager apiManager, string productId)
+        {
+            return await apiManager.GetProductInfoAsync(productId);
+        }
+
         public List<UserClaimsResultR> GetMyClaims(string userid)
         {
             return _RealmSPU.All<UserClaimsResultR>().Where(u => u.CreatedByUserId == userid).ToList();
@@ -249,6 +260,17 @@ namespace SPU.Mobile.Services
                 document.RejectedDate = new DateTimeOffset(item.RejectedDate.GetValueOrDefault());
                 document.RejectedByUserId = item.RejectedByUserId;
                 document.RejectedByUserText = item.RejectedByUserText;
+                document.Deleted = item.Deleted;
+                document.Accepted = item.Accepted;
+                document.DeletedByUserText = item.DeletedByUserText;
+                document.Created = item.Created;
+                document.DeletedByUserId = item.DeletedByUserId;
+                document.StatusDocumentId = item.StatusDocumentId;
+                document.WebUrl = item.WebUrl;
+                document.StatusDocumentText = item.StatusDocumentText;
+                document.UserClaimNo = item.UserClaimNo;
+                document.DeletedDate = new DateTimeOffset(item.DeletedDate.GetValueOrDefault());
+
                 _RealmSPU.Write(() =>
                  {
                      _RealmSPU.Add(document, true);
@@ -297,12 +319,14 @@ namespace SPU.Mobile.Services
                 note.FileContentType = item.FileContentType;
                 note.CreatedDate = new DateTimeOffset(item.CreatedDate);
                 note.CreatedByUserId = item.CreatedByUserId;
-
+                note.PictureWebUrl = item.cPictureWebUrl;
                 note.Email = item.Email;
-                note.DisplayName = item.DisplayName;
-                note.UserType = item.UserType;
+                note.DisplayName = item.cDisplayName;
+                note.UserType = item.cUserTypeText;
                 note.Picture = item.Picture;
-
+                note.ProviderText = item.cProviderText;
+                note.Comments = item.Comments;
+                note.FileWebUrl = item.WebUrl;
                 _RealmSPU.Write(() =>
                 {
                     _RealmSPU.Add(note, true);
@@ -598,7 +622,10 @@ namespace SPU.Mobile.Services
         {
             await apiManager.PostAcceptDeclineNoteAsync(acceptDeclineNoteModel);
         }
-
+        public async Task PostFAQRateAsync(IApiManager apiManager, string userId, int faqId, int rate)
+        {
+            await apiManager.PostFAQValorationAsync(userId, faqId, rate);
+        }
 
         public async Task<Models.LoginResult> DoSocialLoginAsync(IApiManager apiManager, string token)
         {
@@ -766,6 +793,87 @@ namespace SPU.Mobile.Services
         public string GetSectorId(string title)
         {
             var data = _RealmSPU.All<DDLSectorR>().Where(u => u.Text == title).FirstOrDefault();
+            return data != null ? data.Value : "";
+        }
+
+
+        //
+        public void SavePriceRange(List<DDLModel> pricesrange)
+        {
+            foreach (var item in pricesrange)
+            {
+                var priceRange = new DDLPriceRangeR();
+                priceRange.Text = item.Text;
+                priceRange.Value = item.Value;
+                _RealmSPU.Write(() =>
+                {
+                    _RealmSPU.Add(priceRange, true);
+                });
+            }
+        }
+
+        public List<DDLPriceRangeR> GetPricesRangeR()
+        {
+            return _RealmSPU.All<DDLPriceRangeR>().ToList();
+        }
+
+        public string GetPriceRangeId(string title)
+        {
+            var data = _RealmSPU.All<DDLPriceRangeR>().Where(u => u.Text == title).FirstOrDefault();
+            return data != null ? data.Value : "";
+        }
+
+
+        //
+        public void SaveCServiceTypes(List<DDLModel> servicetypes)
+        {
+            foreach (var item in servicetypes)
+            {
+                var servicetype = new DDLServiceTypeR();
+                servicetype.Text = item.Text;
+                servicetype.Value = item.Value;
+                _RealmSPU.Write(() =>
+                {
+                    _RealmSPU.Add(servicetype, true);
+                });
+            }
+        }
+
+        public List<DDLServiceTypeR> GetCServiceTypesR()
+        {
+            return _RealmSPU.All<DDLServiceTypeR>().ToList();
+        }
+
+        public string GetCServiceTypeId(string title)
+        {
+            var data = _RealmSPU.All<DDLServiceTypeR>().Where(u => u.Text == title).FirstOrDefault();
+            return data != null ? data.Value : "";
+        }
+
+
+        //
+        public void SaveServiceCycles(List<DDLModel> servicecycles)
+        {
+            foreach (var item in servicecycles)
+            {
+                var servicecycle = new DDLServiceCycleR();
+                servicecycle.Text = item.Text;
+                servicecycle.Value = item.Value;
+                _RealmSPU.Write(() =>
+                {
+                    _RealmSPU.Add(servicecycle, true);
+                });
+            }
+        }
+
+        public List<DDLServiceCycleR> GetServiceCyclesR()
+        {
+            return _RealmSPU.All<DDLServiceCycleR>().ToList();
+        }
+
+        public string GetServiceCycleId(string title)
+        {
+            var data = _RealmSPU.All<DDLServiceCycleR>().Where(u => u.Text == title).FirstOrDefault();
             return data != null ? data.Value : "";
         }
     }

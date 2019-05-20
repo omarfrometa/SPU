@@ -30,6 +30,21 @@
                 </Grid.RowDefinitions>
                 <StackLayout Grid.Row="0" Spacing="2" Padding="0,0,0,5" VerticalOptions="CenterAndExpand" >
                         
+                       
+                    <Picker Title="Tipo de Identificacion" ItemsSource="{Binding IdentificationTypes}" HeightRequest="45" TextColor="{StaticResource BlueColor}" 
+                           VerticalOptions="CenterAndExpand" SelectedItem="{Binding SelectedIdentification}"/>
+                   
+                    <inputLayout:SfTextInputLayout x:Name="lblIdent" Hint="Identificacion" ContainerType="Outlined"
+                                                FocusedColor="{StaticResource SPUColor}" UnfocusedColor="{StaticResource SPUColor}" ErrorText="Numero de identificacion es requerido" 
+                                                HasError="{Binding IdentificacionHasError}"  LeadingViewPosition="Inside" ErrorColor="{StaticResource RedColor}"
+                                                FocusedStrokeWidth="0.8" UnfocusedStrokeWidth="0.4" >
+                        <Entry Text="{Binding UserProfile.IdentificationNumber}" MaxLength="{Binding IdentificationMaxLength}"
+                               Keyboard="{Binding KeyboardType}" TextColor="{StaticResource BlueColor}"
+                               Focused="HandleIdentificacion_Focused" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                             <inputLayout:SfTextInputLayout.LeadingView>
+                                <Label Text="*" VerticalOptions="CenterAndExpand" TextColor="{StaticResource RedColor}"/>
+                            </inputLayout:SfTextInputLayout.LeadingView>
+                    </inputLayout:SfTextInputLayout>
                     <inputLayout:SfTextInputLayout  Hint="Nombres" ContainerType="Outlined" FocusedColor="{StaticResource SPUColor}" 
                                                     FocusedStrokeWidth="2" UnfocusedStrokeWidth="1" ReserveSpaceForAssistiveLabels="false">
                     <Entry Text="{Binding UserProfile.FirstName}" FontSize="{OnIdiom Phone=16,Tablet=18}" />

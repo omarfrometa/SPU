@@ -53,7 +53,7 @@ namespace SPU.Mobile.Models
             {
                 var size = string.IsNullOrEmpty(FileSize) ? 0 : int.Parse(FileSize);
 
-                return $"({Math.Round(size * 0.001, 2).ToString()} KB), {CreatedDate.ToString("dd MMMM yyyy")}"; ;
+                return $"({Math.Round(size * 0.001, 2).ToString()} KB), {CreatedDate.ToString("dd MMMM yyyy")}";
             }
         }
 

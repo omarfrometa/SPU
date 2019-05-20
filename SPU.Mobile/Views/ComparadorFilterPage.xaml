@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  xmlns="http://xamarin.com/schemas/2014/forms"
+  x:Class="SPU.Mobile.Views.ComparadorFilterPage"
+     Title="{Binding Title}"
+    xmlns:combobox="clr-namespace:Syncfusion.XForms.ComboBox;assembly=Syncfusion.SfComboBox.XForms"
+     IsBusy="{Binding IsBusy}">
+    <ContentPage.Content>
+    <ScrollView>
+        <Grid RowSpacing="5" Padding="15,10,5,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+  
+            <StackLayout Grid.Row="0" Padding="10" HorizontalOptions="StartAndExpand" Orientation="Horizontal" Spacing="10">
+                <Image Source="comparadormain.png" HeightRequest="{OnIdiom Phone=35,Tablet=40}"
+                   Aspect="AspectFit" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand"/>
+                <Label Text="Comparador de tarifas" StyleClass="SpuTitle"/>
+            </StackLayout>
+            
+            <Grid Grid.Row="1" Padding="{OnIdiom Phone=10,20,10,5,Tablet=50,30,50,5}" 
+                  RowSpacing="{OnIdiom Phone=10,Tablet=25}" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                 <StackLayout Grid.Row="0" Spacing="10" VerticalOptions="CenterAndExpand" >
+                    <StackLayout Orientation="Vertical">
+                        <StackLayout Padding="0" Spacing="3" Orientation="Horizontal">
+                          <Label Text="" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" TextColor="{StaticResource RedColor}"/> 
+                          <Label Text="Costo Mensual" StyleClass="ImportantLabel"/>
+                        </StackLayout>
+                        <combobox:SfComboBox DataSource="{Binding PricesRange}" x:Name="priceCombo"  MultiSelectMode="Delimiter"
+                                             Delimiter="," IsEditableMode="true" TextSize="15" TextColor="{StaticResource BlueColor}" 
+                                             SelectedItem="{Binding PriceR}" SuggestionBoxPlacement="Bottom"
+                                             HeightRequest="50"/>
+                        <!--<Picker Title="Filtrar por rango de precio" HeightRequest="50" ItemsSource="{Binding PricesRange}" TextColor="{StaticResource BlueColor}" 
+                                VerticalOptions="CenterAndExpand" SelectedItem="{Binding SelectedPriceRange}"/>-->
+                    </StackLayout>
+                    
+                    <StackLayout>
+                        <StackLayout Padding="0" Spacing="3" Orientation="Horizontal">
+                            <Label Text="" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" TextColor="{StaticResource RedColor}"/>
+                            <Label Text="Proveedor" StyleClass="ImportantLabel"/>
+                        </StackLayout>
+                        <combobox:SfComboBox DataSource="{Binding ProviderTypes}" x:Name="providerCombo"  MultiSelectMode="Delimiter"
+                                             Delimiter="," IsEditableMode="true" TextColor="{StaticResource BlueColor}" 
+                                             SelectedItem="{Binding Provider}" TextSize="15" SuggestionBoxPlacement="Bottom"
+                                             HeightRequest="50"/>
+                        <!--<Picker Title="Filtrar por proveedor" HeightRequest="50" ItemsSource="{Binding ProviderTypes}" TextColor="{StaticResource BlueColor}" 
+                                VerticalOptions="CenterAndExpand" SelectedItem="{Binding SelectedProvider}"/>-->
+                    </StackLayout>
+                        
+                   
+                        
+                    <StackLayout Orientation="Vertical" Padding="0,5">
+                        <StackLayout Padding="0" Spacing="3" Orientation="Horizontal">
+                          <Label Text="" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" TextColor="{StaticResource RedColor}"/>
+                          <Label Text="Servicios" StyleClass="ImportantLabel"/>
+                        </StackLayout>
+                        <combobox:SfComboBox DataSource="{Binding ServiceTypes}" x:Name="serviceCombo" MultiSelectMode="Delimiter"
+                                             Delimiter="," IsEditableMode="true" TextColor="{StaticResource BlueColor}" 
+                                             SelectedItem="{Binding Service}" TextSize="15" SuggestionBoxPlacement="Bottom"
+                                             HeightRequest="50"/>
+                        <!--<Picker Title="Filtrar por servicio" ItemsSource="{Binding ServiceTypes}" TextColor="{StaticResource BlueColor}" 
+                                HeightRequest="50" VerticalOptions="CenterAndExpand" SelectedItem="{Binding SelectedServiceType}"/>-->
+                    </StackLayout>
+                        
+                    <StackLayout Orientation="Vertical" Padding="0,5">
+                        <StackLayout Padding="0" Spacing="3" Orientation="Horizontal">
+                          <Label Text="" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" TextColor="{StaticResource RedColor}"/> 
+                          <Label Text="Ciclo" StyleClass="ImportantLabel"/>
+                        </StackLayout>
+                        <combobox:SfComboBox DataSource="{Binding CycleTypes}" x:Name="cycleCombo"  MultiSelectMode="Delimiter"
+                                             Delimiter="," IsEditableMode="true" TextColor="{StaticResource BlueColor}" 
+                                             SelectedItem="{Binding Cycle}" TextSize="15" SuggestionBoxPlacement="Bottom"
+                                             HeightRequest="50"/>
+                        <!--<Picker Title="Filtrar por ciclo" ItemsSource="{Binding CycleTypes}" TextColor="{StaticResource BlueColor}" 
+                                HeightRequest="50" VerticalOptions="CenterAndExpand" SelectedItem="{Binding SelectedCycleType}"/>-->
+                    </StackLayout>
+                        
+                   <!-- <StackLayout Orientation="Vertical" Padding="0,5">
+                         <StackLayout Padding="0" Spacing="3" Orientation="Horizontal">
+                           <Label Text="*" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" TextColor="{StaticResource RedColor}"/><Label Text="Especificar Motivo" StyleClass="ImportantLabel"/>
+                        </StackLayout>   
+                        
+                        <Picker Title="Especifique el motivo" HeightRequest="50" ItemsSource="{Binding ClaimSubMotiveTypes}" TextColor="{StaticResource BlueColor}"
+                                VerticalOptions="CenterAndExpand" SelectedItem="{Binding SelectedEspecification}"/>
+                    </StackLayout>-->
+                    
+                </StackLayout>
+                <ActivityIndicator Grid.Row="1" IsVisible="{Binding IsBusy}" VerticalOptions="StartAndExpand" IsRunning="{Binding IsBusy}" 
+                                   HeightRequest="40" WidthRequest="40" Color="{StaticResource SPUColor}"/>
+
+                <Frame Grid.Row="1" BackgroundColor="{StaticResource BlueColor}" IsVisible="{Binding IsNotBusy}" 
+                       Padding="{OnIdiom Phone=10,5,Tablet=16,7}" HasShadow="false" VerticalOptions="StartAndExpand" CornerRadius="8">
+                    <Label Text="Comparar tarifas" StyleClass="ButtonTextLabel" />
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding DoPlanCompareCommand}"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+                <Frame Grid.Row="2" BackgroundColor="{StaticResource SPUColor}" IsVisible="{Binding IsNotBusy}" 
+                       Padding="{OnIdiom Phone=10,5,Tablet=16,7}" HasShadow="false" VerticalOptions="StartAndExpand" CornerRadius="8">
+                    <Label Text="Restaurar" StyleClass="ButtonTextLabel" />
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="Handle_Tapped"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+            </Grid>
+        </Grid>
+    </ScrollView>   
+    </ContentPage.Content>
+</ContentPage>

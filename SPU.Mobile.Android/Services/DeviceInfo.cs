@@ -18,9 +18,10 @@ namespace SPU.Mobile.Droid
         public string GetDeviceID()
         {
 
-            var manager = (TelephonyManager)Android.App.Application.Context.GetSystemService(Android.Content.Context.TelephonyService);
+            //var manager = (TelephonyManager)Android.App.Application.Context.GetSystemService(Android.Content.Context.TelephonyService);
 
-            return manager.Imei;
+            var id = Android.Provider.Settings.Secure.GetString(Android.App.Application.Context.ContentResolver, Android.Provider.Settings.Secure.AndroidId);
+            return id;
 
 
         }

@@ -198,17 +198,17 @@
                         <inputLayout:SfTextInputLayout Grid.Column="0"  ContainerType="Outlined"
                                                FocusedColor="{StaticResource SPUColor}" 
                                                FocusedStrokeWidth="0.8" UnfocusedStrokeWidth="0.4">
-                            <Entry Text="{Binding VerCode1}" MaxLength="1" FontSize="{OnIdiom Phone=15,Tablet=17}" />
+                            <Entry Text="{Binding VerCode1}" x:Name="txtcode1" TextChanged="Handle_TextChanged" MaxLength="1" Keyboard="Numeric" FontSize="{OnIdiom Phone=15,Tablet=17}" />
                         </inputLayout:SfTextInputLayout>
                         <inputLayout:SfTextInputLayout Grid.Column="1"  ContainerType="Outlined"
                                                FocusedColor="{StaticResource SPUColor}" 
                                                FocusedStrokeWidth="0.8" UnfocusedStrokeWidth="0.4">
-                            <Entry Text="{Binding VerCode2}" MaxLength="1" FontSize="{OnIdiom Phone=15,Tablet=17}" />
+                            <Entry Text="{Binding VerCode2}" x:Name="txtcode2" MaxLength="1" TextChanged="Handle_TextChanged2" Keyboard="Numeric" FontSize="{OnIdiom Phone=15,Tablet=17}" />
                         </inputLayout:SfTextInputLayout>
                         <inputLayout:SfTextInputLayout Grid.Column="2"  ContainerType="Outlined"
                                                FocusedColor="{StaticResource SPUColor}" 
                                                FocusedStrokeWidth="0.8" UnfocusedStrokeWidth="0.4">
-                            <Entry Text="{Binding VerCode3}" MaxLength="1" FontSize="{OnIdiom Phone=15,Tablet=17}" />
+                            <Entry Text="{Binding VerCode3}" x:Name="txtcode3" MaxLength="1" TextChanged="Handle_TextChanged3" Keyboard="Numeric" FontSize="{OnIdiom Phone=15,Tablet=17}" />
                         </inputLayout:SfTextInputLayout>
                         
                         
@@ -219,17 +219,17 @@
                         <inputLayout:SfTextInputLayout Grid.Column="4"  ContainerType="Outlined"
                                                FocusedColor="{StaticResource SPUColor}" 
                                                FocusedStrokeWidth="0.8" UnfocusedStrokeWidth="0.4">
-                            <Entry Text="{Binding VerCode4}" MaxLength="1" FontSize="{OnIdiom Phone=15,Tablet=17}" />
+                            <Entry Text="{Binding VerCode4}" x:Name="txtcode4" MaxLength="1" TextChanged="Handle_TextChanged4" Keyboard="Numeric" FontSize="{OnIdiom Phone=15,Tablet=17}" />
                         </inputLayout:SfTextInputLayout>
                         <inputLayout:SfTextInputLayout Grid.Column="5"  ContainerType="Outlined"
                                                FocusedColor="{StaticResource SPUColor}" 
                                                FocusedStrokeWidth="0.8" UnfocusedStrokeWidth="0.4">
-                            <Entry Text="{Binding VerCode5}" MaxLength="1" FontSize="{OnIdiom Phone=15,Tablet=17}" />
+                            <Entry Text="{Binding VerCode5}" x:Name="txtcode5" MaxLength="1" TextChanged="Handle_TextChanged5" Keyboard="Numeric" FontSize="{OnIdiom Phone=15,Tablet=17}" />
                         </inputLayout:SfTextInputLayout>
                         <inputLayout:SfTextInputLayout Grid.Column="6"  ContainerType="Outlined"
                                                FocusedColor="{StaticResource SPUColor}" 
                                                FocusedStrokeWidth="0.8" UnfocusedStrokeWidth="0.4">
-                            <Entry Text="{Binding VerCode6}" MaxLength="1" FontSize="{OnIdiom Phone=15,Tablet=17}" />
+                            <Entry Text="{Binding VerCode6}" x:Name="txtcode6" MaxLength="1" TextChanged="Handle_TextChanged6" Keyboard="Numeric" FontSize="{OnIdiom Phone=15,Tablet=17}" />
                         </inputLayout:SfTextInputLayout>
                     </Grid>
                <!-- <inputLayout:SfTextInputLayout Grid.Row="0" Hint="Codigo de verificacion" ContainerType="Outlined"

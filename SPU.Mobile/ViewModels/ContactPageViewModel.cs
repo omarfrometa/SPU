@@ -273,7 +273,7 @@ namespace SPU.Mobile.ViewModels
                                                        "Aceptar", "Cancelar", "Documento", InputType.Name);
                 if (!filename.Ok)
                 {
-                    _userDialogs.Alert("Se cancelo la operacion.", "Alerta", "OK");
+                    _userDialogs.Alert("Se canceló la operación.", "Alerta", "OK");
                     return;
                 }
                 else

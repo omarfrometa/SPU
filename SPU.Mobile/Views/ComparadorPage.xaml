@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  xmlns="http://xamarin.com/schemas/2014/forms"
+  xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+  xmlns:sfListview="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+             x:Name="comparadorinfoPage"
+             Title="{Binding Title}"
+  x:Class="SPU.Mobile.Views.ComparadorPage">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <ActivityIndicator Grid.Row="0" IsVisible="{Binding IsBusy}" VerticalOptions="StartAndExpand" IsRunning="{Binding IsBusy}" 
+                                   HeightRequest="50" WidthRequest="50" Color="{StaticResource SPUColor}"/>
+
+            <sfListview:SfListView Grid.Row="1"  Orientation="Horizontal" IsBusy="{Binding IsBusy}" AutoFitMode="Height" ItemSpacing="15"
+                               AllowGroupExpandCollapse="true" ItemsSource="{Binding ComparadorData}" >
+                <sfListview:SfListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <border:SfBorder BorderColor="{StaticResource SPUGray}" WidthRequest="250" 
+                                                CornerRadius="10,10,10,10" HorizontalOptions="CenterAndExpand" BorderWidth="1">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="*"/>
+                                        </Grid.RowDefinitions>
+                                        <StackLayout Grid.Row="0" >
+                                            <ffimageloading:CachedImage HorizontalOptions="FillAndExpand"
+                                                        Aspect="AspectFill"  HeightRequest="170"
+                                                        DownsampleToViewSize="true"
+                                                        Source="planbg.jpg">
+                                            </ffimageloading:CachedImage>
+                                        </StackLayout>
+                                        
+                                        <Grid Padding="20" Margin="0,-85,0,0" Grid.Row="1" RowSpacing="5">
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="*"/>
+                                            </Grid.RowDefinitions>
+                                            
+                                            <StackLayout Grid.Row="0" Padding="5,10,5,5" >
+                                                <border:SfBorder BorderColor="{StaticResource WhiteColor}" 
+                                                                 VerticalOptions="CenterAndExpand" BackgroundColor="White"
+                                                                CornerRadius="200" HorizontalOptions="CenterAndExpand" BorderWidth="1">
+                                                    <ffimageloading:CachedImage HorizontalOptions="CenterAndExpand"
+                                                                VerticalOptions="Center"
+                                                                Aspect="AspectFit"        
+                                                                WidthRequest="100"
+                                                                HeightRequest="100"
+                                                                DownsampleToViewSize="true"
+                                                                Source="{Binding DisplayLogo}">
+                                                    </ffimageloading:CachedImage>
+                                                </border:SfBorder>
+                                            </StackLayout>
+                                            <Label Grid.Row="1" Text="{Binding Title}" TextColor="{StaticResource SPUGray}" 
+                                                   FontSize="20" StyleClass="NexusBoldFont" HorizontalOptions="CenterAndExpand" 
+                                                   HorizontalTextAlignment="Center"/>
+                                            
+                                            <Label Grid.Row="2" Text="{Binding ServiceType}" TextColor="{StaticResource SPUGray}" 
+                                                   FontSize="18" StyleClass="NexusLightFont" HorizontalOptions="CenterAndExpand" 
+                                                   HorizontalTextAlignment="Center"/>
+                                          <ScrollView Grid.Row="3">
+                                            <StackLayout Spacing="0" HorizontalOptions="CenterAndExpand" 
+                                                  BindableLayout.ItemsSource="{Binding ProductInfo}">
+                                                 <BindableLayout.ItemTemplate>
+                                                    <DataTemplate>
+                                                       
+                                                        <Grid Padding="0,15" RowSpacing="25">
+                                                            <Grid.RowDefinitions>
+                                                                <RowDefinition Height="1"/>
+                                                                <RowDefinition Height="*"/>
+                                                            </Grid.RowDefinitions>
+                                                            
+                                                            <BoxView Margin="10,0" HeightRequest="0.5" HorizontalOptions="FillAndExpand" 
+                                                                    BackgroundColor="{StaticResource SPUGray}" VerticalOptions="CenterAndExpand"/>
+                                                            
+                                                            <StackLayout Grid.Row="1" >
+                                                                <Label  Text="{Binding ProductValue}" TextColor="{StaticResource SPUGray}" 
+                                                                       FontSize="18" StyleClass="NexusLightFont" VerticalOptions="CenterAndExpand"
+                                                                        LineBreakMode="WordWrap" HorizontalOptions="CenterAndExpand" 
+                                                                       HorizontalTextAlignment="Center"/>
+                                                            </StackLayout>
+                                                        </Grid>
+                                                           
+                                                    </DataTemplate>
+                                                </BindableLayout.ItemTemplate>
+                                                
+                                            </StackLayout>
+                                                 </ScrollView>
+                                            <Label Grid.Row="4" Text="{Binding DisplayPrice}" TextColor="{StaticResource SPUGray}" 
+                                                   FontSize="20" StyleClass="NexusBoldFont" HorizontalOptions="CenterAndExpand" 
+                                                   HorizontalTextAlignment="Center"/>
+                                            
+                                            <Label Grid.Row="5" Text="Ver Detalles" IsVisible="{Binding HasUrl}" TextColor="{StaticResource LightBlue}" 
+                                                   FontSize="16" StyleClass="NexusLightFont" TextDecorations="Underline" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" 
+                                                   HorizontalTextAlignment="Center">
+                                                <Label.GestureRecognizers>
+                                                    <TapGestureRecognizer  Command="{Binding BindingContext.GoToMoreInfoCommand, Source={x:Reference Name=comparadorinfoPage}}" CommandParameter="{Binding Url}"/>
+                                                </Label.GestureRecognizers>
+                                            </Label>
+                                        </Grid>
+                                    </Grid>
+                                   
+                                </border:SfBorder>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </sfListview:SfListView.ItemTemplate>
+            </sfListview:SfListView>
+        
+        </Grid>
+            
+    </ContentPage.Content>
+</ContentPage>

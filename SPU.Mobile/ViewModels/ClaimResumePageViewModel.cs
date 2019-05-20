@@ -114,7 +114,7 @@ namespace SPU.Mobile.ViewModels
             catch (Exception ex)
             {
                 IsBusy = false;
-                await _userDialogs.AlertAsync("Error enviando reclamacion." + Environment.NewLine + ex.Message, "Error", "Aceptar");
+                await _userDialogs.AlertAsync("Error enviando reclamación." + Environment.NewLine + ex.Message, "Error", "Aceptar");
             }
             finally
             {

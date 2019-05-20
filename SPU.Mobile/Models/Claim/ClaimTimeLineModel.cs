@@ -124,6 +124,7 @@ namespace SPU.Mobile.Models
         public bool Satisfied { get; set; }
         public bool Disabled { get; set; }
         public string FilePath { get; set; }
+        public string WebUrl { get; set; }
         public string FileName { get; set; }
         public string FileExt { get; set; }
         public string FileSize { get; set; }
@@ -132,10 +133,12 @@ namespace SPU.Mobile.Models
         public string CreatedByUserId { get; set; }
 
         public string Email { get; set; }
-        public string DisplayName { get; set; }
-        public string UserType { get; set; }
+        public string cDisplayName { get; set; }
+        public string cUserTypeText { get; set; }
+        public string cProviderText { get; set; }
         public string Picture { get; set; }
-
+        public string cPictureWebUrl { get; set; }
+        public string Comments { get; set; }
 
 
     }

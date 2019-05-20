@@ -18,7 +18,10 @@ namespace SPU.Mobile.Models
         public DateTime ProviderCreatedDate { get; set; }
         public string ProviderAgentName { get; set; }
         public bool ServiceHolder { get; set; } = true;
+
         public string ServiceHolderName { get; set; }
+        public int? ServiceHolderIdentificationTypeId { get; set; }
+        public string ServiceHolderIdentificationNumber { get; set; }
 
         public byte[] PowerLetterFileInBytes { get; set; }
         public string PowerLetterName { get; set; }
@@ -46,6 +49,8 @@ namespace SPU.Mobile.Models
         public int ClaimSubMotiveTypeId { get; set; } = 1;
         public string UserClaimDetails { get; set; }
         public decimal ProviderReclaimedAmount { get; set; }
+
+
         public bool NotServiceHolder => !ServiceHolder;
 
         [JsonIgnore]

@@ -17,6 +17,7 @@ namespace SPU.Mobile.Models
         public bool ServiceHolder { get; set; }
         public string ServiceHolderName { get; set; }
         public string PowerLetterPath { get; set; }
+        public string PowerLetterWebUrl { get; set; }
         public int? ProvinceId { get; set; }
         public string ProvinceText { get; set; }
         public int? MunicipalityId { get; set; }
@@ -52,6 +53,7 @@ namespace SPU.Mobile.Models
         public string ProviderAssignedUserId { get; set; }
         public string ProviderAssignedUserText { get; set; }
         public decimal ProviderReclaimedAmount { get; set; }
+        public decimal? ProviderAccreditedAmount { get; set; }
         public int? ProviderClaimStatusTypeId { get; set; }
         public string ProviderClaimStatusTypeText { get; set; }
         public int CanalTypeId { get; set; }

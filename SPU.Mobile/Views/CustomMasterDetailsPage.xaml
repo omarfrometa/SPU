@@ -23,26 +23,33 @@
                             <StackLayout.GestureRecognizers>
                                 <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding GoToProfileCommand}"/>
                             </StackLayout.GestureRecognizers>
-                        </StackLayout>              <!--IsVisible="{Binding ShowGoToProfile}"-->
-                        <border:SfBorder BorderColor="Transparent" CornerRadius="{OnIdiom Phone=180,Tablet=240}" 
-                                         HorizontalOptions="Center"
-                                         VerticalOptions="Center" BorderWidth="0">
-                            
-                            <!--<Image  HeightRequest="{OnIdiom Phone=90,Tablet=120}" 
-                                   WidthRequest="{OnIdiom Phone=90,Tablet=120}" Aspect="AspectFill" 
-                                   HorizontalOptions="CenterAndExpand"/>
-                            -->
-                            <ffimageloading:CachedImage HorizontalOptions="CenterAndExpand"
-                                        LoadingPlaceholder="avatar.png" ErrorPlaceholder="avatar.png"
-                                        VerticalOptions="Center"
-                                        Aspect="AspectFill"        
-                                        WidthRequest="90"
-                                        HeightRequest="90"
-                                        DownsampleToViewSize="true"
-                                        Source="{Binding LocalPic}">
-                            </ffimageloading:CachedImage>
-                        </border:SfBorder>
-                        
+                        </StackLayout>  
+                        <!--IsVisible="{Binding ShowGoToProfile}"-->
+                        <StackLayout>
+                            <border:SfBorder BorderColor="Transparent" CornerRadius="{OnIdiom Phone=180,Tablet=240}" 
+                                             HorizontalOptions="Center"
+                                             VerticalOptions="Center" BorderWidth="0">
+                                
+                                <!--<Image  HeightRequest="{OnIdiom Phone=90,Tablet=120}" 
+                                       WidthRequest="{OnIdiom Phone=90,Tablet=120}" Aspect="AspectFill" 
+                                       HorizontalOptions="CenterAndExpand"/>
+                                -->
+                                <ffimageloading:CachedImage HorizontalOptions="CenterAndExpand"
+                                            LoadingPlaceholder="avatar.png" ErrorPlaceholder="avatar.png"
+                                            VerticalOptions="Center"
+                                            Aspect="AspectFill"        
+                                            WidthRequest="90"
+                                            HeightRequest="90"
+                                            DownsampleToViewSize="true"
+                                            Source="{Binding LocalPic}">
+                                </ffimageloading:CachedImage>
+                            </border:SfBorder>
+                            <Label Text="{Binding VersionInfo}" Margin="0,0,30,0" TextColor="{StaticResource SPUGray}" 
+                                FontAttributes="Italic" FontSize="14" HorizontalOptions="EndAndExpand" />
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding GoToProfileCommand}"/>
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
                         <Label Text="{Binding LocalDisplayName}" TextColor="{StaticResource BlueColor}"
                                FontSize="{OnIdiom Phone=18,Tablet=22}" StyleClass="NexusBoldFont"
                                VerticalTextAlignment="Center" HorizontalTextAlignment="Center" />

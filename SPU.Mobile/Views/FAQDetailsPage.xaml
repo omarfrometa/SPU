@@ -8,12 +8,13 @@
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <ScrollView>
-            <Grid RowSpacing="15" Padding="20,20,10,5">
+            <Grid RowSpacing="10" Padding="20,15,10,5">
                 <Grid.RowDefinitions>
                    <!-- <RowDefinition Height="Auto"/>-->
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
                 
@@ -32,9 +33,40 @@
                 </StackLayout>
                  
                 <Label Grid.Row="1" FontSize="18" Text="{Binding Faq.Description}" HorizontalTextAlignment="Start" StyleClass="labelLight"/>
-                
-                
-                <Grid Grid.Row="2" Padding="10,0,20,0" ColumnSpacing="0" RowSpacing="10" VerticalOptions="EndAndExpand" >
+              
+                <Grid Grid.Row="2" Padding="5,15,10,0"  RowSpacing="10" VerticalOptions="EndAndExpand" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0" FontSize="16" Text="Qué tan satisfecho estás con esta pregunta?" HorizontalTextAlignment="Start" TextColor="{StaticResource Blue2Color}" StyleClass="labelLight"/>
+                   
+                    <StackLayout Spacing="10" Padding="10" Grid.Row="1">
+                        <Label 
+                          FontSize="20"
+                          Text="{Binding Source={x:Reference slider},Path=Value,StringFormat='{0:F0}'}"
+                          HorizontalTextAlignment="Center" TextColor="{StaticResource SPUGray}"
+                          StyleClass="NexusBoldFont"/>
+                        <Slider 
+                          x:Name="slider"
+                          MaximumTrackColor="{StaticResource SPUColor}"
+                          MinimumTrackColor="{StaticResource RedColor}"
+                          Minimum="0"
+                          Maximum="10"
+                          Value="{Binding SliderVal}"/>
+                            
+                   </StackLayout>
+                    <Frame Grid.Row="2" Margin="{OnIdiom Phone=20,0,Tablet=40,0}" BackgroundColor="{StaticResource Blue2Color}" IsVisible="{Binding IsNotBusy}" 
+                           Padding="{OnIdiom Phone=10,5,10,4,Tablet=15,10}" HasShadow="false" CornerRadius="5">
+                        <Label Text="Valorar Respuesta" StyleClass="ButtonTextLabel" />
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding DoSendFAQValorationCommand}"/>
+                        </Frame.GestureRecognizers>
+                    </Frame>
+                </Grid> 
+               
+                <Grid Grid.Row="3" Padding="10,0,20,0" ColumnSpacing="0" RowSpacing="10" VerticalOptions="EndAndExpand" >
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
@@ -81,7 +113,7 @@
                         </StackLayout.GestureRecognizers>
                     </StackLayout>
                 </Grid> 
-                <StackLayout Grid.Row="3" Orientation="Horizontal" HeightRequest="35" HorizontalOptions="EndAndExpand"
+                <StackLayout Grid.Row="4" Orientation="Horizontal" HeightRequest="35" HorizontalOptions="EndAndExpand"
                                       VerticalOptions="EndAndExpand" Padding="0,0,20,15">
                     
                     <Image Source="share.png" VerticalOptions="CenterAndExpand" 

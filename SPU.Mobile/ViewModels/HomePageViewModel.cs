@@ -29,6 +29,7 @@ namespace SPU.Mobile.ViewModels
 
         public DelegateCommand GoToClaimRegistrationCommand { get; set; }
         public DelegateCommand GoToSimulatorCommand { get; set; }
+        public DelegateCommand GoToComparadorCommand { get; set; }
         public DelegateCommand GoToClaimReportCommand { get; set; }
         public DelegateCommand GoToMisDerechosCommand { get; set; }
 
@@ -89,7 +90,10 @@ namespace SPU.Mobile.ViewModels
             GoToSimulatorCommand = new DelegateCommand(GoToSimulator);
             GoToClaimReportCommand = new DelegateCommand(GoToClaimReport);
             GoToMisDerechosCommand = new DelegateCommand(GoToMisDerechos);
+            GoToComparadorCommand = new DelegateCommand(GoToComparador);
         }
+
+
 
         private async void GoToMisDerechos()
         {
@@ -225,6 +229,39 @@ namespace SPU.Mobile.ViewModels
             {
                 Debug.Write(ex);
             }
+
+            try
+            {
+
+                var pricerange = await _apiManager.GetDDLDataAsync("RCPriceRange");
+                _SPUDatabase.SavePriceRange(pricerange);
+            }
+            catch (Exception ex)
+            {
+                Debug.Write(ex);
+            }
+
+            try
+            {
+
+                var servicetype = await _apiManager.GetDDLDataAsync("RCServiceType");
+                _SPUDatabase.SaveCServiceTypes(servicetype);
+            }
+            catch (Exception ex)
+            {
+                Debug.Write(ex);
+            }
+
+            try
+            {
+
+                var servicecycle = await _apiManager.GetDDLDataAsync("RCServiceCycle");
+                _SPUDatabase.SaveServiceCycles(servicecycle);
+            }
+            catch (Exception ex)
+            {
+                Debug.Write(ex);
+            }
         }
 
         async Task LoadFAQs()
@@ -271,11 +308,21 @@ namespace SPU.Mobile.ViewModels
 
 
         }
+
         private async void GoToSimulator()
         {
             if (IsBusy) return;
             IsBusy = true;
             await _navigationService.NavigateAsync(NavigationConstants.SimulatorPage);
+
+            IsBusy = false;
+        }
+
+        private async void GoToComparador()
+        {
+            if (IsBusy) return;
+            IsBusy = true;
+            await _navigationService.NavigateAsync(NavigationConstants.ComparadorFilterPage);
 
             IsBusy = false;
         }
@@ -305,10 +352,10 @@ namespace SPU.Mobile.ViewModels
             HasData = myClaims.Any();
             if (HasData)
             {
-                myClaims = myClaims.OrderByDescending(x => x.ProviderDate).Take(4).ToList();
+                myClaims = myClaims.OrderByDescending(x => x.CreatedDate).Take(4).ToList();
             }
 
-            var customHeight = (myClaims.Count * 25) + (myClaims.Count * 12);
+            var customHeight = (myClaims.Count * 27) + (myClaims.Count * 16);
 
             CasesListHeight = customHeight <= 160 ? customHeight : 160;
             MyClaims = new ObservableCollection<UserClaimsResultR>(myClaims);

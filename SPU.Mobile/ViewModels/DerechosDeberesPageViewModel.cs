@@ -7,9 +7,11 @@ using Prism.Navigation;
 using SPU.Mobile.Helpers;
 using SPU.Mobile.Services;
 using Xamarin.Forms;
+using PropertyChanged;
 
 namespace SPU.Mobile.ViewModels
 {
+    [AddINotifyPropertyChangedInterface]
     public class DerechosDeberesHelper
     {
         public string IconSource { get; set; }
@@ -17,17 +19,18 @@ namespace SPU.Mobile.ViewModels
         public string Title { get; set; }
         public string Type { get; set; }
         public int RowNo { get; set; }
+
         public string TextColor => Type == "Derecho" ? "#249CD5" : "#FCB813";
 
     }
 
-    public class DerechosDeberesListHelper
-    {
-        public string TitleDebDer { get; set; }
-        public List<DerechosDeberesHelper> DeberesDerechos { get; set; }
-        public string TitleColor { get; set; }
+    //public class DerechosDeberesListHelper
+    //{
+    //    public string TitleDebDer { get; set; }
+    //    public List<DerechosDeberesHelper> DeberesDerechos { get; set; }
+    //    public string TitleColor { get; set; }
 
-    }
+    //}
 
 
     public class DerechosDeberesPageViewModel : BasePageViewModel, INavigationAware
@@ -35,7 +38,18 @@ namespace SPU.Mobile.ViewModels
         public DelegateCommand DoCloseCommand { get; set; }
         //public List<DerechosDeberesHelper> MisDerechos { get; set; }
 
-        public ObservableCollection<DerechosDeberesListHelper> MisDerechosDeberesCollection { get; set; }
+        //public ObservableCollection<DerechosDeberesListHelper> MisDerechosDeberesCollection { get; set; }
+        public string TitleDebColor { get; set; }
+        public string TitleDerColor { get; set; }
+
+        public string TitleDer { get; set; }
+        public string TitleDeb { get; set; }
+
+
+
+        public ObservableCollection<DerechosDeberesHelper> MisDeberes { get; set; }
+        public ObservableCollection<DerechosDeberesHelper> MisDerechos { get; set; }
+
         DerechosDeberesHelper _derechoDeber;
         public DerechosDeberesHelper DerechoDeber
         {
@@ -55,6 +69,7 @@ namespace SPU.Mobile.ViewModels
             var navparam = new NavigationParameters();
             navparam.Add("debder", derechoDeber);
 
+
             await _navigationService.NavigateAsync(NavigationConstants.DebDerDetallePage, navparam);
         }
 
@@ -62,7 +77,11 @@ namespace SPU.Mobile.ViewModels
         {
             Title = "#TuCuentasConElINDOTEL";
             DoCloseCommand = new DelegateCommand(DoClose);
+            TitleDebColor = "#FCB813";
+            TitleDerColor = "#249CD5";
 
+            TitleDer = "Derechos que le asisten al momento de contratar servicios de telecomunicaciones.";
+            TitleDeb = "Deberes y obligaciones de los usuarios de servicios públicos de telecomunicaciones";
             var misDerechos = new List<DerechosDeberesHelper>()
             {
                 new DerechosDeberesHelper()
@@ -296,24 +315,25 @@ namespace SPU.Mobile.ViewModels
 
             };
 
-            var list = new List<DerechosDeberesListHelper>()
-            {
-                new DerechosDeberesListHelper()
-                {
-                    TitleDebDer="Derechos que le asisten al momento de contratar servicios de telecomunicaciones.",
-                    DeberesDerechos= misDerechos,
-                    TitleColor="#249CD5"
+            //var list = new List<DerechosDeberesListHelper>()
+            //{
+            //    new DerechosDeberesListHelper()
+            //    {
+            //        TitleDebDer="Derechos que le asisten al momento de contratar servicios de telecomunicaciones.",
+            //        DeberesDerechos= misDerechos,
+            //        TitleColor="#249CD5"
 
-                },
-                new DerechosDeberesListHelper()
-                {
-                    TitleDebDer="Deberes y obligaciones de los usuarios de servicios públicos de telecomunicaciones",
-                    DeberesDerechos= misDeberes,
-                    TitleColor="#FCB813"
-                }
-            };
+            //    },
+            //    new DerechosDeberesListHelper()
+            //    {
+            //        TitleDebDer="Deberes y obligaciones de los usuarios de servicios públicos de telecomunicaciones",
+            //        DeberesDerechos= misDeberes,
+            //        TitleColor="#FCB813"
+            //    }
+            //};
 
-            MisDerechosDeberesCollection = new ObservableCollection<DerechosDeberesListHelper>(list);
+            MisDeberes = new ObservableCollection<DerechosDeberesHelper>(misDeberes);
+            MisDerechos = new ObservableCollection<DerechosDeberesHelper>(misDerechos);
 
         }
 

@@ -10,6 +10,7 @@ namespace SPU.Mobile.Views
         public ClaimTimeLinePage()
         {
             InitializeComponent();
+            NavigationPage.SetBackButtonTitle(this, "Volver");
         }
 
         void Handle_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)

@@ -94,7 +94,8 @@ namespace SPU.Mobile.Models
         public string Gender { get; set; }
         public string UserId { get; set; }
         public string Comentarios { get; set; }
-
+        public string IdentificationNumber { get; set; }
+        public int IdentificationTypeId { get; set; }
 
     }
 

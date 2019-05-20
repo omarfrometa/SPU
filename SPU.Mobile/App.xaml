@@ -114,6 +114,21 @@
                 <Setter Property="VerticalTextAlignment" Value="Center" />
                 <Setter Property="HorizontalTextAlignment" Value="Start" />
             </Style>
+            <Style TargetType="Label" Class="labelBold" >
+                <Setter Property="Label.FontFamily">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="Android">NexaDemo-Bold.otf#NexaDemo-Bold</On>
+                            <On Platform="iOS">NexaDemo-Bold</On>
+                        </OnPlatform>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="FontSize" Value="16" />
+                <Setter Property="TextColor" Value="{StaticResource SPUColor}"/>
+                <!--<Setter Property="FontAttributes" Value="Bold"/>-->
+                <Setter Property="VerticalTextAlignment" Value="Center" />
+                <Setter Property="HorizontalTextAlignment" Value="Start" />
+            </Style>
             <Style TargetType="Label" Class="ProfileOptionLabel" >
                <Setter Property="Label.FontFamily">
                     <Setter.Value>

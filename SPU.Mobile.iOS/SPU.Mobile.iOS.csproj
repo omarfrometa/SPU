@@ -15,7 +15,7 @@
         <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
         <NuGetPackageImportStamp>
         </NuGetPackageImportStamp>
-        <ReleaseVersion>1.0</ReleaseVersion>
+        <ReleaseVersion>1.1</ReleaseVersion>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
         <DebugSymbols>true</DebugSymbols>
@@ -185,6 +185,12 @@
         <PackageReference Include="Xamarin.FFImageLoading.Forms">
           <Version>2.4.5.880-pre</Version>
         </PackageReference>
+        <PackageReference Include="Syncfusion.Xamarin.SfTabView">
+          <Version>17.1.0.40</Version>
+        </PackageReference>
+        <PackageReference Include="Syncfusion.Xamarin.SfComboBox">
+          <Version>17.1.0.40</Version>
+        </PackageReference>
     </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
     <ItemGroup>
@@ -322,9 +328,6 @@
       <BundleResource Include="Resources\tpnuevareclama%403x.png" />
       <BundleResource Include="Resources\tpnuevareclama%402x.png" />
       <BundleResource Include="Resources\tpnuevareclama.png" />
-      <BundleResource Include="Resources\miscasos2%403x.png" />
-      <BundleResource Include="Resources\miscasos2%402x.png" />
-      <BundleResource Include="Resources\miscasos2.png" />
       <BundleResource Include="Resources\masreclama%403x.png" />
       <BundleResource Include="Resources\masreclama%402x.png" />
       <BundleResource Include="Resources\htindotel%403x.png" />
@@ -469,6 +472,21 @@
       <BundleResource Include="Resources\pdficon%403x.png" />
       <BundleResource Include="Resources\pdficon%402x.png" />
       <BundleResource Include="Resources\pdficon.png" />
+      <BundleResource Include="Resources\centroidt%403x.png" />
+      <BundleResource Include="Resources\centroidt%402x.png" />
+      <BundleResource Include="Resources\centroidt.png" />
+      <BundleResource Include="Resources\loght%403x.png" />
+      <BundleResource Include="Resources\loght%402x.png" />
+      <BundleResource Include="Resources\loght.png" />
+      <BundleResource Include="Resources\loght2%403x.png" />
+      <BundleResource Include="Resources\loght2%402x.png" />
+      <BundleResource Include="Resources\loght2.png" />
+      <BundleResource Include="Resources\gob2%403x.png" />
+      <BundleResource Include="Resources\gob2%402x.png" />
+      <BundleResource Include="Resources\gob2.png" />
+      <BundleResource Include="Resources\planbg%403x.jpg" />
+      <BundleResource Include="Resources\planbg%402x.jpg" />
+      <BundleResource Include="Resources\planbg.jpg" />
     </ItemGroup>
     <ItemGroup>
       <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />

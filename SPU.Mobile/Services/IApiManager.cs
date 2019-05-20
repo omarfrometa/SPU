@@ -34,6 +34,8 @@ namespace SPU.Mobile.Services
         Task<DocumentsModelR> PostDocumentsAsync(UserClaimDocumentDtoPost userClaimDocumentDto);
         Task PostUploadDocumentAsync(string _userClaimId, string _fileName, byte[] _file);
 
+        Task PostFAQValorationAsync(string userId, int faqId, int rate);
+
         Task<ClaimTimeLineModel> GetTimeLineInfoAsync(string claimId, string userId);
         Task PostCommentToClaimAsync(NoteModel _noteModel);
         Task PostAcceptDeclineNoteAsync(AcceptDeclineNoteModel _acceptDecline);
@@ -41,5 +43,8 @@ namespace SPU.Mobile.Services
 
         Task<UserProfileR> PostUploadPictureAsync(MobileUploadPicture mobileUploadPicture);
         Task UpdateProfileAsync(UpdateProfileModel updateProfile);
+
+        Task<List<RateComparator>> GetRateComparatorDataAsync(string prices, string providers, string services, string cycles);
+        Task<List<Product>> GetProductInfoAsync(string productid);
     }
 }

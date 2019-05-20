@@ -22,10 +22,10 @@
                         <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                         <subviews>
-                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="5226" translatesAutoresizingMaskIntoConstraints="NO" image="splash3.png">
+                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="5226" translatesAutoresizingMaskIntoConstraints="NO" image="splash4.png">
                                 <rect key="frame" x="20" y="20" width="374" height="716"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="5229" translatesAutoresizingMaskIntoConstraints="NO" image="logowhite.png">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="5229" translatesAutoresizingMaskIntoConstraints="NO" image="logowhite2.png">
                                 <rect key="frame" x="101" y="152" width="228" height="141"/>
                                 <constraints>
                                     <constraint id="6071" firstAttribute="height" constant="141"/>
@@ -49,7 +49,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="splash3.png" width="1125" height="2474"/>
-        <image name="logowhite.png" width="133" height="133"/>
+        <image name="logowhite2.png" width="116" height="116"/>
+        <image name="splash4.png" width="1125" height="2474"/>
     </resources>
 </document>

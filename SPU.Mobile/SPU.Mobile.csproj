@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
-        <ReleaseVersion>1.0</ReleaseVersion>
+        <ReleaseVersion>1.1</ReleaseVersion>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
         <DebugType>pdbonly</DebugType>
@@ -26,29 +26,31 @@
         <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="17.1.0.40" />
         <PackageReference Include="Xamarin.FFImageLoading.Svg.Forms" Version="2.4.5.870-pre" />
         <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.5.880-pre" />
+        <PackageReference Include="Syncfusion.Xamarin.SfTabView" Version="17.1.0.40" />
+        <PackageReference Include="Syncfusion.Xamarin.SfComboBox" Version="17.1.0.40" />
     </ItemGroup>
     <ItemGroup>
-      <None Remove="FodyWeavers.xsd" />
+        <None Remove="FodyWeavers.xsd" />
     </ItemGroup>
     <ItemGroup>
-      <Folder Include="Models\" />
-      <Folder Include="Services\" />
-      <Folder Include="Helpers\" />
-      <Folder Include="ViewModels\" />
-      <Folder Include="Views\" />
-      <Folder Include="Models\RealmModels\" />
-      <Folder Include="Models\UserModels\" />
-      <Folder Include="Models\LoginModels\" />
-      <Folder Include="Models\Contact\" />
-      <Folder Include="Models\Claim\" />
-      <Folder Include="Models\RealmModels\Claim\" />
-      <Folder Include="Models\RealmModels\User\" />
-      <Folder Include="Models\SocialMediaUsers\" />
+        <Folder Include="Models\" />
+        <Folder Include="Services\" />
+        <Folder Include="Helpers\" />
+        <Folder Include="ViewModels\" />
+        <Folder Include="Views\" />
+        <Folder Include="Models\RealmModels\" />
+        <Folder Include="Models\UserModels\" />
+        <Folder Include="Models\LoginModels\" />
+        <Folder Include="Models\Contact\" />
+        <Folder Include="Models\Claim\" />
+        <Folder Include="Models\RealmModels\Claim\" />
+        <Folder Include="Models\RealmModels\User\" />
+        <Folder Include="Models\SocialMediaUsers\" />
     </ItemGroup>
     <ItemGroup>
-      <EmbeddedResource Remove="MainPage.xaml" />
+        <EmbeddedResource Remove="MainPage.xaml" />
     </ItemGroup>
     <ItemGroup>
-      <Compile Remove="ViewModels\VerificationCodePageViewModel.cs" />
+        <Compile Remove="ViewModels\VerificationCodePageViewModel.cs" />
     </ItemGroup>
 </Project>

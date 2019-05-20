@@ -36,11 +36,15 @@ namespace SPU.Mobile.iOS
             global::Xamarin.Forms.Forms.Init();
 
             Firebase.Core.App.Configure();
+            Syncfusion.XForms.iOS.TabView.SfTabViewRenderer.Init();
             var googleServiceDictionary = NSDictionary.FromFile("GoogleService-Info.plist");
             SignIn.SharedInstance.ClientID = googleServiceDictionary["CLIENT_ID"].ToString();
             SfTextInputLayoutRenderer.Init();
             Syncfusion.XForms.iOS.Border.SfBorderRenderer.Init();
             FFImageLoading.Forms.Platform.CachedImageRenderer.Init();
+
+            new Syncfusion.XForms.iOS.ComboBox.SfComboBoxRenderer();
+
             new SfRotatorRenderer();
             SfListViewRenderer.Init();
 

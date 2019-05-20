@@ -22,6 +22,8 @@ namespace SPU.Mobile.ViewModels
         public bool ShowGoToProfile { get; set; }
         public string LocalDisplayName { get; set; }
         public string LocalPic { get; set; }
+        public string VersionInfo { get; set; }
+
         SideMenuItem _menuItemSelected;
         IEventAggregator _eventAggregator;
         public SideMenuItem MenuItemSelected
@@ -45,6 +47,7 @@ namespace SPU.Mobile.ViewModels
 
             _eventAggregator.GetEvent<Helpers.ProfilePicUpdated>().Subscribe(OnPicUdated);
             GoToProfileCommand = new DelegateCommand(GoToProfile);
+            VersionInfo = $"v{VersionTracking.CurrentVersion}";
             BuildMenu();
 
 
@@ -52,21 +55,7 @@ namespace SPU.Mobile.ViewModels
 
         private void OnPicUdated()
         {
-            //var pic = _SPUDatabase.GetActiveUserLocalPic();
 
-            //if (pic != null && pic.Length > 0)
-            //{
-
-            //    LocalPic = ImageSource.FromStream(() =>
-            //    {
-            //        Stream stream = new MemoryStream(pic);
-            //        return stream;
-            //    });
-            //}
-            //else
-            //{
-            //    LocalPic = ImageSource.FromFile("avatar.png");
-            //}
 
             var pic = _SPUDatabase.GetActiveUserLocalPic();
             LocalPic = !string.IsNullOrEmpty(pic) ? pic : "avatar.png";
@@ -207,12 +196,12 @@ namespace SPU.Mobile.ViewModels
                     Route =NavigationConstants.SimulatorPage,
                     IconSource="simulador2"
                 },
-                //new SideMenuItem()
-                //{
-                //    Title = "Comparador de Tarifas",
-                //    Route = "",
-                //    IconSource="comparadormain"
-                //},
+                new SideMenuItem()
+                {
+                    Title = "Comparador de Tarifas",
+                    Route = NavigationConstants.ComparadorFilterPage,
+                    IconSource="comparadormain"
+                },
                 new SideMenuItem()
                 {
                     Title = "Llamada gratuita",
@@ -221,7 +210,7 @@ namespace SPU.Mobile.ViewModels
                 },
                 new SideMenuItem()
                 {
-                    Title = "FAQs",
+                    Title = "Preguntas Frecuentes",
                     Route = NavigationConstants.FAQPage,
                     IconSource="faqs"
                 },

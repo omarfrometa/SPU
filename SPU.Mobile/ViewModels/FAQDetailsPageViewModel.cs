@@ -17,13 +17,42 @@ namespace SPU.Mobile.ViewModels
         public DelegateCommand<string> GoToSocialMediaCommand { get; set; }
         public DelegateCommand GoToContactCommand { get; set; }
         public DelegateCommand ShareFAQCommand { get; set; }
-
+        public DelegateCommand DoSendFAQValorationCommand { get; set; }
+        public int SliderVal { get; set; }
         public FAQDetailsPageViewModel(IApiManager apiManager, IUserDialogs userDialogs, INavigationService navigationService, ISPUDatabase SPUDatabase) : base(apiManager, userDialogs, navigationService, SPUDatabase)
         {
             Title = "#TuCuentasConElINDOTEL";
             GoToSocialMediaCommand = new DelegateCommand<string>(GoToSocialMedia);
             GoToContactCommand = new DelegateCommand(GoToContact);
             ShareFAQCommand = new DelegateCommand(DoShareFAQ);
+            DoSendFAQValorationCommand = new DelegateCommand(DoSendFAQValoration);
+        }
+
+        private async void DoSendFAQValoration()
+        {
+            try
+            {
+                if (IsBusy) return;
+                IsBusy = true;
+                await _SPUDatabase.PostFAQRateAsync(_apiManager, App.ActiveUser.Id, Faq.Id, SliderVal);
+
+
+                await _userDialogs.AlertAsync("Su valoración fué enviada. Gracias", "Alerta", "OK");
+
+                await _navigationService.GoBackAsync();
+
+                IsBusy = false;
+
+            }
+            catch (Exception ex)
+            {
+                IsBusy = false;
+                await _userDialogs.AlertAsync("Hubo un error enviando valoración." + Environment.NewLine + ex.Message, "Alerta", "OK");
+            }
+            finally
+            {
+                IsBusy = false;
+            }
         }
 
         async Task ShareText(string text, string title, string uri = "https://dau.indotel.gob.do/preguntas-frecuentes-del-usuario/")

@@ -16,7 +16,7 @@
             </x:Arguments>
         </NavigationPage> 
         
-        <NavigationPage Icon="tpnuevareclama" Title="Reclamacion">
+        <NavigationPage Icon="tpnuevareclama" Title="Reclamación">
             <x:Arguments>
                 <local:ClaimRegistrationPage />
             </x:Arguments>

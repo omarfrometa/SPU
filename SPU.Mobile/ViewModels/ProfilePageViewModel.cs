@@ -24,6 +24,7 @@ namespace SPU.Mobile.ViewModels
         public DelegateCommand GoToMisDerechosCommand { get; set; }
         public DelegateCommand GoToMisDocumentosCommand { get; set; }
         public DelegateCommand DoEditProfilePhotoCommand { get; set; }
+        public DelegateCommand DoEditDocumentCommand { get; set; }
 
         public string SelectedPic { get; set; }
 
@@ -137,6 +138,38 @@ namespace SPU.Mobile.ViewModels
             DoEditProfilePhotoCommand = new DelegateCommand(DoEditProfilePhoto);
             GoToEditProfileCommand = new DelegateCommand(GoToEditProfile);
             GoToMisDocumentosCommand = new DelegateCommand(GoToMisDocumentos);
+            DoEditDocumentCommand = new DelegateCommand(DoEditDocument);
+        }
+
+        private async void DoEditDocument()
+        {
+            try
+            {
+                var option2 = await _userDialogs.ActionSheetAsync("Opción de Imagen", "Cancel", null, null, new string[] { "Tomar Foto", "Seleccionar existente" });
+
+                if (option2 == "Cancel") return;
+
+                switch (option2)
+                {
+                    case "Tomar Foto":
+                        await TakePhoto(2);
+
+                        break;
+                    case "Seleccionar existente":
+                        await PickPhoto(2);
+
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+                IsBusy = false;
+                await _userDialogs.AlertAsync("Error actualizando documento." + Environment.NewLine + ex.Message, "Error", "Aceptar");
+            }
+            finally
+            {
+                IsBusy = false;
+            }
         }
 
         private async void GoToMisDocumentos()
@@ -166,11 +199,11 @@ namespace SPU.Mobile.ViewModels
                 switch (option2)
                 {
                     case "Tomar Foto":
-                        await TakePhoto();
+                        await TakePhoto(1);
 
                         break;
                     case "Seleccionar existente":
-                        await PickPhoto();
+                        await PickPhoto(1);
 
                         break;
                 }
@@ -233,7 +266,7 @@ namespace SPU.Mobile.ViewModels
         }
 
 
-        private async Task PickPhoto()
+        private async Task PickPhoto(int typeid)
         {
             if (CrossMedia.Current.IsPickPhotoSupported)
             {
@@ -249,11 +282,10 @@ namespace SPU.Mobile.ViewModels
                 var content = AppHelpers.ConvertToByteArray(response.GetStream());
 
 
-                //SelectedPic = ImageSource.FromStream(response.GetStream);
-                SelectedPic = response.Path;
-                //_SPUDatabase.UpdateLocalPic(App.ActiveUser.Id, content);
-
-
+                if (typeid == 1)
+                {
+                    SelectedPic = response.Path;
+                }
 
                 var pic = new MobileUploadPicture
                 {
@@ -263,7 +295,7 @@ namespace SPU.Mobile.ViewModels
                     PictureFileSize = content.Length.ToString(),
                     PictureFileContentType = "image",
                     UserId = App.ActiveUser.Id,
-                    TypeId = 1
+                    TypeId = typeid
                 };
 
                 var _userProf = await _SPUDatabase.UploadPictureAsync(_apiManager, pic);
@@ -275,7 +307,7 @@ namespace SPU.Mobile.ViewModels
         }
 
 
-        async Task TakePhoto()
+        async Task TakePhoto(int typeid)
         {
             await CrossMedia.Current.Initialize();
 
@@ -299,13 +331,11 @@ namespace SPU.Mobile.ViewModels
 
             var content = AppHelpers.ConvertToByteArray(file.GetStream());
 
-            //SelectedPic = ImageSource.FromStream(file.GetStream);
-            //var base64PIC = Convert.ToBase64String(content);
-            SelectedPic = file.Path;
 
-            //_SPUDatabase.UpdateLocalPic(App.ActiveUser.Id, content);
-
-
+            if (typeid == 1)
+            {
+                SelectedPic = file.Path;
+            }
 
             var pic = new MobileUploadPicture
             {
@@ -315,7 +345,7 @@ namespace SPU.Mobile.ViewModels
                 PictureFileSize = content.Length.ToString(),
                 PictureFileContentType = "image",
                 UserId = App.ActiveUser.Id,
-                TypeId = 1
+                TypeId = typeid
             };
 
             var _userProf = await _SPUDatabase.UploadPictureAsync(_apiManager, pic);

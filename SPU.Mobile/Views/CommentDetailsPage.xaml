@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             x:Class="SPU.Mobile.Views.CommentDetailsPage"
+             Title="{Binding Title}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="idt.png" Priority="1"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+    <ScrollView>
+       
+        <Grid RowSpacing="15" Padding="{OnIdiom Phone=15,40,15,15,Tablet=20,50,20,20}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+           <!--     <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>-->
+                
+                <border:SfBorder BorderColor="Transparent"
+                                 VerticalOptions="CenterAndExpand" 
+                                 CornerRadius="{OnIdiom Phone=180,Tablet=220}" 
+                                 HorizontalOptions="CenterAndExpand"  BorderWidth="0">
+                    <!-- <Image Source="{Binding PicRoute}" HeightRequest="{OnIdiom Phone=25,Tablet=30}"
+                                Aspect="AspectFit" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand"/>-->
+                    <ffimageloading:CachedImage HorizontalOptions="StartAndExpand"
+                                LoadingPlaceholder="avatar.png" ErrorPlaceholder="avatar.png"
+                                VerticalOptions="CenterAndExpand"
+                                Aspect="AspectFill"  
+                                HeightRequest="{OnIdiom Phone=90,Tablet=110}"
+                                 WidthRequest="{OnIdiom Phone=90,Tablet=110}"          
+                                DownsampleToViewSize="true"
+                                Source="{Binding ClaimComment.PictureWebUrl}">
+                    </ffimageloading:CachedImage>
+                </border:SfBorder>
+                
+                <StackLayout Grid.Row="1" Padding="0,5,0,10" HorizontalOptions="CenterAndExpand">
+                    <Label Text="{Binding ClaimComment.Title}" TextColor="{StaticResource SPUTags}" 
+                         StyleClass="SpuTitle" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                </StackLayout>
+                    
+                <StackLayout Grid.Row="2" Padding="0,5,0,10"  >
+                    <Label Text="{Binding ClaimComment.Description}" StyleClass="labelLight" VerticalTextAlignment="Center"/>
+                </StackLayout>
+            
+               <!-- <Label Grid.Row="2" Grid.Column="0" Text="Fecha:" HorizontalTextAlignment="Start" StyleClass="myClaimTag"/>-->
+               
+                <StackLayout Grid.Row="3" Spacing="3" Padding="0,10" >
+                    <Label HorizontalTextAlignment="Start" Text="{Binding ClaimComment.DisplayCreateDate}" 
+                            TextColor="{StaticResource SPUGray}" StyleClass="myClaiminfolbl"/>
+                    
+                    <Label HorizontalTextAlignment="Start" Text="{Binding ClaimComment.DisplayNameType}" 
+                             TextColor="{StaticResource SPUGray}" StyleClass="myClaiminfolbl"/>
+                    
+                    <Label HorizontalTextAlignment="Start" Text="{Binding ClaimComment.ProviderText}"
+                        TextColor="{StaticResource SPUGray}" StyleClass="myClaiminfolbl"/>
+                </StackLayout>
+                
+                <StackLayout Grid.Row="4" Padding="0,5,0,10"  >
+                    <Label Text="{Binding ClaimComment.Comments}" StyleClass="labelLight" VerticalTextAlignment="Center"/>
+                </StackLayout>
+                
+                <StackLayout Grid.Row="5" IsVisible="{Binding ClaimComment.HasDocument}" Padding="0,10,0,5" Spacing="5">
+                    <Label Text="Documento Soporte" StyleClass="labelBold" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                    <Label Text="{Binding ClaimComment.DisplayFileName}" LineBreakMode="TailTruncation" MaxLines="1" StyleClass="myClaimTag"/> 
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding GoToNoteDocumentCommand}" CommandParameter="{Binding ClaimComment.FileWebUrl}"/>
+                    </StackLayout.GestureRecognizers>
+                </StackLayout>
+                <!--<Label Grid.Row="3" Grid.Column="0" Text="Co:" HorizontalTextAlignment="Start" StyleClass="myClaimTag"/>-->
+               
+                <!--<Label Grid.Row="4" Grid.Column="0" Text="Estatus:" HorizontalTextAlignment="Start" StyleClass="myClaimTag"/>
+                <Label Grid.Row="4" Grid.Column="1" HorizontalTextAlignment="Start" MaxLines="1" Text="{Binding DocumentModel.StatusDocumentText}" StyleClass="myClaiminfolbl"/>
+    
+                <Label Grid.Row="5" Grid.Column="0" Text="Descarga:" HorizontalTextAlignment="Start" StyleClass="myClaimTag"/>
+                
+                <Label Grid.Row="5"
+                  Grid.Column="1"
+                  HorizontalTextAlignment="Start"
+                  MaxLines="1"
+                  Text="{Binding DocumentModel.WebUrl}"
+                  StyleClass="myClaiminfolbl">
+                
+                  <Label.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding GoToFileCommand}" NumberOfTapsRequired="1"  />
+                    </Label.GestureRecognizers>
+               
+                </Label>-->
+     
+            </Grid> 
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

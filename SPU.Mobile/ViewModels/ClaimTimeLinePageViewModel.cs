@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Acr.UserDialogs;
 using Prism.Commands;
 using Prism.Navigation;
@@ -15,10 +15,40 @@ namespace SPU.Mobile.ViewModels
 {
     public class ClaimTimeLinePageViewModel : BasePageViewModel, INavigatingAware, INavigatedAware
     {
+        ClaimNotesModelR _commentSelected;
+        public ClaimNotesModelR CommentSelected
+        {
+            get { return _commentSelected; }
+            set
+            {
+                _commentSelected = value;
+                if (_commentSelected != null)
+                {
+                    NavigateToCommentDetails(_commentSelected);
+                }
+            }
+        }
+        DocumentsModelR _document;
+        public DocumentsModelR Document
+        {
+            get { return _document; }
+            set
+            {
+                _document = value;
+                if (_document != null)
+                {
+                    NavigateToDetail(_document);
+                }
+
+            }
+        }
+
+
         public DelegateCommand DoCloseCommand { get; set; }
         public DelegateCommand CreateNewClaimCommentCommand { get; set; }
         public DelegateCommand<ClaimNotesModelR> AcceptCommand { get; set; }
         public DelegateCommand<ClaimNotesModelR> DeclineCommand { get; set; }
+        public DelegateCommand<string> GoToNoteDocumentCommand { get; set; }
 
         public UserClaimsResultR UserClaim { get; set; }
         public IRealmCollection<ClaimNotesModelR> CommentsList { get; set; }
@@ -39,7 +69,52 @@ namespace SPU.Mobile.ViewModels
 
             AcceptCommand = new DelegateCommand<ClaimNotesModelR>(DoAccept);
             DeclineCommand = new DelegateCommand<ClaimNotesModelR>(DoDecline);
+            GoToNoteDocumentCommand = new DelegateCommand<string>(GoToNoteDocument);
         }
+
+        private void GoToNoteDocument(string filepath)
+        {
+            if (IsBusy) return;
+            IsBusy = true;
+            if (!string.IsNullOrEmpty(filepath))
+            {
+                try
+                {
+                    Xamarin.Forms.Device.OpenUri(new Uri(filepath));
+                }
+                catch (Exception ex)
+                {
+                    var tc = new ToastConfig("Documento con ruta inválida.")
+                    {
+                        BackgroundColor = Color.FromHex("#54799a"),
+                        MessageTextColor = Color.White
+                    };
+
+                    Acr.UserDialogs.UserDialogs.Instance.Toast(tc);
+                }
+            }
+            IsBusy = false;
+        }
+
+        private async void NavigateToDetail(DocumentsModelR document)
+        {
+            var navparam = new NavigationParameters
+            {
+                { "document", document }
+            };
+
+            await _navigationService.NavigateAsync(NavigationConstants.DocumentDetailsPage, navparam);
+
+        }
+
+        private async void NavigateToCommentDetails(ClaimNotesModelR commentSelected)
+        {
+            var navparam = new NavigationParameters();
+            navparam.Add("commentselected", commentSelected);
+
+            await _navigationService.NavigateAsync(NavigationConstants.ClaimCommentDetailsPage, navparam);
+        }
+
 
         async void DoAccept(ClaimNotesModelR accept)
         {
@@ -102,7 +177,7 @@ namespace SPU.Mobile.ViewModels
                 };
 
                 await _SPUDatabase.AcceptDeclineComment(_apiManager, acceptModel);
-                await _userDialogs.AlertAsync("Su aprobación fué enviada.", "Respuesta Enviada", "Aceptar");
+                await _userDialogs.AlertAsync("Su rechazo fué notificado.", "Respuesta Enviada", "Aceptar");
 
                 await _navigationService.GoBackAsync(null, true);
             }
@@ -195,7 +270,7 @@ namespace SPU.Mobile.ViewModels
 
                     UserClaim = _SPUDatabase.GetUserClaim(claimid);
 
-                    OpenCase = UserClaim.ClaimStatusTypeId != 4 && UserClaim.ClaimStatusTypeId != 2;
+                    OpenCase = UserClaim.ClaimStatusTypeId != 4;
                     //var notes = _SPUDatabase.GetSavedClaimNotes(claimid);
                     //var documents = _SPUDatabase.GetClaimLoadedDocuments(claimid);
                     CommentsList = _SPUDatabase.GetSPUDBConnection().All<ClaimNotesModelR>().Where(x => x.UserClaimId == claimid).OrderByDescending(x => x.CreatedDate).AsRealmCollection();

@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="SPU.Mobile.Views.MyClaimsPage"
+             xmlns:inputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
              xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
              x:Name="claimspage"
              Title="{Binding Title}">
@@ -12,19 +13,38 @@
         <Grid RowSpacing="10">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <StackLayout Grid.Row="0" Padding="20,10,0,10" HorizontalOptions="StartAndExpand" Orientation="Horizontal" Spacing="8">
-                <Image Source="miscasos2.png" HeightRequest="{OnIdiom Phone=30,Tablet=40}"
+                <Image Source="casos.png" HeightRequest="{OnIdiom Phone=30,Tablet=40}"
                    Aspect="AspectFit" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand"/>
                 <Label Text="Mis Casos" StyleClass="SpuTitle"/>
             </StackLayout>
-            <StackLayout Grid.Row="1" IsVisible="{Binding HasNoData}" Padding="30,0" Spacing="1" VerticalOptions="Center">
-                <Image Source="reclamacioni" HorizontalOptions="CenterAndExpand" HeightRequest="{OnIdiom Phone=45,Tablet=65}" Aspect="AspectFit"/>
-                <Label TextColor="{StaticResource SPUColor}" FontSize="{OnIdiom Phone=20,Tablet=25}" Text="No hay Reclamaciones"
+            <StackLayout Grid.Row="2" IsVisible="{Binding HasNoData}" Padding="30,0" Spacing="1" VerticalOptions="Center">
+                <Image Source="reclamacioni" HorizontalOptions="CenterAndExpand" HeightRequest="{OnIdiom Phone=35,Tablet=45}" Aspect="AspectFit"/>
+                <Label TextColor="{StaticResource SPUColor}" FontSize="{OnIdiom Phone=16,Tablet=20}" Text="No hay Reclamaciones"
                        VerticalTextAlignment="Center" StyleClass="NexusLightFont" HorizontalTextAlignment="Center"/>
             </StackLayout>
-            <ListView Grid.Row="1" ItemsSource="{Binding MyClaims}" 
+            
+            <Grid Grid.Row="1" Padding="15,10,5,15" ColumnSpacing="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="7.5*"/>
+                    <ColumnDefinition Width="2.5*"/>
+                </Grid.ColumnDefinitions>
+                <inputLayout:SfTextInputLayout Hint="Buscar caso" ContainerType="Outlined"
+                                               FocusedColor="{StaticResource SPUColor}" LeadingViewPosition="Inside" 
+                                               FocusedStrokeWidth="0.8" ReserveSpaceForAssistiveLabels="false" UnfocusedStrokeWidth="0.4">
+                    <Entry Text="{Binding SearchParam}" FontSize="{OnIdiom Phone=15,Tablet=17}" />
+                    <inputLayout:SfTextInputLayout.LeadingView>
+                        <Image HeightRequest="22" WidthRequest="22" Source="search.png"/>
+                    </inputLayout:SfTextInputLayout.LeadingView>
+                </inputLayout:SfTextInputLayout>
+                
+                <Button Grid.Column="1" Text="Buscar" TextColor="White" HeightRequest="45" VerticalOptions="EndAndExpand"
+                        Command="{Binding DoClaimSearchCommand}" BackgroundColor="{StaticResource LightBlue}" />
+            </Grid>
+            <ListView Grid.Row="2" ItemsSource="{Binding MyClaims}" 
                       IsRefreshing="{Binding IsBusy}" SelectedItem="{Binding ClaimSelected}" 
                       IsPullToRefreshEnabled="true" RefreshCommand="{Binding GetClaimsFromServerCommand}"
                               BackgroundColor="Transparent" SeparatorVisibility="None" HasUnevenRows="true" ItemSelected="Handle_ItemSelected">
@@ -87,8 +107,8 @@
                 </ListView.ItemTemplate>
             </ListView>
            
-            <StackLayout VerticalOptions="EndAndExpand" Grid.Row="1" HorizontalOptions="EndAndExpand" Margin="0,0,20,20">
-                <Image Source="masreclama.png" HorizontalOptions="CenterAndExpand" VerticalOptions="End" HeightRequest="{OnIdiom Phone=50,Tablet=80}"
+            <StackLayout VerticalOptions="EndAndExpand" Grid.Row="2" HorizontalOptions="EndAndExpand" Margin="0,0,20,20">
+                <Image Source="masreclama.png" HorizontalOptions="CenterAndExpand" VerticalOptions="End" HeightRequest="{OnIdiom Phone=65,Tablet=80}"
                        Aspect="AspectFill"/>
                 <!--<Label TextColor="{StaticResource SPUColor}" FontSize="{OnIdiom Phone=12,Tablet=18}" Text="Nueva reclamacion" VerticalTextAlignment="Start" HorizontalTextAlignment="Center"/>-->
                 <StackLayout.GestureRecognizers>

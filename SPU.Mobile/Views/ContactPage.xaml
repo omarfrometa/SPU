@@ -57,7 +57,7 @@
                         <Label Grid.Column="1" Text="Envíanos tu inquietud" TextColor="{StaticResource LightBlue}" StyleClass="NexusBoldFont" FontSize="15" VerticalTextAlignment="Center"/>
                         <BoxView Grid.Column="2" HeightRequest="0.5" VerticalOptions="CenterAndExpand" BackgroundColor="{StaticResource SPUTags}" />
                     </Grid>
-                    <Picker Grid.Row="1" Title="Categoría"  HeightRequest="40" ItemsSource="{Binding ContactCategoryTypes}" 
+                    <Picker Grid.Row="1" Title="Categoría"  HeightRequest="45" ItemsSource="{Binding ContactCategoryTypes}" 
                             SelectedItem="{Binding SelectedCategory}" TextColor="{StaticResource BlueColor}" 
                             VerticalOptions="CenterAndExpand" />
                     
@@ -216,34 +216,43 @@
                     </StackLayout>-->
                     <Grid Grid.Row="0" Padding="10,0,0,0" RowSpacing="0" ColumnSpacing="10" VerticalOptions="CenterAndExpand" >
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="55"/>
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="Auto"/>
                             <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="7"/>
                             <RowDefinition Height="Auto"/>
                             <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="7"/>
                             <RowDefinition Height="Auto"/>
                             <RowDefinition Height="Auto"/>
                             <RowDefinition Height="Auto"/>
                         </Grid.RowDefinitions>
-                        <Image Source="idt.png" Grid.RowSpan="7" WidthRequest="{OnIdiom Phone=40,Tablet=50}"
-                           Aspect="AspectFit" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand"/>
+                        <Image Source="loght2.png" Grid.Row="0" Grid.RowSpan="2" WidthRequest="{OnIdiom Phone=27,Tablet=45}"
+                           Aspect="AspectFit" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
                         <Label Grid.Column="1" Grid.Row="0" Text="Abraham Lincoln No. 962, Santo Domingo,R.D." FontSize="12" 
                                TextColor="{StaticResource SPUTags}" StyleClass="NexusBoldFont" VerticalOptions="End" VerticalTextAlignment="End"/>
-                        <Label Grid.Column="1" Grid.Row="1" Text="Horario: Lunes a viernes 8:30am-5:00pm" FontSize="12" 
+                        <Label Grid.Column="1" Grid.Row="1" Text="Lunes a viernes 8:30am-5:00pm" FontSize="12" 
                                TextColor="{StaticResource SPUTags}" StyleClass="NexusLightFont" VerticalOptions="CenterAndExpand" VerticalTextAlignment="Center"/>
-                        <Label Grid.Column="1" Grid.Row="2" Text="Centro Indotel" 
+                        
+                        
+                        <Image Source="centroidt.png" Grid.Row="3" Grid.RowSpan="2" WidthRequest="{OnIdiom Phone=29,Tablet=45}"
+                           Aspect="AspectFit" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                        <Label Grid.Column="1" Grid.Row="3" Text="Centro Indotel" 
                                TextColor="{StaticResource SPUTags}" FontSize="12" StyleClass="NexusBoldFont" VerticalOptions="Start" VerticalTextAlignment="Start"/>
-                        <Label Grid.Column="1" Grid.Row="3" Text="Horario recorrido Lu-Vie, 9:00am-4:00pm." 
+                        <Label Grid.Column="1" Grid.Row="4" Text="Lu-Vie, 9:00am-4:00pm." 
                                TextColor="{StaticResource SPUTags}" FontSize="12" StyleClass="NexusLightFont" VerticalOptions="Start" VerticalTextAlignment="Start"/>
                     
-                        <Label Grid.Column="1" Grid.Row="4" Text="Punto Gob Sambil" 
+                        
+                        <Image Source="gob2.png" Grid.Row="6" Grid.RowSpan="3" WidthRequest="{OnIdiom Phone=30,Tablet=45}"
+                           Aspect="AspectFit" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                        <Label Grid.Column="1" Grid.Row="6" Text="Punto Gob Sambil" 
                                TextColor="{StaticResource SPUTags}" FontSize="12" StyleClass="NexusBoldFont" VerticalOptions="Start" VerticalTextAlignment="Start"/>
-                        <Label Grid.Column="1" Grid.Row="5" Text="Horario: Lunes a Viernes 8:00am - 8:00pm" 
+                        <Label Grid.Column="1" Grid.Row="7" Text="Lunes a Viernes 8:00am - 8:00pm" 
                                TextColor="{StaticResource SPUTags}" FontSize="12" StyleClass="NexusLightFont" VerticalOptions="Start" VerticalTextAlignment="Start"/>
-                        <Label Grid.Column="1" Grid.Row="6" Text="Sábados y Domingos 9:00am - 6:00pm" 
+                        <Label Grid.Column="1" Grid.Row="8" Text="Sábados y Domingos 9:00am - 6:00pm" 
                                TextColor="{StaticResource SPUTags}" FontSize="12" StyleClass="NexusLightFont" VerticalOptions="Start" VerticalTextAlignment="Start"/>
                     </Grid>
                     <Image Grid.Row="1" Source="location2.png" HeightRequest="{OnIdiom Phone=250,Tablet=300}"

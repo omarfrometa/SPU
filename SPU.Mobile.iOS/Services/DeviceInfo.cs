@@ -4,6 +4,7 @@ using Xamarin.Forms;
 using System.Runtime.InteropServices;
 using SPU.Mobile.Services;
 using SPU.Mobile.iOS;
+using UIKit;
 
 [assembly: Dependency(typeof(DeviceInfo))]
 namespace SPU.Mobile.iOS
@@ -12,7 +13,7 @@ namespace SPU.Mobile.iOS
     {
         public string GetDeviceID()
         {
-            return UIKit.UIDevice.CurrentDevice.IdentifierForVendor.ToString();
+            return UIDevice.CurrentDevice.IdentifierForVendor.ToString();// UIKit.UIDevice.CurrentDevice.IdentifierForVendor.ToString();
         }
     }
 }

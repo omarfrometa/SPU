@@ -58,7 +58,7 @@ namespace SPU.Mobile.ViewModels
         {
             if (parameters.ContainsKey("document"))
             {
-                DocumentModel = parameters["document"] as DocumentsModelR;
+                DocumentModel = parameters.GetValue<DocumentsModelR>("document");
                 if (DocumentModel == null)
                 { DocumentModel = new DocumentsModelR(); }
 

@@ -316,6 +316,50 @@ namespace SPU.Mobile.Services
             }
         }
 
+
+        public async Task PostFAQValorationAsync(string userId, int faqId, int rate)
+        {
+            var loginEndPoint = $"{SPUApiEndPoint}/FAQ/Vote?FAQId={faqId}&VoteRate={rate}&UserId={userId}";
+
+            using (var http = new HttpClient())
+            {
+                try
+                {
+                    var httpResponse = await http.PostAsync(loginEndPoint, new StringContent(""));
+                    if (httpResponse.StatusCode != System.Net.HttpStatusCode.OK)
+                    {
+                        throw new Exception("Error: " + httpResponse.StatusCode);
+                    }
+
+                    if (httpResponse.Content != null)
+                    {
+                        var responseContent = await httpResponse.Content.ReadAsStringAsync();
+                        var data = Newtonsoft.Json.JsonConvert.DeserializeObject<ApiResult>(responseContent);
+
+                        if (data == null)
+                        {
+                            throw new Exception("Error, veifique nuevamente.");
+                        }
+
+                        if (!data.Success)
+                        {
+                            throw new Exception("Error: " + data.Messages.FirstOrDefault());
+                        }
+
+                        if (data.ShowAlert)
+                        {
+                            throw new Exception("Alerta: " + data.Messages.FirstOrDefault());
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    throw ex;
+                }
+            }
+        }
+
+
         public async Task<UserRecovery> PostPasswordRecoveryAsync(string _emailorPhone)
         {
             var user = new UserRecovery();
@@ -577,7 +621,140 @@ namespace SPU.Mobile.Services
                 return simTable;
             }
         }
+        public async Task<List<Product>> GetProductInfoAsync(string productid)
+        {
+            var product = new List<Product>();
+            var _endPoint = $"{SPUApiEndPoint}/RateComparator/Categories?productId={productid}";
 
+            using (var http = new HttpClient())
+            {
+                try
+                {
+                    var httpResponse = await http.GetStringAsync(_endPoint);
+
+                    var data = Newtonsoft.Json.JsonConvert.DeserializeObject<ApiResult>(httpResponse);
+
+                    if (data == null)
+                    {
+                        throw new Exception("Error, veifique nuevamente.");
+                    }
+
+                    if (!data.Success)
+                    {
+                        throw new Exception("Error: " + data.Messages.FirstOrDefault());
+                    }
+
+                    if (data.ShowAlert)
+                    {
+                        throw new Exception("Alerta: " + data.Messages.FirstOrDefault());
+                    }
+
+
+                    product = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Product>>(data.Data);
+
+
+                }
+                catch (Exception ex)
+                {
+                    throw ex;
+                }
+                return product;
+            }
+
+        }
+        public async Task<List<RateComparator>> GetRateComparatorDataAsync(string prices, string providers, string services, string cycles)
+        {
+            var comparatorData = new List<RateComparator>();
+
+            string _endPoint = string.Empty;
+
+            if (string.IsNullOrEmpty(prices) && string.IsNullOrEmpty(providers) && string.IsNullOrEmpty(services) && string.IsNullOrEmpty(cycles))
+            {
+                _endPoint = $"{SPUApiEndPoint}/RateComparator/Filter";
+            }
+            else
+            {
+                _endPoint = $"{SPUApiEndPoint}/RateComparator/Filter?";
+
+                if (!string.IsNullOrEmpty(prices))
+                {
+                    _endPoint += $"prices={prices}";
+
+                    if (!string.IsNullOrEmpty(providers) || !string.IsNullOrEmpty(services) || !string.IsNullOrEmpty(cycles))
+                    {
+                        _endPoint += "&";
+                    }
+                }
+
+                if (!string.IsNullOrEmpty(providers))
+                {
+                    _endPoint += $"providers={providers}";
+
+                    if (!string.IsNullOrEmpty(services) || !string.IsNullOrEmpty(cycles))
+                    {
+                        _endPoint += "&";
+                    }
+                }
+
+                if (!string.IsNullOrEmpty(services))
+                {
+                    _endPoint += $"services={services}";
+
+                    if (!string.IsNullOrEmpty(cycles))
+                    {
+                        _endPoint += "&";
+                    }
+                }
+
+                if (!string.IsNullOrEmpty(cycles))
+                {
+                    _endPoint += $"cycles={cycles}";
+                }
+            }
+
+
+
+            using (var http = new HttpClient())
+            {
+                try
+                {
+                    var httpResponse = await http.GetStringAsync(_endPoint);
+
+                    var data = Newtonsoft.Json.JsonConvert.DeserializeObject<ApiResult>(httpResponse);
+
+                    if (data == null)
+                    {
+                        throw new Exception("Error, veifique nuevamente.");
+                    }
+
+                    if (!data.Success)
+                    {
+                        throw new Exception("Error: " + data.Messages.FirstOrDefault());
+                    }
+
+                    if (data.ShowAlert)
+                    {
+                        throw new Exception("Alerta: " + data.Messages.FirstOrDefault());
+                    }
+
+
+                    comparatorData = Newtonsoft.Json.JsonConvert.DeserializeObject<List<RateComparator>>(data.Data);
+
+
+                }
+                catch (Exception ex)
+                {
+                    var tc = new ToastConfig("Error cargando data del Comparador.")
+                    {
+                        BackgroundColor = Color.FromHex("#54799a"),
+                        MessageTextColor = Color.White
+                    };
+
+                    Acr.UserDialogs.UserDialogs.Instance.Toast(tc);
+                }
+                return comparatorData;
+            }
+        }
         public async Task<List<DDLModel>> GetDDLDataAsync(string tablename)
         {
             var simTable = new List<DDLModel>();

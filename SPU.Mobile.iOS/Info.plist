@@ -67,7 +67,7 @@
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.74</string>
+	<string>1.1.2</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>remote-notification</string>
@@ -82,6 +82,6 @@
 	<key>CFBundleName</key>
 	<string>INDOTEL</string>
 	<key>CFBundleVersion</key>
-	<string>74</string>
+	<string>101</string>
 </dict>
 </plist>

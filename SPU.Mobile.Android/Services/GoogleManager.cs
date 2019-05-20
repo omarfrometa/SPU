@@ -54,6 +54,9 @@ namespace SPU.Mobile.Droid.Services
                 {
                     Name = accountt.DisplayName,
                     Email = accountt.Email,
+                    Token = accountt.IdToken,
+                    Lastname = accountt.FamilyName,
+                    UserId = accountt.Id
                     //Picture = new Uri((accountt.PhotoUrl != null ? $"{accountt.PhotoUrl}" : $"https://autisticdating.net/imgs/profile-placeholder.jpg"))
                 }, string.Empty);
             }

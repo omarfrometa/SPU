@@ -41,6 +41,12 @@ namespace SPU.Mobile.ViewModels
             await _SPUDatabase.UpdateClaimTimeLine(apiManager, userclaim, userid);
         }
 
+        async void UpdateFromServer()
+        {
+
+            await _SPUDatabase.UpdateClaimTimeLine(_apiManager, ClaimId, App.ActiveUser.Id);
+
+        }
         private async void DoSendClaimComment()
         {
             try
@@ -55,14 +61,28 @@ namespace SPU.Mobile.ViewModels
                 NoteToSend.CanalTypeId = 2;
                 await _apiManager.PostCommentToClaimAsync(NoteToSend);
 
+                try
+                {
+                    UpdateFromServer();
+                }
+                catch (Exception ex)
+                {
+                    var tc = new ToastConfig("Error actualizando data local.")
+                    {
+                        BackgroundColor = Color.FromHex("#54799a"),
+                        MessageTextColor = Color.White
+                    };
+
+                    Acr.UserDialogs.UserDialogs.Instance.Toast(tc);
+                }
 
                 //updateClaims(_apiManager, NoteToSend.UserClaimId, App.ActiveUser.Id);
 
 
                 await _userDialogs.AlertAsync("Su respuesta fué enviada correctamente.", "Respuesta Enviada", "Aceptar");
 
-
                 await _navigationService.GoBackAsync(null, true);
+
             }
             catch (Exception ex)
             {

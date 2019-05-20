@@ -65,7 +65,7 @@
                     </inputLayout:SfTextInputLayout>
                         
                     <StackLayout Orientation="Horizontal" Spacing="15">
-                        <Label Text="Fecha del Caso" StyleClass="ImportantLabel"/>
+                        <Label Text="Fecha del Reclamo" StyleClass="ImportantLabel"/>
                         <DatePicker Date="{Binding SelectedDate}" Format="dd/MM/yyyy" TextColor="{StaticResource BlueColor}" 
                                     MaximumDate="{Binding MaxDate}" WidthRequest="150" HeightRequest="40" FontSize="17" VerticalOptions="CenterAndExpand"/>
                     </StackLayout>  
@@ -75,24 +75,43 @@
                         <Label StyleClass="ImportantLabel" Text="Soy el titular del servicio "/> 
                         <Switch VerticalOptions="CenterAndExpand" IsToggled="{Binding ClaimInfo.ServiceHolder}" />
                     </StackLayout>
-                        
+                   <StackLayout  Spacing="3" VerticalOptions="CenterAndExpand" IsVisible="{Binding ClaimInfo.NotServiceHolder}" >
+                        <Picker Title="Tipo de Identificacion del titular" ItemsSource="{Binding IdentificationTypes}" HeightRequest="45" TextColor="{StaticResource BlueColor}" 
+                               VerticalOptions="CenterAndExpand" SelectedItem="{Binding SelectedOwnerIdentification}"/>
+                       
+                        <inputLayout:SfTextInputLayout x:Name="lblOwnerIdent" Hint="Identificacion del Titular" ContainerType="Outlined"
+                                                    FocusedColor="{StaticResource SPUColor}" UnfocusedColor="{StaticResource SPUColor}" ErrorText="Numero de identificacion del titular es requerido" 
+                                                    HasError="{Binding OwnerIdentificacionHasError}"  LeadingViewPosition="Inside" ErrorColor="{StaticResource RedColor}"
+                                                    FocusedStrokeWidth="0.8" UnfocusedStrokeWidth="0.4" >
+                            <Entry Text="{Binding ClaimInfo.ServiceHolderIdentificationNumber}" MaxLength="{Binding OwnerIdentificationMaxLength}"
+                                   Keyboard="{Binding OwnerKeyboardType}" TextColor="{StaticResource BlueColor}"
+                                   Focused="HandleOwnerIdentificacion_Focused" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                                 <inputLayout:SfTextInputLayout.LeadingView>
+                                    <Label Text="*" VerticalOptions="CenterAndExpand" TextColor="{StaticResource RedColor}"/>
+                                </inputLayout:SfTextInputLayout.LeadingView>
+                        </inputLayout:SfTextInputLayout>
+                      </StackLayout>
                     <inputLayout:SfTextInputLayout Hint="Titular del servicio" x:Name="lblTitular" UnfocusedColor="{StaticResource SPUColor}"
                                                    IsVisible="{Binding ClaimInfo.NotServiceHolder}" ContainerType="Outlined"
                                                    FocusedColor="{StaticResource SPUColor}" ErrorText="Nombre del Titular es Requerido" 
-                                                   HasError="{Binding TitularHasError}" ErrorColor="{StaticResource RedColor}"
+                                                   HasError="{Binding TitularHasError}" LeadingViewPosition="Inside" ErrorColor="{StaticResource RedColor}"
                                                    FocusedStrokeWidth="0.8" UnfocusedStrokeWidth="0.4">
-                        <Entry Text="{Binding ClaimInfo.ServiceHolderName}" Keyboard="Text" TextColor="{StaticResource BlueColor}" Focused="HandleTitular_Focused" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                        <Entry Text="{Binding ClaimInfo.ServiceHolderName}" Keyboard="Text" TextColor="{StaticResource BlueColor}"
+                               Focused="HandleTitular_Focused" FontSize="{OnIdiom Phone=16,Tablet=18}" />
+                            <inputLayout:SfTextInputLayout.LeadingView>
+                                <Label Text="*" VerticalOptions="CenterAndExpand" TextColor="{StaticResource RedColor}"/>
+                            </inputLayout:SfTextInputLayout.LeadingView>
                     </inputLayout:SfTextInputLayout>  
                     
-                    <border:SfBorder CornerRadius="8" BorderColor="{StaticResource SPUColor}" IsVisible="{Binding ClaimInfo.NotServiceHolder}"
-                                     VerticalOptions="Center" Padding="0,10,0,5" BorderWidth="0.5">
+                    <border:SfBorder CornerRadius="8" BorderColor="{StaticResource SPUColor}" Margin="0,10,0,0" IsVisible="{Binding ClaimInfo.NotServiceHolder}"
+                                     VerticalOptions="Center" Padding="0,10,0,10" BorderWidth="0.5">
                         <StackLayout Padding="5,0" HorizontalOptions="CenterAndExpand"  
                                      Orientation="Horizontal" Spacing="3">
                             <Image Source="depositodocu" HeightRequest="{OnIdiom Phone=30,Tablet=50}" 
                                    Aspect="AspectFit" HorizontalOptions="StartAndExpand" VerticalOptions="EndAndExpand"/>
                             <Label Text="Cargar Carta Poder" StyleClass="NexusLightFont" VerticalTextAlignment="Center" 
                                    FontSize="{OnIdiom Phone=15,Tablet=18}" HorizontalTextAlignment="Start"
-                                   TextColor="{StaticResource SPUColor}"/>
+                                   TextColor="{StaticResource SPUColor}"/><Label Text="*" VerticalOptions="StartAndExpand" TextColor="{StaticResource RedColor}"/>
                             <StackLayout.GestureRecognizers>
                                 <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding UpLoadServiceHolderCommand}" CommandParameter="1"/>
                             </StackLayout.GestureRecognizers>
@@ -127,7 +146,7 @@
                 </Grid.RowDefinitions>
                     
                 <StackLayout Grid.Row="0" Spacing="3" VerticalOptions="CenterAndExpand" >
-                    <Picker Title="Tipo de Identificacion" ItemsSource="{Binding IdentificationTypes}" HeightRequest="40" TextColor="{StaticResource BlueColor}" 
+                    <Picker Title="Tipo de Identificacion" ItemsSource="{Binding IdentificationTypes}" HeightRequest="45" TextColor="{StaticResource BlueColor}" 
                            VerticalOptions="CenterAndExpand" SelectedItem="{Binding SelectedIdentification}"/>
                    
                     <inputLayout:SfTextInputLayout x:Name="lblIdent" Hint="Identificacion" ContainerType="Outlined"
@@ -198,7 +217,7 @@
                           <Label Text="*" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" TextColor="{StaticResource RedColor}"/> <Label Text="Tipo de servicio" StyleClass="ImportantLabel"/>
                         </StackLayout>
                         
-                        <Picker Title="Tipo de servicio" HeightRequest="40" ItemsSource="{Binding ServiceTypes}" TextColor="{StaticResource BlueColor}" 
+                        <Picker Title="Tipo de servicio" HeightRequest="50" ItemsSource="{Binding ServiceTypes}" TextColor="{StaticResource BlueColor}" 
                                 VerticalOptions="CenterAndExpand" SelectedItem="{Binding SelectedServiceType}"/>
                     </StackLayout>
                     
@@ -206,7 +225,7 @@
                         <StackLayout Padding="0" Spacing="3" Orientation="Horizontal">
                             <Label Text="*" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" TextColor="{StaticResource RedColor}"/> <Label Text="Prestadora de servicios" StyleClass="ImportantLabel"/>
                         </StackLayout>
-                        <Picker Title="Prestadora de servicio" HeightRequest="40" ItemsSource="{Binding ProviderTypes}" TextColor="{StaticResource BlueColor}" 
+                        <Picker Title="Prestadora de servicio" HeightRequest="50" ItemsSource="{Binding ProviderTypes}" TextColor="{StaticResource BlueColor}" 
                                 VerticalOptions="CenterAndExpand" SelectedItem="{Binding SelectedProvider}"/>
                     </StackLayout>
                         
@@ -222,15 +241,17 @@
                     </inputLayout:SfTextInputLayout>
                         
                     <StackLayout Orientation="Vertical" Padding="0,5">
-                        <Label Text="Motivo del Reclamo" StyleClass="ImportantLabel"/>
-                        <Picker Title="Seleccione el motivo de su reclamacion" ItemsSource="{Binding ClaimMotiveTypes}" TextColor="{StaticResource BlueColor}" 
-                                HeightRequest="40" VerticalOptions="CenterAndExpand" SelectedItem="{Binding SelectedClaimMotive}"/>
+                        <StackLayout Padding="0" Spacing="3" Orientation="Horizontal">
+                          <Label Text="*" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" TextColor="{StaticResource RedColor}"/> <Label Text="Motivo del Reclamo" StyleClass="ImportantLabel"/>
+                        </StackLayout>
+                        <Picker Title="Seleccione el motivo de su reclamación" ItemsSource="{Binding ClaimMotiveTypes}" TextColor="{StaticResource BlueColor}" 
+                                HeightRequest="50" VerticalOptions="CenterAndExpand" SelectedItem="{Binding SelectedClaimMotive}"/>
                     </StackLayout>
                         
                     <inputLayout:SfTextInputLayout  Hint="Monto de la reclamación" IsVisible="{Binding SendClaimAmount}" ContainerType="Outlined"
                                FocusedColor="{StaticResource SPUColor}" UnfocusedColor="{StaticResource SPUColor}"
                                FocusedStrokeWidth="0.8" UnfocusedStrokeWidth="0.4" LeadingViewPosition="Inside">
-                        <Entry Text="{Binding ClaimInfo.ProviderReclaimedAmount, StringFormat='{0:N}' }" Focused="HandlePhoneContract_Focused" 
+                        <Entry Text="{Binding ClaimAmount, StringFormat='{0:N2}' }" Focused="HandlePhoneContract_Focused" 
                                TextColor="{StaticResource BlueColor}" Keyboard="Numeric" MaxLength="10" FontSize="{OnIdiom Phone=16,Tablet=18}" />
                         <inputLayout:SfTextInputLayout.LeadingView>
                             <Label Text="$" VerticalOptions="CenterAndExpand" TextColor="{StaticResource BlueColor}"/>
@@ -238,8 +259,11 @@
                     </inputLayout:SfTextInputLayout>
                         
                     <StackLayout Orientation="Vertical" Padding="0,5">
-                        <Label Text="Especificar Motivo" StyleClass="ImportantLabel"/>
-                        <Picker Title="Especifique el motivo" HeightRequest="40" ItemsSource="{Binding ClaimSubMotiveTypes}" TextColor="{StaticResource BlueColor}"
+                         <StackLayout Padding="0" Spacing="3" Orientation="Horizontal">
+                           <Label Text="*" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" TextColor="{StaticResource RedColor}"/><Label Text="Especificar Motivo" StyleClass="ImportantLabel"/>
+                        </StackLayout>   
+                        
+                        <Picker Title="Especifique el motivo" HeightRequest="50" ItemsSource="{Binding ClaimSubMotiveTypes}" TextColor="{StaticResource BlueColor}"
                                 VerticalOptions="CenterAndExpand" SelectedItem="{Binding SelectedEspecification}"/>
                     </StackLayout>
                     

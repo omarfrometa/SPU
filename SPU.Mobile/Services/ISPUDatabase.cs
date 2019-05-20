@@ -21,7 +21,7 @@ namespace SPU.Mobile.Services
         void SaveSimulatorActivitiesData(List<SimulatorActivityR> simulatorActivities);
         List<SimulatorActivityR> GetSimulatorActivitiesData();
         Task<Models.LoginResult> DoSocialLoginAsync(IApiManager apiManager, string token);
-
+        Task PostFAQRateAsync(IApiManager apiManager, string userId, int faqId, int rate);
         Task AcceptDeclineComment(IApiManager apiManager, AcceptDeclineNoteModel acceptDeclineNoteModel);
         Task GetMyDocumentsFromServer(IApiManager apiManager, string userId);
         UserR GetActiveUser();
@@ -39,6 +39,9 @@ namespace SPU.Mobile.Services
         void SaveUserClaim(UserClaimResult userClaim);
         void SaveUserClaim(UserClaimsResultR userClaims);
         UserClaimsResultR GetUserClaim(string userClaimId);
+
+        Task<List<Product>> GetProductDataAsync(IApiManager apiManager, string productId);
+        Task<List<RateComparator>> GetRateComparatorDataAsync(IApiManager apiManager, string prices, string providers, string services, string cycles);
 
         void SaveSupportDocuments(List<UserClaimDocumentGet> documents);
         List<DocumentsModelR> GetClaimLoadedDocuments(string userClaimId);
@@ -86,5 +89,18 @@ namespace SPU.Mobile.Services
         void SaveSectors(List<DDLModel> sectors);
         List<DDLSectorR> GetSectorsR();
         string GetSectorId(string title);
+
+
+        void SavePriceRange(List<DDLModel> pricesrange);
+        List<DDLPriceRangeR> GetPricesRangeR();
+        string GetPriceRangeId(string title);
+
+        void SaveCServiceTypes(List<DDLModel> servicetypes);
+        List<DDLServiceTypeR> GetCServiceTypesR();
+        string GetCServiceTypeId(string title);
+
+        void SaveServiceCycles(List<DDLModel> servicecycles);
+        List<DDLServiceCycleR> GetServiceCyclesR();
+        string GetServiceCycleId(string title);
     }
 }

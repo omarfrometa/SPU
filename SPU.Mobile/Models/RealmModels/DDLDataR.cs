@@ -79,4 +79,30 @@ namespace SPU.Mobile.Models
         public string Text { get; set; }
         public string Value { get; set; }
     }
+
+    [AddINotifyPropertyChangedInterface]
+    public class DDLPriceRangeR : RealmObject
+    {
+        [PrimaryKey]
+        public string Text { get; set; }
+        public string Value { get; set; }
+    }
+
+    [AddINotifyPropertyChangedInterface]
+    public class DDLServiceTypeR : RealmObject
+    {
+        [PrimaryKey]
+        public string Text { get; set; }
+        public string Value { get; set; }
+    }
+
+    [AddINotifyPropertyChangedInterface]
+    public class DDLServiceCycleR : RealmObject
+    {
+        [PrimaryKey]
+        public string Text { get; set; }
+        public string Value { get; set; }
+    }
+
+
 }

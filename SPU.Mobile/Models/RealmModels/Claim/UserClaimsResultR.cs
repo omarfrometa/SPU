@@ -21,6 +21,7 @@ namespace SPU.Mobile.Models
         public bool ServiceHolder { get; set; }
         public string ServiceHolderName { get; set; }
         public string PowerLetterPath { get; set; }
+        public string PowerLetterWebUrl { get; set; }
         public int? ProvinceId { get; set; }
         public string ProvinceText { get; set; }
         public int? MunicipalityId { get; set; }
@@ -56,6 +57,7 @@ namespace SPU.Mobile.Models
         public string ProviderAssignedUserId { get; set; }
         public string ProviderAssignedUserText { get; set; }
         public double ProviderReclaimedAmount { get; set; }
+        public double? ProviderAccreditedAmount { get; set; }
         public int? ProviderClaimStatusTypeId { get; set; }
         public string ProviderClaimStatusTypeText { get; set; }
         public int CanalTypeId { get; set; }
@@ -123,6 +125,7 @@ namespace SPU.Mobile.Models
             ServiceHolder = userClaimResult.ServiceHolder;
             ServiceHolderName = userClaimResult.ServiceHolderName;
             PowerLetterPath = userClaimResult.PowerLetterPath;
+            PowerLetterWebUrl = userClaimResult.PowerLetterWebUrl;
             ProvinceId = userClaimResult.ProvinceId;
             ProvinceText = userClaimResult.ProvinceText;
             MunicipalityId = userClaimResult.MunicipalityId;
@@ -158,6 +161,7 @@ namespace SPU.Mobile.Models
             ProviderAssignedUserId = userClaimResult.ProviderAssignedUserId;
             ProviderAssignedUserText = userClaimResult.ProviderAssignedUserText;
             ProviderReclaimedAmount = Convert.ToDouble(userClaimResult.ProviderReclaimedAmount);
+            ProviderAccreditedAmount = Convert.ToDouble(userClaimResult.ProviderAccreditedAmount);
             ProviderClaimStatusTypeId = userClaimResult.ProviderClaimStatusTypeId;
             ProviderClaimStatusTypeText = userClaimResult.ProviderClaimStatusTypeText;
             CanalTypeId = userClaimResult.CanalTypeId;

@@ -6,6 +6,7 @@ using Prism.AppModel;
 using Prism.Commands;
 using Prism.Events;
 using Prism.Navigation;
+using SPU.Mobile.Helpers;
 using SPU.Mobile.Models;
 using SPU.Mobile.Services;
 using Xamarin.Forms;
@@ -19,15 +20,51 @@ namespace SPU.Mobile.ViewModels
         public List<string> Provinces { get; set; }
         public List<string> Municipalities { get; set; }
         public List<string> Sectors { get; set; }
+        public List<string> IdentificationTypes { get; set; }
 
         public string SelectedProvince { get; set; }
         public string SelectedMunicipality { get; set; }
         public string SelectedSector { get; set; }
         public string SelectedGender { get; set; }
+        public bool IdentificacionHasError { get; set; }
+
+
+        public Xamarin.Forms.Keyboard KeyboardType { get; set; }
 
         public DateTime SelectedDate { get; set; }
 
+        public int IdentificationMaxLength { get; set; }
+        string _selectedIdentification;
+        public string SelectedIdentification
+        {
+            get { return _selectedIdentification; }
+            set
+            {
+                _selectedIdentification = value;
+                if (!string.IsNullOrEmpty(_selectedIdentification))
+                {
+                    if (_selectedIdentification.ToLower() == "rnc")
+                    {
+                        IdentificationMaxLength = 9;
+                        KeyboardType = Xamarin.Forms.Keyboard.Numeric;
+                        return;
+                    }
 
+                    if (_selectedIdentification.ToLower() == "pasaporte")
+                    {
+                        KeyboardType = Xamarin.Forms.Keyboard.Default;
+                        IdentificationMaxLength = 15;
+                    }
+                    else
+                    {
+                        KeyboardType = Xamarin.Forms.Keyboard.Numeric;
+                        IdentificationMaxLength = 11;
+                    }
+
+
+                }
+            }
+        }
         public ProfileUpdatePageViewModel(IApiManager apiManager, IUserDialogs userDialogs, INavigationService navigationService, ISPUDatabase SPUDatabase, IEventAggregator eventAggregator) : base(apiManager, userDialogs, navigationService, SPUDatabase)
         {
             Title = "#TuCuentasConElINDOTEL";
@@ -38,6 +75,12 @@ namespace SPU.Mobile.ViewModels
         }
         private void LoadDDLs()
         {
+            var identificationType = _SPUDatabase.GetIdentificationTypes();
+            if (identificationType.Any())
+            {
+                IdentificationTypes = identificationType.Select(x => x.Text).ToList();
+            }
+
             var provinces = _SPUDatabase.GetProvinces();
             if (provinces.Any())
             {
@@ -65,7 +108,33 @@ namespace SPU.Mobile.ViewModels
             try
             {
                 if (IsBusy) return;
+                var hasError = false;
+                var id = _SPUDatabase.GetIdentificationTypeId(SelectedIdentification);
 
+                UserProfile.IdentificationTypeId = !string.IsNullOrEmpty(id) ? int.Parse(id) : 0;
+                //ClaimInfo. = SelectedIdentification;
+
+                if (UserProfile.IdentificationTypeId == 0)
+                {
+                    _userDialogs.Alert("Seleccione...", "Indique el Tipo de Identificacion", "Aceptar");
+                    hasError = true;
+                }
+                if (string.IsNullOrEmpty(UserProfile.IdentificationNumber))
+                {
+                    IdentificacionHasError = true;
+                    hasError = true;
+                }
+
+                if (SelectedIdentification.ToLower() == "cédula")
+                {
+                    if (!AppHelpers.CedulaIsValid(UserProfile.IdentificationNumber))
+                    {
+                        _userDialogs.Alert("Digite una cédula valida.", "Cédula invalida.", "Aceptar");
+                        hasError = true;
+                    }
+                }
+
+                if (hasError) return;
 
                 var province = _SPUDatabase.GetProvinceId(SelectedProvince);
                 UserProfile.ProvinceId = !string.IsNullOrEmpty(province) ? int.Parse(province) : 0;
@@ -136,6 +205,7 @@ namespace SPU.Mobile.ViewModels
             {
                 UserProfile = new UpdateProfileModel
                 {
+                    IdentificationNumber = userProf.IdentificationNumber,
                     FirstName = userProf.FirstName,
                     LastName = userProf.LastName,
                     PhoneHome = userProf.PhoneHome,
@@ -152,6 +222,10 @@ namespace SPU.Mobile.ViewModels
                 };
 
                 SelectedGender = userProf.Gender;
+
+                var identId = userProf.IdentificationTypeId.ToString();
+                var ident = _SPUDatabase.GetIdentificationTypes().Where(x => x.Value == identId).Select(x => x.Text).FirstOrDefault();
+                SelectedIdentification = ident ?? "";
 
                 SelectedDate = UserProfile.DOB.GetValueOrDefault().Year < 1930 ? DateTime.Now.Date : UserProfile.DOB.GetValueOrDefault().Date;
 

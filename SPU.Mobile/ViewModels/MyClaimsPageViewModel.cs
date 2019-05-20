@@ -23,10 +23,10 @@ namespace SPU.Mobile.ViewModels
 
         public DelegateCommand CreateNewClaimCommand { get; set; }
         public DelegateCommand GetClaimsFromServerCommand { get; set; }
-
+        public DelegateCommand DoClaimSearchCommand { get; set; }
         public bool HasData { get; set; }
         public bool HasNoData => !HasData;
-
+        public string SearchParam { get; set; }
         UserClaimsResultR _claimSelected;
         public UserClaimsResultR ClaimSelected
         {
@@ -70,9 +70,14 @@ namespace SPU.Mobile.ViewModels
             _eventAggregator = eventAggregator;
             GetClaimsFromServerCommand = new DelegateCommand(GetClaimsFromServer);
             _eventAggregator.GetEvent<Helpers.GetClaimFromServer>().Subscribe(GetClaimsFromServer);
+            DoClaimSearchCommand = new DelegateCommand(DoClaimSearch);
             //CompleteTheProcessCommand = new DelegateCommand<UserClaimsResultR>(DoCompleteTheProcess);
         }
 
+        private void DoClaimSearch()
+        {
+            LoadData();
+        }
 
 
         private async void GetClaimsFromServer()
@@ -168,7 +173,14 @@ namespace SPU.Mobile.ViewModels
                                            //var myClaims = _SPUDatabase.GetMyClaims(userid);
 
 
-            MyClaims = _SPUDatabase.GetSPUDBConnection().All<UserClaimsResultR>().Where(x => x.OwnerUserId == userid).OrderByDescending(x => x.CreatedDate).AsRealmCollection();
+            if (!string.IsNullOrWhiteSpace(SearchParam))
+            {
+                MyClaims = _SPUDatabase.GetSPUDBConnection().All<UserClaimsResultR>().Where(x => x.ClaimNo.Contains(SearchParam, StringComparison.OrdinalIgnoreCase) && x.OwnerUserId == userid).OrderByDescending(x => x.CreatedDate).AsRealmCollection();
+            }
+            else
+            {
+                MyClaims = _SPUDatabase.GetSPUDBConnection().All<UserClaimsResultR>().Where(x => x.OwnerUserId == userid).OrderByDescending(x => x.CreatedDate).AsRealmCollection();
+            }
 
             HasData = MyClaims.Any();
 
@@ -188,7 +200,6 @@ namespace SPU.Mobile.ViewModels
                     }
                 });
             }
-
         }
 
 

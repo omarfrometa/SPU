@@ -72,7 +72,7 @@ namespace SPU.Mobile.ViewModels
             IsStepThree = false;
             Title = "#TuCuentasConElINDOTEL";
             UserRequestDTO = new UserRequestDTO();
-            TitlePage = "Crear tu cuenta";
+            TitlePage = "Crea tú cuenta";
             #region Step 1
             DoRegistrationCommand = new DelegateCommand(DoRegistration);
             GoToTermAndConditionsCommand = new DelegateCommand(GoToTermAndConditions);
@@ -281,7 +281,7 @@ namespace SPU.Mobile.ViewModels
             IsStepTwo = false;
             IsStepThree = false;
             Title = "Paso 1: Registro";
-            TitlePage = "Crear tu cuenta";
+            TitlePage = "Crea tú cuenta";
         }
 
         async void DoCodeVerification()

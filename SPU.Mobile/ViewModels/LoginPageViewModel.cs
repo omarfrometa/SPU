@@ -7,6 +7,7 @@ using Prism.Navigation;
 using SPU.Mobile.Helpers;
 using SPU.Mobile.Models;
 using SPU.Mobile.Services;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace SPU.Mobile.ViewModels
@@ -23,7 +24,7 @@ namespace SPU.Mobile.ViewModels
         public DelegateCommand GoogleLoginCommand { get; set; }
         public FacebookUser FacebookUser { get; set; }
         public GoogleUser GoogleUser { get; set; }
-
+        public string VersionInfo { get; set; }
         IFacebookManager _facebookManager;
         IGoogleManager _googleManager;
         public bool RememberMe { get; set; }
@@ -40,6 +41,8 @@ namespace SPU.Mobile.ViewModels
             FacebookLoginCommand = new DelegateCommand(FacebookLogin);
             GoogleLoginCommand = new DelegateCommand(GoogleLogin);
             UserLogin.Email = string.IsNullOrEmpty(SPUSettings.UserEmail) ? SPUSettings.UserEmail : string.Empty;
+            VersionInfo = $"v{VersionTracking.CurrentVersion}";
+
         }
 
         private void GoogleLogin()
@@ -249,7 +252,7 @@ namespace SPU.Mobile.ViewModels
 
                     if (FacebookUser != null)
                     {
-                        await DoSocialSignin(facebookUser.Token, null, facebookUser);
+                        await DoSocialSignin(facebookUser.Id, null, facebookUser);
 
                     }
                     else
@@ -287,7 +290,7 @@ namespace SPU.Mobile.ViewModels
                     GoogleUser = googleUser;
                     if (GoogleUser != null)
                     {
-                        await DoSocialSignin(GoogleUser.Token, googleUser);
+                        await DoSocialSignin(GoogleUser.UserId, googleUser);
 
                     }
                     else
@@ -331,6 +334,7 @@ namespace SPU.Mobile.ViewModels
 
         public async void OnNavigatedTo(NavigationParameters parameters)
         {
+            UserLogin.Email = DependencyService.Get<IDeviceInfo>().GetDeviceID();
             if (SPUSettings.FPLogin)
             {
                 var auth = await CrossFingerprint.Current.AuthenticateAsync("Autentícate para accesar a la aplicacion");

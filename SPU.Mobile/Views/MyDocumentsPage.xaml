@@ -39,6 +39,7 @@
                 <Label Grid.Row="1"
                   Grid.Column="1"
                   LineBreakMode="TailTruncation"
+                  MaxLines="1"
                   Text="{Binding UserProfile.DisplayIdentificationInfo}"
                   HorizontalTextAlignment="Start"
                   StyleClass="docuInfolbl"/>

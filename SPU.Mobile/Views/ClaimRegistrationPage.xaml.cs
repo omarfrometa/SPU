@@ -63,6 +63,14 @@ namespace SPU.Mobile.Views
                 _vm.IdentificacionHasError = false;
 
         }
+
+        public void HandleOwnerIdentificacion_Focused(object sender, FocusEventArgs e)
+        {
+            if (_vm != null)
+                _vm.OwnerIdentificacionHasError = false;
+
+        }
+
         public void HandlePhoneContract_Focused(object sender, FocusEventArgs e)
         {
             if (_vm != null)

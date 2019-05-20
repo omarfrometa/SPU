@@ -26,6 +26,8 @@ namespace SPU.Mobile.ViewModels
     {
         //public List<UploadModel> UploadModelList { get; set; }
         public string ClaimSteps { get; set; }
+        public string ClaimAmount { get; set; }
+
         public ClaimModel ClaimInfo { get; set; }
         public bool IsStepOne { get; set; }
         public bool IsStepTwo { get; set; }
@@ -34,6 +36,7 @@ namespace SPU.Mobile.ViewModels
         public DateTime MaxDate { get; set; }
         public DelegateCommand DoCleanFieldsCommand { get; set; }
         public Xamarin.Forms.Keyboard KeyboardType { get; set; }
+        public Xamarin.Forms.Keyboard OwnerKeyboardType { get; set; }
 
         #region Step 1
         public DelegateCommand DoContinueStepTwoCommand { get; set; }
@@ -51,6 +54,7 @@ namespace SPU.Mobile.ViewModels
         public bool Doc2Uploaded { get; set; }
         public string Doc2Info { get; set; }
         public int IdentificationMaxLength { get; set; }
+        public int OwnerIdentificationMaxLength { get; set; }
         string _selectedIdentification;
         public string SelectedIdentification
         {
@@ -76,6 +80,36 @@ namespace SPU.Mobile.ViewModels
                     {
                         KeyboardType = Xamarin.Forms.Keyboard.Numeric;
                         IdentificationMaxLength = 11;
+                    }
+                }
+            }
+        }
+
+        string _selectedOwnerIdentification;
+        public string SelectedOwnerIdentification
+        {
+            get { return _selectedOwnerIdentification; }
+            set
+            {
+                _selectedOwnerIdentification = value;
+                if (!string.IsNullOrEmpty(_selectedOwnerIdentification))
+                {
+                    if (_selectedOwnerIdentification.ToLower() == "rnc")
+                    {
+                        OwnerIdentificationMaxLength = 9;
+                        OwnerKeyboardType = Xamarin.Forms.Keyboard.Numeric;
+                        return;
+                    }
+
+                    if (_selectedOwnerIdentification.ToLower() == "pasaporte")
+                    {
+                        OwnerKeyboardType = Xamarin.Forms.Keyboard.Default;
+                        OwnerIdentificationMaxLength = 15;
+                    }
+                    else
+                    {
+                        OwnerKeyboardType = Xamarin.Forms.Keyboard.Numeric;
+                        OwnerIdentificationMaxLength = 11;
                     }
                 }
             }
@@ -106,6 +140,7 @@ namespace SPU.Mobile.ViewModels
                 {
                     SendClaimAmount = false;
                     ClaimInfo.ProviderReclaimedAmount = 0;
+                    ClaimAmount = string.Empty;
                 }
 
             }
@@ -138,19 +173,23 @@ namespace SPU.Mobile.ViewModels
                 if (_isActive)
                 {
                     App.ActiveTab = "ClaimRegistrationPage";
+                    if (!IdentificationTypes.Any())
+                    {
+                        LoadIdentificationTypes();
+                    }
                 }
             }
         }
-
-        private void LoadDDLs()
+        void LoadIdentificationTypes()
         {
             var identificationType = _SPUDatabase.GetIdentificationTypes();
             if (identificationType.Any())
             {
                 IdentificationTypes = identificationType.Select(x => x.Text).ToList();
             }
-
-
+        }
+        private void LoadDDLs()
+        {
             var providers = _SPUDatabase.GetProviderTypes();
             if (providers.Any())
             {
@@ -187,7 +226,7 @@ namespace SPU.Mobile.ViewModels
         {
             if (ClaimInfo != null && (!string.IsNullOrWhiteSpace(ClaimInfo.ProviderTicketNo) || !string.IsNullOrWhiteSpace(ClaimInfo.ProviderAgentName)))
             {
-                var option = await _userDialogs.ConfirmAsync("Empezar una nueva reclamacion.", "Desea borrar los datos completados?", "Aceptar", "Cancelar");
+                var option = await _userDialogs.ConfirmAsync("Empezar una nueva reclamación.", "Desea borrar los datos completados?", "Aceptar", "Cancelar");
 
                 if (option)
                 {
@@ -203,7 +242,10 @@ namespace SPU.Mobile.ViewModels
         public ClaimRegistrationPageViewModel(IApiManager apiManager, IUserDialogs userDialogs, INavigationService navigationService, ISPUDatabase SPUDatabase) : base(apiManager, userDialogs, navigationService, SPUDatabase)
         {
             Title = "#TuCuentasConElINDOTEL";
+            KeyboardType = Xamarin.Forms.Keyboard.Numeric;
             IdentificationMaxLength = 11;
+            OwnerKeyboardType = Xamarin.Forms.Keyboard.Numeric;
+            OwnerIdentificationMaxLength = 11;
             //UploadModelList = new List<UploadModel>();
             //LoadedDocuments = new ObservableCollection<UserClaimDocumentDto>();
             InitClaim();
@@ -226,6 +268,8 @@ namespace SPU.Mobile.ViewModels
             UpLoadDocumentsCommand = new DelegateCommand<string>(UpLoadDocuments);
 
             #endregion
+
+            LoadIdentificationTypes();
         }
 
         private void DoCleanFields()
@@ -242,7 +286,11 @@ namespace SPU.Mobile.ViewModels
             IsStepOne = true;
             IsStepTwo = false;
             IsStepThree = false;
+            KeyboardType = Xamarin.Forms.Keyboard.Numeric;
+            IdentificationMaxLength = 11;
 
+            OwnerKeyboardType = Xamarin.Forms.Keyboard.Numeric;
+            OwnerIdentificationMaxLength = 11;
 
             if (HasIdentificationLoaded())
             {
@@ -297,6 +345,7 @@ namespace SPU.Mobile.ViewModels
         public bool NombreAgenteHasError { get; set; }
         public bool TitularHasError { get; set; }
         public bool IdentificacionHasError { get; set; }
+        public bool OwnerIdentificacionHasError { get; set; }
         public bool PhoneOrContractNoHasError { get; set; }
 
         public string IdentificacionHelperText { get; set; }
@@ -306,9 +355,8 @@ namespace SPU.Mobile.ViewModels
             try
             {
                 if (IsBusy) return;
-
-
                 var hasError = false;
+
 
                 if (string.IsNullOrEmpty(ClaimInfo.ProviderTicketNo))
                 {
@@ -325,6 +373,33 @@ namespace SPU.Mobile.ViewModels
                 {
                     TitularHasError = true;
                     hasError = true;
+                }
+
+                if (!ClaimInfo.ServiceHolder)
+                {
+                    var ownerid = _SPUDatabase.GetIdentificationTypeId(SelectedOwnerIdentification);
+                    ClaimInfo.ServiceHolderIdentificationTypeId = !string.IsNullOrEmpty(ownerid) ? int.Parse(ownerid) : 0;
+
+                    if (ClaimInfo.ServiceHolderIdentificationTypeId == 0)
+                    {
+                        _userDialogs.Alert("Seleccione...", "Indique el Tipo de Identificacion del titular", "Aceptar");
+                        hasError = true;
+                    }
+
+                    if (string.IsNullOrEmpty(ClaimInfo.ServiceHolderIdentificationNumber))
+                    {
+                        OwnerIdentificacionHasError = true;
+                        hasError = true;
+                    }
+
+                    if (SelectedOwnerIdentification.ToLower() == "cédula")
+                    {
+                        if (!AppHelpers.CedulaIsValid(ClaimInfo.ServiceHolderIdentificationNumber))
+                        {
+                            _userDialogs.Alert("Digite una cédula valida del titular.", "Cédula titular invalida.", "Aceptar");
+                            hasError = true;
+                        }
+                    }
                 }
 
                 if (!ClaimInfo.ServiceHolder && !Doc1Uploaded)
@@ -354,7 +429,7 @@ namespace SPU.Mobile.ViewModels
             catch (Exception ex)
             {
                 IsBusy = false;
-                await _userDialogs.AlertAsync("Error en reclamacion." + Environment.NewLine + ex.Message, "Error", "Aceptar");
+                await _userDialogs.AlertAsync("Error en reclamación." + Environment.NewLine + ex.Message, "Error", "Aceptar");
             }
             finally
             {
@@ -446,7 +521,9 @@ namespace SPU.Mobile.ViewModels
                 var hasError = false;
                 var id = _SPUDatabase.GetIdentificationTypeId(SelectedIdentification);
 
+
                 ClaimInfo.IdentificationTypeId = !string.IsNullOrEmpty(id) ? int.Parse(id) : 0;
+
                 //ClaimInfo. = SelectedIdentification;
 
                 if (ClaimInfo.IdentificationTypeId == 0)
@@ -481,7 +558,7 @@ namespace SPU.Mobile.ViewModels
             catch (Exception ex)
             {
                 IsBusy = false;
-                await _userDialogs.AlertAsync("Error en reclamacion." + Environment.NewLine + ex.Message, "Error", "Aceptar");
+                await _userDialogs.AlertAsync("Error en reclamación." + Environment.NewLine + ex.Message, "Error", "Aceptar");
             }
             finally
             {
@@ -587,7 +664,7 @@ namespace SPU.Mobile.ViewModels
                 ClaimInfo.ClaimMotiveTypeId = !string.IsNullOrEmpty(claimMotive) ? int.Parse(claimMotive) : 0;
                 if (ClaimInfo.ClaimMotiveTypeId == 0)
                 {
-                    _userDialogs.Alert("Seleccione...", "Indique el Motivo de la reclamacion", "Aceptar");
+                    _userDialogs.Alert("Seleccione...", "Indique el Motivo de la reclamación", "Aceptar");
                     return;
                 }
                 ClaimInfo.MotiveOfClaimTypeDescription = SelectedClaimMotive;
@@ -602,6 +679,12 @@ namespace SPU.Mobile.ViewModels
                 }
                 ClaimInfo.SpecifyMotiveClaimTypeDescription = SelectedEspecification;
                 //
+
+                if (SendClaimAmount)
+                {
+                    var monto = string.IsNullOrWhiteSpace(ClaimAmount) ? "0" : ClaimAmount;
+                    ClaimInfo.ProviderReclaimedAmount = decimal.Parse(monto);
+                }
 
                 var hasError = false;
 
@@ -623,14 +706,14 @@ namespace SPU.Mobile.ViewModels
                 navparam.Add("claim", ClaimInfo);
                 //navparam.Add("filetoupload", UploadModelList);
                 await _navigationService.NavigateAsync(NavigationConstants.ClaimResumePage, navparam);
-                //await _userDialogs.AlertAsync("Reclamacion creada y enviada exitosamente.", "Alerta", "Aceptar");
+                //await _userDialogs.AlertAsync("reclamación creada y enviada exitosamente.", "Alerta", "Aceptar");
                 //await _navigationService.GoBackAsync();
 
             }
             catch (Exception ex)
             {
                 IsBusy = false;
-                await _userDialogs.AlertAsync("Error completando reclamacion." + Environment.NewLine + ex.Message, "Error", "Aceptar");
+                await _userDialogs.AlertAsync("Error completando reclamación." + Environment.NewLine + ex.Message, "Error", "Aceptar");
             }
             finally
             {
@@ -993,16 +1076,16 @@ namespace SPU.Mobile.ViewModels
 
             if (parameters.ContainsKey("fromhome"))
             {
-                HeaderText = "Reclamaciones - Avería";
+                HeaderText = "reclamaciónes - Avería";
                 _fromHome = true;
                 return;
             }
 
-            HeaderText = "Reclamaciones";
+            HeaderText = "reclamaciónes";
             if (parameters.ContainsKey("claimcompleted"))
             {
                 InitClaim();
-                var k = _navigationService.GetNavigationUriPath();
+                //var k = _navigationService.GetNavigationUriPath();
                 await _navigationService.NavigateAsync(new Uri("/CustomMasterDetailsPage/CustomTabbedPage?selectedTab=MyClaimsPage", UriKind.Absolute));
 
             }

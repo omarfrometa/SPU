@@ -83,7 +83,7 @@
                 </StackLayout>
                 <BoxView Grid.Column="1" Margin="0,0,5,0" HeightRequest="0.5" VerticalOptions="CenterAndExpand" BackgroundColor="{StaticResource SPUColor}" />
   
-                <ListView Grid.Row="1" Grid.ColumnSpan="2" Footer=""  ItemsSource="{Binding DocumentsList}" 
+                <ListView Grid.Row="1" Grid.ColumnSpan="2" Footer="" SelectedItem="{Binding Document}"  ItemsSource="{Binding DocumentsList}" 
                           ItemSelected="Handle_ItemSelected" HeightRequest="70" SeparatorVisibility="None" HasUnevenRows="true">
                     <ListView.ItemTemplate>
                         <DataTemplate>
@@ -91,7 +91,6 @@
                                 <Grid Padding="20,8,5,5" RowSpacing="5">
                                     <Grid.RowDefinitions>
                                         <RowDefinition Height="Auto"/>
-                                       
                                     </Grid.RowDefinitions>
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="25"/>
@@ -118,7 +117,7 @@
             
             </Grid> 
                 
-            <Grid Grid.Row="2" Padding="{OnIdiom Phone=10,5,Tablet=25,0}">
+            <Grid Grid.Row="2" Padding="{OnIdiom Phone=10,5,10,0,Tablet=25,0}">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
@@ -146,20 +145,18 @@
                     <!--<Label Text="creado el 12 de feb" TextColor="{StaticResource SPUTags}" 
                            FontSize="13" VerticalTextAlignment="Center"/>-->
                 </StackLayout>
-                <StackLayout Grid.Row="2" Grid.ColumnSpan="2" Orientation="Horizontal">
-                   <Label Text="{Binding UserClaim.DisplayProviderDate}" TextColor="{StaticResource SPUTags}" 
+                <Label Grid.Row="2" Grid.Column="0" Text="No. Contrato:" HorizontalTextAlignment="Start" StyleClass="myClaimTag"/>
+                <Label Grid.Row="2" Grid.Column="1" HorizontalTextAlignment="Start" Text="{Binding UserClaim.PhoneOrContractNo}" StyleClass="myClaiminfolbl"/>
+               
+                <Label Grid.Row="3" Grid.Column="0" Text="No. Caso:" HorizontalTextAlignment="Start" StyleClass="myClaimTag"/>
+                <Label Grid.Row="3" Grid.Column="1" HorizontalTextAlignment="Start" Text="{Binding UserClaim.ProviderTicketNo}" StyleClass="myClaiminfolbl"/>
+                
+                <Label Grid.Row="4" Grid.Column="0" Text="Agente:" HorizontalTextAlignment="Start" StyleClass="myClaimTag"/>
+                <Label Grid.Row="4" Grid.Column="1" HorizontalTextAlignment="Start" MaxLines="1" Text="{Binding UserClaim.ProviderAgentName}" StyleClass="myClaiminfolbl"/>
+                <StackLayout Grid.Row="5" Grid.ColumnSpan="2" Padding="0,7,0,0" Orientation="Horizontal">
+                   <Label Text="{Binding UserClaim.DisplayProviderDate}" MaxLines="1" LineBreakMode="TailTruncation" TextColor="{StaticResource SPUTags}" 
                        FontSize="13" StyleClass="NexusLightFont" VerticalTextAlignment="Center"/>
                 </StackLayout>
-                    
-                <Label Grid.Row="3" Grid.Column="0" Text="No. Contrato:" HorizontalTextAlignment="Start" StyleClass="myClaimTag"/>
-                <Label Grid.Row="3" Grid.Column="1" HorizontalTextAlignment="Start" Text="{Binding UserClaim.PhoneOrContractNo}" StyleClass="myClaiminfolbl"/>
-               
-                <Label Grid.Row="4" Grid.Column="0" Text="No. Caso:" HorizontalTextAlignment="Start" StyleClass="myClaimTag"/>
-                <Label Grid.Row="4" Grid.Column="1" HorizontalTextAlignment="Start" Text="{Binding UserClaim.ProviderTicketNo}" StyleClass="myClaiminfolbl"/>
-                
-                <Label Grid.Row="5" Grid.Column="0" Text="Agente:" HorizontalTextAlignment="Start" StyleClass="myClaimTag"/>
-                <Label Grid.Row="5" Grid.Column="1" HorizontalTextAlignment="Start" MaxLines="1" Text="{Binding UserClaim.ProviderAgentName}" StyleClass="myClaiminfolbl"/>
-     
             </Grid> 
                 
             <BoxView Grid.Row="3" Margin="10,0" HeightRequest="0.5" VerticalOptions="CenterAndExpand" 
@@ -186,13 +183,13 @@
                 <StackLayout VerticalOptions="StartAndExpand" Padding="0,0,0,8" Orientation="Horizontal" IsEnabled="{Binding OpenCase}"
                              Spacing="8" HorizontalOptions="CenterAndExpand" Margin="0">
                     <Image Source="masreclama.png" HorizontalOptions="CenterAndExpand" VerticalOptions="End" HeightRequest="{OnIdiom Phone=23,Tablet=35}" Aspect="AspectFill"/>
-                    <Label Text="Agregar comentario" StyleClass="labelLight"/>
+                    <Label Text="Agregar respuesta" StyleClass="labelLight"/>
                     <StackLayout.GestureRecognizers>
                         <TapGestureRecognizer  Command="{Binding CreateNewClaimCommentCommand}" />
                     </StackLayout.GestureRecognizers>
                 </StackLayout>
                 <StackLayout Grid.Row="1" HeightRequest="{Binding CommentsHeight}" >
-                    <ListView  ItemSelected="Handle_ItemSelected" VerticalScrollBarVisibility="Never" SeparatorColor="{StaticResource SPUColor}" ItemsSource="{Binding CommentsList}"
+                    <ListView  ItemSelected="Handle_ItemSelected" VerticalScrollBarVisibility="Never" SelectedItem="{Binding CommentSelected}" SeparatorColor="{StaticResource SPUColor}" ItemsSource="{Binding CommentsList}"
                           Footer=""  HasUnevenRows="true">
                     <ListView.ItemTemplate>
                         <DataTemplate>
@@ -214,11 +211,13 @@
                                     <StackLayout Grid.Column="1" >
                                         <Label Text="{Binding DisplayNameType}" TextColor="{StaticResource Blue2Color}" 
                                                StyleClass="NexusBoldFont" FontSize="15" VerticalTextAlignment="Center"/>
+                                        <Label Text="{Binding ProviderText}" TextColor="{StaticResource Blue2Color}" 
+                                               StyleClass="NexusBoldFont" FontSize="15" VerticalTextAlignment="Center"/>
                                         <Label Text="{Binding DisplayCreateDate}" TextColor="{StaticResource SPUTags}" 
                                                FontSize="13" StyleClass="NexusLightFont" VerticalTextAlignment="Center"/>
                                     </StackLayout>
-                                        <border:SfBorder  Grid.Column="2" BorderColor="{StaticResource SPUTags}" VerticalOptions="CenterAndExpand" CornerRadius="{OnIdiom Phone=50,Tablet=60}" 
-                                             HorizontalOptions="CenterAndExpand"  BorderWidth="1">
+                                        <border:SfBorder  Grid.Column="2" BorderColor="Transparent" VerticalOptions="CenterAndExpand" CornerRadius="{OnIdiom Phone=50,Tablet=60}" 
+                                             HorizontalOptions="CenterAndExpand"  BorderWidth="0">
                                             <!-- <Image Source="{Binding PicRoute}" HeightRequest="{OnIdiom Phone=25,Tablet=30}"
                                                         Aspect="AspectFit" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand"/>-->
                                             <ffimageloading:CachedImage HorizontalOptions="StartAndExpand"
@@ -228,16 +227,18 @@
                                                         HeightRequest="{OnIdiom Phone=25,Tablet=30}"
                                                          WidthRequest="{OnIdiom Phone=25,Tablet=30}"          
                                                         DownsampleToViewSize="true"
-                                                        Source="{Binding PicRoute}">
+                                                        Source="{Binding PictureWebUrl}">
                                             </ffimageloading:CachedImage>
                                         </border:SfBorder>
                                    
                                     <Label Text="{Binding Description}" Grid.Row="1" Grid.ColumnSpan="3"
-                                           TextColor="{StaticResource Blue2Color}" FontSize="16" StyleClass="NexusLightFont" />  
+                                           TextColor="{StaticResource Blue2Color}" MaxLines="2" LineBreakMode="TailTruncation" FontSize="16" StyleClass="NexusLightFont" />  
                                         
-                                    <StackLayout IsVisible="{Binding HasDocument}" Grid.Row="2" Grid.ColumnSpan="3">
-                                        <Label Text="{Binding DisplayFileName}" LineBreakMode="TailTruncation" MaxLines="1" StyleClass="NexusBoldFont" TextColor="{StaticResource BlueColor}" 
-                                            FontSize="16" />  
+                                    <StackLayout IsVisible="{Binding HasDocument}" Grid.Row="2" Padding="0,7,0,5" Grid.ColumnSpan="3">
+                                        <Label Text="{Binding DisplayFileName}" LineBreakMode="TailTruncation" MaxLines="1" StyleClass="myClaimTag"/> 
+                                        <StackLayout.GestureRecognizers>
+                                            <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding BindingContext.GoToNoteDocumentCommand, Source={x:Reference Name=tlPage}}" CommandParameter="{Binding FileWebUrl}"/>
+                                        </StackLayout.GestureRecognizers>
                                     </StackLayout>
                                         
                                     <Grid Grid.Row="3" Padding="0,0,0,5" IsVisible="{Binding AllowReply}" ColumnSpacing="0" Grid.ColumnSpan="3" >

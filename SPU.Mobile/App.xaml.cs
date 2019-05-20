@@ -103,7 +103,7 @@ namespace SPU.Mobile
 
 
 
-            realm = Realm.GetInstance(new RealmConfiguration("spudatabase.realm") { SchemaVersion = 42 });
+            realm = Realm.GetInstance(new RealmConfiguration("spudatabase.realm") { SchemaVersion = 48 });
             var activeUser = realm.All<UserR>().Where(u => u.Email == SPUSettings.UserEmail && u.RememberMe).FirstOrDefault();
 
             //NavigationService.NavigateAsync(new Uri("/NavigationPage/ClaimTimeLinePage", UriKind.Absolute));
@@ -159,6 +159,9 @@ namespace SPU.Mobile
             containerRegistry.RegisterForNavigation<DebDerDetallePage, DebDerDetallePageViewModel>();
             containerRegistry.RegisterForNavigation<FAQDetailsPage, FAQDetailsPageViewModel>();
             containerRegistry.RegisterForNavigation<DocumentDetailsPage, DocumentDetailsPageViewModel>();
+            containerRegistry.RegisterForNavigation<CommentDetailsPage, CommentDetailsPageViewModel>();
+            containerRegistry.RegisterForNavigation<ComparadorPage, ComparadorPageViewModel>();
+            containerRegistry.RegisterForNavigation<ComparadorFilterPage, ComparadorFilterPageViewModel>();
         }
     }
 }
