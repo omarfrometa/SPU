@@ -46,5 +46,7 @@ namespace SPU.Mobile.Services
 
         Task<List<RateComparator>> GetRateComparatorDataAsync(string prices, string providers, string services, string cycles);
         Task<List<Product>> GetProductInfoAsync(string productid);
+
+        Task SendPushNotificationToken(string userId, string token);
     }
 }

@@ -13,6 +13,8 @@ namespace SPU.Mobile.Services
         Task UpdateClaimTimeLine(IApiManager apiManager, string userClaimId, string userId);
         //void UpdateLocalPic(string userId, byte[] picPath);
 
+        Task SendPushNotificationToken(IApiManager apiManager, string userId, string token);
+
         void SaveFAQs(List<FAQsR> _faqs);
         //void SaveFAQsByCategory(List<FAQsByCategoryR> _faqsByCat);
         Task GetFAQsByCategoryFromServerAsync(IApiManager apiManager);

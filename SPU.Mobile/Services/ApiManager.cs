@@ -466,54 +466,51 @@ namespace SPU.Mobile.Services
             }
         }
 
-        //public async Task<UserClaimsResultR> PostInitializeClaimAsync(string useId, string canaltypeId)
-        //{
-        //    var claim = new UserClaimsResultR();
-        //    var claimEndPoint = $"{SPUApiEndPoint}/UserClaim/Initialize?userId={useId}&canalTypeId={canaltypeId}";
+        public async Task SendPushNotificationToken(string _userId, string _token)
+        {
+            var _endPoint = $"{SPUApiEndPoint}/Auth/firebase_token";//?userId={userId}&token={token}";
 
-        //    using (var http = new HttpClient())
-        //    {
-        //        //string content = await Task.Run(() => JsonConvert.SerializeObject(new { email = userEmail, password = userPassword }));
-        //        //var httpContent = new StringContent(content, Encoding.UTF8, "application/json");
-        //        try
-        //        {
-        //            var httpResponse = await http.PostAsync(claimEndPoint, new StringContent(""));
-        //            if (httpResponse.StatusCode != System.Net.HttpStatusCode.OK)
-        //            {
-        //                throw new Exception("Error: " + httpResponse.StatusCode);
-        //            }
+            using (var http = new HttpClient())
+            {
+                try
+                {
+                    string content = await Task.Run(() => JsonConvert.SerializeObject(new { userId = _userId, token = _token }));
 
-        //            if (httpResponse.Content != null)
-        //            {
-        //                var responseContent = await httpResponse.Content.ReadAsStringAsync();
-        //                var data = Newtonsoft.Json.JsonConvert.DeserializeObject<ApiResult>(responseContent);
+                    var httpContent = new StringContent(content, Encoding.UTF8, "application/json");
 
-        //                if (data == null)
-        //                {
-        //                    throw new Exception("Error, veifique nuevamente.");
-        //                }
+                    var httpResponse = await http.PostAsync(_endPoint, httpContent);
+                    if (httpResponse.StatusCode != System.Net.HttpStatusCode.OK)
+                    {
+                        throw new Exception("Error: " + httpResponse.StatusCode);
+                    }
 
-        //                if (!data.Success)
-        //                {
-        //                    throw new Exception("Error: " + data.Messages.FirstOrDefault());
-        //                }
+                    if (httpResponse.Content != null)
+                    {
+                        var responseContent = await httpResponse.Content.ReadAsStringAsync();
+                        var data = Newtonsoft.Json.JsonConvert.DeserializeObject<ApiResult>(responseContent);
 
-        //                if (data.ShowAlert)
-        //                {
-        //                    throw new Exception("Alerta: " + data.Messages.FirstOrDefault());
-        //                }
+                        if (data == null)
+                        {
+                            throw new Exception("Error, veifique nuevamente.");
+                        }
 
-        //                claim = Newtonsoft.Json.JsonConvert.DeserializeObject<UserClaimsResultR>(data.Data); ;
-        //            }
+                        if (!data.Success)
+                        {
+                            throw new Exception("Error: " + data.Messages.FirstOrDefault());
+                        }
 
-        //        }
-        //        catch (Exception ex)
-        //        {
-        //            throw ex;
-        //        }
-        //        return claim;
-        //    }
-        //}
+                        if (data.ShowAlert)
+                        {
+                            throw new Exception("Alerta: " + data.Messages.FirstOrDefault());
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    throw ex;
+                }
+            }
+        }
 
         public async Task<UserClaimsResultR> PostCompleteClaimAsync(ClaimModel userClaim)
         {

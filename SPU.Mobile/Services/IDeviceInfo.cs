@@ -4,5 +4,6 @@ namespace SPU.Mobile.Services
     public interface IDeviceInfo
     {
         string GetDeviceID();
+        string GetPushNotificationID();
     }
 }

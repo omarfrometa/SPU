@@ -219,7 +219,7 @@ namespace SPU.Mobile.ViewModels
                 UserRequestDTO.CanalTypeId = 2;
                 UserRequestDTO.Password = Password;
                 UserRequestDTO.PasswordConfirm = PasswordConfirm;
-                UserRequestDTO.DeviceId = DependencyService.Get<IDeviceInfo>().GetDeviceID();
+                UserRequestDTO.DeviceId = ""; //DependencyService.Get<IDeviceInfo>().GetDeviceID();
                 UserRequest = await _apiManager.PostRegistrationAsync(UserRequestDTO);
 
 
@@ -284,6 +284,18 @@ namespace SPU.Mobile.ViewModels
             TitlePage = "Crea tú cuenta";
         }
 
+        async void SendToken(string userid, string token)
+        {
+            try
+            {
+                await _SPUDatabase.SendPushNotificationToken(_apiManager, userid, token);
+            }
+            catch (Exception ex)
+            {
+
+            }
+
+        }
         async void DoCodeVerification()
         {
             try
@@ -322,6 +334,14 @@ namespace SPU.Mobile.ViewModels
                     };
 
                     App.ActiveUser = loggedUser;
+
+
+                    var pushtoken = DependencyService.Get<IDeviceInfo>().GetPushNotificationID();
+
+                    if (!string.IsNullOrEmpty(pushtoken))
+                    {
+                        SendToken(App.ActiveUser.Id, pushtoken);
+                    }
 
                     await NavigateToHome(navparam);
                     //await _navigationService.NavigateAsync(new Uri("/CustomMasterDetailsPage/NavigationPage/SUPHomePage", UriKind.Absolute), navparam);

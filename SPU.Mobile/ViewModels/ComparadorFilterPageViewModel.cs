@@ -114,6 +114,7 @@ namespace SPU.Mobile.ViewModels
 
             if (string.IsNullOrEmpty(SelectedServiceType))
             {
+                IsBusy = false;
                 await _userDialogs.AlertAsync("Debe Seleccionar al menos un Servicio.", "Alerta", "Aceptar");
                 return;
             }

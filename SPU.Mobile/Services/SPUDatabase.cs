@@ -876,5 +876,10 @@ namespace SPU.Mobile.Services
             var data = _RealmSPU.All<DDLServiceCycleR>().Where(u => u.Text == title).FirstOrDefault();
             return data != null ? data.Value : "";
         }
+
+        public async Task SendPushNotificationToken(IApiManager apiManager, string userId, string token)
+        {
+            await apiManager.SendPushNotificationToken(userId, token);
+        }
     }
 }

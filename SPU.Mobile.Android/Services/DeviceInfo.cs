@@ -5,6 +5,7 @@ using Android.Provider;
 using Android.Telephony;
 using SPU.Mobile.Droid;
 using SPU.Mobile.Services;
+using Firebase.Iid;
 
 [assembly: Dependency(typeof(DeviceInfo))]
 namespace SPU.Mobile.Droid
@@ -26,6 +27,9 @@ namespace SPU.Mobile.Droid
 
         }
 
-
+        public string GetPushNotificationID()
+        {
+            return FirebaseInstanceId.Instance.Token;
+        }
     }
 }

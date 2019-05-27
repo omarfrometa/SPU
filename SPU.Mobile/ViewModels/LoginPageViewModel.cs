@@ -45,6 +45,19 @@ namespace SPU.Mobile.ViewModels
 
         }
 
+        async void SendToken(string userid, string token)
+        {
+            try
+            {
+                await _SPUDatabase.SendPushNotificationToken(_apiManager, userid, token);
+            }
+            catch (Exception ex)
+            {
+
+            }
+
+        }
+
         private void GoogleLogin()
         {
             try
@@ -54,7 +67,6 @@ namespace SPU.Mobile.ViewModels
                 IsBusy = true;
 
                 _googleManager.Login(OnLoginComplete);
-
 
 
                 //await NavigateToHome();
@@ -169,6 +181,13 @@ namespace SPU.Mobile.ViewModels
 
                 App.ActiveUser = loggedUser;
 
+
+                var pushtoken = DependencyService.Get<IDeviceInfo>().GetPushNotificationID();
+                if (!string.IsNullOrEmpty(pushtoken))
+                {
+                    SendToken(App.ActiveUser.Id, pushtoken);
+                }
+
                 await NavigateToHome();
                 //await _navigationService.NavigateAsync(new Uri("/CustomMasterDetailsPage/NavigationPage/SUPHomePage", UriKind.Absolute), navparam);
             }
@@ -211,6 +230,14 @@ namespace SPU.Mobile.ViewModels
 
                 App.ActiveUser = loggedUser;
 
+
+                var pushtoken = DependencyService.Get<IDeviceInfo>().GetPushNotificationID();
+
+                if (!string.IsNullOrEmpty(pushtoken))
+                {
+                    SendToken(App.ActiveUser.Id, pushtoken);
+                }
+
                 //await _navigationService.NavigateAsync(new Uri("/CustomMasterDetailsPage/NavigationPage/SUPHomePage", UriKind.Absolute), navparam);
             }
         }
@@ -224,6 +251,7 @@ namespace SPU.Mobile.ViewModels
                 IsBusy = true;
 
                 await DoSignin();
+
 
                 await NavigateToHome();
 
@@ -334,9 +362,10 @@ namespace SPU.Mobile.ViewModels
 
         public async void OnNavigatedTo(NavigationParameters parameters)
         {
-            UserLogin.Email = DependencyService.Get<IDeviceInfo>().GetDeviceID();
+            //UserLogin.Email = DependencyService.Get<IDeviceInfo>().GetPushNotificationID();
             if (SPUSettings.FPLogin)
             {
+
                 var auth = await CrossFingerprint.Current.AuthenticateAsync("Autentícate para accesar a la aplicacion");
                 if (auth.Authenticated)
                 {

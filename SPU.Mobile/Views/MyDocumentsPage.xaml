@@ -79,7 +79,8 @@
                                 </Grid.RowDefinitions>
                                 <BoxView Grid.Row="0" HeightRequest="0.7" HorizontalOptions="FillAndExpand" 
                                         BackgroundColor="{StaticResource SPUGray}" VerticalOptions="CenterAndExpand"/>
-                                <Label Grid.Row="1" Text="{Binding Key,StringFormat='No. Caso {0}'}" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" 
+                                <Label Grid.Row="1" Text="{Binding Key,StringFormat='No. Caso {0}'}" HorizontalTextAlignment="Start" 
+                                       VerticalTextAlignment="Center" 
                                         TextColor="{StaticResource SPUTags}" FontSize="14" StyleClass="NexusBoldFont" />
                                 
                             </Grid>
@@ -103,8 +104,12 @@
                                     <ColumnDefinition Width="28"/>
                                 </Grid.ColumnDefinitions>
                                
-                                <Label Grid.Row="0" Grid.Column="0" Text="{Binding FileName}" HorizontalTextAlignment="Start" LineBreakMode="TailTruncation" MaxLines="1" TextColor="{StaticResource SPUGray}" StyleClass="docuTaglbl"/>
-                                <Label Grid.Row="0" Grid.Column="1" Text="{Binding DisplayInfo}" HorizontalTextAlignment="Start" LineBreakMode="TailTruncation" MaxLines="1" TextColor="{StaticResource SPUGray}" StyleClass="docuInfolbl"/>
+                                <Label Grid.Row="0" Grid.Column="0" Text="{Binding FileName}" HorizontalTextAlignment="Start" 
+                                       LineBreakMode="TailTruncation" MaxLines="1" TextColor="{StaticResource SPUGray}" 
+                                       StyleClass="docuTaglbl"/>
+                                <Label Grid.Row="0" Grid.Column="1" Text="{Binding DisplayInfo}" HorizontalTextAlignment="Start" 
+                                       LineBreakMode="TailTruncation" MaxLines="1" TextColor="{StaticResource SPUGray}" 
+                                       StyleClass="docuInfolbl"/>
                                 <Image Source="{Binding IconSource}"
                                         HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
                                         Grid.Row="0"
