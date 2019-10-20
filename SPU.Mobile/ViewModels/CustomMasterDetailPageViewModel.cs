@@ -186,7 +186,7 @@ namespace SPU.Mobile.ViewModels
                 //},
                 new SideMenuItem()
                 {
-                    Title = "Tus documentos",
+                    Title = "Mis documentos",
                     Route =NavigationConstants.MyDocumentsPage,
                     IconSource="depositodocu"
                 },

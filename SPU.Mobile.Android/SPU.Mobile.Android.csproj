@@ -43,6 +43,7 @@
         <AndroidManagedSymbols>true</AndroidManagedSymbols>
         <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
         <JavaMaximumHeapSize>2G</JavaMaximumHeapSize>
+        <AndroidSupportedAbis>armeabi-v7a;x86_64</AndroidSupportedAbis>
     </PropertyGroup>
     <ItemGroup>
         <Reference Include="Mono.Android" />
@@ -750,6 +751,7 @@
         <AndroidResource Include="Resources\drawable-hdpi\planbg.jpg" />
         <AndroidResource Include="Resources\drawable-mdpi\planbg.jpg" />
         <AndroidResource Include="Resources\drawable-ldpi\planbg.jpg" />
+        <AndroidResource Include="Resources\xml\network_security_config.xml" />
     </ItemGroup>
     <ItemGroup>
         <Folder Include="Resources\drawable\" />

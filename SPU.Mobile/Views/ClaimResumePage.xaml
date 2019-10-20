@@ -24,7 +24,7 @@
                  
                     <StackLayout Grid.Row="0" Padding="0,5" HorizontalOptions="StartAndExpand" Orientation="Horizontal" Spacing="1">
                         <Image Source="reclamacioni.png" HeightRequest="{OnIdiom Phone=30,Tablet=40}" Aspect="AspectFit" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand" />
-                        <Label Text="Reclamacion" StyleClass="SpuTitle" />
+                        <Label Text="Reclamación" StyleClass="SpuTitle" />
                     </StackLayout>
                     <!--<Label Text="{Binding ClaimSteps}" Grid.Row="1" HorizontalTextAlignment="Start" StyleClass="SpuLabel" />-->
                 </Grid>

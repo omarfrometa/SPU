@@ -23,6 +23,7 @@ namespace SPU.Mobile.ViewModels
             DoSendClaimFormCommand = new DelegateCommand(DoSendClaimForm);
             Title = "#TuCuentasConElINDOTEL";
         }
+
         async void SendDocuments(List<UserClaimDocumentDtoPost> userClaimDocuments, string userClaimId)
         {
             try

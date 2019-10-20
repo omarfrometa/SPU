@@ -15,7 +15,7 @@ namespace SPU.Mobile.Services
 
     public class ApiManager : IApiManager
     {
-        readonly string SPUApiEndPoint = "http://spu-api.indotel.gob.do/api";//"http://spu-api.fvtech.net/api"; //  //Auth/local?email=admin&password=1234"
+        readonly string SPUApiEndPoint = "https://spu-api.indotel.gob.do/api";//"http://spu-api.fvtech.net/api"; //  //Auth/local?email=admin&password=1234"
 
         public async Task<Models.LoginResult> DoLoginAsync(string userEmail, string userPassword)
         {

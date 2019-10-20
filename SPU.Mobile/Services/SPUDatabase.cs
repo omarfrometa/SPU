@@ -115,6 +115,7 @@ namespace SPU.Mobile.Services
                     userProf.ProvinceId = userProfile.ProvinceId;
                     userProf.MunicipalityId = userProfile.MunicipalityId;
                     userProf.SectorId = userProfile.SectorId;
+                    userProf.IdentificationNumber = userProfile.IdentificationNumber;
                     userProf.IdentificationFilePath = userProfile.IdentificationFilePath;
                     userProf.IdentificationFileName = userProfile.IdentificationFileName;
                     userProf.IdentificationFileExt = userProfile.IdentificationFileExt;

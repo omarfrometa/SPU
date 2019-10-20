@@ -537,7 +537,7 @@ namespace SPU.Mobile.ViewModels
                     hasError = true;
                 }
 
-                if (SelectedIdentification.ToLower() == "cédula")
+                if (SelectedIdentification != null && SelectedIdentification.ToLower() == "cédula")
                 {
                     if (!AppHelpers.CedulaIsValid(ClaimInfo.IdentificationNumber))
                     {
@@ -1076,12 +1076,12 @@ namespace SPU.Mobile.ViewModels
 
             if (parameters.ContainsKey("fromhome"))
             {
-                HeaderText = "reclamaciónes - Avería";
+                HeaderText = "reclamaciones - Avería";
                 _fromHome = true;
                 return;
             }
 
-            HeaderText = "reclamaciónes";
+            HeaderText = "reclamaciones";
             if (parameters.ContainsKey("claimcompleted"))
             {
                 InitClaim();
